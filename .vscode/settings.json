@@ -1,0 +1,23 @@
+{
+    "editor.wordWrap": "on",
+    "grammarly.dialect": "british",
+    "grammarly.userWords": [
+        "couplant"
+    ],
+    "grammarly.diagnostics": {
+    
+        "[markdown]": {
+            "ignore": [
+                "code"
+            ]
+        }
+    },
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
+}
