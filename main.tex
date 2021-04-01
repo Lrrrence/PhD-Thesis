@@ -107,7 +107,7 @@ The overarching research objective is to develop an online temperature monitorin
     \item Determine whether ultrasonic methods are a suitable alternative to the currently available monitoring systems, based on a number of factors such as: response time, accuracy, reliability, power consumption, and possible sensor installation methods. This is addressed in Section~\ref{ultrasonicmonitoring}.
     \item Identifying a method of exciting Lamb waves in plate-like structures. This is addressed in Section~\ref{wavegen}.
     \item Understanding the effect of temperature on Lamb wave propagation. This is addressed in Section~\ref{lambwavesensing}.
-    \item Verification of the theoretical temperature sensitivities of Lamb wave modes with experimental data. Measurements up to 160\si{\degreeCelsius} in an aluminium plate. Measurements to be extended to higher order modes. This is addressed in Section~\ref{lambtheory}.
+    \item Verification of the theoretical temperature sensitivities of Lamb wave modes with experimental data. Measurements up to 100\si{\degreeCelsius} in an aluminium plate. Measurements to be extended to higher order modes. This is addressed in Section~\ref{lambtheory}.
     \item COMSOL modelling of the system. This will allow the effect of temperature on each element of the system to be predicted. The model can be developed over time to include features such as cooling holes and other transducer configurations.
 \end{itemize}    
 \subsection{From 18 month review onwards}
@@ -457,14 +457,14 @@ In order to evaluate the suitability of an ultrasonic based temperature monitori
 
 \section{Analytical study}\label{lambtheory}
 
-Theoretical dispersion curves based on the material properties of Aluminium have been calculated using \href{https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874_read-61142/#/gallery/33485}{The Dispersion Calculator}. Curves have been produced from room temperature up to 160\si{\degreeCelsius} by varying material properties (Figure~\ref{fig:grouptempshuftalu}). The change in density (thermal expansion) and Poisson’s ratio is negligible in comparison to the change in young’s modulus. Thermal expansion will cause a change in material dimensions which will also affect the wave speed, but the effect of this is small ($-$1.19 m s$^{-1}$ average change over 20--160\si{\degreeCelsius}). The change in Young’s modulus with temperature in Aluminium is close to linear, as represented by the Equation~\cite{Hopkins2012}: 
+Theoretical dispersion curves based on the material properties of Aluminium have been calculated using \href{https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874_read-61142/#/gallery/33485}{The Dispersion Calculator}. Curves have been produced from room temperature up to 100\si{\degreeCelsius} by varying material properties (Figure~\ref{fig:grouptempshuftalu}). The angles of excitation required to excite the $S_0$, $A_1$, and $S_1$ modes are shown based on the frequency-thickness products of 1 MHz-mm (31\degree), 2.5 MHz-mm (24\degree), and 4 MHz-mm (28\degree) respectively. The change in density (thermal expansion) and Poisson’s ratio is negligible in comparison to the change in young’s modulus. Thermal expansion will cause a change in material dimensions which will also affect the wave speed, but the effect of this is small ($-$1.19 m s$^{-1}$ average change over 20--100\si{\degreeCelsius} for the $S_0$ mode). The change in Young’s modulus with temperature in Aluminium is close to linear, as represented by the Equation~\cite{Hopkins2012}: 
 %
 \begin{equation} 
 E\left( T \right) = \  - 4E7 \times T + 8E10\
 \end{equation} 
 %
 Where $T$ is temperature in Kelvin, and $E$ is Young’s modulus in Pascals. 
-The values of Young’s modulus produced by this equation have been used to generate temperature dependant dispersion curves for aluminium (Figure~\ref{fig:alutempshift}). The group velocity of the $S_0$ mode at 1 MHz has been extracted from the curves and used to plot Figure~\ref{fig:alu1mhz}. Calculated temperature sensitivity of the mode is 1.671--1.769 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ over the temperature range 0--160\si{\degreeCelsius} (see Equation~\ref{eqn: eq k}). This value is frequency and mode dependent. The temperature sensitivity of the $S_0$ mode increases with temperature, as the mode reduces in frequency (shifts left), and reduces in wave velocity (shifts down), the frequency-thickness product of 1 MHz-mm falls into a more dispersive region. Time of flight ($t_F$) can be calculated from the Equation~\cite{Croxford2007a}:
+The values of Young’s modulus produced by this equation have been used to generate temperature dependant dispersion curves for aluminium (Figure~\ref{fig:grouptempshuftalu}). The group velocity of the $S_0$, $A_1$, and $S_1$ modes have been extracted from the curves and used to plot Figure~\ref{fig:alugroupvel}. The temperature sensitivities of the modes are: 1.683--1.728 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ for the $S_0$ mode, 0.928--1.018 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ for the $A_1$ mode, and 1.444--1.548 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ for the $S_0$ mode, over the temperature range 0--100\si{\degreeCelsius} (see Equation~\ref{eqn: eq k}). These values are frequency and mode dependent. The temperature sensitivities increase with temperature, as the mode reduces in frequency (shifts left), and reduces in wave velocity (shifts down). Time of flight ($t_F$) can be calculated from the Equation~\cite{Croxford2007a}:
 %
 \begin{equation}\label{tofcalc}
 t_F = \frac{d}{c}
@@ -487,7 +487,7 @@ k = \frac{\delta \text{c}}{\delta \text{T}}
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth]{grouptempshiftalu.eps}
-    \caption{$A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 20\si{\degreeCelsius} to 160\si{\degreeCelsius} for Aluminium 1050 H14.}\label{fig:grouptempshuftalu}
+    \caption{$A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 20\si{\degreeCelsius} to 100\si{\degreeCelsius} for Aluminium 1050 H14.}\label{fig:grouptempshuftalu}
 \end{figure}
 
 \newpage
@@ -495,7 +495,7 @@ k = \frac{\delta \text{c}}{\delta \text{T}}
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=.8\textwidth]{grouptemp1mhztempalu.eps}
-    \caption{$S_0$ group velocity change with temperature from 20\si{\degreeCelsius} to 160\si{\degreeCelsius} at 1 MHz for Aluminium 1050 H14.}\label{fig:alu1mhz}
+    \caption{$S_0$, $A_1$, and $S_1$ group velocity change with temperature from 20\si{\degreeCelsius} to 100\si{\degreeCelsius} for Aluminium 1050 H14.}\label{fig:alugroupvel}
 \end{figure}
 
 \newpage
@@ -567,7 +567,7 @@ The largest source of error is the measurement of wedge-to-wedge $t_F$, as a sma
 
 \section{Conclusion}
 
-The theoretical effect of temperature on various Lamb wave modes in aluminium plates has been investigated by generating dispersion curves based on varying material properties (Figure~\ref{fig:alutempshift}). This can be repeated in the future for other materials at higher temperatures (e.g.\ Inconel 718 up to 1100\si{\degreeCelsius} in Figure~\ref{fig:groupshift}). The temperature sensitivity of the $S_0$ mode at 1 MHz has been extracted from these curves (Figure~\ref{fig:alu1mhz}) to be validated experimentally.
+The theoretical effect of temperature on various Lamb wave modes in aluminium plates has been investigated by generating dispersion curves based on varying material properties (Figure~\ref{fig:alutempshift}). This can be repeated in the future for other materials at higher temperatures (e.g.\ Inconel 718 up to 1100\si{\degreeCelsius} in Figure~\ref{fig:groupshift}). The temperature sensitivity of the $S_0$ mode at 1 MHz has been extracted from these curves (Figure~\ref{fig:alugroupvel}) to be validated experimentally.
 
 An experimental investigation has been carried out in order to validate theoretical predictions. Wedge transducers in a pitch-catch configuration have been used to excite the $S_0$ mode in a 1mm thick aluminium plate. The time of flight between transducers has been measured using a cross-correlation method and wave velocity calculated based on the distance between transducers. This confirms that the $S_0$ mode has been excited. The change in $S_0$ wave velocity due to temperature is in line with theoretical predictions over the range 20\si{\degreeCelsius}--100\si{\degreeCelsius} as shown in Figure~\ref{fig:result}. 
 
