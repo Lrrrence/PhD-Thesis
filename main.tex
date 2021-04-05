@@ -479,7 +479,35 @@ The multiphysics simulation package COMSOL has been used to simulate potential t
 
 \section{Variable angle wedge simulation}
 
-A model has been produced of the experimental test setup described in Section~\ref{experiments}.
+A 2D model has been produced of the experimental test setup described in Section~\ref{experiments}. This allows for validation of the time of flight measurements, and can be used to separate the effect of temperature on the wedges from the substrate. The effect of temperature on the Lamb wave alone can therefore be analysed. 
+
+The model consists of two variable angle wedges (PMMA), which are based on the geometry of the Olympus variable angle wedges used in the experimental investigation, placed on top of an aluminium plate. The transmitting wedge has a simplified piezoelectric transducer (PZT-5H) attached to it's rotating block, to which the excitation signal is applied. The received signal is measured at the receiver wedge's rotating block boundary. More realistic transducer configurations are not considered in this study, as the focus is on the effect of temperature on the propagating wave.
+
+A boundary area is set underneath the plate to act as the heat source, again mimicking the experimental setup. This is simplified to allow the temperature to be directly set, rather than simulating a hot plate.
+
+The excitation signal is the same as that used in the experimental study, a 10--cycle sine pulse, the function for which is produced with the expression: 
+%
+\begin{equation}\label{eqn:comsolexcitation}
+    10*\sin(2*pi*f_0*t)*(t<(np/f_0))
+\end{equation}
+%    
+Where ``np'' is the number of cycles in the pulse (10) and F\textunderscore0 is the excitation frequency (1 MHz). The function is set to ``V'' as this will be applied to a voltage terminal of the simple piezoelectric transducer.
+
+The change in Young's Modulus with temperature is included in the material properties for both the wedges~\cite{Sahputra2018} and the aluminium~\cite{Hopkins2012}. The change in Poisson's ratio and density is assumed to negligible and is not included in the simulation. Thermal expansion is included based on thermal expansion coefficients given by COMSOL\@.
+
+The modules Solid Mechanics, Electrostatics, and Heat Transfer in Solids are used in this simulation, along with a multiphysics node to couple Solid Mechanics with Electrostatics for the piezoelectric effect.
+
+Both the wedges and the plate are set to isotropic linear elastic materials, with low reflecting boundaries applied to the wedges.
+
+The simple piezoelectric transducer for the transmitting wedge is set up as follows: A zero charge node is used for the edges of the material, initial values are set to 0 V, a ``Charge Conservation, Piezoelectric'' node is set for the material, a ground boundary is selected for the wedge side of the material, and a terminal node is set for the opposite boundary. Within the terminal node the type is set to Voltage and the input is set to V0(t) to use the excitation signal described in Equation~\ref{eqn:comsolexcitation}.
+
+For the Heat Transfer in Solids module all the domains are set to solid, and initial values are set to 20\si{\degreeCelsius}. The boundaries that are exposed to the air are selected in a Heat Flux node, where convective heat flux is selected. A user defined heat transfer coefficient of 15 W/(m$^2$*K) is used. The external temperature is set to 20\si{\degreeCelsius}. The temperature of the boundary underneath the plate is adjusted as required.
+
+MESH
+STUDY STEPS
+SOLVER SETTINGS
+RESULTS
+
 
 \chapter{Experimental investigation of Lamb wave temperature sensitivity}\label{experiments}
 

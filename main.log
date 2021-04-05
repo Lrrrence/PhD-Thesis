@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.23)  2 APR 2021 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.23)  5 APR 2021 16:24
 entering extended mode
 **"c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/main.tex"
 (c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/main.tex
@@ -1279,9 +1279,9 @@ Package pdftex.def Info: grouptemp1mhztempalu-eps-converted-to.pdf  used on inpu
 Chapter 4.
 [36
 
-]
+] [37]
 Chapter 5.
-[37
+[38
 
 ]
 Package epstopdf Info: Source file: <waveformxcorr.eps>
@@ -1291,15 +1291,15 @@ Package epstopdf Info: Source file: <waveformxcorr.eps>
 (epstopdf)                    date: 2021-03-31 10:47:45
 (epstopdf)                    size: 138661 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=waveformxcorr-eps-converted-to.pdf waveformxcorr.eps>
-(epstopdf)             \includegraphics on input line 532.
+(epstopdf)             \includegraphics on input line 560.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/waveformxcorr-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<waveformxcorr-eps-converted-to.pdf, id=931, 491.8375pt x 487.8225pt>
+<waveformxcorr-eps-converted-to.pdf, id=940, 491.8375pt x 487.8225pt>
 File: waveformxcorr-eps-converted-to.pdf Graphic file (type pdf)
 <use waveformxcorr-eps-converted-to.pdf>
-Package pdftex.def Info: waveformxcorr-eps-converted-to.pdf  used on input line 532.
+Package pdftex.def Info: waveformxcorr-eps-converted-to.pdf  used on input line 560.
 (pdftex.def)             Requested size: 318.67207pt x 316.08342pt.
 Package epstopdf Info: Source file: <testdiagramsimple.eps>
 (epstopdf)                    date: 2021-03-24 11:38:47
@@ -1308,22 +1308,22 @@ Package epstopdf Info: Source file: <testdiagramsimple.eps>
 (epstopdf)                    date: 2021-03-31 10:29:19
 (epstopdf)                    size: 44263 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=testdiagramsimple-eps-converted-to.pdf testdiagramsimple.eps>
-(epstopdf)             \includegraphics on input line 538.
+(epstopdf)             \includegraphics on input line 566.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/testdiagramsimple-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<testdiagramsimple-eps-converted-to.pdf, id=932, 1479.5275pt x 590.205pt>
+<testdiagramsimple-eps-converted-to.pdf, id=941, 1479.5275pt x 590.205pt>
 File: testdiagramsimple-eps-converted-to.pdf Graphic file (type pdf)
 <use testdiagramsimple-eps-converted-to.pdf>
-Package pdftex.def Info: testdiagramsimple-eps-converted-to.pdf  used on input line 538.
+Package pdftex.def Info: testdiagramsimple-eps-converted-to.pdf  used on input line 566.
 (pdftex.def)             Requested size: 318.67207pt x 127.11674pt.
-<hjkhh7UmEx.png, id=933, 1201.48875pt x 716.6775pt>
+<hjkhh7UmEx.png, id=942, 1201.48875pt x 716.6775pt>
 File: hjkhh7UmEx.png Graphic file (type png)
 <use hjkhh7UmEx.png>
-Package pdftex.def Info: hjkhh7UmEx.png  used on input line 544.
+Package pdftex.def Info: hjkhh7UmEx.png  used on input line 572.
 (pdftex.def)             Requested size: 318.67207pt x 190.08267pt.
-[38 <c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/waveformxcorr-eps-converted-to.pdf>]
+[39 <c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/waveformxcorr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <aluplatemeasured.eps>
 (epstopdf)                    date: 2021-03-24 11:38:47
 (epstopdf)                    size: 549378 bytes
@@ -1331,75 +1331,75 @@ Package epstopdf Info: Source file: <aluplatemeasured.eps>
 (epstopdf)                    date: 2021-03-31 10:30:40
 (epstopdf)                    size: 24731 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=aluplatemeasured-eps-converted-to.pdf aluplatemeasured.eps>
-(epstopdf)             \includegraphics on input line 558.
+(epstopdf)             \includegraphics on input line 586.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/aluplatemeasured-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<aluplatemeasured-eps-converted-to.pdf, id=951, 388.45125pt x 299.1175pt>
+<aluplatemeasured-eps-converted-to.pdf, id=960, 388.45125pt x 299.1175pt>
 File: aluplatemeasured-eps-converted-to.pdf Graphic file (type pdf)
 <use aluplatemeasured-eps-converted-to.pdf>
-Package pdftex.def Info: aluplatemeasured-eps-converted-to.pdf  used on input line 558.
+Package pdftex.def Info: aluplatemeasured-eps-converted-to.pdf  used on input line 586.
 (pdftex.def)             Requested size: 318.67207pt x 245.39203pt.
-[39 <c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/testdiagramsimple-eps-converted-to.pdf> <c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/hjkhh7UmEx.png>] [40 <c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/aluplatemeasured-eps-converted-to.pdf>] [41] [42]
+[40 <c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/testdiagramsimple-eps-converted-to.pdf> <c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/hjkhh7UmEx.png>] [41 <c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/aluplatemeasured-eps-converted-to.pdf>] [42] [43]
 Chapter 6.
 
-Overfull \hbox (1.16089pt too wide) in paragraph at lines 598--599
+Overfull \hbox (1.16089pt too wide) in paragraph at lines 626--627
 \OT1/cmr/m/n/10 Piezo-elec-tric Wafer Ac-tive Sen-sors (PWAS) us-ing piezo-elec-tric ma-te-ri-als such as YCOB
  []
 
-[43
+[44
 
 ]
-<Gantt_Chart.pdf, id=1018, 1195.01462pt x 682.86116pt>
+<Gantt_Chart.pdf, id=1027, 1195.01462pt x 682.86116pt>
 File: Gantt_Chart.pdf Graphic file (type pdf)
 <use Gantt_Chart.pdf>
-Package pdftex.def Info: Gantt_Chart.pdf  used on input line 603.
+Package pdftex.def Info: Gantt_Chart.pdf  used on input line 631.
 (pdftex.def)             Requested size: 1195.0117pt x 682.8595pt.
 File: Gantt_Chart.pdf Graphic file (type pdf)
 <use Gantt_Chart.pdf>
-Package pdftex.def Info: Gantt_Chart.pdf  used on input line 603.
+Package pdftex.def Info: Gantt_Chart.pdf  used on input line 631.
 (pdftex.def)             Requested size: 1195.0117pt x 682.8595pt.
-<Gantt_Chart.pdf, id=1021, page=1, 1195.01462pt x 682.86116pt>
+<Gantt_Chart.pdf, id=1030, page=1, 1195.01462pt x 682.86116pt>
 File: Gantt_Chart.pdf Graphic file (type pdf)
 <use Gantt_Chart.pdf, page 1>
-Package pdftex.def Info: Gantt_Chart.pdf , page1 used on input line 603.
-(pdftex.def)             Requested size: 1195.0117pt x 682.8595pt.
-File: Gantt_Chart.pdf Graphic file (type pdf)
-<use Gantt_Chart.pdf, page 1>
-Package pdftex.def Info: Gantt_Chart.pdf , page1 used on input line 603.
-(pdftex.def)             Requested size: 1195.0117pt x 682.8595pt.
- [44]
-File: Gantt_Chart.pdf Graphic file (type pdf)
-<use Gantt_Chart.pdf, page 1>
-Package pdftex.def Info: Gantt_Chart.pdf , page1 used on input line 603.
+Package pdftex.def Info: Gantt_Chart.pdf , page1 used on input line 631.
 (pdftex.def)             Requested size: 1195.0117pt x 682.8595pt.
 File: Gantt_Chart.pdf Graphic file (type pdf)
 <use Gantt_Chart.pdf, page 1>
-Package pdftex.def Info: Gantt_Chart.pdf , page1 used on input line 603.
+Package pdftex.def Info: Gantt_Chart.pdf , page1 used on input line 631.
+(pdftex.def)             Requested size: 1195.0117pt x 682.8595pt.
+ [45]
+File: Gantt_Chart.pdf Graphic file (type pdf)
+<use Gantt_Chart.pdf, page 1>
+Package pdftex.def Info: Gantt_Chart.pdf , page1 used on input line 631.
 (pdftex.def)             Requested size: 1195.0117pt x 682.8595pt.
 File: Gantt_Chart.pdf Graphic file (type pdf)
 <use Gantt_Chart.pdf, page 1>
-Package pdftex.def Info: Gantt_Chart.pdf , page1 used on input line 603.
+Package pdftex.def Info: Gantt_Chart.pdf , page1 used on input line 631.
 (pdftex.def)             Requested size: 1195.0117pt x 682.8595pt.
- [45 <c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/Gantt_Chart.pdf, page is rotated 90 degrees>] (c:/Users\yulel\OneDrive - University of Southampton\LaTeX\Progression-report\main.bbl [46
+File: Gantt_Chart.pdf Graphic file (type pdf)
+<use Gantt_Chart.pdf, page 1>
+Package pdftex.def Info: Gantt_Chart.pdf , page1 used on input line 631.
+(pdftex.def)             Requested size: 1195.0117pt x 682.8595pt.
+ [46 <c:/Users/yulel/OneDrive - University of Southampton/LaTeX/Progression-report/Gantt_Chart.pdf, page is rotated 90 degrees>] (c:/Users\yulel\OneDrive - University of Southampton\LaTeX\Progression-report\main.bbl [47
 
-] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56]) [57] (c:/Users\yulel\OneDrive - University of Southampton\LaTeX\Progression-report\main.aux)
+] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57]) [58] (c:/Users\yulel\OneDrive - University of Southampton\LaTeX\Progression-report\main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 95B6C1FF7588CA0E54014520A236EA44;6320.
  ) 
 Here is how much of TeX's memory you used:
- 30542 strings out of 479324
- 597081 string characters out of 2856815
- 900561 words of memory out of 3000000
- 47089 multiletter control sequences out of 15000+600000
+ 30548 strings out of 479324
+ 597173 string characters out of 2856815
+ 900659 words of memory out of 3000000
+ 47092 multiletter control sequences out of 15000+600000
  418078 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,21n,117p,3762b,1156s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/IBMPlexSans-Bold.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/IBMPlexSans-Text.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Italic.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on "c:/Users\yulel\OneDrive - University of Southampton\LaTeX\Progression-report\main.pdf" (59 pages, 20364873 bytes).
+Output written on "c:/Users\yulel\OneDrive - University of Southampton\LaTeX\Progression-report\main.pdf" (60 pages, 20371336 bytes).
 PDF statistics:
- 1270 PDF objects out of 1440 (max. 8388607)
- 289 named destinations out of 1000 (max. 500000)
+ 1279 PDF objects out of 1440 (max. 8388607)
+ 292 named destinations out of 1000 (max. 500000)
  408 words of extra memory for PDF output out of 10000 (max. 10000000)
 
