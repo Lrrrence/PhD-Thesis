@@ -188,25 +188,6 @@ Numerical simulations are used to find the cooling effectiveness of turbine blad
 
 Offline monitoring methods rely on an irreversible physical change to occur in order to accurately record the peak temperature of a surface. A summary of the available offline methods is shown in table~\ref{tab:offline}. Thermal paints and thermal history sensors are the most commonly used methods as they allow temperature to be mapped across the surface of the blade or vane while being less intrusive than other methods.
 
-\begin{table*}[ht]
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{@{}llllll@{}}
-\toprule
-\textbf{Method} &   \textbf{\begin{tabular}[c]{@{}l@{}}Temperature \\ range (\si{\degreeCelsius})\end{tabular}} &
-  \textbf{\begin{tabular}[c]{@{}l@{}}Temperature \\ resolution (\si{\degreeCelsius})\end{tabular}} &
-  \textbf{\begin{tabular}[c]{@{}l@{}}Spatial \\ resolution\end{tabular}} &
-    \textbf{Sensor type} &
-    \textbf{Interrogation method} \\ \hline
-Crystal   temperature sensors & up to 1400 & +/-10     & Low                 & Surface mounted                  & Illumination + observation                \\
-Templugs                      & 650        & 15--25     & Low (single points) & Embedded in substrate            & Analysis of ferromagnetism/hardness/phase \\
-Glass   ceramic arrays        & 1100       & Not given & Low                 & Surface mounted                  & Observation only                          \\
-Thermal   paints (TIP)        & Up to 1500 & 10--100    & Moderate            & Surface layer                    & Observation only                          \\
-Thermal   history sensors     & 150--1400   & +/-5      & High                & Surface layer or embedded in TBC & Illumination + observation                \\ \bottomrule
-\end{tabular}%
-}
-\caption{\label{tab:offline} Summary of offline temperature monitoring methods}
-\end{table*}
-
 \subsubsection{Thermal paint or Temperature indicating paint}\label{thermalpaint} 
 Specially formulated paints can be applied to the surface of a blade or vane that irreversibly change colour after exposure to high temperatures, recording the peak temperature at which they were exposed. Irreversible thermochromism takes place because of decomposition, i.e. changes to the crystal structure because of chemical reactions that produce new compounds. The change in colour is both a function of temperature and time, requiring careful control of exposure time for accurate analysis. Yang \textit{et al.}~\cite{Yang2015a} describe the development of temperature indicating paints including their formulation, application, and test methodology.
 
@@ -256,22 +237,6 @@ Metallurgical temperature sensors are a family of offline sensors that can be ma
 
 Online methods are used to measure temperature in real-time. This is particularly useful in comparison to offline methods as the monitoring can take place at start-up and cool down of the engine, rather than only providing a peak result. Another benefit over offline methods is the reduction in research and development time as the engine does not need to be dismantled between each test, which in turn reduces cost. This enables in-service data collection as opposed to short-term engine test data gathered from offline monitoring. Additional data helps to further validate numerical models when online systems are installed in test rigs, but they can also be used for condition monitoring applications on in-service engines. More comprehensive monitoring is beneficial in reducing maintenance schedules as these can be based on component health rather than a fixed number of operational hours. This has the benefits of reducing maintenance costs whilst minimising downtime. A reduction in the frequency of blade replacement is also beneficial to the environment. Table~\ref{tab:online} shows the currently available online monitoring methods. Thermographic phosphors are the most commonly used method as they are less intrusive than point-based thermocouple or RTD arrays, while being more reliable than pyrometry methods.
 
-\begin{table*}[ht]
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{@{}llllll@{}}
-\toprule
-\textbf{Method} & \textbf{Temperature range} & 
-\textbf{\begin{tabular}[c]{@{}l@{}}Temperature \\ resolution (\si{\degreeCelsius})\end{tabular}} & 
-\textbf{Spatial resolution} & \textbf{Sensor type} & \textbf{Interrogation method} \\ \midrule
-Thin film thermocouples (TFTCs)     & Up to 1200             & +/-2 & Low (can be installed in arrays) & Surface mounted                  & Electrical connection      \\
-Infrared Thermography/Pyrometry     & 500-\textgreater{}2000 & 0.3  & Low (can be scanned)             & Optical probe                    & Observation only           \\
-Temperature sensitive paints (MLCs) & \textless{}200         & 1--5  & High                             & Surface layer                    & Illumination + observation \\
-Thermographic phosphors             & Up to 1600             & 1--5  & High                             & Surface layer or embedded in TBC & Illumination + observation \\ \bottomrule
-\end{tabular}%
-}
-\caption{\label{tab:online} Summary of online temperature monitoring methods}
-\end{table*}
-
 \subsubsection{Thermocouples} 
 Conventional thermocouples are not suitable for use on turbine blades or NGVs, as their large size disrupts airflow, and reliably attaching them to the surface of a blade is difficult. Thin film thermocouples (TFTC) on the other hand can be directly fabricated on to the surface of a turbine blade or NGV, greatly improving long term durability in comparison to conventional thermocouples. COMSOL simulations carried out by Duan \textit{et al.}~\cite{Duan2020} show a ${\sim}$170\si{\degreeCelsius} difference between conventional thermocouples and their thin-film counterparts due to the distance between the thermocouple joint and the blade surface. The placement of a conventional thermocouple in its insulation filling adds an additional uncertainty of around $500\times500$ \si{\um}, which has a temperature difference from top to bottom of ${\sim}$300\si{\degreeCelsius}. The uncertainty associated with the use of conventional thermocouples shows the motivation for the development of thin film equivalents.
 
@@ -320,6 +285,47 @@ The main limitation of using thermographic phosphors is the need for optical acc
 
 \subsubsection{Other methods} 
 Duan \textit{et al.}~\cite{Duan2018} have found that the electrically conductive nature of TBCs at elevated temperatures (above 600\si{\degreeCelsius}) can be utilised as a form of smart sensor, by measuring a change in resistance with temperature. Experimental data shows good repeatability up to 950\si{\degreeCelsius}, measurement error of less than 3\%, fast response time (${\sim}$1s), and stability comparable to conventional thermocouples and TFTCs.
+
+\newgeometry{margin=3cm}  
+\begin{landscape}
+
+\begin{table*}[p]
+        \resizebox{\linewidth}{!}{%
+        \begin{tabular}{@{}llllll@{}}
+        \toprule
+        \textbf{Method} &   \textbf{\begin{tabular}[c]{@{}l@{}}Temperature \\ range (\si{\degreeCelsius})\end{tabular}} &
+          \textbf{\begin{tabular}[c]{@{}l@{}}Temperature \\ resolution (\si{\degreeCelsius})\end{tabular}} &
+          \textbf{\begin{tabular}[c]{@{}l@{}}Spatial \\ resolution\end{tabular}} &
+            \textbf{Sensor type} &
+            \textbf{Interrogation method} \\ \hline
+        Crystal   temperature sensors & up to 1400 & $\pm$ 10     & Low                 & Surface mounted                  & Illumination + observation                \\
+        Templugs                      & 650        & 15--25     & Low (single points) & Embedded in substrate            & Analysis of ferromagnetism/hardness/phase \\
+        Glass   ceramic arrays        & 1100       & Not given & Low                 & Surface mounted                  & Observation only                          \\
+        Thermal   paints (TIP)        & Up to 1500 & 10--100    & Moderate            & Surface layer                    & Observation only                          \\
+        Thermal   history sensors     & 150--1400   & $\pm$ 5      & High                & Surface layer or embedded in TBC & Illumination + observation                \\ \bottomrule
+        \end{tabular}%
+        }
+        \caption{\label{tab:offline} Summary of offline temperature monitoring methods}
+\end{table*}
+
+\begin{table*}[p]
+    \resizebox{\linewidth}{!}{%
+    \begin{tabular}{@{}llllll@{}}
+    \toprule
+    \textbf{Method} & \textbf{\begin{tabular}[c]{@{}l@{}}Temperature \\ range (\si{\degreeCelsius})\end{tabular}} & 
+    \textbf{\begin{tabular}[c]{@{}l@{}}Temperature \\ resolution (\si{\degreeCelsius})\end{tabular}} & 
+    \textbf{Spatial resolution} & \textbf{Sensor type} & \textbf{Interrogation method} \\ \midrule
+    Thin film thermocouples (TFTCs)     & Up to 1200             & $\pm$ 2 & Low (can be installed in arrays) & Surface mounted                  & Electrical connection      \\
+    Infrared Thermography/Pyrometry     & 500-\textgreater{}2000 & 0.3  & Low (can be scanned)             & Optical probe                    & Observation only           \\
+    Temperature sensitive paints (MLCs) & \textless{}200         & 1--5  & High                             & Surface layer                    & Illumination + observation \\
+    Thermographic phosphors             & Up to 1600             & 1--5  & High                             & Surface layer or embedded in TBC & Illumination + observation \\ \bottomrule
+    \end{tabular}%
+    }
+    \caption{\label{tab:online} Summary of online temperature monitoring methods}
+\end{table*}
+\end{landscape}
+\clearpage
+\restoregeometry
 
 \section{Emerging techniques for online monitoring}
 
@@ -521,7 +527,7 @@ The multiphysics simulation package COMSOL has been used to simulate potential t
 
 A 2D model has been produced of the experimental test setup described in Section~\ref{experiments}. This allows for validation of the time of flight measurements, and can be used to separate the effect of temperature on the wedges from the substrate. The effect of temperature on the Lamb wave alone can therefore be analysed. 
 
-The model consists of two variable angle wedges (PMMA), which are based on the geometry of the Olympus variable angle wedges used in the experimental investigation, placed on top of an aluminium plate. The transmitting wedge has a simplified piezoelectric transducer (PZT-5H) attached to it's rotating block, to which the excitation signal is applied. The geometry can be seen in Figure \ref{fig:COMSOLpressure}. The received signal is measured at the receiver wedge's rotating block boundary. More realistic transducer configurations are not considered in this study, as the focus is on the effect of temperature on the propagating wave. A boundary area is set underneath the plate to act as the heat source, again mimicking the experimental setup. This is simplified to allow the temperature to be directly set, rather than simulating a hot plate.
+The model consists of two variable angle wedges (PMMA), which are based on the geometry of the Olympus variable angle wedges used in the experimental investigation, placed on top of an aluminium plate. The thickness of the plate can be varied to target different Lamb wave modes at different frequency--thickness products. The initial thickness is set to 1 mm to target the $S_0$ mode at 1 MHz--mm. The transmitting wedge has a simplified piezoelectric transducer (PZT-5H) attached to it's rotating block, to which the excitation signal is applied. The geometry can be seen in Figure \ref{fig:COMSOLpressure}. The received signal is measured at the receiver wedge's rotating block boundary. More realistic transducer configurations are not considered in this study, as the focus is on the effect of temperature on the propagating wave. A boundary area is set underneath the plate to act as the heat source, again mimicking the experimental setup. This is simplified to allow the temperature to be directly set, rather than simulating a hot plate.
 %
 %\begin{equation}\label{eqn:comsolexcitation}
    % 10 \times \sin{(2\pi f_{0}\text{t}) \times \left( \text{t} < \left( \frac{\text{np}}{f_{0}} \right) \right)}
@@ -545,24 +551,24 @@ This study has two steps, firstly a stationary study to simulate the effect of t
 
 Exaggerated deformation of pressure in the plate as seen in Figure \ref{fig:simmodes} makes the presence of the $A_0$ and $S_0$ modes clearly visible. The modes are separated in the time domain after a short distance ($\sim$~50 mm) due to the difference in group velocity. 
 
-To visual wave propagation and calculate time of flight the pressure at both transmitter and receiver wedge boundaries are exported, and the time of flight is measured using a cross-correlation method to allow direct comparison with experimental results. An example of wave propagation at room temperature can be seen in Figure \ref{fig:COMSOLsimsignal}. 
+To visualise wave propagation and calculate time of flight the pressure at both transmitter and receiver wedge boundaries are exported, and the time of flight is measured using a cross-correlation method, to allow direct comparison with experimental results. An example of wave propagation at room temperature can be seen in Figure \ref{fig:COMSOLsimsignal}. Time of flight is in line with experimental measurements.
 
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth]{./figures/COMSOLpressure.png}
-    \caption{COMSOL simulation of $S_0$ mode propagation in 1 mm thick aluminium plate}\label{fig:COMSOLpressure}
+    \caption{COMSOL simulation of $S_0$ mode propagation in 1 mm thick aluminium plate.}\label{fig:COMSOLpressure}
 \end{figure}
 
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth]{./figures/simmodes.png}
-    \caption{Presence of the $A_0$ \& $S_0$ modes}\label{fig:simmodes}
+    \caption{Presence of the $A_0$ \& $S_0$ modes.}\label{fig:simmodes}
 \end{figure}
 
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth]{./figures/simpulse20cedit.eps}
-    \caption{COMSOL simulation of $S_0$ mode propagation at room temperature}\label{fig:COMSOLsimsignal}
+    \caption{COMSOL simulation of $S_0$ mode propagation at room temperature.}\label{fig:COMSOLsimsignal}
 \end{figure}
 
 \chapter{Experimental investigation of Lamb wave temperature sensitivity}\label{experiments}
