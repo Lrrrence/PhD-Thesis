@@ -88,9 +88,10 @@ A number of studies are underway to investigate the effects of the physical envi
 Nozzle guide vanes (NGVs) are static components found in the turbine section of a jet engine (Figure~\ref{fig:crossngv}). Temperature monitoring of these components is important for a number of reasons: identifying potential failures before they occur, evaluating the need for maintenance, investigating ways of improving engine efficiency, and reducing fuel consumption. Online temperature monitoring of NGVs is difficult to achieve with currently available technologies (see Chapter~\ref{literev}). Acoustic based monitoring methods offer a potential alternative. The velocity of acoustic waves is affected by temperature (among other properties) and can be used for temperature monitoring if a suitable sensor system can be developed and implemented. Transducers can be used to transmit acoustic waves through a material and analyse the received signal. The transducers can be placed away from harsh conditions (e.g.\ turbine gas paths) which would otherwise limit their operation. In the case of nozzle guide vanes (NGVs) their geometry allows for the propagation of Lamb waves at ultrasound frequencies. These waves are dispersive and many distinct modes can be present, which makes their analysis difficult. Despite this problem they can provide high temperature sensitivities (mode dependant) and can travel large distances with limited attenuation. Generation of these waves is possible with a number of different transducer configurations, but the choice is limited by the harsh conditions of the turbine and by space and power constraints. Two potential solutions are the use of waveguides to further distance transducers from the harsh environment, or the use of Piezoelectric Wafer Active Sensors (PWAS) which can be used at high temperatures with careful piezoelectric material selection.
 \newpage
 
-The study can be classified into four sections:
+The study can be classified into five sections:
 \begin{itemize}
-    \item Chapter~\ref{literev} -- A literature review of the currently available temperature monitoring methods for nozzle guide vanes, and the potential for guided wave based systems.
+    \item Chapter~\ref{literev} -- A literature review of the currently available temperature monitoring methods for nozzle guide vanes, both offline and online.
+    \item Chapter~\ref{ultrasonicmonitoring} -- An investigation into the potential for guided wave based temperature monitoring systems.
     \item Chapter~\ref{theory} -- Theoretical analysis of Lamb wave temperature sensitivity.
     \item Chapter~\ref{simulations} -- COMSOL modelling of a temperature monitoring system.
     \item Chapter~\ref{experiments} -- Experimental investigations into Lamb wave temperature sensitivity, and the factors affecting wave propagation.
@@ -130,19 +131,19 @@ A requirement for the monitoring of NGVs is the ability to monitor temperature s
 These objectives raise the following research questions:
 
 \subsection{Research questions}
-\begin{itemize}
-    \item How can the temperature dependence of Lamb waves be utilised for the temperature monitoring of NGVs?
-    \item How can the theoretical temperature sensitivity of individual Lamb wave modes be verified experimentally?
-    \item What is the effect of the physical environment on Lamb wave propagation in NGVs?
+\begin{enumerate}
+    \item How can the temperature dependence of Lamb waves be utilised for the temperature monitoring of NGVs? \label{itm:1}
+    \item How can the theoretical temperature sensitivity of individual Lamb wave modes be verified experimentally? \label{itm:2}
+    \item What is the effect of the physical environment on Lamb wave propagation in NGVs? \label{itm:3}
 \begin{itemize}
     \item High temperatures
     \item Cooling holes
     \item Curved surfaces
 \end{itemize}
-    \item Which of the Lamb wave modes (or group of modes) is most appropriate for temperature monitoring of NGVs?
-    \item To what extent can acoustic reflections from cooling holes be used to monitor temperature at a number of locations across the structure of an NGV?
-    \item What is the most suitable transducer configuration for exciting Lamb waves in NGVs?
-\end{itemize}
+    \item Which of the Lamb wave modes (or group of modes) is most appropriate for temperature monitoring of NGVs? \label{itm:4}
+    \item To what extent can acoustic reflections from cooling holes be used to monitor temperature at a number of locations across the structure of an NGV? \label{itm:5}
+    \item What is the most suitable transducer configuration for exciting Lamb waves in NGVs? \label{itm:6}
+\end{enumerate}
 \newpage
 
 \section{Research output}
@@ -152,8 +153,7 @@ These objectives raise the following research questions:
     \item Conference paper ``Towards in-flight temperature monitoring for nozzle guide vanes using ultrasonic guided waves'' accepted for \href{https://www.aiaa.org/propulsionenergy}{AIAA Propulsion Energy}, 9--11 August 2021.
 \end{itemize}
 
-\chapter{Literature Review}\label{literev}
-\section{Introduction}
+\chapter{Nozzle guide vane (NGV) temperature monitoring}\label{literev}
 This literature review considers surface temperature monitoring methods for turbomachinery applications, focusing on jet engine turbine blades and nozzle guide vanes (NGVs).
 
 Carbon dioxide emission is the largest contributor from aviation to global warming, comprising 70\% of aircraft engine emissions~\cite{administrator2015aviation}. A small improvement in the design of a jet engine will result in a sizable reduction in pollution, as well as in fuel and engine costs~\cite{zhang2019number,Zaghari2020}. The results of temperature monitoring can inform the research and development process to improve the operation and efficiency of components~\cite{Zaghari2017}. More accurate monitoring in terms of absolute temperature, spatial resolution, and time history allows for further development, maximising the effectiveness of components. Current and past methods focus on testing parts in controlled environments before installation in an engine, with the majority of methods requiring the blade or vane to be removed from the engine for analysis after a test has taken place. This can be improved with online methods that allow for monitoring during normal engine operation. Online methods provide considerably more data for analysis during start-up and cool down of the engine rather than only providing a peak result. The currently available online methods can only provide point measurements (in the form of thermocouples) or require optical access (pyrometry \& thermographic phosphors) which is difficult to achieve in the cramped conditions of a turbine. These online systems have been utilised in test rigs and gas turbines but have not been adapted for use on in-service jet engines because of space, weight, and power constraints. An improvement to these sensors would greatly benefit gas turbine manufacturers, allowing for further development in turbine blade and NGV design by better understanding their limits. If the uncertainty of temperature measurements can be reduced then engine efficiency can be improved by operating components closer to their ideal conditions~\cite{Kerr2002}.
@@ -182,14 +182,14 @@ Numerical simulations are used in the design stage of blades and vanes to predic
     \caption{Temperature monitoring systems for nozzle guide vanes}\label{fig:venn}
 \end{figure}
 
-\subsection{Numerical methods for temperature estimation}
+\section{Numerical methods for temperature estimation}
 Numerical simulations are used to find the cooling effectiveness of turbine blades and NGVs. Results of the simulations are validated against experimental results, such as those from temperature-sensitive paints~\cite{18-guan2019enhanced}. Finite element modelling (FEM) can be used to predict the thermal load on a blade and analyse the effectiveness of blade cooling methods. There are two methods of calculations, uncoupled or coupled. Uncoupled methods are less computational intensive as the heat transfer coefficients used in the calculations are only computed at key engine operating conditions. Coupled methods use computational fluid dynamic (CFD) calculations to iterate the heat transfer coefficients, which improves accuracy over uncoupled methods. Findeisen \textit{et al.}~\cite{Findeisen2017} compared two coupled methods, FEM1D and FEM2D. The FEM1D method uses simplified models of the cooling system making it suitable for initial designs, while the FEM2D method uses three dimensional CFD simulations that are more realistic but nearly a hundred times slower than FEM1D. This makes FEM2D models more suitable for comparison with experimental data. In order to validate complex thermal models over 80\% of the surface should be measured, which is not possible with point measurement systems such as thermocouples~\cite{Peral2019}. Thermal maps allow manufacturers to better understand the effects of air flow on specific areas of components, which can help to improve the life cycle of a part. Areas of increased thermal stress can be identified, which may require additional cooling or design adjustment, while also highlighting less critical areas that could be reduced in weight or cooling. 
 
-\subsection{Offline Monitoring Methods}
+\section{Offline Monitoring Methods}
 
 Offline monitoring methods rely on an irreversible physical change to occur in order to accurately record the peak temperature of a surface. A summary of the available offline methods is shown in table~\ref{tab:offline}. Thermal paints and thermal history sensors are the most commonly used methods as they allow temperature to be mapped across the surface of the blade or vane while being less intrusive than other methods.
 
-\subsubsection{Thermal paint or Temperature indicating paint}\label{thermalpaint} 
+\subsection{Thermal paint or Temperature indicating paint}\label{thermalpaint} 
 Specially formulated paints can be applied to the surface of a blade or vane that irreversibly change colour after exposure to high temperatures, recording the peak temperature at which they were exposed. Irreversible thermochromism takes place because of decomposition, i.e. changes to the crystal structure because of chemical reactions that produce new compounds. The change in colour is both a function of temperature and time, requiring careful control of exposure time for accurate analysis. Yang \textit{et al.}~\cite{Yang2015a} describe the development of temperature indicating paints including their formulation, application, and test methodology.
 
 Paints can be categorised as single-change or multi-change, whereby single-change paints change colour once after exceeding a particular temperature threshold, and multi-change paints undergo multiple colour changes as temperature increases past a number of thresholds. Multi-change paints are more suitable for use on parts with large temperature gradients, such as turbine blades or NGVs. Examples of commercially available thermal paints produced by Thermographic Measurements Ltd, UK, can be seen in figures~\ref{fig:singlepaints} and~\ref{fig:multipaints}~\cite{Neely2006}.
@@ -212,14 +212,14 @@ Engine test data is often used to validate numerical models. In order to produce
 
 Colour changes are cross sensitive to environmental gases which must be accounted for when comparing results to calibration charts. Low paint durability means that testing time should be limited to between 3 and 5 minutes at peak temperatures for best results.~\cite{Bird1998}. Longer exposure time makes it difficult to determine if a colour change has occurred due to peak temperatures over a short period or lower temperatures over a longer period. Dismantling the engine for analysis can be time consuming and additional tests require the paint to be removed and reapplied before the engine is reconstructed. Many thermal paints contain cobalt, nickel, or lead compounds that are restricted for use by EU legislation (REACH~\cite{EuropeanParliament2006}) because of their toxicity.
 
-\subsubsection{Thermal history sensors} 
+\subsection{Thermal history sensors} 
 Thermal history sensors are based on ceramic materials doped with luminescent transition or rare-earth ions. They are similar in principle to thermal paints in that exposure to high temperatures causes irreversible changes to their optical properties. The method was originally proposed by Feist in 2007~\cite{Feist2011}. Resolution and accuracy is improved in comparison to thermal paints as the optical change is continuous across the surface of the part and can be analysed with an emission detector, as with online thermographic phosphors. Parts do not have to be fully dismantled for analysis, and the phosphors do not contain restricted chemicals (EU REACH regulation~\cite{EuropeanParliament2006}). Biswas and Feist~\cite{KarmakarBiswas2014} discuss the theoretical background of thermal history sensors, their analysis methods, and carry out an experimental comparison against thermal paints and thermocouples. Results show good agreement between thermal paints and thermal history coating from 400\si{\degreeCelsius} to 900\si{\degreeCelsius}. Standard deviation of the thermal history coating measurement is typically below 5\si{\degreeCelsius}. Peral \textit{et al.}~\cite{Peral2019} has developed an uncertainty model for the use of thermal history sensors from 400\si{\degreeCelsius} to 750\si{\degreeCelsius}, indicating that the maximum estimated uncertainty was $\pm6.3$\si{\degreeCelsius} or $\pm 13$\si{\degreeCelsius} for 67\% or 95\% confidence levels respectively. This is believed to be well within the uncertainty of thermal models and the requirements for temperature measurements in harsh environments on gas turbines. 
 
 Araguas Rodriguez \textit{et al.}~\cite{AraguasRodriguez2018a} have carried out temperature measurements between 350\si{\degreeCelsius} and 900\si{\degreeCelsius} on three types of NGVs (without cooling, internally cooled, externally cooled) and compared the results to an embedded thermocouple. The THP was made up of an oxide ceramic pigment mixed into a water-based binder doped with lanthanide ions. Measurements are carried out using a handheld probe, each taking approximately five seconds. Precision of the measurement was $\pm$5\si{\degreeCelsius}, and results were within the min-max range of the thermocouple results. An extended test (around 50 hours) using THPs was carried out by Pilgrim~\cite{Pilgrim2017}. No damage to the THP was observed, and results are in agreement with temperature sensitive paints and CFD models (10\si{\degreeCelsius} difference between them). This shows an improvement over temperature sensitive paints, which can only be used for short term ($\sim$5 minutes) engine tests. The processes behind the optical changes that are caused by temperature are explained by Rabhiou \textit{et al.}~\cite{Rabhiou2011}, followed by experimental results that show a Y$_{2}$SiO$_{5}$:Tb phosphor suitable for use up to 1000\si{\degreeCelsius}, with potential for further development to extend the upper temperature limit to 1400\si{\degreeCelsius}. A resolution comparison between temperature sensitive paints, pyrometry, and thermal history sensors is given by Amiel~\cite{Amiel2018} in Table 2. Pyrometry methods provide the highest resolution (0.3\si{\degreeCelsius}), followed by thermal history sensors (1--5\si{\degreeCelsius}), and finally temperature sensitive paints (10--100\si{\degreeCelsius}). Heyes~\cite{Heyes2012} carried out tests using a Y$_2$SiO$_5$:Tb phosphor suspended in IP 600 binder that could be used for temperature measurement from 400\si{\degreeCelsius} to 900\si{\degreeCelsius}. Results showed that the use of the binder caused some signal degradation, inhibiting the crystallisation process of the phosphor. This indicated the potential benefits of integrating the phosphors into thermal barrier coatings (TBCs), which negates the need for a binder. A preliminary investigation was carried out utilising air plasma spraying (APS) of YAG:YSZ:Dy which showed promising results. 
 
 Although accuracy and resolution are improved in comparison to thermal paints, optical access to the parts is still required for analysis, which requires dismantling of the engine but not the parts themselves. Paints need to be removed and reapplied to carry out additional tests. The application of the paints requires sophisticated coating technologies which limits their uses. Careful phosphor selection is required as emission intensity decreases with increasing temperatures~\cite{Feist2001}.
 
-\subsubsection{Other offline sensors} 
+\subsection{Other offline sensors} 
 A number of other offline sensors have been developed for use on turbine blades or vanes that are described below. The use of these sensors is limited in comparison to temperature sensitive paints or thermal history sensors as they only provide point measurements while being more intrusive to blade operation.
 
 Crystal temperature sensors have been developed to more accurately measure temperature gradients across blades in comparison with thermal paint methods. A crystal structure is installed on surface of the blade using thermo-cement and exposed to neutron radiation (“illumination”), causing the atomic lattice to expand. When exposed to heat the lattice relaxes, which can be analysed with an X-ray diffraction microscope. If exposure time is also measured the temperature can be deduced from comparison with a calibration diagram. Accuracy of the method is $\pm 10$\si{\degreeCelsius}, up to at least 1400\si{\degreeCelsius}~\cite{Annerfeldt2004}.
@@ -234,11 +234,11 @@ Glass ceramic arrays rely on using materials that all undergo different allotrop
 
 Metallurgical temperature sensors are a family of offline sensors that can be machined into almost any shape. They are best suited to applications where wire connections are not possible, especially those where the sensor is immersed in a corrosive medium. Their accuracy is poor in comparison to thermocouples (around 10\si{\degreeCelsius}) and they can only be used to give rough estimates of temperature. Stainless steel “Feroplugs” reduce in ferromagnetism with increasing temperature exposure, which can be measured using a ferritscope or magnetic suspectometer. The reduction in ferromagnetism fully diminishes above 600\si{\degreeCelsius}, the upper limit of temperature measurement. Sigmaplugs have been developed to extend the measurement range, introducing a new phase that can be measured up to 900\si{\degreeCelsius}. Templugs are made of steel alloys that reduce in hardness with increasing temperature. The change in hardness can be measured and compared with calibration charts to determine the temperature if exposure time is known. Accuracy is around 15\si{\degreeCelsius} up to 600\si{\degreeCelsius}, reducing to 25\si{\degreeCelsius} up to 650\si{\degreeCelsius}~\cite{Lo2012}. Madison \textit{et al.}~\cite{Madison2013} compared metallurgical temperature sensors with thermocouples when measuring piston temperatures in a running engine. Results were comparable however the metallurgical sensors were heavily influenced by areas with large thermal gradients.
 
-\subsection{Online Monitoring Methods}
+\section{Online Monitoring Methods}
 
 Online methods are used to measure temperature in real-time. This is particularly useful in comparison to offline methods as the monitoring can take place at start-up and cool down of the engine, rather than only providing a peak result. Another benefit over offline methods is the reduction in research and development time as the engine does not need to be dismantled between each test, which in turn reduces cost. This enables in-service data collection as opposed to short-term engine test data gathered from offline monitoring. Additional data helps to further validate numerical models when online systems are installed in test rigs, but they can also be used for condition monitoring applications on in-service engines. More comprehensive monitoring is beneficial in reducing maintenance schedules as these can be based on component health rather than a fixed number of operational hours. This has the benefits of reducing maintenance costs whilst minimising downtime. A reduction in the frequency of blade replacement is also beneficial to the environment. Table~\ref{tab:online} shows the currently available online monitoring methods. Thermographic phosphors are the most commonly used method as they are less intrusive than point-based thermocouple or RTD arrays, while being more reliable than pyrometry methods.
 
-\subsubsection{Thermocouples} 
+\subsection{Thermocouples} 
 Conventional thermocouples are not suitable for use on turbine blades or NGVs, as their large size disrupts airflow, and reliably attaching them to the surface of a blade is difficult. Thin film thermocouples (TFTC) on the other hand can be directly fabricated on to the surface of a turbine blade or NGV, greatly improving long term durability in comparison to conventional thermocouples. COMSOL simulations carried out by Duan \textit{et al.}~\cite{Duan2020} show a ${\sim}$170\si{\degreeCelsius} difference between conventional thermocouples and their thin-film counterparts due to the distance between the thermocouple joint and the blade surface. The placement of a conventional thermocouple in its insulation filling adds an additional uncertainty of around $500\times500$ \si{\um}, which has a temperature difference from top to bottom of ${\sim}$300\si{\degreeCelsius}. The uncertainty associated with the use of conventional thermocouples shows the motivation for the development of thin film equivalents.
 
 \begin{figure}
@@ -253,7 +253,7 @@ Yang \textit{et al.}~\cite{Yang2020} have shown that an S-type thermocouple can 
 
 Despite the improvement of thin film thermocouples over conventional thermocouples they are still an invasive monitoring method. Only point measurements are possible unless installed in dense arrays which can have an impact on blade operation, requiring complex wiring systems. The connection between thin-film and lead wires is the primary failure point when installed on turbine blades~\cite{Lei1997}. Oxidation has a significant impact on the operation of TFTCs at high temperatures, causing drift and delamination~\cite{Guk2016}, which makes the use of an insulation material vital.
 
-\subsubsection{Pyrometry} 
+\subsection{Pyrometry} 
 Optical pyrometry is a non-contact method of measuring thermal radiation emitted from the surface of a material. There is no upper temperature limit as thermal radiation increases with temperature, but there is a lower limit of around 500\si{\degreeCelsius}~\cite{Kerr2004}. Measurement response is fast in comparison to conventional thermocouples as there is no thermal inertia to overcome. In order to implement a pyrometry system in a turbine optical access is required, which can be achieved by routing a probe through the wall of the turbine casing and connecting it to a detector via fibre optic cable, away from the high temperature environment of the turbine~\cite{Kerr2004}. The system can be considered a point measurement system as the probe is focused on an area 1--10 mm in diameter however the point can be scanned across the surface to produce temperature maps~\cite{Li2019}. A review of fibre optic thermometry methods is given by Yu \textit{et al.}~\cite{Yu2009a}, covering blackbody, infrared, and fluorescence optical thermometers. For accurate results the emittance of the blades must be measured prior to installation to later be used in correcting the output of the pyrometer, however the emittance is also affected by factors such as surface roughness, oxidation state, and chemical composition, which will affect the overall accuracy of the system. A number of solutions have been proposed to improve the accuracy of emittance measurement, namely dual and triple spectral pyrometry~\cite{Kerr2002, Li2018}. A review of multi-spectral pyrometry systems is given by Araújo \textit{et al.}~\cite{Araujo2017}. Accuracy is also affected by reflected radiation from other surfaces within the turbine, absorption of radiation in the gas path, interference from hot particles, and deposits forming on the surface of the probe lens. The effectiveness of pyrometry is negatively affected by the application of thermal barrier coatings (TBCs), which reduces emittance while increasing reflectivity of the blades. The thermal gradient of TBCs ($\sim$0.5\si{\degreeCelsius}/\si{\um}) means that careful wavelength selection is required to ensure that measurement is taking place at the required depth~\cite{Gentleman2006}. A number of authors have tested pyrometers on turbine engine test rigs~\cite{Becker1994,Frank2001,Wang2015}. Taniguchi \textit{et al.}~\cite{Taniguchi2006} have carried out temperature measurements using a pyrometer on a turbine blade rotating at 14,000 RPM. The system has a measurement range of 700--1150\si{\degreeCelsius} with an accuracy of $\pm$3\si{\degreeCelsius}, over a 2 mm diameter area. The measurement probe is only inserted into the hot section of the engine for a short time (10s) before being removed to avoid damage, which limits the long term use of this method. Infrared thermography has also been used on gas turbines for crack and defect detection rather than absolute temperature measurement~\cite{Hellberg}. Although pyrometry can provide high accuracy (in favourable conditions) and fast response times, the need for optical access and their large size restricts their uses to dedicated test rigs and large gas turbines. It is unlikely that a pyrometry system could be installed inside of a jet engine for SHM applications without considerable reductions in size and weight. During long term use the build up of deposits on the surface of the probe lens will reduce accuracy and require regular maintenance. In order to produce temperature maps the probe must be scanned across the surface which would require mechanical movement of the probe, a potential point of failure.
 
 \begin{figure}
@@ -268,10 +268,10 @@ Optical pyrometry is a non-contact method of measuring thermal radiation emitted
     \caption{IR camera in use on a Siemens SGT-750 gas turbine~\cite{Hellberg}}\label{fig:IRsiemens}
 \end{figure}
 
-\subsubsection{Temperature sensitive paints} 
+\subsection{Temperature sensitive paints} 
 Temperature sensitive paints (TSPs) differ from thermal paints or temperature indicating paints in that they do not undergo permanent changes to their structure after exposure to high temperatures. The temperature dependence of luminescent molecules can be measured after application to the surface of a material using a polymer binder. The luminophore is excited by a light source, causing thermal quenching to take place. The intensity or decay lifetime of the luminescence can be measured using a camera, both of which are temperature dependent~\cite{Liu2005}. A selection of TSPs are described by Patel \textit{et al.}~\cite{Patel2016}, showing their useful temperature ranges. At low temperatures (\textless 200\si{\degreeCelsius}) metal-ligand complexes (MLCs) are used as luminophores, whereas at high temperature thermographic phosphors are used.
 
-\subsubsection{Thermographic phosphors}\label{Thermographic phosphors} 
+\subsection{Thermographic phosphors}\label{Thermographic phosphors} 
 Thermographic phosphors can be used in a very similar way to the metal-ligand complexes (MLCs) used in temperature sensitive paints however they are suitable for use up to much higher temperatures (${\sim}$1600\si{\degreeCelsius}). They can be excited and analysed in the same way as TSPs using laser excitation and fluorescence detectors. A number of authors have carried out reviews of thermographic phosphor systems, covering the principles and theory of fluorescence~\cite{Khalid2008a}, instrumentation~\cite{Allison1997}, implementation~\cite{Khalid2010}, and discussion of phosphor materials and error analysis~\cite{Brubach2013}. Phosphors can be applied to a blade or vane in a number of ways, the simplest of which is to mix the phosphor with a binder and apply it to the surface of the TBC, which provides a surface temperature measurement. A phosphor layer can also be applied beneath the TBC, which allows for monitoring of the temperature critical bonding layer. This is difficult to achieve as YSZ is mostly opaque to UV radiation, making excitation of the phosphor a challenge~\cite{AbouNada2016}. Phosphors can also be directly integrated into thermal barrier coatings (TBCs), acting as thermal insulation and as a sensor simultaneously. The first investigation into using phosphors embedded into thermal barrier coatings (TBCs), called ‘smart coating’ or ‘thermal barrier sensor coating’ was carried out by Feist~\cite{Feist2001}. Further development has shown that the addition of phosphors to produce sensor coatings does not affect the structure of TBCs and they can be applied using the same air plasma spray (APS) process as non-doped TBCs~\cite{Chen2005a}. The system has been applied to an NGV in a Rolls-Royce Viper 201 engine with optical access provided through a dedicated window~\cite{Feist2013}. A comparison between temperature measurements from a TBC doped sensor, pyrometer, and thermocouple shows a large temperature gradient between the surface of the TBC and the surface of the substrate, with the phosphor sensing taking place close to the bond coat interface~\cite{YanezGonzalez2015}.
 
 Online temperature measurements from 513\si{\degreeCelsius} to 767\si{\degreeCelsius} have been carried out on an operating engine by Jenkins \textit{et al.}~\cite{Jenkins2020}. Measurements were carried out at rotational speeds up to 32,750 RPM. A laser was used for excitation of two phosphors applied to the TBC of the turbine blades, while a fibre optic probe was used for detection. Results were found to be within 25\si{\degreeCelsius} of of those estimated by the engine manufacturer. It is suggested that measurement range (from engine off to maximum engine power) can be improved by utilising Y$_{2}$O$_{3}$:Er phosphors~\cite{Eldridge2019}. Nau \textit{et al.}~\cite{Nau2019} have presented results from the use of five different phosphors that allow measurements from room temperature up to 1500\si{\degreeCelsius}. Comparison of the phosphors show that their individual temperature ranges are limited (400\si{\degreeCelsius}). Measurements were carried out on two model combustor systems, and at high pressure, to demonstrate the potential application in real turbines. Measurements are demonstrated with a high speed camera, allowing for temporal resolution up to 1 kHz.
@@ -284,7 +284,7 @@ Online temperature measurements from 513\si{\degreeCelsius} to 767\si{\degreeCel
 
 The main limitation of using thermographic phosphors is the need for optical access, both for excitation and detection, which is normally achieved with fibre optic probes. Careful selection of phosphor material is required to cover the entire temperature range of interest and to ensure that emission intensity is high enough for accurate detection at elevated temperatures~\cite{Feist2001}. In the case of turbine blades the excitation and detection needs to be synchronised with blade rotation which requires extremely fast response times~\cite{Gentleman2006}, and is limited by the decay rate of the phosphor.  
 
-\subsubsection{Other methods} 
+\subsection{Other methods} 
 Duan \textit{et al.}~\cite{Duan2018} have found that the electrically conductive nature of TBCs at elevated temperatures (above 600\si{\degreeCelsius}) can be utilised as a form of smart sensor, by measuring a change in resistance with temperature. Experimental data shows good repeatability up to 950\si{\degreeCelsius}, measurement error of less than 3\%, fast response time (${\sim}$1s), and stability comparable to conventional thermocouples and TFTCs.
 
 \newgeometry{margin=3cm}  
@@ -328,13 +328,13 @@ Duan \textit{et al.}~\cite{Duan2018} have found that the electrically conductive
 \clearpage
 \restoregeometry
 
-\section{Emerging techniques for online monitoring}
+\chapter{Emerging techniques for online monitoring}\label{ultrasonicmonitoring}
 
 The ideal sensor for jet engine turbine blade and NGV temperature monitoring should be capable of mapping the temperature of a blade or vane in real time with minimum interference to operating conditions. The use of a sensor should not reduce the lifetime of the blade, cause damage to its structure, require large amounts of power, or require regular maintenance, ideally surviving for the lifetime of the engine. Response time should be fast in order to accurately record the changes in temperature during start-up, shut-down, and overshoot events, while resolution and accuracy should be comparable to traditional monitoring methods. 
 
 Ultrasonic guided wave technology may be suitable for this application as it can provide real-time sensing, fast response times, and the ability to re-use the sensor indefinitely. There is the potential for transducers to be kept away from the harsh conditions of the turbine by transmitting a wave through the structure of a blade or vane and analysing the received signal. Measuring temperature in this way reduces the influence of the sensor on the operating condition of the blade. The small footprint of the sensors would not affect the operation of components or disrupt airflow. Advancements in sensor materials for use at high temperatures as well as the associated signal processing may allow for sensors to be installed in harsh environments. The following section considers the suitability of acoustic methods for the temperature monitoring of turbine blades and NGVs.
 
-\subsection{Ultrasonic Structural Health Monitoring}\label{ultrasonicmonitoring}
+\section{Ultrasonic structural health monitoring}
 
 Ultrasound is of particular interest for SHM applications as it allows for small sensors, high precision, fast data rates, and can be utilised at frequencies much higher than environmental noise~\cite{Mitra2016}. Traditional ultrasonic NDE utilises A-scans, a measurement of signal amplitude against time, to detect cracks, defects etc. This can be extended to B~\cite{Fatemi1980}, C~\cite{Ruzek2006,Imielinska2004}, or phased-array~\cite{Komura2001} scans to build an image of damage in an area by moving the transducers around and carrying out multiple measurements. This form of evaluation is not particularly suited to turbomachinery applications as the transducers would ideally be permanently installed on the structure. Guided wave SHM is of more interest as constructive interference with surfaces/boundaries allows waves to travel large distances with limited attenuation, which is already utilised for pipe~\cite{Zaghari2013} and rail inspection methods~\cite{Shi2019}. Ultrasound has been proposed as a method of defect detection NDE for aircraft~\cite{Wang2019}, installing transducers in large arrays to allow for guided wave tomography.
 
@@ -342,19 +342,19 @@ When using acoustic waves for SHM and NDE applications either a standalone senso
 
 When considering using a structure as a sensing medium its geometry has an impact on wave propagation. The geometry of a typical turbine blade or NGV is that of a thin plate like structure through which ultrasonic guided waves will propagate. Rayleigh waves (otherwise known as ``Surface Acoustic Waves'' (SAWs)) can be excited at high frequencies (at wavelengths much smaller than material thickness) and are confined to the surface of a material, while Lamb waves (otherwise known as ``Guided Waves'') will propagate if excited at frequencies with wavelengths in the order of material thickness, as they interact with both the top and bottom boundaries of a material. Although Rayleigh waves are non-dispersive they produce large surface motions that are highly sensitive to any discontinuities or defects and are highly affected by surface coatings such as TBCs~\cite{Dransfeld1970}. Lamb waves will propagate through the multi-layered structure of substrate-bonding layer-TBC, where the through-thickness temperature gradient will affect wave propagation, rather than only the temperature at the surface of the TBC. The interaction between both boundaries of a material means that Lamb waves can be excited from the internal surface of an NGV, outside of the gas path. This reduces the influence of the sensor on turbine operation, and reduces the effect of temperature on sensor operation.
 
-\subsubsection{Temperature Compensation Techniques} 
+\subsection{Temperature compensation techniques} 
 In many applications of Lamb wave SHM/NDE the effect of temperature on wave propagation is an undesirable factor that is compensated for using various signal processing techniques. These methods attempt to eliminate the influence of temperature in order to isolate the variable of interest i.e. defects. Temperature compensation or calibration can be carried out by using thermocouples~\cite{2-gajdacsi2014reconstruction}, but this is not ideal for the cases where the external use of a sensor is prohibited. Temperature compensation techniques, such as baseline signal stretch (BSS)~\cite{9R-12-croxford2007strategies, 1R-22-harley2012scale}, optimal baseline selection (OBS)~\cite{1R-24-konstantinidis2006temperature}, hybrid combination of BSS and OBS~\cite{1R-26-clarke2010guided, 1R-27-croxford2010efficient}, combination of OBS and adaptive filter algorithm~\cite{1R-28-wang2014adaptive}, Time of flight ($t_F$) calibration based on a linear relationship between $t_F$ and temperature~\cite{1R-li2018new}, Hilbert transform and the orthogonal matching pursuit algorithm~\cite{1R-20-liu2016baseline}, and temperature compensation for both velocity and phase changes~\cite{9-mariani2019compensation, 9R-16-herdovics2019compensation} have been proposed to reduce residuals between the baseline signal and the current signal. 
 
 BSS method only targets the wave velocity change, neglecting the change in phase and amplitude of the signal. BSS method is restricted for small temperature variations. OBS method can accommodate larger temperature variations, however it requires many baseline signals that have sufficiently low post-subtraction noise levels at different temperatures. Therefore, a combination of BSS and OBS can achieve temperature compensation with a low number of baselines. A new method introduced by Mariani \textit{et al.}~\cite{9-mariani2019compensation} considers amplitude and phase changes as well as wave speed changes. It is shown that the residual between the baseline signal and current signals roughly halved when the two signals were acquired at temperatures 15\si{\degreeCelsius} apart~\cite{9-mariani2019compensation}. Since this method has not been used for measuring the temperature, the sensitivity of the technique has not been analysed. 
 
-\subsection{Acoustic temperature sensing}
+\section{Acoustic temperature sensing}
 
 Bulk acoustic waves such as longitudinal and shear waves have been used for temperature sensing for a number of years. An overview of temperature sensing using acoustic waves is given by Lynnworth~\cite{Lynnworth1990}. Davis \textit{et al.}~\cite{Davis2008} experimented with an acoustic temperature sensor during variable frequency microwave curing of a polymer-coated silicon wafer. A sapphire buffer rod was used to separate the wafer from a Zinc Oxide (ZnO) transducer centred at approximately 600 MHz. Time of flight ($t_F$) was measured from the wafer/air interface reflection. Results were comparable to thermocouple measurements from 20\si{\degreeCelsius} to 300\si{\degreeCelsius}, $\pm$2\si{\degreeCelsius}. Takahashi \textit{et al.}~\cite{Takahashi2008} carried out 1D measurements of temperature distribution through a 30 mm thick steel plate in contact with molten aluminium (700\si{\degreeCelsius}). They noted that the system had a faster response time than the thermocouples used for validation of the method. Jia \& Skliar~\cite{Jia2016,Skliar2015} have demonstrated a method for ``UltraSound Measurements of Segmental Temperature Distribution'' (US-MSTD) in solids, utilising reflections along the signal path to estimate temperature distribution. Three different methods of parametrizing the segmental temperature distribution are discussed. The system has been tested in an oxy-fuel combustor at temperatures up to 1100 degrees, with results comparable to thermocouple measurements~\cite{Jia2019}. Jeffrey \textit{et al.}~\cite{Jeffrey2019} demonstrates 2D spatial ultrasonic temperature measurement through a container of wax using 8 0.5 MHz transducers (4 transmitters, 4 receivers), with results comparable to thermocouple measurements. Balasubramaniam \textit{et al.}~\cite{Balasubramaniam1999} developed a temperature measurement system in which an externally cooled buffer rod was used to separate an ultrasound transducer from the hot material under test (molten glass). Changes in time of flight ($t_F$) with temperature were measured from reflections from a notch placed close to the solid-liquid boundary. A calibration procedure carried out from 25\si{\degreeCelsius} to 1200\si{\degreeCelsius} was used to compensate for the thermal gradients of the delay line, and results were compared against a thermocouple  showing a greater than 2\% precision. It was noted that the change in $t_F$ due to temperature was greater than the change due to thermal expansion, leading to a non-linear relationship between temperature and time difference. Measurements were then carried out on molten glass with a resolution of 5\si{\degreeCelsius} (1 ns precision) using a 10 MHz transducer, however the author suggests resolution could be improved to 0.5\si{\degreeCelsius} with faster sampling. Ultrasonic oscillating temperature sensors (UOTSes) are another way to utilise ultrasound for temperature sensing whereby two transducers are setup to transmit through the material of interest in a feedback loop. A number of architectures are described by Hashmi \textit{et al.}~\cite{Hashmi2015, Hashmi2019}, with sensitivities up to 280 Hz/K~\cite{Alzebda2010}.
 
 The uses of guided waves for temperature sensing purposes are limited. However, the fundamental antisymmetric Lamb wave mode, $A_0$, has been used for temperature monitoring of silicon wafers during rapid thermal processing~\cite{Lee1994a,Lee1996}. Quartz pins are used as waveguides, connecting to the wafer through Hertzian contact points. Time of flight ($t_F$) was measured at a rate of 20 Hz from 100\si{\degreeCelsius} to 1000\si{\degreeCelsius} with an accuracy of $\pm$5\si{\degreeCelsius} with this method. A laser excitation system has also been used to measure the temperature of silicon wafers during rapid thermal processing~\cite{Klimek1998}. A broadband excitation pulse is used, and two different methods of signal processing are compared. A cross correlation method between a room temperature baseline signal and those at elevated temperatures, plus a matrix comparison method whereby an unknown signal is compared to a database of signals taken over the whole temperature range of interest. The matrix method was shown to require less signal averaging than the cross-correlation method, with an accuracy in the order of 1\si{\degreeCelsius}.
 The current implementations of acoustic temperature sensors demonstrate the potential of this method, but adapting these systems for use on turbine blades and NGVs will be challenging, starting with the method of effectively coupling to their structure. 
 
-\subsubsection{Measurement devices for the generation and acquisition of guided waves}\label{wavegen}
+\subsection{Measurement devices for the generation and acquisition of guided waves}\label{wavegen}
 The choice of transducer for the generation and acquisition of guided waves is limited by a number of factors including: elevated temperatures, space, and power consumption. When transmitting a wave through the structure of a material transducers can either be operated in pulse-echo mode or in a pitch-catch configuration. Pulse-echo mode operates with a single transducer acting as both transmitter and receiver, where the signal reflected from features such as defects or boundaries are analysed. Pitch-catch configurations operate with multiple transducers, some acting as transmitters and some as receivers. Response times are faster in pitch-catch configurations as waves travel directly between transducers rather than requiring a reflection to operate. Systems designed to map defects or damage (tomography) operate in pitch-catch configurations, usually with multiple pairs of transmitters/receivers to allow for higher spatial accuracy. For rotating turbine blades a transducer could be implemented in a pulse-echo configuration, if a transducer could not be housed at the rotating tip of the blade. Transducers could be operated in a pitch-catch configuration on NGVs as transducers could be placed on either side of the static vane. 
 
 Piezoelectric based transducers are amongst the most common methods of generating and acquiring acoustic waves. They can be utilised in a number of different ways for either dedicated sensors or for transmitting a wave through a particular structure of interest. Many dedicated sensors are based on the use of interdigital transducers (IDTs) operated as either delay lines or resonators, and are often referred to as surface acoustic wave (SAW) devices. These sensors can be used for high temperature sensing and can be interrogated wirelessly~\cite{PereiraDaCunha2011,Dong2019}, however they would be difficult to implement on the structure of a turbine blade or NGV, while only providing a single point measurement. 
@@ -403,13 +403,13 @@ Other options for excitation/acquisition of acoustic waves include electromagnet
 
 Although the use of piezoelectric transducers is likely to be the most appropriate method of exciting acoustic waves for this application, temperature has an effect on their operation~\cite{4-jiang2014high, 12-fachberger2004properties}. The resonant frequency of a piezoelectric transducer reduces as temperature elevates~\cite{4-jiang2014high} and if the transducer operates at the resonance ringing may be seen at some temperatures~\cite{9-mariani2019compensation}. Filtering methods have been proposed to compensate for the transducer transfer function at different frequencies~\cite{ 9R-18-hurst2015real}. Temperature variations affect the bonding stiffness at the interface between the transducer and the structure. This results in frequency response changes which can affect both amplitude and the phase of the signal~\cite{9R-14-ha2010adhesive}. A common problem with all methods of excitation using piezoelectrics is their reduction in sensitivity with increasing temperature, which makes the choice of piezoelectric material vitally important.
 
-\subsubsection{Piezoelectric selection for high temperature sensing} 
+\subsection{Piezoelectric selection for high temperature sensing} 
 Piezoelectric materials for high temperature sensors have been compared by a number of authors~\cite{Turner1994,Tressler1998,Tittmann2013,Parks2013,Jiang2013b,Schulz2003,Zhang2011,Zhang2018}. Aluminium Nitride (AlN), Langasite (LGS), and Rare Earth Calcium Oxyborate Single Crystals (ReCOB), specifically Yttrium Calcium Oxyborate Single Crystals (YCOB), can be used for high temperature sensing with piezoelectrics~\cite{stevenson2015piezoelectric}.
 YCOB has the highest operating temperature besides having a high resistivity at high temperatures. This signifies that YCOB will be able to operate at higher temperature as less heat is dissipated with a lower current. YCOB has relative small degradation in sensitivity with increasing temperatures of up to 1000\si{\degreeCelsius}, together with no significant phase change up to temperatures of 1500\si{\degreeCelsius}, which makes it ideal for high accuracy temperature measurements~\cite{zu2016high}. YCOB also has a linearly decreasing resistance with temperature, and a close to linearly decreasing resonance frequency with temperature, which can both be used for temperature measurement~\cite{zhang2008characterization}.
 
 Aluminium Nitride (AlN) also exhibits a number of very promising properties necessary for high temperature sensing such as high electrical resistivity, temperature independence of electromechanical properties, and high thermal resistivity of the elastic, dielectric, and piezoelectric properties~\cite{Kim2015}. The use of an AlN sensor up to 800\si{\degreeCelsius} has been demonstrated for detection of laser generated Lamb waves in thin steel plates by Kim~\cite{Kim2018a}. Unfortunately high-quality AlN single crystals are difficult to grow, showing a wide range of resistivity that greatly affects their suitability as ultrasound transducers~\cite{Tittmann2013a}.
 
-\subsection{Introducing Lamb waves for temperature sensing}\label{lambwavesensing}
+\section{Introducing Lamb waves for temperature sensing}\label{lambwavesensing}
 
 The geometry of turbine blades and nozzle guide vanes allows Lamb waves to propagate through their structure at ultrasound frequencies. Lamb waves are a type of elastic wave present in thin plates when wavelength is in the order of thickness. They are guided by the upper and lower boundaries of a material allowing for continuous wave propagation (Figure~\ref{fig:lambwaves})~\cite{Rose2014}. The bulk acoustic waves discussed previously are non-dispersive, i.e their wave velocities are constant with frequency, whereas Lamb waves are dispersive and multi-modal which makes their analysis complex, especially when their are other factors such as changing temperatures are involved. The lowest order modes, the fundamental antisymmetric mode $A_0$, and the fundamental symmetric mode $S_0$ (Figure~\ref{fig:incophasedisp}), are the most commonly used modes as they are relatively non-dispersive and comparatively easy to generate in comparison to the higher order modes ($A_1$, $S_1$, etc.). Lower order Lamb waves are used extensively for NDE and SHM applications and an overview of their uses for damage identification is provided by Su~\cite{Su2009a}. Lamb waves have both phase and group velocities, the phase velocity relating to the local speed with which phase of the wave changes, and a group velocity
 which describes the overall speed of energy transport through the propagating wave. Phase velocity is generally higher than the group velocity. Time of flight ($t_F$) measurements of Lamb waves give the group velocity, while special phase comparison techniques are needed to measure the phase velocity~\cite{Cheeke2000a}. 
@@ -529,6 +529,22 @@ The multiphysics simulation package COMSOL has been used to simulate potential t
 A 2D model has been produced of the experimental test setup described in Section~\ref{experiments}. This allows for validation of the time of flight measurements, and can be used to separate the effect of temperature on the wedges from the substrate. The effect of temperature on the Lamb wave alone can therefore be analysed. 
 
 The model consists of two variable angle wedges (PMMA), which are based on the geometry of the Olympus variable angle wedges used in the experimental investigation, placed on top of an aluminium plate. The thickness of the plate can be varied to target different Lamb wave modes at different frequency--thickness products. The initial thickness is set to 1 mm to target the $S_0$ mode at 1 MHz--mm. The transmitting wedge has a simplified piezoelectric transducer (PZT-5H) attached to it's rotating block, to which the excitation signal is applied. The geometry can be seen in Figure \ref{fig:COMSOLdiagram}. The received signal is measured at the receiver wedge's rotating block boundary. More realistic transducer configurations are not considered in this study, as the focus is on the effect of temperature on the propagating wave. A boundary area is set underneath the plate to act as the heat source, again mimicking the experimental setup. This is simplified to allow the temperature to be directly set, rather than simulating a hot plate.
+
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLL}
+        \hline
+        \textbf{Property} & \textbf{PMMA} & \textbf{Aluminium}  \\
+        \hline
+        Heat capacity at constant pressure (J/(kg$\cdot$K)) & 1470 & 904 \\
+        Density (kg/m$^3$) & 1190 & 2700\\
+        Thermal conductivity (W/(m$\cdot$K)) & 0.18  & 237\\
+        Young's modulus (Pa) & Equation~\ref{eqn:E PMMA} & Equation~\ref{eqn:E Alu} \\
+        Poisson's ratio & 0.35 & 0.3375\\
+        \hline
+    \end{tabulary} 
+    \caption{COMSOL material properties}\label{table:matprop}
+\end{table}
 %
 %\begin{equation}\label{eqn:comsolexcitation}
    % 10 \times \sin{(2\pi f_{0}\text{t}) \times \left( \text{t} < \left( \frac{\text{np}}{f_{0}} \right) \right)}
@@ -536,7 +552,19 @@ The model consists of two variable angle wedges (PMMA), which are based on the g
 % 
 %Where ``np'' is the number of cycles in the pulse (10) and $f_0$ is the excitation frequency (1~MHz). The function is set to ``V'' as this will be applied to a voltage terminal of the simple piezoelectric transducer.
 %
-The change in Young's Modulus with temperature is included in the material properties for both the wedges~\cite{Sahputra2018} and the aluminium~\cite{Hopkins2012}. The change in Poisson's ratio and density is assumed to negligible and is not included in the simulation. Thermal expansion is also considered to have a negligible effect on the propagation distance and is excluded.
+The change in Young's Modulus with temperature is included in the material properties for both the wedges (Equation~\ref{eqn:E PMMA})~\cite{Sahputra2018} and the aluminium (Equation~\ref{eqn:E Alu})~\cite{Hopkins2012} using piecewise functions.
+%
+\begin{equation}
+    \label{eqn:E PMMA}
+    E\left( T \right) = \-15250.0000000002\times T^2 + 1125000.00000015\times T + 5432499999.99998\    
+\end{equation}
+%
+\begin{equation}
+    \label{eqn:E Alu}
+    E\left( T \right) = \  - 4E7 \times T + 8E10\   
+\end{equation}
+%
+The change in Poisson's ratio and density is assumed to negligible and is not included in the simulation. Thermal expansion is also considered to have a negligible effect on the propagation distance and is excluded.
 
 The modules Solid Mechanics, Electrostatics, and Heat Transfer in Solids are used in this simulation, along with a multiphysics node to couple Solid Mechanics with Electrostatics for the piezoelectric effect.
 
@@ -574,9 +602,50 @@ To visualise wave propagation and calculate time of flight the pressure at both 
 
 \chapter{Experimental investigation of Lamb wave temperature sensitivity}\label{experiments}
 
-The wave velocity temperature sensitivity of three Lamb wave modes have been experimentally measured, to be validated against theoretical predictions.
+The wave velocity temperature sensitivity of the $S_0$, $A_1$, and $S_1$ Lamb wave modes have been experimentally measured, to be validated against theoretical predictions in Chapter~\ref{theory}.
 
-Two 1 MHz piezoelectric transducers attached to acrylic wedges (Olympus variable angle wedge) in a pitch-catch configuration have been coupled to a 1~mm thick aluminium with a liquid couplant (Figures~\ref{fig:testdiagram} \&~\ref{fig:testsetup}). The wedges allow for careful selection of excitation angle so that modes of interest can be targeted. The angle is determined based on Snell’s law:
+Two 1 MHz piezoelectric transducers attached to acrylic wedges (Olympus variable angle wedge) in a pitch-catch configuration have been coupled to a 1~mm thick aluminium plate with a liquid couplant (Figures~\ref{fig:testdiagram} \&~\ref{fig:testsetup}). A signal generator (Hewlett Packard 33120A) has been used to generate a 10-cycle tone burst at 1~MHz. Time of flight ($t_F$) is measured between transducers using a cross-correlation function in MATLAB (see Figure \ref{fig:crosscorr}), and wave velocity is calculated from the distance between transducers. Based on a sampling rate of 5$\times$10$^8$ the theoretical maximum temporal resolution is 2~ns. This is equal to a velocity resolution of $\pm$~0.35~m~s$^{-1}$.
+
+\begin{table}[b]
+    \centering
+    \begin{tabulary}{\textwidth}{L}
+        \hline
+        \textbf{Measurement Hardware}     \\
+        \hline
+        2x Olympus ABWX-2001 Variable angle wedges \\
+        2x Olympus A539S-SM 1 MHz transducers \\
+        Olympus ultrasonic couplant B \\
+        Hewlett Packard/Agilent 33120A Signal generator \\
+        Picoscope 3406DMSO USB Oscilloscope \\
+        Thermadata T-type temperature loggers \\
+        VWR Hot plate \\
+        \hline
+    \end{tabulary} 
+    \caption{Experimental measurement hardware.}\label{table:hardware}
+\end{table}
+
+\newpage
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/testdiagramsimple.eps}
+    \caption{Cross-sectional diagram of test setup.}\label{fig:testdiagram}
+\end{figure}
+
+Wave velocity is calculated using Equation~\ref{velocitycalc}/\ref{velocitycalcfull}. The propagation time through the wedges has been subtracted from the total $t_F$ to ensure that only the propagation time through the plate is measured.  
+%
+\begin{equation} \label{velocitycalc}
+v = \frac{d}{t_F}
+\end{equation} 
+%
+\begin{equation} \label{velocitycalcfull}
+v = \left( \frac{d\;\text{between wedges} + d\;\text{wedge foot offset}}{\text{Total}\;t_F - \text{Wedge-to-wedge}\;t_F} \right)
+\end{equation} 
+%
+\\
+Where the $d$ wedge foot offset is 0.0425 m. This is the distance from the front edge of the wedge to where the wave enters the plate from the wedge. Measurements have been carried out at multiple temperatures (20\si{\degreeCelsius}--100\si{\degreeCelsius} in $\sim$10\si{\degreeCelsius} increments), controlled by a hot plate beneath the aluminium plate. 
+
+The wedges allow for careful selection of excitation angle so that modes of interest can be targeted. The angle is determined based on Snell’s law:
 %
 \begin{equation} 
 \text{Angle}\ \theta = \text{Sin}^{- 1} \left( \frac{\text{Longitudinal\ wedge\ velocity}}{\text{Lamb\ wave\ phase\ velocity}} \right)
@@ -600,49 +669,13 @@ Where $\alpha$ is the coefficient of thermal expansion of the medium and $k$ is 
 k = \frac{\delta \text{c}}{\delta \text{T}}
 \end{equation} 
 %
-A signal generator (Hewlett Packard 33120A) has been used to generate a 10-cycle tone burst at 1~MHz. Time of flight ($t_F$) is measured between transducers using a cross-correlation function in MATLAB, and wave velocity is calculated from the distance between transducers. Based on a sampling rate of 5 $\times$ 10$^8$ the theoretical maximum temporal resolution is 2 ns. This is equal to a velocity resolution of $\pm$ 0.35 m s$^{-1}$. The propagation time through the wedges at each temperature has been subtracted from the total $t_F$ to ensure that only the propagation time through the plate is measured. Wave velocity is calculated using Equation~\ref{velocitycalc}/\ref{velocitycalcfull}. 
-%
-\begin{equation} \label{velocitycalc}
-v = \frac{d}{t_F}
-\end{equation} 
-%
-\begin{equation} \label{velocitycalcfull}
-v = \left( \frac{d\;\text{between wedges} + d\;\text{wedge foot offset}}{\text{Total}\;t_F - \text{Wedge-to-wedge}\;t_F} \right)
-\end{equation} 
-%
-\\
-Where the $d$ wedge foot offset is 0.0425 m. Measurements have been carried out at multiple temperatures (20\si{\degreeCelsius}--100\si{\degreeCelsius} in $\sim$10\si{\degreeCelsius} increments).
-
-\begin{table}
-    \centering
-    \begin{tabulary}{\textwidth}{L}
-        \hline
-        \textbf{Measurement Hardware}     \\
-        \hline
-        2x Olympus ABWX-2001 Variable angle wedges \\
-        2x Olympus A539S-SM 1 MHz transducers \\
-        Olympus ultrasonic couplant B \\
-        Hewlett Packard/Agilent 33120A Signal generator \\
-        Picoscope 3406DMSO USB Oscilloscope \\
-        Thermadata T-type temperature loggers \\
-        VWR Hot plate \\
-        \hline
-    \end{tabulary} 
-    \caption{Experimental measurement hardware}\label{table:hardware}
-\end{table}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.8\textwidth]{./figures/testdiagramsimple.eps}
-    \caption{Cross-sectional diagram of test setup.}\label{fig:testdiagram}
-\end{figure}
-
 \begin{figure}[ht]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/hjkhh7UmEx.png}
     \caption{Photograph of test setup.}\label{fig:testsetup}
 \end{figure}
 
+\newpage
 \section{Test Method}
 
 A hot plate is used to raise the temperature of the aluminium plate to the desired temperature. The temperature of the aluminium plate is monitored using thermocouples. The total $t_F$ is measured until it stabilises. The temperature of the entire system must be allowed to stabilise before taking the measurement to ensure that the temperature of the wedge is the same as the plate. Total $t_F$ is now measured for the set temperature. Multiple measurements are taken after adjusting wedge position. Wedges are removed from the surface and placed together to measure the wedge-to-wedge $t_F$. Multiple measurements are taken after adjusting wedge-to-wedge position. The $t_F$ measurement process is repeated after allowing the total $t_F$ to re-stabilise. Velocity is calculated using Equation~\ref{velocitycalcfull}. A mean average is calculated from the results of the repeated total $t_F$ measurements, and velocity is calculated for every wedge-to-wedge result. An average velocity is calculated along with standard deviation. 
@@ -654,7 +687,7 @@ The temperature gradient across the plate has been measured by placing four equa
 \begin{figure}[ht]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/waveformxcorr.eps}
-    \caption{Time of flight ($t_F$) measurement using cross-correlation function at room temperature.}\label{fig:waveforms}
+    \caption{Time of flight ($t_F$) measurement using cross-correlation function at room temperature.}\label{fig:crosscorr}
 \end{figure}
 %
 The wedge angle required for the $S_0$ mode is:
@@ -679,9 +712,23 @@ Figure~\ref{fig:result} shows experimentally measured wave velocity of the $S_0$
 
 Experimental measurements are underway on this mode. Initial studies indicate that only the $A_1$ mode is present.
 
+The wedge angle required for the $A_1$ mode is:
+%
+\begin{equation} 
+24{^\circ} = \text{Sin}^{- 1} \left( \frac{2720}{6654} \right)
+\end{equation} 
+%
+
 \section{S1 mode (4 MHz-mm)}
 
 Experimental measurements are planned in the near future for this mode. Initial studies indicate that this region of frequency-thickness is multi--modal and both the $A_1$ and $S_1$ modes will be present, due to similarities in phase velocity and excitation angle. This study will benefit from the use of short windowed pulses that will aide in separating the modes in the time domain.
+
+The wedge angle required for the $S_1$ mode is:
+%
+\begin{equation} 
+28{^\circ} = \text{Sin}^{- 1} \left( \frac{2720}{5874} \right)
+\end{equation} 
+%
 
 \section{Experimental sensitivity analysis}
 
@@ -699,17 +746,17 @@ It is clear that wedge transducers are not the optimum method of transmitting/re
 
 \chapter{Plan}\label{plan}
 
-\section{Research Summary}
+\section{Research summary}
 
 Prior to the 18 month confirmation review the following research has been undertaken:
 
 \begin{itemize}
     \item Evaluation of the currently used methods for temperature monitoring of NGVs/turbine blades, with a focus on online methods. The outcome of this study can provide the requirements for the development of a new system. This is addressed in Section~\ref{tempmonitoringmethods}.
-    \item Determine whether ultrasonic methods are a suitable alternative to the currently available monitoring systems, based on a number of factors such as: response time, accuracy, reliability, power consumption, and possible sensor installation methods. This is addressed in Section~\ref{ultrasonicmonitoring}.
-    \item Identifying a method of exciting Lamb waves in plate-like structures. This is addressed in Section~\ref{wavegen}.
-    \item Understanding the effect of temperature on Lamb wave propagation. This is addressed in Section~\ref{lambwavesensing}.
-    \item Verification of the theoretical temperature sensitivities of Lamb wave modes with experimental data. Measurements up to 100\si{\degreeCelsius} in an aluminium plate. This is addressed in Section~\ref{theory}.
-    \item COMSOL modelling of the experimental test system. The model will be used in future studies. This is addressed in Section~\ref{simulations}.
+    \item An investigation into whether ultrasonic methods are a suitable alternative to the currently available monitoring systems, based on a number of factors such as: response time, accuracy, reliability, power consumption, and possible sensor installation methods. This is addressed in Section~\ref{ultrasonicmonitoring}. This study contributes to answering research question~\ref{itm:1}.
+    \item Identifying a method of exciting Lamb waves in plate-like structures. This is addressed in Section~\ref{wavegen}. This study contributes to answering research question~\ref{itm:2}.
+    \item Understanding the effect of temperature on Lamb wave propagation. This is addressed in Section~\ref{lambwavesensing}. This study contributes to answering research question~\ref{itm:1}.
+    \item Verification of the theoretical temperature sensitivities of Lamb wave modes with experimental data. Measurements up to 100\si{\degreeCelsius} in an aluminium plate. This is addressed in Section~\ref{theory}. This study contributes to answering research question~\ref{itm:2}.
+    \item COMSOL modelling of the experimental test system. The model will be used in future studies. This is addressed in Section~\ref{simulations}. This study contributes to answering research questions~\ref{itm:3}, \ref{itm:4}, \ref{itm:5}, and \ref{itm:6}.
 \end{itemize} 
 
 %Considering the outcome of the experimental study it has been shown that temperature can be monitored using ultrasound techniques. The next stage of the study is to investigate the effect of cooling holes on the propagation of waves, and to explore the possibility of monitoring temperature in multiple locations by analysing the reflections from a number of holes.
@@ -720,11 +767,11 @@ Prior to the 18 month confirmation review the following research has been undert
 \section{Future plans}
 
 \begin{itemize}
-    \item The effect of plate holes on Lamb wave mode propagation will be investigated through simulation and experimentation. This will mimic the cooling hole structure found on NGVs. The effect on amplitude and mode conversion will be investigated for a number of modes, to determine the most suitable mode for temperature monitoring.
-    \item The ability to monitor temperature at a number of locations through the analysis of acoustic reflections will be explored. This will follow on from the previous study, focusing on the use of the mode previously determined to be most suitable. Both pulse-echo and pitch-catch transducer configurations will be investigated.
-    \item The effect of thermal barrier coatings (TBCs) on wave propagation will be investigated using COMSOL models.
-    \item To operate at higher temperatures a new transducer configuration will be required. The most suitable option is to distance the transducers away from the high temperatures using waveguides, coupling into the test structure using a system of Hertzian contact points. COMSOL simulations will be used to investigate the potential of this method.
-    \item Depending on the outcome of the previous COMSOL study and time constraints, a waveguide system will be tested experimentally.
+    \item The effect of plate holes on Lamb wave mode propagation will be investigated through simulation and experimentation. This will mimic the cooling hole structure found on NGVs. The effect on amplitude and mode conversion will be investigated for a number of modes, to determine the most suitable mode for temperature monitoring. This study will partially answer research questions~\ref{itm:3} and~\ref{itm:4}.
+    \item The ability to monitor temperature at a number of locations through the analysis of acoustic reflections will be explored. This will follow on from the previous study, focusing on the use of the mode previously determined to be most suitable. Both pulse-echo and pitch-catch transducer configurations will be investigated. This study will answer research question~\ref{itm:5}, and contribute to answering research question~\ref{itm:6}.
+    \item The effect of thermal barrier coatings (TBCs) on wave propagation will be investigated using COMSOL models. This study will partially answer research question~\ref{itm:3}. 
+    \item To operate at higher temperatures a new transducer configuration will be required. The most suitable option is to distance the transducers away from the high temperatures using waveguides, coupling into the test structure using a system of Hertzian contact points. COMSOL simulations will be used to investigate the potential of this method. This study will partially answer research question~\ref{itm:6}. 
+    \item Depending on the outcome of the previous COMSOL study and time constraints, a waveguide system will be tested experimentally. This study will partially answer research question~\ref{itm:6}. 
     \item A journal or conference paper submission will be prepared that focuses on the COMSOL~modelling and analysis of Lamb wave propagation. 
 \end{itemize}
 

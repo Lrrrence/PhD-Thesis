@@ -1,44 +1,43 @@
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Research objectives}{5}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Research questions}{5}{subsection.1.1.1}%
-\contentsline {section}{\numberline {1.2}Research output}{6}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Current surface temperature monitoring strategies}{9}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Numerical methods for temperature estimation}{9}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Offline Monitoring Methods}{10}{subsection.2.2.2}%
-\contentsline {subsubsection}{Thermal paint or Temperature indicating paint}{10}{subsection.2.2.2}%
-\contentsline {subsubsection}{Thermal history sensors}{12}{figure.caption.6}%
-\contentsline {subsubsection}{Other offline sensors}{13}{figure.caption.6}%
-\contentsline {subsection}{\numberline {2.2.3}Online Monitoring Methods}{14}{subsection.2.2.3}%
-\contentsline {subsubsection}{Thermocouples}{14}{subsection.2.2.3}%
-\contentsline {subsubsection}{Pyrometry}{16}{figure.caption.8}%
-\contentsline {subsubsection}{Temperature sensitive paints}{16}{figure.caption.10}%
-\contentsline {subsubsection}{Thermographic phosphors}{18}{figure.caption.10}%
-\contentsline {subsubsection}{Other methods}{19}{figure.caption.11}%
-\contentsline {section}{\numberline {2.3}Emerging techniques for online monitoring}{21}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Ultrasonic Structural Health Monitoring}{21}{subsection.2.3.1}%
-\contentsline {subsubsection}{Temperature Compensation Techniques}{22}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Acoustic temperature sensing}{22}{subsection.2.3.2}%
-\contentsline {subsubsection}{Measurement devices for the generation and acquisition of guided waves}{23}{subsection.2.3.2}%
-\contentsline {subsubsection}{Piezoelectric selection for high temperature sensing}{27}{figure.caption.18}%
-\contentsline {subsection}{\numberline {2.3.3}Introducing Lamb waves for temperature sensing}{27}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Conclusion}{32}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Other applications}{34}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Theoretical temperature sensitivity of Lamb waves}{35}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Multi-modal Lamb waves}{35}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Generation of dispersion curves}{35}{section.3.2}%
-\contentsline {chapter}{\numberline {4}COMSOL simulations of Lamb wave propagation}{38}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Variable angle wedge simulation}{38}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Experimental investigation of Lamb wave temperature sensitivity}{41}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Test Method}{42}{section.5.1}%
-\contentsline {section}{\numberline {5.2}S0 mode (1 MHz-mm)}{43}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}S0 mode results}{43}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}A1 mode (2.5 MHz-mm)}{44}{section.5.3}%
-\contentsline {section}{\numberline {5.4}S1 mode (4 MHz-mm)}{44}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Experimental sensitivity analysis}{45}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Conclusion}{46}{section.5.6}%
-\contentsline {chapter}{\numberline {6}Plan}{47}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Research Summary}{47}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Future plans}{48}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Gantt chart}{48}{section.6.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Research objectives}{6}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Research questions}{6}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Research output}{7}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Nozzle guide vane (NGV) temperature monitoring}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Current surface temperature monitoring strategies}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Numerical methods for temperature estimation}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Offline Monitoring Methods}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Thermal paint or Temperature indicating paint}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Thermal history sensors}{13}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Other offline sensors}{14}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Online Monitoring Methods}{15}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Thermocouples}{16}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Pyrometry}{17}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Temperature sensitive paints}{18}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Thermographic phosphors}{18}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Other methods}{20}{subsection.2.4.5}%
+\contentsline {chapter}{\numberline {3}Emerging techniques for online monitoring}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Ultrasonic structural health monitoring}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Temperature compensation techniques}{23}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Acoustic temperature sensing}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Measurement devices for the generation and acquisition of guided waves}{25}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Piezoelectric selection for high temperature sensing}{27}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Introducing Lamb waves for temperature sensing}{28}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Conclusion}{34}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Other applications}{35}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Theoretical temperature sensitivity of Lamb waves}{36}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Multi-modal Lamb waves}{36}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Generation of dispersion curves}{36}{section.4.2}%
+\contentsline {chapter}{\numberline {5}COMSOL simulations of Lamb wave propagation}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Variable angle wedge simulation}{39}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{43}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Test Method}{45}{section.6.1}%
+\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{45}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{46}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{47}{section.6.3}%
+\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{47}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{47}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Conclusion}{48}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Plan}{50}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Research summary}{50}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Future plans}{51}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Gantt chart}{51}{section.7.3}%
