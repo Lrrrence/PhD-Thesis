@@ -82,7 +82,14 @@ A number of studies are underway to investigate the effects of the physical envi
 {
   \hypersetup{hidelinks}
   \tableofcontents
+  \listoffigures
+  \begingroup
+  \let\clearpage\relax
+  \listoftables
+  \endgroup
 }
+
+
 
 \chapter{Introduction}
 Nozzle guide vanes (NGVs) are static components found in the turbine section of a jet engine (Figure~\ref{fig:crossngv}). Temperature monitoring of these components is important for a number of reasons: identifying potential failures before they occur, evaluating the need for maintenance, investigating ways of improving engine efficiency, and reducing fuel consumption. Online temperature monitoring of NGVs is difficult to achieve with currently available technologies (see Chapter~\ref{literev}). Acoustic based monitoring methods offer a potential alternative. The velocity of acoustic waves is affected by temperature (among other properties) and can be used for temperature monitoring if a suitable sensor system can be developed and implemented. Transducers can be used to transmit acoustic waves through a material and analyse the received signal. The transducers can be placed away from harsh conditions (e.g.\ turbine gas paths) which would otherwise limit their operation. In the case of nozzle guide vanes (NGVs) their geometry allows for the propagation of Lamb waves at ultrasound frequencies. These waves are dispersive and many distinct modes can be present, which makes their analysis difficult. Despite this problem they can provide high temperature sensitivities (mode dependant) and can travel large distances with limited attenuation. Generation of these waves is possible with a number of different transducer configurations, but the choice is limited by the harsh conditions of the turbine and by space and power constraints. Two potential solutions are the use of waveguides to further distance transducers from the harsh environment, or the use of Piezoelectric Wafer Active Sensors (PWAS) which can be used at high temperatures with careful piezoelectric material selection.
@@ -578,10 +585,6 @@ The mesh size for each material is determined by excitation frequency. The excit
 
 This study has two steps, firstly a stationary study to simulate the effect of temperature on the system until an equilibrium is reached, and secondly a time dependant study to simulate wave propagation that has it's initial conditions set by the stationary study. The settings for the initial study are adjusted to not solve for electrostatics/the piezoelectric effect. The time dependant study has it's ``Output times'' set to: range(0,dt,sim\textunderscore length) where ``dt'' is a global definition parameter equal to CFL/(N$\times f_0$). The CFL number is suggested by COMSOL to be less than 0.2, optimally 0.1. Under ``Values of Dependant Variables'' the settings are changed to user controlled, method is changed to Solution, and the study is set to the stationary study. The time step is manually set under Solver Configurations$>$Solution 1$>$Time dependant solver$>$Time stepping. Here the ``Steps taken by solver'' parameter is changed to ``Manual'' and the ``Time Step'' is set to: CFL/(N$\times f_0$). 
 
-Exaggerated deformation of pressure in the plate as seen in Figure \ref{fig:simmodes} makes the presence of the $A_0$ and $S_0$ modes clearly visible. The modes are separated in the time domain after a short distance ($\sim$~50 mm) due to the difference in group velocity. 
-
-To visualise wave propagation and calculate time of flight the pressure at both transmitter and receiver wedge boundaries are exported, and the time of flight is measured using a cross-correlation method, to allow direct comparison with experimental results. An example of wave propagation at room temperature can be seen in Figure \ref{fig:COMSOLsimsignal}. Time of flight is in line with experimental measurements.
-
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth]{./figures/comsoldiagram.png}
@@ -599,6 +602,14 @@ To visualise wave propagation and calculate time of flight the pressure at both 
     \includegraphics[width=\textwidth]{./figures/simpulse20cedit.eps}
     \caption{COMSOL simulation of $S_0$ mode propagation at room temperature.}\label{fig:COMSOLsimsignal}
 \end{figure}
+
+\section{Simulation results}
+
+Exaggerated deformation of pressure in the plate as seen in Figure \ref{fig:simmodes} makes the presence of the $A_0$ and $S_0$ modes clearly visible. The modes are separated in the time domain after a short distance ($\sim$~50 mm) due to the difference in group velocity. 
+
+To visualise wave propagation and calculate time of flight the pressure at both transmitter and receiver wedge boundaries are exported, and the time of flight is measured using a cross-correlation method, to allow direct comparison with experimental results. An example of wave propagation at room temperature can be seen in Figure \ref{fig:COMSOLsimsignal}. 
+
+Calculated total Time of flight (through both the wedges and the plate) is longer than experimental measurements of the same setup. This causes calculated wave velocity to be lower than expected ($\sim$ -120 m s$^-1$). Time of flight in the wedge-to-wedge configuration is in line with experimental measurements, which eliminates the wedges as a source of error. The material properties of the aluminium plate are the same as those used in the theoretical study, which should (in theory) mean that the velocity in the simulated plate is the same as was extracted from dispersion curves. Frequency analysis of the transmitted wave shows that it is still centred at 1 MHz. 
 
 \chapter{Experimental investigation of Lamb wave temperature sensitivity}\label{experiments}
 

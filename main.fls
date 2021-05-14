@@ -1498,6 +1498,15 @@ INPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.toc
 INPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.toc
 INPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.toc
 OUTPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.toc
+INPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.lof
+INPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.lof
+INPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.lof
+INPUT C:\Users\yulel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+OUTPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.lof
+INPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.lot
+INPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.lot
+INPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.lot
+OUTPUT c:\Users\yulel\Documents\LaTeX\Progression-report\main.lot
 INPUT .\figures\turbine plus ngv.png
 INPUT .\figures\turbine plus ngv.png
 INPUT figures\turbine plus ngv.png
@@ -1532,7 +1541,6 @@ INPUT .\figures\tempmethodsvenn-eps-converted-to.pdf
 INPUT .\figures\tempmethodsvenn-eps-converted-to.pdf
 INPUT .\figures\tempmethodsvenn-eps-converted-to.pdf
 INPUT .\figures\tempmethodsvenn-eps-converted-to.pdf
-INPUT C:\Users\yulel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\figures\Single change paints edit.png
 INPUT .\figures\Single change paints edit.png
 INPUT figures\Single change paints edit.png
