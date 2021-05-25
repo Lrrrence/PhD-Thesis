@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.23)  17 MAY 2021 09:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.18)  25 MAY 2021 09:47
 entering extended mode
 **c:/Users/yulel/Documents/LaTeX/Progression-report/main.tex
 (c:/Users/yulel/Documents/LaTeX/Progression-report/main.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+L3 programming layer <2021-05-07> (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
 (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
@@ -274,13 +274,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
+Package: expl3 2021-05-07 L3 programming layer (loader) 
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count279
 \l__pdf_internal_box=\box54
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-2020-10-01.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex)))
-Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
+Package: siunitx 2021-04-17 v2.8e A comprehensive (SI) units package
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
@@ -288,7 +288,7 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks29
 \ex@=\dimen178
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-05-07 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box55
 \l__siunitx_tmp_dim=\dimen179
@@ -827,7 +827,7 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count372
 \c@continuedfloat=\count373
 Package caption Info: hyperref package is loaded.
-) (c:/Users\yulel\Documents\LaTeX\Progression-report\main.aux)
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -890,12 +890,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
- (c:/Users\yulel\Documents\LaTeX\Progression-report\main.out) (c:/Users\yulel\Documents\LaTeX\Progression-report\main.out)
+ (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+File: siunitx-abbreviations.cfg 2021-04-17 v2.8e siunitx: Abbreviated units
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-months-dictionary-English.dict
@@ -954,7 +954,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <to be read again> 
                    \relax 
 l.80 \end{abstract}
-                    [1] (c:/Users\yulel\Documents\LaTeX\Progression-report\main.tocpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+                    [1] (main.tocpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.35 ... {6.2}S0 mode (1 MHz-mm)}{47}{section.6.2}
@@ -964,13 +964,13 @@ l.35 ... {6.2}S0 mode (1 MHz-mm)}{47}{section.6.2}
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [2] (c:/Users\yulel\Documents\LaTeX\Progression-report\main.lof [3
+ [2] (main.lof [3
 
 ])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- (c:/Users\yulel\Documents\LaTeX\Progression-report\main.lot)
+ (main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
@@ -1485,22 +1485,22 @@ File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf, page 1>
 Package pdftex.def Info: ./figures/gantt.pdf , page1 used on input line 792.
 (pdftex.def)             Requested size: 1195.0127pt x 682.8645pt.
- [54 <./figures/gantt.pdf, page is rotated 90 degrees>] (c:/Users\yulel\Documents\LaTeX\Progression-report\main.bbl [55
+ [54 <./figures/gantt.pdf, page is rotated 90 degrees>] (main.bbl [55
 
-] [56] [57] [58] [59] [60] [61] [62] [63] [64]) [65] (c:/Users\yulel\Documents\LaTeX\Progression-report\main.aux)
+] [56] [57] [58] [59] [60] [61] [62] [63] [64]) [65] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 35B173D1F92BD452450EC3E80750CE02;9910.
  ) 
 Here is how much of TeX's memory you used:
- 31043 strings out of 479324
- 604986 string characters out of 2856815
- 913795 words of memory out of 3000000
- 47525 multiletter control sequences out of 15000+600000
+ 31230 strings out of 479173
+ 609646 string characters out of 2854167
+ 916980 words of memory out of 3000000
+ 47859 multiletter control sequences out of 15000+600000
  418078 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,21n,117p,3733b,1156s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 108i,21n,117p,3733b,1156s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/IBMPlexSans-Bold.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/IBMPlexSans-Text.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Italic.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on c:/Users\yulel\Documents\LaTeX\Progression-report\main.pdf (67 pages, 22012639 bytes).
+Output written on main.pdf (67 pages, 22012730 bytes).
 PDF statistics:
  1486 PDF objects out of 1728 (max. 8388607)
  331 named destinations out of 1000 (max. 500000)
