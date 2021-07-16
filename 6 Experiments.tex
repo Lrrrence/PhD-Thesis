@@ -2,7 +2,7 @@
 
 The wave velocity temperature sensitivity of the $S_0$, $A_1$, and $S_1$ Lamb wave modes have been experimentally measured, to be validated against theoretical predictions in Chapter~\ref{theory}.
 
-Two 1 MHz piezoelectric transducers attached to acrylic wedges (Olympus variable angle wedge) in a pitch-catch configuration have been coupled to a 1~mm thick aluminium plate with a liquid couplant (Figures~\ref{fig:testdiagram} \&~\ref{fig:testsetup}). A signal generator (Hewlett Packard 33120A) has been used to generate a 10-cycle tone burst at 1~MHz. Time of flight ($t_F$) is measured between transducers using a cross-correlation function in MATLAB (see Figure \ref{fig:crosscorr}), and wave velocity is calculated from the distance between transducers. Based on a sampling rate of 5$\times$10$^8$ the theoretical maximum temporal resolution is 2~ns. This is equal to a velocity resolution of $\pm$~0.35~m~s$^{-1}$.
+Two 1 MHz piezoelectric transducers attached to acrylic wedges (Olympus variable angle wedge) in a pitch-catch configuration have been coupled to a 1~mm thick aluminium plate with a liquid couplant (Figure~\ref{fig:testsetup}). A signal generator (GW Instek MFG-2203M ) has been used to generate a 5-cycle Hamming windowed tone burst at 1~MHz. Signals are digitised using a Picoscope 3406DMSO USB Oscilloscope. Based on a sampling rate of 5$\times$10$^8$ the theoretical maximum temporal resolution is 2~ns. This is equal to a velocity resolution of $\pm$~0.35~m~s$^{-1}$. Signal processing is carried out in MATLAB. A zero-phase bandpass filter is applied to the signals to remove unwanted noise. Time of flight ($t_F$) is measured between transducers and wave velocity is calculated from the distance between transducers. 
 
 \begin{table}[b]
     \centering
@@ -13,7 +13,7 @@ Two 1 MHz piezoelectric transducers attached to acrylic wedges (Olympus variable
         2x Olympus ABWX-2001 Variable angle wedges \\
         2x Olympus A539S-SM 1 MHz transducers \\
         Olympus ultrasonic couplant B \\
-        Hewlett Packard/Agilent 33120A Signal generator \\
+        GW Instek MFG-2203M Signal generator \\
         Picoscope 3406DMSO USB Oscilloscope \\
         Thermadata T-type temperature loggers \\
         VWR Hot plate \\
@@ -26,8 +26,14 @@ Two 1 MHz piezoelectric transducers attached to acrylic wedges (Olympus variable
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=.8\textwidth]{./figures/testdiagramsimple.eps}
-    \caption{Cross-sectional diagram of test setup.}\label{fig:testdiagram}
+    \includegraphics[width=.9\textwidth]{./figures/testdiagramsimple.eps}
+    \caption{Cross-sectional diagram of total time-of-flight measurement setup.}\label{fig:testdiagramtotal}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.7\textwidth]{./figures/w2wdiagram.eps}
+    \caption{Cross-sectional diagram of wedge-to-wedge time-of-flight measurement setup.}\label{fig:testdiagramw2w}
 \end{figure}
 
 Wave velocity is calculated using Equation~\ref{velocitycalc}/\ref{velocitycalcfull}. The propagation time through the wedges has been subtracted from the total $t_F$ to ensure that only the propagation time through the plate is measured.  
@@ -76,9 +82,9 @@ k = \frac{\delta \text{c}}{\delta \text{T}}
 \newpage
 \section{Test Method}
 
-A hot plate is used to raise the temperature of the aluminium plate to the desired temperature. The temperature of the aluminium plate is monitored using thermocouples. The total $t_F$ is measured until it stabilises. The temperature of the entire system must be allowed to stabilise before taking the measurement to ensure that the temperature of the wedge is the same as the plate. Total $t_F$ is now measured for the set temperature. Multiple measurements are taken after adjusting wedge position. Wedges are removed from the surface and placed together to measure the wedge-to-wedge $t_F$. Multiple measurements are taken after adjusting wedge-to-wedge position. The $t_F$ measurement process is repeated after allowing the total $t_F$ to re-stabilise. Velocity is calculated using Equation~\ref{velocitycalcfull}. A mean average is calculated from the results of the repeated total $t_F$ measurements, and velocity is calculated for every wedge-to-wedge result. An average velocity is calculated along with standard deviation. 
+A hot plate is used to raise the temperature of the aluminium plate to the desired temperature. The temperature of the aluminium plate is monitored using a thermocouple placed in the centre of the plate at the hottest point. The total $t_F$ is measured until it stabilises using the test setup shown in Figure~\ref{fig:testdiagramtotal}. The temperature of the entire system must be allowed to stabilise before taking the measurement to ensure that the temperature of the wedge is the same as the plate. Total $t_F$ is now measured for the set temperature. Multiple measurements are taken after adjusting wedge position. Wedges are removed from the surface and placed together to measure the wedge-to-wedge $t_F$ as shown in Figure~\ref{fig:testdiagramw2w}. Multiple measurements are taken after adjusting wedge-to-wedge position. The $t_F$ measurement process is repeated after allowing the total $t_F$ to re-stabilise. Velocity is calculated using Equation~\ref{velocitycalcfull}. A mean average is calculated from the results of the repeated total $t_F$ measurements, and velocity is calculated for every wedge-to-wedge result. An average velocity is calculated along with standard deviation. 
 
-The temperature gradient across the plate has been measured by placing four equally spaced thermocouples along the transmission path, from the centre of the plate to the furthest edge of the wedge transducer in 3 cm increments. The gradient is assumed to be the same on both sides of the plate. An average temperature has been calculated for the total transmission path at each hot plate temperature setting. 
+The temperature gradient across the plate has been measured by placing four equally spaced thermocouples along the transmission path, from the centre of the plate to the furthest edge of a wedge transducer in 3 cm increments. The wedges are removed from the plate to place the thermocouples, and the temperature of the hot plate is raised to match the temperature recorded by the thermocouple placed in the centre of the plate during measurement of total $t_F$. Measurements are repeated after moving the thermocouples to the other half of the transmission path. A mean average temperature has been calculated for the total transmission path at each hot plate temperature setting. 
 
 \section{S0 mode (1 MHz-mm)}\label{S0 experiments}
 
@@ -127,7 +133,7 @@ Figure~\ref{fig:A1result} shows experimentally measured wave velocity of the $A_
 \newpage
 \section{S1 mode (4 MHz-mm)}
 
-This region of frequency-thickness product is multi-modal, with both the $A_1$ and $S_1$ modes present. Similarities in phase velocity leads to similar excitation angles, which causes both modes to be excited. Using a cross-correlation method for measuring time-of-flight is no longer appropriate, as the received signal differs substantially from the input signal. An envelope peak method is employed instead, whereby a peak envelope for both the excitation signal and received signal is generated by spline interpolation over local maxima, separated by 500 samples. This produces a smooth envelope with clearly defined central peaks, as seen in Figure~\ref{fig:S1timedomain}. A peak finding algorithm is used to detect the envelope peaks, as denoted by the dashed lines. The $S_1$ mode ($\sim$~4550 m s$^{-1}$) arrives at the receiver before the $A_1$ mode ($\sim$~2550 m s$^{-1}$) as it has a considerably higher group velocity. At this propagation distance the two modes are clearly separated in the time domain, with the $A_1$ mode showing considerably more dispersion.  
+This region of frequency-thickness product is multi-modal, with both the $A_1$ and $S_1$ modes present. Similarities in phase velocity leads to similar excitation angles, which causes both modes to be excited. Using a cross-correlation method for measuring time-of-flight is no longer appropriate, as the received signal differs substantially from the input signal. An envelope peak method is employed instead, whereby analytic envelopes for both the excitation signal and received signal are generated by Hilbert FIR filtering, with a filter length of 2000 samples. This produces a smooth envelope with clearly defined central peaks, as seen in Figure~\ref{fig:S1timedomain}. A peak finding algorithm is used to detect the envelope peaks, as denoted by the dashed lines. The $S_1$ mode ($\sim$~4550 m s$^{-1}$) arrives at the receiver before the $A_1$ mode ($\sim$~2550 m s$^{-1}$) as it has a considerably higher group velocity. At this propagation distance the two modes are clearly separated in the time domain, with the $A_1$ mode showing considerably more dispersion.  
 
 The wedge angle required for the $S_1$ mode is:
 %
@@ -141,7 +147,7 @@ Figure~\ref{fig:S1result} shows experimentally measured wave velocity of the $S_
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=.8\textwidth]{./figures/S1modetimedomain.eps}
+    \includegraphics[width=.8\textwidth]{./figures/s1hilbert.eps}
     \caption{Time of flight ($t_F$) measurement of $S_1$ mode using envelope peak method at room temperature.}\label{fig:S1timedomain}
 \end{figure}
 

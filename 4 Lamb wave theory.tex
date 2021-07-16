@@ -4,7 +4,7 @@ From the outcome of the literature review, a temperature monitoring system for n
 
 \section{Generation of dispersion curves}
 
-Theoretical dispersion curves calculated from the material properties of Aluminium have been produced using \href{https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874_read-61142/#/gallery/33485}{The Dispersion Calculator}~\cite{Huber}. For isotropic media (Aluminium in this case) Rayleigh-Lamb equations are solved numerically to generate dispersion curves, based on the book by Rose~\cite{Rose2014}. The Rayleigh-Lamb frequency equations can be written as:
+Theoretical dispersion curves calculated from the material properties of Aluminium have been produced using \href{https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874_read-61142/#/gallery/33485}{The Dispersion Calculator}~\cite{Huber}. For isotropic media Rayleigh-Lamb equations are solved numerically to generate dispersion curves, based on the book by Rose~\cite{Rose2014}. The Rayleigh-Lamb frequency equations can be written as:
 
 \begin{equation}
     \frac{\tan(qh)}{\tan(ph)}=-\frac{4k^2pq}{(q^2-k^2)^2}
@@ -28,17 +28,17 @@ And $q$ is given by:
     q^2=(\frac{\omega}{c_T})-k^2
 \end{equation}
 
-The wavenumber $k$ is numerically equal to $\omega/c_p$ , where $c_p$ is the phase velocity of the Lamb wave mode and $\omega$ is the circular frequency. The phase velocity is related to the wavelength by the simple relation $c_p = (\omega/2\pi)\lambda$. Group velocity is given by:
+Where $c_L$ is bulk longitudinal velocity, $c_T$ is bulk shear velocity, $c_p$ is phase velocity, $h$ is thickness, and $\omega$ is angular frequency. The wavenumber $k$ is numerically equal to $\omega/c_p$. The phase velocity is related to the wavelength by the simple relation $c_p = (\omega/2\pi)\lambda$. Once phase velocity is calculated stress, displacement, and group velocity can also be calculated. Group velocity is given by:
 
 \begin{equation}
     c_g=c^2_p\left[c_p-(fd)\frac{dc_p}{d(fd)}\right]^{-1}
 \end{equation}
 
-Where $fd$ denotes frequency times thickness. Note that, when the derivative of $c_p$ with
+Where $fd$ denotes frequency thickness product. Note that, when the derivative of $c_p$ with
 respect to $fd$ becomes zero, $c_g = c_p$. Note also that, as the derivative of $c_p$
 with respect to $fd$ approaches infinity (i.e., at cutoff), $c_g$ approaches zero.
 
-\section{The effect of temperature on wave propagation}
+\section{The effect of temperature on wave propagation in aluminium}
 
 A change in temperature will affect material properties, namely Young's modulus, Poisson's ratio, and Density. The change in density (thermal expansion) and Poisson’s ratio is negligible over the temperature of interest (20\si{\degreeCelsius}--100\si{\degreeCelsius}) in comparison to the change in Young’s modulus. Thermal expansion will cause a change in material dimensions which will also affect the wave speed, but the effect of this is small ($-$1.19 m s$^{-1}$ average change over 20--100\si{\degreeCelsius} for the $S_0$ mode). The change in Young’s modulus with temperature in Aluminium is close to linear, as represented by the Equation~\cite{Hopkins2012}: 
 %
@@ -65,7 +65,7 @@ The group velocity of the $S_0$, $A_1$, and $S_1$ modes have been extracted from
 \newpage
 \section{Multi-modal Lamb waves}
 
-The multi-modal nature of Lamb waves makes their analysis complex, however this can be simplified by targeting specific modes using careful selection of excitation frequency, to target a particular frequency-thickness product. This difficulty can be seen in Figure~\ref{fig:multimode} where a large number of different modes combine to create a multi-modal wave packet. Individual modes can be further isolated through the use of angled wedges, where the angle is chosen to target a particular mode. 
+The multi-modal nature of Lamb waves makes their analysis complex, however this can be simplified by targeting specific modes using careful selection of excitation frequency, to target a particular frequency-thickness product. This difficulty can be seen in Figure~\ref{fig:multimode} where a large number of different modes combine to create a multi-modal wave packet. Individual modes can be isolated through the use of angled wedges, where the angle is chosen to target a particular mode. 
 
 Below the cut-off frequency of the $A_1$ mode only the two fundamental modes ($A_0$ \& $S_0$) are present. Their phase/group velocities are sufficiently different from one another that the modes can be distinguished between in the time domain, assuming a long enough propagation distance. The use of wedge transducers can further isolate between the modes, as the wedge angle required to excite them are largely different. 
 
@@ -74,5 +74,5 @@ Above the cut-off frequency of the $A_1$ mode there are an increasing number of 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{./figures/multimodeedit.eps}
-    \caption{Simulated 100 mm wave propagation of 10--cycle 1~MHz sine pulse in a 4 mm thick aluminium plate.}\label{fig:multimode}
+    \caption{Simulated 100 mm wave propagation of 10--cycle Hamming windowed 1~MHz sine pulse in a 4 mm thick aluminium plate.}\label{fig:multimode}
 \end{figure}
