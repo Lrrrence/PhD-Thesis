@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.18)  16 JUL 2021 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.18)  20 JUL 2021 13:09
 entering extended mode
 **c:/Users/yulel/Documents/LaTeX/Progression-report/main.tex
 (c:/Users/yulel/Documents/LaTeX/Progression-report/main.tex
@@ -777,7 +777,9 @@ Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count365
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/notoccite\notoccite.sty
+Package: notoccite 2000/07/20
+) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -830,34 +832,34 @@ Package caption Info: hyperref package is loaded.
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 37.
-Package gensymb Info: Math companion symbols declared on input line 37.
-LaTeX Info: Redefining \degree on input line 37.
-LaTeX Info: Redefining \celsius on input line 37.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 37.
-LaTeX Info: Redefining \ohm on input line 37.
-Package gensymb Info: Using \textohm for \ohm on input line 37.
-Package gensymb Info: Using \textmu for \micro on input line 37.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 38.
+Package gensymb Info: Math companion symbols declared on input line 38.
+LaTeX Info: Redefining \degree on input line 38.
+LaTeX Info: Redefining \celsius on input line 38.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 38.
+LaTeX Info: Redefining \ohm on input line 38.
+Package gensymb Info: Using \textohm for \ohm on input line 38.
+Package gensymb Info: Using \textmu for \micro on input line 38.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count374
@@ -877,7 +879,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 37.
+Package hyperref Info: Link coloring ON on input line 38.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -887,9 +889,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count380
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -938,14 +940,14 @@ Dictionary: translator-months-dictionary, Language: English
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 37.
+LaTeX Info: Redefining \selectfont on input line 38.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -953,11 +955,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/yulel/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 \end{abstract}
+l.81 \end{abstract}
                     [1] (main.tocpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...ve temperature sensitivity}{45}{chapter.6}
+l.26 ...mberline {3.4}Conclusion}{39}{section.3.4}
                                                   % [1
 
 ])
@@ -974,22 +976,22 @@ l.35 ...ve temperature sensitivity}{45}{chapter.6}
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- (1 Intro.tex [4]
+ [4] (1 Intro.tex [5]
 Chapter 1.
-[5
+[6
 
-] [6]
-<./figures/turbine plus ngv.png, id=406, 649.82774pt x 527.69145pt>
+] [7]
+<./figures/turbine plus ngv.png, id=414, 649.82774pt x 527.69145pt>
 File: ./figures/turbine plus ngv.png Graphic file (type png)
 <use ./figures/turbine plus ngv.png>
 Package pdftex.def Info: ./figures/turbine plus ngv.png  used on input line 27.
 (pdftex.def)             Requested size: 426.79134pt x 346.57848pt.
- [7 <./figures/turbine plus ngv.png
+ [8 <./figures/turbine plus ngv.png
 
 pdfTeX warning: pdflatex (file ./figures/turbine plus ngv.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
->] [8]) (2 Literature Review.tex [9]
+>] [9]) (2 Literature Review.tex [10]
 Chapter 2.
-[10
+[11
 
 ]
 Package epstopdf Info: Source file: <./figures/Turbinecrosssection.eps>
@@ -999,17 +1001,34 @@ Package epstopdf Info: Source file: <./figures/Turbinecrosssection.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 32734 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures/Turbinecrosssection-eps-converted-to.pdf ./figures/Turbinecrosssection.eps>
-(epstopdf)             \includegraphics on input line 12.
+(epstopdf)             \includegraphics on input line 11.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/Turbinecrosssection-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/Turbinecrosssection-eps-converted-to.pdf, id=462, 511.9125pt x 309.155pt>
+<./figures/Turbinecrosssection-eps-converted-to.pdf, id=469, 511.9125pt x 309.155pt>
 File: ./figures/Turbinecrosssection-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/Turbinecrosssection-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/Turbinecrosssection-eps-converted-to.pdf  used on input line 12.
+Package pdftex.def Info: ./figures/Turbinecrosssection-eps-converted-to.pdf  used on input line 11.
 (pdftex.def)             Requested size: 320.09349pt x 193.31102pt.
-[11 <./figures/Turbinecrosssection-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures/TBCdevelopment.eps>
+(epstopdf)                    date: 2021-07-20 12:06:54
+(epstopdf)                    size: 2304282 bytes
+(epstopdf)             Output file: <./figures/TBCdevelopment-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-07-20 12:55:41
+(epstopdf)                    size: 33747 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/TBCdevelopment-eps-converted-to.pdf ./figures/TBCdevelopment.eps>
+(epstopdf)             \includegraphics on input line 17.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/TBCdevelopment-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/TBCdevelopment-eps-converted-to.pdf, id=472, 1058.95625pt x 785.93625pt>
+File: ./figures/TBCdevelopment-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TBCdevelopment-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TBCdevelopment-eps-converted-to.pdf  used on input line 17.
+(pdftex.def)             Requested size: 320.09349pt x 237.56956pt.
+[12 <./figures/Turbinecrosssection-eps-converted-to.pdf> <./figures/TBCdevelopment-eps-converted-to.pdf>] [13]
 Package epstopdf Info: Source file: <./figures/tempmethodsvenn.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 2958726 bytes
@@ -1017,46 +1036,48 @@ Package epstopdf Info: Source file: <./figures/tempmethodsvenn.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 39160 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures/tempmethodsvenn-eps-converted-to.pdf ./figures/tempmethodsvenn.eps>
-(epstopdf)             \includegraphics on input line 26.
+(epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/tempmethodsvenn-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/tempmethodsvenn-eps-converted-to.pdf, id=496, 1078.0275pt x 1027.84pt>
+<./figures/tempmethodsvenn-eps-converted-to.pdf, id=526, 1078.0275pt x 1027.84pt>
 File: ./figures/tempmethodsvenn-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/tempmethodsvenn-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/tempmethodsvenn-eps-converted-to.pdf  used on input line 26.
+Package pdftex.def Info: ./figures/tempmethodsvenn-eps-converted-to.pdf  used on input line 34.
 (pdftex.def)             Requested size: 341.43436pt x 325.54355pt.
-[12 <./figures/tempmethodsvenn-eps-converted-to.pdf>]
-<./figures/Single change paints edit.png, id=519, 1782.66pt x 1097.09875pt>
+[14
+
+ <./figures/tempmethodsvenn-eps-converted-to.pdf>]
+<./figures/Single change paints edit.png, id=547, 1782.66pt x 1097.09875pt>
 File: ./figures/Single change paints edit.png Graphic file (type png)
 <use ./figures/Single change paints edit.png>
-Package pdftex.def Info: ./figures/Single change paints edit.png  used on input line 44.
+Package pdftex.def Info: ./figures/Single change paints edit.png  used on input line 52.
 (pdftex.def)             Requested size: 341.43436pt x 210.12497pt.
-<./figures/multi-change paints edit.png, id=522, 1427.3325pt x 1065.9825pt>
+<./figures/multi-change paints edit.png, id=550, 1427.3325pt x 1065.9825pt>
 File: ./figures/multi-change paints edit.png Graphic file (type png)
 <use ./figures/multi-change paints edit.png>
-Package pdftex.def Info: ./figures/multi-change paints edit.png  used on input line 50.
+Package pdftex.def Info: ./figures/multi-change paints edit.png  used on input line 58.
 (pdftex.def)             Requested size: 341.43436pt x 254.99521pt.
- [13] [14 <./figures/Single change paints edit.png> <./figures/multi-change paints edit.png>] [15]
-<./figures/crystal temp sens.png, id=570, 676.77844pt x 508.90125pt>
+ [15] [16 <./figures/Single change paints edit.png> <./figures/multi-change paints edit.png>] [17]
+<./figures/crystal temp sens.png, id=599, 676.77844pt x 508.90125pt>
 File: ./figures/crystal temp sens.png Graphic file (type png)
 <use ./figures/crystal temp sens.png>
-Package pdftex.def Info: ./figures/crystal temp sens.png  used on input line 74.
+Package pdftex.def Info: ./figures/crystal temp sens.png  used on input line 82.
 (pdftex.def)             Requested size: 341.43436pt x 256.74849pt.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 78.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 86.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 78.
- [16] [17 <./figures/crystal temp sens.png>]
-<./figures/tftcNGV.png, id=592, 977.15062pt x 727.21687pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 86.
+ [18] [19 <./figures/crystal temp sens.png>]
+<./figures/tftcNGV.png, id=620, 977.15062pt x 727.21687pt>
 File: ./figures/tftcNGV.png Graphic file (type png)
 <use ./figures/tftcNGV.png>
-Package pdftex.def Info: ./figures/tftcNGV.png  used on input line 91.
+Package pdftex.def Info: ./figures/tftcNGV.png  used on input line 99.
 (pdftex.def)             Requested size: 341.43436pt x 254.10805pt.
- [18 <./figures/tftcNGV.png>] [19]
+ [20 <./figures/tftcNGV.png>] [21]
 Package epstopdf Info: Source file: <./figures/kerrpyro.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 1481610 bytes
@@ -1064,22 +1085,22 @@ Package epstopdf Info: Source file: <./figures/kerrpyro.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 76437 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures/kerrpyro-eps-converted-to.pdf ./figures/kerrpyro.eps>
-(epstopdf)             \includegraphics on input line 106.
+(epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/kerrpyro-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/kerrpyro-eps-converted-to.pdf, id=643, 816.04875pt x 507.8975pt>
+<./figures/kerrpyro-eps-converted-to.pdf, id=671, 816.04875pt x 507.8975pt>
 File: ./figures/kerrpyro-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/kerrpyro-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/kerrpyro-eps-converted-to.pdf  used on input line 106.
+Package pdftex.def Info: ./figures/kerrpyro-eps-converted-to.pdf  used on input line 114.
 (pdftex.def)             Requested size: 341.43436pt x 212.50175pt.
-<./figures/siemens IR edit-01.png, id=646, 768.471pt x 582.7371pt>
+<./figures/siemens IR edit-01.png, id=674, 768.471pt x 582.7371pt>
 File: ./figures/siemens IR edit-01.png Graphic file (type png)
 <use ./figures/siemens IR edit-01.png>
-Package pdftex.def Info: ./figures/siemens IR edit-01.png  used on input line 112.
+Package pdftex.def Info: ./figures/siemens IR edit-01.png  used on input line 120.
 (pdftex.def)             Requested size: 341.43436pt x 258.90373pt.
-[20 <./figures/kerrpyro-eps-converted-to.pdf>] [21 <./figures/siemens IR edit-01.png>]
+[22 <./figures/kerrpyro-eps-converted-to.pdf>] [23 <./figures/siemens IR edit-01.png>]
 Package epstopdf Info: Source file: <./figures/yaneztempTBC.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 1921570 bytes
@@ -1087,17 +1108,17 @@ Package epstopdf Info: Source file: <./figures/yaneztempTBC.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 29350 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./figures/yaneztempTBC-eps-converted-to.pdf ./figures/yaneztempTBC.eps>
-(epstopdf)             \includegraphics on input line 126.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/yaneztempTBC-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/yaneztempTBC-eps-converted-to.pdf, id=692, 1090.0725pt x 706.64pt>
+<./figures/yaneztempTBC-eps-converted-to.pdf, id=721, 1090.0725pt x 706.64pt>
 File: ./figures/yaneztempTBC-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/yaneztempTBC-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/yaneztempTBC-eps-converted-to.pdf  used on input line 126.
+Package pdftex.def Info: ./figures/yaneztempTBC-eps-converted-to.pdf  used on input line 134.
 (pdftex.def)             Requested size: 341.43436pt x 221.33122pt.
-[22 <./figures/yaneztempTBC-eps-converted-to.pdf>]
+[24 <./figures/yaneztempTBC-eps-converted-to.pdf>] [25]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1130,27 +1151,27 @@ Package pdftex.def Info: ./figures/yaneztempTBC-eps-converted-to.pdf  used on in
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [23]) (3 Acoustic temperature sensing.tex
+ [26]) (3 Acoustic temperature sensing.tex
 Chapter 3.
-[24
+[27
 
 
 
 
 
 
-] [25] [26]
-<./figures/SAW delay line.png, id=797, 1224.07312pt x 415.5525pt>
+] [28] [29]
+<./figures/SAW delay line.png, id=830, 1224.07312pt x 415.5525pt>
 File: ./figures/SAW delay line.png Graphic file (type png)
 <use ./figures/SAW delay line.png>
 Package pdftex.def Info: ./figures/SAW delay line.png  used on input line 34.
 (pdftex.def)             Requested size: 341.43436pt x 115.91005pt.
-<./figures/SAW resonator.png, id=800, 1297.09593pt x 522.45187pt>
+<./figures/SAW resonator.png, id=833, 1297.09593pt x 522.45187pt>
 File: ./figures/SAW resonator.png Graphic file (type png)
 <use ./figures/SAW resonator.png>
 Package pdftex.def Info: ./figures/SAW resonator.png  used on input line 40.
 (pdftex.def)             Requested size: 341.43436pt x 137.52434pt.
- [27 <./figures/SAW delay line.png>]
+ [30 <./figures/SAW delay line.png>]
 Package epstopdf Info: Source file: <./figures/wedge.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 1970218 bytes
@@ -1163,7 +1184,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/wedge-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/wedge-eps-converted-to.pdf, id=819, 1333.98375pt x 599.23875pt>
+<./figures/wedge-eps-converted-to.pdf, id=852, 1333.98375pt x 599.23875pt>
 File: ./figures/wedge-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/wedge-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/wedge-eps-converted-to.pdf  used on input line 52.
@@ -1180,18 +1201,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/hertzian-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/hertzian-eps-converted-to.pdf, id=822, 1334.9875pt x 866.23625pt>
+<./figures/hertzian-eps-converted-to.pdf, id=855, 1334.9875pt x 866.23625pt>
 File: ./figures/hertzian-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/hertzian-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/hertzian-eps-converted-to.pdf  used on input line 60.
 (pdftex.def)             Requested size: 341.43436pt x 221.5416pt.
-[28 <./figures/SAW resonator.png> <./figures/wedge-eps-converted-to.pdf>]
-<./figures/willschwaveguide.png, id=846, 632.3625pt x 448.67625pt>
+[31 <./figures/SAW resonator.png> <./figures/wedge-eps-converted-to.pdf>]
+<./figures/willschwaveguide.png, id=879, 632.3625pt x 448.67625pt>
 File: ./figures/willschwaveguide.png Graphic file (type png)
 <use ./figures/willschwaveguide.png>
 Package pdftex.def Info: ./figures/willschwaveguide.png  used on input line 68.
 (pdftex.def)             Requested size: 341.43436pt x 242.26103pt.
- [29 <./figures/hertzian-eps-converted-to.pdf>] [30 <./figures/willschwaveguide.png>]
+ [32 <./figures/hertzian-eps-converted-to.pdf>] [33 <./figures/willschwaveguide.png>]
 Package epstopdf Info: Source file: <./figures/lambwaves2.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 2135786 bytes
@@ -1204,7 +1225,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/lambwaves2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/lambwaves2-eps-converted-to.pdf, id=920, 1648.1575pt x 452.69125pt>
+<./figures/lambwaves2-eps-converted-to.pdf, id=952, 1648.1575pt x 452.69125pt>
 File: ./figures/lambwaves2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/lambwaves2-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/lambwaves2-eps-converted-to.pdf  used on input line 89.
@@ -1221,12 +1242,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf, id=921, 433.62pt x 286.06876pt>
+<./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf, id=953, 433.62pt x 286.06876pt>
 File: ./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf  used on input line 95.
 (pdftex.def)             Requested size: 341.43436pt x 225.26288pt.
-[31 <./figures/lambwaves2-eps-converted-to.pdf> <./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf>]
+[34 <./figures/lambwaves2-eps-converted-to.pdf> <./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures/alutempshift2560.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 969846 bytes
@@ -1239,7 +1260,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/alutempshift2560-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/alutempshift2560-eps-converted-to.pdf, id=955, 398.48875pt x 298.11375pt>
+<./figures/alutempshift2560-eps-converted-to.pdf, id=987, 398.48875pt x 298.11375pt>
 File: ./figures/alutempshift2560-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/alutempshift2560-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/alutempshift2560-eps-converted-to.pdf  used on input line 108.
@@ -1256,12 +1277,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/phasedispersion-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/phasedispersion-eps-converted-to.pdf, id=959, 382.42876pt x 301.125pt>
+<./figures/phasedispersion-eps-converted-to.pdf, id=991, 382.42876pt x 301.125pt>
 File: ./figures/phasedispersion-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/phasedispersion-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/phasedispersion-eps-converted-to.pdf  used on input line 116.
 (pdftex.def)             Requested size: 341.43436pt x 268.85962pt.
-[32 <./figures/alutempshift2560-eps-converted-to.pdf>]
+[35 <./figures/alutempshift2560-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures/grouptemp.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 731746 bytes
@@ -1274,7 +1295,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/grouptemp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/grouptemp-eps-converted-to.pdf, id=989, 380.42125pt x 302.12875pt>
+<./figures/grouptemp-eps-converted-to.pdf, id=1022, 380.42125pt x 302.12875pt>
 File: ./figures/grouptemp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/grouptemp-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/grouptemp-eps-converted-to.pdf  used on input line 124.
@@ -1291,14 +1312,14 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/grouptemp1mhztemp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/grouptemp1mhztemp-eps-converted-to.pdf, id=990, 387.4475pt x 299.1175pt>
+<./figures/grouptemp1mhztemp-eps-converted-to.pdf, id=1023, 387.4475pt x 299.1175pt>
 File: ./figures/grouptemp1mhztemp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/grouptemp1mhztemp-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/grouptemp1mhztemp-eps-converted-to.pdf  used on input line 130.
 (pdftex.def)             Requested size: 341.43436pt x 263.59846pt.
-[33 <./figures/phasedispersion-eps-converted-to.pdf>] [34 <./figures/grouptemp-eps-converted-to.pdf>] [35 <./figures/grouptemp1mhztemp-eps-converted-to.pdf>]) (4 Lamb wave theory.tex [36]
+[36 <./figures/phasedispersion-eps-converted-to.pdf>] [37 <./figures/grouptemp-eps-converted-to.pdf>] [38 <./figures/grouptemp1mhztemp-eps-converted-to.pdf>]) (4 Lamb wave theory.tex [39]
 Chapter 4.
-[37
+[40
 
 ]
 Package epstopdf Info: Source file: <./figures/grouptempshiftalu.eps>
@@ -1313,7 +1334,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/grouptempshiftalu-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/grouptempshiftalu-eps-converted-to.pdf, id=1077, 381.425pt x 301.125pt>
+<./figures/grouptempshiftalu-eps-converted-to.pdf, id=1107, 381.425pt x 301.125pt>
 File: ./figures/grouptempshiftalu-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/grouptempshiftalu-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/grouptempshiftalu-eps-converted-to.pdf  used on input line 56.
@@ -1330,12 +1351,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/grouptemp1mhztempalu-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/grouptemp1mhztempalu-eps-converted-to.pdf, id=1078, 386.44376pt x 297.11pt>
+<./figures/grouptemp1mhztempalu-eps-converted-to.pdf, id=1108, 386.44376pt x 297.11pt>
 File: ./figures/grouptemp1mhztempalu-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/grouptemp1mhztempalu-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/grouptemp1mhztempalu-eps-converted-to.pdf  used on input line 62.
 (pdftex.def)             Requested size: 341.43436pt x 262.50484pt.
-[38] [39 <./figures/grouptempshiftalu-eps-converted-to.pdf> <./figures/grouptemp1mhztempalu-eps-converted-to.pdf>]
+[41] [42 <./figures/grouptempshiftalu-eps-converted-to.pdf> <./figures/grouptemp1mhztempalu-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures/multimodeedit.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 2487962 bytes
@@ -1348,22 +1369,22 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/multimodeedit-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/multimodeedit-eps-converted-to.pdf, id=1114, 1143.27126pt x 656.4525pt>
+<./figures/multimodeedit-eps-converted-to.pdf, id=1145, 1143.27126pt x 656.4525pt>
 File: ./figures/multimodeedit-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/multimodeedit-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/multimodeedit-eps-converted-to.pdf  used on input line 76.
 (pdftex.def)             Requested size: 426.79134pt x 245.05724pt.
-) (5 COMSOL.tex [40 <./figures/multimodeedit-eps-converted-to.pdf>]
+) (5 COMSOL.tex [43 <./figures/multimodeedit-eps-converted-to.pdf>]
 Chapter 5.
-[41
+[44
 
 ]
-<./figures/comsoldiagram.png, id=1143, 1556.9367pt x 496.9767pt>
+<./figures/comsoldiagram.png, id=1173, 1556.9367pt x 496.9767pt>
 File: ./figures/comsoldiagram.png Graphic file (type png)
 <use ./figures/comsoldiagram.png>
 Package pdftex.def Info: ./figures/comsoldiagram.png  used on input line 61.
 (pdftex.def)             Requested size: 426.79134pt x 136.23297pt.
-<./figures/simmodes.png, id=1144, 1160.83687pt x 324.46219pt>
+<./figures/simmodes.png, id=1174, 1160.83687pt x 324.46219pt>
 File: ./figures/simmodes.png Graphic file (type png)
 <use ./figures/simmodes.png>
 Package pdftex.def Info: ./figures/simmodes.png  used on input line 67.
@@ -1380,17 +1401,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/simpulse20cedit-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/simpulse20cedit-eps-converted-to.pdf, id=1145, 1135.24126pt x 697.60625pt>
+<./figures/simpulse20cedit-eps-converted-to.pdf, id=1175, 1135.24126pt x 697.60625pt>
 File: ./figures/simpulse20cedit-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/simpulse20cedit-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/simpulse20cedit-eps-converted-to.pdf  used on input line 73.
 (pdftex.def)             Requested size: 426.79134pt x 262.26166pt.
-[42] [43 <./figures/comsoldiagram.png
+[45] [46 <./figures/comsoldiagram.png
 
 pdfTeX warning: pdflatex (file ./figures/comsoldiagram.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
-> <./figures/simmodes.png> <./figures/simpulse20cedit-eps-converted-to.pdf>]) (6 Experiments.tex [44]
+> <./figures/simmodes.png> <./figures/simpulse20cedit-eps-converted-to.pdf>]) (6 Experiments.tex [47]
 Chapter 6.
-[45
+[48
 
 ]
 Package epstopdf Info: Source file: <./figures/testdiagramsimple.eps>
@@ -1405,7 +1426,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/testdiagramsimple-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/testdiagramsimple-eps-converted-to.pdf, id=1176, 1602.98875pt x 523.9575pt>
+<./figures/testdiagramsimple-eps-converted-to.pdf, id=1207, 1602.98875pt x 523.9575pt>
 File: ./figures/testdiagramsimple-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/testdiagramsimple-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/testdiagramsimple-eps-converted-to.pdf  used on input line 29.
@@ -1422,18 +1443,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/w2wdiagram-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/w2wdiagram-eps-converted-to.pdf, id=1177, 1185.42876pt x 412.54124pt>
+<./figures/w2wdiagram-eps-converted-to.pdf, id=1208, 1185.42876pt x 412.54124pt>
 File: ./figures/w2wdiagram-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/w2wdiagram-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/w2wdiagram-eps-converted-to.pdf  used on input line 35.
 (pdftex.def)             Requested size: 298.75262pt x 103.96597pt.
-[46 <./figures/testdiagramsimple-eps-converted-to.pdf> <./figures/w2wdiagram-eps-converted-to.pdf>]
-<./figures/hjkhh7UmEx.png, id=1214, 1201.48875pt x 716.6775pt>
+[49 <./figures/testdiagramsimple-eps-converted-to.pdf> <./figures/w2wdiagram-eps-converted-to.pdf>]
+<./figures/hjkhh7UmEx.png, id=1245, 1201.48875pt x 716.6775pt>
 File: ./figures/hjkhh7UmEx.png Graphic file (type png)
 <use ./figures/hjkhh7UmEx.png>
 Package pdftex.def Info: ./figures/hjkhh7UmEx.png  used on input line 78.
 (pdftex.def)             Requested size: 341.43436pt x 203.66469pt.
- [47 <./figures/hjkhh7UmEx.png>]
+ [50 <./figures/hjkhh7UmEx.png>]
 Package epstopdf Info: Source file: <./figures/waveformxcorr.eps>
 (epstopdf)                    date: 2021-05-06 10:39:47
 (epstopdf)                    size: 1571802 bytes
@@ -1446,7 +1467,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/waveformxcorr-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/waveformxcorr-eps-converted-to.pdf, id=1224, 491.8375pt x 487.8225pt>
+<./figures/waveformxcorr-eps-converted-to.pdf, id=1255, 491.8375pt x 487.8225pt>
 File: ./figures/waveformxcorr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/waveformxcorr-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/waveformxcorr-eps-converted-to.pdf  used on input line 93.
@@ -1463,12 +1484,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/aluplatemeasured-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/aluplatemeasured-eps-converted-to.pdf, id=1225, 388.45125pt x 299.1175pt>
+<./figures/aluplatemeasured-eps-converted-to.pdf, id=1256, 388.45125pt x 299.1175pt>
 File: ./figures/aluplatemeasured-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/aluplatemeasured-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/aluplatemeasured-eps-converted-to.pdf  used on input line 109.
 (pdftex.def)             Requested size: 341.43436pt x 262.9184pt.
-[48]
+[51]
 Package epstopdf Info: Source file: <./figures/a1moderesult.eps>
 (epstopdf)                    date: 2021-06-04 13:13:35
 (epstopdf)                    size: 554114 bytes
@@ -1481,7 +1502,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/a1moderesult-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/a1moderesult-eps-converted-to.pdf, id=1233, 383.4325pt x 298.11375pt>
+<./figures/a1moderesult-eps-converted-to.pdf, id=1264, 383.4325pt x 298.11375pt>
 File: ./figures/a1moderesult-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/a1moderesult-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/a1moderesult-eps-converted-to.pdf  used on input line 130.
@@ -1489,14 +1510,14 @@ Package pdftex.def Info: ./figures/a1moderesult-eps-converted-to.pdf  used on in
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[49 <./figures/waveformxcorr-eps-converted-to.pdf>]
+[52 <./figures/waveformxcorr-eps-converted-to.pdf>]
 
-LaTeX Warning: Text page 50 contains only floats.
+LaTeX Warning: Text page 53 contains only floats.
 
 
 Overfull \vbox (0.34969pt too high) has occurred while \output is active []
 
- [50 <./figures/aluplatemeasured-eps-converted-to.pdf> <./figures/a1moderesult-eps-converted-to.pdf>]
+ [53 <./figures/aluplatemeasured-eps-converted-to.pdf> <./figures/a1moderesult-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures/s1hilbert.eps>
 (epstopdf)                    date: 2021-07-13 16:20:16
 (epstopdf)                    size: 2537270 bytes
@@ -1509,7 +1530,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/s1hilbert-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/s1hilbert-eps-converted-to.pdf, id=1274, 1139.25626pt x 718.685pt>
+<./figures/s1hilbert-eps-converted-to.pdf, id=1306, 1139.25626pt x 718.685pt>
 File: ./figures/s1hilbert-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/s1hilbert-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/s1hilbert-eps-converted-to.pdf  used on input line 150.
@@ -1526,7 +1547,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figures/s1moderesult-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/s1moderesult-eps-converted-to.pdf, id=1275, 383.4325pt x 298.11375pt>
+<./figures/s1moderesult-eps-converted-to.pdf, id=1307, 383.4325pt x 298.11375pt>
 File: ./figures/s1moderesult-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/s1moderesult-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/s1moderesult-eps-converted-to.pdf  used on input line 156.
@@ -1534,12 +1555,12 @@ Package pdftex.def Info: ./figures/s1moderesult-eps-converted-to.pdf  used on in
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[51 <./figures/s1hilbert-eps-converted-to.pdf>] [52 <./figures/s1moderesult-eps-converted-to.pdf>]) (7 Research summary.tex [53]
+[54 <./figures/s1hilbert-eps-converted-to.pdf>] [55 <./figures/s1moderesult-eps-converted-to.pdf>]) (7 Research summary.tex [56]
 Chapter 7.
-[54
+[57
 
 ]
-<./figures/gantt.pdf, id=1340, 1195.0156pt x 682.86618pt>
+<./figures/gantt.pdf, id=1371, 1195.0156pt x 682.86618pt>
 File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf>
 Package pdftex.def Info: ./figures/gantt.pdf  used on input line 33.
@@ -1548,7 +1569,7 @@ File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf>
 Package pdftex.def Info: ./figures/gantt.pdf  used on input line 33.
 (pdftex.def)             Requested size: 1195.0127pt x 682.8645pt.
-<./figures/gantt.pdf, id=1343, page=1, 1195.0156pt x 682.86618pt>
+<./figures/gantt.pdf, id=1374, page=1, 1195.0156pt x 682.86618pt>
 File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf, page 1>
 Package pdftex.def Info: ./figures/gantt.pdf , page1 used on input line 33.
@@ -1557,7 +1578,7 @@ File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf, page 1>
 Package pdftex.def Info: ./figures/gantt.pdf , page1 used on input line 33.
 (pdftex.def)             Requested size: 1195.0127pt x 682.8645pt.
- [55]
+ [58]
 File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf, page 1>
 Package pdftex.def Info: ./figures/gantt.pdf , page1 used on input line 33.
@@ -1570,24 +1591,24 @@ File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf, page 1>
 Package pdftex.def Info: ./figures/gantt.pdf , page1 used on input line 33.
 (pdftex.def)             Requested size: 1195.0127pt x 682.8645pt.
- [56 <./figures/gantt.pdf, page is rotated 90 degrees>]) (main.bbl [57
+ [59 <./figures/gantt.pdf, page is rotated 90 degrees>]) (main.bbl [60
 
-] [58] [59] [60] [61] [62] [63] [64] [65] [66]) [67] (main.aux)
+] [61] [62] [63] [64] [65] [66] [67] [68] [69]) [70] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: EF2953042D1FDA98829D0BF220378299;10783.
  ) 
 Here is how much of TeX's memory you used:
- 31316 strings out of 479173
- 612255 string characters out of 2854167
- 917503 words of memory out of 3000000
- 47905 multiletter control sequences out of 15000+600000
+ 31341 strings out of 479173
+ 613009 string characters out of 2854167
+ 917653 words of memory out of 3000000
+ 47920 multiletter control sequences out of 15000+600000
  418078 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,21n,117p,3765b,1156s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Italic.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (69 pages, 22175722 bytes).
+Output written on main.pdf (72 pages, 22209547 bytes).
 PDF statistics:
- 1570 PDF objects out of 1728 (max. 8388607)
- 346 named destinations out of 1000 (max. 500000)
- 592 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1602 PDF objects out of 1728 (max. 8388607)
+ 351 named destinations out of 1000 (max. 500000)
+ 597 words of extra memory for PDF output out of 10000 (max. 10000000)
 

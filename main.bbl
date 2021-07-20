@@ -1,50 +1,5 @@
 \begin{thebibliography}{100}
 
-\bibitem{AbouNada2016}
-F.~{Abou Nada}, A.~Lantz, J.~Larfeldt, N.~Markocsan, M.~Ald{\'{e}}n, and
-  M.~Richter, ``{Remote temperature sensing on and beneath atmospheric plasma
-  sprayed thermal barrier coatings using thermographic phosphors},'' {\em Surf.
-  Coatings Technol.}, vol.~302, pp.~359--367, 2016.
-
-\bibitem{Neely2006}
-Neely and Tracy, ``{Transient response of thermal paints for use on
-  short-duration hypersonic flight tests},'' {\em 14th AIAA/AHI Sp. Planes
-  Hypersonic Syst. Technol. Conf.}, pp.~1--15, 2006.
-
-\bibitem{Annerfeldt2004}
-M.~Annerfeldt, S.~Shukin, M.~Bj{\"{o}}rkman, A.~Karlsson, A.~J{\"{o}}nsson, and
-  E.~Svistounova, ``{GTX100 Turbine section measurement using a temperature
-  sensitive crystal technique. A comparison with 3D thermal and aerodynamic
-  analysis},'' {\em PowerGen Eur.}, 2004.
-
-\bibitem{Duan2020}
-F.~L. Duan, Z.~Xie, Z.~Ji, and H.~Weng, ``{Robust thin-film temperature sensors
-  embedded on nozzle guide vane surface},'' {\em AIAA J.}, pp.~1--5, 2020.
-
-\bibitem{Kerr2004}
-C.~Kerr and P.~Ivey, ``{Optical pyrometry for gas turbine aeroengines},'' {\em
-  Sens. Rev.}, vol.~24, no.~4, pp.~378--386, 2004.
-
-\bibitem{Hellberg}
-A.~Hellberg, ``{The siemens SGT-750 gas turbine: Developed for the oil and gas
-  industry},'' {\em Siemens Ind. Turbomachinary}, vol.~1, no.~1, pp.~1--10,
-  2018.
-
-\bibitem{YanezGonzalez2015}
-A.~{Ya{\~{n}}ez Gonzalez}, C.~C. Pilgrim, J.~P. Feist, P.~Y. Sollazzo,
-  F.~Beyrau, and A.~L. Heyes, ``{On-line temperature measurement inside a
-  thermal barrier sensor coating during engine operation},'' {\em J.
-  Turbomach.}, vol.~137, no.~10, pp.~1--9, 2015.
-
-\bibitem{Ida2014}
-N.~Ida, {\em {Sensors, actuators, and their interfaces}}.
-\newblock Edison, NJ: Scitech, 2014.
-
-\bibitem{Willsch2004a}
-M.~Willsch, T.~Bosselmann, and N.~M. Theune, ``{New approaches for the
-  monitoring of gas turbine blades and vanes},'' {\em Proc. IEEE Sensors},
-  vol.~1, pp.~20--23, 2004.
-
 \bibitem{Yule2021}
 L.~Yule, B.~Zaghari, N.~Harris, and M.~Hill, ``{Surface temperature condition
   monitoring methods for aerospace turbomachinery: exploring the use of
@@ -103,6 +58,17 @@ J.~G. Thakare, C.~Pandey, M.~M. Mahapatra, and R.~S. Mulik, ``{Thermal barrier
 J.~P. Feist, {\em {Development of phosphor thermometry for gas turbines}}.
 \newblock PhD thesis, University of London, 2001.
 
+\bibitem{AbouNada2016}
+F.~{Abou Nada}, A.~Lantz, J.~Larfeldt, N.~Markocsan, M.~Ald{\'{e}}n, and
+  M.~Richter, ``{Remote temperature sensing on and beneath atmospheric plasma
+  sprayed thermal barrier coatings using thermographic phosphors},'' {\em Surf.
+  Coatings Technol.}, vol.~302, pp.~359--367, 2016.
+
+\bibitem{Zhao2014}
+H.~Zhao, C.~G. Levi, and H.~N. Wadley, ``{Molten silicate interactions with
+  thermal barrier coatings},'' {\em Surf. Coatings Technol.}, vol.~251,
+  pp.~74--86, 2014.
+
 \bibitem{Abdelrhman2014}
 A.~M. Abdelrhman, L.~M. Hee, M.~S. Leong, and S.~Al-Obaidi, ``{Condition
   monitoring of blade in turbomachinery: A review},'' {\em Adv. Mech. Eng.},
@@ -142,6 +108,11 @@ D.~Peral, S.~Araguas-Rodriguez, S.~Karagiannopoulos, A.~Ya{\~{n}}ez-Gonzalez,
 L.~Yang and Z.~M. Li, ``{The research of temperature indicating paints and its
   application in aero-engine temperature measurement},'' {\em Procedia Eng.},
   vol.~99, pp.~1152--1157, 2015.
+
+\bibitem{Neely2006}
+Neely and Tracy, ``{Transient response of thermal paints for use on
+  short-duration hypersonic flight tests},'' {\em 14th AIAA/AHI Sp. Planes
+  Hypersonic Syst. Technol. Conf.}, pp.~1--15, 2006.
 
 \bibitem{Lempereur2008}
 C.~Lempereur, R.~Andral, and J.~Y. Prudhomme, ``{Surface temperature
@@ -206,6 +177,12 @@ A.~L. Heyes, A.~Rabhiou, J.~P. Feist, and A.~M. Kempf, ``{Phosphor based
   temperature indicating paints},'' {\em Proc. ASME Turbo Expo}, vol.~1,
   pp.~927--933, 2012.
 
+\bibitem{Annerfeldt2004}
+M.~Annerfeldt, S.~Shukin, M.~Bj{\"{o}}rkman, A.~Karlsson, A.~J{\"{o}}nsson, and
+  E.~Svistounova, ``{GTX100 Turbine section measurement using a temperature
+  sensitive crystal technique. A comparison with 3D thermal and aerodynamic
+  analysis},'' {\em PowerGen Eur.}, 2004.
+
 \bibitem{Fair2008}
 G.~E. Fair, R.~J. Kerans, and T.~A. Parthasarathy, ``{Thermal history sensor
   based on glass-ceramics},'' {\em Sensors Actuators, A Phys.}, vol.~141,
@@ -219,6 +196,10 @@ K.-H. Lo, C.-H. Shek, and J.~Lai, ``{Metallurgical temperature sensors},'' {\em
 D.~P. Madison, S.~A. Miers, G.~L. Barna, and J.~L. Richerson, ``{Comparison of
   piston temperature measurement methods: Templugs versus wireless telemetry
   with thermocouples},'' {\em J. Eng. Gas Turbines Power}, vol.~135, jun 2013.
+
+\bibitem{Duan2020}
+F.~L. Duan, Z.~Xie, Z.~Ji, and H.~Weng, ``{Robust thin-film temperature sensors
+  embedded on nozzle guide vane surface},'' {\em AIAA J.}, pp.~1--5, 2020.
 
 \bibitem{Kreider1993}
 K.~G. Kreider, ``{Sputtered high temperature thin film thermocouples},'' {\em
@@ -269,6 +250,10 @@ E.~Guk, M.~Ranaweera, V.~Venkatesan, and J.~S. Kim, ``{Performance and
   durability of thin film thermocouple array on a porous electrode},'' {\em
   Sensors (Switzerland)}, vol.~16, no.~9, 2016.
 
+\bibitem{Kerr2004}
+C.~Kerr and P.~Ivey, ``{Optical pyrometry for gas turbine aeroengines},'' {\em
+  Sens. Rev.}, vol.~24, no.~4, pp.~378--386, 2004.
+
 \bibitem{Li2019}
 D.~Li, C.~Feng, K.~Daniel, S.~Gao, L.~Chen, and Z.~Kang, ``{Turbine blade
   temperature error as measured with an optical pyrometer under different
@@ -308,6 +293,11 @@ G.~Wang, J.~Estevadeordal, N.~Nirmalan, and S.~P. Harper, ``{Real-time burst
 T.~Taniguchi, K.~Sanbonsugi, Y.~Ozaki, and A.~Norimoto, ``{Temperature
   measurement of high speed rotating turbine blades using a pyrometer},'' {\em
   Proc. ASME Turbo Expo}, vol.~2, pp.~521--529, 2006.
+
+\bibitem{Hellberg}
+A.~Hellberg, ``{The siemens SGT-750 gas turbine: Developed for the oil and gas
+  industry},'' {\em Siemens Ind. Turbomachinary}, vol.~1, no.~1, pp.~1--10,
+  2018.
 
 \bibitem{Liu2005}
 T.~Liu and J.~Sullivan, {\em {Pressure and Temperature Sensitive Paints}}.
@@ -349,6 +339,12 @@ J.~P. Feist, P.~Y. Sollazzo, S.~Berthier, B.~Charnley, and J.~Wells,
   ``{Application of an industrial sensor coating system on a rolls-royce jet
   engine for temperature detection},'' {\em J. Eng. Gas Turbines Power},
   vol.~135, no.~1, pp.~1--9, 2013.
+
+\bibitem{YanezGonzalez2015}
+A.~{Ya{\~{n}}ez Gonzalez}, C.~C. Pilgrim, J.~P. Feist, P.~Y. Sollazzo,
+  F.~Beyrau, and A.~L. Heyes, ``{On-line temperature measurement inside a
+  thermal barrier sensor coating during engine operation},'' {\em J.
+  Turbomach.}, vol.~137, no.~10, pp.~1--9, 2015.
 
 \bibitem{Jenkins2020}
 T.~P. Jenkins, C.~F. Hess, S.~W. Allison, and J.~I. Eldridge, ``{Measurements
@@ -565,6 +561,10 @@ W.~Dong, X.~Ji, J.~Huang, T.~Zhou, T.~Li, Y.~Fan, and K.~Xu, ``{Sensitivity
   based on AlN/sapphire},'' {\em Semicond. Sci. Technol.}, vol.~34, no.~5,
   2019.
 
+\bibitem{Ida2014}
+N.~Ida, {\em {Sensors, actuators, and their interfaces}}.
+\newblock Edison, NJ: Scitech, 2014.
+
 \bibitem{Zhang2017a}
 S.~Zhang, X.~Li, and H.~Jeong, ``{Measurement of Rayleigh wave beams using
   angle beam wedge transducers as the transmitter and receiver with
@@ -612,6 +612,11 @@ F.~{Levent Degertekin} and B.~T. Khuri-Yakub, ``{Lamb wave excitation by
 R.~Grimberg, A.~Savin, R.~Steigmann, M.~D. Stanciu, and J.~Grum,
   ``{Determination of elastic properties of CFRP using lamb waves resonant
   spectroscopy},'' {\em NDT Aerosp.}, vol.~1, no.~March 2015, pp.~5--12, 2010.
+
+\bibitem{Willsch2004a}
+M.~Willsch, T.~Bosselmann, and N.~M. Theune, ``{New approaches for the
+  monitoring of gas turbine blades and vanes},'' {\em Proc. IEEE Sensors},
+  vol.~1, pp.~20--23, 2004.
 
 \bibitem{Khalili2018c}
 P.~Khalili and P.~Cawley, ``{Relative ability of wedge-coupled piezoelectric
