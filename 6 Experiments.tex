@@ -73,12 +73,6 @@ Where $\alpha$ is the coefficient of thermal expansion of the medium and $k$ is 
 k = \frac{\delta \text{c}}{\delta \text{T}}
 \end{equation} 
 %
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.8\textwidth]{./figures/hjkhh7UmEx.png}
-    \caption{Photograph of test setup.}\label{fig:testsetup}
-\end{figure}
-
 \newpage
 \section{Test Method}
 
@@ -86,13 +80,14 @@ A hot plate is used to raise the temperature of the aluminium plate to the desir
 
 The temperature gradient across the plate has been measured by placing four equally spaced thermocouples along the transmission path, from the centre of the plate to the furthest edge of a wedge transducer in 3 cm increments. The wedges are removed from the plate to place the thermocouples, and the temperature of the hot plate is raised to match the temperature recorded by the thermocouple placed in the centre of the plate during measurement of total $t_F$. Measurements are repeated after moving the thermocouples to the other half of the transmission path. A mean average temperature has been calculated for the total transmission path at each hot plate temperature setting. 
 
-\section{S0 mode (1 MHz-mm)}\label{S0 experiments}
-
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=.8\textwidth]{./figures/waveformxcorr.eps}
-    \caption{Time of flight ($t_F$) measurement using cross-correlation function at room temperature.}\label{fig:crosscorr}
+    \includegraphics[width=.8\textwidth]{./figures/hjkhh7UmEx.png}
+    \caption{Photograph of test setup.}\label{fig:testsetup}
 \end{figure}
+
+\clearpage
+\section{S0 mode (1 MHz-mm)}\label{S0 experiments}
 %
 The wedge angle required for the $S_0$ mode is:
 %
@@ -102,9 +97,15 @@ The wedge angle required for the $S_0$ mode is:
 %
 The $A_0$ mode cannot be excited using this method as it’s phase velocity at this frequency (2312 m s$^{-1}$) is slower than the longitudinal velocity of the wedge. If the $A_0$ mode is present in the signal it will not affect measurement of the $S_0$ mode as it’s group velocity is significantly different than that of the $S_0$ mode, which will cause a distinct second wave packet. 
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/s0xcorr5cyc.eps}
+    \caption{Time of flight ($t_F$) measurement of $S_0$ mode wave propagation using cross-correlation function at room temperature.}\label{fig:S0crosscorr}
+\end{figure}
+
 \subsection{S0 mode results}
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/aluplatemeasured.eps}
     \caption{Group velocity change with temperature for the $S_0$ mode in Aluminium 1050 H14.}\label{fig:result}
@@ -120,6 +121,11 @@ The wedge angle required for the $A_1$ mode is:
 24{^\circ} = \text{Sin}^{- 1} \left( \frac{2720}{6654} \right)
 \end{equation} 
 %
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/a1xcorr5cyc.eps}
+    \caption{Time of flight ($t_F$) measurement of $A_1$ mode wave propagation using cross-correlation function at room temperature.}\label{fig:A1crosscorr}
+\end{figure}
 
 \subsection{A1 mode results}
 
@@ -160,9 +166,9 @@ Figure~\ref{fig:S1result} shows experimentally measured wave velocity of the $S_
 \newpage
 \section{Experimental sensitivity analysis}
 
-There are a number of experimental error sources to consider. The physical distance between wedges is controlled using 3D printed spacers that keep the wedges aligned at set distances. The movement of the wedges on the surface of the plate increases with temperature as the viscosity of the couplant decreases. Variations in placement cause the calculated velocity to vary by around $\pm$ 5 m s$^{-1}$ across multiple (30) wedge re-alignments. The measurement of wedge-to-wedge time to be subtracted from the total $t_F$ is temperature dependant and relies on accurate alignment of the wedge feet, as well as a good connection between them (signal amplitude is highly dependant on couplant). Variation in alignment causes around a $\pm$ 10 m s$^{-1}$ velocity change. The measurement wedge foot offset in Equation~\ref{velocitycalcfull}) has a large effect on the calculated wave velocity. The exact offset distance is unknown and is assumed to be the point at which the centre line of the transducer aligns with the plate surface. Varying this value (42.5 mm) raises or lowers the velocity of all results considerably ($\pm$ 1 mm = $\pm$ 35 m s$^{-1}$). The hot plate does not heat the test plate evenly, especially at distances greater than 10 cm between wedges where they overhang the edges of the hot plate. The gradient (the difference in temperature between the centre of the plate and the location of the wedges) increases with temperature. The measured velocity is monitoring the average temperature of the transmission path. The gradient has been measured by placing a number (4) of thermocouples along the transmission path, from the centre of the plate (maximum temperature) to the point at which a wave is transmitted between a wedge foot and the plate. The calculation of aluminium dispersion curves at different temperatures is based on a change in Young's modulus. This is predicted from Hopkin's formula \cite{Hopkins2012} that may not give the correct values for Aluminium 1050 H14, but Aluminium in general.
+There are a number of experimental error sources to consider. The physical distance between wedges is controlled using 3D printed spacers that keep the wedges aligned at set distances. The movement of the wedges on the surface of the plate increases with temperature as the viscosity of the couplant decreases. Variations in placement cause the calculated velocity to vary by around $\pm$ 5 m s$^{-1}$ across multiple (30) wedge re-alignments. The measurement of wedge-to-wedge time to be subtracted from the total $t_F$ is temperature dependant and relies on accurate alignment of the wedge feet, as well as a good connection between them (signal amplitude is highly dependant on couplant). Variation in alignment causes around a $\pm$ 10 m s$^{-1}$ velocity change. The wedge foot offset in Equation~\ref{velocitycalcfull} has a large effect on the calculated wave velocity. The exact offset distance is unknown and is assumed to be the point at which the centre line of the transducer aligns with the plate surface. Varying this value raises or lowers the velocity of all results considerably ($\pm$ 1 mm = $\pm$ 35 m s$^{-1}$). The hot plate does not heat the test plate evenly, especially at distances greater than 10 cm between wedges where they overhang the edges of the hot plate. The gradient (the difference in temperature between the centre of the plate and the location of the wedges) increases with temperature. The measured velocity is monitoring the average temperature of the transmission path. The gradient has been measured by placing a number (4) of thermocouples along the transmission path, from the centre of the plate (maximum temperature) to the point at which a wave is transmitted between a wedge foot and the plate. The calculation of aluminium dispersion curves at different temperatures is based on a change in Young's modulus. This is predicted from Hopkin's formula \cite{Hopkins2012} that may not give the correct values for Aluminium 1050 H14, but Aluminium in general.
 
-The largest source of error is the measurement of wedge-to-wedge $t_F$, as a small error in alignment causes a large change ($\pm$ 10 m s$^{-1}$) in the wave velocity calculation. This is accounted for through the averaging of multiple (30) measurements, the standard deviation for this range is shown using error bars on Figure~\ref{fig:result}. Selection of wedge foot offset distance dramatically shifts the calculated velocity. This value is difficult to measure to an accuracy of \textless~1 mm. 
+The largest source of error is the measurement of wedge-to-wedge $t_F$, as a small error in alignment causes a large change ($\pm$ 10 m s$^{-1}$) in the wave velocity calculation. This is accounted for through the averaging of multiple (30) measurements, the standard deviation for this range is shown using error bars on Figure~\ref{fig:result}. Variation in wedge foot offset distance dramatically shifts the calculated velocity. This value cannot be directly measured and so the result relies on accurate calculation as discussed in the method.
 
 \section{Conclusion}
 

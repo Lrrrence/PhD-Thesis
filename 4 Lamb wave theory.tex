@@ -65,14 +65,15 @@ The group velocity of the $S_0$, $A_1$, and $S_1$ modes have been extracted from
 \newpage
 \section{Multi-modal Lamb waves}
 
-The multi-modal nature of Lamb waves makes their analysis complex, however this can be simplified by targeting specific modes using careful selection of excitation frequency, to target a particular frequency-thickness product. This difficulty can be seen in Figure~\ref{fig:multimode} where a large number of different modes combine to create a multi-modal wave packet. Individual modes can be isolated through the use of angled wedges, where the angle is chosen to target a particular mode. 
+The multi-modal nature of Lamb waves makes their analysis complex, however this can be simplified by targeting specific modes using careful selection of excitation frequency, to target a particular frequency-thickness product. This difficulty can be seen in Figure~\ref{fig:multimode} where a large number of different modes combine to create a multi-modal wave packet. The varying wave speeds of each mode with frequency causes dispersion, which has an increasing effect the longer the waves propagate.  
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/multimodeedit.eps}
+    \caption{An example of multi-modal wave packets. Simulated 100 mm wave propagation of 10--cycle Hamming windowed 1~MHz sine pulse in a 4 mm thick aluminium plate.}\label{fig:multimode}
+\end{figure}
 
 Below the cut-off frequency of the $A_1$ mode only the two fundamental modes ($A_0$ \& $S_0$) are present. Their phase/group velocities are sufficiently different from one another that the modes can be distinguished between in the time domain, assuming a long enough propagation distance. The use of wedge transducers can further isolate between the modes, as the wedge angle required to excite them are largely different. 
 
 Above the cut-off frequency of the $A_1$ mode there are an increasing number of modes present. The relatively small difference in phase velocity between the higher order pairs ($A_1$ \& $S_1$, $A_2$ \& $S_2$, etc.) means that even with the use of wedge transducers it is not possible to selectively excite only one mode. The ability to differentiate between the modes is improved by targeting points of group velocity minima/maxima, where the modes are travelling with the largest differences in velocity, which helps to separate them in the time domain.
 
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{./figures/multimodeedit.eps}
-    \caption{Simulated 100 mm wave propagation of 10--cycle Hamming windowed 1~MHz sine pulse in a 4 mm thick aluminium plate.}\label{fig:multimode}
-\end{figure}
