@@ -1832,22 +1832,22 @@ INPUT .\figures\simmodes.png
 INPUT .\figures\simmodes.png
 INPUT .\figures\simmodes.png
 INPUT .\figures\simmodes.png
-INPUT .\figures\simpulse20cedit.eps
-INPUT .\figures\simpulse20cedit.eps
-INPUT figures\simpulse20cedit.eps
-INPUT .\figures\simpulse20cedit.eps
-INPUT .\figures\simpulse20cedit.eps
-INPUT .\figures\simpulse20cedit-eps-converted-to.pdf
-INPUT .\figures\simpulse20cedit-eps-converted-to.pdf
-INPUT .\figures\simpulse20cedit.eps
-INPUT .\figures\simpulse20cedit-eps-converted-to.pdf
-INPUT .\figures\simpulse20cedit-eps-converted-to.pdf
-INPUT .\figures\simpulse20cedit-eps-converted-to.pdf
-INPUT .\figures\simpulse20cedit-eps-converted-to.pdf
-INPUT .\6 Experiments.tex
-INPUT 6 Experiments.tex
-INPUT .\6 Experiments.tex
-INPUT 6 Experiments.tex
+INPUT .\figures\simpulse20cfiltered.eps
+INPUT .\figures\simpulse20cfiltered.eps
+INPUT figures\simpulse20cfiltered.eps
+INPUT .\figures\simpulse20cfiltered.eps
+INPUT .\figures\simpulse20cfiltered.eps
+INPUT .\figures\simpulse20cfiltered-eps-converted-to.pdf
+INPUT .\figures\simpulse20cfiltered-eps-converted-to.pdf
+INPUT .\figures\simpulse20cfiltered.eps
+INPUT .\figures\simpulse20cfiltered-eps-converted-to.pdf
+INPUT .\figures\simpulse20cfiltered-eps-converted-to.pdf
+INPUT .\figures\simpulse20cfiltered-eps-converted-to.pdf
+INPUT .\figures\simpulse20cfiltered-eps-converted-to.pdf
+INPUT .\6 Temperature Experiments.tex
+INPUT 6 Temperature Experiments.tex
+INPUT .\6 Temperature Experiments.tex
+INPUT 6 Temperature Experiments.tex
 INPUT .\figures\testdiagramsimple.eps
 INPUT .\figures\testdiagramsimple.eps
 INPUT figures\testdiagramsimple.eps
@@ -1951,10 +1951,14 @@ INPUT .\figures\s1moderesult-eps-converted-to.pdf
 INPUT .\figures\s1moderesult-eps-converted-to.pdf
 INPUT .\figures\s1moderesult-eps-converted-to.pdf
 INPUT .\figures\s1moderesult-eps-converted-to.pdf
-INPUT .\7 Research summary.tex
-INPUT 7 Research summary.tex
-INPUT .\7 Research summary.tex
-INPUT 7 Research summary.tex
+INPUT .\7 Reflection experiments.tex
+INPUT 7 Reflection experiments.tex
+INPUT .\7 Reflection experiments.tex
+INPUT 7 Reflection experiments.tex
+INPUT .\8 Research summary.tex
+INPUT 8 Research summary.tex
+INPUT .\8 Research summary.tex
+INPUT 8 Research summary.tex
 INPUT .\figures\gantt.pdf
 INPUT figures\gantt.pdf
 INPUT .\figures\gantt.pdf
