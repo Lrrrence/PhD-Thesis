@@ -1,5 +1,8 @@
 \documentclass{report}
 \usepackage[utf8]{inputenc}
+\usepackage[refsection=chapter,style=numeric]{biblatex}
+\addbibresource{library.bib}
+\addbibresource{References.bib}
 \usepackage{gensymb}
 \usepackage{color,soul}
 \usepackage{graphicx}
@@ -9,7 +12,7 @@
 \usepackage{tabulary}
 \usepackage{booktabs}
 \usepackage{moreverb,url}
-\usepackage[colorlinks,bookmarksopen,bookmarksnumbered,citecolor=red,urlcolor=blue]{hyperref}
+\usepackage[breaklinks,colorlinks,bookmarksopen,bookmarksnumbered,citecolor=sotonRed,urlcolor=sotonMarineBlue,linkcolor=sotonRed]{hyperref}
 \usepackage{textcomp}
 \usepackage{siunitx}
 \usepackage{tabularx}
@@ -21,53 +24,66 @@
 \usepackage{pdflscape}
 \usepackage{pgfgantt}
 \usepackage{standalone}
-\usepackage{ragged2e} 
 \usepackage{typearea} 
 \usepackage{parskip}
 \usepackage{notoccite} % fix citation order
 \usepackage{pdfpages}
 \usepackage[margin=10pt,font=small,labelfont=bf,
 labelsep=endash]{caption}
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-}
+\usepackage{breakurl}
 
 \definecolor{barblue}{RGB}{153,204,254}
 \definecolor{groupblue}{RGB}{51,102,254}
 \definecolor{linkred}{RGB}{165,0,33} 
+\definecolor{sotonMarineBlue}{RGB}{1,67,89} % Soton marine blue (P 7469C)
+\definecolor{sotonGrey}{RGB}{153,153,166} % Soton grey (P 443C)
+\definecolor{sotonRed}{RGB}{171,18,16} % Soton Red (P 484C)
 
 \geometry{a4paper,textwidth=15cm, textheight=21.3cm, marginratio={1:1,5:7}}
+
+\renewcommand{\today}{\ifcase \month \or January\or February\or March\or %
+April\or May \or June\or July\or August\or September\or October\or November\or %
+December\fi, \number \year} 
 
 \begin{document}
 
 \begin{titlepage}
     \begin{center}
+      
+        \centering
+        \includegraphics[width=.4\textwidth]{./figures/UoSLogo.png}         
         
-            
-        \Huge
-        \textbf{Confirmation Review}
-            
-        \vspace{3cm}
-        \Large
-        Temperature monitoring of nozzle guide vanes using ultrasonic guided waves
-     
-            
-        \vspace{3cm}
-            
-        \textbf{Lawrence Yule}
-            
-        \vspace{3cm}
-            
-        \underline{Supervisors} \\
         \vspace{0.5cm}
-        Nick Harris, Bahareh Zaghari, and Martyn Hill
-        
-        \vfill
-        \today
-        \vspace{1cm}
-            
-        
-        \large
+
+        \Large
         Electronics and Computer Science\\
         Smart Electronic Materials and Systems Research Group\\
         University of Southampton\\
+                  
+        \vfill
+
+        \Huge
+        \textbf{Temperature monitoring of nozzle guide vanes using ultrasonic guided waves}
+        
+        \vfill
+
+        \LARGE
+        \textit{by}  \\
+        \textbf{Lawrence Martyn Yule}\\
+        \Large
+        ORCiD:~\href{https://orcid.org/0000-0002-0324-6642}{0000-0002-0324-6642}
+            
+        \vfill
+
+        \textit{A thesis for the degree of\\Doctor of Philosophy}
+                  
+        \vfill
+        \today
+        %\vspace{1cm}
+        
+
    
     \end{center}
 \end{titlepage}
@@ -100,6 +116,7 @@ A number of studies are underway to investigate the effects of the physical envi
 \input{8 Research summary.tex}
 
 %\printbibliography
-\bibliographystyle{ieeetr}
-\bibliography{library.bib, References.bib}
+\printbibliography
+%\bibliographystyle{IEEEtran}
+%\bibliography{library.bib, References.bib}
 \end{document}

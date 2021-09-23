@@ -8,7 +8,7 @@ The literature covering the use of COMSOL for modelling Lamb wave excitation usi
 
 A 2D model has been produced of the experimental test setup described in Section~\ref{experiments}. This allows for validation of the time of flight measurements, and can be used to separate the effect of temperature on the wedges from the substrate. The effect of temperature on the Lamb wave alone can therefore be analysed. 
 
-The model consists of two variable angle wedges (PMMA), which are based on the geometry of the Olympus variable angle wedges used in the experimental investigation, placed on top of an aluminium plate. The thickness of the plate can be varied to target different Lamb wave modes at different frequency-thickness products. The initial thickness is set to 1 mm to target the $S_0$ mode at 1 MHz--mm. The transmitting wedge has a simplified piezoelectric transducer (PZT-5H) attached to it's rotating block, to which the excitation signal is applied. The geometry can be seen in Figure \ref{fig:COMSOLdiagram}. The received signal is measured at the receiver wedge's rotating block boundary. More realistic transducer configurations are not considered in this study, as the focus is on the effect of temperature on the propagating wave. A boundary area is set underneath the plate to act as the heat source, again mimicking the experimental setup. This is simplified to allow the temperature to be directly set, rather than simulating a hot plate.
+The model consists of two variable angle wedges (PMMA), which are based on the geometry of the Olympus variable angle wedges used in the experimental investigation, placed on top of an aluminium plate. The thickness of the plate can be varied to target different Lamb wave modes at different frequency-thickness products. The initial thickness is set to 1 mm to target the $S_0$ mode at 1 MHz--mm. The transmitting wedge has a simplified piezoelectric transducer (PZT-5H from COMSOL's material library) attached to it's rotating block, to which the excitation signal is applied. The geometry can be seen in Figure \ref{fig:COMSOLdiagram}. The received signal is measured at the receiver wedge's rotating block boundary. More realistic transducer configurations are not considered in this study, as the focus is on the effect of temperature on the propagating wave. A boundary area is set underneath the plate to act as the heat source, again mimicking the experimental setup. This is simplified to allow the temperature to be directly set, rather than simulating a hot plate.
 
 \begin{table}[h]
     \centering
@@ -36,50 +36,70 @@ The change in Young's Modulus with temperature is included in the material prope
 %
 \begin{equation}
     \label{eqn:E PMMA}
-    E\left( T \right) = \ - 15250.0000000002\times T^2 + 1125000.00000015\times T + 5432499999.99998\    
+    E\left( T \right) = \ - 15250\times T^2 + 1125000\times T + 4932500000\    
 \end{equation}
 %
 \begin{equation}
     \label{eqn:E Alu}
-    E\left( T \right) = \  - 4E7 \times T + 8E10\   
+    E\left( T \right) = \  - 4{\times} 10^7 \times T + 8{\times} 10^{10}\   
 \end{equation}
 %
-The change in Poisson's ratio and density is assumed to negligible and is not included in the simulation. Thermal expansion is also considered to have a negligible effect on the propagation distance and is excluded.
+Where $T$ is the temperature in Kelvin. The change in Poisson's ratio and density is assumed to negligible and is not included in the simulation. Thermal expansion is also considered to have a negligible effect on the propagation distance and is excluded. The modules Solid Mechanics, Electrostatics, and Heat Transfer in Solids are used in this simulation, along with a multiphysics node to couple Solid Mechanics with Electrostatics for the piezoelectric effect. Both the wedges and the plate are set to isotropic linear elastic materials, with low reflecting boundaries applied to the wedges.
 
-The modules Solid Mechanics, Electrostatics, and Heat Transfer in Solids are used in this simulation, along with a multiphysics node to couple Solid Mechanics with Electrostatics for the piezoelectric effect.
+The simple piezoelectric transducer for the transmitting wedge is set up as follows: A zero charge node is used for the edges of the material, initial values are set to 0 V, a ``Charge Conservation, Piezoelectric'' node is set for the material, a ground boundary is selected for the wedge side of the material, and a terminal node is set for the opposite boundary. Within the terminal node the type is set to Voltage and the input is set to V0(t). The excitation signal is a 1 MHz 5--cycle Hamming windowed sine pulse generated in MATLAB and imported into COMSOL using linear interpolation (Definitions$>$Interpolation).
 
-Both the wedges and the plate are set to isotropic linear elastic materials, with low reflecting boundaries applied to the wedges.
+For the Heat Transfer in Solids module all the domains are set to solid, and initial values are set to 20\si{\degreeCelsius}. The boundaries that are exposed to the air are selected in a Heat Flux node, where convective heat flux is selected. A user defined heat transfer coefficient of 15~W/(m$^2\cdot$K) is used for the plate, and 5~W/(m$^2\cdot$K) for the wedges. These values were adjusted to produce the temperature gradients measured experimentally in both the plate and the wedges. The external temperature is set to 20\si{\degreeCelsius}. The temperature of the boundary underneath the plate is adjusted as required (20\si{\degreeCelsius} to 100\si{\degreeCelsius} in 20\si{\degreeCelsius} increments for this study). An example of the temperature gradients produced from the stationary study step are shown in Figure~\ref{fig:COMSOLtemp100c}, where the temperature boundary underneath the plate is set to 100\si{\degreeCelsius}.
 
-The simple piezoelectric transducer for the transmitting wedge is set up as follows: A zero charge node is used for the edges of the material, initial values are set to 0 V, a ``Charge Conservation, Piezoelectric'' node is set for the material, a ground boundary is selected for the wedge side of the material, and a terminal node is set for the opposite boundary. Within the terminal node the type is set to Voltage and the input is set to V0(t). The excitation signal is a 1 MHz 5--cycle Hamming windowed sine pulse.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/comsoltemp100c.png}
+    \caption{Simulated temperature gradients from stationary study at 100\si{\degreeCelsius}.}\label{fig:COMSOLtemp100c}
+\end{figure}
 
-For the Heat Transfer in Solids module all the domains are set to solid, and initial values are set to 20\si{\degreeCelsius}. The boundaries that are exposed to the air are selected in a Heat Flux node, where convective heat flux is selected. A user defined heat transfer coefficient of 15~W/(m$^2\cdot$K) is used. The external temperature is set to 20\si{\degreeCelsius}. The temperature of the boundary underneath the plate is adjusted as required.
+The mesh size for each material is determined by excitation frequency. The excitation wavelength for each of the materials is calculated by dividing their longitudinal wave speed by $f_0$. A free triangular mesh is created for each of the materials, and the maximum element size for each of them is set to LocalWavelength/N. If higher frequency content is expected, the wavelength for each material should be based on the highest frequency expected rather than $f_0$. In order to accurately resolve a wave, at least 10--12 elements per local wavelength are required~\cite{COMSOL2013}. This assumes linear discretization for all modules. Using 12 elements results in an average skewness rating (measure of element quality, 0--1) of 0.9345 over 154728 elements~\cite{COMSOL2017}. This is equivalent to a sample rate of 1.2$\times$10$^8$.
 
-The mesh size for each material is determined by excitation frequency. The excitation wavelength for each of the materials is calculated by dividing their longitudinal wave speed by $f_0$. A free triangular mesh is created for each of the materials, and the maximum element size for each of them is set to LocalWavelength/N. If higher frequency content is expected, the wavelength for each material should be based on the highest frequency expected rather than $f_0$. In order to accurately resolve a wave, at least 10--12 elements per local wavelength are required. This assumes linear discretization for all modules. Using 12 elements results in an average skewness rating (measure of element quality, 0--1) of 0.9345 over 154728 elements.
+This study has two steps, firstly a stationary study to simulate the effect of temperature on the system until an equilibrium is reached, and secondly a time dependant study to simulate wave propagation that has it's initial conditions set by the stationary study. The settings for the initial study are adjusted to solve for heat transfer but not solve for electrostatics/the piezoelectric effect. Changing temperature causes a change in Young's modulus, which subsequently affects wave velocity.
 
-This study has two steps, firstly a stationary study to simulate the effect of temperature on the system until an equilibrium is reached, and secondly a time dependant study to simulate wave propagation that has it's initial conditions set by the stationary study. The settings for the initial study are adjusted to not solve for electrostatics/the piezoelectric effect. The time dependant study has it's ``Output times'' set to: range(0,dt,sim\textunderscore length) where ``dt'' is a global definition parameter equal to CFL/(N$\times f_0$). The CFL number is suggested by COMSOL to be less than 0.2, optimally 0.1. Under ``Values of Dependant Variables'' the settings are changed to user controlled, method is changed to Solution, and the study is set to the stationary study. The time step is manually set under Solver Configurations$>$Solution 1$>$Time dependant solver$>$Time stepping. Here the ``Steps taken by solver'' parameter is changed to ``Manual'' and the ``Time Step'' is set to: CFL/(N$\times f_0$). 
-
-\begin{figure}[p]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{./figures/comsoldiagram.png}
     \caption{COMSOL geometry diagram}\label{fig:COMSOLdiagram}
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{./figures/simmodes.png}
     \caption{Presence of the $A_0$ \& $S_0$ modes.}\label{fig:simmodes}
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{./figures/simpulse20cfiltered.eps}
+    \includegraphics[width=\textwidth]{./figures/simpulse20csensors.eps}
     \caption{COMSOL simulation of $S_0$ mode propagation at room temperature.}\label{fig:COMSOLsimsignal}
 \end{figure}
+
+The time dependant study includes electrostatics/the piezoelectric effect to allow for wave generation, but does not include heat transfer. This reduces computation time as it is not necessary to model changing temperature as the time dependant model solves, only to use the fixed values of Young's modulus that have been passed on from the stationary study. The time dependant study has its ``Output times'' set to: range(0,dt,sim\textunderscore length) where ``dt'' is a global definition parameter equal to CFL/(N$\times f_0$). The CFL (Courant Friedrichs Lewy) number is suggested by COMSOL~\cite{COMSOL2021} to be less than 0.2, optimally 0.1 (when the default second order, quadratic, mesh elements are used). This value represents the relationship between wave speed, $c$, maximum mesh size, $h$, and time step length, $\Delta t$: $CFL = c\Delta t/h$. This can be rewritten in terms of frequency as the maximum mesh size $h$ has already been manually defined by $N$, the number of elements per local wavelength for each material: $CFL = fN\Delta t$. This can then be rearranged to give the time step: $\Delta t = CFL/Nf$. 
+
+Under ``Values of Dependant Variables'' the settings are changed to user controlled, method is changed to Solution, and the study is set to the stationary study. The time step is manually set under Solver Configurations$>$Solution 1$>$Time dependant solver$>$Time stepping. Here the ``Steps taken by solver'' parameter is changed to ``Manual'' and the ``Time Step'' is set to: $CFL/(N\times f_0)$. 
+
+To reduce file size only the data at the wedge boundaries is stored by the solver. This can be achieved by adding an ``Explicit Selection'' node in the Geometry section, and selecting both the transmit and receive wedge boundaries. Within the time dependant study settings select ``For selection'' under ``Store fields in output'' and select the boundary group~\cite{COMSOL2021a}. 
+
+A parametric sweep node was used to cycle through the temperature boundary values (20\si{\degreeCelsius} to 100\si{\degreeCelsius} in 20\si{\degreeCelsius} increments) and save the output of the time dependant model for each value. This is repeated for the model in the wedge-to-wedge configuration (mimicking the experimental setup shown in Figure~\ref{fig:testdiagramw2w}). The simulations were run on the University of Southampton's IRIDIS 5 supercomputing platform~\cite{Southampton2021}.
 
 \section{Simulation results}
 
 Exaggerated deformation of pressure in the plate as seen in Figure~\ref{fig:simmodes} makes the presence of the $A_0$ and $S_0$ modes clearly visible. The modes are separated in the time domain after a short distance ($\sim$~50 mm) due to the difference in group velocity. 
 
-To visualise wave propagation and calculate time of flight the pressure at both transmitter and receiver wedge boundaries are exported, and the time of flight is measured using a cross-correlation method, to allow direct comparison with experimental results. An example of wave propagation at room temperature can be seen in Figure~\ref{fig:COMSOLsimsignal}. 
+To visualise wave propagation and calculate time of flight the pressure at both transmitter and receiver wedge boundaries are exported, and the time of flight is measured using an envelope peak extraction method, to allow direct comparison with experimental results. This method of time of flight measurement can also be applied to more dispersive signals, which cannot be achieved using cross correlation methods. Various signal processing techniques for time of flight measurement are discussed in detail by Guers~\cite{Guers2011}. An example of wave propagation at room temperature can be seen in Figure~\ref{fig:COMSOLsimsignal}. 
 
-Calculated total Time of flight (through both the wedges and the plate) is longer than experimental measurements of the same setup. This causes calculated wave velocity to be lower than expected ($\sim$ -120 m s$^{-1}$). Time of flight in the wedge-to-wedge configuration is in line with experimental measurements, which eliminates the wedges as a source of error. The material properties of the aluminium plate are the same as those used in the theoretical study, which should (in theory) mean that the velocity in the simulated plate is the same as was extracted from dispersion curves. Frequency analysis of the transmitted wave shows that it is still centred at 1 MHz. 
+Calculated total time of flight (through both the wedges and the plate) is marginally longer than experimentally measured time of flight, which can be attributed to a number of factors. Differences in material properties, their change with temperature, variance in geometry, wedge angle, wedge spacing, and sample rate, all have an impact on time of flight. Wedge foot offset (the distance a wave travel under each wedge foot) is calculated in the same way for both the simulation and the experiments, however the value differs, which indicates a difference in geometry between them. Despite this difference the difference in calculated velocities is small, as using accurate estimations of wedge foot offset corrects for the difference in total time of flight. Time of flight in the wedge-to-wedge configuration is in line with experimental measurements, which suggests that the geometry and material properties of the wedges are realistic. The material properties of the aluminium plate are the same as those used in the theoretical study, which should (in theory) mean that the velocity in the simulated plate is the same as was extracted from dispersion curves. Frequency analysis of the transmitted wave shows that it is still centred at 1 MHz as expected. 
+
+Figure~\ref{fig:s0result} shows the change in velocity with temperature for the $S_0$ Lamb wave mode in Aluminium, comparing theoretical temperature sensitivity extracted from dispersion curves, experimental measurement data (Section~\ref{S0 experiments}), and COMSOL simulations of the experimental setup. The results from the COMSOL model are in good agreement with those taken experimentally, which also match up well to the theoretical temperature sensitivity of Aluminium extracted from dispersion curves. The experimental result is within 4.89 $\pm$ 2.27 m s$^{-1}$ or 0.05\% of the theoretical velocity on average. The COMSOL results are within 3.25 m s$^{-1}$ or 0.02\% of the theoretical result on average.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/s0andcomsolresult.eps}
+    \caption{Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between theoretical, experimental, and simulated results.}\label{fig:s0result}
+\end{figure}
+
+\printbibliography

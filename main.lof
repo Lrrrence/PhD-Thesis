@@ -1,45 +1,95 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{3}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{4}\relax 
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Jet engine cross-section with NGV.\relax }}{8}{figure.caption.4}%
+\defcounter {refsection}{4}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Cross section of a typical turbine blade with TBC applied\nobreakspace {}\cite {AbouNada2016}.\relax }}{12}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The development history of superalloys, film cooling techniques, and thermal barrier coatings\nobreakspace {}\cite {Zhao2014}.\relax }}{13}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Temperature monitoring systems for nozzle guide vanes\relax }}{15}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Calibration colour maps for single-change paints: SC155, SC240, SC275, SC367, SC400, SC458, SC550, SC630\nobreakspace {}\cite {Neely2006}.\relax }}{17}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Calibration colour maps for multi-change paints: MC135--2, MC165--2, MC395--3, MC490--10, MC520--7\nobreakspace {}\cite {Neely2006}.\relax }}{18}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Crystal temperature sensors installed on a NGV\nobreakspace {}\cite {Annerfeldt2004}\relax }}{20}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces TFTC array installed on a NGV\nobreakspace {}\cite {Duan2020}\relax }}{21}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Cross sectional view of pyrometer installation\nobreakspace {}\cite {Kerr2004}\relax }}{23}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces IR camera in use on a Siemens SGT-750 gas turbine\nobreakspace {}\cite {Hellberg}\relax }}{24}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces A comparison of online monitoring systems (reproduced from Yañez Gonzalez \textit {et al.}\nobreakspace {}\cite {YanezGonzalez2015})\relax }}{25}{figure.caption.14}%
+\defcounter {refsection}{5}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Cross section of a typical turbine blade with TBC applied\nobreakspace {}\cite {AbouNada2016}.\relax }}{13}{figure.caption.6}%
+\defcounter {refsection}{5}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The development history of superalloys, film cooling techniques, and thermal barrier coatings\nobreakspace {}\cite {Zhao2014}.\relax }}{14}{figure.caption.7}%
+\defcounter {refsection}{5}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Temperature monitoring systems for nozzle guide vanes\relax }}{16}{figure.caption.8}%
+\defcounter {refsection}{5}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Calibration colour maps for single-change paints: SC155, SC240, SC275, SC367, SC400, SC458, SC550, SC630\nobreakspace {}\cite {Neely2006}.\relax }}{18}{figure.caption.9}%
+\defcounter {refsection}{5}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Calibration colour maps for multi-change paints: MC135--2, MC165--2, MC395--3, MC490--10, MC520--7\nobreakspace {}\cite {Neely2006}.\relax }}{19}{figure.caption.10}%
+\defcounter {refsection}{5}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Crystal temperature sensors installed on a NGV\nobreakspace {}\cite {Annerfeldt2004}\relax }}{21}{figure.caption.11}%
+\defcounter {refsection}{5}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces TFTC array installed on a NGV\nobreakspace {}\cite {Duan2020}\relax }}{22}{figure.caption.12}%
+\defcounter {refsection}{5}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Cross sectional view of pyrometer installation\nobreakspace {}\cite {Kerr2004}\relax }}{24}{figure.caption.13}%
+\defcounter {refsection}{5}\relax 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces IR camera in use on a Siemens SGT-750 gas turbine\nobreakspace {}\cite {Hellberg}\relax }}{25}{figure.caption.14}%
+\defcounter {refsection}{5}\relax 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces A comparison of online monitoring systems (reproduced from Yañez Gonzalez \textit {et al.}\nobreakspace {}\cite {YanezGonzalez2015})\relax }}{26}{figure.caption.15}%
+\defcounter {refsection}{5}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A SAW delay line\nobreakspace {}\cite {Ida2014}\relax }}{31}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces A SAW resonator\nobreakspace {}\cite {Ida2014}\relax }}{32}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A typical wedge transducer\relax }}{32}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces An example Hertzian contact transducer\relax }}{33}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Willsch's welded waveguide\nobreakspace {}\cite {Willsch2004a}.\relax }}{34}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Particle displacement of symmetric and antisymmetric Lamb wave modes in a plate.\relax }}{35}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Temperature dependent Young's modulus, density, and calculated Poisson's ratio for Inconel 718.\relax }}{35}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces The effect of temperature on the $S_0$ mode in an aluminium plate.\relax }}{36}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Lamb wave phase velocity dispersion curves for Inconel 718.\relax }}{37}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 21\si {\degreeCelsius } to 1093\si {\degreeCelsius } for Inconel 718.\relax }}{38}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces $A_0$ \& $S_0$ group velocity change with temperature from 21\si {\degreeCelsius } to 1093\si {\degreeCelsius } at 1\nobreakspace {}MHz for Inconel 718.\relax }}{39}{figure.caption.27}%
+\defcounter {refsection}{6}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A SAW delay line\nobreakspace {}\cite {Ida2014}\relax }}{38}{figure.caption.19}%
+\defcounter {refsection}{6}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A SAW resonator\nobreakspace {}\cite {Ida2014}\relax }}{39}{figure.caption.20}%
+\defcounter {refsection}{6}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A typical wedge transducer\relax }}{39}{figure.caption.21}%
+\defcounter {refsection}{6}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces An example Hertzian contact transducer\relax }}{40}{figure.caption.22}%
+\defcounter {refsection}{6}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Willsch's welded waveguide\nobreakspace {}\cite {Willsch2004a}.\relax }}{41}{figure.caption.23}%
+\defcounter {refsection}{6}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Particle displacement of symmetric and antisymmetric Lamb wave modes in a plate.\relax }}{42}{figure.caption.24}%
+\defcounter {refsection}{6}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Temperature dependent Young's modulus, density, and calculated Poisson's ratio for Inconel 718.\relax }}{42}{figure.caption.25}%
+\defcounter {refsection}{6}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The effect of temperature on the $S_0$ mode in an aluminium plate.\relax }}{43}{figure.caption.26}%
+\defcounter {refsection}{6}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Lamb wave phase velocity dispersion curves for Inconel 718.\relax }}{44}{figure.caption.27}%
+\defcounter {refsection}{6}\relax 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 21\si {\degreeCelsius } to 1093\si {\degreeCelsius } for Inconel 718.\relax }}{45}{figure.caption.28}%
+\defcounter {refsection}{6}\relax 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces $A_0$ \& $S_0$ group velocity change with temperature from 21\si {\degreeCelsius } to 1093\si {\degreeCelsius } at 1\nobreakspace {}MHz for Inconel 718.\relax }}{46}{figure.caption.29}%
+\defcounter {refsection}{6}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 20\si {\degreeCelsius } to 100\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{43}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces $S_0$, $A_1$, and $S_1$ group velocity change with temperature from 20\si {\degreeCelsius } to 100\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{43}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces An example of multi-modal wave packets. Simulated 100 mm wave propagation of 10--cycle Hamming windowed 1\nobreakspace {}MHz sine pulse in a 4 mm thick aluminium plate.\relax }}{44}{figure.caption.30}%
+\defcounter {refsection}{7}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 20\si {\degreeCelsius } to 100\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{57}{figure.caption.31}%
+\defcounter {refsection}{7}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces $S_0$, $A_1$, and $S_1$ group velocity change with temperature from 20\si {\degreeCelsius } to 100\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{57}{figure.caption.32}%
+\defcounter {refsection}{7}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces An example of multi-modal wave packets. Simulated 100 mm wave propagation of 10--cycle Hamming windowed 1\nobreakspace {}MHz sine pulse in a 4 mm thick aluminium plate.\relax }}{58}{figure.caption.33}%
+\defcounter {refsection}{7}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces COMSOL geometry diagram\relax }}{47}{figure.caption.32}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Presence of the $A_0$ \& $S_0$ modes.\relax }}{47}{figure.caption.33}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces COMSOL simulation of $S_0$ mode propagation at room temperature.\relax }}{47}{figure.caption.34}%
+\defcounter {refsection}{8}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Simulated temperature gradients from stationary study at 100\si {\degreeCelsius }.\relax }}{61}{figure.caption.36}%
+\defcounter {refsection}{8}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces COMSOL geometry diagram\relax }}{62}{figure.caption.37}%
+\defcounter {refsection}{8}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Presence of the $A_0$ \& $S_0$ modes.\relax }}{62}{figure.caption.38}%
+\defcounter {refsection}{8}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces COMSOL simulation of $S_0$ mode propagation at room temperature.\relax }}{63}{figure.caption.39}%
+\defcounter {refsection}{8}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between theoretical, experimental, and simulated results.\relax }}{65}{figure.caption.40}%
+\defcounter {refsection}{8}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Cross-sectional diagram of total time-of-flight measurement setup.\relax }}{50}{figure.caption.36}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Cross-sectional diagram of wedge-to-wedge time-of-flight measurement setup.\relax }}{50}{figure.caption.37}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Photograph of test setup.\relax }}{52}{figure.caption.38}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Time of flight ($t_F$) measurement of $S_0$ mode wave propagation using cross-correlation function at room temperature.\relax }}{53}{figure.caption.39}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Group velocity change with temperature for the $S_0$ mode in Aluminium 1050 H14.\relax }}{54}{figure.caption.40}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Time of flight ($t_F$) measurement of $A_1$ mode wave propagation using cross-correlation function at room temperature.\relax }}{55}{figure.caption.41}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Group velocity change with temperature for the $A_1$ mode in Aluminium 1050 H14.\relax }}{56}{figure.caption.42}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Time of flight ($t_F$) measurement of $S_1$ mode using envelope peak method at room temperature.\relax }}{57}{figure.caption.43}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Group velocity change with temperature for the $S_1$ mode in Aluminium 1050 H14.\relax }}{57}{figure.caption.44}%
+\defcounter {refsection}{9}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Cross-sectional diagram of total time-of-flight measurement setup.\relax }}{68}{figure.caption.43}%
+\defcounter {refsection}{9}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Cross-sectional diagram of wedge-to-wedge time-of-flight measurement setup.\relax }}{68}{figure.caption.44}%
+\defcounter {refsection}{9}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Photograph of test setup.\relax }}{70}{figure.caption.45}%
+\defcounter {refsection}{9}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Time of flight ($t_F$) measurement of $S_0$ mode wave propagation using cross-correlation function at room temperature.\relax }}{71}{figure.caption.46}%
+\defcounter {refsection}{9}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Group velocity change with temperature for the $S_0$ mode in Aluminium 1050 H14.\relax }}{72}{figure.caption.47}%
+\defcounter {refsection}{9}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Time of flight ($t_F$) measurement of $A_1$ mode wave propagation using cross-correlation function at room temperature.\relax }}{73}{figure.caption.48}%
+\defcounter {refsection}{9}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Group velocity change with temperature for the $A_1$ mode in Aluminium 1050 H14.\relax }}{74}{figure.caption.49}%
+\defcounter {refsection}{9}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Time of flight ($t_F$) measurement of $S_1$ mode using envelope peak method at room temperature.\relax }}{75}{figure.caption.50}%
+\defcounter {refsection}{9}\relax 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Group velocity change with temperature for the $S_1$ mode in Aluminium 1050 H14.\relax }}{75}{figure.caption.51}%
+\defcounter {refsection}{9}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{10}\relax 
 \addvspace {10\p@ }
