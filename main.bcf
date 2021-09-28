@@ -2382,7 +2382,9 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">References.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="4">
-    <bcf:citekey order="1">Yule2021</bcf:citekey>
+    <bcf:citekey order="1">Yule2020</bcf:citekey>
+    <bcf:citekey order="2">Yule2021</bcf:citekey>
+    <bcf:citekey order="3">Yule2021a</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
