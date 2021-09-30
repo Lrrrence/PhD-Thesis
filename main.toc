@@ -38,7 +38,7 @@
 \defcounter {refsection}{5}\relax 
 \contentsline {chapter}{\numberline {3}Emerging techniques for online monitoring}{35}{chapter.3}%
 \defcounter {refsection}{6}\relax 
-\contentsline {section}{\numberline {3.1}Ultrasonic structural health monitoring}{35}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Ultrasonic structural health monitoring}{36}{section.3.1}%
 \defcounter {refsection}{6}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Temperature compensation techniques}{36}{subsection.3.1.1}%
 \defcounter {refsection}{6}\relax 
@@ -46,11 +46,11 @@
 \defcounter {refsection}{6}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Measurement devices for the generation and acquisition of guided waves}{38}{subsection.3.2.1}%
 \defcounter {refsection}{6}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Piezoelectric selection for high temperature sensing}{40}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Piezoelectric selection for high temperature sensing}{41}{subsection.3.2.2}%
 \defcounter {refsection}{6}\relax 
-\contentsline {section}{\numberline {3.3}Introducing Lamb waves for temperature sensing}{41}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Introducing Lamb waves for temperature sensing}{42}{section.3.3}%
 \defcounter {refsection}{6}\relax 
-\contentsline {section}{\numberline {3.4}Conclusion}{47}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Conclusion}{46}{section.3.4}%
 \defcounter {refsection}{6}\relax 
 \contentsline {section}{\numberline {3.5}Other applications}{47}{section.3.5}%
 \defcounter {refsection}{6}\relax 
