@@ -118,11 +118,14 @@ December\fi, \number \year}
 
 \pagenumbering{arabic}
 
+\pagestyle{fancy}% set headers/footers as defined above
 % redefine default pagestyle to include headers/footers on chapter pages
 \fancypagestyle{plain}{
   \fancyhf{} %clear headers/footers
-  \fancyhead[L]{\nouppercase{\leftmark}}%
+  %\fancyhead[L]{\nouppercase{\leftmark}}%
   \fancyfoot[R]{Page \thepage \hspace{1pt} of~\pageref{LastPage}}% print footer "page X of Y"
+  %\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter\ -- \textit{##1}}{}}%
+  \renewcommand{\headrulewidth}{0pt}
 }
 % define headers and footers
 \fancyhf{} %clear headers/footers
@@ -131,7 +134,7 @@ December\fi, \number \year}
 \fancyfoot[R]{Page \thepage \hspace{1pt} of~\pageref{LastPage}}% print footer "page X of Y"
 \renewcommand{\footrulewidth}{0.5pt}% footer line}
 %
-\pagestyle{fancy}% set headers/footers as defined above
+
 %
 \input{1 Intro.tex}
 \input{2 Literature Review.tex}
