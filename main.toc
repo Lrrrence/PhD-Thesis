@@ -1,101 +1,101 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{3}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{4}\relax 
-\contentsline {section}{\numberline {1.1}Research objectives}{10}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Research objectives}{4}{section.1.1}%
 \defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Research questions}{10}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Research questions}{4}{subsection.1.1.1}%
 \defcounter {refsection}{4}\relax 
-\contentsline {section}{\numberline {1.2}Research output}{11}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Research output}{5}{section.1.2}%
 \defcounter {refsection}{4}\relax 
-\contentsline {chapter}{\numberline {2}Nozzle guide vane (NGV) temperature monitoring}{13}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Nozzle guide vane (NGV) temperature monitoring}{7}{chapter.2}%
 \defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {2.1}Current surface temperature monitoring strategies}{16}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Current surface temperature monitoring strategies}{10}{section.2.1}%
 \defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {2.2}Numerical methods for temperature estimation}{17}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Numerical methods for temperature estimation}{11}{section.2.2}%
 \defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {2.3}Offline Monitoring Methods}{17}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Offline Monitoring Methods}{11}{section.2.3}%
 \defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Thermal paint or Temperature indicating paint}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Thermal paint or Temperature indicating paint}{11}{subsection.2.3.1}%
 \defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Thermal history sensors}{19}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Thermal history sensors}{13}{subsection.2.3.2}%
 \defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Other offline sensors}{20}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Other offline sensors}{14}{subsection.2.3.3}%
 \defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {2.4}Online Monitoring Methods}{21}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Online Monitoring Methods}{15}{section.2.4}%
 \defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Thermocouples}{22}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Thermocouples}{16}{subsection.2.4.1}%
 \defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Pyrometry}{23}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Pyrometry}{17}{subsection.2.4.2}%
 \defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Temperature sensitive paints}{24}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.3}Temperature sensitive paints}{18}{subsection.2.4.3}%
 \defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {2.4.4}Thermographic phosphors}{24}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.4}Thermographic phosphors}{18}{subsection.2.4.4}%
 \defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {2.4.5}Other methods}{26}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.5}Other methods}{20}{subsection.2.4.5}%
 \defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {2.5}Conclusions}{26}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Conclusions}{20}{section.2.5}%
 \defcounter {refsection}{5}\relax 
-\contentsline {chapter}{\numberline {3}Emerging techniques for online monitoring}{35}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Emerging techniques for online monitoring}{28}{chapter.3}%
 \defcounter {refsection}{6}\relax 
-\contentsline {section}{\numberline {3.1}Ultrasonic structural health monitoring}{36}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Ultrasonic structural health monitoring}{29}{section.3.1}%
 \defcounter {refsection}{6}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Temperature compensation techniques}{36}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.1}Temperature compensation techniques}{29}{subsection.3.1.1}%
 \defcounter {refsection}{6}\relax 
-\contentsline {section}{\numberline {3.2}Acoustic temperature sensing}{37}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Acoustic temperature sensing}{30}{section.3.2}%
 \defcounter {refsection}{6}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Measurement devices for the generation and acquisition of guided waves}{38}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Measurement devices for the generation and acquisition of guided waves}{31}{subsection.3.2.1}%
 \defcounter {refsection}{6}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Piezoelectric selection for high temperature sensing}{41}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Piezoelectric selection for high temperature sensing}{34}{subsection.3.2.2}%
 \defcounter {refsection}{6}\relax 
-\contentsline {section}{\numberline {3.3}Introducing Lamb waves for temperature sensing}{42}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Introducing Lamb waves for temperature sensing}{35}{section.3.3}%
 \defcounter {refsection}{6}\relax 
-\contentsline {section}{\numberline {3.4}Conclusion}{46}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Conclusion}{39}{section.3.4}%
 \defcounter {refsection}{6}\relax 
-\contentsline {section}{\numberline {3.5}Other applications}{47}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Other applications}{40}{section.3.5}%
 \defcounter {refsection}{6}\relax 
-\contentsline {chapter}{\numberline {4}Theoretical temperature sensitivity of Lamb waves}{55}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Theoretical temperature sensitivity of Lamb waves}{48}{chapter.4}%
 \defcounter {refsection}{7}\relax 
-\contentsline {section}{\numberline {4.1}Generation of dispersion curves}{55}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Generation of dispersion curves}{48}{section.4.1}%
 \defcounter {refsection}{7}\relax 
-\contentsline {section}{\numberline {4.2}The effect of temperature on wave propagation in aluminium}{56}{section.4.2}%
+\contentsline {section}{\numberline {4.2}The effect of temperature on wave propagation in aluminium}{49}{section.4.2}%
 \defcounter {refsection}{7}\relax 
-\contentsline {section}{\numberline {4.3}Multi-modal Lamb waves}{58}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Multi-modal Lamb waves}{51}{section.4.3}%
 \defcounter {refsection}{7}\relax 
-\contentsline {chapter}{\numberline {5}COMSOL simulations of Lamb wave propagation}{60}{chapter.5}%
+\contentsline {chapter}{\numberline {5}COMSOL simulations of Lamb wave propagation}{53}{chapter.5}%
 \defcounter {refsection}{8}\relax 
-\contentsline {section}{\numberline {5.1}Variable angle wedge simulation}{60}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Variable angle wedge simulation}{53}{section.5.1}%
 \defcounter {refsection}{8}\relax 
-\contentsline {section}{\numberline {5.2}Simulation results}{63}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Simulation results}{56}{section.5.2}%
 \defcounter {refsection}{8}\relax 
-\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{66}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{59}{chapter.6}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.1}Test Method}{69}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Test Method}{62}{section.6.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{70}{section.6.2}%
+\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{63}{section.6.2}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{70}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{63}{subsection.6.2.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{72}{section.6.3}%
+\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{65}{section.6.3}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{72}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{65}{subsection.6.3.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{73}{section.6.4}%
+\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{66}{section.6.4}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{73}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{66}{subsection.6.4.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{75}{section.6.5}%
+\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{68}{section.6.5}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.6}Conclusion}{75}{section.6.6}%
+\contentsline {section}{\numberline {6.6}Conclusion}{68}{section.6.6}%
 \defcounter {refsection}{9}\relax 
-\contentsline {chapter}{\numberline {7}Experimental investigation of reflections}{78}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Experimental investigation of reflections}{71}{chapter.7}%
 \defcounter {refsection}{10}\relax 
-\contentsline {section}{\numberline {7.1}Edge reflections}{78}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Edge reflections}{71}{section.7.1}%
 \defcounter {refsection}{10}\relax 
-\contentsline {chapter}{\numberline {8}Research summary \& future plans}{79}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Research summary \& future plans}{72}{chapter.8}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.1}Research summary}{79}{section.8.1}%
+\contentsline {section}{\numberline {8.1}Research summary}{72}{section.8.1}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.2}Future plans}{80}{section.8.2}%
+\contentsline {section}{\numberline {8.2}Future plans}{73}{section.8.2}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.3}Gantt chart}{80}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Gantt chart}{73}{section.8.3}%

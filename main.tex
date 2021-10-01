@@ -1,6 +1,6 @@
 \documentclass{report}
 \usepackage[utf8]{inputenc}
-\usepackage[refsection=chapter,style=numeric]{biblatex}
+\usepackage[refsection=chapter,style=numeric,sorting=none]{biblatex}
 \addbibresource{library.bib}
 \addbibresource{References.bib}
 \usepackage{gensymb}
@@ -13,7 +13,6 @@
 \usepackage{booktabs} %better tables
 \usepackage{moreverb}
 \usepackage{xurl} %break urls at alphanumeric characters
-\usepackage[breaklinks,colorlinks,bookmarksopen,bookmarksnumbered,citecolor=sotonRed,urlcolor=sotonMarineBlue,linkcolor=sotonRed]{hyperref}
 \usepackage{textcomp}
 \usepackage{siunitx}
 \usepackage{tabularx}
@@ -30,6 +29,7 @@
 \usepackage{pdfpages}
 \usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash]{caption}
 \usepackage{fancyhdr} %headings
+\usepackage{lastpage} %find last page
 
 %adjust chapter titles
 \usepackage{titlesec}
@@ -42,6 +42,8 @@
 \filright}
 [\vspace{2ex}%
 \titlerule]
+
+\usepackage[breaklinks,colorlinks,bookmarksopen,bookmarksnumbered,citecolor=sotonRed,urlcolor=sotonMarineBlue,linkcolor=sotonRed]{hyperref}%load hyperref last
 
 \definecolor{barblue}{RGB}{153,204,254}
 \definecolor{groupblue}{RGB}{51,102,254}
@@ -58,6 +60,8 @@ April\or May \or June\or July\or August\or September\or October\or November\or %
 December\fi, \number \year} 
 
 \begin{document}
+
+\pagenumbering{Roman} 
 
 \begin{titlepage}
     \begin{center}
@@ -112,13 +116,23 @@ December\fi, \number \year}
   \cleardoublepage
 }
 
-% start headers here
-\pagestyle{fancy}
-\fancyhead{} % clear the headers
-\fancyhead[L]{\nouppercase{\leftmark}}
-\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter\ -- \textit{#1}}{}}
-% 
+\pagenumbering{arabic}
 
+% redefine default pagestyle to include headers/footers on chapter pages
+\fancypagestyle{plain}{
+  \fancyhf{} %clear headers/footers
+  \fancyhead[L]{\nouppercase{\leftmark}}%
+  \fancyfoot[R]{Page \thepage \hspace{1pt} of~\pageref{LastPage}}% print footer "page X of Y"
+}
+% define headers and footers
+\fancyhf{} %clear headers/footers
+\fancyhead[L]{\nouppercase{\leftmark}}%
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter\ -- \textit{#1}}{}}%
+\fancyfoot[R]{Page \thepage \hspace{1pt} of~\pageref{LastPage}}% print footer "page X of Y"
+\renewcommand{\footrulewidth}{0.5pt}% footer line}
+%
+\pagestyle{fancy}% set headers/footers as defined above
+%
 \input{1 Intro.tex}
 \input{2 Literature Review.tex}
 \input{3 Acoustic temperature sensing.tex}
@@ -127,7 +141,7 @@ December\fi, \number \year}
 \input{6 Temperature Experiments.tex}
 \input{7 Reflection experiments.tex}
 \input{8 Research summary.tex}
-
+%
 %\printbibliography
 \printbibliography
 %\bibliographystyle{IEEEtran}
