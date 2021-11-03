@@ -1,29 +1,29 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.9.3)  1 OCT 2021 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.3)  3 NOV 2021 13:36
 entering extended mode
 **c:/Users/yulel/Documents/LaTeX/PhD-Thesis/main.tex
 (c:/Users/yulel/Documents/LaTeX/PhD-Thesis/main.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-05-07> (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-10-18> (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/02/12 v1.4n Standard LaTeX document class
 (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count179
-\c@chapter=\count180
-\c@section=\count181
-\c@subsection=\count182
-\c@subsubsection=\count183
-\c@paragraph=\count184
-\c@subparagraph=\count185
-\c@figure=\count186
-\c@table=\count187
+\c@part=\count182
+\c@chapter=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
@@ -40,67 +40,67 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count188
+\etb@tempcnta=\count191
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks18
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count189
+\lrq@indent=\count192
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count190
-\c@listtotal=\count191
-\c@listcount=\count192
-\c@liststart=\count193
-\c@liststop=\count194
-\c@citecount=\count195
-\c@citetotal=\count196
-\c@multicitecount=\count197
-\c@multicitetotal=\count198
-\c@instcount=\count199
-\c@maxnames=\count266
-\c@minnames=\count267
-\c@maxitems=\count268
-\c@minitems=\count269
-\c@citecounter=\count270
-\c@maxcitecounter=\count271
-\c@savedcitecounter=\count272
-\c@uniquelist=\count273
-\c@uniquename=\count274
-\c@refsection=\count275
-\c@refsegment=\count276
-\c@maxextratitle=\count277
-\c@maxextratitleyear=\count278
-\c@maxextraname=\count279
-\c@maxextradate=\count280
-\c@maxextraalpha=\count281
-\c@abbrvpenalty=\count282
-\c@highnamepenalty=\count283
-\c@lownamepenalty=\count284
-\c@maxparens=\count285
-\c@parenlevel=\count286
-\blx@tempcnta=\count287
-\blx@tempcntb=\count288
-\blx@tempcntc=\count289
-\blx@maxsection=\count290
-\blx@maxsegment@0=\count291
-\blx@notetype=\count292
-\blx@parenlevel@text=\count293
-\blx@parenlevel@foot=\count294
-\blx@sectionciteorder@0=\count295
-\blx@entrysetcounter=\count296
-\blx@biblioinstance=\count297
+\c@tabx@nest=\count193
+\c@listtotal=\count194
+\c@listcount=\count195
+\c@liststart=\count196
+\c@liststop=\count197
+\c@citecount=\count198
+\c@citetotal=\count199
+\c@multicitecount=\count266
+\c@multicitetotal=\count267
+\c@instcount=\count268
+\c@maxnames=\count269
+\c@minnames=\count270
+\c@maxitems=\count271
+\c@minitems=\count272
+\c@citecounter=\count273
+\c@maxcitecounter=\count274
+\c@savedcitecounter=\count275
+\c@uniquelist=\count276
+\c@uniquename=\count277
+\c@refsection=\count278
+\c@refsegment=\count279
+\c@maxextratitle=\count280
+\c@maxextratitleyear=\count281
+\c@maxextraname=\count282
+\c@maxextradate=\count283
+\c@maxextraalpha=\count284
+\c@abbrvpenalty=\count285
+\c@highnamepenalty=\count286
+\c@lownamepenalty=\count287
+\c@maxparens=\count288
+\c@parenlevel=\count289
+\blx@tempcnta=\count290
+\blx@tempcntb=\count291
+\blx@tempcntc=\count292
+\blx@maxsection=\count293
+\blx@maxsegment@0=\count294
+\blx@notetype=\count295
+\blx@parenlevel@text=\count296
+\blx@parenlevel@foot=\count297
+\blx@sectionciteorder@0=\count298
+\blx@entrysetcounter=\count299
+\blx@biblioinstance=\count300
 \labelnumberwidth=\skip49
 \labelalphawidth=\skip50
 \biblabelsep=\skip51
@@ -112,9 +112,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language79
-\c@mincomprange=\count298
-\c@maxcomprange=\count299
-\c@mincompwidth=\count300
+\c@mincomprange=\count301
+\c@maxcomprange=\count302
+\c@mincompwidth=\count303
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -124,74 +124,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count301
-\c@savedafterword=\count302
-\c@annotator=\count303
-\c@savedannotator=\count304
-\c@author=\count305
-\c@savedauthor=\count306
-\c@bookauthor=\count307
-\c@savedbookauthor=\count308
-\c@commentator=\count309
-\c@savedcommentator=\count310
-\c@editor=\count311
-\c@savededitor=\count312
-\c@editora=\count313
-\c@savededitora=\count314
-\c@editorb=\count315
-\c@savededitorb=\count316
-\c@editorc=\count317
-\c@savededitorc=\count318
-\c@foreword=\count319
-\c@savedforeword=\count320
-\c@holder=\count321
-\c@savedholder=\count322
-\c@introduction=\count323
-\c@savedintroduction=\count324
-\c@namea=\count325
-\c@savednamea=\count326
-\c@nameb=\count327
-\c@savednameb=\count328
-\c@namec=\count329
-\c@savednamec=\count330
-\c@translator=\count331
-\c@savedtranslator=\count332
-\c@shortauthor=\count333
-\c@savedshortauthor=\count334
-\c@shorteditor=\count335
-\c@savedshorteditor=\count336
-\c@labelname=\count337
-\c@savedlabelname=\count338
-\c@institution=\count339
-\c@savedinstitution=\count340
-\c@lista=\count341
-\c@savedlista=\count342
-\c@listb=\count343
-\c@savedlistb=\count344
-\c@listc=\count345
-\c@savedlistc=\count346
-\c@listd=\count347
-\c@savedlistd=\count348
-\c@liste=\count349
-\c@savedliste=\count350
-\c@listf=\count351
-\c@savedlistf=\count352
-\c@location=\count353
-\c@savedlocation=\count354
-\c@organization=\count355
-\c@savedorganization=\count356
-\c@origlocation=\count357
-\c@savedoriglocation=\count358
-\c@origpublisher=\count359
-\c@savedorigpublisher=\count360
-\c@publisher=\count361
-\c@savedpublisher=\count362
-\c@language=\count363
-\c@savedlanguage=\count364
-\c@origlanguage=\count365
-\c@savedoriglanguage=\count366
-\c@pageref=\count367
-\c@savedpageref=\count368
+\c@afterword=\count304
+\c@savedafterword=\count305
+\c@annotator=\count306
+\c@savedannotator=\count307
+\c@author=\count308
+\c@savedauthor=\count309
+\c@bookauthor=\count310
+\c@savedbookauthor=\count311
+\c@commentator=\count312
+\c@savedcommentator=\count313
+\c@editor=\count314
+\c@savededitor=\count315
+\c@editora=\count316
+\c@savededitora=\count317
+\c@editorb=\count318
+\c@savededitorb=\count319
+\c@editorc=\count320
+\c@savededitorc=\count321
+\c@foreword=\count322
+\c@savedforeword=\count323
+\c@holder=\count324
+\c@savedholder=\count325
+\c@introduction=\count326
+\c@savedintroduction=\count327
+\c@namea=\count328
+\c@savednamea=\count329
+\c@nameb=\count330
+\c@savednameb=\count331
+\c@namec=\count332
+\c@savednamec=\count333
+\c@translator=\count334
+\c@savedtranslator=\count335
+\c@shortauthor=\count336
+\c@savedshortauthor=\count337
+\c@shorteditor=\count338
+\c@savedshorteditor=\count339
+\c@labelname=\count340
+\c@savedlabelname=\count341
+\c@institution=\count342
+\c@savedinstitution=\count343
+\c@lista=\count344
+\c@savedlista=\count345
+\c@listb=\count346
+\c@savedlistb=\count347
+\c@listc=\count348
+\c@savedlistc=\count349
+\c@listd=\count350
+\c@savedlistd=\count351
+\c@liste=\count352
+\c@savedliste=\count353
+\c@listf=\count354
+\c@savedlistf=\count355
+\c@location=\count356
+\c@savedlocation=\count357
+\c@organization=\count358
+\c@savedorganization=\count359
+\c@origlocation=\count360
+\c@savedoriglocation=\count361
+\c@origpublisher=\count362
+\c@savedorigpublisher=\count363
+\c@publisher=\count364
+\c@savedpublisher=\count365
+\c@language=\count366
+\c@savedlanguage=\count367
+\c@origlanguage=\count368
+\c@savedoriglanguage=\count369
+\c@pageref=\count370
+\c@savedpageref=\count371
 \shorthandwidth=\skip57
 \shortjournalwidth=\skip58
 \shortserieswidth=\skip59
@@ -215,19 +215,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count369
-\c@textcitetotal=\count370
-\c@textcitemaxnames=\count371
-\c@biburlbigbreakpenalty=\count372
-\c@biburlbreakpenalty=\count373
-\c@biburlnumpenalty=\count374
-\c@biburlucpenalty=\count375
-\c@biburllcpenalty=\count376
+\c@textcitecount=\count372
+\c@textcitetotal=\count373
+\c@textcitemaxnames=\count374
+\c@biburlbigbreakpenalty=\count375
+\c@biburlbreakpenalty=\count376
+\c@biburlnumpenalty=\count377
+\c@biburlucpenalty=\count378
+\c@biburllcpenalty=\count379
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count377
+\c@smartand=\count380
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -237,8 +237,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count378
-\c@bbx:relatedtotal=\count379
+\c@bbx:relatedcount=\count381
+\c@bbx:relatedtotal=\count382
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -267,30 +267,30 @@ Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 147.
+Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks18
-\SOUL@lasttoken=\toks19
-\SOUL@cmds=\toks20
-\SOUL@buffer=\toks21
-\SOUL@token=\toks22
+\SOUL@word=\toks19
+\SOUL@lasttoken=\toks20
+\SOUL@cmds=\toks21
+\SOUL@buffer=\toks22
+\SOUL@token=\toks23
 \SOUL@spaceskip=\skip71
 \SOUL@ttwidth=\dimen139
 \SOUL@uldp=\dimen140
 \SOUL@ulht=\dimen141
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
@@ -314,7 +314,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks23
+\@emptytoks=\toks24
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -322,28 +322,28 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty
-Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+ (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \col@sep=\dimen144
-\ar@mcellbox=\box47
+\ar@mcellbox=\box50
 \extrarowheight=\dimen145
-\NC@list=\toks24
+\NC@list=\toks25
 \extratabsurround=\skip72
 \backup@length=\skip73
-\ar@cellbox=\box48
+\ar@cellbox=\box51
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box49
-\sift@deathcycles=\count380
+\@vwid@box=\box52
+\sift@deathcycles=\count383
 \@vwid@loff=\dimen146
 \@vwid@roff=\dimen147
 )
-\c@taburow=\count381
-\tabu@nbcols=\count382
-\tabu@cnt=\count383
-\tabu@Xcol=\count384
-\tabu@alloc=\count385
-\tabu@nested=\count386
+\c@taburow=\count384
+\tabu@nbcols=\count385
+\tabu@cnt=\count386
+\tabu@Xcol=\count387
+\tabu@alloc=\count388
+\tabu@nested=\count389
 \tabu@target=\dimen148
 \tabu@spreadtarget=\dimen149
 \tabu@naturalX=\dimen150
@@ -353,16 +353,16 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen154
 \belowtabulinesep=\dimen155
 \tabustrutrule=\dimen156
-\tabu@thebody=\toks25
-\tabu@footnotes=\toks26
-\tabu@box=\box50
-\tabu@arstrutbox=\box51
-\tabu@hleads=\box52
-\tabu@vleads=\box53
+\tabu@thebody=\toks26
+\tabu@footnotes=\toks27
+\tabu@box=\box53
+\tabu@arstrutbox=\box54
+\tabu@hleads=\box55
+\tabu@vleads=\box56
 \tabu@cellskip=\skip74
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
-\TY@count=\count387
+\TY@count=\count390
 \TY@linewidth=\dimen157
 \tymin=\dimen158
 \tymax=\dimen159
@@ -379,193 +379,172 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen168
 \cmidrulekern=\dimen169
 \defaultaddspace=\dimen170
-\@cmidla=\count388
-\@cmidlb=\count389
+\@cmidla=\count391
+\@cmidlb=\count392
 \@aboverulesep=\dimen171
 \@belowrulesep=\dimen172
-\@thisruleclass=\count390
-\@lastruleclass=\count391
+\@thisruleclass=\count393
+\@lastruleclass=\count394
 \@thisrulewidth=\dimen173
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/moreverb\moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\verbatim.sty
+ (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks27
-\verbatim@line=\toks28
+\every@verbatim=\toks28
+\verbatim@line=\toks29
 \verbatim@in@stream=\read3
 )
-\tab@position=\count392
-\tab@size=\count393
-\listing@line=\count394
+\tab@position=\count395
+\tab@size=\count396
+\listing@line=\count397
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
 Package: xurl 2020/12/30 v 0.09a modify URL breaks
 
 xurl: Set penalties for biblatex
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-05-07 L3 programming layer (loader) 
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count395
-\l__pdf_internal_box=\box54
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-2020-10-01.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex)))
-Package: siunitx 2021-04-17 v2.8e A comprehensive (SI) units package
+) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2021-10-26 v3.0.34 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen174
+\l__siunitx_angle_marker_box=\box57
+\l__siunitx_angle_unit_box=\box58
+\l__siunitx_compound_count_int=\count398
+ (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_number_exponent_fixed_int=\count399
+\l__siunitx_number_min_decimal_int=\count400
+\l__siunitx_number_min_integer_int=\count401
+\l__siunitx_number_round_precision_int=\count402
+\l__siunitx_number_group_minimum_int=\count403
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks29
-\ex@=\dimen174
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2021-05-07 LaTeX2e option processing using LaTeX3 keys
-)
-\l__siunitx_tmp_box=\box55
-\l__siunitx_tmp_dim=\dimen175
-\l__siunitx_tmp_int=\count396
-\l__siunitx_number_mantissa_length_int=\count397
-\l__siunitx_number_uncert_length_int=\count398
-\l__siunitx_round_int=\count399
-\l__siunitx_process_decimal_int=\count400
-\l__siunitx_process_uncertainty_int=\count401
-\l__siunitx_process_fixed_int=\count402
-\l__siunitx_process_integer_min_int=\count403
-\l__siunitx_process_precision_int=\count404
-\l__siunitx_group_min_int=\count405
-\l__siunitx_angle_marker_box=\box56
-\l__siunitx_angle_unit_box=\box57
-\l__siunitx_angle_marker_dim=\dimen176
-\l__siunitx_angle_unit_dim=\dimen177
-\l__siunitx_unit_int=\count406
-\l__siunitx_unit_denominator_int=\count407
-\l__siunitx_unit_numerator_int=\count408
-\l__siunitx_unit_prefix_int=\count409
-\l__siunitx_unit_prefix_base_int=\count410
-\l__siunitx_unit_prefix_gram_int=\count411
-\l__siunitx_number_product_int=\count412
-\c__siunitx_one_fill_skip=\skip75
-\l__siunitx_table_unit_align_skip=\skip76
-\l__siunitx_table_exponent_dim=\dimen178
-\l__siunitx_table_integer_dim=\dimen179
-\l__siunitx_table_mantissa_dim=\dimen180
-\l__siunitx_table_marker_dim=\dimen181
-\l__siunitx_table_result_dim=\dimen182
-\l__siunitx_table_uncert_dim=\dimen183
-\l__siunitx_table_fill_pre_dim=\dimen184
-\l__siunitx_table_fill_post_dim=\dimen185
-\l__siunitx_table_fill_mid_dim=\dimen186
-\l__siunitx_table_pre_box=\box58
-\l__siunitx_table_post_box=\box59
-\l__siunitx_table_mantissa_box=\box60
-\l__siunitx_table_result_box=\box61
-\l__siunitx_table_number_align_skip=\skip77
-\l__siunitx_table_text_align_skip=\skip78
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty
-Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\tabularx.sty
+\@emptytoks=\toks30
+\ex@=\dimen175
+))
+\l__siunitx_table_tmp_box=\box59
+\l__siunitx_table_tmp_dim=\dimen176
+\l__siunitx_table_column_width_dim=\dimen177
+\l__siunitx_table_integer_box=\box60
+\l__siunitx_table_decimal_box=\box61
+\l__siunitx_table_before_box=\box62
+\l__siunitx_table_after_box=\box63
+\l__siunitx_table_before_dim=\dimen178
+\l__siunitx_table_carry_dim=\dimen179
+\l__siunitx_unit_tmp_int=\count404
+\l__siunitx_unit_position_int=\count405
+\l__siunitx_unit_total_int=\count406
+ (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-10-18 L3 programming layer (loader) 
+ (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count407
+\l__pdf_internal_box=\box64
+))
+Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
+)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen187
-\TX@old@table=\dimen188
-\TX@old@col=\dimen189
-\TX@target=\dimen190
-\TX@delta=\dimen191
-\TX@cols=\count413
-\TX@ftn=\toks30
+\TX@col@width=\dimen180
+\TX@old@table=\dimen181
+\TX@old@col=\dimen182
+\TX@target=\dimen183
+\TX@delta=\dimen184
+\TX@cols=\count408
+\TX@ftn=\toks31
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
-\@mathmargin=\skip79
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip75
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen192
+\pmbraise@=\dimen185
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count414
+\inf@bad=\count409
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count415
-\leftroot@=\count416
+\uproot@=\count410
+\leftroot@=\count411
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count417
-\DOTSCASE@=\count418
+\classnum@=\count412
+\DOTSCASE@=\count413
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box62
-\strutbox@=\box63
-\big@size=\dimen193
+\Mathstrutbox@=\box65
+\strutbox@=\box66
+\big@size=\dimen186
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count419
-\c@MaxMatrixCols=\count420
+\macc@depth=\count414
+\c@MaxMatrixCols=\count415
 \dotsspace@=\muskip21
-\c@parentequation=\count421
-\dspbrk@lvl=\count422
-\tag@help=\toks31
-\row@=\count423
-\column@=\count424
-\maxfields@=\count425
-\andhelp@=\toks32
-\eqnshift@=\dimen194
-\alignsep@=\dimen195
-\tagshift@=\dimen196
-\tagwidth@=\dimen197
-\totwidth@=\dimen198
-\lineht@=\dimen199
-\@envbody=\toks33
-\multlinegap=\skip80
-\multlinetaggap=\skip81
-\mathdisplay@stack=\toks34
+\c@parentequation=\count416
+\dspbrk@lvl=\count417
+\tag@help=\toks32
+\row@=\count418
+\column@=\count419
+\maxfields@=\count420
+\andhelp@=\toks33
+\eqnshift@=\dimen187
+\alignsep@=\dimen188
+\tagshift@=\dimen189
+\tagwidth@=\dimen190
+\totwidth@=\dimen191
+\lineht@=\dimen192
+\@envbody=\toks34
+\multlinegap=\skip76
+\multlinetaggap=\skip77
+\mathdisplay@stack=\toks35
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
-Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box64
-\beforetitleunit=\skip82
-\aftertitleunit=\skip83
-\ttl@plus=\dimen256
-\ttl@minus=\dimen257
-\ttl@toksa=\toks35
-\titlewidth=\dimen258
-\titlewidthlast=\dimen259
-\titlewidthfirst=\dimen260
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box67
+\beforetitleunit=\skip78
+\aftertitleunit=\skip79
+\ttl@plus=\dimen193
+\ttl@minus=\dimen194
+\ttl@toksa=\toks36
+\titlewidth=\dimen195
+\titlewidthlast=\dimen196
+\titlewidthfirst=\dimen197
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count426
-\Gm@cntv=\count427
-\c@Gm@tempcnt=\count428
-\Gm@bindingoffset=\dimen261
-\Gm@wd@mp=\dimen262
-\Gm@odd@mp=\dimen263
-\Gm@even@mp=\dimen264
-\Gm@layoutwidth=\dimen265
-\Gm@layoutheight=\dimen266
-\Gm@layouthoffset=\dimen267
-\Gm@layoutvoffset=\dimen268
-\Gm@dimlist=\toks36
+\Gm@cnth=\count421
+\Gm@cntv=\count422
+\c@Gm@tempcnt=\count423
+\Gm@bindingoffset=\dimen198
+\Gm@wd@mp=\dimen199
+\Gm@odd@mp=\dimen256
+\Gm@even@mp=\dimen257
+\Gm@layoutwidth=\dimen258
+\Gm@layoutheight=\dimen259
+\Gm@layouthoffset=\dimen260
+\Gm@layoutvoffset=\dimen261
+\Gm@dimlist=\toks37
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2021/02/05 v3.0 ragged2e Package
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/everysel\everysel.sty
-Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/everysel\everysel-2011-10-28.sty))
-\CenteringLeftskip=\skip84
-\RaggedLeftLeftskip=\skip85
-\RaggedRightLeftskip=\skip86
-\CenteringRightskip=\skip87
-\RaggedLeftRightskip=\skip88
-\RaggedRightRightskip=\skip89
-\CenteringParfillskip=\skip90
-\RaggedLeftParfillskip=\skip91
-\RaggedRightParfillskip=\skip92
-\JustifyingParfillskip=\skip93
-\CenteringParindent=\skip94
-\RaggedLeftParindent=\skip95
-\RaggedRightParindent=\skip96
-\JustifyingParindent=\skip97
+\CenteringLeftskip=\skip80
+\RaggedLeftLeftskip=\skip81
+\RaggedRightLeftskip=\skip82
+\CenteringRightskip=\skip83
+\RaggedLeftRightskip=\skip84
+\RaggedRightRightskip=\skip85
+\CenteringParfillskip=\skip86
+\RaggedLeftParfillskip=\skip87
+\RaggedRightParfillskip=\skip88
+\JustifyingParfillskip=\skip89
+\CenteringParindent=\skip90
+\RaggedLeftParindent=\skip91
+\RaggedRightParindent=\skip92
+\JustifyingParindent=\skip93
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
@@ -575,247 +554,247 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgfgantt\pgfgantt.sty
 Package: pgfgantt 2018/01/10 v5.0 Draw Gantt diagrams with TikZ
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks37
-\pgfutil@tempdima=\dimen269
-\pgfutil@tempdimb=\dimen270
+\pgfutil@everybye=\toks38
+\pgfutil@tempdima=\dimen262
+\pgfutil@tempdimb=\dimen263
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box65
+\pgfutil@abb=\box68
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
-Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
-Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks38
-\pgfkeys@temptoks=\toks39
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks40
+\pgfkeys@tmptoks=\toks41
 ))
-\pgf@x=\dimen271
-\pgf@y=\dimen272
-\pgf@xa=\dimen273
-\pgf@ya=\dimen274
-\pgf@xb=\dimen275
-\pgf@yb=\dimen276
-\pgf@xc=\dimen277
-\pgf@yc=\dimen278
-\pgf@xd=\dimen279
-\pgf@yd=\dimen280
+\pgf@x=\dimen264
+\pgf@y=\dimen265
+\pgf@xa=\dimen266
+\pgf@ya=\dimen267
+\pgf@xb=\dimen268
+\pgf@yb=\dimen269
+\pgf@xc=\dimen270
+\pgf@yc=\dimen271
+\pgf@xd=\dimen272
+\pgf@yd=\dimen273
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count429
-\c@pgf@countb=\count430
-\c@pgf@countc=\count431
-\c@pgf@countd=\count432
-\t@pgf@toka=\toks41
-\t@pgf@tokb=\toks42
-\t@pgf@tokc=\toks43
-\pgf@sys@id@count=\count433
+\c@pgf@counta=\count424
+\c@pgf@countb=\count425
+\c@pgf@countc=\count426
+\c@pgf@countd=\count427
+\t@pgf@toka=\toks42
+\t@pgf@tokb=\toks43
+\t@pgf@tokc=\toks44
+\pgf@sys@id@count=\count428
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
-File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count434
-\pgfsyssoftpath@bigbuffer@items=\count435
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count429
+\pgfsyssoftpath@bigbuffer@items=\count430
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
-Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen281
-\pgfmath@count=\count436
-\pgfmath@box=\box66
-\pgfmath@toks=\toks44
-\pgfmath@stack@operand=\toks45
-\pgfmath@stack@operation=\toks46
+\pgfmath@dimen=\dimen274
+\pgfmath@count=\count431
+\pgfmath@box=\box69
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count437
+\c@pgfmathroundto@lastzeros=\count432
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen282
-\pgf@picmaxx=\dimen283
-\pgf@picminy=\dimen284
-\pgf@picmaxy=\dimen285
-\pgf@pathminx=\dimen286
-\pgf@pathmaxx=\dimen287
-\pgf@pathminy=\dimen288
-\pgf@pathmaxy=\dimen289
-\pgf@xx=\dimen290
-\pgf@xy=\dimen291
-\pgf@yx=\dimen292
-\pgf@yy=\dimen293
-\pgf@zx=\dimen294
-\pgf@zy=\dimen295
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen275
+\pgf@picmaxx=\dimen276
+\pgf@picminy=\dimen277
+\pgf@picmaxy=\dimen278
+\pgf@pathminx=\dimen279
+\pgf@pathmaxx=\dimen280
+\pgf@pathminy=\dimen281
+\pgf@pathmaxy=\dimen282
+\pgf@xx=\dimen283
+\pgf@xy=\dimen284
+\pgf@yx=\dimen285
+\pgf@yy=\dimen286
+\pgf@zx=\dimen287
+\pgf@zy=\dimen288
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen296
-\pgf@path@lasty=\dimen297
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen289
+\pgf@path@lasty=\dimen290
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen298
-\pgf@shorten@start@additional=\dimen299
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen291
+\pgf@shorten@start@additional=\dimen292
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfpic=\box67
-\pgf@hbox=\box68
-\pgf@layerbox@main=\box69
-\pgf@picture@serial@count=\count438
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box70
+\pgf@hbox=\box71
+\pgf@layerbox@main=\box72
+\pgf@picture@serial@count=\count433
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen300
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen293
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen301
-\pgf@pt@y=\dimen302
-\pgf@pt@temp=\dimen303
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen294
+\pgf@pt@y=\dimen295
+\pgf@pt@temp=\dimen296
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen304
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen297
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen305
-\pgf@sys@shading@range@num=\count439
-\pgf@shadingcount=\count440
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen298
+\pgf@sys@shading@range@num=\count434
+\pgf@shadingcount=\count435
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfexternal@startupbox=\box70
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box73
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box71
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box74
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen306
-\pgf@nodesepend=\dimen307
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen299
+\pgf@nodesepend=\dimen300
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
-Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
-\pgffor@iter=\dimen308
-\pgffor@skip=\dimen309
-\pgffor@stack=\toks47
-\pgffor@toks=\toks48
+\pgffor@iter=\dimen301
+\pgffor@skip=\dimen302
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
-Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count441
-\pgfplotmarksize=\dimen310
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count436
+\pgfplotmarksize=\dimen303
 )
-\tikz@lastx=\dimen311
-\tikz@lasty=\dimen312
-\tikz@lastxsaved=\dimen313
-\tikz@lastysaved=\dimen314
-\tikz@lastmovetox=\dimen315
-\tikz@lastmovetoy=\dimen316
-\tikzleveldistance=\dimen317
-\tikzsiblingdistance=\dimen318
-\tikz@figbox=\box72
-\tikz@figbox@bg=\box73
-\tikz@tempbox=\box74
-\tikz@tempbox@bg=\box75
-\tikztreelevel=\count442
-\tikznumberofchildren=\count443
-\tikznumberofcurrentchild=\count444
-\tikz@fig@count=\count445
+\tikz@lastx=\dimen304
+\tikz@lasty=\dimen305
+\tikz@lastxsaved=\dimen306
+\tikz@lastysaved=\dimen307
+\tikz@lastmovetox=\dimen308
+\tikz@lastmovetoy=\dimen309
+\tikzleveldistance=\dimen310
+\tikzsiblingdistance=\dimen311
+\tikz@figbox=\box75
+\tikz@figbox@bg=\box76
+\tikz@tempbox=\box77
+\tikz@tempbox@bg=\box78
+\tikztreelevel=\count437
+\tikznumberofchildren=\count438
+\tikznumberofcurrentchild=\count439
+\tikz@fig@count=\count440
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count446
-\pgfmatrixcurrentcolumn=\count447
-\pgf@matrix@numberofcolumns=\count448
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count441
+\pgfmatrixcurrentcolumn=\count442
+\pgf@matrix@numberofcolumns=\count443
 )
-\tikz@expandcount=\count449
+\tikz@expandcount=\count444
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\arrowsize=\dimen319
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen312
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
-File: tikzlibrarybackgrounds.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@layerbox@background=\box76
-\pgf@layerboxsaved@background=\box77
+File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@layerbox@background=\box79
+\pgf@layerboxsaved@background=\box80
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypatterns.code.tex
-File: tikzlibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: tikzlibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrarypatterns.code.tex
-File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgflibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfcalendar.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfcalendar.code.tex
-File: pgfcalendar.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcalendar.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
-\pgfcalendarcurrentjulian=\count450
-\pgf@cal@easter@Y=\count451
-\pgf@cal@easter@G=\count452
-\pgf@cal@easter@C=\count453
-\pgf@cal@easter@X=\count454
-\pgf@cal@easter@Z=\count455
-\pgf@cal@easter@D=\count456
-\pgf@cal@easter@E=\count457
-\pgf@cal@easter@N=\count458
-\pgf@cal@easter@M=\count459
-\pgf@cal@easter@julianday=\count460
+\pgfcalendarcurrentjulian=\count445
+\pgf@cal@easter@Y=\count446
+\pgf@cal@easter@G=\count447
+\pgf@cal@easter@C=\count448
+\pgf@cal@easter@X=\count449
+\pgf@cal@easter@Z=\count450
+\pgf@cal@easter@D=\count451
+\pgf@cal@easter@E=\count452
+\pgf@cal@easter@N=\count453
+\pgf@cal@easter@M=\count454
+\pgf@cal@easter@julianday=\count455
 ))
-\gtt@currentline=\count461
-\gtt@lasttitleline=\count462
-\gtt@currgrid=\count463
-\gtt@chartwidth=\count464
-\gtt@lasttitleslot=\count465
-\gtt@elementid=\count466
-\gtt@today@slot=\count467
-\gtt@startjulian=\count468
-\gtt@endjulian=\count469
-\gtt@chartid=\count470
-\gtt@vrule@slot=\count471
-\gtt@calendar@slots=\count472
-\gtt@calendar@weeknumber=\count473
-\gtt@calendar@startofweek=\count474
-\gtt@left@slot=\count475
-\gtt@right@slot=\count476
+\gtt@currentline=\count456
+\gtt@lasttitleline=\count457
+\gtt@currgrid=\count458
+\gtt@chartwidth=\count459
+\gtt@lasttitleslot=\count460
+\gtt@elementid=\count461
+\gtt@today@slot=\count462
+\gtt@startjulian=\count463
+\gtt@endjulian=\count464
+\gtt@chartid=\count465
+\gtt@vrule@slot=\count466
+\gtt@calendar@slots=\count467
+\gtt@calendar@weeknumber=\count468
+\gtt@calendar@startofweek=\count469
+\gtt@left@slot=\count470
+\gtt@right@slot=\count471
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/standalone\standalone.sty
 Package: standalone 2018/03/26 v1.3a Package to include TeX sub-files with preambles
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\shellesc.sty
+ (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks49
-\XKV@tempa@toks=\toks50
+\XKV@toks=\toks50
+\XKV@tempa@toks=\toks51
 )
-\XKV@depth=\count477
+\XKV@depth=\count472
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/currfile\currfile.sty
 Package: currfile 2020/09/29 v0.7d Provides the file path elements of the current input file
@@ -824,7 +803,7 @@ Package: filehook 2020/09/29 v0.8a Hooks for input files
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/filehook\filehook-2020.sty
 Package: filehook-2020 2020/09/29 v0.8a Hooks for input files
 ))
-\c@currfiledepth=\count478
+\c@currfiledepth=\count473
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/gincltex\gincltex.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/svn-prov\svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
@@ -837,54 +816,54 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box78
+\collectedbox=\box81
 )
-\tc@llx=\dimen320
-\tc@lly=\dimen321
-\tc@urx=\dimen322
-\tc@ury=\dimen323
+\tc@llx=\dimen313
+\tc@lly=\dimen314
+\tc@urx=\dimen315
+\tc@ury=\dimen316
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen324
-\adjbox@Height=\dimen325
-\adjbox@Depth=\dimen326
-\adjbox@Totalheight=\dimen327
-\adjbox@pwidth=\dimen328
-\adjbox@pheight=\dimen329
-\adjbox@pdepth=\dimen330
-\adjbox@ptotalheight=\dimen331
+\adjbox@Width=\dimen317
+\adjbox@Height=\dimen318
+\adjbox@Depth=\dimen319
+\adjbox@Totalheight=\dimen320
+\adjbox@pwidth=\dimen321
+\adjbox@pheight=\dimen322
+\adjbox@pdepth=\dimen323
+\adjbox@ptotalheight=\dimen324
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count479
+\c@checkoddpage=\count474
 ))
-\gincltex@box=\box79
+\gincltex@box=\box82
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/filemod\filemod-expmin.sty
 Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times (expandable; minimal)
 )) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
-Package: typearea 2021/03/17 v3.33 KOMA-Script package (type area)
-
-(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
-Package: scrkbase 2021/03/17 v3.33 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+Package: typearea 2021/06/25 v3.34 KOMA-Script package (type area)
+ (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2021/06/25 v3.34 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2021/03/17 v3.33 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
-Package: scrlfile 2021/03/17 v3.33 KOMA-Script package (file load hooks)
+Package: scrbase 2021/06/25 v3.34 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+
+(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2021/06/25 v3.34 KOMA-Script package (file load hooks)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
-Package: scrlfile-hook 2021/03/17 v3.33 KOMA-Script package (using LaTeX hooks)
+Package: scrlfile-hook 2021/06/25 v3.34 KOMA-Script package (using LaTeX hooks)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2021/03/17 v3.33 KOMA-Script package (logo)
+Package: scrlogo 2021/06/25 v3.34 KOMA-Script package (logo)
 )))
-Skipping: [2021/05/01] Usage of raw option list on input line 252.
-Applying: [0000/00/00] compatibility for LaTeX before 2021/05/01 on input line 337.
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
 ))
-\ta@bcor=\skip98
-\ta@div=\count480
-\ta@hblk=\skip99
-\ta@vblk=\skip100
-\ta@temp=\skip101
-\footheight=\skip102
+\ta@bcor=\skip94
+\ta@div=\count475
+\ta@hblk=\skip95
+\ta@vblk=\skip96
+\ta@temp=\skip97
+\footheight=\skip98
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 8
 (typearea)             BCOR = 0.0pt
@@ -901,73 +880,73 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 10.0pt
 (typearea)              \footskip       = 42.0pt
 (typearea)              \baselineskip   = 12.0pt
-(typearea)              on input line 1741.
+(typearea)              on input line 1742.
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/notoccite\notoccite.sty
 Package: notoccite 2000/07/20
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
+ (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count481
-\calc@Bcount=\count482
-\calc@Adimen=\dimen332
-\calc@Bdimen=\dimen333
-\calc@Askip=\skip103
-\calc@Bskip=\skip104
+\calc@Acount=\count476
+\calc@Bcount=\count477
+\calc@Adimen=\dimen325
+\calc@Bdimen=\dimen326
+\calc@Askip=\skip99
+\calc@Bskip=\skip100
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count483
-\calc@Cskip=\skip105
+\calc@Ccount=\count478
+\calc@Cskip=\skip101
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen334
-\ESO@tempdimb=\dimen335
+\ESO@tempdima=\dimen327
+\ESO@tempdimb=\dimen328
 )
-\AM@pagewidth=\dimen336
-\AM@pageheight=\dimen337
-\AM@fboxrule=\dimen338
+\AM@pagewidth=\dimen329
+\AM@pageheight=\dimen330
+\AM@fboxrule=\dimen331
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count484
-\AM@pagebox=\box80
-\AM@global@opts=\toks51
-\AM@pagecnt=\count485
-\AM@toc@title=\toks52
-\c@AM@survey=\count486
-\AM@templatesizebox=\box81
+\pdfpages@includegraphics@status=\count479
+\AM@pagebox=\box83
+\AM@global@opts=\toks52
+\AM@pagecnt=\count480
+\AM@toc@title=\toks53
+\c@AM@survey=\count481
+\AM@templatesizebox=\box84
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen339
-\captionmargin@=\dimen340
-\captionwidth=\dimen341
-\caption@tempdima=\dimen342
-\caption@indent=\dimen343
-\caption@parindent=\dimen344
-\caption@hangindent=\dimen345
+\captionmargin=\dimen332
+\captionmargin@=\dimen333
+\captionwidth=\dimen334
+\caption@tempdima=\dimen335
+\caption@indent=\dimen336
+\caption@parindent=\dimen337
+\caption@hangindent=\dimen338
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count487
-\c@continuedfloat=\count488
+\c@caption@flags=\count482
+\c@continuedfloat=\count483
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip106
-\f@nch@O@elh=\skip107
-\f@nch@O@erh=\skip108
-\f@nch@O@olh=\skip109
-\f@nch@O@orh=\skip110
-\f@nch@O@elf=\skip111
-\f@nch@O@erf=\skip112
-\f@nch@O@olf=\skip113
-\f@nch@O@orf=\skip114
+\f@nch@headwidth=\skip102
+\f@nch@O@elh=\skip103
+\f@nch@O@erh=\skip104
+\f@nch@O@olh=\skip105
+\f@nch@O@orh=\skip106
+\f@nch@O@elf=\skip107
+\f@nch@O@erf=\skip108
+\f@nch@O@olf=\skip109
+\f@nch@O@orf=\skip110
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
-Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
@@ -979,23 +958,23 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen346
-\Hy@linkcounter=\count489
-\Hy@pagecounter=\count490
+\@linkdim=\dimen339
+\Hy@linkcounter=\count484
+\Hy@pagecounter=\count485
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel languages
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count491
+\Hy@SavedSpaceFactor=\count486
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -1010,43 +989,43 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count492
+\c@Hy@tempcnt=\count487
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen347
+\XeTeXLinkMargin=\dimen340
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count493
-\Field@Width=\dimen348
-\Fld@charsize=\dimen349
-Package hyperref Info: Hyper figures OFF on input line 6075.
-Package hyperref Info: Link nesting OFF on input line 6080.
-Package hyperref Info: Hyper index ON on input line 6083.
-Package hyperref Info: backreferencing OFF on input line 6090.
-Package hyperref Info: Link coloring ON on input line 6093.
-Package hyperref Info: Link coloring with OCG OFF on input line 6100.
-Package hyperref Info: PDF/A mode OFF on input line 6105.
-LaTeX Info: Redefining \ref on input line 6145.
-LaTeX Info: Redefining \pageref on input line 6149.
+\Fld@menulength=\count488
+\Field@Width=\dimen341
+\Fld@charsize=\dimen342
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring ON on input line 6094.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
-with kernel methods
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count494
-\c@Item=\count495
-\c@Hfootnote=\count496
+\Hy@abspage=\count489
+\c@Item=\count490
+\c@Hfootnote=\count491
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
 with kernel methods
 )
-\Fld@listcount=\count497
-\c@bookmark@seq@number=\count498
+\Fld@listcount=\count492
+\c@bookmark@seq@number=\count493
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -1054,11 +1033,13 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip115
+\Hy@SectionHShift=\skip111
 )
-\@quotelevel=\count499
-\@quotereset=\count500
- (main.aux)
+\@quotelevel=\count494
+\@quotereset=\count495
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 62.
+
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -1081,7 +1062,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
 File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1089,25 +1070,20 @@ Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2021-05-07 L3 programming layer (loader) 
+(biblatex)             2021-10-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+ (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2021-08-27 L3 Experimental document command parser
+)
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
+Package biblatex Info: ... file 'main.bbl' not found.
 
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 4):
-(biblatex)                Yule2020
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 62.
 Package biblatex Info: Reference segment=0 on input line 62.
 \symgns@font=\mathgroup6
@@ -1120,31 +1096,29 @@ Package gensymb Info: Using text companion symbols for \degree, \celsius and \pe
 LaTeX Info: Redefining \ohm on input line 62.
 Package gensymb Info: Using \textohm for \ohm on input line 62.
 Package gensymb Info: Using \textmu for \micro on input line 62.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count501
-\scratchdimen=\dimen350
-\scratchbox=\box82
-\nofMPsegments=\count502
-\nofMParguments=\count503
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count504
-\MPscratchDim=\dimen351
-\MPnumerator=\count505
-\makeMPintoPDFobject=\count506
-\everyMPtoPDFconversion=\toks54
+\scratchcounter=\count496
+\scratchdimen=\dimen343
+\scratchbox=\box85
+\nofMPsegments=\count497
+\nofMParguments=\count498
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count499
+\MPscratchDim=\dimen344
+\MPnumerator=\count500
+\makeMPintoPDFobject=\count501
+\everyMPtoPDFconversion=\toks55
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2021-04-17 v2.8e siunitx: Abbreviated units
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
-Dictionary: translator-basic-dictionary, Language: English 
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-months-dictionary-English.dict
-Dictionary: translator-months-dictionary, Language: English 
+)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 62.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1181,8 +1155,6 @@ Dictionary: translator-months-dictionary, Language: English
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 62.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1190,31 +1162,22 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 62.
 Package hyperref Info: Link coloring ON on input line 62.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count507
+\c@section@level=\count502
 )
 LaTeX Info: Redefining \ref on input line 62.
 LaTeX Info: Redefining \pageref on input line 62.
 LaTeX Info: Redefining \nameref on input line 62.
- (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<./figures/UoSLogo.png, id=206, 170.7981pt x 37.0986pt>
+<./figures/UoSLogo.png, id=6, 170.7981pt x 37.0986pt>
 File: ./figures/UoSLogo.png Graphic file (type png)
 <use ./figures/UoSLogo.png>
 Package pdftex.def Info: ./figures/UoSLogo.png  used on input line 70.
@@ -1226,809 +1189,154 @@ Package pdftex.def Info: ./figures/UoSLogo.png  used on input line 70.
                    \relax 
 l.110   \tableofcontents
                          [1]
-\blx@maxsegment@1=\count508
-\blx@sectionciteorder@1=\count509
+\blx@maxsegment@1=\count503
+\blx@sectionciteorder@1=\count504
 Package biblatex Info: Reference section=1 on input line 110.
 Package biblatex Info: Setting label 'refsection:1' on input line 110.
- (main.toc [2
-
-])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [3]
-Package biblatex Info: Reference section=0 on input line 111.
-\blx@maxsegment@2=\count510
-\blx@sectionciteorder@2=\count511
-Package biblatex Info: Reference section=2 on input line 111.
-Package biblatex Info: Setting label 'refsection:2' on input line 111.
- (main.lof [4
+ [2
 
 ]
-Overfull \hbox (1.26016pt too wide) in paragraph at lines 87--87
- [][] [][]\OT1/cmr/m/n/10 Time of flight ($\OML/cmm/m/it/10 t[]$\OT1/cmr/m/n/10 ) mea-sure-ment of $\OML/cmm/m/it/10 A[]$ \OT1/cmr/m/n/10 mode wave prop-a-ga-tion us-ing cross-correlation 
- []
-
-)
+Package biblatex Info: Reference section=0 on input line 111.
+\blx@maxsegment@2=\count505
+\blx@sectionciteorder@2=\count506
+Package biblatex Info: Reference section=2 on input line 111.
+Package biblatex Info: Setting label 'refsection:2' on input line 111.
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 Package biblatex Info: Reference section=0 on input line 114.
-\blx@maxsegment@3=\count512
-\blx@sectionciteorder@3=\count513
+\blx@maxsegment@3=\count507
+\blx@sectionciteorder@3=\count508
 Package biblatex Info: Reference section=3 on input line 114.
 Package biblatex Info: Setting label 'refsection:3' on input line 114.
- (main.lot [5])
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [6] (1 Intro.tex
+ [3
+
+] (1 Intro.tex
 Chapter 1.
 Package biblatex Info: Reference section=0 on input line 1.
-\blx@maxsegment@4=\count514
-\blx@sectionciteorder@4=\count515
+\blx@maxsegment@4=\count509
+\blx@sectionciteorder@4=\count510
 Package biblatex Info: Reference section=4 on input line 1.
 Package biblatex Info: Setting label 'refsection:4' on input line 1.
+
+LaTeX Warning: Reference `fig:crossngv' on page 1 undefined on input line 2.
+
+
+LaTeX Warning: Reference `literev' on page 1 undefined on input line 2.
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 3.
+
 [1
 
 
-] [2]
-<./figures/turbine plus ngv.png, id=418, 649.82774pt x 527.69145pt>
+]
+
+LaTeX Warning: Reference `literev' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Reference `ultrasonicmonitoring' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Reference `theory' on page 2 undefined on input line 9.
+
+
+LaTeX Warning: Reference `simulations' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Reference `experiments' on page 2 undefined on input line 11.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+ (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Reference `plan' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 22.
+
+[2]
+<./figures/turbine plus ngv.png, id=45, 649.82774pt x 527.69145pt>
 File: ./figures/turbine plus ngv.png Graphic file (type png)
 <use ./figures/turbine plus ngv.png>
 Package pdftex.def Info: ./figures/turbine plus ngv.png  used on input line 27.
 (pdftex.def)             Requested size: 426.79134pt x 346.57848pt.
- [3 <./figures/turbine plus ngv.png
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 33.
+
+[3 <./figures/turbine plus ngv.png
 
 pdfTeX warning: pdflatex (file ./figures/turbine plus ngv.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
->] [4] [5]) (2 Literature Review.tex [6
+>]
 
-]
-Chapter 2.
-Package biblatex Info: Reference section=0 on input line 1.
-\blx@maxsegment@5=\count516
-\blx@sectionciteorder@5=\count517
-Package biblatex Info: Reference section=5 on input line 1.
-Package biblatex Info: Setting label 'refsection:5' on input line 1.
-[7
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 63.
 
-]
-Package epstopdf Info: Source file: <./figures/Turbinecrosssection.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 3406094 bytes
-(epstopdf)             Output file: <./figures/Turbinecrosssection-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 32630 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/Turbinecrosssection-eps-converted-to.pdf ./figures/Turbinecrosssection.eps>
-(epstopdf)             \includegraphics on input line 10.
-Package epstopdf Info: Output file is already uptodate.
+[4]
 
+LaTeX Warning: Citation 'Yule2020' on page 5 undefined on input line 66.
 
-pdfTeX warning: pdflatex (file ./figures/Turbinecrosssection-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/Turbinecrosssection-eps-converted-to.pdf, id=495, 511.9125pt x 309.155pt>
-File: ./figures/Turbinecrosssection-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/Turbinecrosssection-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/Turbinecrosssection-eps-converted-to.pdf  used on input line 10.
-(pdftex.def)             Requested size: 320.09349pt x 193.31102pt.
-Package epstopdf Info: Source file: <./figures/TBCdevelopment.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 2304282 bytes
-(epstopdf)             Output file: <./figures/TBCdevelopment-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 33747 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/TBCdevelopment-eps-converted-to.pdf ./figures/TBCdevelopment.eps>
-(epstopdf)             \includegraphics on input line 16.
-Package epstopdf Info: Output file is already uptodate.
 
+LaTeX Warning: Citation 'Yule2021' on page 5 undefined on input line 67.
 
-pdfTeX warning: pdflatex (file ./figures/TBCdevelopment-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/TBCdevelopment-eps-converted-to.pdf, id=498, 1058.95625pt x 785.93625pt>
-File: ./figures/TBCdevelopment-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/TBCdevelopment-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TBCdevelopment-eps-converted-to.pdf  used on input line 16.
-(pdftex.def)             Requested size: 320.09349pt x 237.56956pt.
-[8 <./figures/Turbinecrosssection-eps-converted-to.pdf>] [9 <./figures/TBCdevelopment-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./figures/tempmethodsvenn.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 2958726 bytes
-(epstopdf)             Output file: <./figures/tempmethodsvenn-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 39160 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/tempmethodsvenn-eps-converted-to.pdf ./figures/tempmethodsvenn.eps>
-(epstopdf)             \includegraphics on input line 33.
-Package epstopdf Info: Output file is already uptodate.
 
+LaTeX Warning: Citation 'Yule2021a' on page 5 undefined on input line 68.
 
-pdfTeX warning: pdflatex (file ./figures/tempmethodsvenn-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/tempmethodsvenn-eps-converted-to.pdf, id=558, 1078.0275pt x 1027.84pt>
-File: ./figures/tempmethodsvenn-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/tempmethodsvenn-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/tempmethodsvenn-eps-converted-to.pdf  used on input line 33.
-(pdftex.def)             Requested size: 341.43436pt x 325.54355pt.
-[10
 
- <./figures/tempmethodsvenn-eps-converted-to.pdf>] [11]
-<./figures/Single change paints edit.png, id=597, 1782.66pt x 1097.09875pt>
-File: ./figures/Single change paints edit.png Graphic file (type png)
-<use ./figures/Single change paints edit.png>
-Package pdftex.def Info: ./figures/Single change paints edit.png  used on input line 53.
-(pdftex.def)             Requested size: 341.43436pt x 210.12497pt.
-<./figures/multi-change paints edit.png, id=600, 1427.3325pt x 1065.9825pt>
-File: ./figures/multi-change paints edit.png Graphic file (type png)
-<use ./figures/multi-change paints edit.png>
-Package pdftex.def Info: ./figures/multi-change paints edit.png  used on input line 59.
-(pdftex.def)             Requested size: 341.43436pt x 254.99521pt.
- [12 <./figures/Single change paints edit.png>] [13 <./figures/multi-change paints edit.png>]
-<./figures/crystal temp sens.png, id=641, 676.77844pt x 508.90125pt>
-File: ./figures/crystal temp sens.png Graphic file (type png)
-<use ./figures/crystal temp sens.png>
-Package pdftex.def Info: ./figures/crystal temp sens.png  used on input line 83.
-(pdftex.def)             Requested size: 341.43436pt x 256.74849pt.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 87.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
-File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 87.
- [14] [15 <./figures/crystal temp sens.png>]
-<./figures/tftcNGV.png, id=667, 977.15062pt x 727.21687pt>
-File: ./figures/tftcNGV.png Graphic file (type png)
-<use ./figures/tftcNGV.png>
-Package pdftex.def Info: ./figures/tftcNGV.png  used on input line 100.
-(pdftex.def)             Requested size: 341.43436pt x 254.10805pt.
- [16 <./figures/tftcNGV.png>] [17]
-Package epstopdf Info: Source file: <./figures/kerrpyro.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 1481610 bytes
-(epstopdf)             Output file: <./figures/kerrpyro-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 76437 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/kerrpyro-eps-converted-to.pdf ./figures/kerrpyro.eps>
-(epstopdf)             \includegraphics on input line 115.
-Package epstopdf Info: Output file is already uptodate.
+LaTeX Warning: Empty bibliography on input line 72.
 
-
-pdfTeX warning: pdflatex (file ./figures/kerrpyro-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/kerrpyro-eps-converted-to.pdf, id=722, 816.04875pt x 507.8975pt>
-File: ./figures/kerrpyro-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/kerrpyro-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/kerrpyro-eps-converted-to.pdf  used on input line 115.
-(pdftex.def)             Requested size: 341.43436pt x 212.50175pt.
-<./figures/siemens IR edit-01.png, id=725, 768.471pt x 582.7371pt>
-File: ./figures/siemens IR edit-01.png Graphic file (type png)
-<use ./figures/siemens IR edit-01.png>
-Package pdftex.def Info: ./figures/siemens IR edit-01.png  used on input line 121.
-(pdftex.def)             Requested size: 341.43436pt x 258.90373pt.
-[18 <./figures/kerrpyro-eps-converted-to.pdf>] [19 <./figures/siemens IR edit-01.png>]
-Package epstopdf Info: Source file: <./figures/yaneztempTBC.eps>
-(epstopdf)                    date: 2021-09-23 15:18:29
-(epstopdf)                    size: 1921570 bytes
-(epstopdf)             Output file: <./figures/yaneztempTBC-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:29
-(epstopdf)                    size: 29350 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/yaneztempTBC-eps-converted-to.pdf ./figures/yaneztempTBC.eps>
-(epstopdf)             \includegraphics on input line 135.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/yaneztempTBC-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/yaneztempTBC-eps-converted-to.pdf, id=776, 1090.0725pt x 706.64pt>
-File: ./figures/yaneztempTBC-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/yaneztempTBC-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/yaneztempTBC-eps-converted-to.pdf  used on input line 135.
-(pdftex.def)             Requested size: 341.43436pt x 221.33122pt.
-[20 <./figures/yaneztempTBC-eps-converted-to.pdf>] [21]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=426.79135pt
-* \textheight=674.33032pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-19.91173pt
-* \headheight=15.0pt
-* \headsep=18.0pt
-* \topskip=10.0pt
-* \footskip=42.0pt
-* \marginparwidth=74.68849pt
-* \marginparsep=12.8401pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- [22] [23
-
-
-
-
-
-
-] [24]
-Overfull \hbox (9.88715pt too wide) in paragraph at lines 186--186
-[]\OT1/cmr/m/n/10 Feist, Nicholls, and Heyes. \OT1/cmr/m/it/10 (12) Patent Ap-pli-ca-tion Pub-li-ca-tion (10) Pub. No.: US 2011/0069735
- []
-
-[25] [26]) (3 Acoustic temperature sensing.tex [27]
-Chapter 3.
-Package biblatex Info: Reference section=0 on input line 1.
-\blx@maxsegment@6=\count518
-\blx@sectionciteorder@6=\count519
-Package biblatex Info: Reference section=6 on input line 1.
-Package biblatex Info: Setting label 'refsection:6' on input line 1.
-Package epstopdf Info: Source file: <./figures/bulkwavediagram.eps>
-(epstopdf)                    date: 2021-09-30 12:51:32
-(epstopdf)                    size: 2790494 bytes
-(epstopdf)             Output file: <./figures/bulkwavediagram-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-30 12:54:43
-(epstopdf)                    size: 73180 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/bulkwavediagram-eps-converted-to.pdf ./figures/bulkwavediagram.eps>
-(epstopdf)             \includegraphics on input line 9.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/bulkwavediagram-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/bulkwavediagram-eps-converted-to.pdf, id=920, 1473.505pt x 470.75874pt>
-File: ./figures/bulkwavediagram-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/bulkwavediagram-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/bulkwavediagram-eps-converted-to.pdf  used on input line 9.
-(pdftex.def)             Requested size: 426.79134pt x 136.35132pt.
-[28
-
- <./figures/bulkwavediagram-eps-converted-to.pdf>] [29] [30]
-<./figures/SAW delay line.png, id=1028, 1224.07312pt x 415.5525pt>
-File: ./figures/SAW delay line.png Graphic file (type png)
-<use ./figures/SAW delay line.png>
-Package pdftex.def Info: ./figures/SAW delay line.png  used on input line 40.
-(pdftex.def)             Requested size: 341.43436pt x 115.91005pt.
-<./figures/SAW resonator.png, id=1031, 1297.09593pt x 522.45187pt>
-File: ./figures/SAW resonator.png Graphic file (type png)
-<use ./figures/SAW resonator.png>
-Package pdftex.def Info: ./figures/SAW resonator.png  used on input line 46.
-(pdftex.def)             Requested size: 341.43436pt x 137.52434pt.
- [31 <./figures/SAW delay line.png>]
-Package epstopdf Info: Source file: <./figures/wedge.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 1970218 bytes
-(epstopdf)             Output file: <./figures/wedge-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 29340 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/wedge-eps-converted-to.pdf ./figures/wedge.eps>
-(epstopdf)             \includegraphics on input line 58.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/wedge-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/wedge-eps-converted-to.pdf, id=1051, 1333.98375pt x 599.23875pt>
-File: ./figures/wedge-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/wedge-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/wedge-eps-converted-to.pdf  used on input line 58.
-(pdftex.def)             Requested size: 341.43436pt x 153.37534pt.
-Package epstopdf Info: Source file: <./figures/hertzian.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 3079202 bytes
-(epstopdf)             Output file: <./figures/hertzian-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 30733 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/hertzian-eps-converted-to.pdf ./figures/hertzian.eps>
-(epstopdf)             \includegraphics on input line 66.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/hertzian-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/hertzian-eps-converted-to.pdf, id=1054, 1334.9875pt x 866.23625pt>
-File: ./figures/hertzian-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/hertzian-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/hertzian-eps-converted-to.pdf  used on input line 66.
-(pdftex.def)             Requested size: 341.43436pt x 221.5416pt.
-[32 <./figures/SAW resonator.png> <./figures/wedge-eps-converted-to.pdf>]
-<./figures/willschwaveguide.png, id=1079, 632.3625pt x 448.67625pt>
-File: ./figures/willschwaveguide.png Graphic file (type png)
-<use ./figures/willschwaveguide.png>
-Package pdftex.def Info: ./figures/willschwaveguide.png  used on input line 74.
-(pdftex.def)             Requested size: 341.43436pt x 242.26103pt.
- [33 <./figures/hertzian-eps-converted-to.pdf>] [34 <./figures/willschwaveguide.png>]
-Package epstopdf Info: Source file: <./figures/lambwaves2.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 2135786 bytes
-(epstopdf)             Output file: <./figures/lambwaves2-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 12999 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/lambwaves2-eps-converted-to.pdf ./figures/lambwaves2.eps>
-(epstopdf)             \includegraphics on input line 94.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/lambwaves2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/lambwaves2-eps-converted-to.pdf, id=1155, 1648.1575pt x 452.69125pt>
-File: ./figures/lambwaves2-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/lambwaves2-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/lambwaves2-eps-converted-to.pdf  used on input line 94.
-(pdftex.def)             Requested size: 341.43436pt x 93.77626pt.
-Package epstopdf Info: Source file: <./figures/inconelyoungsdensitypoisson.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 606978 bytes
-(epstopdf)             Output file: <./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 29515 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf ./figures/inconelyoungsdensitypoisson.eps>
-(epstopdf)             \includegraphics on input line 100.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf, id=1156, 433.62pt x 286.06876pt>
-File: ./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf  used on input line 100.
-(pdftex.def)             Requested size: 341.43436pt x 225.26288pt.
-[35 <./figures/lambwaves2-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./figures/alutempshift2560.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 969846 bytes
-(epstopdf)             Output file: <./figures/alutempshift2560-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 81345 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/alutempshift2560-eps-converted-to.pdf ./figures/alutempshift2560.eps>
-(epstopdf)             \includegraphics on input line 113.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/alutempshift2560-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/alutempshift2560-eps-converted-to.pdf, id=1191, 398.48875pt x 298.11375pt>
-File: ./figures/alutempshift2560-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/alutempshift2560-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/alutempshift2560-eps-converted-to.pdf  used on input line 113.
-(pdftex.def)             Requested size: 341.43436pt x 255.4403pt.
-[36 <./figures/inconelyoungsdensitypoisson-eps-converted-to.pdf> <./figures/alutempshift2560-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./figures/phasedispersion.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 1396902 bytes
-(epstopdf)             Output file: <./figures/phasedispersion-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 195618 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/phasedispersion-eps-converted-to.pdf ./figures/phasedispersion.eps>
-(epstopdf)             \includegraphics on input line 121.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/phasedispersion-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/phasedispersion-eps-converted-to.pdf, id=1218, 382.42876pt x 301.125pt>
-File: ./figures/phasedispersion-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/phasedispersion-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/phasedispersion-eps-converted-to.pdf  used on input line 121.
-(pdftex.def)             Requested size: 341.43436pt x 268.85962pt.
-[37 <./figures/phasedispersion-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./figures/grouptemp.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 731746 bytes
-(epstopdf)             Output file: <./figures/grouptemp-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 64204 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/grouptemp-eps-converted-to.pdf ./figures/grouptemp.eps>
-(epstopdf)             \includegraphics on input line 129.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/grouptemp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/grouptemp-eps-converted-to.pdf, id=1244, 380.42125pt x 302.12875pt>
-File: ./figures/grouptemp-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/grouptemp-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/grouptemp-eps-converted-to.pdf  used on input line 129.
-(pdftex.def)             Requested size: 341.43436pt x 271.17113pt.
-Package epstopdf Info: Source file: <./figures/grouptemp1mhztemp.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 557726 bytes
-(epstopdf)             Output file: <./figures/grouptemp1mhztemp-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 25267 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/grouptemp1mhztemp-eps-converted-to.pdf ./figures/grouptemp1mhztemp.eps>
-(epstopdf)             \includegraphics on input line 135.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/grouptemp1mhztemp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/grouptemp1mhztemp-eps-converted-to.pdf, id=1245, 387.4475pt x 299.1175pt>
-File: ./figures/grouptemp1mhztemp-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/grouptemp1mhztemp-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/grouptemp1mhztemp-eps-converted-to.pdf  used on input line 135.
-(pdftex.def)             Requested size: 341.43436pt x 263.59846pt.
-[38 <./figures/grouptemp-eps-converted-to.pdf>] [39 <./figures/grouptemp1mhztemp-eps-converted-to.pdf>] [40] [41
-
-] [42] [43] [44] [45]
-Underfull \hbox (badness 1776) in paragraph at lines 154--154
-[]\OT1/cmr/m/n/10 Chandrasekaran Ja-yara-man, Kr-ish-nan Bal-a-sub-ra-ma-niam, and C. V. Kr-ish-na-murthy.
- []
-
-[46]) (4 Lamb wave theory.tex [47]
-Chapter 4.
-Package biblatex Info: Reference section=0 on input line 1.
-\blx@maxsegment@7=\count520
-\blx@sectionciteorder@7=\count521
-Package biblatex Info: Reference section=7 on input line 1.
-Package biblatex Info: Setting label 'refsection:7' on input line 1.
-[48
-
-]
-Package epstopdf Info: Source file: <./figures/grouptempshiftalu.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 606522 bytes
-(epstopdf)             Output file: <./figures/grouptempshiftalu-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 36931 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/grouptempshiftalu-eps-converted-to.pdf ./figures/grouptempshiftalu.eps>
-(epstopdf)             \includegraphics on input line 56.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/grouptempshiftalu-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/grouptempshiftalu-eps-converted-to.pdf, id=1443, 381.425pt x 301.125pt>
-File: ./figures/grouptempshiftalu-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/grouptempshiftalu-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/grouptempshiftalu-eps-converted-to.pdf  used on input line 56.
-(pdftex.def)             Requested size: 341.43436pt x 269.56262pt.
-Package epstopdf Info: Source file: <./figures/grouptemp1mhztempalu.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 549738 bytes
-(epstopdf)             Output file: <./figures/grouptemp1mhztempalu-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 22860 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/grouptemp1mhztempalu-eps-converted-to.pdf ./figures/grouptemp1mhztempalu.eps>
-(epstopdf)             \includegraphics on input line 62.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/grouptemp1mhztempalu-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/grouptemp1mhztempalu-eps-converted-to.pdf, id=1444, 386.44376pt x 297.11pt>
-File: ./figures/grouptemp1mhztempalu-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/grouptemp1mhztempalu-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/grouptemp1mhztempalu-eps-converted-to.pdf  used on input line 62.
-(pdftex.def)             Requested size: 341.43436pt x 262.50484pt.
-[49] [50 <./figures/grouptempshiftalu-eps-converted-to.pdf> <./figures/grouptemp1mhztempalu-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./figures/multimodeedit.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 2487962 bytes
-(epstopdf)             Output file: <./figures/multimodeedit-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 126189 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/multimodeedit-eps-converted-to.pdf ./figures/multimodeedit.eps>
-(epstopdf)             \includegraphics on input line 72.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/multimodeedit-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/multimodeedit-eps-converted-to.pdf, id=1482, 1143.27126pt x 656.4525pt>
-File: ./figures/multimodeedit-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/multimodeedit-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/multimodeedit-eps-converted-to.pdf  used on input line 72.
-(pdftex.def)             Requested size: 426.79134pt x 245.05724pt.
-[51 <./figures/multimodeedit-eps-converted-to.pdf>]) (5 COMSOL.tex [52
-
-]
-Chapter 5.
-Package biblatex Info: Reference section=0 on input line 1.
-\blx@maxsegment@8=\count522
-\blx@sectionciteorder@8=\count523
-Package biblatex Info: Reference section=8 on input line 1.
-Package biblatex Info: Setting label 'refsection:8' on input line 1.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[53
-
-]
-<./figures/comsoltemp100c.png, id=1529, 1340.00626pt x 371.88937pt>
-File: ./figures/comsoltemp100c.png Graphic file (type png)
-<use ./figures/comsoltemp100c.png>
-Package pdftex.def Info: ./figures/comsoltemp100c.png  used on input line 55.
-(pdftex.def)             Requested size: 341.43436pt x 94.75392pt.
- [54 <./figures/comsoltemp100c.png>]
-<./figures/comsoldiagram.png, id=1539, 1556.9367pt x 496.9767pt>
-File: ./figures/comsoldiagram.png Graphic file (type png)
-<use ./figures/comsoldiagram.png>
-Package pdftex.def Info: ./figures/comsoldiagram.png  used on input line 65.
-(pdftex.def)             Requested size: 341.43436pt x 108.98637pt.
-<./figures/simmodes.png, id=1540, 1160.83687pt x 324.46219pt>
-File: ./figures/simmodes.png Graphic file (type png)
-<use ./figures/simmodes.png>
-Package pdftex.def Info: ./figures/simmodes.png  used on input line 71.
-(pdftex.def)             Requested size: 341.43436pt x 95.4333pt.
-Package epstopdf Info: Source file: <./figures/simpulse20csensors.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 2735594 bytes
-(epstopdf)             Output file: <./figures/simpulse20csensors-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 184529 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/simpulse20csensors-eps-converted-to.pdf ./figures/simpulse20csensors.eps>
-(epstopdf)             \includegraphics on input line 77.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/simpulse20csensors-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/simpulse20csensors-eps-converted-to.pdf, id=1541, 1104.125pt x 695.59875pt>
-File: ./figures/simpulse20csensors-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/simpulse20csensors-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/simpulse20csensors-eps-converted-to.pdf  used on input line 77.
-(pdftex.def)             Requested size: 341.43436pt x 215.10269pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[55 <./figures/comsoldiagram.png
-
-pdfTeX warning: pdflatex (file ./figures/comsoldiagram.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
-> <./figures/simmodes.png>] [56 <./figures/simpulse20csensors-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./figures/s0andcomsolresult.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 544606 bytes
-(epstopdf)             Output file: <./figures/s0andcomsolresult-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 26866 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/s0andcomsolresult-eps-converted-to.pdf ./figures/s0andcomsolresult.eps>
-(epstopdf)             \includegraphics on input line 101.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/s0andcomsolresult-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/s0andcomsolresult-eps-converted-to.pdf, id=1576, 378.41376pt x 290.08376pt>
-File: ./figures/s0andcomsolresult-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/s0andcomsolresult-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/s0andcomsolresult-eps-converted-to.pdf  used on input line 101.
-(pdftex.def)             Requested size: 341.43436pt x 261.73691pt.
-[57 <./figures/s0andcomsolresult-eps-converted-to.pdf>]) (6 Temperature Experiments.tex [58
-
-]
-Chapter 6.
-Package biblatex Info: Reference section=0 on input line 1.
-\blx@maxsegment@9=\count524
-\blx@sectionciteorder@9=\count525
-Package biblatex Info: Reference section=9 on input line 1.
-Package biblatex Info: Setting label 'refsection:9' on input line 1.
-[59
-
-]
-Package epstopdf Info: Source file: <./figures/testdiagramsimple.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 2501446 bytes
-(epstopdf)             Output file: <./figures/testdiagramsimple-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 29627 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/testdiagramsimple-eps-converted-to.pdf ./figures/testdiagramsimple.eps>
-(epstopdf)             \includegraphics on input line 29.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/testdiagramsimple-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/testdiagramsimple-eps-converted-to.pdf, id=1619, 1602.98875pt x 523.9575pt>
-File: ./figures/testdiagramsimple-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/testdiagramsimple-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/testdiagramsimple-eps-converted-to.pdf  used on input line 29.
-(pdftex.def)             Requested size: 384.10959pt x 125.5445pt.
-Package epstopdf Info: Source file: <./figures/w2wdiagram.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 1781626 bytes
-(epstopdf)             Output file: <./figures/w2wdiagram-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 28946 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/w2wdiagram-eps-converted-to.pdf ./figures/w2wdiagram.eps>
-(epstopdf)             \includegraphics on input line 35.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/w2wdiagram-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/w2wdiagram-eps-converted-to.pdf, id=1620, 1185.42876pt x 412.54124pt>
-File: ./figures/w2wdiagram-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/w2wdiagram-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/w2wdiagram-eps-converted-to.pdf  used on input line 35.
-(pdftex.def)             Requested size: 298.75262pt x 103.96597pt.
-[60 <./figures/testdiagramsimple-eps-converted-to.pdf> <./figures/w2wdiagram-eps-converted-to.pdf>] [61]
-<./figures/hjkhh7UmEx.png, id=1669, 1201.48875pt x 716.6775pt>
-File: ./figures/hjkhh7UmEx.png Graphic file (type png)
-<use ./figures/hjkhh7UmEx.png>
-Package pdftex.def Info: ./figures/hjkhh7UmEx.png  used on input line 85.
-(pdftex.def)             Requested size: 341.43436pt x 203.66469pt.
- [62 <./figures/hjkhh7UmEx.png>]
-Package epstopdf Info: Source file: <./figures/s0xcorr5cyc.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 2207290 bytes
-(epstopdf)             Output file: <./figures/s0xcorr5cyc-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 156092 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/s0xcorr5cyc-eps-converted-to.pdf ./figures/s0xcorr5cyc.eps>
-(epstopdf)             \includegraphics on input line 102.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/s0xcorr5cyc-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/s0xcorr5cyc-eps-converted-to.pdf, id=1676, 708.6475pt x 698.61pt>
-File: ./figures/s0xcorr5cyc-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/s0xcorr5cyc-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/s0xcorr5cyc-eps-converted-to.pdf  used on input line 102.
-(pdftex.def)             Requested size: 341.43436pt x 336.59752pt.
-Package epstopdf Info: Source file: <./figures/aluplatemeasured.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 549378 bytes
-(epstopdf)             Output file: <./figures/aluplatemeasured-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 24731 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/aluplatemeasured-eps-converted-to.pdf ./figures/aluplatemeasured.eps>
-(epstopdf)             \includegraphics on input line 110.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/aluplatemeasured-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/aluplatemeasured-eps-converted-to.pdf, id=1677, 388.45125pt x 299.1175pt>
-File: ./figures/aluplatemeasured-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/aluplatemeasured-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/aluplatemeasured-eps-converted-to.pdf  used on input line 110.
-(pdftex.def)             Requested size: 341.43436pt x 262.9184pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[63
-
- <./figures/s0xcorr5cyc-eps-converted-to.pdf>] [64 <./figures/aluplatemeasured-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./figures/a1xcorr5cyc.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 2199414 bytes
-(epstopdf)             Output file: <./figures/a1xcorr5cyc-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 148146 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/a1xcorr5cyc-eps-converted-to.pdf ./figures/a1xcorr5cyc.eps>
-(epstopdf)             \includegraphics on input line 126.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/a1xcorr5cyc-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/a1xcorr5cyc-eps-converted-to.pdf, id=1708, 710.655pt x 696.6025pt>
-File: ./figures/a1xcorr5cyc-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/a1xcorr5cyc-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/a1xcorr5cyc-eps-converted-to.pdf  used on input line 126.
-(pdftex.def)             Requested size: 341.43436pt x 334.6949pt.
-Package epstopdf Info: Source file: <./figures/a1moderesult.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 554114 bytes
-(epstopdf)             Output file: <./figures/a1moderesult-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 26035 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/a1moderesult-eps-converted-to.pdf ./figures/a1moderesult.eps>
-(epstopdf)             \includegraphics on input line 136.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/a1moderesult-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/a1moderesult-eps-converted-to.pdf, id=1710, 383.4325pt x 298.11375pt>
-File: ./figures/a1moderesult-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/a1moderesult-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/a1moderesult-eps-converted-to.pdf  used on input line 136.
-(pdftex.def)             Requested size: 341.43436pt x 265.47507pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[65 <./figures/a1xcorr5cyc-eps-converted-to.pdf>] [66 <./figures/a1moderesult-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./figures/s1hilbert.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 2537270 bytes
-(epstopdf)             Output file: <./figures/s1hilbert-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 127643 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/s1hilbert-eps-converted-to.pdf ./figures/s1hilbert.eps>
-(epstopdf)             \includegraphics on input line 156.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/s1hilbert-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/s1hilbert-eps-converted-to.pdf, id=1747, 1139.25626pt x 718.685pt>
-File: ./figures/s1hilbert-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/s1hilbert-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/s1hilbert-eps-converted-to.pdf  used on input line 156.
-(pdftex.def)             Requested size: 341.43436pt x 215.38783pt.
-Package epstopdf Info: Source file: <./figures/s1moderesult.eps>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 577926 bytes
-(epstopdf)             Output file: <./figures/s1moderesult-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-09-23 15:18:28
-(epstopdf)                    size: 25880 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=./figures/s1moderesult-eps-converted-to.pdf ./figures/s1moderesult.eps>
-(epstopdf)             \includegraphics on input line 162.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/s1moderesult-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/s1moderesult-eps-converted-to.pdf, id=1748, 383.4325pt x 298.11375pt>
-File: ./figures/s1moderesult-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/s1moderesult-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/s1moderesult-eps-converted-to.pdf  used on input line 162.
-(pdftex.def)             Requested size: 341.43436pt x 265.47507pt.
-[67 <./figures/s1hilbert-eps-converted-to.pdf> <./figures/s1moderesult-eps-converted-to.pdf>] [68] [69]) (7 Reflection experiments.tex [70
-
-]
-Chapter 7.
-Package biblatex Info: Reference section=0 on input line 1.
-\blx@maxsegment@10=\count526
-\blx@sectionciteorder@10=\count527
-Package biblatex Info: Reference section=10 on input line 1.
-Package biblatex Info: Setting label 'refsection:10' on input line 1.
-) (8 Research summary.tex [71
-
-]
-Chapter 8.
-Package biblatex Info: Reference section=0 on input line 1.
-\blx@maxsegment@11=\count528
-\blx@sectionciteorder@11=\count529
-Package biblatex Info: Reference section=11 on input line 1.
-Package biblatex Info: Setting label 'refsection:11' on input line 1.
-[72
-
-]
-<./figures/gantt.pdf, id=1832, 1195.0156pt x 682.86618pt>
-File: ./figures/gantt.pdf Graphic file (type pdf)
-<use ./figures/gantt.pdf>
-Package pdftex.def Info: ./figures/gantt.pdf  used on input line 33.
-(pdftex.def)             Requested size: 1195.0127pt x 682.8645pt.
-File: ./figures/gantt.pdf Graphic file (type pdf)
-<use ./figures/gantt.pdf>
-Package pdftex.def Info: ./figures/gantt.pdf  used on input line 33.
-(pdftex.def)             Requested size: 1195.0127pt x 682.8645pt.
-<./figures/gantt.pdf, id=1835, page=1, 1195.0156pt x 682.86618pt>
-File: ./figures/gantt.pdf Graphic file (type pdf)
-<use ./figures/gantt.pdf, page 1>
-Package pdftex.def Info: ./figures/gantt.pdf , page1 used on input line 33.
-(pdftex.def)             Requested size: 1195.0127pt x 682.8645pt.
-File: ./figures/gantt.pdf Graphic file (type pdf)
-<use ./figures/gantt.pdf, page 1>
-Package pdftex.def Info: ./figures/gantt.pdf , page1 used on input line 33.
-(pdftex.def)             Requested size: 1195.0127pt x 682.8645pt.
- [73]
-File: ./figures/gantt.pdf Graphic file (type pdf)
-<use ./figures/gantt.pdf, page 1>
-Package pdftex.def Info: ./figures/gantt.pdf , page1 used on input line 33.
-(pdftex.def)             Requested size: 1195.0127pt x 682.8645pt.
-File: ./figures/gantt.pdf Graphic file (type pdf)
-<use ./figures/gantt.pdf, page 1>
-Package pdftex.def Info: ./figures/gantt.pdf , page1 used on input line 33.
-(pdftex.def)             Requested size: 1195.0127pt x 682.8645pt.
-File: ./figures/gantt.pdf Graphic file (type pdf)
-<use ./figures/gantt.pdf, page 1>
-Package pdftex.def Info: ./figures/gantt.pdf , page1 used on input line 33.
-(pdftex.def)             Requested size: 1195.0127pt x 682.8645pt.
- [74 <./figures/gantt.pdf, page is rotated 90 degrees>])
-
-LaTeX Warning: Empty bibliography on input line 149.
-
-
+) 
 AED: lastpage setting LastPage
-(main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F3F7FD3877DCE6AB10492F0B2A03E060;11213.
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 148.
+
+[5] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  CB5A0C518B729BC99E2EB9160DAE75D0;629.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39068 strings out of 479173
- 781172 string characters out of 2854168
- 1658126 words of memory out of 3000000
- 55543 multiletter control sequences out of 15000+600000
- 417010 words of font info for 77 fonts, out of 8000000 for 9000
+ 38442 strings out of 478907
+ 768267 string characters out of 2851892
+ 1472199 words of memory out of 3000000
+ 55662 multiletter control sequences out of 15000+600000
+ 410534 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,21n,117p,4070b,1785s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Italic.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (81 pages, 22725000 bytes).
+ 108i,11n,117p,1902b,1183s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (9 pages, 6743246 bytes).
 PDF statistics:
- 2031 PDF objects out of 2073 (max. 8388607)
- 390 named destinations out of 1000 (max. 500000)
- 638 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 130 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,14 +20,11 @@
     "plaintext"
   ],
   "files.exclude": {
-    "main.aux": true,
-    "main.bbl": true,
-    "main.blg": true,
-    "main.fdb_latexmk": true,
-    "main.fls": true,
-    "main.log": true,
-    "main.out": true,
-    "main.synctex.gz": true,
-    "main.toc": true
+    "**/.DS_Store": false,
+    "**/.git": false,
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/CVS": false,
+    "**/Thumbs.db": false
   }
 }
