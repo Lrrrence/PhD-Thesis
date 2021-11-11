@@ -2389,6 +2389,305 @@
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
+  <!-- SECTION 5 -->
+  <bcf:bibdata section="5">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">library.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">References.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="5">
+    <bcf:citekey order="1">administrator2015aviation</bcf:citekey>
+    <bcf:citekey order="2">zhang2019number</bcf:citekey>
+    <bcf:citekey order="2">Zaghari2020</bcf:citekey>
+    <bcf:citekey order="3">Zaghari2017</bcf:citekey>
+    <bcf:citekey order="4">Kerr2002</bcf:citekey>
+    <bcf:citekey order="5">Becker1994</bcf:citekey>
+    <bcf:citekey order="6">Zhou2016</bcf:citekey>
+    <bcf:citekey order="7">Dixon2013</bcf:citekey>
+    <bcf:citekey order="8">Heyes2004</bcf:citekey>
+    <bcf:citekey order="9">Thakare2020</bcf:citekey>
+    <bcf:citekey order="10">Lashmi2020</bcf:citekey>
+    <bcf:citekey order="11">Feist2001</bcf:citekey>
+    <bcf:citekey order="12">AbouNada2016</bcf:citekey>
+    <bcf:citekey order="13">AbouNada2016</bcf:citekey>
+    <bcf:citekey order="14">Zhao2014</bcf:citekey>
+    <bcf:citekey order="15">Zhao2014</bcf:citekey>
+    <bcf:citekey order="16">Abdelrhman2014</bcf:citekey>
+    <bcf:citekey order="17">Mevissen2019</bcf:citekey>
+    <bcf:citekey order="18">Zaghari2017a</bcf:citekey>
+    <bcf:citekey order="19">18-guan2019enhanced</bcf:citekey>
+    <bcf:citekey order="20">Findeisen2017</bcf:citekey>
+    <bcf:citekey order="21">Peral2019</bcf:citekey>
+    <bcf:citekey order="22">Nikparto2018</bcf:citekey>
+    <bcf:citekey order="23">Shevchenko2018</bcf:citekey>
+    <bcf:citekey order="24">Guan2019</bcf:citekey>
+    <bcf:citekey order="25">Samarasinghe2019</bcf:citekey>
+    <bcf:citekey order="26">Yang2015a</bcf:citekey>
+    <bcf:citekey order="27">Neely2006</bcf:citekey>
+    <bcf:citekey order="28">Neely2006</bcf:citekey>
+    <bcf:citekey order="29">Neely2006</bcf:citekey>
+    <bcf:citekey order="30">Neely2006</bcf:citekey>
+    <bcf:citekey order="31">Neely2006</bcf:citekey>
+    <bcf:citekey order="32">Lempereur2008</bcf:citekey>
+    <bcf:citekey order="33">Coleto2006</bcf:citekey>
+    <bcf:citekey order="34">Neely2010</bcf:citekey>
+    <bcf:citekey order="35">Bird1998</bcf:citekey>
+    <bcf:citekey order="36">EuropeanParliament2006</bcf:citekey>
+    <bcf:citekey order="37">Feist2011</bcf:citekey>
+    <bcf:citekey order="38">EuropeanParliament2006</bcf:citekey>
+    <bcf:citekey order="39">KarmakarBiswas2014</bcf:citekey>
+    <bcf:citekey order="40">Peral2019</bcf:citekey>
+    <bcf:citekey order="41">AraguasRodriguez2018a</bcf:citekey>
+    <bcf:citekey order="42">Pilgrim2017</bcf:citekey>
+    <bcf:citekey order="43">Rabhiou2011</bcf:citekey>
+    <bcf:citekey order="44">Amiel2018</bcf:citekey>
+    <bcf:citekey order="45">Heyes2012</bcf:citekey>
+    <bcf:citekey order="46">Feist2001</bcf:citekey>
+    <bcf:citekey order="47">Annerfeldt2004</bcf:citekey>
+    <bcf:citekey order="48">Annerfeldt2004</bcf:citekey>
+    <bcf:citekey order="49">Annerfeldt2004</bcf:citekey>
+    <bcf:citekey order="50">Fair2008</bcf:citekey>
+    <bcf:citekey order="51">Lo2012</bcf:citekey>
+    <bcf:citekey order="52">Madison2013</bcf:citekey>
+    <bcf:citekey order="53">Duan2020</bcf:citekey>
+    <bcf:citekey order="54">Duan2020</bcf:citekey>
+    <bcf:citekey order="55">Duan2020</bcf:citekey>
+    <bcf:citekey order="56">Kreider1993</bcf:citekey>
+    <bcf:citekey order="57">Yang2020</bcf:citekey>
+    <bcf:citekey order="58">Liu2018</bcf:citekey>
+    <bcf:citekey order="59">Zhang2018b</bcf:citekey>
+    <bcf:citekey order="60">Gao2016</bcf:citekey>
+    <bcf:citekey order="61">Satish2017</bcf:citekey>
+    <bcf:citekey order="62">Ji2019</bcf:citekey>
+    <bcf:citekey order="63">Lei1997</bcf:citekey>
+    <bcf:citekey order="64">Guk2016</bcf:citekey>
+    <bcf:citekey order="65">Kerr2004</bcf:citekey>
+    <bcf:citekey order="66">Kerr2004</bcf:citekey>
+    <bcf:citekey order="67">Li2019</bcf:citekey>
+    <bcf:citekey order="68">Yu2009a</bcf:citekey>
+    <bcf:citekey order="69">Kerr2002</bcf:citekey>
+    <bcf:citekey order="69">Li2018</bcf:citekey>
+    <bcf:citekey order="70">Araujo2017</bcf:citekey>
+    <bcf:citekey order="71">Gentleman2006</bcf:citekey>
+    <bcf:citekey order="72">Becker1994</bcf:citekey>
+    <bcf:citekey order="72">Frank2001</bcf:citekey>
+    <bcf:citekey order="72">Wang2015</bcf:citekey>
+    <bcf:citekey order="73">Taniguchi2006</bcf:citekey>
+    <bcf:citekey order="74">Hellberg</bcf:citekey>
+    <bcf:citekey order="75">Kerr2004</bcf:citekey>
+    <bcf:citekey order="76">Kerr2004</bcf:citekey>
+    <bcf:citekey order="77">Hellberg</bcf:citekey>
+    <bcf:citekey order="78">Hellberg</bcf:citekey>
+    <bcf:citekey order="79">Liu2005</bcf:citekey>
+    <bcf:citekey order="80">Patel2016</bcf:citekey>
+    <bcf:citekey order="81">Khalid2008a</bcf:citekey>
+    <bcf:citekey order="82">Allison1997</bcf:citekey>
+    <bcf:citekey order="83">Khalid2010</bcf:citekey>
+    <bcf:citekey order="84">Brubach2013</bcf:citekey>
+    <bcf:citekey order="85">AbouNada2016</bcf:citekey>
+    <bcf:citekey order="86">Feist2001</bcf:citekey>
+    <bcf:citekey order="87">Chen2005a</bcf:citekey>
+    <bcf:citekey order="88">Feist2013</bcf:citekey>
+    <bcf:citekey order="89">YanezGonzalez2015</bcf:citekey>
+    <bcf:citekey order="90">Jenkins2020</bcf:citekey>
+    <bcf:citekey order="91">Eldridge2019</bcf:citekey>
+    <bcf:citekey order="92">Nau2019</bcf:citekey>
+    <bcf:citekey order="93">Feist2001</bcf:citekey>
+    <bcf:citekey order="94">Gentleman2006</bcf:citekey>
+    <bcf:citekey order="95">YanezGonzalez2015</bcf:citekey>
+    <bcf:citekey order="96">YanezGonzalez2015</bcf:citekey>
+    <bcf:citekey order="97">Duan2018</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 6 -->
+  <bcf:bibdata section="6">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">library.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">References.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="6">
+    <bcf:citekey order="1">Mitra2016</bcf:citekey>
+    <bcf:citekey order="2">Fatemi1980</bcf:citekey>
+    <bcf:citekey order="3">Ruzek2006</bcf:citekey>
+    <bcf:citekey order="3">Imielinska2004</bcf:citekey>
+    <bcf:citekey order="4">Komura2001</bcf:citekey>
+    <bcf:citekey order="5">Zaghari2013</bcf:citekey>
+    <bcf:citekey order="6">Shi2019</bcf:citekey>
+    <bcf:citekey order="7">Wang2019</bcf:citekey>
+    <bcf:citekey order="8">Dransfeld1970</bcf:citekey>
+    <bcf:citekey order="9">2-gajdacsi2014reconstruction</bcf:citekey>
+    <bcf:citekey order="10">9R-12-croxford2007strategies</bcf:citekey>
+    <bcf:citekey order="10">1R-22-harley2012scale</bcf:citekey>
+    <bcf:citekey order="11">1R-24-konstantinidis2006temperature</bcf:citekey>
+    <bcf:citekey order="12">1R-26-clarke2010guided</bcf:citekey>
+    <bcf:citekey order="12">1R-27-croxford2010efficient</bcf:citekey>
+    <bcf:citekey order="13">1R-28-wang2014adaptive</bcf:citekey>
+    <bcf:citekey order="14">1R-li2018new</bcf:citekey>
+    <bcf:citekey order="15">1R-20-liu2016baseline</bcf:citekey>
+    <bcf:citekey order="16">9-mariani2019compensation</bcf:citekey>
+    <bcf:citekey order="16">9R-16-herdovics2019compensation</bcf:citekey>
+    <bcf:citekey order="17">9-mariani2019compensation</bcf:citekey>
+    <bcf:citekey order="18">9-mariani2019compensation</bcf:citekey>
+    <bcf:citekey order="19">Lynnworth1990</bcf:citekey>
+    <bcf:citekey order="20">Davis2008</bcf:citekey>
+    <bcf:citekey order="21">Takahashi2008</bcf:citekey>
+    <bcf:citekey order="22">Jia2016</bcf:citekey>
+    <bcf:citekey order="22">Skliar2015</bcf:citekey>
+    <bcf:citekey order="23">Jia2019</bcf:citekey>
+    <bcf:citekey order="24">Jeffrey2019</bcf:citekey>
+    <bcf:citekey order="25">Balasubramaniam1999</bcf:citekey>
+    <bcf:citekey order="26">Hashmi2015</bcf:citekey>
+    <bcf:citekey order="26">Hashmi2019</bcf:citekey>
+    <bcf:citekey order="27">Alzebda2010</bcf:citekey>
+    <bcf:citekey order="28">Lee1994a</bcf:citekey>
+    <bcf:citekey order="28">Lee1996</bcf:citekey>
+    <bcf:citekey order="29">Klimek1998</bcf:citekey>
+    <bcf:citekey order="30">PereiraDaCunha2011</bcf:citekey>
+    <bcf:citekey order="30">Dong2019</bcf:citekey>
+    <bcf:citekey order="31">Ida2014</bcf:citekey>
+    <bcf:citekey order="32">Ida2014</bcf:citekey>
+    <bcf:citekey order="33">Ida2014</bcf:citekey>
+    <bcf:citekey order="34">Ida2014</bcf:citekey>
+    <bcf:citekey order="35">Zhang2017a</bcf:citekey>
+    <bcf:citekey order="36">Khalili2016</bcf:citekey>
+    <bcf:citekey order="37">Mei2019</bcf:citekey>
+    <bcf:citekey order="38">Giurgiutiu2003a</bcf:citekey>
+    <bcf:citekey order="39">Ren2017</bcf:citekey>
+    <bcf:citekey order="40">Giurgiutiu2003a</bcf:citekey>
+    <bcf:citekey order="41">Parks2013</bcf:citekey>
+    <bcf:citekey order="42">Cegla2011a</bcf:citekey>
+    <bcf:citekey order="43">LeventDegertekin1997</bcf:citekey>
+    <bcf:citekey order="44">Grimberg2010</bcf:citekey>
+    <bcf:citekey order="45">Willsch2004a</bcf:citekey>
+    <bcf:citekey order="46">Willsch2004a</bcf:citekey>
+    <bcf:citekey order="47">Willsch2004a</bcf:citekey>
+    <bcf:citekey order="48">Khalili2018c</bcf:citekey>
+    <bcf:citekey order="49">Kim2019a</bcf:citekey>
+    <bcf:citekey order="50">4-jiang2014high</bcf:citekey>
+    <bcf:citekey order="50">12-fachberger2004properties</bcf:citekey>
+    <bcf:citekey order="51">4-jiang2014high</bcf:citekey>
+    <bcf:citekey order="52">9-mariani2019compensation</bcf:citekey>
+    <bcf:citekey order="53">9R-18-hurst2015real</bcf:citekey>
+    <bcf:citekey order="54">9R-14-ha2010adhesive</bcf:citekey>
+    <bcf:citekey order="55">Turner1994</bcf:citekey>
+    <bcf:citekey order="55">Tressler1998</bcf:citekey>
+    <bcf:citekey order="55">Tittmann2013</bcf:citekey>
+    <bcf:citekey order="55">Parks2013</bcf:citekey>
+    <bcf:citekey order="55">Jiang2013b</bcf:citekey>
+    <bcf:citekey order="55">Schulz2003</bcf:citekey>
+    <bcf:citekey order="55">Zhang2011</bcf:citekey>
+    <bcf:citekey order="55">Zhang2018</bcf:citekey>
+    <bcf:citekey order="56">stevenson2015piezoelectric</bcf:citekey>
+    <bcf:citekey order="57">zu2016high</bcf:citekey>
+    <bcf:citekey order="58">zhang2008characterization</bcf:citekey>
+    <bcf:citekey order="59">Kim2015</bcf:citekey>
+    <bcf:citekey order="60">Kim2018a</bcf:citekey>
+    <bcf:citekey order="61">Tittmann2013a</bcf:citekey>
+    <bcf:citekey order="62">Rose2014</bcf:citekey>
+    <bcf:citekey order="63">Su2009a</bcf:citekey>
+    <bcf:citekey order="64">Cheeke2000a</bcf:citekey>
+    <bcf:citekey order="65">Abdullaev2019</bcf:citekey>
+    <bcf:citekey order="65">SpecialMetals2007</bcf:citekey>
+    <bcf:citekey order="66">Abbas2020a</bcf:citekey>
+    <bcf:citekey order="67">9R-10-weaver2000temperature</bcf:citekey>
+    <bcf:citekey order="68">Dodson2013</bcf:citekey>
+    <bcf:citekey order="68">Marzani2012</bcf:citekey>
+    <bcf:citekey order="68">Croxford2007a</bcf:citekey>
+    <bcf:citekey order="68">Abbas2020a</bcf:citekey>
+    <bcf:citekey order="68">Moll2019</bcf:citekey>
+    <bcf:citekey order="69">Huber</bcf:citekey>
+    <bcf:citekey order="70">Espinosa2018</bcf:citekey>
+    <bcf:citekey order="70">Svilainis2013</bcf:citekey>
+    <bcf:citekey order="71">Jia2019a</bcf:citekey>
+    <bcf:citekey order="71">Khyam2017</bcf:citekey>
+    <bcf:citekey order="72">Costa-Junior2018</bcf:citekey>
+    <bcf:citekey order="73">Wilcox2004</bcf:citekey>
+    <bcf:citekey order="74">Wilcox2003</bcf:citekey>
+    <bcf:citekey order="75">Jayaraman2009a</bcf:citekey>
+    <bcf:citekey order="76">Swaminathan2011</bcf:citekey>
+    <bcf:citekey order="76">Chandrasekaran2010a</bcf:citekey>
+    <bcf:citekey order="76">Balasubramaniam2008</bcf:citekey>
+    <bcf:citekey order="77">Verma2011</bcf:citekey>
+    <bcf:citekey order="78">SriHarshaReddy2017a</bcf:citekey>
+    <bcf:citekey order="79">Khalili2016</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 7 -->
+  <bcf:bibdata section="7">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">library.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">References.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="7">
+    <bcf:citekey order="1">Huber</bcf:citekey>
+    <bcf:citekey order="2">Rose2014</bcf:citekey>
+    <bcf:citekey order="3">Hopkins2012</bcf:citekey>
+    <bcf:citekey order="4">Alleyne1992</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 8 -->
+  <bcf:bibdata section="8">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">library.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">References.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="8">
+    <bcf:citekey order="1">Nikolaevtsev2016a</bcf:citekey>
+    <bcf:citekey order="2">Abdel-Wahab2017</bcf:citekey>
+    <bcf:citekey order="3">Hassard1973</bcf:citekey>
+    <bcf:citekey order="4">Sahputra2018</bcf:citekey>
+    <bcf:citekey order="5">Fukuhara1995</bcf:citekey>
+    <bcf:citekey order="6">Fukuhara1995</bcf:citekey>
+    <bcf:citekey order="7">Sahputra2018</bcf:citekey>
+    <bcf:citekey order="8">Sahputra2018</bcf:citekey>
+    <bcf:citekey order="9">Abdel-Wahab2017</bcf:citekey>
+    <bcf:citekey order="10">Hassard1973</bcf:citekey>
+    <bcf:citekey order="11">Hopkins2012</bcf:citekey>
+    <bcf:citekey order="12">Hopkins2012</bcf:citekey>
+    <bcf:citekey order="13">COMSOL2013</bcf:citekey>
+    <bcf:citekey order="14">COMSOL2017</bcf:citekey>
+    <bcf:citekey order="15">COMSOL2021</bcf:citekey>
+    <bcf:citekey order="16">COMSOL2021a</bcf:citekey>
+    <bcf:citekey order="17">Southampton2021</bcf:citekey>
+    <bcf:citekey order="18">Guers2011</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 9 -->
+  <bcf:bibdata section="9">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">library.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">References.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="9">
+    <bcf:citekey order="1">Croxford2007a</bcf:citekey>
+    <bcf:citekey order="2">Hopkins2012</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 10 -->
+  <bcf:bibdata section="10">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">library.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">References.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="10">
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 11 -->
+  <bcf:bibdata section="11">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">library.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">References.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="11">
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
     <bcf:sort order="1">
@@ -2397,6 +2696,51 @@
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="4"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="5"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="6"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="7"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="8"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="9"
                 name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"
