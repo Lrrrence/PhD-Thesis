@@ -66,36 +66,48 @@
 \defcounter {refsection}{8}\relax 
 \contentsline {section}{\numberline {5.1}Variable angle wedge simulation}{53}{section.5.1}%
 \defcounter {refsection}{8}\relax 
-\contentsline {section}{\numberline {5.2}Simulation results}{58}{section.5.2}%
+\contentsline {subsection}{\numberline {5.1.1}Geometry}{53}{subsection.5.1.1}%
 \defcounter {refsection}{8}\relax 
-\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{62}{chapter.6}%
+\contentsline {subsection}{\numberline {5.1.2}Material properties}{53}{subsection.5.1.2}%
+\defcounter {refsection}{8}\relax 
+\contentsline {subsection}{\numberline {5.1.3}Determination of Young's modulus from wedge wave velocity}{54}{subsection.5.1.3}%
+\defcounter {refsection}{8}\relax 
+\contentsline {subsection}{\numberline {5.1.4}Aluminium plate properties}{56}{subsection.5.1.4}%
+\defcounter {refsection}{8}\relax 
+\contentsline {subsection}{\numberline {5.1.5}Physics \& mesh settings}{57}{subsection.5.1.5}%
+\defcounter {refsection}{8}\relax 
+\contentsline {subsection}{\numberline {5.1.6}Study settings}{58}{subsection.5.1.6}%
+\defcounter {refsection}{8}\relax 
+\contentsline {section}{\numberline {5.2}Simulation results}{59}{section.5.2}%
+\defcounter {refsection}{8}\relax 
+\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{63}{chapter.6}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.1}Test Method}{65}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Test Method}{66}{section.6.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{66}{section.6.2}%
+\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{67}{section.6.2}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{66}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{67}{subsection.6.2.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{68}{section.6.3}%
+\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{69}{section.6.3}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{68}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{69}{subsection.6.3.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{69}{section.6.4}%
+\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{70}{section.6.4}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{69}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{70}{subsection.6.4.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{71}{section.6.5}%
+\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{72}{section.6.5}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.6}Conclusion}{71}{section.6.6}%
+\contentsline {section}{\numberline {6.6}Conclusion}{72}{section.6.6}%
 \defcounter {refsection}{9}\relax 
-\contentsline {chapter}{\numberline {7}Experimental investigation of reflections}{74}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Experimental investigation of reflections}{75}{chapter.7}%
 \defcounter {refsection}{10}\relax 
-\contentsline {section}{\numberline {7.1}Edge reflections}{74}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Edge reflections}{75}{section.7.1}%
 \defcounter {refsection}{10}\relax 
-\contentsline {chapter}{\numberline {8}Research summary \& future plans}{75}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Research summary \& future plans}{76}{chapter.8}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.1}Research summary}{75}{section.8.1}%
+\contentsline {section}{\numberline {8.1}Research summary}{76}{section.8.1}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.2}Future plans}{76}{section.8.2}%
+\contentsline {section}{\numberline {8.2}Future plans}{77}{section.8.2}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.3}Gantt chart}{76}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Gantt chart}{77}{section.8.3}%

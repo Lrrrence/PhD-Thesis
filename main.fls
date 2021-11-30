@@ -1903,6 +1903,11 @@ INPUT ./5 COMSOL.tex
 INPUT 5 COMSOL.tex
 INPUT ./5 COMSOL.tex
 INPUT 5 COMSOL.tex
+INPUT ./figures/comsoldiagram.png
+INPUT ./figures/comsoldiagram.png
+INPUT ./figures/comsoldiagram.png
+INPUT ./figures/comsoldiagram.png
+INPUT ./figures/comsoldiagram.png
 INPUT ./figures/PMMAE.eps
 INPUT ./figures/PMMAE.eps
 INPUT ./figures/PMMAE.eps
@@ -1914,6 +1919,17 @@ INPUT ./figures/PMMAE.eps
 INPUT ./figures/PMMAE-eps-converted-to.pdf
 INPUT ./figures/PMMAE-eps-converted-to.pdf
 INPUT ./figures/PMMAE-eps-converted-to.pdf
+INPUT ./figures/w2wdiagramonaxis.eps
+INPUT ./figures/w2wdiagramonaxis.eps
+INPUT ./figures/w2wdiagramonaxis.eps
+INPUT ./figures/w2wdiagramonaxis.eps
+INPUT ./figures/w2wdiagramonaxis.eps
+INPUT ./figures/w2wdiagramonaxis-eps-converted-to.pdf
+INPUT ./figures/w2wdiagramonaxis-eps-converted-to.pdf
+INPUT ./figures/w2wdiagramonaxis.eps
+INPUT ./figures/w2wdiagramonaxis-eps-converted-to.pdf
+INPUT ./figures/w2wdiagramonaxis-eps-converted-to.pdf
+INPUT ./figures/w2wdiagramonaxis-eps-converted-to.pdf
 INPUT ./figures/Alu_E.eps
 INPUT ./figures/Alu_E.eps
 INPUT ./figures/Alu_E.eps
@@ -1941,11 +1957,6 @@ INPUT ./figures/comsoltemp100c.png
 INPUT ./figures/comsoltemp100c.png
 INPUT ./figures/comsoltemp100c.png
 INPUT ./figures/comsoltemp100c.png
-INPUT ./figures/comsoldiagram.png
-INPUT ./figures/comsoldiagram.png
-INPUT ./figures/comsoldiagram.png
-INPUT ./figures/comsoldiagram.png
-INPUT ./figures/comsoldiagram.png
 INPUT ./figures/simmodes.png
 INPUT ./figures/simmodes.png
 INPUT ./figures/simmodes.png
