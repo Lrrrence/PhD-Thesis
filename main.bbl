@@ -8049,6 +8049,56 @@
       \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/Wave propagation in solids/[Rose{\_}J.L.]{\_}Ultrasonic{\_}Guided{\_}Waves{\_}in{\_}Solid{\_}Media(z-lib.org).pdf:pdf
       \endverb
     \endentry
+    \entry{Croxford2007}{article}{}
+      \name{author}{4}{}{%
+        {{hash=26d4682c37f81686a695e756e6ec6aa7}{%
+           family={Croxford},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c3dfd0827f31f3ee97f4505f54b099cf}{%
+           family={Wilcox},
+           familyi={W\bibinitperiod},
+           given={P.\bibnamedelimi D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=396abdc8a846d188f95ed925a60a4b57}{%
+           family={Drinkwater},
+           familyi={D\bibinitperiod},
+           given={B.\bibnamedelimi W.},
+           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=378bc41ad88e796c33090e8d5204684e}{%
+           family={Konstantinidis},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{294ec694e6ef8575b100c2c076d129bd}
+      \strng{fullhash}{0fce6848fc0a0a260031560212d7cc01}
+      \strng{bibnamehash}{294ec694e6ef8575b100c2c076d129bd}
+      \strng{authorbibnamehash}{294ec694e6ef8575b100c2c076d129bd}
+      \strng{authornamehash}{294ec694e6ef8575b100c2c076d129bd}
+      \strng{authorfullhash}{0fce6848fc0a0a260031560212d7cc01}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Structural health monitoring (SHM) using guided waves is one of the only ways in which damage anywhere in a structure can be detected using a sparse array of permanently attached sensors. To distinguish damage from structural features, some form of comparison with damage-free reference data is essential, and here subtraction is considered. The detectability of damage is determined by the amplitude of residual signals from structural features remaining after the subtraction of reference data. These are non-zero due to changing environmental conditions such as temperature. In this paper, the amplitude of the residual signals is quantified for different guided-wave SHM strategies. Comparisons are made between two methods of reference signal subtraction and between two candidate sensor configurations. These studies allow estimates to be made of the number of sensors required per unit area to reliably detect a prescribed type of damage. It is shown that the number required is prohibitively high, even in the presence of modest temperature fluctuations, hence some form of temperature compensation is absolutely essential for guided-wave SHM systems to be viable. A potential solution is examined and shown to provide an improvement in signal suppression of approximately 30dB, which corresponds to two orders of magnitude reduction in the number of sensors required. {©} 2007 The Royal Society.}
+      \field{issn}{14712946}
+      \field{journaltitle}{Proc. R. Soc. A Math. Phys. Eng. Sci.}
+      \field{number}{2087}
+      \field{title}{{Strategies for guided-wave structural health monitoring}}
+      \field{volume}{463}
+      \field{year}{2007}
+      \field{pages}{2961\bibrangedash 2981}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1098/rspa.2007.0048
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/Ultrasound Methods/Lamb waves/rspa.2007.0048.pdf:pdf
+      \endverb
+      \keyw{Damage detection,Lamb waves,Signal-to-noise ratio,Structural health monitoring,Temperature effects}
+    \endentry
     \entry{Hopkins2012}{article}{}
       \name{author}{4}{}{%
         {{hash=e032fef741394d221458586345c9610a}{%
@@ -8078,8 +8128,8 @@
       \strng{authorbibnamehash}{7f5f6eb1128ca4bbed97cf1b65b438dc}
       \strng{authornamehash}{7f5f6eb1128ca4bbed97cf1b65b438dc}
       \strng{authorfullhash}{384509e541b1a6444f85392c1d5a1a23}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper culminates several years of development of a SiC MOSFET-based solid-state circuit breaker power module designed and fabricated for aluminum-based composite metal-ceramic packaging. The alummum composite structure was used for high temperature thermal management {>}350°C and high reliability. Testing of the final module surpassed 750 total cycles. The module was optimized for four dies, 4.1mm X 4.1 nun each for SiC or GaN. The electrically loading per die was 48 A for 5 ms with a di/dt of 2.1 kA/us (23 ns openmg time). An internal snubber increased the response to 390 ns. The die absorbed -4.6 J causing a transient junction temperature increase of -245 °C. Two ambient temperatures were used in testing and set at 25 °C and 105 °C. The maximum junction temperature was conservatively projected to reach 350 °C during the 5 ms pulse. Electrical, thermal and mechanical design and testmg results are presented.}
@@ -8116,8 +8166,8 @@
       \strng{authorbibnamehash}{65e564155e8681603c91ebabd5508fac}
       \strng{authornamehash}{65e564155e8681603c91ebabd5508fac}
       \strng{authorfullhash}{65e564155e8681603c91ebabd5508fac}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Lamb waves can propagate over long distances which means that they are attractive for the quick, long range inspection of large structures, and they can also be useful for localized inspection, particularly in thin structures. This paper discusses the selection of the appropriate mode and frequency range for different inspection requirements and reviews the possible methods of excitation, response measurement and signal processing. It is usually desirable to transmit a single, non-dispersive mode, and excitation methods to achieve this are discussed. A variety of signal processing techniques from simple time domain to relatively complex two-dimensional Fourier analysis are available. Time domain processing can often be applied satisfactorily in low frequency-thickness regions where only two modes can propagate, but tends to be unreliable above the cut-off frequency of the a1 mode. As an example of the design of a Lamb wave testing regime, a set of tests on a butt-welded steel plate with simulated weld defects of different depths is described. It is shown that by operating below the a1 cut-off frequency with judicious selection of testing technique, the presence of defects can be detected reliably from changes in the shape of the received waveform. {©} 1992.}

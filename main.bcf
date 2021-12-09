@@ -2622,8 +2622,9 @@
   <bcf:section number="7">
     <bcf:citekey order="1">Huber</bcf:citekey>
     <bcf:citekey order="2">Rose2014</bcf:citekey>
-    <bcf:citekey order="3">Hopkins2012</bcf:citekey>
-    <bcf:citekey order="4">Alleyne1992</bcf:citekey>
+    <bcf:citekey order="3">Croxford2007</bcf:citekey>
+    <bcf:citekey order="4">Hopkins2012</bcf:citekey>
+    <bcf:citekey order="5">Alleyne1992</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
