@@ -34,33 +34,65 @@ Where $c_L$ is bulk longitudinal velocity, $c_T$ is bulk shear velocity, $c_p$ i
     c_g=c^2_p\left[c_p-(fd)\frac{dc_p}{d(fd)}\right]^{-1}
 \end{equation}
 
-Where $fd$ denotes frequency thickness product. Note that, when the derivative of $c_p$ with
-respect to $fd$ becomes zero, $c_g = c_p$. Note also that, as the derivative of $c_p$
-with respect to $fd$ approaches infinity (i.e., at cutoff), $c_g$ approaches zero.
+Where $fd$ denotes frequency thickness product. Note that, when the derivative of $c_p$ with respect to $fd$ becomes zero, $c_g = c_p$. Note also that, as the derivative of $c_p$ with respect to $fd$ approaches infinity (i.e., at cut-off), $c_g$ approaches zero.
 
 \section{The effect of temperature on wave propagation in aluminium}
 
-A change in temperature will affect material properties, namely Young's modulus, Poisson's ratio, and Density. The change in density (thermal expansion) and Poisson’s ratio is negligible over the temperature of interest (20\si{\degreeCelsius}--100\si{\degreeCelsius}) in comparison to the change in Young’s modulus. Thermal expansion will cause a change in material dimensions which will also affect the wave speed, but the effect of this is small ($-$1.19 m s$^{-1}$ average change over 20--100\si{\degreeCelsius} for the $S_0$ mode). The change in Young’s modulus with temperature in Aluminium is close to linear, as represented by the Equation~\cite{Hopkins2012}: 
+A change in temperature will affect material properties, namely Young's modulus, Poisson's ratio, and Density. The change in density (thermal expansion) and Poisson's ratio is negligible over the temperature of interest (20\si{\degreeCelsius}--100\si{\degreeCelsius}) in comparison to the change in Young's modulus. 
+
+\subsection{Thermal expansion}
+Thermal expansion will cause a change in material dimensions which will also affect the wave speed, although the effect is small. The coefficient of thermal expansion, $\alpha$, for Aluminium 1050 at 20\si{\degreeCelsius} is 2.3$\times 10^{-5}$, rising to 2.5$\times 10^{-5}$ at 100\si{\degreeCelsius}, as described by the equation:
+%
+\begin{equation}
+    \alpha = 1.243109{\times}10^{-5}+5.050772{\times}10^{-8}\times T^1-5.806556{\times}10^{-11}\times T^2+3.014305{\times}10^{-14} \times T^3
+\end{equation}
+%
+Where $T$ is temperature in Kelvin, the equation is valid from 230 K to 900 K. \hl{REF FROM COMSOL HERE}.
+
+The change in time of flight due to thermal expansion can be expressed using the equation~\cite{Croxford2007}:
+%
+\begin{equation}
+    \delta t = \frac{d}{v} \left(\alpha - \frac{k}{v}\right)\delta T
+\end{equation}
+%
+Where $d$ is the propagation distance (0.1 m), $v$ is the group velocity, and $k$ is the temperature sensitivity of group velocity, $\delta v/\delta T = k$. The group velocity can then be recalculated with the effect of thermal expansion included. The average change in velocity due to thermal expansion over the temperature range of interest (20\si{\degreeCelsius}--100\si{\degreeCelsius}) is -1.59 m s$^{-1}$ for the $S_0$ mode, -0.89 m s$^{-1}$ for the $A_1$ mode, and -1.47 m s$^{-1}$ for the $S_1$ mode. The change is sufficiently small that thermal expansion can be excluded from the COMSOL model, which reduces it's complexity. 
+
+\subsection{Poisson's ratio}
+
+The Poisson's ratio, $\nu$, for Aluminium 1050 at 20\si{\degreeCelsius} is 0.3310, rising to 0.3325 at 100\si{\degreeCelsius}, as described by the equation:
+%
+\begin{equation}
+\begin{split}
+    \nu = 0.3238668+3.754548{\times}10^{-6}\times T^1+2.213647{\times}10^{-7}\times T^2-6.565023{\times}10^{-10}\times T^3 \\ +~4.21277{\times}10^{-13}\times T^4+3.170505{\times}10^{-16}\times T^5
+\end{split}
+\end{equation}
+%
+Where $T$ is temperature in Kelvin, the equation is valid from 0 K to 773 K. 
+
+This is equivalent to a velocity change of 0.33 m s$^{-1}$ for the $S_0$ mode at 10\si{\degreeCelsius} assuming no change to density or Young's modulus.
+
+\subsection{Young's modulus}
+The change in Young's modulus with temperature in Aluminium is close to linear, as represented by the Equation~\cite{Hopkins2012}: 
 %
 \begin{equation}
 E\left( T \right) = \  - 4E7 \times T + 8E10\
 \end{equation} 
 %
-Where $T$ is temperature in Kelvin, and $E$ is Young’s modulus in Pascals. 
-The values of Young’s modulus produced by this equation have been used to generate the temperature dependant dispersion curves for aluminium shown in Figure~\ref{fig:grouptempshuftalu}. The angles of excitation required to excite the $S_0$, $A_1$, and $S_1$ modes are shown based on the frequency-thickness products of 1~MHz-mm (31\degree), 2.5~MHz-mm (24\degree), and 4~MHz-mm (28\degree) respectively. These frequency-thickness products correspond closely to group velocity maxima for each of the targeted modes, which is advantageous for separating the modes in the time domain~\cite{Alleyne1992}.
+Where $T$ is temperature in Kelvin, and $E$ is Young's modulus in Pascals. 
+The values of Young's modulus produced by this equation have been used to generate the temperature dependant dispersion curves for aluminium shown in Figure~\ref{fig:grouptempshuftalu}. The angles of excitation required to excite the $S_0$, $A_1$, and $S_1$ modes are shown based on the frequency-thickness products of 1~MHz-mm (28\degree), 2.5~MHz-mm (21\degree), and 4~MHz-mm (25\degree) respectively. These frequency-thickness products correspond closely to group velocity maxima for each of the targeted modes, which is advantageous for separating the modes in the time domain~\cite{Alleyne1992}.
 
-The group velocity of the $S_0$, $A_1$, and $S_1$ modes have been extracted from the curves at frequency-thickness products of 1~MHz-mm, 2.5~MHz-mm, and 4~MHz-mm respectively. The extracted group velocities are shown in Figure~\ref{fig:alugroupvel}. The temperature sensitivities of the modes are: 1.683--1.728 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ for the $S_0$ mode, 0.928--1.018 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ for the $A_1$ mode, and 1.444--1.548 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ for the $S_1$ mode, over the temperature range 0--100\si{\degreeCelsius} (see Equation~\ref{eqn: eq k}). These values are frequency and mode dependent. The temperature sensitivities increase with temperature, as the modes reduces in frequency (shift left), and reduces in wave velocity (shift down). 
+The group velocity of the $S_0$, $A_1$, and $S_1$ modes have been extracted from the curves at frequency-thickness products of 1~MHz-mm, 2.5~MHz-mm, and 4~MHz-mm respectively. The extracted group velocities are shown in Figure~\ref{fig:alugroupvel}. The temperature sensitivities of the modes are: 1.45--1.52 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ for the $S_0$ mode, 0.77--0.87 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ for the $A_1$ mode, and 1.37--1.45 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ for the $S_1$ mode, over the temperature range 10--110\si{\degreeCelsius} (see Equation~\ref{eqn: eq k}). These values are frequency and mode dependent. The temperature sensitivities increase with temperature, as the modes reduces in frequency (shift left), and reduces in wave velocity (shift down). 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=.8\textwidth]{./figures/grouptempshiftalu.eps}
+    \includegraphics[width=.8\textwidth]{./figures/grouptempshift_new.eps}
     \caption{$A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 20\si{\degreeCelsius} to 100\si{\degreeCelsius} for Aluminium 1050 H14.}\label{fig:grouptempshuftalu}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=.8\textwidth]{./figures/grouptemp1mhztempalu.eps}
-    \caption{$S_0$, $A_1$, and $S_1$ group velocity change with temperature from 20\si{\degreeCelsius} to 100\si{\degreeCelsius} for Aluminium 1050 H14.}\label{fig:alugroupvel}
+    \includegraphics[width=.8\textwidth]{./figures/1mhzshift_new.eps}
+    \caption{$S_0$, $A_1$, and $S_1$ group velocity change with temperature from 10\si{\degreeCelsius} to 110\si{\degreeCelsius} for Aluminium 1050 H14.}\label{fig:alugroupvel}
 \end{figure}
 \newpage
 \section{Multi-modal Lamb waves}
