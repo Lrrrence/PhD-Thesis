@@ -2622,9 +2622,16 @@
   <bcf:section number="7">
     <bcf:citekey order="1">Huber</bcf:citekey>
     <bcf:citekey order="2">Rose2014</bcf:citekey>
-    <bcf:citekey order="3">Croxford2007</bcf:citekey>
-    <bcf:citekey order="4">Hopkins2012</bcf:citekey>
-    <bcf:citekey order="5">Alleyne1992</bcf:citekey>
+    <bcf:citekey order="3">Nix1941</bcf:citekey>
+    <bcf:citekey order="3">Feder1958</bcf:citekey>
+    <bcf:citekey order="3">Gibbons1958</bcf:citekey>
+    <bcf:citekey order="4">Croxford2007</bcf:citekey>
+    <bcf:citekey order="5">Lalpoor2009</bcf:citekey>
+    <bcf:citekey order="6">Sakai1996</bcf:citekey>
+    <bcf:citekey order="6">McLellan1987</bcf:citekey>
+    <bcf:citekey order="6">Stokes1960</bcf:citekey>
+    <bcf:citekey order="6">Naimon1975</bcf:citekey>
+    <bcf:citekey order="7">Alleyne1992</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2647,12 +2654,13 @@
     <bcf:citekey order="10">Hassard1973</bcf:citekey>
     <bcf:citekey order="11">Hopkins2012</bcf:citekey>
     <bcf:citekey order="12">Hopkins2012</bcf:citekey>
-    <bcf:citekey order="13">COMSOL2013</bcf:citekey>
-    <bcf:citekey order="14">COMSOL2017</bcf:citekey>
-    <bcf:citekey order="15">COMSOL2021</bcf:citekey>
-    <bcf:citekey order="16">COMSOL2021a</bcf:citekey>
-    <bcf:citekey order="17">Southampton2021</bcf:citekey>
-    <bcf:citekey order="18">Guers2011</bcf:citekey>
+    <bcf:citekey order="13">Rathod2020</bcf:citekey>
+    <bcf:citekey order="14">COMSOL2013</bcf:citekey>
+    <bcf:citekey order="15">COMSOL2017</bcf:citekey>
+    <bcf:citekey order="16">COMSOL2021</bcf:citekey>
+    <bcf:citekey order="17">COMSOL2021a</bcf:citekey>
+    <bcf:citekey order="18">Southampton2021</bcf:citekey>
+    <bcf:citekey order="19">Guers2011</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

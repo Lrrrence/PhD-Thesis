@@ -66,54 +66,62 @@
 \defcounter {refsection}{7}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Young's modulus}{50}{subsection.4.2.3}%
 \defcounter {refsection}{7}\relax 
-\contentsline {section}{\numberline {4.3}Multi-modal Lamb waves}{53}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Multi-modal Lamb waves}{52}{section.4.3}%
 \defcounter {refsection}{7}\relax 
-\contentsline {chapter}{\numberline {5}COMSOL simulations of Lamb wave propagation}{55}{chapter.5}%
+\contentsline {chapter}{\numberline {5}COMSOL simulations of Lamb wave propagation}{54}{chapter.5}%
 \defcounter {refsection}{8}\relax 
-\contentsline {section}{\numberline {5.1}Variable angle wedge simulation}{55}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Variable angle wedge simulation}{54}{section.5.1}%
 \defcounter {refsection}{8}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Geometry}{55}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.1}Geometry}{54}{subsection.5.1.1}%
 \defcounter {refsection}{8}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Material properties}{55}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.2}Material properties}{54}{subsection.5.1.2}%
 \defcounter {refsection}{8}\relax 
-\contentsline {subsection}{\numberline {5.1.3}Determination of Young's modulus from wedge wave velocity}{56}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.3}Determination of Young's modulus from wedge wave velocity}{55}{subsection.5.1.3}%
 \defcounter {refsection}{8}\relax 
-\contentsline {subsection}{\numberline {5.1.4}Aluminium plate properties}{58}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.4}Aluminium plate properties}{57}{subsection.5.1.4}%
 \defcounter {refsection}{8}\relax 
-\contentsline {subsection}{\numberline {5.1.5}Physics \& mesh settings}{59}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.5}Transducer configuration}{58}{subsection.5.1.5}%
 \defcounter {refsection}{8}\relax 
-\contentsline {subsection}{\numberline {5.1.6}Study settings}{60}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.6}Physics \& mesh settings}{59}{subsection.5.1.6}%
 \defcounter {refsection}{8}\relax 
-\contentsline {section}{\numberline {5.2}Simulation results}{61}{section.5.2}%
+\contentsline {subsection}{\numberline {5.1.7}Study settings}{59}{subsection.5.1.7}%
 \defcounter {refsection}{8}\relax 
-\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{65}{chapter.6}%
+\contentsline {section}{\numberline {5.2}Simulation results}{60}{section.5.2}%
+\defcounter {refsection}{8}\relax 
+\contentsline {subsection}{\numberline {5.2.1}S0 Mode simulations}{61}{subsection.5.2.1}%
+\defcounter {refsection}{8}\relax 
+\contentsline {subsection}{\numberline {5.2.2}A1 Mode simulations}{62}{subsection.5.2.2}%
+\defcounter {refsection}{8}\relax 
+\contentsline {subsection}{\numberline {5.2.3}S1 Mode simulations}{62}{subsection.5.2.3}%
+\defcounter {refsection}{8}\relax 
+\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{68}{chapter.6}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.1}Test Method}{68}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Test Method}{71}{section.6.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{69}{section.6.2}%
+\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{72}{section.6.2}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{69}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{72}{subsection.6.2.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{71}{section.6.3}%
+\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{74}{section.6.3}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{71}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{74}{subsection.6.3.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{72}{section.6.4}%
+\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{75}{section.6.4}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{72}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{75}{subsection.6.4.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{74}{section.6.5}%
+\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{77}{section.6.5}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.6}Conclusion}{74}{section.6.6}%
+\contentsline {section}{\numberline {6.6}Conclusion}{77}{section.6.6}%
 \defcounter {refsection}{9}\relax 
-\contentsline {chapter}{\numberline {7}Experimental investigation of reflections}{77}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Experimental investigation of reflections}{80}{chapter.7}%
 \defcounter {refsection}{10}\relax 
-\contentsline {section}{\numberline {7.1}Edge reflections}{77}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Edge reflections}{80}{section.7.1}%
 \defcounter {refsection}{10}\relax 
-\contentsline {chapter}{\numberline {8}Research summary \& future plans}{78}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Research summary \& future plans}{81}{chapter.8}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.1}Research summary}{78}{section.8.1}%
+\contentsline {section}{\numberline {8.1}Research summary}{81}{section.8.1}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.2}Future plans}{79}{section.8.2}%
+\contentsline {section}{\numberline {8.2}Future plans}{82}{section.8.2}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.3}Gantt chart}{79}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Gantt chart}{82}{section.8.3}%

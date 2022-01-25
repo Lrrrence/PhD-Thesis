@@ -44,10 +44,10 @@ A change in temperature will affect material properties, namely Young's modulus,
 Thermal expansion will cause a change in material dimensions which will also affect the wave speed, although the effect is small. The coefficient of thermal expansion, $\alpha$, for Aluminium 1050 at 20\si{\degreeCelsius} is 2.3$\times 10^{-5}$, rising to 2.5$\times 10^{-5}$ at 100\si{\degreeCelsius}, as described by the equation:
 %
 \begin{equation}
-    \alpha = 1.243109{\times}10^{-5}+5.050772{\times}10^{-8}\times T^1-5.806556{\times}10^{-11}\times T^2+3.014305{\times}10^{-14} \times T^3
+    \alpha (T) = 1.243109{\times}10^{-5}+5.050772{\times}10^{-8}\times T^1-5.806556{\times}10^{-11}\times T^2+3.014305{\times}10^{-14} \times T^3
 \end{equation}
 %
-Where $T$ is temperature in Kelvin, the equation is valid from 230 K to 900 K. \hl{REF FROM COMSOL HERE}.
+Where $T$ is temperature in Kelvin, the equation is valid from 230 K to 900 K~\cite{Nix1941,Feder1958,Gibbons1958}.
 
 The change in time of flight due to thermal expansion can be expressed using the equation~\cite{Croxford2007}:
 %
@@ -55,15 +55,15 @@ The change in time of flight due to thermal expansion can be expressed using the
     \delta t = \frac{d}{v} \left(\alpha - \frac{k}{v}\right)\delta T
 \end{equation}
 %
-Where $d$ is the propagation distance (0.1 m), $v$ is the group velocity, and $k$ is the temperature sensitivity of group velocity, $\delta v/\delta T = k$. The group velocity can then be recalculated with the effect of thermal expansion included. The average change in velocity due to thermal expansion over the temperature range of interest (20\si{\degreeCelsius}--100\si{\degreeCelsius}) is -1.59 m s$^{-1}$ for the $S_0$ mode, -0.89 m s$^{-1}$ for the $A_1$ mode, and -1.47 m s$^{-1}$ for the $S_1$ mode. The change is sufficiently small that thermal expansion can be excluded from the COMSOL model, which reduces it's complexity. 
+Where $d$ is the propagation distance (0.1 m), $v$ is the group velocity, and $k$ is the temperature sensitivity of group velocity, $\delta v/\delta T = k$. The group velocity can then be recalculated with the effect of thermal expansion included. The average change in velocity due to thermal expansion over the temperature range of interest (20\si{\degreeCelsius}--100\si{\degreeCelsius}) is -1.59 m s$^{-1}$ for the $S_0$ mode, -0.89 m s$^{-1}$ for the $A_1$ mode, and -1.47 m s$^{-1}$ for the $S_1$ mode. The change is sufficiently small that thermal expansion can be excluded from the COMSOL model.
 
 \subsection{Poisson's ratio}
 
-The Poisson's ratio, $\nu$, for Aluminium 1050 at 20\si{\degreeCelsius} is 0.3310, rising to 0.3325 at 100\si{\degreeCelsius}, as described by the equation:
+The Poisson's ratio, $\nu$, for Aluminium 1050 at 20\si{\degreeCelsius} is 0.3310, rising to 0.3325 at 100\si{\degreeCelsius}, as described by the equation~\cite{Lalpoor2009}:
 %
 \begin{equation}
 \begin{split}
-    \nu = 0.3238668+3.754548{\times}10^{-6}\times T^1+2.213647{\times}10^{-7}\times T^2-6.565023{\times}10^{-10}\times T^3 \\ +~4.21277{\times}10^{-13}\times T^4+3.170505{\times}10^{-16}\times T^5
+    \nu (T) = 0.3238668+3.754548{\times}10^{-6}\times T^1+2.213647{\times}10^{-7}\times T^2-6.565023{\times}10^{-10}\times T^3 \\ +~4.21277{\times}10^{-13}\times T^4+3.170505{\times}10^{-16}\times T^5
 \end{split}
 \end{equation}
 %
@@ -72,10 +72,10 @@ Where $T$ is temperature in Kelvin, the equation is valid from 0 K to 773 K.
 This is equivalent to a velocity change of 0.33 m s$^{-1}$ for the $S_0$ mode at 10\si{\degreeCelsius} assuming no change to density or Young's modulus.
 
 \subsection{Young's modulus}
-The change in Young's modulus with temperature in Aluminium is close to linear, as represented by the Equation~\cite{Hopkins2012}: 
+The change in Young's modulus with temperature in Aluminium is represented by the Equation~\cite{Sakai1996,McLellan1987,Stokes1960,Naimon1975}: 
 %
 \begin{equation}
-E\left( T \right) = \  - 4E7 \times T + 8E10\
+    E\left( T \right) = 7.770329{\times}10^{10} + 2036488.0 \times T^1 - 189160.7\times T^2+425.2931 \times T^3-0.3545736 \times T^4
 \end{equation} 
 %
 Where $T$ is temperature in Kelvin, and $E$ is Young's modulus in Pascals. 

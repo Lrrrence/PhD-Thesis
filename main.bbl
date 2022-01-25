@@ -8049,6 +8049,118 @@
       \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/Wave propagation in solids/[Rose{\_}J.L.]{\_}Ultrasonic{\_}Guided{\_}Waves{\_}in{\_}Solid{\_}Media(z-lib.org).pdf:pdf
       \endverb
     \endentry
+    \entry{Nix1941}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cfa0d8d7645396a2b92ca6a716a3adc2}{%
+           family={Nix},
+           familyi={N\bibinitperiod},
+           given={F.\bibnamedelimi C.},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=a49e65dbe2049bfaef202d7474acf5fd}{%
+           family={MacNair},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{21e3ba5f082e9c5a91311a871856299b}
+      \strng{fullhash}{21e3ba5f082e9c5a91311a871856299b}
+      \strng{bibnamehash}{21e3ba5f082e9c5a91311a871856299b}
+      \strng{authorbibnamehash}{21e3ba5f082e9c5a91311a871856299b}
+      \strng{authornamehash}{21e3ba5f082e9c5a91311a871856299b}
+      \strng{authorfullhash}{21e3ba5f082e9c5a91311a871856299b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Extremely accurate determinations of the linear thermal expansions have been made interferometrically from 196°C to temperatures about +400°C for Al and +700°C for Fe, Ni, Cu and Au. The relationship between true thermal coefficient of expansion and temperature conforms very well to the Grueneisen-Debye theory when values are chosen for the Debye characteristic temperatures which turn out to agree well with those chosen to achieve agreement with the Debye theory of specific heats. Our values for these characteristic temperatures are: 410°K for Ni, 420°K for Fe, 400°K for Al, 325°K for Cu, and 190°K for Au. The magnetic Curie temperature for Ni is found to be 352°C. In plotting true coefficient of thermal expansion versus temperature Simon and Bergmann found a horizontal plateau at about 175° to 235°K for Ni and Fe; but we do not confirm this. {©} 1941 The American Physical Society.}
+      \field{issn}{0031899X}
+      \field{journaltitle}{Phys. Rev.}
+      \field{number}{8}
+      \field{title}{{The thermal expansion of pure metals: Copper, gold, aluminum, nickel, and iron}}
+      \field{volume}{60}
+      \field{year}{1941}
+      \field{pages}{597\bibrangedash 605}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1103/PhysRev.60.597
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Aluminium/COMSOL material data refs/PhysRev.60.597.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Feder1958}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3e84fe849628d1ca697884718a6a6ddb}{%
+           family={Feder},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=83ee30c0edb6cd9bfb1fa7b8c2e9c7e3}{%
+           family={Nowick},
+           familyi={N\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{689778a35104b8299288252e77b8297c}
+      \strng{fullhash}{689778a35104b8299288252e77b8297c}
+      \strng{bibnamehash}{689778a35104b8299288252e77b8297c}
+      \strng{authorbibnamehash}{689778a35104b8299288252e77b8297c}
+      \strng{authornamehash}{689778a35104b8299288252e77b8297c}
+      \strng{authorfullhash}{689778a35104b8299288252e77b8297c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dilatometric and x-ray measurements of the thermal expansion of pure lead and aluminum have been carried out between room temperature and the melting point. For lead, the results obtained by the two techniques agree within experimental error, which is interpreted to imply that the vacancy concentration at the melting point is (in mole fraction) less than or equal to 1.5×10-4. For aluminum the dilatometric expansion appears to be slightly greater than the x-ray expansion. If this discrepancy is real, it corresponds to a vacancy concentration at the melting point of aluminum of about 3×10-4. The corresponding estimate for the formation energy, v, of a vacancy in lead is v0.53 ev, and in aluminum, v=0.77 ev. {©} 1958 The American Physical Society.}
+      \field{issn}{0031899X}
+      \field{journaltitle}{Phys. Rev.}
+      \field{number}{6}
+      \field{title}{{Use of thermal expansion measurements to detect lattice vacancies near the melting point of pure lead and aluminum}}
+      \field{volume}{109}
+      \field{year}{1958}
+      \field{pages}{1959\bibrangedash 1963}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/PhysRev.109.1959
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Aluminium/COMSOL material data refs/PhysRev.109.1959.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Gibbons1958}{article}{}
+      \name{author}{1}{}{%
+        {{hash=90a154748cff7e70c19b405cb3cf09ef}{%
+           family={Gibbons},
+           familyi={G\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{90a154748cff7e70c19b405cb3cf09ef}
+      \strng{fullhash}{90a154748cff7e70c19b405cb3cf09ef}
+      \strng{bibnamehash}{90a154748cff7e70c19b405cb3cf09ef}
+      \strng{authorbibnamehash}{90a154748cff7e70c19b405cb3cf09ef}
+      \strng{authornamehash}{90a154748cff7e70c19b405cb3cf09ef}
+      \strng{authorfullhash}{90a154748cff7e70c19b405cb3cf09ef}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The linear coefficient of thermal expansion of silicon, germanium, and indium antimonide has been measured in the range 4.2°K-300°K using an interferometric method. In the cases of silicon and germanium, these values are used to calculate the variation in Grüneisen's factor $\gamma$ with temperature and the result is compared with the predictions of T. H. K. Barron. Silicon and indium antimonide have negative values for $\gamma$ at low temperatures and some of the requirements for a structure to behave in this manner are suggested, namely, fourfold coordination in the lattice, covalent bonding, and openness of structure. {©} 1958 The American Physical Society.}
+      \field{issn}{0031899X}
+      \field{journaltitle}{Phys. Rev.}
+      \field{number}{1}
+      \field{title}{{Thermal expansion of some crystals with the diamond structure}}
+      \field{volume}{112}
+      \field{year}{1958}
+      \field{pages}{136\bibrangedash 140}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/PhysRev.112.136
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Aluminium/COMSOL material data refs/PhysRev.112.136.pdf:pdf
+      \endverb
+    \endentry
     \entry{Croxford2007}{article}{}
       \name{author}{4}{}{%
         {{hash=26d4682c37f81686a695e756e6ec6aa7}{%
@@ -8078,8 +8190,8 @@
       \strng{authorbibnamehash}{294ec694e6ef8575b100c2c076d129bd}
       \strng{authornamehash}{294ec694e6ef8575b100c2c076d129bd}
       \strng{authorfullhash}{0fce6848fc0a0a260031560212d7cc01}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Structural health monitoring (SHM) using guided waves is one of the only ways in which damage anywhere in a structure can be detected using a sparse array of permanently attached sensors. To distinguish damage from structural features, some form of comparison with damage-free reference data is essential, and here subtraction is considered. The detectability of damage is determined by the amplitude of residual signals from structural features remaining after the subtraction of reference data. These are non-zero due to changing environmental conditions such as temperature. In this paper, the amplitude of the residual signals is quantified for different guided-wave SHM strategies. Comparisons are made between two methods of reference signal subtraction and between two candidate sensor configurations. These studies allow estimates to be made of the number of sensors required per unit area to reliably detect a prescribed type of damage. It is shown that the number required is prohibitively high, even in the presence of modest temperature fluctuations, hence some form of temperature compensation is absolutely essential for guided-wave SHM systems to be viable. A potential solution is examined and shown to provide an improvement in signal suppression of approximately 30dB, which corresponds to two orders of magnitude reduction in the number of sensors required. {©} 2007 The Royal Society.}
@@ -8099,52 +8211,209 @@
       \endverb
       \keyw{Damage detection,Lamb waves,Signal-to-noise ratio,Structural health monitoring,Temperature effects}
     \endentry
-    \entry{Hopkins2012}{article}{}
-      \name{author}{4}{}{%
-        {{hash=e032fef741394d221458586345c9610a}{%
-           family={Hopkins},
-           familyi={H\bibinitperiod},
-           given={Douglas\bibnamedelima C.},
-           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=f31eddb5ed0b19d45084926762c7d10d}{%
-           family={Baltis},
-           familyi={B\bibinitperiod},
-           given={Theodore},
-           giveni={T\bibinitperiod}}}%
-        {{hash=fe2c115e04068152e881ab192c952d83}{%
-           family={Pitaress},
-           familyi={P\bibinitperiod},
-           given={Jarnes\bibnamedelima M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=d111b58c86331bb996cc78b4ec8c29db}{%
-           family={Hazelmyer},
-           familyi={H\bibinitperiod},
-           given={Donald\bibnamedelima R.},
-           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+    \entry{Lalpoor2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a9093b01f0e2c480b558a4cd57939578}{%
+           family={Lalpoor},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=87a7fb478eb4afc5847172c96eb9c03e}{%
+           family={Eskin},
+           familyi={E\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=5b0e8c48e734471183ae14b2b092fccd}{%
+           family={Katgerman},
+           familyi={K\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
       }
-      \strng{namehash}{7f5f6eb1128ca4bbed97cf1b65b438dc}
-      \strng{fullhash}{384509e541b1a6444f85392c1d5a1a23}
-      \strng{bibnamehash}{7f5f6eb1128ca4bbed97cf1b65b438dc}
-      \strng{authorbibnamehash}{7f5f6eb1128ca4bbed97cf1b65b438dc}
-      \strng{authornamehash}{7f5f6eb1128ca4bbed97cf1b65b438dc}
-      \strng{authorfullhash}{384509e541b1a6444f85392c1d5a1a23}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \strng{namehash}{b34441ffa04922e0bf45e9756fba5c4c}
+      \strng{fullhash}{b34441ffa04922e0bf45e9756fba5c4c}
+      \strng{bibnamehash}{b34441ffa04922e0bf45e9756fba5c4c}
+      \strng{authorbibnamehash}{b34441ffa04922e0bf45e9756fba5c4c}
+      \strng{authornamehash}{b34441ffa04922e0bf45e9756fba5c4c}
+      \strng{authorfullhash}{b34441ffa04922e0bf45e9756fba5c4c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper culminates several years of development of a SiC MOSFET-based solid-state circuit breaker power module designed and fabricated for aluminum-based composite metal-ceramic packaging. The alummum composite structure was used for high temperature thermal management {>}350°C and high reliability. Testing of the final module surpassed 750 total cycles. The module was optimized for four dies, 4.1mm X 4.1 nun each for SiC or GaN. The electrically loading per die was 48 A for 5 ms with a di/dt of 2.1 kA/us (23 ns openmg time). An internal snubber increased the response to 390 ns. The die absorbed -4.6 J causing a transient junction temperature increase of -245 °C. Two ambient temperatures were used in testing and set at 25 °C and 105 °C. The maximum junction temperature was conservatively projected to reach 350 °C during the 5 ms pulse. Electrical, thermal and mechanical design and testmg results are presented.}
-      \field{journaltitle}{Proc. - IMAPS Int. Conf. Exhib. High Temp. Electron. HiTEC 2012}
-      \field{number}{February 2016}
-      \field{title}{{Extreme thermal transient stress analysis with pre-stress in a metal matrix composite power package}}
-      \field{volume}{1}
-      \field{year}{2012}
-      \field{pages}{361\bibrangedash 372}
-      \range{pages}{12}
+      \field{abstract}{Thermally induced strains and stresses developed during direct-chill (DC) semicontinuous casting of high strength aluminum alloys can result in formation of micro-cracks in different locations of the billet. Rapid propagation of such micro-cracks in tensile thermal stress fields can lead to catastrophic failure of ingots in the solid state called cold cracking. Numerical models can simulate the thermomechanical behavior of an ingot during casting and after solidification and reveal the critical cooling conditions that result in catastrophic failure, provided that the constitutive parameters of the material represent genuine as-cast properties. Application of fracture mechanics, on the other hand, can help to derive the critical crack length leading to failure. In the present research work, the state of residual thermal stresses was determined in an AA7050 billet during DC casting by means of ALSIM5. Simulation results showed that in the steady-state conditions, large compressive stresses form near the surface of the billet in the circumferential direction, whereas in the center, the stresses are tensile in all directions. Magnitudes of von Mises effective stresses, the largest component of principal stresses and the fracture mechanics concepts, were then applied to investigate the crack susceptibility of the billet. {©} 2009 The Minerals, Metals {\&} Materials Society and ASM International.}
+      \field{issn}{10735623}
+      \field{journaltitle}{Metall. Mater. Trans. A Phys. Metall. Mater. Sci.}
+      \field{number}{13}
+      \field{title}{{Cold-cracking assessment in AA7050 billets during direct-chill casting by thermomechanical simulation of residual thermal stresses and application of fracture mechanics}}
+      \field{volume}{40}
+      \field{year}{2009}
+      \field{pages}{3304\bibrangedash 3313}
+      \range{pages}{10}
       \verb{doi}
-      \verb 10.4071/HITEC-2012-THA25
+      \verb 10.1007/s11661-009-0031-y
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Aluminium/DCHopkins-HiTEC12-12Fnl (1).pdf:pdf
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Aluminium/COMSOL material data refs/Lalpoor2009{\_}Article{\_}Cold-CrackingAssessmentInAA705.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Sakai1996}{article}{}
+      \name{author}{3}{}{%
+        {{hash=46040a61565c47752a74061600d50094}{%
+           family={Sakai},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1752d2b5c58cb4442b2f93d94fd39ad2}{%
+           family={Matsumuro},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f4da2ca516e760a34f9ef888e4facba3}{%
+           family={Senoo},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc8a8841fad63797cd39f7bf2391b597}
+      \strng{fullhash}{fc8a8841fad63797cd39f7bf2391b597}
+      \strng{bibnamehash}{fc8a8841fad63797cd39f7bf2391b597}
+      \strng{authorbibnamehash}{fc8a8841fad63797cd39f7bf2391b597}
+      \strng{authornamehash}{fc8a8841fad63797cd39f7bf2391b597}
+      \strng{authorfullhash}{fc8a8841fad63797cd39f7bf2391b597}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The elastic moduli of high pressure treated supersaturated Al-Li solid solutions were measured. An interesting elastic behaviour was observed, in that, the bulk modulus decreased with an increase in the lithium content, whereas the Young's modulus and shear modulus increased. In order to clarify this property, we investigated the compressibility of the Al-Li supersaturated solid solutions prepared by high-pressure solid-solidification by high-pressure Synchrotron X-ray diffraction. The obtained pressure-volume relations were fitted to Birch's equation of state. The calculated bulk moduli were lower than those of pure Al at a reduction of about 0.6 GPa per mol{\%} Li. The temperature dependence of the elastic modulus for those supersaturated solid solutions was also measured, and it was found that the trend in the variation of the elastic modulus against the lithium concentration was maintained in the temperature range of 5-290 K. Therefore the attractive relationship between the bulk modulus and Young's modulus was demonstrated to be intrinsic. {©} 1996 Chapman {\&} Hall.}
+      \field{issn}{00222461}
+      \field{journaltitle}{J. Mater. Sci.}
+      \field{number}{12}
+      \field{title}{{Elastic moduli of Al-Li alloys treated at a high pressure of 5.4 GPa}}
+      \field{volume}{31}
+      \field{year}{1996}
+      \field{pages}{3309\bibrangedash 3313}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1007/BF00354683
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Aluminium/COMSOL material data refs/Sakai1996{\_}Article{\_}ElasticModuliOfAl-LiAlloysTrea.pdf:pdf
+      \endverb
+    \endentry
+    \entry{McLellan1987}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0808218ea94c00eda638c2f14416011b}{%
+           family={McLellan},
+           familyi={M\bibinitperiod},
+           given={Rex\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=09fe8d5ec85be5ab125744f6b7cbdd59}{%
+           family={Ishikawa},
+           familyi={I\bibinitperiod},
+           given={Tomaz},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bb7fc513133f9cd50a77bd740029c62}
+      \strng{fullhash}{6bb7fc513133f9cd50a77bd740029c62}
+      \strng{bibnamehash}{6bb7fc513133f9cd50a77bd740029c62}
+      \strng{authorbibnamehash}{6bb7fc513133f9cd50a77bd740029c62}
+      \strng{authornamehash}{6bb7fc513133f9cd50a77bd740029c62}
+      \strng{authorfullhash}{6bb7fc513133f9cd50a77bd740029c62}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Thin-line ultrasonic techniques have been used to measure the Young's modulus and shear modulus of polycrystalline aluminum up to 850 K. In both cases, large modulus defects are found at high temperatures. A simple model for grain boundary relaxation is used to analyze the measured elastic behavior. The value of the activation energy for grain boundary diffusion extracted from the comparison of the data with the model is close to previous determinations of this energy. {©} 1987.}
+      \field{issn}{00223697}
+      \field{journaltitle}{J. Phys. Chem. Solids}
+      \field{number}{7}
+      \field{title}{{The elastic properties of aluminum at high temperatures}}
+      \field{volume}{48}
+      \field{year}{1987}
+      \field{pages}{603\bibrangedash 606}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/0022-3697(87)90147-8
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Aluminium/COMSOL material data refs/0022-3697(87)90147-8.pdf:pdf
+      \endverb
+      \keyw{Elasticity,diffusion,grain boundary,modulus defect,relaxation}
+    \endentry
+    \entry{Stokes1960}{article}{}
+      \name{author}{1}{}{%
+        {{hash=675014d241220d180327b4de249b9e59}{%
+           family={Stokes},
+           familyi={S\bibinitperiod},
+           given={H.\bibnamedelimi J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{675014d241220d180327b4de249b9e59}
+      \strng{fullhash}{675014d241220d180327b4de249b9e59}
+      \strng{bibnamehash}{675014d241220d180327b4de249b9e59}
+      \strng{authorbibnamehash}{675014d241220d180327b4de249b9e59}
+      \strng{authornamehash}{675014d241220d180327b4de249b9e59}
+      \strng{authorfullhash}{675014d241220d180327b4de249b9e59}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09507671}
+      \field{journaltitle}{J. Sci. Instrum.}
+      \field{number}{7}
+      \field{title}{{Apparatus for the measurement of Young's modulus, between -200 and 700°C by tranverse vibration in vacuum [3]}}
+      \field{volume}{37}
+      \field{year}{1960}
+      \field{pages}{255}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0950-7671/37/7/116
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Aluminium/COMSOL material data refs/H{\_}J{\_}Stokes{\_}1960{\_}J.{\_}Sci.{\_}Instrum.{\_}37{\_}117.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Naimon1975}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1a907c55b9643492e68108a06faa8a79}{%
+           family={Naimon},
+           familyi={N\bibinitperiod},
+           given={E.\bibnamedelimi R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8f2a1a4987474b77aae44e2aff3deecb}{%
+           family={Ledbetter},
+           familyi={L\bibinitperiod},
+           given={H.\bibnamedelimi M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=060edfa374bd9a1bccc81ab85306110a}{%
+           family={Weston},
+           familyi={W\bibinitperiod},
+           given={W.\bibnamedelimi F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{af277e32742b084398908a0b8197d769}
+      \strng{fullhash}{af277e32742b084398908a0b8197d769}
+      \strng{bibnamehash}{af277e32742b084398908a0b8197d769}
+      \strng{authorbibnamehash}{af277e32742b084398908a0b8197d769}
+      \strng{authornamehash}{af277e32742b084398908a0b8197d769}
+      \strng{authorfullhash}{af277e32742b084398908a0b8197d769}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The elastic properties of four annealed polycrystalline commercial aluminium alloys were studied between 4 and 300 K using a pulse-superposition method. Results are given for longitudinal sound velocity, transverse sound velocity, Young's modulus, shear modulus, bulk modulus (reciprocal compressibility), Poisson's ratio, and elastic Debye temperature. The elastic stiffnesses of the alloys increase 4 to 13{\%} on cooling from room temperature to liquid helium temperature. The elastic constant-temperature curves exhibit regular behaviour. {©} 1975 Chapman and Hall Ltd.}
+      \field{issn}{00222461}
+      \field{journaltitle}{J. Mater. Sci.}
+      \field{number}{8}
+      \field{title}{{Low-temperature elastic properties of four wrought and annealed aluminium alloys}}
+      \field{volume}{10}
+      \field{year}{1975}
+      \field{pages}{1309\bibrangedash 1316}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/BF00540820
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Aluminium/COMSOL material data refs/Naimon1975{\_}Article{\_}Low-temperatureElasticProperti.pdf:pdf
       \endverb
     \endentry
     \entry{Alleyne1992}{article}{}
@@ -8166,8 +8435,8 @@
       \strng{authorbibnamehash}{65e564155e8681603c91ebabd5508fac}
       \strng{authornamehash}{65e564155e8681603c91ebabd5508fac}
       \strng{authorfullhash}{65e564155e8681603c91ebabd5508fac}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Lamb waves can propagate over long distances which means that they are attractive for the quick, long range inspection of large structures, and they can also be useful for localized inspection, particularly in thin structures. This paper discusses the selection of the appropriate mode and frequency range for different inspection requirements and reviews the possible methods of excitation, response measurement and signal processing. It is usually desirable to transmit a single, non-dispersive mode, and excitation methods to achieve this are discussed. A variety of signal processing techniques from simple time domain to relatively complex two-dimensional Fourier analysis are available. Time domain processing can often be applied satisfactorily in low frequency-thickness regions where only two modes can propagate, but tends to be unreliable above the cut-off frequency of the a1 mode. As an example of the design of a Lamb wave testing regime, a set of tests on a butt-welded steel plate with simulated weld defects of different depths is described. It is shown that by operating below the a1 cut-off frequency with judicious selection of testing technique, the presence of defects can be detected reliably from changes in the shape of the received waveform. {©} 1992.}
@@ -8477,6 +8746,41 @@
       \verb{file}
       \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Aluminium/DCHopkins-HiTEC12-12Fnl (1).pdf:pdf
       \endverb
+    \endentry
+    \entry{Rathod2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3654bd5344bf9e0809735cd833eb5597}{%
+           family={Rathod},
+           familyi={R\bibinitperiod},
+           given={Vivek\bibnamedelima T.},
+           giveni={V\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3654bd5344bf9e0809735cd833eb5597}
+      \strng{fullhash}{3654bd5344bf9e0809735cd833eb5597}
+      \strng{bibnamehash}{3654bd5344bf9e0809735cd833eb5597}
+      \strng{authorbibnamehash}{3654bd5344bf9e0809735cd833eb5597}
+      \strng{authornamehash}{3654bd5344bf9e0809735cd833eb5597}
+      \strng{authorfullhash}{3654bd5344bf9e0809735cd833eb5597}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The coupling of waves between the piezoelectric generators, detectors, and propagating media is challenging due to mismatch in the acoustic properties. The mismatch leads to the reverberation of waves within the transducer, heating, low signal-to-noise ratio, and signal distortion. Acoustic impedance matching increases the coupling largely. This article presents standard methods to match the acoustic impedance of the piezoelectric sensors, actuators, and transducers with the surrounding wave propagation media. Acoustic matching methods utilizing active and passive materials have been discussed. Special materials such as nanocomposites, metamaterials, and metasurfaces as emerging materials have been presented. Emphasis is placed throughout the article to differentiate the difference between electric and acoustic impedance matching and the relation between the two. Comparison of various techniques is made with the discussion on capabilities, advantages, and disadvantages. Acoustic impedance matching for specific and uncommon applications has also been covered.}
+      \field{issn}{14248220}
+      \field{journaltitle}{Sensors (Switzerland)}
+      \field{number}{14}
+      \field{title}{{A review of acoustic impedance matching techniques for piezoelectric sensors and transducers}}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 65}
+      \range{pages}{65}
+      \verb{doi}
+      \verb 10.3390/s20144051
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/Piezo transducer modelling/A Review of Acoustic Impedance Matching.pdf:pdf
+      \endverb
+      \keyw{Acoustic emission,Acoustic impedance,Biomedical imaging,Energy harvesting,Matching layer,Nondestructive evaluation,Piezoelectric sensor,Structural health monitoring,Ultrasonic transducer}
     \endentry
     \entry{COMSOL2013}{misc}{}
       \name{author}{1}{}{%
