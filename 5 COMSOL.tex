@@ -157,15 +157,32 @@ Exaggerated deformation of pressure in the aluminium plate as seen in Figure~\re
     \caption{Presence of the $A_0$ \& $S_0$ modes.}\label{fig:simmodes}
 \end{figure}
 
-To visualise wave propagation and calculate time of flight the pressure at both transmitter and receiver wedge boundaries are exported, and the time of flight is measured using an envelope peak extraction method, to allow direct comparison with experimental results. This method of time of flight measurement can also be applied to more dispersive signals, which cannot be achieved using cross correlation methods. Various signal processing techniques for time of flight measurement are discussed in detail by Guers~\cite{Guers2011}.
+To visualise wave propagation and calculate time of flight the pressure at both transmitter and receiver wedge boundaries are exported, and the time of flight is measured using an envelope peak extraction method, to allow direct comparison with experimental results. This method of time of flight measurement can also be applied to more dispersive signals, which cannot be achieved using cross correlation methods. It should be noted, however, that more dispersive signals (e.g. $A_1$ \& $S_1$ Vs. $S_0$) have a less defined central peak in their wave packets, which introduces a larger degree of error to the calculation of time of flight. Various signal processing techniques for time of flight measurement are discussed in detail by Guers~\cite{Guers2011}.
 
-Calculated total time of flight (through both the wedges and the plate) is marginally longer than experimentally measured time of flight, which can be attributed to a number of factors. Differences in material properties, their change with temperature, variance in geometry, wedge angle, wedge spacing, and sample rate, all have an impact on time of flight. Wedge foot offset (the distance a wave travel under each wedge foot) is calculated in the same way for both the simulation and the experiments, however the value differs, which indicates a difference in geometry between them. Despite this difference the difference in calculated velocities is small, as using accurate estimations of wedge foot offset corrects for the difference in total time of flight. Time of flight in the wedge-to-wedge configuration is in line with experimental measurements, which suggests that the geometry and material properties of the wedges are realistic. The material properties of the aluminium plate are the same as those used in the theoretical study, which should (in theory) mean that the velocity in the simulated plate is the same as was extracted from dispersion curves. Frequency analysis of the transmitted wave shows that it is still centred at 1 MHz as expected. 
+Wedge foot offset (the distance a wave travel under each wedge foot) is calculated in the same way for both the simulation and the experiments, however the value differs, which indicates a difference in geometry between them. Despite this difference the difference in calculated velocities is small, as using accurate estimations of wedge foot offset corrects for the difference in total time of flight. Time of flight in the wedge-to-wedge configuration is in line with experimental measurements, which suggests that the geometry and material properties of the wedges are realistic. The material properties of the aluminium plate are the same as those used in the theoretical study, which should (in theory) mean that the velocity in the simulated plate is the same as was extracted from dispersion curves.
+
+%
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLLLL}
+        \toprule
+        & \multicolumn{3}{c}{\textbf{Temperature sensitivity} (m s$^{-1}$\si{\degreeCelsius}$^{-1}$)} \\
+        \midrule
+        \textbf{Wave mode} & \textbf{Predicted} & \textbf{Simulated} & \textbf{Experimental}\\
+        \midrule
+        $S_0$ & -1.47 & -1.47 & -1.58 \\
+        $A_1$ & -0.80 & -0.99 & -1.13 \\
+        $S_1$ & -1.33 & -1.75 & -1.89 \\
+        \bottomrule
+    \end{tabulary}
+\caption{Average temperature sensitivity of $S_0$, $A_1$, and $S_1$ Lamb wave modes in Aluminium from 20\si{\degreeCelsius} to 100\si{\degreeCelsius}.}\label{table:sensitivityresults}
+\end{table}    
+%
 
 \subsection{S0 Mode simulations}
 
-Figure~\ref{fig:s0resultfull} shows the change in velocity with temperature for the $S_0$ Lamb wave mode in Aluminium, comparing predicted temperature sensitivity extracted from dispersion curves, experimental measurement data (Section~\ref{S0 experiments}), and COMSOL simulations of the experimental setup. The results from the COMSOL model are in good agreement with those taken experimentally, which also match up well to the predicted temperature sensitivity of Aluminium extracted from dispersion curves. The experimental result is within 4.89 $\pm$ 2.27 m s$^{-1}$ or 0.05\% of the predicted velocity on average. The COMSOL results are within 3.25 m s$^{-1}$ or 0.02\% of the predicted result on average.
-
-The standard deviation of group velocity across four wedge spacings (80 mm, 90 mm, 100 mm, 110 mm) at the calculated offset value of 45.3 mm is 0.74 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are producing accurate results.
+Figure~\ref{fig:S0waveprop} shows the wave propagation of a pulse exciting the $S_0$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The blue dotted lines indicate the peak of the envelopes used to calculate time of flight.
+Figure~\ref{fig:s0resultfull} shows the change in velocity with temperature for the $S_0$ Lamb wave mode in Aluminium, comparing predicted temperature sensitivity extracted from dispersion curves, experimental measurement data (Section~\ref{S0 experiments}), and COMSOL simulations of the experimental setup. The experimental result is within 35.93 $\pm$ 3.06 m s$^{-1}$ or 0.71\% $\pm$ 0.06\% of the predicted velocity on average. The COMSOL results are within 10.61 m s$^{-1}$ $\pm$ 0.73 m s$^{-1}$ or 0.21\% $\pm$ 0.01\% of the predicted result on average. The standard deviation of group velocity across four wedge spacings (80 mm, 90 mm, 100 mm, 110 mm) at the calculated offset value of 45.3 mm is 0.74 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are producing accurate results.
 
 \begin{figure}[h]
     \centering
@@ -181,7 +198,8 @@ The standard deviation of group velocity across four wedge spacings (80 mm, 90 m
 
 \subsection{A1 Mode simulations}
 
-The standard deviation of group velocity across eight wedge spacings (80 mm to 150 mm in 10 mm increments) at the calculated offset value of 46.2 mm is 6.94 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are not producing results as accurately as at $S_0$.
+Figure~\ref{fig:A1waveprop} shows the wave propagation of a pulse exciting the $A_1$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The blue dotted lines indicate the peak of the envelopes used to calculate time of flight.
+Figure~\ref{fig:A1resultfull} shows the change in velocity with temperature for the $A_1$ Lamb wave mode in Aluminium, comparing predicted temperature sensitivity extracted from dispersion curves, experimental measurement data (Section~\ref{A1 experiments}), and COMSOL simulations of the experimental setup. The experimental result is within 49.05 $\pm$ 7.90 m s$^{-1}$ or 1.35\% $\pm$ 0.23\% of the predicted velocity on average. The COMSOL results are within 19.22 m s$^{-1}$ $\pm$ 5.93 m s$^{-1}$ or 0.53\% $\pm$ 0.17\% of the predicted result on average. The standard deviation of group velocity across eight wedge spacings (80 mm to 150 mm in 10 mm increments) at the calculated offset value of 46.2 mm is 6.94 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are not producing results as accurately as at $S_0$.
 
 \begin{figure}[h]
     \centering
@@ -197,7 +215,8 @@ The standard deviation of group velocity across eight wedge spacings (80 mm to 1
 
 \subsection{S1 Mode simulations}
 
-The standard deviation of group velocity across six wedge spacings (80 mm to 130 mm in 10 mm increments) at the calculated offset value of 44.69 mm is 7.89 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are not producing results as accurately as at $S_0$.
+Figure~\ref{fig:S1waveprop} shows the wave propagation of a pulse exciting the $S_1$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The blue dotted lines indicate the peak of the envelopes used to calculate time of flight.
+Figure~\ref{fig:S1resultfull} shows the change in velocity with temperature for the $S_1$ Lamb wave mode in Aluminium, comparing predicted temperature sensitivity extracted from dispersion curves, experimental measurement data (Section~\ref{S1 experiments}), and COMSOL simulations of the experimental setup. The experimental result is within 60.04 $\pm$ 14.00 m s$^{-1}$ or 1.34\% $\pm$ 0.32\% of the predicted velocity on average. The COMSOL results are within 89.83 m s$^{-1}$ $\pm$ 13.00 m s$^{-1}$ or 2.01\% $\pm$ 0.31\% of the predicted result on average. The standard deviation of group velocity across six wedge spacings (80 mm to 130 mm in 10 mm increments) at the calculated offset value of 44.69 mm is 7.89 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are not producing results as accurately as at $S_0$.
 
 \begin{figure}[h]
     \centering
@@ -210,5 +229,9 @@ The standard deviation of group velocity across six wedge spacings (80 mm to 130
     \includegraphics[width=.8\textwidth]{./figures/S1fullresultedit.eps}
     \caption{Velocity change with temperature for $S_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.}\label{fig:S1resultfull}
 \end{figure}
+
+\subsection{Summary of simulation results}
+
+
 
 \printbibliography[title={Chapter~\thechapter~Bibliography}]

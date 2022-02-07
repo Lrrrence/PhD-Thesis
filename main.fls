@@ -1229,6 +1229,18 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/mlmodern/mlmodern.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/mlmodern/mlmodern.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/mlmodern/mlmodern.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -2129,6 +2141,17 @@ INPUT ./7 Reflection experiments.tex
 INPUT 7 Reflection experiments.tex
 INPUT ./7 Reflection experiments.tex
 INPUT 7 Reflection experiments.tex
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer-eps-converted-to.pdf
+INPUT ./figures/topdownholespacer-eps-converted-to.pdf
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer-eps-converted-to.pdf
+INPUT ./figures/topdownholespacer-eps-converted-to.pdf
+INPUT ./figures/topdownholespacer-eps-converted-to.pdf
 INPUT ./8 Research summary.tex
 INPUT 8 Research summary.tex
 INPUT ./8 Research summary.tex

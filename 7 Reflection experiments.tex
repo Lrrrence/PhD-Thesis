@@ -7,3 +7,17 @@ The feasibility of using acoustic reflections to monitor a change in temperature
 Measurements are carried out on a 1mm thick aluminium plate, targeting the $S_0$ mode at a frequency-thickness product of 1 MHz-mm. Two wedge transducers are arranged in a pulse-echo configuration, whereby the wedges are placed close to one another, one acting as the transmitter and one as the receiver. A single transducer setup was considered however the difference in amplitude between the excitation signal (10 V) and reflected signal ($\sim$50 mV) makes digitisation difficult, without either losing the reflected signal in noise or overloading the excitation input. By using two transducers the sensitivity of each channel can be adjusted to match the signal amplitude accordingly. 
 
 Both transducers were placed equidistant from the edge of the plate, aligned so that angle of incidence from the transmitter wedge matches that of the angle of reflection for the receiver wedge. Multiple measurements were carried out after moving the wedges further away from the plate edge while ensuring that the distance between wedge centres remained the same. The angles of the wedges were adjusted to match the change in angle of incidence/refection for each distance. This experiment confirmed that reflections were measured rather than direct transmission between wedges.
+
+\section{Hole reflections}
+
+After verifying that a clean reflection can be received from the edge of the plate, a single small hole is introduced to the centre of the plate. As the calculation of group velocity is dependant on accurate knowledge of the distance between transducers, an initial test is carried out to determine the distance from transmitter to receiver via hole reflection. Firstly, the transducers are placed on axis with no hole present, spaced apart by 100 mm (as in previous experiments) and time of flight is measured. The wedge-to-wedge time and offset distance is also measured. The group velocity can now be calculated. Next, the time of flight from a reflection is measured (as shown in Figure~\ref{fig:topdownholespacer}). Now the total distance travelled in the plate can be calculated by multiplying the velocity by the reflected time of flight minus the wedge-to-wedge time of flight. The offset distance can be subtracted from this distance to leave only the distance travelled between transducer faces. This distance can now be used in future tests to measure a change in velocity with temperature.  
+
+A 3D printed spacer has been designed to allow transducers to be accurately and repeatably aimed at a hole. The angle of incidence/reflection can easily be adjusted. 
+
+In this configuration a reflection is received from the hole, followed by a stronger reflection from the edge of the plate. The angle between transducers is kept at a minimum to most closely mimic a pulse-echo configuration using only one transducer.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/topdownholespacer.eps}
+    \caption{Diagram of single hole reflection measurement setup.}\label{fig:topdownholespacer}
+\end{figure}

@@ -90,38 +90,42 @@
 \defcounter {refsection}{8}\relax 
 \contentsline {subsection}{\numberline {5.2.1}S0 Mode simulations}{61}{subsection.5.2.1}%
 \defcounter {refsection}{8}\relax 
-\contentsline {subsection}{\numberline {5.2.2}A1 Mode simulations}{62}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.2}A1 Mode simulations}{61}{subsection.5.2.2}%
 \defcounter {refsection}{8}\relax 
-\contentsline {subsection}{\numberline {5.2.3}S1 Mode simulations}{62}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.3}S1 Mode simulations}{61}{subsection.5.2.3}%
 \defcounter {refsection}{8}\relax 
-\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{68}{chapter.6}%
+\contentsline {subsection}{\numberline {5.2.4}Summary of simulation results}{62}{subsection.5.2.4}%
+\defcounter {refsection}{8}\relax 
+\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{69}{chapter.6}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.1}Test Method}{71}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Test Method}{72}{section.6.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{72}{section.6.2}%
+\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{73}{section.6.2}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{72}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{73}{subsection.6.2.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{74}{section.6.3}%
+\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{75}{section.6.3}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{74}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{75}{subsection.6.3.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{75}{section.6.4}%
+\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{76}{section.6.4}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{75}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{76}{subsection.6.4.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{77}{section.6.5}%
+\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{78}{section.6.5}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.6}Conclusion}{77}{section.6.6}%
+\contentsline {section}{\numberline {6.6}Conclusion}{78}{section.6.6}%
 \defcounter {refsection}{9}\relax 
-\contentsline {chapter}{\numberline {7}Experimental investigation of reflections}{80}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Experimental investigation of reflections}{81}{chapter.7}%
 \defcounter {refsection}{10}\relax 
-\contentsline {section}{\numberline {7.1}Edge reflections}{80}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Edge reflections}{81}{section.7.1}%
 \defcounter {refsection}{10}\relax 
-\contentsline {chapter}{\numberline {8}Research summary \& future plans}{81}{chapter.8}%
+\contentsline {section}{\numberline {7.2}Hole reflections}{81}{section.7.2}%
+\defcounter {refsection}{10}\relax 
+\contentsline {chapter}{\numberline {8}Research summary \& future plans}{83}{chapter.8}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.1}Research summary}{81}{section.8.1}%
+\contentsline {section}{\numberline {8.1}Research summary}{83}{section.8.1}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.2}Future plans}{82}{section.8.2}%
+\contentsline {section}{\numberline {8.2}Future plans}{84}{section.8.2}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.3}Gantt chart}{82}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Gantt chart}{84}{section.8.3}%
