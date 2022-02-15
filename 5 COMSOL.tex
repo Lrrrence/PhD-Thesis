@@ -178,6 +178,7 @@ Wedge foot offset (the distance a wave travel under each wedge foot) is calculat
 \caption{Average temperature sensitivity of $S_0$, $A_1$, and $S_1$ Lamb wave modes in Aluminium from 20\si{\degreeCelsius} to 100\si{\degreeCelsius}.}\label{table:sensitivityresults}
 \end{table}    
 %
+\newpage
 
 \subsection{S0 Mode simulations}
 
@@ -196,6 +197,7 @@ Figure~\ref{fig:s0resultfull} shows the change in velocity with temperature for 
     \caption{Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.}\label{fig:s0resultfull}
 \end{figure}
 
+\clearpage
 \subsection{A1 Mode simulations}
 
 Figure~\ref{fig:A1waveprop} shows the wave propagation of a pulse exciting the $A_1$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The blue dotted lines indicate the peak of the envelopes used to calculate time of flight.
@@ -213,6 +215,7 @@ Figure~\ref{fig:A1resultfull} shows the change in velocity with temperature for 
     \caption{Velocity change with temperature for $A_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.}\label{fig:A1resultfull}
 \end{figure}
 
+\clearpage
 \subsection{S1 Mode simulations}
 
 Figure~\ref{fig:S1waveprop} shows the wave propagation of a pulse exciting the $S_1$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The blue dotted lines indicate the peak of the envelopes used to calculate time of flight.
@@ -230,8 +233,18 @@ Figure~\ref{fig:S1resultfull} shows the change in velocity with temperature for 
     \caption{Velocity change with temperature for $S_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.}\label{fig:S1resultfull}
 \end{figure}
 
-\subsection{Summary of simulation results}
+\clearpage
+\section{Inconel 718 simulation}
 
+Applying a guided wave based temperature monitoring system to nozzle guide vanes involves different materials and a higher temperature range than investigated in the previous tests. To test the feasibility of the system (minus an appropriate transducer) the material of the model has been replaced with Inconel 718, a commonly used superalloy for high temperature aero engine components. The temperature range of the test has been extended to 1000\si{\degreeCelsius}. Although the wedges cannot be used in reality for this application, they can still be used in the model for single mode excitation. The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718, which in turn causes a large change in wave speed. As the change is so large the wedge angle has to be adjusted to continually target the same area of the frequency-thickness spectrum. The wedge offset value is also calculated for every change in wedge angle. 
+
+Figure~\ref{fig:inconelcomsol} shows the change in group velocity with temperature for the $S_0$ Lamb wave mode, from 27\si{\degreeCelsius} to 1027\si{\degreeCelsius}, comparing predicted results extracted from dispersion curves with simulated results from COMSOL. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/inconelcomsolresult.eps}
+    \caption{Velocity change with temperature for $S_0$ Lamb wave mode in Inconel 718. Comparison between predicted and simulated results.}\label{fig:inconelcomsol}
+\end{figure}
 
 
 \printbibliography[title={Chapter~\thechapter~Bibliography}]
