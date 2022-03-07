@@ -1241,6 +1241,17 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -1618,6 +1629,13 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/uwasy.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/uwasy.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/uwasy.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/wasysym/uwasy.fd
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy7.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy5.tfm
 INPUT c:/texlive/2021/texmf-dist/tex/latex/mlmodern/ts1mlmr.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/mlmodern/ts1mlmr.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/mlmodern/ts1mlmr.fd
@@ -1839,6 +1857,8 @@ INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy9.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy6.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/mlmodern/ts1-mlmr9.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/mlmodern/ts1-mlmr6.tfm
 INPUT ./figures/phasedispersion.eps
@@ -2163,6 +2183,17 @@ INPUT ./figures/topdownholespacer.eps
 INPUT ./figures/topdownholespacer-eps-converted-to.pdf
 INPUT ./figures/topdownholespacer-eps-converted-to.pdf
 INPUT ./figures/topdownholespacer-eps-converted-to.pdf
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot-eps-converted-to.pdf
+INPUT ./figures/holeampboxplot-eps-converted-to.pdf
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot-eps-converted-to.pdf
+INPUT ./figures/holeampboxplot-eps-converted-to.pdf
+INPUT ./figures/holeampboxplot-eps-converted-to.pdf
 INPUT ./8 Research summary.tex
 INPUT 8 Research summary.tex
 INPUT ./8 Research summary.tex
@@ -2245,3 +2276,4 @@ INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/mlmodern/mlmsy6.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/mlmodern/mlmsy7.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/mlmodern/mlmtt10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
+INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb

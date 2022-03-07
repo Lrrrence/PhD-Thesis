@@ -33,6 +33,17 @@
 \usepackage{mlmodern} %use new font
 \usepackage{adjustbox} %for resizing tables
 \usepackage{makecell} %new lines within table cells
+\usepackage{wasysym} %for diameter symbol
+
+% make macro for adding units to equations
+\makeatletter
+\providecommand\add@text{}
+\newcommand\tagaddtext[1]{%
+  \gdef\add@text{#1\gdef\add@text{}}}% 
+\renewcommand\tagform@[1]{%
+  \maketag@@@{\llap{\add@text\quad}(\ignorespaces#1\unskip\@@italiccorr)}%
+}
+\makeatother
 
 %adjust chapter titles
 \usepackage{titlesec}

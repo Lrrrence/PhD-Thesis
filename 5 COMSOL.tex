@@ -125,7 +125,86 @@ Where $f_0$ is 1~MHz, the number of cycles ($np$) is 5, and $t_0$ is equal to $1
 
 The modules Solid Mechanics, Electrostatics, and Heat Transfer in Solids are used in this simulation, along with a multiphysics node to couple Solid Mechanics with Electrostatics for the piezoelectric effect. Both the wedges and the plate are set to isotropic linear elastic materials, with low reflecting boundaries applied to the wedges.
 
-For the Heat Transfer in Solids module all the domains are set to solid, and initial values are set to 20\si{\degreeCelsius}. The boundaries that are exposed to the air are selected in a Heat Flux node, where convective heat flux is selected. A user defined heat transfer coefficient of 15~W/(m$^2\cdot$K) is used for the plate, and 5~W/(m$^2\cdot$K) for the wedges. These values were adjusted to produce the temperature gradients measured experimentally in both the plate and the wedges. The external temperature is set to 20\si{\degreeCelsius}. The temperature of the boundary underneath the plate is adjusted as required (20\si{\degreeCelsius} to 100\si{\degreeCelsius} in 20\si{\degreeCelsius} increments for this study). An example of the temperature gradients produced from the stationary study step are shown in Figure~\ref{fig:COMSOLtemp100c}, where the temperature boundary underneath the plate is set to 100\si{\degreeCelsius}.
+For the Heat Transfer in Solids module all the domains are set to solid, and initial values are set to 20\si{\degreeCelsius}. The boundaries that are exposed to the air are selected in a Heat Flux node, where convective heat flux is selected. A user defined heat transfer coefficient of 7~W/(m$^2\cdot$K) is used for the plate, and 1~W/(m$^2\cdot$K) for the wedges. These values were set to produce the temperature gradients measured experimentally in both the plate and the wedges. The external temperature is set to 20\si{\degreeCelsius}. The temperature of the boundary underneath the plate is adjusted as required (20\si{\degreeCelsius} to 100\si{\degreeCelsius} in 20\si{\degreeCelsius} increments for this study). An example of the temperature gradients produced from the stationary study step are shown in Figure~\ref{fig:COMSOLtemp100c}, where the temperature boundary underneath the plate is set to 100\si{\degreeCelsius}.
+
+%
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLLLL}
+        \toprule
+        & \multicolumn{4}{c}{\textbf{Boundary temperature (\si{\degreeCelsius})}} \\
+        \midrule
+        \textbf{x (mm)}       & \textbf{20.0\si{\degreeCelsius}} & \textbf{46.7\si{\degreeCelsius}} & \textbf{73.3\si{\degreeCelsius}} & \textbf{100\si{\degreeCelsius}} \\
+        \midrule
+        0                & 20.0            & 41.7            & 63.4            & 84.4           \\
+        5                & 20.0            & 42.0              & 64.1            & 85.4           \\
+        10               & 20.0            & 42.4            & 64.8            & 86.6           \\
+        15               & 20.0            & 42.8            & 65.5            & 87.7           \\
+        20               & 20.0            & 43.2            & 66.3            & 88.9           \\
+        25               & 20.0            & 43.6            & 67.0              & 90.2           \\
+        30               & 20.0            & 44.0              & 67.9            & 91.5           \\
+        35               & 20.0            & 44.4            & 68.8            & 92.9           \\
+        40               & 20.0            & 44.9            & 69.8            & 94.5           \\
+        45               & 20.0            & 45.4            & 70.7            & 96.0           \\
+        \midrule
+        \textbf{Average} & \textbf{20.0} & \textbf{43.4}   & \textbf{66.8}   & \textbf{89.8} \\
+        \bottomrule
+    \end{tabulary}%
+\caption{Boundary temperatures for wedge-to-wedge study at $S_0$.}\label{table:S0gradients}
+\end{table}
+%
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLLLL}
+        \toprule
+        & \multicolumn{4}{c}{\textbf{Boundary temperature (\si{\degreeCelsius})}} \\
+        \midrule
+        \textbf{x (mm)}       & \textbf{20.0\si{\degreeCelsius}} & \textbf{46.7\si{\degreeCelsius}} & \textbf{73.3\si{\degreeCelsius}} & \textbf{100\si{\degreeCelsius}} \\
+        \midrule
+        0                & 20.0            & 44.3            & 68.7            & 93.1           \\
+        5                & 20.0            & 44.5            & 69.0              & 93.5           \\
+        10               & 20.0            & 44.7            & 69.3            & 94.0             \\
+        15               & 20.0            & 44.8            & 69.6            & 94.5           \\
+        20               & 20.0            & 45.0              & 70.0              & 95.1           \\
+        25               & 20.0            & 45.2            & 70.4            & 95.6           \\
+        30               & 20.0            & 45.4            & 70.8            & 96.2           \\
+        35               & 20.0            & 45.6            & 71.2            & 96.8           \\
+        40               & 20.0            & 45.8            & 71.6            & 97.5           \\
+        45               & 20.0            & 46.1            & 72.0            & 98.1           \\
+        \midrule
+        \textbf{Average} & \textbf{20.0} & \textbf{45.1}   & \textbf{70.3}   & \textbf{95.4} \\
+        \bottomrule
+    \end{tabulary}%
+\caption{Boundary temperatures for wedge-to-wedge study at $A_1$.}\label{table:A1gradients}
+\end{table}
+%
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLLLL}
+        \toprule
+        & \multicolumn{4}{c}{\textbf{Boundary temperature (\si{\degreeCelsius})}} \\
+        \midrule
+        \textbf{x (mm)}       & \textbf{20.0\si{\degreeCelsius}} & \textbf{46.7\si{\degreeCelsius}} & \textbf{73.3\si{\degreeCelsius}} & \textbf{100\si{\degreeCelsius}} \\
+        \midrule
+        0                & 20.0            & 45.1            & 70.2            & 95.4           \\
+        5                & 20.0            & 45.2            & 70.4            & 95.7           \\
+        10               & 20.0            & 45.3            & 70.6            & 96.0             \\
+        15               & 20.0            & 45.5            & 70.8            & 96.4           \\
+        20               & 20.0            & 45.6            & 71.1            & 96.7           \\
+        25               & 20.0            & 45.7            & 71.3            & 97.1           \\
+        30               & 20.0            & 45.8            & 71.6            & 97.4           \\
+        35               & 20.0            & 45.9            & 71.9            & 97.9           \\
+        40               & 20.0            & 46.1            & 72.1            & 98.3           \\
+        45               & 20.0            & 46.3            & 72.4            & 98.7           \\
+        \midrule
+        \textbf{Average} & \textbf{20.0} & \textbf{45.7}   & \textbf{71.2}   & \textbf{97.0} \\
+        \bottomrule
+    \end{tabulary}%
+\caption{Boundary temperatures for wedge-to-wedge study at $S_1$.}\label{table:S1gradients}
+\end{table}
+%
+
+As the temperature decreases between the heat area and the end of the plate, the temperature under the wedges is less than temperature applied to the plate. This is important for the wedge-to-wedge study, as the heat boundary between wedges cannot be set to the temperature used for the boundary in the full study. Instead the full model is run first, and temperature probes are used to measure the temperature in the plate underneath the wedges in 5 mm increments from one side to the other. A mean average of these measurements is calculated and used for the boundary temperature in the wedge-to-wedge study. 
 
 \begin{figure}[h]
     \centering
@@ -236,15 +315,14 @@ Figure~\ref{fig:S1resultfull} shows the change in velocity with temperature for 
 \clearpage
 \section{Inconel 718 simulation}
 
-Applying a guided wave based temperature monitoring system to nozzle guide vanes involves different materials and a higher temperature range than investigated in the previous tests. To test the feasibility of the system (minus an appropriate transducer) the material of the model has been replaced with Inconel 718, a commonly used superalloy for high temperature aero engine components. The temperature range of the test has been extended to 1000\si{\degreeCelsius}. Although the wedges cannot be used in reality for this application, they can still be used in the model for single mode excitation. The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718, which in turn causes a large change in wave speed. As the change is so large the wedge angle has to be adjusted to continually target the same area of the frequency-thickness spectrum. The wedge offset value is also calculated for every change in wedge angle. 
+Applying a guided wave based temperature monitoring system to nozzle guide vanes involves different materials and a higher temperature range than investigated in the previous tests. To test the feasibility of the system (minus an appropriate transducer) the material of the model has been replaced with Inconel 718, a commonly used superalloy for high temperature aero engine components. The temperature range of the test has been extended to 1027\si{\degreeCelsius}. Although the wedges cannot be used in reality for this application, they can still be used in the model for single mode excitation. The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718, which in turn causes a large change in wave speed. As the change is so large the wedge angle has to be adjusted to continually target the same area of the frequency-thickness spectrum.
 
-Figure~\ref{fig:inconelcomsol} shows the change in group velocity with temperature for the $S_0$ Lamb wave mode, from 27\si{\degreeCelsius} to 1027\si{\degreeCelsius}, comparing predicted results extracted from dispersion curves with simulated results from COMSOL. 
+Figure~\ref{fig:inconelcomsol} shows the change in group velocity with temperature for the $S_0$ Lamb wave mode, from 27\si{\degreeCelsius} to 1027\si{\degreeCelsius}, comparing predicted results extracted from dispersion curves with simulated results from COMSOL. The average temperature sensitivity for the predicted result is -1.23 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ $\pm$ 0.70 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ $\pm$. The average temperature sensitivity for the simulated result is -1.31 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ 0.67 m s$^{-1}$\si{\degreeCelsius}$^{-1}$. The temperature sensitivity increases with temperature for both results, from a minimum of -0.37 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ to a maximum of -2.93 m s$^{-1}$\si{\degreeCelsius}$^{-1}$. The simulated group velocity is within 6.78 m s$^{-1}$ $\pm$ 27.68 m s$^{-1}$ or 0.10 \% $\pm$ 0.63\% of the predicted group velocity on average.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/inconelcomsolresult.eps}
     \caption{Velocity change with temperature for $S_0$ Lamb wave mode in Inconel 718. Comparison between predicted and simulated results.}\label{fig:inconelcomsol}
 \end{figure}
-
 
 \printbibliography[title={Chapter~\thechapter~Bibliography}]

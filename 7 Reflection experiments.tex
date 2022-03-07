@@ -10,7 +10,29 @@ Both transducers were placed equidistant from the edge of the plate, aligned so 
 
 \section{Hole reflections}
 
-After verifying that a clean reflection can be received from the edge of the plate, a single small hole is introduced to the centre of the plate. As the calculation of group velocity is dependant on accurate knowledge of the distance between transducers, an initial test is carried out to determine the distance from transmitter to receiver via hole reflection. Firstly, the transducers are placed on axis with no hole present, spaced apart by 100 mm (as in previous experiments) and time of flight is measured. The wedge-to-wedge time and offset distance is also measured. The group velocity can now be calculated. Next, the time of flight from a reflection is measured (as shown in Figure~\ref{fig:topdownholespacer}). Now the total distance travelled in the plate can be calculated by multiplying the velocity by the reflected time of flight minus the wedge-to-wedge time of flight. The offset distance can be subtracted from this distance to leave only the distance travelled between transducer faces. This distance can now be used in future tests to measure a change in velocity with temperature.  
+After verifying that a clean reflection can be received from the edge of the plate, a single small hole is introduced to the centre of the plate. As the calculation of group velocity is dependant on accurate knowledge of the distance between transducers, an initial test is carried out to determine the distance from transmitter to receiver via hole reflection. Firstly, the transducers are aligned on axis with no hole present, spaced apart by 100 mm (as in previous experiments) and time of flight is measured ($t_{\textrm{aligned}}$). The wedge-to-wedge time ($t_{\textrm{wedge}}$) and offset distance ($d_{\textrm{offset}}$) are also measured, as described in Chapter~\ref{experiments}. The group velocity ($v$) can now be calculated using Equation~\ref{eq:velocitytext}. Next, the time of flight from a reflection is measured ($t_{\textrm{reflected}}$), as shown in Figure~\ref{fig:topdownholespacer}. Now the distance travelled in the plate between transducer faces ($d_{\textrm{reflected}}$) can be calculated (Equation~\ref{eq:dreftext}) by multiplying the velocity ($v$) by the reflected time of flight ($t_{\textrm{reflected}}$) minus the wedge-to-wedge time of flight ($t_{\textrm{wedge}}$), minus the offset distance ($d_{\textrm{offset}}$). This distance can now be used in future tests to measure a change in velocity with temperature.  
+
+%
+\begin{equation} \label{eq:velocitytext}
+    v = \left( \frac{d_{\textrm{aligned}} + d_{\textrm{offset}}}{t_{\textrm{aligned}} - t_{\textrm{wedge}}} \right)
+    \tagaddtext{[\si{\meter\per\second}]}
+\end{equation} 
+%
+\begin{equation} \label{eq:velocitynum}
+    5099.18 = \left( \frac{0.1 + 0.04587}{5.812{\times}10^{-5} - 2.951{\times}10^{-5}} \right)
+    \tagaddtext{[\si{\meter\per\second}]}
+\end{equation} 
+%
+\begin{equation} \label{eq:dreftext}
+    d_{\textrm{reflected}} = v \times \left(t_{\textrm{reflected}} - t_{\textrm{wedge}} \right) - d_{\textrm{offset}}
+    \tagaddtext{[\si{\meter}]}
+\end{equation} 
+%
+\begin{equation} \label{eq:drefnum}
+    0.178 = 5099.18 \times \left(7.335{\times}10^{-5} - 2.951{\times}10^{-5} \right) - 0.04587
+    \tagaddtext{[\si{\meter}]}
+\end{equation} 
+%
 
 A 3D printed spacer has been designed to allow transducers to be accurately and repeatably aimed at a hole. The angle of incidence/reflection can easily be adjusted. 
 
@@ -24,6 +46,16 @@ In this configuration a reflection is received from the hole, followed by a stro
 
 \subsection{The effect of hole size on signal amplitude}
 
-The setup shown in Figure~\ref{fig:topdownholespacer} is used to compare the difference in reflection amplitude between different hole sizes. The tests are carried out on three different plate thicknesses (1 mm, 2.5 mm, and 4 mm), targeting three different Lamb wave modes ($S_0$, $A_1$, and $S_1$ respectively). The signal amplitude is highly dependant on the coupling between wedges and plate, so fresh couplant is applied for every test, and an average amplitude is calculated after multiple removals and replacements of the wedges. The reflection angle and distance between transducers is kept consistent across all measurements. A 60 dB voltage amplifier is applied to the receiver transducer. 
+The setup shown in Figure~\ref{fig:topdownholespacer} is used to compare the difference in reflection amplitude between different hole sizes. The tests are carried out on three different plate thicknesses (1 mm, 2.5 mm, and 4 mm), targeting three different Lamb wave modes ($S_0$, $A_1$, and $S_1$ respectively). The signal amplitude is highly dependant on the coupling between wedges and plate, so fresh couplant is applied for every test, and an average amplitude is calculated after multiple removals and replacements of the wedges. The reflection angle (36\degree) and distance (0.178 m) between transducers is kept consistent across all measurements. A 60 dB voltage amplifier is applied to the receiver transducer. 
 
 Reflection amplitude is tested at hole sizes of 1.5 mm, 2 mm, 2.5 mm, 3 mm, 3.2 mm, 3.5 mm, and 4 mm.  
+
+The wedges were removed from the plate and the couplant was reapplied five times for each hole size, taking ten measurements per reapplication, for a total of fifty measurements per hole size.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/holeampboxplot.eps}
+    \caption{Boxplot showing change in reflection signal amplitude with hole size.}\label{fig:holeampboxplot}
+\end{figure}
+
+Results are shown in Figure~\ref{fig:holeampboxplot}. The mean is shown in green. There is a linear relationship (R$^2$~=~0.9994) between increasing hole size and increasing amplitude. The average increase in amplitude for a \diameter~0.5~mm change in hole size is 0.216~V $\pm$ 0.014~V.
