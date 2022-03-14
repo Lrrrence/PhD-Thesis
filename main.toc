@@ -96,38 +96,38 @@
 \defcounter {refsection}{8}\relax 
 \contentsline {section}{\numberline {5.3}Inconel 718 simulation}{70}{section.5.3}%
 \defcounter {refsection}{8}\relax 
-\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{73}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{74}{chapter.6}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.1}Test Method}{76}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Test Method}{77}{section.6.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{77}{section.6.2}%
+\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{78}{section.6.2}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{77}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{78}{subsection.6.2.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{79}{section.6.3}%
+\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{80}{section.6.3}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{79}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{80}{subsection.6.3.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{80}{section.6.4}%
+\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{81}{section.6.4}%
 \defcounter {refsection}{9}\relax 
-\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{80}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{81}{subsection.6.4.1}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{82}{section.6.5}%
+\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{83}{section.6.5}%
 \defcounter {refsection}{9}\relax 
-\contentsline {section}{\numberline {6.6}Conclusion}{82}{section.6.6}%
+\contentsline {section}{\numberline {6.6}Conclusion}{83}{section.6.6}%
 \defcounter {refsection}{9}\relax 
-\contentsline {chapter}{\numberline {7}Experimental investigation of reflections}{85}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Experimental investigation of reflections}{86}{chapter.7}%
 \defcounter {refsection}{10}\relax 
-\contentsline {section}{\numberline {7.1}Edge reflections}{85}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Edge reflections}{86}{section.7.1}%
 \defcounter {refsection}{10}\relax 
-\contentsline {section}{\numberline {7.2}Hole reflections}{85}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Hole reflections}{86}{section.7.2}%
 \defcounter {refsection}{10}\relax 
-\contentsline {subsection}{\numberline {7.2.1}The effect of hole size on signal amplitude}{86}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.1}The effect of hole size on signal amplitude}{87}{subsection.7.2.1}%
 \defcounter {refsection}{10}\relax 
-\contentsline {chapter}{\numberline {8}Research summary \& future plans}{88}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Research summary \& future plans}{89}{chapter.8}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.1}Research summary}{88}{section.8.1}%
+\contentsline {section}{\numberline {8.1}Research summary}{89}{section.8.1}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.2}Future plans}{89}{section.8.2}%
+\contentsline {section}{\numberline {8.2}Future plans}{90}{section.8.2}%
 \defcounter {refsection}{11}\relax 
-\contentsline {section}{\numberline {8.3}Gantt chart}{89}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Gantt chart}{90}{section.8.3}%

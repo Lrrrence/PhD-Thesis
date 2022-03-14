@@ -204,7 +204,7 @@ For the Heat Transfer in Solids module all the domains are set to solid, and ini
 \end{table}
 %
 
-As the temperature decreases between the heat area and the end of the plate, the temperature under the wedges is less than temperature applied to the plate. This is important for the wedge-to-wedge study, as the heat boundary between wedges cannot be set to the temperature used for the boundary in the full study. Instead the full model is run first, and temperature probes are used to measure the temperature in the plate underneath the wedges in 5 mm increments from one side to the other. A mean average of these measurements is calculated and used for the boundary temperature in the wedge-to-wedge study. 
+As the temperature decreases between the heat area and the end of the plate, the temperature under the wedges is less than temperature applied to the plate. This is important for the wedge-to-wedge study, as the heat boundary between wedges cannot be set to the temperature used for the boundary in the full study. Instead the full model is run first, and temperature probes are used to measure the temperature in the plate underneath the wedges in 5 mm increments from one side to the other. The study is carried out at heat boundary temperatures of 20.0\si{\degreeCelsius}, 46.7\si{\degreeCelsius}, 73.3\si{\degreeCelsius}, and 100.0\si{\degreeCelsius}. A mean average of these measurements is calculated and used for the boundary temperature in the wedge-to-wedge study, as shown in~\cref{table:S0gradients,table:A1gradients,table:S1gradients}.
 
 \begin{figure}[h]
     \centering
@@ -216,15 +216,15 @@ The mesh size for each material is determined by excitation frequency. The excit
 
 \subsection{Study settings}
 
-This study has two steps, firstly a stationary study to simulate the effect of temperature on the system until an equilibrium is reached, and secondly a time dependant study to simulate wave propagation that has it's initial conditions set by the stationary study. The settings for the initial study are adjusted to solve for heat transfer but not solve for electrostatics/the piezoelectric effect. Changing temperature causes a change in Young's modulus, which subsequently affects wave velocity.
+This study has two steps, firstly a stationary study to simulate the effect of temperature on the system until an equilibrium is reached, and secondly a time dependant study to simulate wave propagation. The initial conditions of the time dependant study are set by the stationary study. The stationary study solves only for heat transfer and not electrostatics/the piezoelectric effect. 
 
-The time dependant study includes electrostatics/the piezoelectric effect to allow for wave generation, but does not include heat transfer. This reduces computation time as it is not necessary to model changing temperature as the time dependant model solves, only to use the fixed values of Young's modulus that have been passed on from the stationary study. The time dependant study has its ``Output times'' set to: range(0,dt,sim\textunderscore length) where ``dt'' is a global definition parameter equal to CFL/(N$\times f_0$). The CFL (Courant Friedrichs Lewy) number is suggested by COMSOL~\cite{COMSOL2021} to be less than 0.2, optimally 0.1 (when the default second order, quadratic, mesh elements are used). This value represents the relationship between wave speed, $c$, maximum mesh size, $h$, and time step length, $\Delta t$: $CFL = c\Delta t/h$. This can be rewritten in terms of frequency as the maximum mesh size $h$ has already been manually defined by $N$, the number of elements per local wavelength for each material: $CFL = fN\Delta t$. This can then be rearranged to give the time step: $\Delta t = CFL/Nf$. 
+The time dependant study includes electrostatics/the piezoelectric effect to allow for wave generation, but does not include heat transfer. This reduces computation time as it is not necessary to model changing temperature as the time dependant model solves, only to use the fixed values of material properties that have been passed on from the stationary study. The time dependant study has its ``Output times'' set to: range(0,dt,sim\textunderscore length) where ``dt'' is a global definition parameter equal to CFL/(N$\times f_0$). The CFL (Courant Friedrichs Lewy) number is suggested by COMSOL~\cite{COMSOL2021} to be less than 0.2, optimally 0.1 (when the default second order, quadratic, mesh elements are used). This value represents the relationship between wave speed, $c$, maximum mesh size, $h$, and time step length, $\Delta t$: $CFL = c\Delta t/h$. This can be rewritten in terms of frequency as the maximum mesh size $h$ has already been manually defined by $N$, the number of elements per local wavelength for each material: $CFL = fN\Delta t$. This can then be rearranged to give the time step: $\Delta t = CFL/Nf$. 
 
 Under ``Values of Dependant Variables'' the settings are changed to user controlled, method is changed to Solution, and the study is set to the stationary study. The time step is manually set under Solver Configurations$>$Solution 1$>$Time dependant solver$>$Time stepping. Here the ``Steps taken by solver'' parameter is changed to ``Manual'' and the ``Time Step'' is set to: $CFL/(N\times f_0)$. 
 
 To reduce file size only the data at the wedge boundaries is stored by the solver. This can be achieved by adding an ``Explicit Selection'' node in the Geometry section, and selecting both the transmit and receive wedge boundaries. Within the time dependant study settings select ``For selection'' under ``Store fields in output'' and select the boundary group~\cite{COMSOL2021a}. 
 
-A parametric sweep node was used to cycle through the temperature boundary values (20\si{\degreeCelsius} to 100\si{\degreeCelsius} in 20\si{\degreeCelsius} increments) and save the output of the time dependant model for each value. This is repeated for the model in the wedge-to-wedge configuration (mimicking the experimental setup shown in Figure~\ref{fig:testdiagramw2w}). The simulations were run on the University of Southampton's IRIDIS 5 supercomputing platform~\cite{Southampton2021}.
+A parametric sweep node was used to cycle through the temperature boundary values (20.0\si{\degreeCelsius}, 46.7\si{\degreeCelsius}, 73.3\si{\degreeCelsius}, and 100.0\si{\degreeCelsius}) and save the output of the time dependant model for each value. This is repeated for the model in the wedge-to-wedge configuration (at temperatures shown in~\cref{table:S0gradients,table:A1gradients,table:S1gradients}), mimicking the experimental setup shown in Figure~\ref{fig:testdiagramw2w}. The simulations were run on the University of Southampton's IRIDIS 5 supercomputing platform~\cite{Southampton2021}.
 
 \section{Simulation results}
 
@@ -315,9 +315,31 @@ Figure~\ref{fig:S1resultfull} shows the change in velocity with temperature for 
 \clearpage
 \section{Inconel 718 simulation}
 
-Applying a guided wave based temperature monitoring system to nozzle guide vanes involves different materials and a higher temperature range than investigated in the previous tests. To test the feasibility of the system (minus an appropriate transducer) the material of the model has been replaced with Inconel 718, a commonly used superalloy for high temperature aero engine components. The temperature range of the test has been extended to 1027\si{\degreeCelsius}. Although the wedges cannot be used in reality for this application, they can still be used in the model for single mode excitation. The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718, which in turn causes a large change in wave speed. As the change is so large the wedge angle has to be adjusted to continually target the same area of the frequency-thickness spectrum.
+Applying a guided wave based temperature monitoring system to nozzle guide vanes involves different materials and a higher temperature range than investigated in the previous tests. To test the feasibility of the system (minus an appropriate transducer) the material of the model has been replaced with Inconel 718, a commonly used superalloy for high temperature aero engine components. The temperature range of the test has been extended to 1027\si{\degreeCelsius}. Although the wedges cannot be used in reality for this application, they can still be used in the model for single mode excitation. The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718, which in turn causes a large change in wave speed. As the change is so large the wedge angle has to be adjusted to continually target the same area of the frequency-thickness spectrum, as shown in Table~\ref{table:wedgeangleinconelmodel}, where the longitudinal velocity of the wedge material is 2502~\unit{\metre\per\second}.
 
-Figure~\ref{fig:inconelcomsol} shows the change in group velocity with temperature for the $S_0$ Lamb wave mode, from 27\si{\degreeCelsius} to 1027\si{\degreeCelsius}, comparing predicted results extracted from dispersion curves with simulated results from COMSOL. The average temperature sensitivity for the predicted result is -1.23 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ $\pm$ 0.70 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ $\pm$. The average temperature sensitivity for the simulated result is -1.31 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ 0.67 m s$^{-1}$\si{\degreeCelsius}$^{-1}$. The temperature sensitivity increases with temperature for both results, from a minimum of -0.37 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ to a maximum of -2.93 m s$^{-1}$\si{\degreeCelsius}$^{-1}$. The simulated group velocity is within 6.78 m s$^{-1}$ $\pm$ 27.68 m s$^{-1}$ or 0.10 \% $\pm$ 0.63\% of the predicted group velocity on average.
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLL}
+        \toprule
+    \textbf{\textbf{Temperature (\si{\degreeCelsius})}} & \textbf{Phase velocity (\unit{\metre\per\second})} & \textbf{Wedge angle (\degree)} \\
+        \midrule
+    27           & 5110.74            & 29.31                \\
+    127          & 5069.49            & 29.57                \\
+    227          & 5020.12            & 29.89                \\
+    327          & 4960.81            & 30.29                \\
+    427          & 4889.88            & 30.78                \\
+    527          & 4805.54            & 31.38                \\
+    627          & 4705.97            & 32.12                \\
+    727          & 4588.83            & 33.04                \\
+    827          & 4450.95            & 34.20                \\
+    927          & 4287.53            & 35.70                \\
+    1027         & 4090.86            & 37.71                \\
+    \bottomrule
+    \end{tabulary}%
+    \caption{Wedge angle required for $S_0$ mode excitation in Inconel 718 from 27\si{\degreeCelsius} to 1027\si{\degreeCelsius}.}\label{table:wedgeangleinconelmodel}
+\end{table}
+
+Figure~\ref{fig:inconelcomsol} shows the change in group velocity with temperature for the $S_0$ Lamb wave mode, from 27\si{\degreeCelsius} to 1027\si{\degreeCelsius}, comparing predicted results extracted from dispersion curves with simulated results from COMSOL. The average temperature sensitivity for the predicted result is -1.23 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ $\pm$ 0.70 m s$^{-1}$\si{\degreeCelsius}$^{-1}$. The average temperature sensitivity for the simulated result is -1.31 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ $\pm$ 0.67 m s$^{-1}$\si{\degreeCelsius}$^{-1}$. The temperature sensitivity increases with temperature for both results, from a minimum of -0.37 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ to a maximum of -2.93 m s$^{-1}$\si{\degreeCelsius}$^{-1}$. The simulated group velocity is within 6.78 m s$^{-1}$ $\pm$ 27.68 m s$^{-1}$ or 0.10 \% $\pm$ 0.63\% of the predicted group velocity on average.
 
 \begin{figure}[h]
     \centering
