@@ -1,5 +1,5 @@
 \documentclass{report}
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
 \usepackage[refsection=chapter,style=numeric,sorting=none]{biblatex}
 \addbibresource{library.bib}
 \addbibresource{References.bib}
@@ -30,10 +30,20 @@
 \usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash]{caption}
 \usepackage{fancyhdr} %headings
 \usepackage{lastpage} %find last page
-\usepackage{mlmodern} %use new font
+%\usepackage{mlmodern} %use new font
 \usepackage{adjustbox} %for resizing tables
 \usepackage{makecell} %new lines within table cells
 \usepackage{wasysym} %for diameter symbol
+\usepackage{microtype}
+\usepackage{unicode-math}%for setting font
+
+\setmainfont[%
+Ligatures={TeX,Common},
+Numbers={Proportional,Lining},
+Kerning=On,
+]{Libertinus Serif}
+
+\setmathfont{Libertinus Math}
 
 % make macro for adding units to equations
 \makeatletter
