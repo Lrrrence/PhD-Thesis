@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.24)  25 MAR 2022 14:58
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.24)  28 MAR 2022 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/yulel/Documents/LaTeX/PhD-Thesis/main
+**c:/Users/yulel/Documents/LaTeX/PhD-Thesis/main.tex
 (c:/Users/yulel/Documents/LaTeX/PhD-Thesis/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (c:/texlive/2021/texmf-dist/tex/latex/base/report.cls
@@ -981,26 +981,7 @@ Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 \symwasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
-) (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
-\MT@toks=\toks53
-\MT@tempbox=\box85
-\MT@count=\count491
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
-LaTeX Info: Redefining \leftprotrusion on input line 1028.
-LaTeX Info: Redefining \rightprotrusion on input line 1036.
-LaTeX Info: Redefining \textls on input line 1195.
-\MT@outer@kern=\dimen341
-LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
-\MT@listname@count=\count492
- (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype-xetex.def
-File: microtype-xetex.def 2022/03/14 v3.0d Definitions specific to xetex (RS)
-LaTeX Info: Redefining \lsstyle on input line 236.
-)
-Package microtype Info: Loading configuration file microtype.cfg.
- (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
-)) (c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
  (c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
 Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
@@ -1008,20 +989,20 @@ Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaT
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
  (c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count493
-\l__fontspec_language_int=\count494
-\l__fontspec_strnum_int=\count495
-\l__fontspec_tmp_int=\count496
-\l__fontspec_tmpa_int=\count497
-\l__fontspec_tmpb_int=\count498
-\l__fontspec_tmpc_int=\count499
-\l__fontspec_em_int=\count500
-\l__fontspec_emdef_int=\count501
-\l__fontspec_strong_int=\count502
-\l__fontspec_strongdef_int=\count503
-\l__fontspec_tmpa_dim=\dimen342
-\l__fontspec_tmpb_dim=\dimen343
-\l__fontspec_tmpc_dim=\dimen344
+\l__fontspec_script_int=\count491
+\l__fontspec_language_int=\count492
+\l__fontspec_strnum_int=\count493
+\l__fontspec_tmp_int=\count494
+\l__fontspec_tmpa_int=\count495
+\l__fontspec_tmpb_int=\count496
+\l__fontspec_tmpc_int=\count497
+\l__fontspec_em_int=\count498
+\l__fontspec_emdef_int=\count499
+\l__fontspec_strong_int=\count500
+\l__fontspec_strongdef_int=\count501
+\l__fontspec_tmpa_dim=\dimen341
+\l__fontspec_tmpb_dim=\dimen342
+\l__fontspec_tmpc_dim=\dimen343
  (c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/texlive/2021/texmf-dist/tex/latex/base/fix-cm.sty
@@ -1030,11 +1011,26 @@ Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\g__um_fam_int=\count504
-\g__um_fonts_used_int=\count505
-\l__um_primecount_int=\count506
+\g__um_fam_int=\count502
+\g__um_fonts_used_int=\count503
+\l__um_primecount_int=\count504
 \g__um_primekern_muskip=\muskip22
- (c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+ (c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count505
+\sf@farskip=\skip111
+\sf@captopadj=\dimen344
+\sf@capskip=\skip112
+\sf@nearskip=\skip113
+\c@subfigure=\count506
+\c@subfigure@save=\count507
+\c@lofdepth=\count508
+\c@subtable=\count509
+\c@subtable@save=\count510
+\c@lotdepth=\count511
+\sf@top=\skip114
+\sf@bottom=\skip115
+)
 
 Package fontspec Info: Font family 'LibertinusSerif(0)' created for font
 (fontspec)             'Libertinus Serif' with options
@@ -1092,11 +1088,11 @@ Package fontspec Info: Font family 'LibertinusSerif(1)' created for font
 (fontspec)             Serif/BI/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;+smcp;mapping=tex-text;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LibertinusSerif(1)/m/n on input line 45.
+(Font)                  OT1/cmr/m/n --> TU/LibertinusSerif(1)/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/LibertinusSerif(1)/m/it on input line 45.
+(Font)                  OT1/cmr/m/it --> TU/LibertinusSerif(1)/m/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/LibertinusSerif(1)/b/n on input line 45.
+(Font)                  OT1/cmr/bx/n --> TU/LibertinusSerif(1)/b/n on input line 55.
 
 Package fontspec Info: Could not resolve font "Libertinus Math/B" (it probably
 (fontspec)             doesn't exist).
@@ -1134,13 +1130,13 @@ Package fontspec Info: Font family 'LibertinusMath(1)' created for font
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 47.
+(Font)              `operators' in the math version `normal' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LibertinusMath(1)/m/n on input line 47.
+(Font)                  OT1/cmr/m/n --> TU/LibertinusMath(1)/m/n on input line 57.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 47.
+(Font)              `operators' in the math version `bold' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/LibertinusMath(1)/b/n on input line 47.
+(Font)                  OT1/cmr/bx/n --> TU/LibertinusMath(1)/b/n on input line 57.
 
 Package fontspec Info: Libertinus Math scale = 1.0001.
 
@@ -1195,13 +1191,13 @@ Package fontspec Info: Font family 'LibertinusMath(2)' created for font
 (fontspec)             =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 47.
+(Font)              `symbols' in the math version `normal' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/LibertinusMath(2)/m/n on input line 47.
+(Font)                  OMS/cmsy/m/n --> TU/LibertinusMath(2)/m/n on input line 57.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 47.
+(Font)              `symbols' in the math version `bold' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/LibertinusMath(2)/b/n on input line 47.
+(Font)                  OMS/cmsy/b/n --> TU/LibertinusMath(2)/b/n on input line 57.
 
 Package fontspec Info: Libertinus Math scale = 0.9999.
 
@@ -1245,13 +1241,13 @@ Package fontspec Info: Font family 'LibertinusMath(3)' created for font
 (fontspec)             \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 47.
+(Font)              `largesymbols' in the math version `normal' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/m/n on input line 47.
+(Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/m/n on input line 57.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 47.
+(Font)              `largesymbols' in the math version `bold' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/b/n on input line 47.
+(Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/b/n on input line 57.
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
  (c:/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -1260,23 +1256,23 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 ) (c:/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(c:/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (c:/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen345
-\Hy@linkcounter=\count507
-\Hy@pagecounter=\count508
+\Hy@linkcounter=\count512
+\Hy@pagecounter=\count513
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
-) (c:/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(c:/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (c:/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count509
+\Hy@SavedSpaceFactor=\count514
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 )
@@ -1291,7 +1287,7 @@ Package hyperref Info: Plain pages OFF on input line 4152.
 Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count510
+\c@Hy@tempcnt=\count515
 LaTeX Info: Redefining \url on input line 4749.
 \XeTeXLinkMargin=\dimen346
  (c:/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
@@ -1299,7 +1295,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (c:/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count511
+\Fld@menulength=\count516
 \Field@Width=\dimen347
 \Fld@charsize=\dimen348
 Package hyperref Info: Hyper figures OFF on input line 6027.
@@ -1311,9 +1307,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6052.
 Package hyperref Info: PDF/A mode OFF on input line 6057.
 LaTeX Info: Redefining \ref on input line 6097.
 LaTeX Info: Redefining \pageref on input line 6101.
-\Hy@abspage=\count512
-\c@Item=\count513
-\c@Hfootnote=\count514
+\Hy@abspage=\count517
+\c@Item=\count518
+\c@Hfootnote=\count519
 )
 Package hyperref Info: Driver (autodetected): hxetex.
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hxetex.def
@@ -1321,11 +1317,11 @@ File: hxetex.def 2022-02-21 v7.00n Hyperref driver for XeTeX
  (c:/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\pdfm@box=\box86
-\c@Hy@AnnotLevel=\count515
-\HyField@AnnotCount=\count516
-\Fld@listcount=\count517
-\c@bookmark@seq@number=\count518
+\pdfm@box=\box85
+\c@Hy@AnnotLevel=\count520
+\HyField@AnnotCount=\count521
+\Fld@listcount=\count522
+\c@bookmark@seq@number=\count523
  (c:/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (c:/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
@@ -1336,7 +1332,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip111
+\Hy@SectionHShift=\skip116
 ) (c:/texlive/2021/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -1350,35 +1346,36 @@ LaTeX Info: Redefining \cpagerefrange on input line 2370.
 LaTeX Info: Redefining \Cpagerefrange on input line 2370.
 LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `subfig' support loaded on input line 3164.
 Package cleveref Info: always capitalise cross-reference names on input line 7830.
 Package cleveref Info: always capitalise cross-reference names on input line 7852.
 )
-\@quotelevel=\count519
-\@quotereset=\count520
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 87.
+\@quotelevel=\count524
+\@quotereset=\count525
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 97.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (c:/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1391,25 +1388,24 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 87.
-Package biblatex Info: Reference segment=0 on input line 87.
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 97.
+Package biblatex Info: Reference segment=0 on input line 97.
 \symgns@font=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/LibertinusSerif(0)/m/n --> TS1/LibertinusSerif(0)/b/n on input line 87.
-Package gensymb Info: Math companion symbols declared on input line 87.
-LaTeX Info: Redefining \degree on input line 87.
-LaTeX Info: Redefining \celsius on input line 87.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 87.
-LaTeX Info: Redefining \ohm on input line 87.
-Package gensymb Info: Using \textohm for \ohm on input line 87.
-Package gensymb Info: Using \textmu for \micro on input line 87.
-(c:/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+(Font)                  TS1/LibertinusSerif(0)/m/n --> TS1/LibertinusSerif(0)/b/n on input line 97.
+Package gensymb Info: Math companion symbols declared on input line 97.
+LaTeX Info: Redefining \degree on input line 97.
+LaTeX Info: Redefining \celsius on input line 97.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 97.
+LaTeX Info: Redefining \ohm on input line 97.
+Package gensymb Info: Using \textohm for \ohm on input line 97.
+Package gensymb Info: Using \textmu for \micro on input line 97.
+ (c:/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 87.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 97.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1448,34 +1444,21 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 87.
-LaTeX Info: Redefining \microtypecontext on input line 87.
-Package microtype Info: Applying patch `item' on input line 87.
-Package microtype Info: Applying patch `toc' on input line 87.
-Package microtype Info: Applying patch `eqnum' on input line 87.
-Package microtype Info: Applying patch `footnote' on input line 87.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of spacing.
-Package microtype Info: No adjustment of kerning.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LibertinusSerif' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+(lastpage)             ! on input line 97.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 87.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 97.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 87.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 97.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 87.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 97.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 87.
-Package hyperref Info: Link coloring ON on input line 87.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 97.
+Package hyperref Info: Link coloring ON on input line 97.
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1483,33 +1466,25 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count521
+\c@section@level=\count526
 )
-LaTeX Info: Redefining \ref on input line 87.
-LaTeX Info: Redefining \pageref on input line 87.
-LaTeX Info: Redefining \nameref on input line 87.
+LaTeX Info: Redefining \ref on input line 97.
+LaTeX Info: Redefining \pageref on input line 97.
+LaTeX Info: Redefining \nameref on input line 97.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 File: ./figures/UoSLogo.png Graphic file (type bmp)
 <./figures/UoSLogo.png>
-[1
+ [1
 
 ] (./abstract.tex) [1]
-\c@blx@maxsegment@1=\count522
-\c@blx@sectionciteorder@1=\count523
-Package biblatex Info: Reference section=1 on input line 135.
-Package biblatex Info: Setting label 'refsection:1' on input line 135.
+\c@blx@maxsegment@1=\count527
+\c@blx@sectionciteorder@1=\count528
+Package biblatex Info: Reference section=1 on input line 145.
+Package biblatex Info: Setting label 'refsection:1' on input line 145.
  (./main.toc
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LibertinusMath' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
 (Font)              scaled to size 10.00107pt on input line 2.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
@@ -1525,14 +1500,10 @@ LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 2.
  (c:/texlive/2021/texmf-dist/tex/latex/wasysym/uwasy.fd
@@ -1545,36 +1516,29 @@ LaTeX Font Info:    No file TS1LibertinusSerif(0).fd. on input line 2.
 LaTeX Font Warning: Font shape `TS1/LibertinusSerif(0)/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead on input line 2.
 
-(c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LibertinusSerif' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [2
+[2
 
 ] [3])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
  [4]
-Package biblatex Info: Reference section=0 on input line 136.
-\c@blx@maxsegment@2=\count524
-\c@blx@sectionciteorder@2=\count525
-Package biblatex Info: Reference section=2 on input line 136.
-Package biblatex Info: Setting label 'refsection:2' on input line 136.
+Package biblatex Info: Reference section=0 on input line 146.
+\c@blx@maxsegment@2=\count529
+\c@blx@sectionciteorder@2=\count530
+Package biblatex Info: Reference section=2 on input line 146.
+Package biblatex Info: Setting label 'refsection:2' on input line 146.
  (./main.lof [5
 
 ] [6])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
-Package biblatex Info: Reference section=0 on input line 139.
-\c@blx@maxsegment@3=\count526
-\c@blx@sectionciteorder@3=\count527
-Package biblatex Info: Reference section=3 on input line 139.
-Package biblatex Info: Setting label 'refsection:3' on input line 139.
+Package biblatex Info: Reference section=0 on input line 149.
+\c@blx@maxsegment@3=\count531
+\c@blx@sectionciteorder@3=\count532
+Package biblatex Info: Reference section=3 on input line 149.
+Package biblatex Info: Setting label 'refsection:3' on input line 149.
  (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
@@ -1582,8 +1546,8 @@ Package biblatex Info: Setting label 'refsection:3' on input line 139.
  [7] (./1 Intro.tex
 Chapter 1.
 Package biblatex Info: Reference section=0 on input line 1.
-\c@blx@maxsegment@4=\count528
-\c@blx@sectionciteorder@4=\count529
+\c@blx@maxsegment@4=\count533
+\c@blx@sectionciteorder@4=\count534
 Package biblatex Info: Reference section=4 on input line 1.
 Package biblatex Info: Setting label 'refsection:4' on input line 1.
 [1
@@ -1593,62 +1557,35 @@ Package biblatex Info: Setting label 'refsection:4' on input line 1.
 File: ./figures/turbine plus ngv.png Graphic file (type bmp)
 <./figures/turbine plus ngv.png>
  [3] [4]
-
-LaTeX Warning: Citation 'Yule2020' on page 5 undefined on input line 66.
-
-
-LaTeX Warning: Citation 'Yule2021' on page 5 undefined on input line 67.
+Underfull \hbox (badness 5359) in paragraph at lines 67--68
+[]\TU/LibertinusSerif(1)/m/n/10 Journal review paper “Surface temperature condition monitoring methods for aerospace
+ []
 
 
-LaTeX Warning: Citation 'Yule2021a' on page 5 undefined on input line 68.
+Underfull \hbox (badness 1762) in paragraph at lines 68--69
+[]\TU/LibertinusSerif(1)/m/n/10 Conference paper “Towards in-flight temperature monitoring for nozzle guide vanes using
+ []
 
+[5]
+Underfull \hbox (badness 4467) in paragraph at lines 72--72
+[]\TU/LibertinusSerif(1)/m/n/10 Lawrence Yule et al. “Surface temperature condition monitoring methods for aerospace
+ []
 
-LaTeX Warning: Empty bibliography on input line 72.
+) (./2 Literature Review.tex [6
 
-) (./2 Literature Review.tex [5]
+]
 Chapter 2.
 Package biblatex Info: Reference section=0 on input line 1.
-\c@blx@maxsegment@5=\count530
-\c@blx@sectionciteorder@5=\count531
+\c@blx@maxsegment@5=\count535
+\c@blx@sectionciteorder@5=\count536
 Package biblatex Info: Reference section=5 on input line 1.
 Package biblatex Info: Setting label 'refsection:5' on input line 1.
 
-LaTeX Warning: Citation 'administrator2015aviation' on page 6 undefined on input line 4.
+Underfull \hbox (badness 5954) in paragraph at lines 2--3
+\TU/LibertinusSerif(1)/m/n/10 This literature review considers surface temperature monitoring methods for turbomachinery
+ []
 
-
-LaTeX Warning: Citation 'zhang2019number' on page 6 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'Zaghari2020' on page 6 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'Zaghari2017' on page 6 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'Kerr2002' on page 6 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'Becker1994' on page 6 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'Zhou2016' on page 6 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'Dixon2013' on page 6 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'Heyes2004' on page 6 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'Thakare2020' on page 6 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'Lashmi2020' on page 6 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'Feist2001' on page 6 undefined on input line 6.
-
-[6
+[7
 
 ]
 Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
@@ -1659,13 +1596,6 @@ Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
 File: ./figures/Turbinecrosssection.eps Graphic file (type eps)
 <./figures/Turbinecrosssection.eps>
-
-
-LaTeX Warning: Citation 'AbouNada2016' on page 7 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'AbouNada2016' on page 7 undefined on input line 11.
-
 Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
@@ -1676,27 +1606,7 @@ Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
 File: ./figures/TBCdevelopment.eps Graphic file (type eps)
 <./figures/TBCdevelopment.eps>
-
-LaTeX Warning: Citation 'Zhao2014' on page 7 undefined on input line 17.
-
-
-LaTeX Warning: Citation 'Zhao2014' on page 7 undefined on input line 17.
-
-
-LaTeX Warning: Citation 'Abdelrhman2014' on page 7 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Mevissen2019' on page 7 undefined on input line 20.
-
-
-Overfull \hbox (9.5554pt too wide) in paragraph at lines 20--21
-\TU/LibertinusSerif(1)/m/n/10 for all aspects of gas turbines are provided by Abdelrhman [[]] and Mevissen [[]],
- []
-
-
-LaTeX Warning: Citation 'Zaghari2017a' on page 7 undefined on input line 22.
-
-[7] [8]
+ [8] [9]
 Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
@@ -1708,211 +1618,20 @@ Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
 File: ./figures/tempmethodsvenn.eps Graphic file (type eps)
 <./figures/tempmethodsvenn.eps>
-
-
-LaTeX Warning: Citation '18-guan2019enhanced' on page 9 undefined on input line 38.
-
-
-LaTeX Warning: Citation 'Findeisen2017' on page 9 undefined on input line 38.
-
-
-LaTeX Warning: Citation 'Peral2019' on page 9 undefined on input line 38.
-
-[9
+ [10
 
 ]
-
-LaTeX Warning: Citation 'Nikparto2018' on page 10 undefined on input line 40.
-
-
-LaTeX Warning: Citation 'Shevchenko2018' on page 10 undefined on input line 40.
-
-
-LaTeX Warning: Citation 'Guan2019' on page 10 undefined on input line 40.
-
-
-LaTeX Warning: Citation 'Samarasinghe2019' on page 10 undefined on input line 40.
-
-
-LaTeX Warning: Citation 'Yang2015a' on page 10 undefined on input line 47.
-
-
-LaTeX Warning: Citation 'Neely2006' on page 10 undefined on input line 49.
-
 File: ./figures/Single change paints edit.png Graphic file (type bmp)
 <./figures/Single change paints edit.png>
-
-LaTeX Warning: Citation 'Neely2006' on page 10 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'Neely2006' on page 10 undefined on input line 54.
-
 File: ./figures/multi-change paints edit.png Graphic file (type bmp)
 <./figures/multi-change paints edit.png>
-
-LaTeX Warning: Citation 'Neely2006' on page 10 undefined on input line 60.
-
-
-LaTeX Warning: Citation 'Neely2006' on page 10 undefined on input line 60.
-
-
-LaTeX Warning: Citation 'Lempereur2008' on page 10 undefined on input line 63.
-
-
-LaTeX Warning: Citation 'Coleto2006' on page 10 undefined on input line 63.
-
-[10] [11]
-
-LaTeX Warning: Citation 'Neely2010' on page 12 undefined on input line 65.
-
-
-LaTeX Warning: Citation 'Bird1998' on page 12 undefined on input line 67.
-
-
-LaTeX Warning: Citation 'EuropeanParliament2006' on page 12 undefined on input line 67.
-
-
-LaTeX Warning: Citation 'Feist2011' on page 12 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'EuropeanParliament2006' on page 12 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'KarmakarBiswas2014' on page 12 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'Peral2019' on page 12 undefined on input line 70.
-
-
-Overfull \hbox (4.83763pt too wide) in paragraph at lines 70--71
-\TU/LibertinusSerif(1)/m/n/10 versible changes to their optical properties. The method was originally proposed by Feist in 2007 [[]].
- []
-
-
-Overfull \hbox (28.10597pt too wide) in paragraph at lines 70--71
-\TU/LibertinusSerif(1)/m/n/10 stricted chemicals (EU REACH regulation [[]]). Biswas and Feist [[]]
- []
-
-
-LaTeX Warning: Citation 'AraguasRodriguez2018a' on page 12 undefined on input line 72.
-
-
-LaTeX Warning: Citation 'Pilgrim2017' on page 12 undefined on input line 72.
-
-
-LaTeX Warning: Citation 'Rabhiou2011' on page 12 undefined on input line 72.
-
-
-LaTeX Warning: Citation 'Amiel2018' on page 12 undefined on input line 72.
-
-
-LaTeX Warning: Citation 'Heyes2012' on page 12 undefined on input line 72.
-
-[12]
-
-LaTeX Warning: Citation 'Feist2001' on page 13 undefined on input line 74.
-
-
-LaTeX Warning: Citation 'Annerfeldt2004' on page 13 undefined on input line 79.
-
+ [11] [12] [13]
 File: ./figures/crystal temp sens.png Graphic file (type bmp)
 <./figures/crystal temp sens.png>
-
-LaTeX Warning: Citation 'Annerfeldt2004' on page 13 undefined on input line 84.
-
-
-LaTeX Warning: Citation 'Annerfeldt2004' on page 13 undefined on input line 84.
-
-
-LaTeX Warning: Citation 'Fair2008' on page 13 undefined on input line 87.
-
-
-LaTeX Warning: Citation 'Lo2012' on page 13 undefined on input line 89.
-
-
-LaTeX Warning: Citation 'Madison2013' on page 13 undefined on input line 89.
-
-[13]
-
-LaTeX Warning: Citation 'Duan2020' on page 14 undefined on input line 96.
-
-[14]
+ [14] [15]
 File: ./figures/tftcNGV.png Graphic file (type bmp)
 <./figures/tftcNGV.png>
-
-
-LaTeX Warning: Citation 'Duan2020' on page 15 undefined on input line 101.
-
-
-LaTeX Warning: Citation 'Duan2020' on page 15 undefined on input line 101.
-
-
-LaTeX Warning: Citation 'Kreider1993' on page 15 undefined on input line 104.
-
-
-LaTeX Warning: Citation 'Yang2020' on page 15 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Liu2018' on page 15 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Zhang2018b' on page 15 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Gao2016' on page 15 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Satish2017' on page 15 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Ji2019' on page 15 undefined on input line 106.
-
-[15]
-
-LaTeX Warning: Citation 'Lei1997' on page 16 undefined on input line 108.
-
-
-LaTeX Warning: Citation 'Guk2016' on page 16 undefined on input line 108.
-
-
-LaTeX Warning: Citation 'Kerr2004' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Kerr2004' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Li2019' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Yu2009a' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Kerr2002' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Li2018' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Araujo2017' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Gentleman2006' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Becker1994' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Frank2001' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Wang2015' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Taniguchi2006' on page 16 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Hellberg' on page 16 undefined on input line 111.
-
+ [16]
 Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
@@ -1921,69 +1640,9 @@ Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
 File: ./figures/kerrpyro.eps Graphic file (type eps)
 <./figures/kerrpyro.eps>
-
-LaTeX Warning: Citation 'Kerr2004' on page 16 undefined on input line 116.
-
-
-LaTeX Warning: Citation 'Kerr2004' on page 16 undefined on input line 116.
-
 File: ./figures/siemens IR edit-01.png Graphic file (type bmp)
 <./figures/siemens IR edit-01.png>
-
-LaTeX Warning: Citation 'Hellberg' on page 16 undefined on input line 122.
-
-
-LaTeX Warning: Citation 'Hellberg' on page 16 undefined on input line 122.
-
-
-LaTeX Warning: Citation 'Liu2005' on page 16 undefined on input line 126.
-
-
-LaTeX Warning: Citation 'Patel2016' on page 16 undefined on input line 126.
-
-[16] [17]
-
-LaTeX Warning: Citation 'Khalid2008a' on page 18 undefined on input line 129.
-
-
-LaTeX Warning: Citation 'Allison1997' on page 18 undefined on input line 129.
-
-
-LaTeX Warning: Citation 'Khalid2010' on page 18 undefined on input line 129.
-
-
-LaTeX Warning: Citation 'Brubach2013' on page 18 undefined on input line 129.
-
-
-LaTeX Warning: Citation 'AbouNada2016' on page 18 undefined on input line 129.
-
-
-LaTeX Warning: Citation 'Feist2001' on page 18 undefined on input line 129.
-
-
-LaTeX Warning: Citation 'Chen2005a' on page 18 undefined on input line 129.
-
-
-LaTeX Warning: Citation 'Feist2013' on page 18 undefined on input line 129.
-
-
-LaTeX Warning: Citation 'YanezGonzalez2015' on page 18 undefined on input line 129.
-
-
-LaTeX Warning: Citation 'Jenkins2020' on page 18 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'Eldridge2019' on page 18 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'Nau2019' on page 18 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'Feist2001' on page 18 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'Gentleman2006' on page 18 undefined on input line 131.
-
+ [17] [18]
 Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
@@ -1993,21 +1652,7 @@ Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
 File: ./figures/yaneztempTBC.eps Graphic file (type eps)
 <./figures/yaneztempTBC.eps>
-
-LaTeX Warning: Citation 'YanezGonzalez2015' on page 18 undefined on input line 136.
-
-
-LaTeX Warning: Citation 'YanezGonzalez2015' on page 18 undefined on input line 136.
-
-
-Underfull \hbox (badness 6775) in paragraph at lines 136--136
-[]\TU/LibertinusSerif(0)/b/n/9 Figure 2.10 \TU/LibertinusSerif(0)/m/n/9 – |A comparison of online monitoring systems (reproduced from Yañez Gonzalez \TU/LibertinusSerif(0)/m/it/9 et
- []
-
-
-LaTeX Warning: Citation 'Duan2018' on page 18 undefined on input line 140.
-
-[18] [19]
+ [19] [20]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2040,42 +1685,7 @@ LaTeX Warning: Citation 'Duan2018' on page 18 undefined on input line 140.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [20]
-
-LaTeX Warning: Empty bibliography on input line 186.
-
-) (./3 Acoustic temperature sensing.tex
-Chapter 3.
-Package biblatex Info: Reference section=0 on input line 1.
-\c@blx@maxsegment@6=\count532
-\c@blx@sectionciteorder@6=\count533
-Package biblatex Info: Reference section=6 on input line 1.
-Package biblatex Info: Setting label 'refsection:6' on input line 1.
-
-LaTeX Warning: Citation 'Mitra2016' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Fatemi1980' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Ruzek2006' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Imielinska2004' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Komura2001' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Zaghari2013' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Shi2019' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Wang2019' on page 21 undefined on input line 9.
-
-[21
+ [21] [22
 
 
 
@@ -2083,64 +1693,35 @@ LaTeX Warning: Citation 'Wang2019' on page 21 undefined on input line 9.
 
 
 ]
+Underfull \hbox (badness 1281) in paragraph at lines 186--186
+[]\TU/LibertinusSerif(1)/m/n/10 Bahareh Zaghari, Alex Weddell, and Neil White. “Opportunities and challenges for energy
+ []
 
-LaTeX Warning: Citation 'Dransfeld1970' on page 22 undefined on input line 13.
+[23]
+Underfull \hbox (badness 1448) in paragraph at lines 186--186
+[]\TU/LibertinusSerif(1)/m/n/10 Stéphane Amiel et al. “On the thermal sensitivity and resolution of a YSZ:Er3+/YSZ:Eu3+
+ []
 
-
-LaTeX Warning: Citation '2-gajdacsi2014reconstruction' on page 22 undefined on input line 16.
-
-
-LaTeX Warning: Citation '9R-12-croxford2007strategies' on page 22 undefined on input line 16.
-
-
-LaTeX Warning: Citation '1R-22-harley2012scale' on page 22 undefined on input line 16.
-
-
-LaTeX Warning: Citation '1R-24-konstantinidis2006temperature' on page 22 undefined on input line 16.
-
-
-LaTeX Warning: Citation '1R-26-clarke2010guided' on page 22 undefined on input line 16.
-
-
-LaTeX Warning: Citation '1R-27-croxford2010efficient' on page 22 undefined on input line 16.
-
-
-LaTeX Warning: Citation '1R-28-wang2014adaptive' on page 22 undefined on input line 16.
-
-
-LaTeX Warning: Citation '1R-li2018new' on page 22 undefined on input line 16.
-
-
-LaTeX Warning: Citation '1R-20-liu2016baseline' on page 22 undefined on input line 16.
-
-
-LaTeX Warning: Citation '9-mariani2019compensation' on page 22 undefined on input line 16.
-
-
-LaTeX Warning: Citation '9R-16-herdovics2019compensation' on page 22 undefined on input line 16.
-
-
-Overfull \hbox (7.98204pt too wide) in paragraph at lines 16--17
-\TU/LibertinusSerif(1)/m/n/10 ture compensation or calibration can be carried out by using thermocouples [[]],
+[24]
+Underfull \hbox (badness 3547) in paragraph at lines 186--186
+[]\TU/LibertinusSerif(1)/m/n/10 Molly M. Gentleman et al. “Noncontact methods for measuring thermal barrier coating
  []
 
 
-Overfull \hbox (11.78207pt too wide) in paragraph at lines 16--17
-\TU/LibertinusSerif(1)/m/n/10 tion techniques, such as baseline signal stretch (BSS) [[], []],
+Underfull \hbox (badness 5460) in paragraph at lines 186--186
+[]\TU/LibertinusSerif(1)/m/n/10 S. W. Allison and G. T. Gillies. “Remote thermometry with thermographic phosphors:
  []
 
+[25]) (./3 Acoustic temperature sensing.tex [26]
+Chapter 3.
+Package biblatex Info: Reference section=0 on input line 1.
+\c@blx@maxsegment@6=\count537
+\c@blx@sectionciteorder@6=\count538
+Package biblatex Info: Reference section=6 on input line 1.
+Package biblatex Info: Setting label 'refsection:6' on input line 1.
+[27
 
-Overfull \hbox (95.30872pt too wide) in paragraph at lines 16--17
-\TU/LibertinusSerif(1)/m/n/10 rithm [[]], and temperature compensation for both velocity and phase changes [[],
- []
-
-
-LaTeX Warning: Citation '9-mariani2019compensation' on page 22 undefined on input line 18.
-
-
-LaTeX Warning: Citation '9-mariani2019compensation' on page 22 undefined on input line 18.
-
-[22]
+]
 Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
@@ -2150,91 +1731,12 @@ Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
 File: ./figures/bulkwavediagram.eps Graphic file (type eps)
 <./figures/bulkwavediagram.eps>
-
-
-LaTeX Warning: Citation 'Lynnworth1990' on page 23 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Davis2008' on page 23 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Takahashi2008' on page 23 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Jia2016' on page 23 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Skliar2015' on page 23 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Jia2019' on page 23 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Jeffrey2019' on page 23 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Balasubramaniam1999' on page 23 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Hashmi2015' on page 23 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Hashmi2019' on page 23 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Alzebda2010' on page 23 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Lee1994a' on page 23 undefined on input line 32.
-
-
-LaTeX Warning: Citation 'Lee1996' on page 23 undefined on input line 32.
-
-
-LaTeX Warning: Citation 'Klimek1998' on page 23 undefined on input line 32.
-
-[23]
-
-LaTeX Warning: Citation 'PereiraDaCunha2011' on page 24 undefined on input line 38.
-
-
-LaTeX Warning: Citation 'Dong2019' on page 24 undefined on input line 38.
-
+ [28] [29]
 File: ./figures/SAW delay line.png Graphic file (type bmp)
 <./figures/SAW delay line.png>
-
-LaTeX Warning: Citation 'Ida2014' on page 24 undefined on input line 43.
-
-
-LaTeX Warning: Citation 'Ida2014' on page 24 undefined on input line 43.
-
 File: ./figures/SAW resonator.png Graphic file (type bmp)
 <./figures/SAW resonator.png>
-
-LaTeX Warning: Citation 'Ida2014' on page 24 undefined on input line 49.
-
-
-LaTeX Warning: Citation 'Ida2014' on page 24 undefined on input line 49.
-
-
-LaTeX Warning: Citation 'Zhang2017a' on page 24 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'Khalili2016' on page 24 undefined on input line 54.
-
-[24]
-
-LaTeX Warning: Citation 'Mei2019' on page 25 undefined on input line 56.
-
-
-LaTeX Warning: Citation 'Giurgiutiu2003a' on page 25 undefined on input line 56.
-
-
-LaTeX Warning: Citation 'Ren2017' on page 25 undefined on input line 56.
-
-
-LaTeX Warning: Citation 'Giurgiutiu2003a' on page 25 undefined on input line 56.
-
+ [30]
 Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
@@ -2243,12 +1745,6 @@ Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
 File: ./figures/wedge.eps Graphic file (type eps)
 <./figures/wedge.eps>
-
-LaTeX Warning: Citation 'Parks2013' on page 25 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Cegla2011a' on page 25 undefined on input line 64.
-
 Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
@@ -2257,117 +1753,10 @@ Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
 File: ./figures/hertzian.eps Graphic file (type eps)
 <./figures/hertzian.eps>
-
-LaTeX Warning: Citation 'LeventDegertekin1997' on page 25 undefined on input line 72.
-
-
-LaTeX Warning: Citation 'Grimberg2010' on page 25 undefined on input line 72.
-
-
-LaTeX Warning: Citation 'Willsch2004a' on page 25 undefined on input line 72.
-
-[25]
+ [31]
 File: ./figures/willschwaveguide.png Graphic file (type bmp)
 <./figures/willschwaveguide.png>
-
-
-LaTeX Warning: Citation 'Willsch2004a' on page 26 undefined on input line 77.
-
-
-LaTeX Warning: Citation 'Willsch2004a' on page 26 undefined on input line 77.
-
-
-LaTeX Warning: Citation 'Khalili2018c' on page 26 undefined on input line 80.
-
-
-LaTeX Warning: Citation 'Kim2019a' on page 26 undefined on input line 80.
-
-
-LaTeX Warning: Citation '4-jiang2014high' on page 26 undefined on input line 82.
-
-
-LaTeX Warning: Citation '12-fachberger2004properties' on page 26 undefined on input line 82.
-
-
-LaTeX Warning: Citation '4-jiang2014high' on page 26 undefined on input line 82.
-
-
-LaTeX Warning: Citation '9-mariani2019compensation' on page 26 undefined on input line 82.
-
-
-LaTeX Warning: Citation '9R-18-hurst2015real' on page 26 undefined on input line 82.
-
-
-LaTeX Warning: Citation '9R-14-ha2010adhesive' on page 26 undefined on input line 82.
-
-
-Overfull \hbox (69.01877pt too wide) in paragraph at lines 82--83
-\TU/LibertinusSerif(1)/m/n/10 tic waves for this application, temperature has an effect on their operation [[], []].
- []
-
-
-Overfull \hbox (57.25871pt too wide) in paragraph at lines 82--83
-\TU/LibertinusSerif(1)/m/n/10 and if the transducer operates at the resonance ringing may be seen at some temperatures [[]].
- []
-
-
-LaTeX Warning: Citation 'Turner1994' on page 26 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'Tressler1998' on page 26 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'Tittmann2013' on page 26 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'Parks2013' on page 26 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'Jiang2013b' on page 26 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'Schulz2003' on page 26 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'Zhang2011' on page 26 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'Zhang2018' on page 26 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'stevenson2015piezoelectric' on page 26 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'zu2016high' on page 26 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'zhang2008characterization' on page 26 undefined on input line 85.
-
-
-Overfull \hbox (14.0421pt too wide) in paragraph at lines 85--86
-\TU/LibertinusSerif(1)/m/n/10 Piezoelectric materials for high temperature sensors have been compared by a number of authors [[],
- []
-
-[26]
-
-LaTeX Warning: Citation 'Kim2015' on page 27 undefined on input line 87.
-
-
-LaTeX Warning: Citation 'Kim2018a' on page 27 undefined on input line 87.
-
-
-LaTeX Warning: Citation 'Tittmann2013a' on page 27 undefined on input line 87.
-
-
-LaTeX Warning: Citation 'Rose2014' on page 27 undefined on input line 91.
-
-
-LaTeX Warning: Citation 'Su2009a' on page 27 undefined on input line 91.
-
-
-LaTeX Warning: Citation 'Cheeke2000a' on page 27 undefined on input line 92.
-
-[27]
+ [32]
 Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
@@ -2389,40 +1778,7 @@ Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
 File: ./figures/inconelyoungsdensitypoisson.eps Graphic file (type eps)
 <./figures/inconelyoungsdensitypoisson.eps>
-
-
-LaTeX Warning: Citation 'Abdullaev2019' on page 28 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'SpecialMetals2007' on page 28 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Abbas2020a' on page 28 undefined on input line 106.
-
-
-LaTeX Warning: Citation '9R-10-weaver2000temperature' on page 28 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Dodson2013' on page 28 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Marzani2012' on page 28 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Croxford2007a' on page 28 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Abbas2020a' on page 28 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Moll2019' on page 28 undefined on input line 106.
-
-
-Overfull \hbox (17.28543pt too wide) in paragraph at lines 106--107
-\TU/LibertinusSerif(1)/m/n/10 sity, Poisson’s ratio, and Young’s modulus, is shown in Figure [][]3.8[][] for the superalloy Inconel 718 [[],
- []
-
-[28]
+ [33] [34]
 Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
@@ -2443,10 +1799,6 @@ LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
 (Font)              scaled to size 8.99904pt on input line 116.
 LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 116.
-
-
-LaTeX Warning: Citation 'Huber' on page 29 undefined on input line 119.
-
 Invalid UTF-8 byte or sequence at line 123 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 123 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 123 replaced by U+FFFD.
@@ -2456,22 +1808,7 @@ Invalid UTF-8 byte or sequence at line 123 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 123 replaced by U+FFFD.
 File: ./figures/phasedispersion.eps Graphic file (type eps)
 <./figures/phasedispersion.eps>
-
-LaTeX Warning: Citation 'Espinosa2018' on page 29 undefined on input line 127.
-
-
-LaTeX Warning: Citation 'Svilainis2013' on page 29 undefined on input line 127.
-
-
-LaTeX Warning: Citation 'Jia2019a' on page 29 undefined on input line 127.
-
-
-LaTeX Warning: Citation 'Khyam2017' on page 29 undefined on input line 127.
-
-
-LaTeX Warning: Citation 'Costa-Junior2018' on page 29 undefined on input line 127.
-
-[29]
+ [35]
 Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
@@ -2493,106 +1830,63 @@ Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 137 replaced by U+FFFD.
 File: ./figures/grouptemp1mhztemp.eps Graphic file (type eps)
 <./figures/grouptemp1mhztemp.eps>
-
-
-LaTeX Warning: Citation 'Wilcox2004' on page 30 undefined on input line 141.
-
-
-LaTeX Warning: Citation 'Wilcox2003' on page 30 undefined on input line 141.
-
-[30] [31] [32]
-
-LaTeX Warning: Citation 'Jayaraman2009a' on page 33 undefined on input line 143.
-
-
-LaTeX Warning: Citation 'Swaminathan2011' on page 33 undefined on input line 143.
-
-
-LaTeX Warning: Citation 'Chandrasekaran2010a' on page 33 undefined on input line 143.
-
-
-LaTeX Warning: Citation 'Balasubramaniam2008' on page 33 undefined on input line 143.
-
-
-LaTeX Warning: Citation 'Verma2011' on page 33 undefined on input line 143.
-
-
-LaTeX Warning: Citation 'SriHarshaReddy2017a' on page 33 undefined on input line 143.
-
-
-LaTeX Warning: Citation 'Khalili2016' on page 33 undefined on input line 143.
-
-
-Overfull \hbox (6.59538pt too wide) in paragraph at lines 143--144
-\TU/LibertinusSerif(1)/m/n/10 cluding: their use for pipe inspections [[], [], []],
+ [36] [37] [38]
+Underfull \hbox (badness 1048) in paragraph at lines 149--150
+[]\TU/LibertinusSerif(1)/m/n/10 The literature covering the temperature dependence of guided waves is limited to relatively low
  []
 
-
-Overfull \hbox (71.14877pt too wide) in paragraph at lines 143--144
-\TU/LibertinusSerif(1)/m/n/10 their interaction with weld pads [[]], and their interaction with notch-like defects in plates [[]].
+[39] [40] [41]
+Underfull \hbox (badness 1048) in paragraph at lines 163--163
+[]\TU/LibertinusSerif(1)/m/n/10 Roman Růžek, Radek Lohonka, and Josef Jironč. “Ultrasonic C-scan and shearography NDI
  []
 
-[33] [34]
-
-LaTeX Warning: Empty bibliography on input line 163.
-
-) (./4 Lamb wave theory.tex [35]
-Chapter 4.
-Package biblatex Info: Reference section=0 on input line 1.
-\c@blx@maxsegment@7=\count534
-\c@blx@sectionciteorder@7=\count535
-Package biblatex Info: Reference section=7 on input line 1.
-Package biblatex Info: Setting label 'refsection:7' on input line 1.
-
-LaTeX Warning: Citation 'Huber' on page 36 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Rose2014' on page 36 undefined on input line 7.
-
-[36
+[42
 
 ]
+Underfull \hbox (badness 1077) in paragraph at lines 163--163
+[]\TU/LibertinusSerif(1)/m/n/10 Cleon E. Davis et al. “In situ acoustic temperature measurement during variable-frequency
+ []
 
-LaTeX Warning: Citation 'Nix1941' on page 37 undefined on input line 50.
+[43]
+Underfull \hbox (badness 1005) in paragraph at lines 163--163
+\TU/LibertinusSerif(1)/m/n/10 angle beam wedge transducers as the transmitter and receiver with consideration of beam
+ []
 
+[44]
+Underfull \hbox (badness 1210) in paragraph at lines 163--163
+[]\TU/LibertinusSerif(1)/m/n/10 James F. Tressler, Sedat Alkoy, and Robert E. Newnham. “Piezoelectric sensors and sensor
+ []
 
-LaTeX Warning: Citation 'Feder1958' on page 37 undefined on input line 50.
+[45]
+Underfull \hbox (badness 2717) in paragraph at lines 163--163
+[]\TU/LibertinusSerif(1)/m/n/10 Jochen Moll et al. “Temperature affected guided wave propagation in a composite plate
+ []
 
-
-LaTeX Warning: Citation 'Gibbons1958' on page 37 undefined on input line 50.
-
-
-Overfull \hbox (15.56795pt too wide) in paragraph at lines 48--51
-\TU/LibertinusSerif(1)/m/n/10 Where $[]$ is temperature in Kelvin, the equation is valid from 230 K to 900 K [[], [], []]. 
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\TU/LibertinusSerif(1)/m/n/10 estimation using different time-delay estimation methods based on cross-correlation:
  []
 
 
-LaTeX Warning: Citation 'Croxford2007' on page 37 undefined on input line 52.
-
-
-LaTeX Warning: Citation 'Lalpoor2009' on page 37 undefined on input line 62.
-
-
-LaTeX Warning: Citation 'Sakai1996' on page 37 undefined on input line 75.
-
-
-LaTeX Warning: Citation 'McLellan1987' on page 37 undefined on input line 75.
-
-
-LaTeX Warning: Citation 'Stokes1960' on page 37 undefined on input line 75.
-
-
-LaTeX Warning: Citation 'Naimon1975' on page 37 undefined on input line 75.
-
-
-Overfull \hbox (0.64207pt too wide) in paragraph at lines 75--77
-\TU/LibertinusSerif(1)/m/n/10 The change in Young’s modulus with temperature in Aluminium is represented by the Equation [[],
+Underfull \hbox (badness 2478) in paragraph at lines 163--163
+\TU/LibertinusSerif(1)/m/n/10 Computational simulation and experiments”. In: \TU/LibertinusSerif(0)/m/it/10 Meas. J. Int. Meas. Confed. \TU/LibertinusSerif(1)/m/n/10 122.May 2017
  []
 
-[37]
 
-LaTeX Warning: Citation 'Alleyne1992' on page 38 undefined on input line 82.
+Underfull \hbox (badness 1910) in paragraph at lines 163--163
+\TU/LibertinusSerif(1)/m/n/10 ORDER MODES CLUSTER (HOMC) GUIDED WAVES — A NEW TECHNIQUE FOR NDT
+ []
 
+) (./4 Lamb wave theory.tex [47]
+Chapter 4.
+Package biblatex Info: Reference section=0 on input line 1.
+\c@blx@maxsegment@7=\count539
+\c@blx@sectionciteorder@7=\count540
+Package biblatex Info: Reference section=7 on input line 1.
+Package biblatex Info: Setting label 'refsection:7' on input line 1.
+[48
+
+] [49]
 Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
@@ -2610,7 +1904,7 @@ Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
 File: ./figures/1mhzshift_new.eps Graphic file (type eps)
 <./figures/1mhzshift_new.eps>
-[38] [39]
+ [50] [51]
 Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
@@ -2619,38 +1913,26 @@ Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
 File: ./figures/multimodeedit.eps Graphic file (type eps)
 <./figures/multimodeedit.eps>
+ [52]) (./5 COMSOL.tex [53
 
-
-LaTeX Warning: Empty bibliography on input line 112.
-
-) (./5 COMSOL.tex [40]
+]
 Chapter 5.
 Package biblatex Info: Reference section=0 on input line 1.
-\c@blx@maxsegment@8=\count536
-\c@blx@sectionciteorder@8=\count537
+\c@blx@maxsegment@8=\count541
+\c@blx@sectionciteorder@8=\count542
 Package biblatex Info: Reference section=8 on input line 1.
 Package biblatex Info: Setting label 'refsection:8' on input line 1.
 
-LaTeX Warning: Citation 'Nikolaevtsev2016a' on page 41 undefined on input line 5.
+Underfull \hbox (badness 1527) in paragraph at lines 3--4
+\TU/LibertinusSerif(1)/m/n/10 The multiphysics simulation package COMSOL has been used to simulate potential temperature
+ []
 
 File: ./figures/comsoldiagram.png Graphic file (type bmp)
 <./figures/comsoldiagram.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'Abdel-Wahab2017' on page 41 undefined on input line 23.
-
-
-LaTeX Warning: Citation 'Hassard1973' on page 41 undefined on input line 23.
-
-
-LaTeX Warning: Citation 'Sahputra2018' on page 41 undefined on input line 23.
-
-
-LaTeX Warning: Citation 'Fukuhara1995' on page 41 undefined on input line 23.
-
-[41
+[54
 
 ]
 Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
@@ -2666,22 +1948,7 @@ File: ./figures/PMMAE.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'Fukuhara1995' on page 42 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'Sahputra2018' on page 42 undefined on input line 55.
-
-
-LaTeX Warning: Citation 'Sahputra2018' on page 42 undefined on input line 56.
-
-
-LaTeX Warning: Citation 'Abdel-Wahab2017' on page 42 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'Hassard1973' on page 42 undefined on input line 58.
-
-[42]
+[55]
 Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
@@ -2696,9 +1963,6 @@ File: ./figures/w2wdiagramonaxis.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'Hopkins2012' on page 43 undefined on input line 81.
-
 Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
@@ -2711,17 +1975,11 @@ Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
 File: ./figures/Alu_E.eps Graphic file (type eps)
 <./figures/Alu_E.eps>
-
-LaTeX Warning: Citation 'Hopkins2012' on page 43 undefined on input line 98.
-
-[43]
+[56]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'Rathod2020' on page 44 undefined on input line 109.
-
-[44]
+[57]
 Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
@@ -2730,7 +1988,7 @@ Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
 File: ./figures/excitation.eps Graphic file (type eps)
 <./figures/excitation.eps>
- [45]
+ [58]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2742,29 +2000,10 @@ File: ./figures/comsoltemp100c.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'COMSOL2013' on page 46 undefined on input line 215.
-
-
-LaTeX Warning: Citation 'COMSOL2017' on page 46 undefined on input line 215.
-
-[46]
-
-LaTeX Warning: Citation 'COMSOL2021' on page 47 undefined on input line 221.
-
-[47]
-
-LaTeX Warning: Citation 'COMSOL2021a' on page 48 undefined on input line 225.
-
-
-LaTeX Warning: Citation 'Southampton2021' on page 48 undefined on input line 227.
-
+[59] [60]
 File: ./figures/simmodes.png Graphic file (type bmp)
 <./figures/simmodes.png>
-
-LaTeX Warning: Citation 'Guers2011' on page 48 undefined on input line 239.
-
-[48] [49]
+ [61] [62]
 Invalid UTF-8 byte or sequence at line 269 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 269 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 269 replaced by U+FFFD.
@@ -2790,7 +2029,7 @@ File: ./figures/s0fullresultedit.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50] [51]
+[63] [64]
 Invalid UTF-8 byte or sequence at line 287 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 287 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 287 replaced by U+FFFD.
@@ -2816,9 +2055,9 @@ File: ./figures/A1fullresultedit.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[52
+[65
 
-] [53]
+] [66]
 Invalid UTF-8 byte or sequence at line 305 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 305 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 305 replaced by U+FFFD.
@@ -2845,9 +2084,9 @@ File: ./figures/S1fullresultedit.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[54
+[67
 
-] [55]
+] [68]
 Invalid UTF-8 byte or sequence at line 346 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 346 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 346 replaced by U+FFFD.
@@ -2864,19 +2103,28 @@ File: ./figures/inconelcomsolresult.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[69
 
-LaTeX Warning: Empty bibliography on input line 350.
+] [70]
+Underfull \hbox (badness 1331) in paragraph at lines 350--350
+[]\TU/LibertinusSerif(1)/m/n/10 Adel A. Abdel-Wahab, Sabbah Ataya, and Vadim V. Silberschmidt. “Temperature-dependent
+ []
 
-) (./6 Temperature Experiments.tex [56
+) (./6 Temperature Experiments.tex [71
 
-] [57]
+]
 Chapter 6.
 Package biblatex Info: Reference section=0 on input line 1.
-\c@blx@maxsegment@9=\count538
-\c@blx@sectionciteorder@9=\count539
+\c@blx@maxsegment@9=\count543
+\c@blx@sectionciteorder@9=\count544
 Package biblatex Info: Reference section=9 on input line 1.
 Package biblatex Info: Setting label 'refsection:9' on input line 1.
-[58
+
+Underfull \hbox (badness 1635) in paragraph at lines 3--4
+\TU/LibertinusSerif(1)/m/n/10 The wave velocity temperature sensitivity of the $[][]$, $[][]$, and $[][]$ Lamb wave modes have been
+ []
+
+[72
 
 ]
 Invalid UTF-8 byte or sequence at line 29 replaced by U+FFFD.
@@ -2900,14 +2148,14 @@ Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
 File: ./figures/w2wdiagram.eps Graphic file (type eps)
 <./figures/w2wdiagram.eps>
+ [73] [74]
+Underfull \hbox (badness 2680) in paragraph at lines 83--84
+[]\TU/LibertinusSerif(1)/m/n/10 The temperature gradient across the plate has been measured by placing four equally spaced
+ []
 
-
-LaTeX Warning: Citation 'Croxford2007a' on page 59 undefined on input line 60.
-
-[59] [60]
 File: ./figures/hjkhh7UmEx.png Graphic file (type bmp)
 <./figures/hjkhh7UmEx.png>
- [61]
+[75]
 Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
@@ -2930,9 +2178,9 @@ File: ./figures/aluplatemeasured.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[62
+[76
 
-] [63]
+] [77]
 Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
@@ -2957,7 +2205,7 @@ File: ./figures/a1moderesult.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[64]
+[78]
 Invalid UTF-8 byte or sequence at line 158 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 158 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 158 replaced by U+FFFD.
@@ -2966,88 +2214,142 @@ Invalid UTF-8 byte or sequence at line 158 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 158 replaced by U+FFFD.
 File: ./figures/s1hilbert.eps Graphic file (type eps)
 <./figures/s1hilbert.eps>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 161 replaced by U+FFFD.
 File: ./figures/s1moderesult.eps Graphic file (type eps)
 <./figures/s1moderesult.eps>
+ [79] [80] [81] [82]) (./7 Reflection experiments.tex [83
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[65]
-
-LaTeX Warning: Citation 'Hopkins2012' on page 66 undefined on input line 171.
-
-[66] [67]
-
-LaTeX Warning: Empty bibliography on input line 183.
-
-) (./7 Reflection experiments.tex [68]
+]
 Chapter 7.
 Package biblatex Info: Reference section=0 on input line 1.
-\c@blx@maxsegment@10=\count540
-\c@blx@sectionciteorder@10=\count541
+\c@blx@maxsegment@10=\count545
+\c@blx@sectionciteorder@10=\count546
 Package biblatex Info: Reference section=10 on input line 1.
 Package biblatex Info: Setting label 'refsection:10' on input line 1.
-[69
-
-] [70]
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
 File: ./figures/topdownholespacer.eps Graphic file (type eps)
 <./figures/topdownholespacer.eps>
- [71]
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+[84
+
+] [85]
+LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
+(Font)              scaled to size 12.00128pt on input line 50.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 50.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 50.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 50.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 50.
+
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
 File: ./figures/holeampboxplot.eps Graphic file (type eps)
 <./figures/holeampboxplot.eps>
- [72]
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
+[86]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 62.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 62.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 62.
+
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
 File: ./figures/holeampboxplotA1.eps Graphic file (type eps)
 <./figures/holeampboxplotA1.eps>
- [73]
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+[87]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 74.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 74.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 74.
+
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
 File: ./figures/holeampboxplotS1.eps Graphic file (type eps)
 <./figures/holeampboxplotS1.eps>
-) (./8 Research summary.tex [74]
+[88]
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+File: ./figures/S0throughthickness.eps Graphic file (type eps)
+<./figures/S0throughthickness.eps>
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+File: ./figures/A1throughthickness.eps Graphic file (type eps)
+<./figures/A1throughthickness.eps>
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+File: ./figures/S1throughthickness.eps Graphic file (type eps)
+<./figures/S1throughthickness.eps>
+) (./8 Research summary.tex [89] [90]
 Chapter 8.
 Package biblatex Info: Reference section=0 on input line 1.
-\c@blx@maxsegment@11=\count542
-\c@blx@sectionciteorder@11=\count543
+\c@blx@maxsegment@11=\count547
+\c@blx@sectionciteorder@11=\count548
 Package biblatex Info: Reference section=11 on input line 1.
 Package biblatex Info: Setting label 'refsection:11' on input line 1.
-[75
+[91
 
 ]
 File: ./figures/gantt.pdf Graphic file (type pdf)
@@ -3058,43 +2360,32 @@ File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf, page 1>
 File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf, page 1>
- [76]
+ [92]
 File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf, page 1>
 File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf, page 1>
 File: ./figures/gantt.pdf Graphic file (type pdf)
 <use ./figures/gantt.pdf, page 1>
- [77]) 
+ [93]) 
 AED: lastpage setting LastPage
 (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 92A8A2727CD4709F90B0A9745415286A;14568.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: C6B09E41C73B7E063FE8DF6912AF6D54;15196.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49668 strings out of 476180
- 1030035 string characters out of 5813082
- 1905693 words of memory out of 5000000
- 69580 multiletter control sequences out of 15000+600000
- 477321 words of font info for 102 fonts, out of 8000000 for 9000
+ 49389 strings out of 476180
+ 1043090 string characters out of 5813082
+ 2060667 words of memory out of 5000000
+ 69304 multiletter control sequences out of 15000+600000
+ 478862 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 108i,17n,117p,3765b,1555s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 108i,17n,117p,4062b,5324s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (85 pages).
+Output written on main.xdv (101 pages, 2307812 bytes).

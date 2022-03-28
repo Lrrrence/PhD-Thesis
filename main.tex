@@ -34,8 +34,18 @@
 \usepackage{adjustbox} %for resizing tables
 \usepackage{makecell} %new lines within table cells
 \usepackage{wasysym} %for diameter symbol
-\usepackage{microtype}
+%\usepackage{microtype}
 \usepackage{unicode-math}%for setting font
+\usepackage{subfig}
+
+%to reduce hyphenation
+\pretolerance=5000
+\tolerance=9000
+\emergencystretch=0pt
+\hyphenpenalty=10000
+\exhyphenpenalty=100
+\righthyphenmin=4
+\lefthyphenmin=4
 
 \setmainfont[%
 Ligatures={TeX,Common},
