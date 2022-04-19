@@ -46,24 +46,31 @@
 \contentsline {subsection}{\numberline {5.2.2}A1 Mode simulations}{65}{subsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.2.3}S1 Mode simulations}{67}{subsection.5.2.3}%
 \contentsline {section}{\numberline {5.3}Inconel 718 simulation}{69}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{72}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Test Method}{75}{section.6.1}%
-\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{76}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{76}{subsection.6.2.1}%
-\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{78}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{78}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{79}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{79}{subsection.6.4.1}%
-\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{81}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Conclusion}{81}{section.6.6}%
-\contentsline {chapter}{\numberline {7}Experimental investigation of single hole reflection amplitude}{84}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Determination of transmission distance}{85}{section.7.1}%
-\contentsline {section}{\numberline {7.2}The effect of hole size on signal amplitude}{86}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}$S_0$ Result}{86}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}$A_1$ Result}{87}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}$S_1$ Result}{88}{subsection.7.2.3}%
-\contentsline {subsection}{\numberline {7.2.4}Conclusions}{88}{subsection.7.2.4}%
-\contentsline {chapter}{\numberline {8}Research summary \& future plans}{91}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Research summary}{91}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Future plans}{92}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Gantt chart}{92}{section.8.3}%
+\contentsline {section}{\numberline {5.4}Effect of thermal barrier coatings (TBCs)}{69}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Experimental investigation of Lamb wave temperature sensitivity}{73}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Test Method}{76}{section.6.1}%
+\contentsline {section}{\numberline {6.2}S0 mode (1 MHz-mm)}{77}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}S0 mode results}{77}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}A1 mode (2.5 MHz-mm)}{79}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}A1 mode results}{79}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}S1 mode (4 MHz-mm)}{80}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}S1 mode results}{80}{subsection.6.4.1}%
+\contentsline {section}{\numberline {6.5}Experimental sensitivity analysis}{82}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Conclusion}{82}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Experimental investigation of single hole reflection amplitude}{85}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Determination of transmission distance}{86}{section.7.1}%
+\contentsline {section}{\numberline {7.2}The effect of hole size on signal amplitude}{87}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}$S_0$ Result}{87}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}$A_1$ Result}{88}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}$S_1$ Result}{89}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Conclusions}{89}{subsection.7.2.4}%
+\contentsline {chapter}{\numberline {8}Experimental investigation of multiple reflections}{92}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Pitch-catch experiments}{92}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Pulse-echo experiments}{92}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Research summary \& future plans}{93}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Research summary}{93}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Future plans}{94}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Gantt chart}{94}{section.9.3}%
+\contentsline {chapter}{\numberline {10}Conclusions and future research}{96}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Conclusions}{96}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Future research}{97}{section.10.2}%

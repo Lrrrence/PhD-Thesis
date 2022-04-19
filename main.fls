@@ -1864,6 +1864,14 @@ INPUT ./figures/inconelcomsolresult.eps
 INPUT ./figures/inconelcomsolresult.eps
 INPUT ./figures/inconelcomsolresult.eps
 INPUT ./figures/inconelcomsolresult.eps
+INPUT ./figures/IncTBCGroup.eps
+INPUT ./figures/IncTBCGroup.eps
+INPUT ./figures/IncTBCGroup.eps
+INPUT ./figures/IncTBCGroup.eps
+INPUT ./figures/IncTBCPhase.eps
+INPUT ./figures/IncTBCPhase.eps
+INPUT ./figures/IncTBCPhase.eps
+INPUT ./figures/IncTBCPhase.eps
 INPUT ./6 Temperature Experiments.tex
 INPUT 6 Temperature Experiments.tex
 INPUT ./6 Temperature Experiments.tex
@@ -1876,9 +1884,9 @@ INPUT ./figures/w2wdiagram.eps
 INPUT ./figures/w2wdiagram.eps
 INPUT ./figures/w2wdiagram.eps
 INPUT ./figures/w2wdiagram.eps
-INPUT ./figures/hjkhh7UmEx.png
-INPUT ./figures/hjkhh7UmEx.png
-INPUT ./figures/hjkhh7UmEx.png
+INPUT ./figures/expsetup.png
+INPUT ./figures/expsetup.png
+INPUT ./figures/expsetup.png
 INPUT ./figures/s0xcorr5cyc.eps
 INPUT ./figures/s0xcorr5cyc.eps
 INPUT ./figures/s0xcorr5cyc.eps
@@ -1903,10 +1911,10 @@ INPUT ./figures/s1moderesult.eps
 INPUT ./figures/s1moderesult.eps
 INPUT ./figures/s1moderesult.eps
 INPUT ./figures/s1moderesult.eps
-INPUT ./7 Reflection experiments.tex
-INPUT 7 Reflection experiments.tex
-INPUT ./7 Reflection experiments.tex
-INPUT 7 Reflection experiments.tex
+INPUT ./7 Hole amplitude experiments.tex
+INPUT 7 Hole amplitude experiments.tex
+INPUT ./7 Hole amplitude experiments.tex
+INPUT 7 Hole amplitude experiments.tex
 INPUT ./figures/topdownholespacer.eps
 INPUT ./figures/topdownholespacer.eps
 INPUT ./figures/topdownholespacer.eps
@@ -1940,10 +1948,14 @@ INPUT ./figures/S1throughthickness.eps
 INPUT ./figures/S1throughthickness.eps
 INPUT ./figures/S1throughthickness.eps
 INPUT ./figures/S1throughthickness.eps
-INPUT ./8 Research summary.tex
-INPUT 8 Research summary.tex
-INPUT ./8 Research summary.tex
-INPUT 8 Research summary.tex
+INPUT ./8 Multiple hole experiments.tex
+INPUT 8 Multiple hole experiments.tex
+INPUT ./8 Multiple hole experiments.tex
+INPUT 8 Multiple hole experiments.tex
+INPUT ./9 Research summary.tex
+INPUT 9 Research summary.tex
+INPUT ./9 Research summary.tex
+INPUT 9 Research summary.tex
 INPUT ./figures/gantt.pdf
 INPUT ./figures/gantt.pdf
 INPUT ./figures/gantt.pdf
@@ -1966,6 +1978,10 @@ INPUT ./figures/gantt.pdf
 INPUT ./figures/gantt.pdf
 INPUT ./figures/gantt.pdf
 INPUT ./figures/gantt.pdf
+INPUT ./10 Conclusions.tex
+INPUT 10 Conclusions.tex
+INPUT ./10 Conclusions.tex
+INPUT 10 Conclusions.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
