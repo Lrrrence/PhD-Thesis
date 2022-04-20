@@ -1352,18 +1352,18 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/fix-cm.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex
 INPUT c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex
-INPUT c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -1872,6 +1872,26 @@ INPUT ./figures/IncTBCPhase.eps
 INPUT ./figures/IncTBCPhase.eps
 INPUT ./figures/IncTBCPhase.eps
 INPUT ./figures/IncTBCPhase.eps
+INPUT ./figures/B0.eps
+INPUT ./figures/B0.eps
+INPUT ./figures/B0.eps
+INPUT ./figures/B0.eps
+INPUT ./figures/B1.eps
+INPUT ./figures/B1.eps
+INPUT ./figures/B1.eps
+INPUT ./figures/B1.eps
+INPUT ./figures/B2.eps
+INPUT ./figures/B2.eps
+INPUT ./figures/B2.eps
+INPUT ./figures/B2.eps
+INPUT ./figures/B3.eps
+INPUT ./figures/B3.eps
+INPUT ./figures/B3.eps
+INPUT ./figures/B3.eps
+INPUT ./figures/B5.eps
+INPUT ./figures/B5.eps
+INPUT ./figures/B5.eps
+INPUT ./figures/B5.eps
 INPUT ./6 Temperature Experiments.tex
 INPUT 6 Temperature Experiments.tex
 INPUT ./6 Temperature Experiments.tex
