@@ -17,6 +17,143 @@
 \endgroup
 
 
+\refsection{10}
+  \datalist[entry]{none/global//global/global}
+    \entry{Jeong2000}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6b08e04feab296a5a5e252900de1ab10}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Hee\bibnamedelima Don},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=814892d9dcb5855c0dd4e6f43bd8ad15}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Hyeon\bibnamedelima Jae},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a7be79920f643b7e2d10bf4a1bd3758c}{%
+           family={Rose},
+           familyi={R\bibinitperiod},
+           given={Joseph\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rome}%
+      }
+      \strng{namehash}{b848953308de09b6f08741f51a02a871}
+      \strng{fullhash}{b848953308de09b6f08741f51a02a871}
+      \strng{bibnamehash}{b848953308de09b6f08741f51a02a871}
+      \strng{authorbibnamehash}{b848953308de09b6f08741f51a02a871}
+      \strng{authornamehash}{b848953308de09b6f08741f51a02a871}
+      \strng{authorfullhash}{b848953308de09b6f08741f51a02a871}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{15th World Conf. Non-Destructive Test.}
+      \field{title}{{Detection of defects in a thin steel plate using ultrasonic guided wave}}
+      \field{year}{2000}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{11}
+  \datalist[entry]{none/global//global/global}
+    \entry{Kiyici2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c1ebd9a8fd03f169a599bf73228ad7c2}{%
+           family={Kiyici},
+           familyi={K\bibinitperiod},
+           given={Firat},
+           giveni={F\bibinitperiod}}}%
+        {{hash=232d62bf64b774c23c64005eb6d884ef}{%
+           family={Aksu},
+           familyi={A\bibinitperiod},
+           given={Tekin},
+           giveni={T\bibinitperiod}}}%
+        {{hash=990d19444d324949d018555b4b64613d}{%
+           family={Uslu},
+           familyi={U\bibinitperiod},
+           given={Sitki},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{529f192db2f33c336163fc03ea6d9219}
+      \strng{fullhash}{529f192db2f33c336163fc03ea6d9219}
+      \strng{bibnamehash}{529f192db2f33c336163fc03ea6d9219}
+      \strng{authorbibnamehash}{529f192db2f33c336163fc03ea6d9219}
+      \strng{authornamehash}{529f192db2f33c336163fc03ea6d9219}
+      \strng{authorfullhash}{529f192db2f33c336163fc03ea6d9219}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The fast development in the field of aeronautics dictates development of more powerful aircraft engines. Constant increase in overall pressure ratios and operating temperatures are essential for the required higher power and thrust.. However, higher Turbine Entry Temperatures reduce the operation life of engine components. Cooling of engine components is one of the vital issues for development of efficient engines in terms of engine life and cost. Gas turbine cooling technologies have been investigated for more than 70 years and it has substantially changed in the course of new aircraft engine development. In this study, a nozzle guide vane (NGV) is designed and an efficient cooling system is investigated for a commercial aircraft engine NGV leading edge. The engine is developed for “AIAA Undergraduate Team Engine Design Competition” and it has extremely a high overall pressure ratio of 60. The cooling of NGV, Nozzle Guide Vane, is one of the most critical design issues in the whole engine design cycle. In the present study film cooling of an NGV is investigated using computational fluid dynamics (CFD). Parametric study of different cooling hole configurations with a study of different turbulence sub models are studied. The parametric study of film cooling includes the cooling hole types, hole numbers and positions.}
+      \field{isbn}{9781624103933}
+      \field{journaltitle}{54th AIAA Aerosp. Sci. Meet.}
+      \field{number}{April 2017}
+      \field{title}{{Design of a high pressure turbine nozzle guide vane with effective film cooling system on leading edge}}
+      \field{volume}{0}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.2514/6.2016-0654
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/NGV hole sizes/BladeCooling{\_}Kiyici-Aksu-Uslu{\_}CSL-TobbEtu.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Clum2014}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e02cec49c70dea73d08af3b01c7c7c5b}{%
+           family={Clum},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f53d1549fef67b52c3af70416b666b05}{%
+           family={Bokar},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ca2f08e055f8fb1e449fdd5c9fd7ab12}{%
+           family={Casaday},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ba86ed865fead79ea0eb1fa86f76857b}{%
+           family={Bons},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a49985de2d51b5279167adb6eca7024}
+      \strng{fullhash}{637dd39958909f7bec158f37625cf2bc}
+      \strng{bibnamehash}{3a49985de2d51b5279167adb6eca7024}
+      \strng{authorbibnamehash}{3a49985de2d51b5279167adb6eca7024}
+      \strng{authornamehash}{3a49985de2d51b5279167adb6eca7024}
+      \strng{authorfullhash}{637dd39958909f7bec158f37625cf2bc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An experimental facility was fabricated to simulate particle deposition on the internal wall of a nozzle guide vane cooling cavity. The facility supplied particle-laden flow at temperatures up to 540°C to a simplified impingement cooling test section. The heated flow passed through a perforated film hole plate and impacted on the internal surface of a vane wall. The particle-laden impingement jets resulted in the buildup of deposit cones associated with individual impingement jets. The deposit growth rate increased with flow temperature and when the film hole plate temperature was elevated with backside heating. At low temperatures, deposit formed not only as individual cones, but as ridges located at the midplanes between impinging jets. The base diameter of the deposit structures were found to be larger than the impingement hole diameter due in part to an aerodynamic lensing effect. Further studies using a test piece with optical access were used to document the evolution of deposit cones during continuous deposition.}
+      \field{isbn}{9780791845714}
+      \field{journaltitle}{Proc. ASME Turbo Expo}
+      \field{number}{1}
+      \field{title}{{Particle deposition in internal cooling cavities of a nozzle guide vane-part I: Experimental investigation}}
+      \field{volume}{5A}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1115/GT2014-27150
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/NGV hole sizes/gt2014-27150.pdf:pdf
+      \endverb
+      \keyw{GT2014-27150}
+    \endentry
+  \enddatalist
+\endrefsection
+
 \refsection{4}
   \datalist[entry]{none/global//global/global}
     \entry{Yule2020}{inproceedings}{}
@@ -8960,6 +9097,265 @@
       \range{pages}{1}
       \verb{file}
       \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/Thesis/Guers (2011) - In situ monitoring of specimens using UGWs.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Li2017b}{article}{}
+      \name{author}{4}{}{%
+        {{hash=384e0934629a61e790ee11c08a679eba}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Biao},
+           giveni={B\bibinitperiod}}}%
+        {{hash=dc9f04a1029c9ce74f849322328f4c8d}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Xueling},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1d7c765a2e2fc8c996bb98851335e258}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Dingjun},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a6cd330d65a61e5776df47ea793c79e3}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f9ea20e5aa2b5bb5e9be86ea91e6911}
+      \strng{fullhash}{ba083666369ec8fa66253683adaa751f}
+      \strng{bibnamehash}{4f9ea20e5aa2b5bb5e9be86ea91e6911}
+      \strng{authorbibnamehash}{4f9ea20e5aa2b5bb5e9be86ea91e6911}
+      \strng{authornamehash}{4f9ea20e5aa2b5bb5e9be86ea91e6911}
+      \strng{authorfullhash}{ba083666369ec8fa66253683adaa751f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Thermal barrier coatings (TBCs) are deposited on the turbine blade to reduce the temperature of underlying substrate, as well as providing protection against the oxidation and hot corrosion from high temperature gas. Optimal ceramic top-coat thickness distribution on the blade can improve the performance and efficiency of the coatings. Design of the coatings thickness is a multiobjective optimization problem due to the conflicts among objectives of high thermal insulation performance, long operation durability, and low fabrication cost. This work developed a procedure for designing the TBCs thickness distribution for the gas turbine blade. Three-dimensional finite element models were built and analyzed, and weighted-sum approach was employed to solve the multiobjective optimization problem herein. Suitable multiregion top-coat thickness distribution scheme was designed with the considerations of manufacturing accuracy, productivity, and fabrication cost.}
+      \field{issn}{15635147}
+      \field{journaltitle}{Math. Probl. Eng.}
+      \field{title}{{Design of Thermal Barrier Coatings Thickness for Gas Turbine Blade Based on Finite Element Analysis}}
+      \field{volume}{2017}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1155/2017/2147830
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Gas turbine sensing/TBCs/2147830.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Huber}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=682d13fc6b970c2d3c6034d6426f804d}{%
+           family={Huber},
+           familyi={H\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{682d13fc6b970c2d3c6034d6426f804d}
+      \strng{fullhash}{682d13fc6b970c2d3c6034d6426f804d}
+      \strng{bibnamehash}{682d13fc6b970c2d3c6034d6426f804d}
+      \strng{authorbibnamehash}{682d13fc6b970c2d3c6034d6426f804d}
+      \strng{authornamehash}{682d13fc6b970c2d3c6034d6426f804d}
+      \strng{authorfullhash}{682d13fc6b970c2d3c6034d6426f804d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ger. Aerosp. Cent.}
+      \field{title}{{The Dispersion Calculator}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874{\_}read-61142/{\#}/gallery/33485
+      \endverb
+      \verb{url}
+      \verb https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874%7B%5C_%7Dread-61142/%7B%5C#%7D/gallery/33485
+      \endverb
+    \endentry
+    \entry{Zhang2012}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b37031ff57dc59c3e14679a43380dbb2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yanli},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=af765f6dc44eefb9b2e466f0ef1660c5}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=64e995b16640e63fa9b499bb54e3fa87}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yongping},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=40e616be7ee0ba8f2785bd6d0a996596}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Hongbo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=03fb8158eb8922eb7bffdadd513a289f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hongju},
+           giveni={H\bibinitperiod}}}%
+        {{hash=16f2ad3f6f12d88de935cf1876f9351b}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Shengkai},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Chinese Journal of Aeronautics}%
+      }
+      \strng{namehash}{9813a8c88bbfdbab50ebe751f7111db7}
+      \strng{fullhash}{0babacedc9b7b456eda4b8a5502946fe}
+      \strng{bibnamehash}{9813a8c88bbfdbab50ebe751f7111db7}
+      \strng{authorbibnamehash}{9813a8c88bbfdbab50ebe751f7111db7}
+      \strng{authornamehash}{9813a8c88bbfdbab50ebe751f7111db7}
+      \strng{authorfullhash}{0babacedc9b7b456eda4b8a5502946fe}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The role of multicomponent rare earth oxides in phase stability, thermo-physical properties and sintering for ZrO2-based thermal barrier coatings (TBCs) materials is investigated. 8YSZ co-doped with 3 mol(Gd2O3 and 3 mol Yb2O3 (GYb-YSZ) powders are synthesized by solid state reaction for 24 h at various temperatures. As temperature increases, stabilizers are dissolved into zirconia matrix gradually. Synthesized at 1 500 °C, GYb-YSZ is basically composed of cubic phase. GYb-YSZ exhibits excellent phase stability and sinters lower than 8YSZ by nearly three times. The thermal conductivity of GYb-YSZ is much lower than that of 8YSZ, and the thermal expansion coefficient of GYb-YSZ is comparable to that of 8YSZ. The influence of Gd2O3 and Yb2O3 co-doping on phase stability, thermal conductivity and sintering of 8YSZ is discussed. {©} 2012 Chinese Journal of Aeronautics.}
+      \field{isbn}{2007000601}
+      \field{issn}{10009361}
+      \field{journaltitle}{Chinese J. Aeronaut.}
+      \field{number}{6}
+      \field{title}{{Influence of Gd2O3 and Yb2O3 Co-doping on phase stability, thermo-physical properties and sintering of 8YSZ}}
+      \field{volume}{25}
+      \field{year}{2012}
+      \field{pages}{948\bibrangedash 953}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/S1000-9361(11)60466-4
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/Influence{\_}of{\_}Gd2O3{\_}and{\_}Yb2O3{\_}Co-doping{\_}on{\_}Phase{\_}St.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/S1000-9361(11)60466-4
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/S1000-9361(11)60466-4
+      \endverb
+      \keyw{Gd2O3 and Yb 2O3 co-doped 8YSZ (GYb-YSZ),phase stability,sintering,thermal barrier coatings (TBCs),thermo-physical properties}
+    \endentry
+    \entry{Bodisova2006}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ee1bb1d88f2268c1672f8efc30718567}{%
+           family={Bodišová},
+           familyi={B\bibinitperiod},
+           given={Katarína},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c253de7dc6c27536f899568c6c702f02}{%
+           family={Pach},
+           familyi={P\bibinitperiod},
+           given={Ladislav},
+           giveni={L\bibinitperiod}}}%
+        {{hash=87aeec9524208e76b8b10e4bfd160213}{%
+           family={Kovár},
+           familyi={K\bibinitperiod},
+           given={Vladimír},
+           giveni={V\bibinitperiod}}}%
+        {{hash=2c4b03d1b5e423913bee11bade32adc5}{%
+           family={Čerňanský},
+           familyi={Č\bibinitperiod},
+           given={Alojz},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3491fc76783f54d5354828fa685e3933}
+      \strng{fullhash}{6c66aebe7f2ff635c7e853709cb36858}
+      \strng{bibnamehash}{3491fc76783f54d5354828fa685e3933}
+      \strng{authorbibnamehash}{3491fc76783f54d5354828fa685e3933}
+      \strng{authornamehash}{3491fc76783f54d5354828fa685e3933}
+      \strng{authorfullhash}{6c66aebe7f2ff635c7e853709cb36858}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The alumina ceramics was prepared by pressure filtration of electrostatically stabilized alumina and alumina - boehmite water suspensions and subsequent pressureless sintering of as-prepared compacts. The aggregates formation was avoided by stabilization of initial suspension through the regulation of interparticle forces. Nanoparticle boehmite sol was used as a dispersant for alumina suspension, it acts as a lubricant, and moreover it enhances the handling strength of the green compacts and also its sinterability. The kinetic analysis of sintering confirmed, that the definite boehmite addition (2.7 wt.{\%} in green compact) affects positively the densification. The higher amount of boehmite addition has negative influence; it causes the flocculation of the suspensions and decreases the density of sintered bodies.}
+      \field{issn}{08625468}
+      \field{journaltitle}{Ceram. - Silikaty}
+      \field{number}{4}
+      \field{title}{{Alumina ceramics prepared by pressure filtration of alumina powder dispersed in boehmite sol}}
+      \field{volume}{50}
+      \field{year}{2006}
+      \field{pages}{239\bibrangedash 244}
+      \range{pages}{6}
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/2006{\_}04{\_}239.pdf:pdf
+      \endverb
+      \keyw{Alumina ceramics,Boehmite sol,Dispersant,Submicrometre grain size}
+    \endentry
+    \entry{Of2014}{report}{}
+      \name{author}{1}{}{%
+        {{hash=13ca0e2295e4cbdf5f3adde66daec042}{%
+           family={{Saint-Gobain Coating Solutions}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{13ca0e2295e4cbdf5f3adde66daec042}
+      \strng{fullhash}{13ca0e2295e4cbdf5f3adde66daec042}
+      \strng{bibnamehash}{13ca0e2295e4cbdf5f3adde66daec042}
+      \strng{authorbibnamehash}{13ca0e2295e4cbdf5f3adde66daec042}
+      \strng{authornamehash}{13ca0e2295e4cbdf5f3adde66daec042}
+      \strng{authorfullhash}{13ca0e2295e4cbdf5f3adde66daec042}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{105996306X}
+      \field{title}{{NiCrAlY Technical Bulletin}}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \field{pages}{7}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/thermal-spray-flexicord-nicraly-tds.pdf:pdf
+      \endverb
+    \endentry
+    \entry{SpecialMetals2007}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=44c17f5f0789176a521d24a7787758f2}{%
+           family={{Special Metals}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Special Metals}%
+      }
+      \strng{namehash}{44c17f5f0789176a521d24a7787758f2}
+      \strng{fullhash}{44c17f5f0789176a521d24a7787758f2}
+      \strng{bibnamehash}{44c17f5f0789176a521d24a7787758f2}
+      \strng{authorbibnamehash}{44c17f5f0789176a521d24a7787758f2}
+      \strng{authornamehash}{44c17f5f0789176a521d24a7787758f2}
+      \strng{authorfullhash}{44c17f5f0789176a521d24a7787758f2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{INCONEL{®} alloy 718 (UNS N07718/W.Nr. 2.4668) is a high-strength, corrosion-resistant nickel chromium material used at -423° to 1300°F. Typical composition limits are shown in Table 1. The age-hardenable alloy can be readily fabricated, even into complex parts. Its welding characteristics, especially its resistance to postweld cracking, are outstanding. The ease and economy with which INCONEL alloy 718 can be fabricated, combined with good tensile, fatigue, creep, and rupture strength, have resulted in its use in a wide range of applications. Examples of these are components for liquid fueled rockets, rings, casings and various formed sheet metal parts for aircraft and land-based gas turbine engines, and cryogenic tankage. It is also used for fasteners and instrumentation parts.}
+      \field{isbn}{SMC-063}
+      \field{title}{{IN718 Datasheet}}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 28}
+      \range{pages}{28}
+      \verb{doi}
+      \verb SMC-066
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Inconel 718/inconel{\_}alloy{\_}718.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.specialmetals.com/assets/smc/documents/inconel{\_}alloy{\_}718.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.specialmetals.com/assets/smc/documents/inconel%7B%5C_%7Dalloy%7B%5C_%7D718.pdf
       \endverb
     \endentry
   \enddatalist

@@ -106,7 +106,19 @@ The change in Poisson's ratio and density is assumed to negligible and is not in
 
 \subsection{Transducer configuration}
 
-The simplified ultrasonic transducer used in this study is comprised of an active piezoelectric element and a backing layer. Lead Zirconate Titanate (PZT-5H) from COMSOL's material library is operated at the first through-thickness resonance frequency for 1 MHz, where the ceramic thickness is equal to half a wavelength (2 mm). The backing layer is comprised of a highly attenuating material, with an acoustic impedance matching the piezo material as closely as possible. In this case an epoxy resin mixed with Tungsten powder is used~\cite{Rathod2020}. A matching layer is not employed as the signal amplitude is sufficient for this study.
+The simplified ultrasonic transducer used in this study is comprised of an active piezoelectric element and a backing layer. Lead Zirconate Titanate (PZT-5H) from COMSOL's material library is operated at the first through-thickness resonance frequency for 1 MHz, where the ceramic thickness is equal to half a wavelength (2 mm). 
+
+\begin{equation}
+    \text{Piezo thickness} = \left(\frac{v_p\times f_0}{2} \right)
+    \tagaddtext{[mm]}
+ \end{equation}
+
+ \begin{equation}
+    2.05 = \left(\frac{4101 \times 1}{2} \right)
+    \tagaddtext{[mm]}
+ \end{equation}
+
+The backing layer is comprised of a highly attenuating material, with an acoustic impedance matching the piezo material as closely as possible. In this case an epoxy resin mixed with Tungsten powder is used~\cite{Rathod2020}. A matching layer is not employed as the signal amplitude is sufficient for this study.
 
 The electrostatics module is set up as follows: A zero charge node is used for the edges of the piezoelectric material, initial values are set to 0 V, a ``Charge Conservation, Piezoelectric'' node is set for the piezoelectric material, a ground boundary is selected for the wedge side of the material, and a terminal node is set for the opposite boundary. Within the terminal node the type is set to Voltage and the input is set to ``V0(t)''. The excitation signal is a 1 MHz 5--cycle Hamming windowed sine pulse generated in MATLAB and included in COMSOL using an analytic function (Definitions$>$Functions$>$Analytic), given in Equation~\ref{eq:sinepulse} and shown in Figure~\ref{fig:excitation}. The receiver transducer is setup in the same way, except the terminal node type is set to ``charge''.
 %
@@ -351,15 +363,15 @@ Figure~\ref{fig:inconelcomsol} shows the change in group velocity with temperatu
 
 \section{Effect of thermal barrier coatings (TBCs)}
 
-In this section the effect of thermal barrier coatings on signal propagation is investigated through COMSOL simulation and the generation of dispersion curves. 
+In this section the effect of thermal barrier coatings on signal propagation is investigated through the generation of dispersion curves, and COMSOL simulation. 
 
-Thermal barrier coatings are made up of multiple layers, a bond coat, a thermally grown oxide layer (TGO), and a top coat. A typical configuration is considered in Table~\ref{table:TBCmatprops}. Table~\ref{table:TBCwavespeeds} shows the longitudinal and shear wave velocities of each TBC material used in this study, as calculated by COMSOL from the material properties used in Table~\ref{table:TBCmatprops}. 
+Thermal barrier coatings are made up of multiple layers, a bond coat, a thermally grown oxide layer (TGO), and a top coat. A typical configuration is considered in Table~\ref{table:TBCmatprops}, where the values for Young's modulus and Poisson's ratio are provided by Li~\cite{Li2017b}. Table~\ref{table:TBCwavespeeds} shows the longitudinal and shear wave velocities of each TBC material used in this study, as calculated by COMSOL from the material properties used in Table~\ref{table:TBCmatprops}. 
 
-In a non-symmetric laminate such as this the modes do not have a clear symmetric or antisymmetric character, especially when the different layers have substantially different material properties, and therefore wave speeds. The modes are therefore denoted using $B$, rather than categorising them as either symmetric, $S$ or antisymmetric, $A$. 
+In a non-symmetric laminate such as this the modes do not have a clear symmetric or antisymmetric character, especially when the different layers have substantially different material properties, and therefore wave speeds. The modes are therefore denoted using $B$ (as proposed by \href{https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874_read-61142/#/gallery/33485}{The Dispersion Calculator}~\cite{Huber}), rather than categorising them as either symmetric, $S$, or antisymmetric, $A$. 
 
 The group and phase velocity dispersion curves shown in Figures~\ref{fig:inconeldispTBCgroup} and~\ref{fig:inconeldispTBCphase} respectively differ substantially from those of only Inconel 718. The velocity of the two lowest order modes do not converge towards the Rayleigh wave speed at high frequency-thickness products, as the $B_1$ mode propagates $\sim$1000~\si{\metre\per\second} faster than the $B_0$ mode.
 
-Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement profiles for five different modes, at frequency-thickness values that correspond to points of group velocity maxima for the associated modes. At low frequency-thickness products (below the cut-off frequency of third mode, $B_2$) the modes respond in a similar manner to $A_0$ and $S_0$ in a single material, as the first mode ($B_0$) exhibits large out-of-plane motion, while the second mode ($B_1$) exhibits large in-plane motion. Above $B_1$, however, the top coat exhibits a large through-thickness displacement in comparison to the rest of the materials, which is especially apparent for $B_2$ and $B_3$. Modes $B_5$, $B_7$, and $B_9$ have group velocity maxima distinctly separate from other modes, which is advantageous for the excitation/identification of single modes, however these higher order modes exhibit relatively less displacement than lower order modes, which limits their sensitivities to holes, and results in lower amplitude signals.
+Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement profiles for five different modes, at frequency-thickness values that correspond to points of group velocity maxima for the associated modes. At low frequency-thickness products (below the cut-off frequency of third mode, $B_2$) the modes respond in a similar manner to $A_0$ and $S_0$ in a single material, as the first mode ($B_0$) exhibits large out-of-plane motion (Figure~\ref{fig:B0}), while the second mode ($B_1$) exhibits large in-plane motion (Figure~\ref{fig:B1}). Above $B_1$, however, the top coat exhibits a large through-thickness displacement in comparison to the rest of the materials, which is especially apparent for $B_2$ and $B_3$ (\cref{fig:B2,fig:B3}). Modes $B_5$, $B_7$, and $B_9$ have group velocity maxima distinctly separate from other modes, which is advantageous for the excitation/identification of single modes, however these higher order modes exhibit relatively less displacement than lower order modes~\cref{fig:B5}, which limits their sensitivity to holes, and results in lower amplitude signals.
 
 \begin{table}[h]
     \centering
@@ -368,10 +380,10 @@ Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement
         \toprule
         \textbf{Layer type} & \textbf{Material} & \makecell[l]{\textbf{Young's Modulus} \\ (GPa)} & \textbf{Poisson's ratio} & \makecell[l]{\textbf{Density}\\(kg/m$^3$)} & \makecell[l]{\textbf{Thickness}\\(\textmu m)} \\ 
         \midrule
-        Top coat  & ZrO2-8 wt\% Y2O3 (8YSZ) & 48  & 0.1  & 5770 & 200  \\
-        TGO       & $\alpha$-Al2O3                & 400 & 0.23 & 3987 & 10   \\
-        Bond coat & NiCrAlY                 & 200 & 0.3  & 7500 & 100  \\
-        Substrate & Inconel 718             & 202 & 0.29 & 8226 & 1000 \\ 
+        Top coat  & ZrO2-8 wt\% Y2O3 (8YSZ) & 48  & 0.1  & 5770~\cite{Zhang2012} & 200  \\
+        TGO       & $\alpha$-Al2O3                & 400 & 0.23 & 3987~\cite{Bodisova2006}  & 10   \\
+        Bond coat & NiCrAlY                 & 200 & 0.3  & 7500~\cite{Of2014} & 100  \\
+        Substrate & Inconel 718~\cite{SpecialMetals2007}             & 202 & 0.29 & 8226 & 1000 \\ 
         \bottomrule
     \end{tabular}
 \end{adjustbox}
@@ -395,54 +407,55 @@ Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement
 \caption{Wave velocities of thermal barrier coatings.}\label{table:TBCwavespeeds}
 \end{table}
 
-\begin{figure}[h]
+\begin{figure}[p]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/IncTBCGroup.eps}
     \caption{Group velocity dispersion curves for Inconel 718 with TBC.}\label{fig:inconeldispTBCgroup}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[p]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/IncTBCPhase.eps}
     \caption{Phase velocity dispersion curves for Inconel 718 with TBC.}\label{fig:inconeldispTBCphase}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[p]
     \raggedright
         \begin{subfigure}[c]{0.45\textwidth}
             \centering
             \includegraphics[width=1\textwidth]{./figures/B0.eps}
-            \caption{$B_0$ Displacement -- 1 MHz-mm}
+            \caption{$B_0$ Displacement -- 1 MHz-mm}\label{fig:B0}
         \end{subfigure}
         \hfill
         \begin{subfigure}[c]{0.45\textwidth}
             \centering
             \includegraphics[width=1\textwidth]{./figures/B1.eps}
-            \caption{$B_1$ Displacement -- 1 MHz-mm}
+            \caption{$B_1$ Displacement -- 1 MHz-mm}\label{fig:B1}
         \end{subfigure}
         \vskip\baselineskip
         \begin{subfigure}[c]{0.45\textwidth}
             \centering
             \includegraphics[width=1\textwidth]{./figures/B2.eps}
-            \caption{$B_2$ Displacement -- 3.2 MHz-mm}
+            \caption{$B_2$ Displacement -- 2.4 MHz-mm}\label{fig:B2}
         \end{subfigure}
         \hfill
         \begin{subfigure}[c]{0.45\textwidth}
             \centering
             \includegraphics[width=1\textwidth]{./figures/B3.eps}
-            \caption{$B_3$ Displacement -- 3.2 MHz-mm}
+            \caption{$B_3$ Displacement -- 2.4 MHz-mm}\label{fig:B3}
         \end{subfigure}
         \vskip\baselineskip
         \begin{subfigure}[c]{0.65\textwidth}
             \centering
             \includegraphics[width=1\textwidth]{./figures/B5.eps}
-            \caption{$B_5$ Displacement -- 5.8 MHz-mm}
+            \caption{$B_5$ Displacement -- 4.4 MHz-mm}\label{fig:B5}
         \end{subfigure}
-
     \caption{Through thickness displacement profiles for Inconel 718 with TBC applied.}\label{fig:inconelTBCdisplacement}
 \end{figure}
 
+\subsection{COMSOL simulations of wave propagation through Inconel 718 with TBC applied}
 
+Three wave modes with clear peaks in group velocity were targeted, to be excited with a wedge transducer. $B_1$ at 1~MHz-mm, $B_3$ at 2.4~MHz-mm, and $B_5$ at 4.4~MHz-mm. These frequencies products correspond to peaks in the group velocity dispersion curves, where velocity is at a maximum for these modes. The use of wedge transducers further isolates each mode. 
 
 
 \printbibliography[title={Chapter~\thechapter~Bibliography}]

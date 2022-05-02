@@ -33,9 +33,9 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Young's modulus of PMMA.\relax }}{56}{figure.caption.38}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Cross-sectional diagram of on-axis wedge-to-wedge time-of-flight measurement setup.\relax }}{57}{figure.caption.40}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Young's modulus of Aluminium.\relax }}{57}{figure.caption.41}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Hamming windowed 5--cycle pulse.\relax }}{58}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Hamming windowed 5--cycle pulse.\relax }}{59}{figure.caption.43}%
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Simulated temperature gradients from stationary study at 100\si {\degreeCelsius }.\relax }}{61}{figure.caption.47}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Presence of the $A_0$ \& $S_0$ modes.\relax }}{61}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Presence of the $A_0$ \& $S_0$ modes.\relax }}{62}{figure.caption.48}%
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Wave propagation of $S_0$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{63}{figure.caption.50}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{64}{figure.caption.51}%
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Wave propagation of $A_1$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{65}{figure.caption.52}%
@@ -48,27 +48,27 @@
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Through thickness displacement profiles for Inconel 718 with TBC applied.\relax }}{73}{figure.caption.62}%
 \contentsline {subfigure}{\numberline {a}{\ignorespaces $B_0$ Displacement -- 1 MHz-mm\relax }}{73}{figure.caption.62}%
 \contentsline {subfigure}{\numberline {b}{\ignorespaces $B_1$ Displacement -- 1 MHz-mm\relax }}{73}{figure.caption.62}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces $B_2$ Displacement -- 3.2 MHz-mm\relax }}{73}{figure.caption.62}%
-\contentsline {subfigure}{\numberline {d}{\ignorespaces $B_3$ Displacement -- 3.2 MHz-mm\relax }}{73}{figure.caption.62}%
-\contentsline {subfigure}{\numberline {e}{\ignorespaces $B_5$ Displacement -- 5.8 MHz-mm\relax }}{73}{figure.caption.62}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces $B_2$ Displacement -- 2.4 MHz-mm\relax }}{73}{figure.caption.62}%
+\contentsline {subfigure}{\numberline {d}{\ignorespaces $B_3$ Displacement -- 2.4 MHz-mm\relax }}{73}{figure.caption.62}%
+\contentsline {subfigure}{\numberline {e}{\ignorespaces $B_5$ Displacement -- 4.4 MHz-mm\relax }}{73}{figure.caption.62}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Cross-sectional diagram of total time-of-flight measurement setup.\relax }}{76}{figure.caption.65}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Cross-sectional diagram of wedge-to-wedge time-of-flight measurement setup.\relax }}{76}{figure.caption.66}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Photograph of test setup.\relax }}{78}{figure.caption.67}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Time of flight ($t_F$) measurement of $S_0$ mode wave propagation using cross-correlation function at room temperature.\relax }}{79}{figure.caption.68}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Group velocity change with temperature for the $S_0$ mode in Aluminium 1050 H14.\relax }}{80}{figure.caption.69}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Time of flight ($t_F$) measurement of $A_1$ mode wave propagation using cross-correlation function at room temperature.\relax }}{81}{figure.caption.70}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Group velocity change with temperature for the $A_1$ mode in Aluminium 1050 H14.\relax }}{82}{figure.caption.71}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Time of flight ($t_F$) measurement of $S_1$ mode using envelope peak method at room temperature.\relax }}{83}{figure.caption.72}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Group velocity change with temperature for the $S_1$ mode in Aluminium 1050 H14.\relax }}{83}{figure.caption.72}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Cross-sectional diagram of total time-of-flight measurement setup.\relax }}{78}{figure.caption.65}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Cross-sectional diagram of wedge-to-wedge time-of-flight measurement setup.\relax }}{78}{figure.caption.66}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Photograph of test setup.\relax }}{80}{figure.caption.67}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Time of flight ($t_F$) measurement of $S_0$ mode wave propagation using cross-correlation function at room temperature.\relax }}{81}{figure.caption.68}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Group velocity change with temperature for the $S_0$ mode in Aluminium 1050 H14.\relax }}{82}{figure.caption.69}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Time of flight ($t_F$) measurement of $A_1$ mode wave propagation using cross-correlation function at room temperature.\relax }}{83}{figure.caption.70}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Group velocity change with temperature for the $A_1$ mode in Aluminium 1050 H14.\relax }}{84}{figure.caption.71}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Time of flight ($t_F$) measurement of $S_1$ mode using envelope peak method at room temperature.\relax }}{85}{figure.caption.72}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Group velocity change with temperature for the $S_1$ mode in Aluminium 1050 H14.\relax }}{85}{figure.caption.72}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagram of single hole reflection measurement setup.\relax }}{87}{figure.caption.74}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_0$ mode.\relax }}{89}{figure.caption.75}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $A_1$ mode.\relax }}{90}{figure.caption.76}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_1$ mode.\relax }}{91}{figure.caption.77}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Through thickness displacement profile of the $S_0$ mode.\relax }}{92}{figure.caption.78}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Through thickness displacement profile of the $A_1$ mode.\relax }}{92}{figure.caption.79}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Through thickness displacement profile of the $S_1$ mode.\relax }}{93}{figure.caption.80}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagram of single hole reflection measurement setup.\relax }}{89}{figure.caption.74}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_0$ mode.\relax }}{91}{figure.caption.75}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $A_1$ mode.\relax }}{92}{figure.caption.76}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_1$ mode.\relax }}{93}{figure.caption.77}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Through thickness displacement profile of the $S_0$ mode.\relax }}{94}{figure.caption.78}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Through thickness displacement profile of the $A_1$ mode.\relax }}{94}{figure.caption.79}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Through thickness displacement profile of the $S_1$ mode.\relax }}{95}{figure.caption.80}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
