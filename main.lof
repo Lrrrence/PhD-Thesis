@@ -17,58 +17,59 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces A SAW resonator}}{31}{figure.caption.21}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces A typical wedge transducer.\relax }}{31}{figure.caption.22}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces An example Hertzian contact transducer.\relax }}{32}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Willsch's welded waveguide}}{32}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Willsch's welded waveguide}}{33}{figure.caption.24}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Particle displacement of symmetric and antisymmetric Lamb wave modes in a plate.\relax }}{34}{figure.caption.25}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Temperature dependent Young's modulus, density, and calculated Poisson's ratio for Inconel 718.\relax }}{34}{figure.caption.26}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces The effect of temperature on the $S_0$ mode in an aluminium plate.\relax }}{35}{figure.caption.27}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Lamb wave phase velocity dispersion curves for Inconel 718.\relax }}{36}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 21\si {\degreeCelsius } to 1093\si {\degreeCelsius } for Inconel 718.\relax }}{37}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces $A_0$ \& $S_0$ group velocity change with temperature from 27\si {\degreeCelsius } to 1027\si {\degreeCelsius } at 1\nobreakspace {}MHz for Inconel 718.\relax }}{38}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces The effect of temperature on Lamb wave propagation for Inconel 718.\relax }}{37}{figure.caption.29}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 21\si {\degreeCelsius } to 1093\si {\degreeCelsius } for Inconel 718.\relax }}{37}{figure.caption.29}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces $A_0$ \& $S_0$ group velocity change with temperature from 27\si {\degreeCelsius } to 1027\si {\degreeCelsius } at 1\nobreakspace {}MHz for Inconel 718.\relax }}{37}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces An example of multi-modal wave packets. Simulated 100 mm wave propagation of 10--cycle Hamming windowed 1\nobreakspace {}MHz sine pulse in a 4 mm thick aluminium plate.\relax }}{40}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 20\si {\degreeCelsius } to 100\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{50}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces $S_0$, $A_1$, and $S_1$ group velocity change with temperature from 10\si {\degreeCelsius } to 110\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{51}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces An example of multi-modal wave packets. Simulated 100 mm wave propagation of 10--cycle Hamming windowed 1\nobreakspace {}MHz sine pulse in a 4 mm thick aluminium plate.\relax }}{52}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The effect of temperature on Lamb wave propagation for Aluminium 1050 H14.\relax }}{51}{figure.caption.32}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 20\si {\degreeCelsius } to 100\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{51}{figure.caption.32}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces $S_0$, $A_1$, and $S_1$ group velocity change with temperature from 10\si {\degreeCelsius } to 110\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{51}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cross-sectional diagram of total time-of-flight measurement setup.\relax }}{52}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Cross-sectional diagram of wedge-to-wedge time-of-flight measurement setup.\relax }}{52}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Photograph of test setup.\relax }}{54}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Time of flight ($t_F$) measurement of $S_0$ mode wave propagation using cross-correlation function at room temperature.\relax }}{55}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Group velocity change with temperature for the $S_0$ mode in Aluminium 1050 H14.\relax }}{56}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Time of flight ($t_F$) measurement of $A_1$ mode wave propagation using cross-correlation function at room temperature.\relax }}{57}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Group velocity change with temperature for the $A_1$ mode in Aluminium 1050 H14.\relax }}{58}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Time of flight ($t_F$) measurement of $S_1$ mode using envelope peak method at room temperature.\relax }}{59}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Group velocity change with temperature for the $S_1$ mode in Aluminium 1050 H14.\relax }}{59}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces COMSOL geometry diagram\relax }}{61}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Young's modulus of PMMA.\relax }}{63}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Cross-sectional diagram of on-axis wedge-to-wedge time-of-flight measurement setup.\relax }}{63}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Young's modulus of Aluminium.\relax }}{64}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Hamming windowed 5--cycle pulse.\relax }}{65}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Simulated temperature gradients from stationary study at 100\si {\degreeCelsius }.\relax }}{67}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Presence of the $A_0$ \& $S_0$ modes.\relax }}{68}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Wave propagation of $S_0$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{70}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{71}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Wave propagation of $A_1$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{72}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Velocity change with temperature for $A_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{73}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Wave propagation of $S_1$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{74}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Velocity change with temperature for $S_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{75}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Velocity change with temperature for $S_0$ Lamb wave mode in Inconel 718. Comparison between predicted and simulated results.\relax }}{77}{figure.caption.63}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces COMSOL geometry diagram\relax }}{55}{figure.caption.36}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Young's modulus of PMMA.\relax }}{56}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Cross-sectional diagram of on-axis wedge-to-wedge time-of-flight measurement setup.\relax }}{57}{figure.caption.40}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Young's modulus of Aluminium.\relax }}{57}{figure.caption.41}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Hamming windowed 5--cycle pulse.\relax }}{59}{figure.caption.43}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Simulated temperature gradients from stationary study at 100\si {\degreeCelsius }.\relax }}{61}{figure.caption.47}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Presence of the $A_0$ \& $S_0$ modes.\relax }}{62}{figure.caption.48}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Wave propagation of $S_0$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{63}{figure.caption.50}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{64}{figure.caption.51}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Wave propagation of $A_1$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{65}{figure.caption.52}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Velocity change with temperature for $A_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{66}{figure.caption.53}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Wave propagation of $S_1$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{67}{figure.caption.54}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Velocity change with temperature for $S_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{68}{figure.caption.55}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Velocity change with temperature for $S_0$ Lamb wave mode in Inconel 718. Comparison between predicted and simulated results.\relax }}{70}{figure.caption.57}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Group velocity dispersion curves for Inconel 718 with TBC.\relax }}{72}{figure.caption.60}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Phase velocity dispersion curves for Inconel 718 with TBC.\relax }}{72}{figure.caption.61}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Through thickness displacement profiles for Inconel 718 with TBC applied.\relax }}{73}{figure.caption.62}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces $B_0$ Displacement -- 1 MHz-mm\relax }}{73}{figure.caption.62}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces $B_1$ Displacement -- 1 MHz-mm\relax }}{73}{figure.caption.62}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces $B_2$ Displacement -- 2.4 MHz-mm\relax }}{73}{figure.caption.62}%
-\contentsline {subfigure}{\numberline {d}{\ignorespaces $B_3$ Displacement -- 2.4 MHz-mm\relax }}{73}{figure.caption.62}%
-\contentsline {subfigure}{\numberline {e}{\ignorespaces $B_5$ Displacement -- 4.4 MHz-mm\relax }}{73}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagram of single hole reflection measurement setup.\relax }}{81}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_0$ mode.\relax }}{82}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $A_1$ mode.\relax }}{83}{figure.caption.67}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_1$ mode.\relax }}{84}{figure.caption.68}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Through thickness displacement profiles for Aluminium.\relax }}{85}{figure.caption.69}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces $S_0$ Displacement.\relax }}{85}{figure.caption.69}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces $A_1$ Displacement.\relax }}{85}{figure.caption.69}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces $S_1$ Displacement.\relax }}{85}{figure.caption.69}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Cross-sectional diagram of total time-of-flight measurement setup.\relax }}{78}{figure.caption.65}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Cross-sectional diagram of wedge-to-wedge time-of-flight measurement setup.\relax }}{78}{figure.caption.66}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Photograph of test setup.\relax }}{80}{figure.caption.67}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Time of flight ($t_F$) measurement of $S_0$ mode wave propagation using cross-correlation function at room temperature.\relax }}{81}{figure.caption.68}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Group velocity change with temperature for the $S_0$ mode in Aluminium 1050 H14.\relax }}{82}{figure.caption.69}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Time of flight ($t_F$) measurement of $A_1$ mode wave propagation using cross-correlation function at room temperature.\relax }}{83}{figure.caption.70}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Group velocity change with temperature for the $A_1$ mode in Aluminium 1050 H14.\relax }}{84}{figure.caption.71}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Time of flight ($t_F$) measurement of $S_1$ mode using envelope peak method at room temperature.\relax }}{85}{figure.caption.72}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Group velocity change with temperature for the $S_1$ mode in Aluminium 1050 H14.\relax }}{85}{figure.caption.72}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagram of single hole reflection measurement setup.\relax }}{89}{figure.caption.74}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_0$ mode.\relax }}{91}{figure.caption.75}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $A_1$ mode.\relax }}{92}{figure.caption.76}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_1$ mode.\relax }}{93}{figure.caption.77}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Through thickness displacement profile of the $S_0$ mode.\relax }}{94}{figure.caption.78}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Through thickness displacement profile of the $A_1$ mode.\relax }}{94}{figure.caption.79}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Through thickness displacement profile of the $S_1$ mode.\relax }}{95}{figure.caption.80}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Dispersion curves for Inconel 718 with TBC.\relax }}{89}{figure.caption.73}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Energy velocity.\relax }}{89}{figure.caption.73}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Phase velocity.\relax }}{89}{figure.caption.73}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Through thickness displacement profiles for Inconel 718 with TBC applied.\relax }}{90}{figure.caption.74}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces $B_0$ Displacement -- 1 MHz.\relax }}{90}{figure.caption.74}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces $B_1$ Displacement -- 1 MHz.\relax }}{90}{figure.caption.74}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces $B_2$ Displacement -- 2.4 MHz.\relax }}{90}{figure.caption.74}%
+\contentsline {subfigure}{\numberline {d}{\ignorespaces $B_3$ Displacement -- 2.4 MHz.\relax }}{90}{figure.caption.74}%
+\contentsline {subfigure}{\numberline {e}{\ignorespaces $B_5$ Displacement -- 4.4 MHz.\relax }}{90}{figure.caption.74}%
 \addvspace {10\p@ }

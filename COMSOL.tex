@@ -1,0 +1,469 @@
+\chapter{COMSOL simulations of Lamb wave propagation}\label{simulations}
+
+The multiphysics simulation package COMSOL has been used to simulate potential temperature monitoring systems, investigating the effect of temperature on Lamb wave propagation.
+
+The literature covering the use of COMSOL for modelling Lamb wave excitation using wedge transducers is limited, however it has been shown that Lamb waves can be successfully generated using this method~\cite{Nikolaevtsev2016a}.
+
+\section{Variable angle wedge simulation}
+
+A 2D model has been produced of the experimental test setup described in Section~\ref{experiments}. This allows for validation of the time of flight measurements, and can be used to separate the effect of temperature on the wedges from the substrate. The effect of temperature on the Lamb wave alone can therefore be analysed. 
+
+\subsection{Geometry}
+
+The model consists of two variable angle wedges (PMMA), which are based on the geometry of the Olympus variable angle wedges used in the experimental investigation, placed on top of an aluminium plate. The thickness of the plate can be varied to target different Lamb wave modes at different frequency-thickness products. The initial thickness is set to 1 mm to target the $S_0$ mode at 1 MHz--mm. The transmitting wedge has a simplified piezoelectric transducer (PZT-5H from COMSOL's material library) attached to it's rotating block, to which the excitation signal is applied. The geometry can be seen in Figure \ref{fig:COMSOLdiagram}. The received signal is measured at the receiver wedge's rotating block boundary. More realistic transducer configurations are not considered in this study, as the focus is on the effect of temperature on the propagating wave. A boundary area is set underneath the plate to act as the heat source, again mimicking the experimental setup. This is simplified to allow the temperature to be directly set, rather than simulating a hot plate.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/comsoldiagram.png}
+    \caption{COMSOL geometry diagram}\label{fig:COMSOLdiagram}
+\end{figure}
+
+\subsection{Material properties}
+
+The change in Young's Modulus with temperature is included in the material properties for both the wedges and the aluminium using piecewise functions. Unfortunately the specific material properties of the Olympus wedges used in the experimental study are unknown, and the values for PMMA found in literature vary quite dramatically. Figure~\ref{fig:PMMAE} shows five sources of temperature dependant Young's modulus for PMMA, where the shaded green region indicates the temperature range of interest in this study (20-100\si{\degreeCelsius}). Polynomial fits have been applied to the data sets to allow them to be used in COMSOL (apart from COMSOL's in-built values which are given as a function) and are provided in Table~\ref{table:PMMAE}, where $T$ is the temperature in Kelvin. The Alexandria~\cite{Abdel-Wahab2017} and Goodyear Aerospace~\cite{Hassard1973} sources have been disregarded as the large reduction in $E$ over the temperature range of interest is not considered realistic, based on the use of the Olympus wedges in the experimental study. The Birmingham sources~\cite{Sahputra2018} (provided at two different annealing temperatures, 600K and 1000K) differ greatly from the values provided by COMSOL's material library entry for PMMA~\cite{Fukuhara1995}. Room temperature values of Young's modulus (for which there are many more sources) range from 1.8-5.0 GPa, however they are mostly commonly given at $\sim$3.0 GPa. In order to accurately represent the wedge material used experimentally, the value of Young's modulus has been inferred from measurements of longitudinal wave velocity. 
+
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLL}
+        \toprule
+        \textbf{Property} & \textbf{PMMA} & \textbf{Aluminium}  \\
+        \midrule
+        Heat capacity at constant pressure (J/(kg$\cdot$K)) & 1470 & 904 \\
+        Density (kg/m$^3$) & 1190 & 2700\\
+        Thermal conductivity (W/(m$\cdot$K)) & 0.18  & 237\\
+        Young's modulus (Pa) & XXX & XXX \\
+        Poisson's ratio & 0.35 & 0.3375\\
+        \bottomrule
+    \end{tabulary} 
+    \caption{COMSOL material properties}\label{table:matprop}
+\end{table}
+%
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/PMMAE.eps}
+    \caption{Young's modulus of PMMA.}\label{fig:PMMAE}
+\end{figure}
+%
+\begin{table}[h]
+    \centering
+\begin{adjustbox}{width=1.2\textwidth,center=\textwidth}
+    \begin{tabular}{ll}
+        \toprule
+        \textbf{Source} & \textbf{Function}\\
+        \midrule
+        COMSOL Material Library~\cite{Fukuhara1995} & $E = 4.3102{\times}10^9 + 6.9344{\times}10^7 \times T^1 - 5.2821{\times}10^5 \times T^2+ 1.5796{\times}10^3 \times T^3-1.7421\times T^4$ \\
+        Birmingham 600K Annealing~\cite{Sahputra2018} & $E = 58.3 \times T^3 + -7.6500{\times}10^4 \times T^2 + 2.1367{\times}10^7 \times T + 2.8500{\times}10^9$ \\
+        Birmingham 1000K Annealing~\cite{Sahputra2018}  & $E = -116.7 \times T^3 + 9.3000{\times}10^4 \times T^2 + -2.8333{\times}10^7 \times T + 7.0200{\times}10^9$ \\
+        Alexandria~\cite{Abdel-Wahab2017} & $E = -2.6773{\times}10^4 \times T^3 + 2.4371{\times}10^7 \times T^2 + -7.4029{\times}10^9 \times T + 7.5540{\times}10^{11}$ \\
+        Goodyear Aerospace~\cite{Hassard1973} & $E = -1.5514{\times}10^5 \times T^2 + 6.4090{\times}10^7 \times T + -1.5120{\times}10^9$ \\
+        \bottomrule
+    \end{tabular}
+\end{adjustbox}
+\caption{Functions for PMMA Young's modulus.}\label{table:PMMAE}
+\end{table}     
+%
+\subsection{Determination of Young's modulus from wedge wave velocity}
+
+The longitudinal wave velocity of the wedges has been measured experimentally by placing the two wedges together, as shown in Figure~\ref{fig:w2wonaxis}. Time of flight is measured using an envelope peak finding function, and wave velocity calculated using the propagation distance (0.0715 m). The measured velocity of 2477 m s$^{-1}$ differs from that provided by the manufacturer (2720 m s$^{-1}$). Now that the wave velocity is known, the material properties of the model can be adjusted until the simulated wave velocity matches that of the experimental measurements. The model was set to run a parametric sweep of Young's modulus for the wedges, from 3.5$\times$10$^9$ to 6$\times$10$^9$ in 0.5$\times$10$^9$ increments, matching the range of potential values from literature. The wave velocity for each of these steps is calculated, and a polynomial fit of the data is generated in MATLAB. The quadratic equation produced is used to find the value of E closest to the wave velocity measured experimentally. The model was then rerun at smaller increments of E (4.20$\times$10$^9$ to 4.40$\times$10$^9$ in increments of 0.05$\times$10$^9$) to improve the accuracy of the polynomial fit. The model is then computed using this value of $E$ to verify that the velocity matches the prediction.
+
+In order to determine the temperature dependant Young's modulus for the wedge material, the test setup was placed inside of an oven, and time of flight was measured up to 45\si{\degreeCelsius}. Increasing the temperature of the oven above this caused the signal amplitude to decrease dramatically, making time of flight measurement unreliable. The temperature of the oven was allowed time to stabilise, along with time of flight. The velocity calculated at this temperature was then used to find the associated value of $E$, as described previously. These values were then entered into COMSOL using an interpolation function, extrapolating the value of $E$ for higher and lower temperatures linearly. This method is sufficiently accurate for the small temperature range used in this study, and better represents the real material than using values derived from literature. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.7\textwidth]{./figures/w2wdiagramonaxis.eps}
+    \caption{Cross-sectional diagram of on-axis wedge-to-wedge time-of-flight measurement setup.}\label{fig:w2wonaxis}
+\end{figure}
+
+The experimentally measured longitudinal wave velocity of the wedges is also used to calculate the wedge angle required to excite particular modes, based on Snell's law. 
+
+\subsection{Aluminium plate properties}
+
+The choice of temperature dependent $E$ for Aluminium is more straight forward, as sources for bulk aluminium and aluminium 1050 are provided by the COMSOL material library, and they are very similar to values provided by Hopkins~\cite{Hopkins2012}, as shown in Figure~\ref{fig:AluE}. The shaded green region indicates the temperature range of interest in this study (20-100\si{\degreeCelsius}).The functions used to generate the curves are given in Table~\ref{table:AluE}.
+%
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/Alu_E.eps}
+    \caption{Young's modulus of Aluminium.}\label{fig:AluE}
+\end{figure}
+%
+\begin{table}[h]
+    \centering
+\begin{adjustbox}{width=1.2\textwidth,center=\textwidth}
+    \begin{tabular}{ll}
+        \toprule
+        \textbf{Source} & \textbf{Function}\\
+        \midrule
+        COMSOL Aluminium 1050 & $7.7703{\times}10^{10} + 2.0365{\times}10^6 \times T^1 -1.8916{\times}10^5 \times T^2 + 4.2529{\times}10^2 \times T^3 -3.5457 {\times}{10^{-1}} \times T^4 $ \\
+        COMSOL Aluminium Bulk & $7.6593{\times}10^{10} + 2.0074{\times}10^6 \times T^1 -1.8646{\times}10^5 \times T^2 + 4.1922{\times}10^2 \times T^3 -3.4951 {\times}{10^{-1}} \times T^4 $\\
+        Hopkins~\cite{Hopkins2012} & $-4{\times}10^7 \times T + 8{\times}10^{10}$\\
+        \bottomrule
+    \end{tabular}
+\end{adjustbox}
+\caption{Functions for Aluminium Young's modulus.}\label{table:AluE}
+\end{table}    
+%
+The change in Poisson's ratio and density is assumed to negligible and is not included in the simulation. Thermal expansion is also considered to have a negligible effect on the propagation distance and is excluded (calculated to have an average reduction in wave velocity of the $S_0$ mode in aluminium of -1.20 m s$^{-1}$ over the temperature range 20-100\si{\degreeCelsius}). 
+
+\subsection{Transducer configuration}
+
+The simplified ultrasonic transducer used in this study is comprised of an active piezoelectric element and a backing layer. Lead Zirconate Titanate (PZT-5H) from COMSOL's material library is operated at the first through-thickness resonance frequency for 1 MHz, where the ceramic thickness is equal to half a wavelength (2 mm). 
+
+\begin{equation}
+    \text{Piezo thickness} = \left(\frac{v_p\times f_0}{2} \right)
+    \tagaddtext{[mm]}
+ \end{equation}
+
+ \begin{equation}
+    2.05 = \left(\frac{4101 \times 1}{2} \right)
+    \tagaddtext{[mm]}
+ \end{equation}
+
+The backing layer is comprised of a highly attenuating material, with an acoustic impedance matching the piezo material as closely as possible. In this case an epoxy resin mixed with Tungsten powder is used~\cite{Rathod2020}. A matching layer is not employed as the signal amplitude is sufficient for this study.
+
+The electrostatics module is set up as follows: A zero charge node is used for the edges of the piezoelectric material, initial values are set to 0 V, a ``Charge Conservation, Piezoelectric'' node is set for the piezoelectric material, a ground boundary is selected for the wedge side of the material, and a terminal node is set for the opposite boundary. Within the terminal node the type is set to Voltage and the input is set to ``V0(t)''. The excitation signal is a 1 MHz 5--cycle Hamming windowed sine pulse generated in MATLAB and included in COMSOL using an analytic function (Definitions$>$Functions$>$Analytic), given in Equation~\ref{eq:sinepulse} and shown in Figure~\ref{fig:excitation}. The receiver transducer is setup in the same way, except the terminal node type is set to ``charge''.
+%
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/excitation.eps}
+    \caption{Hamming windowed 5--cycle pulse.}\label{fig:excitation}
+\end{figure}
+%
+\begin{equation}
+   \text{Hamming windowed 5--cycle pulse} = \sin(2 \pi f_0 t)\times t< \left(\frac{np}{f_0}\right) \times 0.54 - 0.46\times \cos \left(\frac{2 \pi t}{t_0 \times np} \right) \label{eq:sinepulse}
+\end{equation}
+Where $f_0$ is 1~MHz, the number of cycles ($np$) is 5, and $t_0$ is equal to $1/f_0$.
+
+\subsection{Physics \& mesh settings}
+
+The modules Solid Mechanics, Electrostatics, and Heat Transfer in Solids are used in this simulation, along with a multiphysics node to couple Solid Mechanics with Electrostatics for the piezoelectric effect. Both the wedges and the plate are set to isotropic linear elastic materials, with low reflecting boundaries applied to the wedges.
+
+For the Heat Transfer in Solids module all the domains are set to solid, and initial values are set to 20\si{\degreeCelsius}. The boundaries that are exposed to the air are selected in a Heat Flux node, where convective heat flux is selected. A user defined heat transfer coefficient of 7~W/(m$^2\cdot$K) is used for the plate, and 1~W/(m$^2\cdot$K) for the wedges. These values were set to produce the temperature gradients measured experimentally in both the plate and the wedges. The external temperature is set to 20\si{\degreeCelsius}. The temperature of the boundary underneath the plate is adjusted as required (20\si{\degreeCelsius} to 100\si{\degreeCelsius} in 20\si{\degreeCelsius} increments for this study). An example of the temperature gradients produced from the stationary study step are shown in Figure~\ref{fig:COMSOLtemp100c}, where the temperature boundary underneath the plate is set to 100\si{\degreeCelsius}.
+
+%
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLLLL}
+        \toprule
+        & \multicolumn{4}{c}{\textbf{Boundary temperature (\si{\degreeCelsius})}} \\
+        \midrule
+        \textbf{x (mm)}       & \textbf{20.0\si{\degreeCelsius}} & \textbf{46.7\si{\degreeCelsius}} & \textbf{73.3\si{\degreeCelsius}} & \textbf{100\si{\degreeCelsius}} \\
+        \midrule
+        0                & 20.0            & 41.7            & 63.4            & 84.4           \\
+        5                & 20.0            & 42.0              & 64.1            & 85.4           \\
+        10               & 20.0            & 42.4            & 64.8            & 86.6           \\
+        15               & 20.0            & 42.8            & 65.5            & 87.7           \\
+        20               & 20.0            & 43.2            & 66.3            & 88.9           \\
+        25               & 20.0            & 43.6            & 67.0              & 90.2           \\
+        30               & 20.0            & 44.0              & 67.9            & 91.5           \\
+        35               & 20.0            & 44.4            & 68.8            & 92.9           \\
+        40               & 20.0            & 44.9            & 69.8            & 94.5           \\
+        45               & 20.0            & 45.4            & 70.7            & 96.0           \\
+        \midrule
+        \textbf{Average} & \textbf{20.0} & \textbf{43.4}   & \textbf{66.8}   & \textbf{89.8} \\
+        \bottomrule
+    \end{tabulary}%
+\caption{Boundary temperatures for wedge-to-wedge study at $S_0$.}\label{table:S0gradients}
+\end{table}
+%
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLLLL}
+        \toprule
+        & \multicolumn{4}{c}{\textbf{Boundary temperature (\si{\degreeCelsius})}} \\
+        \midrule
+        \textbf{x (mm)}       & \textbf{20.0\si{\degreeCelsius}} & \textbf{46.7\si{\degreeCelsius}} & \textbf{73.3\si{\degreeCelsius}} & \textbf{100\si{\degreeCelsius}} \\
+        \midrule
+        0                & 20.0            & 44.3            & 68.7            & 93.1           \\
+        5                & 20.0            & 44.5            & 69.0              & 93.5           \\
+        10               & 20.0            & 44.7            & 69.3            & 94.0             \\
+        15               & 20.0            & 44.8            & 69.6            & 94.5           \\
+        20               & 20.0            & 45.0              & 70.0              & 95.1           \\
+        25               & 20.0            & 45.2            & 70.4            & 95.6           \\
+        30               & 20.0            & 45.4            & 70.8            & 96.2           \\
+        35               & 20.0            & 45.6            & 71.2            & 96.8           \\
+        40               & 20.0            & 45.8            & 71.6            & 97.5           \\
+        45               & 20.0            & 46.1            & 72.0            & 98.1           \\
+        \midrule
+        \textbf{Average} & \textbf{20.0} & \textbf{45.1}   & \textbf{70.3}   & \textbf{95.4} \\
+        \bottomrule
+    \end{tabulary}%
+\caption{Boundary temperatures for wedge-to-wedge study at $A_1$.}\label{table:A1gradients}
+\end{table}
+%
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLLLL}
+        \toprule
+        & \multicolumn{4}{c}{\textbf{Boundary temperature (\si{\degreeCelsius})}} \\
+        \midrule
+        \textbf{x (mm)}       & \textbf{20.0\si{\degreeCelsius}} & \textbf{46.7\si{\degreeCelsius}} & \textbf{73.3\si{\degreeCelsius}} & \textbf{100\si{\degreeCelsius}} \\
+        \midrule
+        0                & 20.0            & 45.1            & 70.2            & 95.4           \\
+        5                & 20.0            & 45.2            & 70.4            & 95.7           \\
+        10               & 20.0            & 45.3            & 70.6            & 96.0             \\
+        15               & 20.0            & 45.5            & 70.8            & 96.4           \\
+        20               & 20.0            & 45.6            & 71.1            & 96.7           \\
+        25               & 20.0            & 45.7            & 71.3            & 97.1           \\
+        30               & 20.0            & 45.8            & 71.6            & 97.4           \\
+        35               & 20.0            & 45.9            & 71.9            & 97.9           \\
+        40               & 20.0            & 46.1            & 72.1            & 98.3           \\
+        45               & 20.0            & 46.3            & 72.4            & 98.7           \\
+        \midrule
+        \textbf{Average} & \textbf{20.0} & \textbf{45.7}   & \textbf{71.2}   & \textbf{97.0} \\
+        \bottomrule
+    \end{tabulary}%
+\caption{Boundary temperatures for wedge-to-wedge study at $S_1$.}\label{table:S1gradients}
+\end{table}
+%
+
+As the temperature decreases between the heat area and the end of the plate, the temperature under the wedges is less than temperature applied to the plate. This is important for the wedge-to-wedge study, as the heat boundary between wedges cannot be set to the temperature used for the boundary in the full study. Instead the full model is run first, and temperature probes are used to measure the temperature in the plate underneath the wedges in 5 mm increments from one side to the other. The study is carried out at heat boundary temperatures of 20.0\si{\degreeCelsius}, 46.7\si{\degreeCelsius}, 73.3\si{\degreeCelsius}, and 100.0\si{\degreeCelsius}. A mean average of these measurements is calculated and used for the boundary temperature in the wedge-to-wedge study, as shown in~\cref{table:S0gradients,table:A1gradients,table:S1gradients}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/comsoltemp100c.png}
+    \caption{Simulated temperature gradients from stationary study at 100\si{\degreeCelsius}.}\label{fig:COMSOLtemp100c}
+\end{figure}
+
+The mesh size for each material is determined by excitation frequency. The excitation wavelength for each of the materials is calculated by dividing their longitudinal wave speed by $f_0$. A free triangular mesh is created for each of the materials, and the maximum element size for each of them is set to LocalWavelength/N. If higher frequency content is expected, the wavelength for each material should be based on the highest frequency expected rather than $f_0$. In order to accurately resolve a wave, at least 10--12 elements per local wavelength are required~\cite{COMSOL2013}. This assumes linear discretization for all modules. Using 12 elements results in an average skewness rating (measure of element quality, 0--1) of 0.9345 over 154728 elements~\cite{COMSOL2017}. This is equivalent to a sample rate of 1.2$\times$10$^8$.
+
+\subsection{Study settings}
+
+This study has two steps, firstly a stationary study to simulate the effect of temperature on the system until an equilibrium is reached, and secondly a time dependant study to simulate wave propagation. The initial conditions of the time dependant study are set by the stationary study. The stationary study solves only for heat transfer and not electrostatics/the piezoelectric effect. 
+
+The time dependant study includes electrostatics/the piezoelectric effect to allow for wave generation, but does not include heat transfer. This reduces computation time as it is not necessary to model changing temperature as the time dependant model solves, only to use the fixed values of material properties that have been passed on from the stationary study. The time dependant study has its ``Output times'' set to: range(0,dt,sim\textunderscore length) where ``dt'' is a global definition parameter equal to CFL/(N$\times f_0$). The CFL (Courant Friedrichs Lewy) number is suggested by COMSOL~\cite{COMSOL2021} to be less than 0.2, optimally 0.1 (when the default second order, quadratic, mesh elements are used). This value represents the relationship between wave speed, $c$, maximum mesh size, $h$, and time step length, $\Delta t$: $CFL = c\Delta t/h$. This can be rewritten in terms of frequency as the maximum mesh size $h$ has already been manually defined by $N$, the number of elements per local wavelength for each material: $CFL = fN\Delta t$. This can then be rearranged to give the time step: $\Delta t = CFL/Nf$. 
+
+Under ``Values of Dependant Variables'' the settings are changed to user controlled, method is changed to Solution, and the study is set to the stationary study. The time step is manually set under Solver Configurations$>$Solution 1$>$Time dependant solver$>$Time stepping. Here the ``Steps taken by solver'' parameter is changed to ``Manual'' and the ``Time Step'' is set to: $CFL/(N\times f_0)$. 
+
+To reduce file size only the data at the wedge boundaries is stored by the solver. This can be achieved by adding an ``Explicit Selection'' node in the Geometry section, and selecting both the transmit and receive wedge boundaries. Within the time dependant study settings select ``For selection'' under ``Store fields in output'' and select the boundary group~\cite{COMSOL2021a}. 
+
+A parametric sweep node was used to cycle through the temperature boundary values (20.0\si{\degreeCelsius}, 46.7\si{\degreeCelsius}, 73.3\si{\degreeCelsius}, and 100.0\si{\degreeCelsius}) and save the output of the time dependant model for each value. This is repeated for the model in the wedge-to-wedge configuration (at temperatures shown in~\cref{table:S0gradients,table:A1gradients,table:S1gradients}), mimicking the experimental setup shown in Figure~\ref{fig:testdiagramw2w}. The simulations were run on the University of Southampton's IRIDIS 5 supercomputing platform~\cite{Southampton2021}.
+
+\section{Simulation results}
+
+Exaggerated deformation of pressure in the aluminium plate as seen in Figure~\ref{fig:simmodes} makes the presence of the $A_0$ and $S_0$ modes clearly visible. The modes are separated in the time domain after a short distance ($\sim$~50 mm) due to the difference in group velocity. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/simmodes.png}
+    \caption{Presence of the $A_0$ \& $S_0$ modes.}\label{fig:simmodes}
+\end{figure}
+
+To visualise wave propagation and calculate time of flight the pressure at both transmitter and receiver wedge boundaries are exported, and the time of flight is measured using an envelope peak extraction method, to allow direct comparison with experimental results. This method of time of flight measurement can also be applied to more dispersive signals, which cannot be achieved using cross correlation methods. It should be noted, however, that more dispersive signals (e.g. $A_1$ \& $S_1$ Vs. $S_0$) have a less defined central peak in their wave packets, which introduces a larger degree of error to the calculation of time of flight. Various signal processing techniques for time of flight measurement are discussed in detail by Guers~\cite{Guers2011}.
+
+Wedge foot offset (the distance a wave travel under each wedge foot) is calculated in the same way for both the simulation and the experiments, however the value differs, which indicates a difference in geometry between them. Despite this difference the difference in calculated velocities is small, as using accurate estimations of wedge foot offset corrects for the difference in total time of flight. Time of flight in the wedge-to-wedge configuration is in line with experimental measurements, which suggests that the geometry and material properties of the wedges are realistic. The material properties of the aluminium plate are the same as those used in the theoretical study, which should (in theory) mean that the velocity in the simulated plate is the same as was extracted from dispersion curves.
+
+%
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLLLL}
+        \toprule
+        & \multicolumn{3}{c}{\textbf{Temperature sensitivity} (m s$^{-1}$\si{\degreeCelsius}$^{-1}$)} \\
+        \midrule
+        \textbf{Wave mode} & \textbf{Predicted} & \textbf{Simulated} & \textbf{Experimental}\\
+        \midrule
+        $S_0$ & -1.47 & -1.47 & -1.58 \\
+        $A_1$ & -0.80 & -0.99 & -1.13 \\
+        $S_1$ & -1.33 & -1.75 & -1.89 \\
+        \bottomrule
+    \end{tabulary}
+\caption{Average temperature sensitivity of $S_0$, $A_1$, and $S_1$ Lamb wave modes in Aluminium from 20\si{\degreeCelsius} to 100\si{\degreeCelsius}.}\label{table:sensitivityresults}
+\end{table}    
+%
+\newpage
+
+\subsection{S0 Mode simulations}
+
+Figure~\ref{fig:S0waveprop} shows the wave propagation of a pulse exciting the $S_0$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The blue dotted lines indicate the peak of the envelopes used to calculate time of flight.
+Figure~\ref{fig:s0resultfull} shows the change in velocity with temperature for the $S_0$ Lamb wave mode in Aluminium, comparing predicted temperature sensitivity extracted from dispersion curves, experimental measurement data (Section~\ref{S0 experiments}), and COMSOL simulations of the experimental setup. The experimental result is within 35.93 $\pm$ 3.06 m s$^{-1}$ or 0.71\% $\pm$ 0.06\% of the predicted velocity on average. The COMSOL results are within 10.61 m s$^{-1}$ $\pm$ 0.73 m s$^{-1}$ or 0.21\% $\pm$ 0.01\% of the predicted result on average. The standard deviation of group velocity across four wedge spacings (80 mm, 90 mm, 100 mm, 110 mm) at the calculated offset value of 45.3 mm is 0.74 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are producing accurate results.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/S0comsolwaveprop.eps}
+    \caption{Wave propagation of $S_0$ Lamb wave mode in Aluminium at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}.}\label{fig:S0waveprop}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/s0fullresultedit.eps}
+    \caption{Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.}\label{fig:s0resultfull}
+\end{figure}
+
+\clearpage
+\subsection{A1 Mode simulations}
+
+Figure~\ref{fig:A1waveprop} shows the wave propagation of a pulse exciting the $A_1$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The blue dotted lines indicate the peak of the envelopes used to calculate time of flight.
+Figure~\ref{fig:A1resultfull} shows the change in velocity with temperature for the $A_1$ Lamb wave mode in Aluminium, comparing predicted temperature sensitivity extracted from dispersion curves, experimental measurement data (Section~\ref{A1 experiments}), and COMSOL simulations of the experimental setup. The experimental result is within 49.05 $\pm$ 7.90 m s$^{-1}$ or 1.35\% $\pm$ 0.23\% of the predicted velocity on average. The COMSOL results are within 19.22 m s$^{-1}$ $\pm$ 5.93 m s$^{-1}$ or 0.53\% $\pm$ 0.17\% of the predicted result on average. The standard deviation of group velocity across eight wedge spacings (80 mm to 150 mm in 10 mm increments) at the calculated offset value of 46.2 mm is 6.94 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are not producing results as accurately as at $S_0$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/A1comsolwaveprop.eps}
+    \caption{Wave propagation of $A_1$ Lamb wave mode in Aluminium at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}.}\label{fig:A1waveprop}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/A1fullresultedit.eps}
+    \caption{Velocity change with temperature for $A_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.}\label{fig:A1resultfull}
+\end{figure}
+
+\clearpage
+\subsection{S1 Mode simulations}
+
+Figure~\ref{fig:S1waveprop} shows the wave propagation of a pulse exciting the $S_1$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The blue dotted lines indicate the peak of the envelopes used to calculate time of flight.
+Figure~\ref{fig:S1resultfull} shows the change in velocity with temperature for the $S_1$ Lamb wave mode in Aluminium, comparing predicted temperature sensitivity extracted from dispersion curves, experimental measurement data (Section~\ref{S1 experiments}), and COMSOL simulations of the experimental setup. The experimental result is within 60.04 $\pm$ 14.00 m s$^{-1}$ or 1.34\% $\pm$ 0.32\% of the predicted velocity on average. The COMSOL results are within 89.83 m s$^{-1}$ $\pm$ 13.00 m s$^{-1}$ or 2.01\% $\pm$ 0.31\% of the predicted result on average. The standard deviation of group velocity across six wedge spacings (80 mm to 130 mm in 10 mm increments) at the calculated offset value of 44.69 mm is 7.89 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are not producing results as accurately as at $S_0$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/S1comsolwaveprop.eps}
+    \caption{Wave propagation of $S_1$ Lamb wave mode in Aluminium at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}.}\label{fig:S1waveprop}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/S1fullresultedit.eps}
+    \caption{Velocity change with temperature for $S_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.}\label{fig:S1resultfull}
+\end{figure}
+
+\clearpage
+\section{Inconel 718 simulation}
+
+Applying a guided wave based temperature monitoring system to nozzle guide vanes involves different materials and a higher temperature range than investigated in the previous tests. To test the feasibility of the system (minus an appropriate transducer) the material of the model has been replaced with Inconel 718, a commonly used superalloy for high temperature aero engine components. The temperature range of the test has been extended to 1027\si{\degreeCelsius}. Although the wedges cannot be used in reality for this application, they can still be used in the model for single mode excitation. The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718, which in turn causes a large change in wave speed. As the change is so large the wedge angle has to be adjusted to continually target the same area of the frequency-thickness spectrum, as shown in Table~\ref{table:wedgeangleinconelmodel}, where the longitudinal velocity of the wedge material is 2502~\unit{\metre\per\second}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLL}
+        \toprule
+    \textbf{\textbf{Temperature (\si{\degreeCelsius})}} & \textbf{Phase velocity (\unit{\metre\per\second})} & \textbf{Wedge angle (\degree)} \\
+        \midrule
+    27           & 5110.74            & 29.31                \\
+    127          & 5069.49            & 29.57                \\
+    227          & 5020.12            & 29.89                \\
+    327          & 4960.81            & 30.29                \\
+    427          & 4889.88            & 30.78                \\
+    527          & 4805.54            & 31.38                \\
+    627          & 4705.97            & 32.12                \\
+    727          & 4588.83            & 33.04                \\
+    827          & 4450.95            & 34.20                \\
+    927          & 4287.53            & 35.70                \\
+    1027         & 4090.86            & 37.71                \\
+    \bottomrule
+    \end{tabulary}%
+    \caption{Wedge angle required for $S_0$ mode excitation in Inconel 718 from 27\si{\degreeCelsius} to 1027\si{\degreeCelsius}.}\label{table:wedgeangleinconelmodel}
+\end{table}
+
+Figure~\ref{fig:inconelcomsol} shows the change in group velocity with temperature for the $S_0$ Lamb wave mode, from 27\si{\degreeCelsius} to 1027\si{\degreeCelsius}, comparing predicted results extracted from dispersion curves with simulated results from COMSOL. The average temperature sensitivity for the predicted result is -1.23 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ $\pm$ 0.70 m s$^{-1}$\si{\degreeCelsius}$^{-1}$. The average temperature sensitivity for the simulated result is -1.31 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ $\pm$ 0.67 m s$^{-1}$\si{\degreeCelsius}$^{-1}$. The temperature sensitivity increases with temperature for both results, from a minimum of -0.37 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ to a maximum of -2.93 m s$^{-1}$\si{\degreeCelsius}$^{-1}$. The simulated group velocity is within 6.78 m s$^{-1}$ $\pm$ 27.68 m s$^{-1}$ or 0.10 \% $\pm$ 0.63\% of the predicted group velocity on average.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/inconelcomsolresult.eps}
+    \caption{Velocity change with temperature for $S_0$ Lamb wave mode in Inconel 718. Comparison between predicted and simulated results.}\label{fig:inconelcomsol}
+\end{figure}
+
+\clearpage
+
+\section{Effect of thermal barrier coatings (TBCs)}
+
+In this section the effect of thermal barrier coatings on signal propagation is investigated through the generation of dispersion curves, and COMSOL simulation. 
+
+Thermal barrier coatings are made up of multiple layers, a bond coat, a thermally grown oxide layer (TGO), and a top coat. The Young's modulus of YSZ coatings shows a significant dependence on porosity and microstructure, where Young's modulus decreases with increasing porosity. The $E$ of ZrO\textsubscript{2}-4 mol\% Y\textsubscript{2}O\textsubscript{3} has been shown to decrease from around 200 GPa at 8\% porosity, to 80 GPa at 28\% porosity~\cite{Jang2005}. A number of studies~\cite{Yamazaki2007, Nath205} have shown that the Young's modulus of TBC materials increases after thermal aging, as fine microcracks and porosities are sealed. The increase is in the region of 30 GPa. Exposure to higher temperatures causes a larger increase in $E$.
+
+Considering that YSZ exhibits substantially lower Young's modulus than the other materials there is likely to be a comparatively larger through-thickness displacement in the top coat, which will make propagating waves substantially more sensitive to defects in the TBC surface. This effect will be partially reduced as the value of $E$ increases after thermal aging. 
+
+In a non-symmetric laminate such as this the modes do not have a clear symmetric or antisymmetric character, especially when the different layers have substantially different material properties, and therefore wave speeds. The modes are therefore denoted using $B$ (as proposed by \href{https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874_read-61142/#/gallery/33485}{The Dispersion Calculator}~\cite{Huber}), rather than categorising them as either symmetric, $S$, or antisymmetric, $A$. 
+
+\subsection{Generation of dispersion curves}
+
+A typical configuration is considered in Table~\ref{table:TBCmatprops}, where the values for Young's modulus and Poisson's ratio are provided by Li~\cite{Li2017b}. Table~\ref{table:TBCwavespeeds} shows the longitudinal and shear wave velocities of each TBC material used in this study, as calculated by COMSOL from the material properties used in Table~\ref{table:TBCmatprops}. 
+
+The energy and phase velocity dispersion curves shown in Figures~\ref{fig:inconeldispTBCgroup} and~\ref{fig:inconeldispTBCphase} respectively differ substantially from those of only Inconel 718. The velocity of the two lowest order modes do not converge towards the Rayleigh wave speed at high frequency-thickness products, as the $B_1$ mode propagates $\sim$1000~\si{\metre\per\second} faster than the $B_0$ mode.
+
+Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement profiles for five different modes, at frequency-thickness values that correspond to points of group velocity maxima for the associated modes. At low frequency-thickness products (below the cut-off frequency of third mode, $B_2$) the modes respond in a similar manner to $A_0$ and $S_0$ in a single material, as the first mode ($B_0$) exhibits large out-of-plane motion (Figure~\ref{fig:B0}), while the second mode ($B_1$) exhibits large in-plane motion (Figure~\ref{fig:B1}). Above $B_1$, however, the top coat exhibits a large through-thickness displacement in comparison to the rest of the materials, which is especially apparent for $B_2$ (\cref{fig:B2}). Modes $B_5$, $B_7$, and $B_9$ have group velocity maxima distinctly separate from other modes, which is advantageous for the excitation/identification of single modes, however these higher order modes exhibit relatively less displacement than lower order modes (\cref{fig:B5}), which limits their sensitivity to holes, and results in lower amplitude signals.
+
+\begin{table}[h]
+    \centering
+    \begin{adjustbox}{width=1\textwidth,center=\textwidth}
+    \begin{tabular}{llllll}
+        \toprule
+        \textbf{Layer type} & \textbf{Material} & \makecell[l]{\textbf{Young's Modulus} \\ (GPa)} & \textbf{Poisson's ratio} & \makecell[l]{\textbf{Density}\\(kg/m$^3$)} & \makecell[l]{\textbf{Thickness}\\(\textmu m)} \\ 
+        \midrule
+        Top coat  & ZrO\textsubscript{2}-8 wt\% Y\textsubscript{2}O\textsubscript{3} (8YSZ) & 48  & 0.1  & 5770~\cite{Zhang2012} & 200  \\
+        TGO       & $\alpha$-Al\textsubscript{2}O\textsubscript{3}                 & 400 & 0.23 & 3987~\cite{Bodisova2006}  & 10   \\
+        Bond coat & NiCrAlY                 & 200 & 0.3  & 7500~\cite{Of2014} & 100  \\
+        Substrate & Inconel 718~\cite{SpecialMetals2007}             & 202 & 0.29 & 8226 & 1000 \\ 
+        \bottomrule
+    \end{tabular}
+\end{adjustbox}
+\caption{Material properties of thermal barrier coatings.}\label{table:TBCmatprops}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    
+    \begin{tabular}{llll}
+        \toprule
+        \textbf{Layer type} & \textbf{Material} & \makecell[l]{\textbf{Longitudinal velocity}\\(\si{\metre\per\second})} & \makecell[l]{\textbf{Shear velocity}\\(\si{\metre\per\second})} \\ 
+        \midrule
+        Top coat  & ZrO\textsubscript{2}-8 wt\% Y\textsubscript{2}O\textsubscript{3} (8YSZ)     & 2916.84  & 1944.56   \\
+        TGO       & $\alpha$-Al\textsubscript{2}O\textsubscript{3}              & 10784.57 & 6386.15  \\
+        Bond coat & NiCrAlY                     & 5991.45 & 3202.56  \\
+        Substrate & Inconel 718                 & 5672.72 & 3085.12  \\ 
+        \bottomrule
+    \end{tabular}
+
+\caption{Wave velocities of thermal barrier coatings.}\label{table:TBCwavespeeds}
+\end{table}
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/IncTBCGroup.eps}
+    \caption{Energy velocity dispersion curves for Inconel 718 with TBC.}\label{fig:inconeldispTBCgroup}
+\end{figure}
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/IncTBCPhase.eps}
+    \caption{Phase velocity dispersion curves for Inconel 718 with TBC.}\label{fig:inconeldispTBCphase}
+\end{figure}
+
+\begin{figure}[p]
+    \raggedright
+        \begin{subfigure}[c]{0.45\textwidth}
+            \centering
+            \includegraphics[width=1\textwidth]{./figures/B0.eps}
+            \caption{$B_0$ Displacement -- 1 MHz.}\label{fig:B0}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[c]{0.45\textwidth}
+            \centering
+            \includegraphics[width=1\textwidth]{./figures/B1.eps}
+            \caption{$B_1$ Displacement -- 1 MHz.}\label{fig:B1}
+        \end{subfigure}
+        \vskip\baselineskip
+        \begin{subfigure}[c]{0.45\textwidth}
+            \centering
+            \includegraphics[width=1\textwidth]{./figures/B2.eps}
+            \caption{$B_2$ Displacement -- 2.4 MHz.}\label{fig:B2}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[c]{0.45\textwidth}
+            \centering
+            \includegraphics[width=1\textwidth]{./figures/B3.eps}
+            \caption{$B_3$ Displacement -- 2.4 MHz.}\label{fig:B3}
+        \end{subfigure}
+        \vskip\baselineskip
+        \begin{subfigure}[c]{0.65\textwidth}
+            \centering
+            \includegraphics[width=1\textwidth]{./figures/B5.eps}
+            \caption{$B_5$ Displacement -- 4.4 MHz.}\label{fig:B5}
+        \end{subfigure}
+    \caption{Through thickness displacement profiles for Inconel 718 with TBC applied.}\label{fig:inconelTBCdisplacement}
+\end{figure}
+
+\section{COMSOL simulations of wave propagation through Inconel 718 with TBC applied}
+
+Three wave modes with clear peaks in group velocity were targeted, to be excited with a wedge transducer. $B_1$ at 1~MHz-mm (30.1\degree), $B_3$ at 2.4~MHz-mm (25.3\degree), and $B_5$ at 4.4~MHz-mm (25.6\degree). These frequencies products correspond to peaks in the energy velocity dispersion curves, where velocity is at a maximum for these modes. The use of wedge transducers further isolates each mode.  
+
+Temperature dependant material properties of TBC materials are provided by Sfar \textit{et al.}\cite{Sfar2002} and Saucedo-Mora \textit{et al.}\cite{Saucedo-Mora2015}.
+
+
+\printbibliography[title={Chapter~\thechapter~Bibliography}]

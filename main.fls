@@ -1365,6 +1365,7 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -1687,17 +1688,17 @@ INPUT ./main.lot
 INPUT main.lot
 INPUT main.lot
 OUTPUT main.lot
-INPUT ./1 Intro.tex
-INPUT 1 Intro.tex
-INPUT ./1 Intro.tex
-INPUT 1 Intro.tex
+INPUT ./Intro.tex
+INPUT Intro.tex
+INPUT ./Intro.tex
+INPUT Intro.tex
 INPUT ./figures/turbine plus ngv.png
 INPUT ./figures/turbine plus ngv.png
 INPUT ./figures/turbine plus ngv.png
-INPUT ./2 Literature Review.tex
-INPUT 2 Literature Review.tex
-INPUT ./2 Literature Review.tex
-INPUT 2 Literature Review.tex
+INPUT ./Literature Review.tex
+INPUT Literature Review.tex
+INPUT ./Literature Review.tex
+INPUT Literature Review.tex
 INPUT ./figures/Turbinecrosssection.eps
 INPUT ./figures/Turbinecrosssection.eps
 INPUT ./figures/Turbinecrosssection.eps
@@ -1733,10 +1734,10 @@ INPUT ./figures/yaneztempTBC.eps
 INPUT ./figures/yaneztempTBC.eps
 INPUT ./figures/yaneztempTBC.eps
 INPUT ./figures/yaneztempTBC.eps
-INPUT ./3 Acoustic temperature sensing.tex
-INPUT 3 Acoustic temperature sensing.tex
-INPUT ./3 Acoustic temperature sensing.tex
-INPUT 3 Acoustic temperature sensing.tex
+INPUT ./Ultrasonic Guided Waves.tex
+INPUT Ultrasonic Guided Waves.tex
+INPUT ./Ultrasonic Guided Waves.tex
+INPUT Ultrasonic Guided Waves.tex
 INPUT ./figures/bulkwavediagram.eps
 INPUT ./figures/bulkwavediagram.eps
 INPUT ./figures/bulkwavediagram.eps
@@ -1791,10 +1792,14 @@ INPUT ./figures/grouptemp1mhztemp.eps
 INPUT ./figures/grouptemp1mhztemp.eps
 INPUT ./figures/grouptemp1mhztemp.eps
 INPUT ./figures/grouptemp1mhztemp.eps
-INPUT ./4 Lamb wave theory.tex
-INPUT 4 Lamb wave theory.tex
-INPUT ./4 Lamb wave theory.tex
-INPUT 4 Lamb wave theory.tex
+INPUT ./figures/multimodeedit.eps
+INPUT ./figures/multimodeedit.eps
+INPUT ./figures/multimodeedit.eps
+INPUT ./figures/multimodeedit.eps
+INPUT ./Study 1 - Temperature sensitivity of guided waves.tex
+INPUT Study 1 - Temperature sensitivity of guided waves.tex
+INPUT ./Study 1 - Temperature sensitivity of guided waves.tex
+INPUT Study 1 - Temperature sensitivity of guided waves.tex
 INPUT ./figures/grouptempshift_new.eps
 INPUT ./figures/grouptempshift_new.eps
 INPUT ./figures/grouptempshift_new.eps
@@ -1803,14 +1808,41 @@ INPUT ./figures/1mhzshift_new.eps
 INPUT ./figures/1mhzshift_new.eps
 INPUT ./figures/1mhzshift_new.eps
 INPUT ./figures/1mhzshift_new.eps
-INPUT ./figures/multimodeedit.eps
-INPUT ./figures/multimodeedit.eps
-INPUT ./figures/multimodeedit.eps
-INPUT ./figures/multimodeedit.eps
-INPUT ./5 COMSOL.tex
-INPUT 5 COMSOL.tex
-INPUT ./5 COMSOL.tex
-INPUT 5 COMSOL.tex
+INPUT ./figures/testdiagramsimple.eps
+INPUT ./figures/testdiagramsimple.eps
+INPUT ./figures/testdiagramsimple.eps
+INPUT ./figures/testdiagramsimple.eps
+INPUT ./figures/w2wdiagram.eps
+INPUT ./figures/w2wdiagram.eps
+INPUT ./figures/w2wdiagram.eps
+INPUT ./figures/w2wdiagram.eps
+INPUT ./figures/expsetup.png
+INPUT ./figures/expsetup.png
+INPUT ./figures/expsetup.png
+INPUT ./figures/s0xcorr5cyc.eps
+INPUT ./figures/s0xcorr5cyc.eps
+INPUT ./figures/s0xcorr5cyc.eps
+INPUT ./figures/s0xcorr5cyc.eps
+INPUT ./figures/aluplatemeasured.eps
+INPUT ./figures/aluplatemeasured.eps
+INPUT ./figures/aluplatemeasured.eps
+INPUT ./figures/aluplatemeasured.eps
+INPUT ./figures/a1xcorr5cyc.eps
+INPUT ./figures/a1xcorr5cyc.eps
+INPUT ./figures/a1xcorr5cyc.eps
+INPUT ./figures/a1xcorr5cyc.eps
+INPUT ./figures/a1moderesult.eps
+INPUT ./figures/a1moderesult.eps
+INPUT ./figures/a1moderesult.eps
+INPUT ./figures/a1moderesult.eps
+INPUT ./figures/s1hilbert.eps
+INPUT ./figures/s1hilbert.eps
+INPUT ./figures/s1hilbert.eps
+INPUT ./figures/s1hilbert.eps
+INPUT ./figures/s1moderesult.eps
+INPUT ./figures/s1moderesult.eps
+INPUT ./figures/s1moderesult.eps
+INPUT ./figures/s1moderesult.eps
 INPUT ./figures/comsoldiagram.png
 INPUT ./figures/comsoldiagram.png
 INPUT ./figures/comsoldiagram.png
@@ -1864,6 +1896,42 @@ INPUT ./figures/inconelcomsolresult.eps
 INPUT ./figures/inconelcomsolresult.eps
 INPUT ./figures/inconelcomsolresult.eps
 INPUT ./figures/inconelcomsolresult.eps
+INPUT ./Study 2 - Effect of cooling holes.tex
+INPUT Study 2 - Effect of cooling holes.tex
+INPUT ./Study 2 - Effect of cooling holes.tex
+INPUT Study 2 - Effect of cooling holes.tex
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplotA1.eps
+INPUT ./figures/holeampboxplotA1.eps
+INPUT ./figures/holeampboxplotA1.eps
+INPUT ./figures/holeampboxplotA1.eps
+INPUT ./figures/holeampboxplotS1.eps
+INPUT ./figures/holeampboxplotS1.eps
+INPUT ./figures/holeampboxplotS1.eps
+INPUT ./figures/holeampboxplotS1.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
+INPUT ./Study 3 - Effect of TBC on wave propagation.tex
+INPUT Study 3 - Effect of TBC on wave propagation.tex
+INPUT ./Study 3 - Effect of TBC on wave propagation.tex
+INPUT Study 3 - Effect of TBC on wave propagation.tex
 INPUT ./figures/IncTBCGroup.eps
 INPUT ./figures/IncTBCGroup.eps
 INPUT ./figures/IncTBCGroup.eps
@@ -1892,116 +1960,10 @@ INPUT ./figures/B5.eps
 INPUT ./figures/B5.eps
 INPUT ./figures/B5.eps
 INPUT ./figures/B5.eps
-INPUT ./6 Temperature Experiments.tex
-INPUT 6 Temperature Experiments.tex
-INPUT ./6 Temperature Experiments.tex
-INPUT 6 Temperature Experiments.tex
-INPUT ./figures/testdiagramsimple.eps
-INPUT ./figures/testdiagramsimple.eps
-INPUT ./figures/testdiagramsimple.eps
-INPUT ./figures/testdiagramsimple.eps
-INPUT ./figures/w2wdiagram.eps
-INPUT ./figures/w2wdiagram.eps
-INPUT ./figures/w2wdiagram.eps
-INPUT ./figures/w2wdiagram.eps
-INPUT ./figures/expsetup.png
-INPUT ./figures/expsetup.png
-INPUT ./figures/expsetup.png
-INPUT ./figures/s0xcorr5cyc.eps
-INPUT ./figures/s0xcorr5cyc.eps
-INPUT ./figures/s0xcorr5cyc.eps
-INPUT ./figures/s0xcorr5cyc.eps
-INPUT ./figures/aluplatemeasured.eps
-INPUT ./figures/aluplatemeasured.eps
-INPUT ./figures/aluplatemeasured.eps
-INPUT ./figures/aluplatemeasured.eps
-INPUT ./figures/a1xcorr5cyc.eps
-INPUT ./figures/a1xcorr5cyc.eps
-INPUT ./figures/a1xcorr5cyc.eps
-INPUT ./figures/a1xcorr5cyc.eps
-INPUT ./figures/a1moderesult.eps
-INPUT ./figures/a1moderesult.eps
-INPUT ./figures/a1moderesult.eps
-INPUT ./figures/a1moderesult.eps
-INPUT ./figures/s1hilbert.eps
-INPUT ./figures/s1hilbert.eps
-INPUT ./figures/s1hilbert.eps
-INPUT ./figures/s1hilbert.eps
-INPUT ./figures/s1moderesult.eps
-INPUT ./figures/s1moderesult.eps
-INPUT ./figures/s1moderesult.eps
-INPUT ./figures/s1moderesult.eps
-INPUT ./7 Hole amplitude experiments.tex
-INPUT 7 Hole amplitude experiments.tex
-INPUT ./7 Hole amplitude experiments.tex
-INPUT 7 Hole amplitude experiments.tex
-INPUT ./figures/topdownholespacer.eps
-INPUT ./figures/topdownholespacer.eps
-INPUT ./figures/topdownholespacer.eps
-INPUT ./figures/topdownholespacer.eps
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
-INPUT ./figures/holeampboxplot.eps
-INPUT ./figures/holeampboxplot.eps
-INPUT ./figures/holeampboxplot.eps
-INPUT ./figures/holeampboxplot.eps
-INPUT ./figures/holeampboxplotA1.eps
-INPUT ./figures/holeampboxplotA1.eps
-INPUT ./figures/holeampboxplotA1.eps
-INPUT ./figures/holeampboxplotA1.eps
-INPUT ./figures/holeampboxplotS1.eps
-INPUT ./figures/holeampboxplotS1.eps
-INPUT ./figures/holeampboxplotS1.eps
-INPUT ./figures/holeampboxplotS1.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
-INPUT ./8 Multiple hole experiments.tex
-INPUT 8 Multiple hole experiments.tex
-INPUT ./8 Multiple hole experiments.tex
-INPUT 8 Multiple hole experiments.tex
-INPUT ./9 Research summary.tex
-INPUT 9 Research summary.tex
-INPUT ./9 Research summary.tex
-INPUT 9 Research summary.tex
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./figures/gantt.pdf
-INPUT ./10 Conclusions.tex
-INPUT 10 Conclusions.tex
-INPUT ./10 Conclusions.tex
-INPUT 10 Conclusions.tex
+INPUT ./Conclusions.tex
+INPUT Conclusions.tex
+INPUT ./Conclusions.tex
+INPUT Conclusions.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
