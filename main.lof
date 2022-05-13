@@ -54,7 +54,7 @@
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Velocity change with temperature for $S_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{75}{figure.caption.61}%
 \contentsline {figure}{\numberline {4.24}{\ignorespaces Velocity change with temperature for $S_0$ Lamb wave mode in Inconel 718. Comparison between predicted and simulated results.\relax }}{77}{figure.caption.63}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagram of single hole reflection measurement setup.\relax }}{81}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagram of single hole reflection measurement setup.\relax }}{80}{figure.caption.65}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_0$ mode.\relax }}{82}{figure.caption.66}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $A_1$ mode.\relax }}{83}{figure.caption.67}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_1$ mode.\relax }}{84}{figure.caption.68}%
@@ -72,4 +72,5 @@
 \contentsline {subfigure}{\numberline {c}{\ignorespaces $B_2$ Displacement -- 2.4 MHz.\relax }}{90}{figure.caption.74}%
 \contentsline {subfigure}{\numberline {d}{\ignorespaces $B_3$ Displacement -- 2.4 MHz.\relax }}{90}{figure.caption.74}%
 \contentsline {subfigure}{\numberline {e}{\ignorespaces $B_5$ Displacement -- 4.4 MHz.\relax }}{90}{figure.caption.74}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Values of Young's modulus for TBC materials.\relax }}{92}{figure.caption.76}%
 \addvspace {10\p@ }

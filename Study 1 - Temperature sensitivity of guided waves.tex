@@ -1,4 +1,4 @@
-\chapter{Study 1: Temperature sensitivity of guided waves (Aluminium)}
+\chapter{Study 1: Temperature sensitivity of guided waves}
 
 \section{Prediction study}
 
@@ -24,7 +24,7 @@ The group velocity of the $S_0$, $A_1$, and $S_1$ modes have been extracted from
 
 \clearpage
 
-\section{Experimental study}
+\section{Experimental study}\label{experimentalstudy}
 
 The wave velocity temperature sensitivity of the $S_0$, $A_1$, and $S_1$ Lamb wave modes have been experimentally measured, to be validated against theoretical predictions.
 
@@ -204,13 +204,13 @@ It is clear that wedge transducers are not the optimum method of transmitting/re
 
 \section{Simulation study}
 
-The multiphysics simulation package COMSOL has been used to simulate potential temperature monitoring systems, investigating the effect of temperature on Lamb wave propagation.
+The multi-physics simulation package COMSOL has been used to simulate potential temperature monitoring systems, investigating the effect of temperature on Lamb wave propagation.
 
 The literature covering the use of COMSOL for modelling Lamb wave excitation using wedge transducers is limited, however it has been shown that Lamb waves can be successfully generated using this method~\cite{Nikolaevtsev2016a}.
 
 \subsection{Variable angle wedge simulation}
 
-A 2D model has been produced of the experimental test setup described in Section~\ref{experiments}. This allows for validation of the time of flight measurements, and can be used to separate the effect of temperature on the wedges from the substrate. The effect of temperature on the Lamb wave alone can therefore be analysed. 
+A 2D model has been produced of the experimental test setup described in~\cref{experimentalstudy}. This allows for validation of the time of flight measurements, and can be used to separate the effect of temperature on the wedges from the substrate. The effect of temperature on the Lamb wave alone can therefore be analysed. 
 
 \subsubsection{Geometry}
 
@@ -282,14 +282,14 @@ The experimentally measured longitudinal wave velocity of the wedges is also use
 
 \subsubsection{Aluminium plate properties}
 
-The choice of temperature dependent $E$ for Aluminium is more straight forward, as sources for bulk aluminium and aluminium 1050 are provided by the COMSOL material library, and they are very similar to values provided by Hopkins~\cite{Hopkins2012}, as shown in Figure~\ref{fig:AluE}. The shaded green region indicates the temperature range of interest in this study (20-100\si{\degreeCelsius}).The functions used to generate the curves are given in Table~\ref{table:AluE}.
-%
+The choice of temperature dependent $E$ for Aluminium is more straight forward, as sources for bulk aluminium and aluminium 1050 are provided by the COMSOL material library, and they are very similar to values provided by Hopkins~\cite{Hopkins2012}, as shown in Figure~\ref{fig:AluE}. The shaded green region indicates the temperature range of interest in this study (20-100\si{\degreeCelsius}). The functions used to generate the curves are given in Table~\ref{table:AluE}.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/Alu_E.eps}
     \caption{Young's modulus of Aluminium.}\label{fig:AluE}
 \end{figure}
-%
+
 \begin{table}[h]
     \centering
 \begin{adjustbox}{width=1.2\textwidth,center=\textwidth}
@@ -305,7 +305,7 @@ The choice of temperature dependent $E$ for Aluminium is more straight forward, 
 \end{adjustbox}
 \caption{Functions for Aluminium Young's modulus.}\label{table:AluE}
 \end{table}    
-%
+
 The change in Poisson's ratio and density is assumed to negligible and is not included in the simulation. Thermal expansion is also considered to have a negligible effect on the propagation distance and is excluded (calculated to have an average reduction in wave velocity of the $S_0$ mode in aluminium of -1.20 m s$^{-1}$ over the temperature range 20-100\si{\degreeCelsius}). 
 
 \subsubsection{Transducer configuration}
@@ -529,9 +529,9 @@ Figure~\ref{fig:S1resultfull} shows the change in velocity with temperature for 
 \end{figure}
 
 \clearpage
-\section{Inconel 718 study}
+\subsection{Inconel 718 simulation}
 
-Applying a guided wave based temperature monitoring system to nozzle guide vanes involves different materials and a higher temperature range than investigated in the previous tests. To test the feasibility of the system (minus an appropriate transducer) the material of the model has been replaced with Inconel 718, a commonly used superalloy for high temperature aero engine components. The temperature range of the test has been extended to 1027\si{\degreeCelsius}. Although the wedges cannot be used in reality for this application, they can still be used in the model for single mode excitation. The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718, which in turn causes a large change in wave speed. As the change is so large the wedge angle has to be adjusted to continually target the same area of the frequency-thickness spectrum, as shown in Table~\ref{table:wedgeangleinconelmodel}, where the longitudinal velocity of the wedge material is 2502~\unit{\metre\per\second}.
+Applying a guided wave based temperature monitoring system to nozzle guide vanes involves different materials and a higher temperature range than investigated in the previous tests. To test the feasibility of the system (minus an appropriate transducer) the material of the model has been replaced with Inconel 718, a commonly used superalloy for high temperature aero engine components. The temperature range of the test has been extended to 1027\si{\degreeCelsius}. Although the wedges cannot be used in reality for this application, they can still be used in the model for single mode excitation. The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718, which in turn causes a large change in wave speed. As the change is so large the wedge angle has to be adjusted to continually target the same area of the frequency-thickness spectrum, as shown in Table~\ref{table:wedgeangleinconelmodel}. The longitudinal velocity of the wedge material is 2477~\unit{\metre\per\second}, as measured experimentally.
 
 \begin{table}[h]
     \centering

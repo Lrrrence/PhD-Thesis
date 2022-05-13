@@ -8985,6 +8985,154 @@
 
 \refsection{9}
   \datalist[entry]{none/global//global/global}
+    \entry{Jang2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=68610031389575c8c6eb008399e26519}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Byung\bibnamedelima Koog},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9454269bf8725d07faa0eafbe7607c61}{%
+           family={Matsubara},
+           familyi={M\bibinitperiod},
+           given={Hideaki},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffc4468f8073ed0910d4ef0fb226bf4c}
+      \strng{fullhash}{ffc4468f8073ed0910d4ef0fb226bf4c}
+      \strng{bibnamehash}{ffc4468f8073ed0910d4ef0fb226bf4c}
+      \strng{authorbibnamehash}{ffc4468f8073ed0910d4ef0fb226bf4c}
+      \strng{authornamehash}{ffc4468f8073ed0910d4ef0fb226bf4c}
+      \strng{authorfullhash}{ffc4468f8073ed0910d4ef0fb226bf4c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The hardness and Young's modulus of ZrO2-4 mol{\%} Y 2O3 coating layers fabricated by EB-PVD are characterized using a nanoindentation technique. Coatings consist of porous, aligned columnar structure. The porosity of the coatings increased with increasing substrate rotation speed during deposition. The hardness and Young's modulus showed a significant dependence on the porosity and a strong anisotropy due to the columnar microstructure. The hardness and Young's modulus of the surface regions of the coatings is found to be higher than that of the side regions. The hardness and Young's moduli of the surface regions of the coatings have a nearly constant value, whereas those of the side areas decreased with increasing the porosity. {©} 2005 Elsevier B.V. All rights reserved.}
+      \field{issn}{0167577X}
+      \field{journaltitle}{Mater. Lett.}
+      \field{number}{27}
+      \field{title}{{Influence of porosity on hardness and Young's modulus of nanoporous EB-PVD TBCs by nanoindentation}}
+      \field{volume}{59}
+      \field{year}{2005}
+      \field{pages}{3462\bibrangedash 3466}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.matlet.2005.06.014
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/j.matlet.2005.06.014.pdf:pdf
+      \endverb
+      \keyw{EB-PVD,Hardness,Nanoindentation,Porosity,YSZ,Young's modulus}
+    \endentry
+    \entry{Yamazaki2007}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d2af67947c0398de1b20c73f147f0c2e}{%
+           family={Yamazaki},
+           familyi={Y\bibinitperiod},
+           given={Yasuhiro},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bb95f889a9acb4586252e53597447f5b}{%
+           family={Kinebuchi},
+           familyi={K\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=80f3949dded8b3adb22d94346148c868}{%
+           family={Fukanuma},
+           familyi={F\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=41bf4aeefede73638be99786895e18a8}{%
+           family={Ohno},
+           familyi={O\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=fc8936440afd7459023c5d18051bf633}{%
+           family={Kaise},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5dae1562045d73c85889368b780266e1}
+      \strng{fullhash}{a2a4e104eb485178f96ec9ddedf63262}
+      \strng{bibnamehash}{5dae1562045d73c85889368b780266e1}
+      \strng{authorbibnamehash}{5dae1562045d73c85889368b780266e1}
+      \strng{authornamehash}{5dae1562045d73c85889368b780266e1}
+      \strng{authorfullhash}{a2a4e104eb485178f96ec9ddedf63262}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Thermal barrier coatings (TBCs), that reduce the temperature in the underlying substrate material, are an essential requirement for the hot section components of industrial gas turbines. Recently, in order to take full advantage of the potential of the TBC systems, experimental and analytical investigations in TBC systems have been performed. However there is a little information on the deformation behavior of the top coating. In addition, the effects of the thermal exposure and the process parameters on the mechanical properties of the top coating have never been clarified. From these backgrounds, the effects of the process variables in APS and the thermal exposure on the mechanical properties were investigated in order to optimize the APS process of top coatings. The experimental results indicated that the mechanical properties of the APS-TBC, i.e. the tensile strength and the elastic modulus, were significantly changed by the process variables and the long term thermal exposure. The microstructural investigation was also carried out and the relationship between the mechanical properties and the porosity was discussed.}
+      \field{journaltitle}{Key Eng. Mater.}
+      \field{number}{December}
+      \field{title}{{Deformation and Fracture Behaviors in the Freestanding APS-TBC - Effects of Process Parameters and Thermal Exposure}}
+      \field{volume}{353-358}
+      \field{year}{2007}
+      \field{pages}{1935\bibrangedash 1938}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.4028/www.scientific.net/kem.353-358.1935
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/APCFS.pdf:pdf
+      \endverb
+      \keyw{abstract,aps,are an essential requirement,components of industrial gas,experimental and,for the hot section,full advantage of the,in order to take,in the underlying substrate,material,mechanical properties,potential of the tbc,process parameters,recently,systems,tbc,tbcs,that reduce the temperature,thermal barrier coatings,thermal exposure,turbines}
+    \endentry
+    \entry{Nath2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5259edc9c72ced2bbf3de886aabd74fe}{%
+           family={Nath},
+           familyi={N\bibinitperiod},
+           given={Subhasisa},
+           giveni={S\bibinitperiod}}}%
+        {{hash=27635840af6e11a1397e3382ea6f76d8}{%
+           family={Manna},
+           familyi={M\bibinitperiod},
+           given={Indranil},
+           giveni={I\bibinitperiod}}}%
+        {{hash=11ad9f353551d83cd8d3963811e887cd}{%
+           family={Majumdar},
+           familyi={M\bibinitperiod},
+           given={Jyotsna\bibnamedelima Dutta},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{e2691ebb8aef396da43433ed75581ad2}
+      \strng{fullhash}{e2691ebb8aef396da43433ed75581ad2}
+      \strng{bibnamehash}{e2691ebb8aef396da43433ed75581ad2}
+      \strng{authorbibnamehash}{e2691ebb8aef396da43433ed75581ad2}
+      \strng{authornamehash}{e2691ebb8aef396da43433ed75581ad2}
+      \strng{authorfullhash}{e2691ebb8aef396da43433ed75581ad2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the present study, the detailed evaluation of nanomechanical properties in terms of hardness and Youngs modulus of duplex and compositionally graded YSZ based thermal barrier coating (TBC) have been evaluated by nanoindentation technique. Duplex and compositionally graded TBCs have been fabricated by thermal spray deposition technique. As TBCs are commonly applied for high temperature protection, effect of isothermal treatment in air (at 900 °C and 1000 °C) on nanomechanical properties has also been evaluated. Finally, the mechanical properties have been correlated with characteristics of the coating. The hardness and Youngs modulus of the TBCs are found to increase with increased duration of thermal exposure. Modulus of resilience and resistance to plastic deformation of the duplex and compositionally graded TBC have also been evaluated at room temperature and with thermal exposure and discussed in detail.}
+      \field{issn}{02728842}
+      \field{journaltitle}{Ceram. Int.}
+      \field{number}{4}
+      \field{title}{{Nanomechanical behavior of yttria stabilized zirconia (YSZ) based thermal barrier coating}}
+      \field{volume}{41}
+      \field{year}{2015}
+      \field{pages}{5247\bibrangedash 5256}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.ceramint.2014.11.039
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/Nanomechanical{\_}Behavior{\_}of{\_}Yttria{\_}Stabilized{\_}Zirconia{\_}YSZ{\_}based{\_}Thermal{\_}Barrier{\_}Coating{\_}.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.ceramint.2014.11.039
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.ceramint.2014.11.039
+      \endverb
+      \keyw{B. Porosity,C. Mechanical properties,Nanoindentation,Thermal barrier coating}
+    \endentry
     \entry{Huber}{misc}{}
       \name{author}{1}{}{%
         {{hash=682d13fc6b970c2d3c6034d6426f804d}{%
@@ -9123,7 +9271,7 @@
       \verb 10.1016/S1000-9361(11)60466-4
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/Influence{\_}of{\_}Gd2O3{\_}and{\_}Yb2O3{\_}Co-doping{\_}on{\_}Phase{\_}St.pdf:pdf
+      \verb :C$\backslash$:/Users/yulel/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Zhang et al. - 2012 - Influence of Gd2O3 and Yb2O3 Co-doping on phase stability, thermo-physical properties and sintering of 8YSZ.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://dx.doi.org/10.1016/S1000-9361(11)60466-4
@@ -9176,7 +9324,7 @@
       \field{pages}{239\bibrangedash 244}
       \range{pages}{6}
       \verb{file}
-      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/2006{\_}04{\_}239.pdf:pdf
+      \verb :C$\backslash$:/Users/yulel/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Bodi{\v{s}}ov{\'{a}} et al. - 2006 - Alumina ceramics prepared by pressure filtration of alumina powder dispersed in boehmite sol.pdf:pdf
       \endverb
       \keyw{Alumina ceramics,Boehmite sol,Dispersant,Submicrometre grain size}
     \endentry
@@ -9244,12 +9392,241 @@
       \verb https://www.specialmetals.com/assets/smc/documents/inconel%7B%5C_%7Dalloy%7B%5C_%7D718.pdf
       \endverb
     \endentry
+    \entry{Saucedo-Mora2015}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c1b3bebfe0dede23c7153a8dba784f15}{%
+           family={Saucedo-Mora},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2bb61134e69771bddccbdc771d873057}{%
+           family={Slámečka},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f29472403212ea2f7565d4c6dfd90f2f}{%
+           family={Thandavamoorthy},
+           familyi={T\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=217113e66d0ccb4fd8fed32e64639eac}{%
+           family={Marrow},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{82dc985c0118dcfd7298ea1dee813c64}
+      \strng{fullhash}{b776a278c1683a92e1d8e287b66ca225}
+      \strng{bibnamehash}{82dc985c0118dcfd7298ea1dee813c64}
+      \strng{authorbibnamehash}{82dc985c0118dcfd7298ea1dee813c64}
+      \strng{authornamehash}{82dc985c0118dcfd7298ea1dee813c64}
+      \strng{authorfullhash}{b776a278c1683a92e1d8e287b66ca225}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A multi-scale Finite Element Microstructure MEshfree (FEMME) fracture model for quasi-brittle materials with complex microstructures is applied to simulate thermo-mechanical damage in a plasma-sprayed thermal barrier coating system. This novel multi-scale technique for damage simulation allows the influence of the microstructure of the yttria-stabilized zirconia top coat and the geometry of the bond coat and the thermally grown oxide layer to be considered with computational efficiency. Mechanical damage, due to the thermal strain of an applied temperature difference, is predicted to decrease the top coat Young's modulus. The interaction between the evolution of damage and temperatures within the top coat is also simulated, demonstrating the capability of this methodology to address coupled multi-scale problems.}
+      \field{issn}{02578972}
+      \field{journaltitle}{Surf. Coatings Technol.}
+      \field{number}{June}
+      \field{title}{{Multi-scale modeling of damage development in a thermal barrier coating}}
+      \field{volume}{276}
+      \field{year}{2015}
+      \field{pages}{399\bibrangedash 407}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.surfcoat.2015.06.038
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/Saucedo-Moraetal.-2015-Multi-scalemodelingofdamagedevelopmentinathermalbarriercoating3.pdf:pdf
+      \endverb
+      \keyw{Damage,Multi-scale numerical model,Roughness,Thermal barrier coating,Thermally grown oxide,Top coat}
+    \endentry
+    \entry{Beghini2001}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a322e18587c03a509131003730e6238e}{%
+           family={Beghini},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ae348d8596e0d04c9bd5996822aad16e}{%
+           family={Benamati},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9e000b166f3d0b56dfd6d3df08297651}{%
+           family={Bertini},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e101819d6460807bfa65268941eed353}{%
+           family={Frendo},
+           familyi={F\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{808c2fbcdb6b7df4151f4ebe135efd51}
+      \strng{fullhash}{3863b621755b8cac47c648fff7930944}
+      \strng{bibnamehash}{808c2fbcdb6b7df4151f4ebe135efd51}
+      \strng{authorbibnamehash}{808c2fbcdb6b7df4151f4ebe135efd51}
+      \strng{authornamehash}{808c2fbcdb6b7df4151f4ebe135efd51}
+      \strng{authorfullhash}{3863b621755b8cac47c648fff7930944}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Elastic properties of a thermal barrier ceramic coating composed of an NiCoCrAIY bond coat and a ZrO2(Y2O3) top coat were measured by a four-point bending rig in the temperature range 20°C-900°C. Different types of specimens (i.e., with bond coat only or with bond coat and top coat, on one side or on both sides) were employed. Test procedures were based on the theory discussed in Part 1 to enhance accuracy and to estimate confidence intervals. In particular, the method employed at high temperature was calibrated at room temperature by comparing the results with those obtained by methods with low sensitivity to layer thicknesses. For the bond coat, Young's modulus was found to be temperature independent up to about 500°C; a decreasing trend was observed above this temperature. For the top coat, a slightly decreasing Young's modulus was observed over the whole temperature range examined. A possible explanation is given on the basis of phase transformation and the microstructure of the two layers. At room temperature, Poisson's ratio for the bond coat was found to be near 0.3, whereas a near zero value was measured for the top coat.}
+      \field{issn}{00144851}
+      \field{journaltitle}{Exp. Mech.}
+      \field{number}{4}
+      \field{title}{{Measurement of coating's elastic properties by mechanical methods: Part 2. Application to thermal barrier coatings}}
+      \field{volume}{41}
+      \field{year}{2001}
+      \field{pages}{305\bibrangedash 311}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/BF02323923
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Data/TBC mat props/Beghini2001{\_}Article{\_}MeasurementOfCoatingsElasticPr.pdf:pdf
+      \endverb
+      \keyw{Coatings,Elastic modulus,Mechanical testing,Poisson's ratio,Temperature dependence}
+    \endentry
+    \entry{Bednarz2005}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=2d3c02e90a34e20b824a72703b973db5}{%
+           family={Bednarz},
+           familyi={B\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2a80d25cebc4de852200062768d98698}{%
+           family={Herzog},
+           familyi={H\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b0e06e7f8e748d666c1567d4017544c8}{%
+           family={Trunova},
+           familyi={T\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bd84ad461d03b14951c03eb3d5c84aa8}{%
+           family={Steinbrech},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=8c6f2c72fda818e467cae1e0f10fc36d}{%
+           family={Echler},
+           familyi={E\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4ca8aedbfe0bacf07e2474622a511d44}{%
+           family={Quadakkers},
+           familyi={Q\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3b74bba3959cefd52f50d974728adf91}{%
+           family={Schubert},
+           familyi={S\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c6037fbc702254cd9e5632825e1f36ab}{%
+           family={Singheiser},
+           familyi={S\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=c2c4267b0069ed7c59be7bd05d651232}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Dongming},
+           giveni={D\bibinitperiod}}}%
+        {{hash=349e077ef23d85436cd146de8b10b411}{%
+           family={Plucknett},
+           familyi={P\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cocoa Beach, Florida}%
+      }
+      \list{publisher}{1}{%
+        {The American Ceramic Society}%
+      }
+      \strng{namehash}{50f0d5e46ac18ae729bb4ccb57c1b543}
+      \strng{fullhash}{bd0fd4f1078dc09b0736b0c467bb8786}
+      \strng{bibnamehash}{50f0d5e46ac18ae729bb4ccb57c1b543}
+      \strng{authorbibnamehash}{50f0d5e46ac18ae729bb4ccb57c1b543}
+      \strng{authornamehash}{50f0d5e46ac18ae729bb4ccb57c1b543}
+      \strng{authorfullhash}{bd0fd4f1078dc09b0736b0c467bb8786}
+      \strng{editorbibnamehash}{b5b806a4d6726e28c6ccff85c68d502b}
+      \strng{editornamehash}{b5b806a4d6726e28c6ccff85c68d502b}
+      \strng{editorfullhash}{b5b806a4d6726e28c6ccff85c68d502b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Adv. Ceram. Coatings Ceram. Syst.}
+      \field{isbn}{6147945890}
+      \field{title}{{Stress Distribution in APS-TBCs Under Thermal Cycling Loading Conditions}}
+      \field{year}{2005}
+      \field{pages}{73\bibrangedash 80}
+      \range{pages}{8}
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Data/TBC mat props/Advances in Ceramic Coatings and Ceramic-Metal Systems Ceramic Engineering and Science Proceedings, Volume 26, Number 3 (Dongming Zhu, Kevin Plucknett etc.) (z-lib.org).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Gregori2007}{article}{}
+      \name{author}{4}{}{%
+        {{hash=760d2c00504a62161d7198d9b9651b26}{%
+           family={Gregori},
+           familyi={G\bibinitperiod},
+           given={Giuliano},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ebe1a06e937fac24bff7655551db2125}{%
+           family={Lì},
+           familyi={L\bibinitperiod},
+           given={Lí},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f35f5aad8a008215ce7832b9be19a08c}{%
+           family={Nychka},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3bbc0fec732f25287ec3d036b27b83f9}{%
+           family={Clarke},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e52eb62cb7897b2f2ef499f1228105e2}
+      \strng{fullhash}{5ba149b17bba8488c5c6604085269c86}
+      \strng{bibnamehash}{e52eb62cb7897b2f2ef499f1228105e2}
+      \strng{authorbibnamehash}{e52eb62cb7897b2f2ef499f1228105e2}
+      \strng{authornamehash}{e52eb62cb7897b2f2ef499f1228105e2}
+      \strng{authorfullhash}{5ba149b17bba8488c5c6604085269c86}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A high-temperature mechanical spectroscopy system, based on non-contact laser vibrometry, has been developed to investigate the temperature dependence of the flexural damping properties of materials and coatings up to 900 °C. Results for the damping coefficient and Young's modulus have been obtained for several high temperature alloys (FeCrAlY and a single crystal, Ni-based superalloy PWA 1484), ceramics (polycrystalline alumina and yttria-stabilized zirconia) and an electron-beam deposited thermal barrier coating. The results indicate that the thermally grown oxide, formed by high-temperature oxidation does not confer significant damping, whereas, coatings of the yttria-stabilized zirconia produce measurable damping over the entire temperature range with a peak centered at ∼200 °C. The damping peak appears to be an intrinsic property of the YSZ material whether in the form of a bulk material or a metastable coating. Data on the temperature dependent in-plane Young's modulus of the 7 wt.{\%} yttria-stabilized zirconia thermal barrier coating between room temperature (22 GPa) and 900 °C (18 GPa) is also reported for the first time. {©} 2007 Elsevier B.V. All rights reserved.}
+      \field{issn}{09215093}
+      \field{journaltitle}{Mater. Sci. Eng. A}
+      \field{number}{1-2}
+      \field{title}{{Vibration damping of superalloys and thermal barrier coatings at high-temperatures}}
+      \field{volume}{466}
+      \field{year}{2007}
+      \field{pages}{256\bibrangedash 264}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.msea.2007.02.047
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Data/TBC mat props/j.msea.2007.02.047.pdf:pdf
+      \endverb
+      \keyw{High-temperature,Internal friction,Thermal barrier coating,Vibrational damping,Young's modulus}
+    \endentry
   \enddatalist
-  \missing{Jang2005}
-  \missing{Nath205}
-  \missing{Saucedo-Mora2015}
-  \missing{Sfar2002}
-  \missing{Yamazaki2007}
 \endrefsection
 \endinput
 

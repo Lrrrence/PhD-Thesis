@@ -2,7 +2,7 @@
 
 In this section the effect of thermal barrier coatings on signal propagation is investigated through the generation of dispersion curves, and COMSOL simulation. 
 
-Thermal barrier coatings are made up of multiple layers, a bond coat, a thermally grown oxide layer (TGO), and a top coat. The Young's modulus of YSZ coatings shows a significant dependence on porosity and microstructure, where Young's modulus decreases with increasing porosity. The $E$ of ZrO\textsubscript{2}-4 mol\% Y\textsubscript{2}O\textsubscript{3} has been shown to decrease from around 200 GPa at 8\% porosity, to 80 GPa at 28\% porosity~\cite{Jang2005}. A number of studies~\cite{Yamazaki2007, Nath205} have shown that the Young's modulus of TBC materials increases after thermal aging, as fine microcracks and porosities are sealed. The increase is in the region of 30 GPa. Exposure to higher temperatures causes a larger increase in $E$.
+Thermal barrier coatings are made up of multiple layers, a bond coat, a thermally grown oxide layer (TGO), and a top coat. The Young's modulus of YSZ coatings shows a significant dependence on porosity and microstructure, where Young's modulus decreases with increasing porosity. The $E$ of ZrO\textsubscript{2}-4 mol\% Y\textsubscript{2}O\textsubscript{3} has been shown to decrease from around 200 GPa at 8\% porosity, to 80 GPa at 28\% porosity~\cite{Jang2005}. A number of studies~\cite{Yamazaki2007, Nath2015} have shown that the Young's modulus of TBC materials increases after thermal aging, as fine microcracks and porosities are sealed. The increase is in the region of 30 GPa. Exposure to higher temperatures causes a larger increase in $E$.
 
 Considering that YSZ exhibits substantially lower Young's modulus than the other materials there is likely to be a comparatively larger through-thickness displacement in the top coat, which will make propagating waves substantially more sensitive to defects in the TBC surface. This effect will be partially reduced as the value of $E$ increases after thermal aging. 
 
@@ -103,9 +103,34 @@ Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement
 \clearpage
 \section{Simulation study}
 
-Three wave modes with clear peaks in group velocity were targeted, to be excited with a wedge transducer. $B_1$ at 1~MHz-mm (30.1\degree), $B_3$ at 2.4~MHz-mm (25.3\degree), and $B_5$ at 4.4~MHz-mm (25.6\degree). These frequencies products correspond to peaks in the energy velocity dispersion curves, where velocity is at a maximum for these modes. The use of wedge transducers further isolates each mode.  
+Three wave modes with clear peaks in group velocity were targeted, to be excited with a wedge transducer. $B_1$ at 1~MHz (30.1\degree), $B_3$ at 2.4~MHz (25.3\degree), and $B_5$ at 4.4~MHz (25.6\degree). These frequencies correspond to peaks in the energy velocity dispersion curves, where velocity is at a maximum for these modes. The use of wedge transducers further isolates each mode.  
 
-Temperature dependant material properties of TBC materials are provided by Sfar \textit{et al.}\cite{Sfar2002} and Saucedo-Mora \textit{et al.}\cite{Saucedo-Mora2015}.
+Time-displacement data is transformed into frequency-wavenumber data using 2D-FFT from spatial B-scan data, using 90 point probes equally spaced 0.8 mm apart. This allows individual modes to be identified, and compared with dispersion curves for verification. Both in-plane ($x$) and out-of-plane ($y$) displacement was monitored. 
+
+Temperature dependant material properties of Young's modulus for TBC materials are provided in~\cref{table:TBCmatprops}, and shown in~\cref{fig:TBC_E}. All three sources of values for the top coat (YSZ) show linear reductions in $E$ with temperature, while the reduction in $E$ for the bond coat (MCrAlY) increases with temperature. Saucedo-Mora \textit{et al.}\cite{Saucedo-Mora2015} suggest that the data provided by Beghini \textit{et al.}\cite{Beghini2001} shows a significant decrease in $E$ due to microcracking. The elevated initial values of $E$ in comparison to the other sources suggests that the tested material has undergone thermal aging~\cite{Yamazaki2007,Nath2015}. 
+
+The change in Young's modulus with temperature for the TGO is ignored, as the effect is considered insignificant due to the thickness of the layer.
+
+The Poisson's ratio of the materials is temperature independent, 0.33 for the bond coat, and 0.2 for the top coat. Changes in density due to thermal expansion are not considered in this study, as the effect on wave propagation is small in comparison to changes in Young's modulus, as discussed in~\cref{effectoftemponwaveprop}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{@{}llllllll@{}}
+    \toprule
+    \textbf{Source} & \textbf{Material} & \textbf{$E_{20 \si{\degreeCelsius}}$} & \textbf{$E_{220 \si{\degreeCelsius}}$} & \textbf{$E_{420 \si{\degreeCelsius}}$} & \textbf{$E_{620 \si{\degreeCelsius}}$} & \textbf{$E_{820 \si{\degreeCelsius}}$} & \textbf{$E_{1020 \si{\degreeCelsius}}$} \\ \midrule
+    Bednarz \textit{et al.}\cite{Bednarz2005} & Bond Coat & 151.85 & 150.75 & 145.25 & 132.33 & 108.92 & 71.89 \\
+    Bednarz \textit{et al.}\cite{Bednarz2005} & Top Coat & 17.50   & 16.34  & 15.18  & 14.02  & 12.86  & 11.70  \\
+    Beghini \textit{et al.}\cite{Beghini2001} & Top Coat & 46.50   & 41.75  & 37.00     & 32.25  & 27.50   & 22.75 \\
+    Gregori \textit{et al.}\cite{Gregori2007} & Top Coat & 22.00     & 21.05  & 20.14  & 19.26  & 18.43  & 17.62 \\ \bottomrule
+    \end{tabular}
+    \caption{Temperature dependant material properties of TBC materials.}\label{table:TBCmatprops}
+\end{table}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./figures/TBC_E.eps}
+    \caption{Values of Young's modulus for TBC materials.}\label{fig:TBC_E}
+\end{figure}
 
 
 \printbibliography[title={Chapter~\thechapter~Bibliography}]
