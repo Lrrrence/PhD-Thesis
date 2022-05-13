@@ -1,106 +1,105 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.3)  3 NOV 2021 13:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.24)  11 MAY 2022 15:05
 entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
 **c:/Users/yulel/Documents/LaTeX/PhD-Thesis/main.tex
 (c:/Users/yulel/Documents/LaTeX/PhD-Thesis/main.tex
-LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-10-18> (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2021/02/12 v1.4n Standard LaTeX document class
-(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (c:/texlive/2021/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(c:/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@chapter=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
+ (c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (c:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package pdftexcmds Info: \pdfdraftmode not found.
+) (c:/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count191
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+\etb@tempcnta=\count190
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+\KV@toks@=\toks16
+) (c:/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+)) (c:/texlive/2021/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count192
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+\lrq@indent=\count191
+ (c:/texlive/2021/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+)) (c:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count193
-\c@listtotal=\count194
-\c@listcount=\count195
-\c@liststart=\count196
-\c@liststop=\count197
-\c@citecount=\count198
-\c@citetotal=\count199
-\c@multicitecount=\count266
-\c@multicitetotal=\count267
-\c@instcount=\count268
-\c@maxnames=\count269
-\c@minnames=\count270
-\c@maxitems=\count271
-\c@minitems=\count272
-\c@citecounter=\count273
-\c@maxcitecounter=\count274
-\c@savedcitecounter=\count275
-\c@uniquelist=\count276
-\c@uniquename=\count277
-\c@refsection=\count278
-\c@refsegment=\count279
-\c@maxextratitle=\count280
-\c@maxextratitleyear=\count281
-\c@maxextraname=\count282
-\c@maxextradate=\count283
-\c@maxextraalpha=\count284
-\c@abbrvpenalty=\count285
-\c@highnamepenalty=\count286
-\c@lownamepenalty=\count287
-\c@maxparens=\count288
-\c@parenlevel=\count289
-\blx@tempcnta=\count290
-\blx@tempcntb=\count291
-\blx@tempcntc=\count292
-\blx@maxsection=\count293
-\blx@maxsegment@0=\count294
-\blx@notetype=\count295
-\blx@parenlevel@text=\count296
-\blx@parenlevel@foot=\count297
-\blx@sectionciteorder@0=\count298
-\blx@entrysetcounter=\count299
-\blx@biblioinstance=\count300
+\c@tabx@nest=\count192
+\c@listtotal=\count193
+\c@listcount=\count194
+\c@liststart=\count195
+\c@liststop=\count196
+\c@citecount=\count197
+\c@citetotal=\count198
+\c@multicitecount=\count199
+\c@multicitetotal=\count266
+\c@instcount=\count267
+\c@maxnames=\count268
+\c@minnames=\count269
+\c@maxitems=\count270
+\c@minitems=\count271
+\c@citecounter=\count272
+\c@maxcitecounter=\count273
+\c@savedcitecounter=\count274
+\c@uniquelist=\count275
+\c@uniquename=\count276
+\c@refsection=\count277
+\c@refsegment=\count278
+\c@maxextratitle=\count279
+\c@maxextratitleyear=\count280
+\c@maxextraname=\count281
+\c@maxextradate=\count282
+\c@maxextraalpha=\count283
+\c@abbrvpenalty=\count284
+\c@highnamepenalty=\count285
+\c@lownamepenalty=\count286
+\c@maxparens=\count287
+\c@parenlevel=\count288
+\blx@tempcnta=\count289
+\blx@tempcntb=\count290
+\blx@tempcntc=\count291
+\c@blx@maxsection=\count292
+\c@blx@maxsegment@0=\count293
+\blx@notetype=\count294
+\blx@parenlevel@text=\count295
+\blx@parenlevel@foot=\count296
+\c@blx@sectionciteorder@0=\count297
+\blx@entrysetcounter=\count298
+\blx@biblioinstance=\count299
 \labelnumberwidth=\skip49
 \labelalphawidth=\skip50
 \biblabelsep=\skip51
@@ -111,87 +110,87 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip56
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language79
-\c@mincomprange=\count301
-\c@maxcomprange=\count302
-\c@mincompwidth=\count303
+\blx@langwohyphens=\language87
+\c@mincomprange=\count300
+\c@maxcomprange=\count301
+\c@mincompwidth=\count302
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+ (c:/texlive/2021/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count304
-\c@savedafterword=\count305
-\c@annotator=\count306
-\c@savedannotator=\count307
-\c@author=\count308
-\c@savedauthor=\count309
-\c@bookauthor=\count310
-\c@savedbookauthor=\count311
-\c@commentator=\count312
-\c@savedcommentator=\count313
-\c@editor=\count314
-\c@savededitor=\count315
-\c@editora=\count316
-\c@savededitora=\count317
-\c@editorb=\count318
-\c@savededitorb=\count319
-\c@editorc=\count320
-\c@savededitorc=\count321
-\c@foreword=\count322
-\c@savedforeword=\count323
-\c@holder=\count324
-\c@savedholder=\count325
-\c@introduction=\count326
-\c@savedintroduction=\count327
-\c@namea=\count328
-\c@savednamea=\count329
-\c@nameb=\count330
-\c@savednameb=\count331
-\c@namec=\count332
-\c@savednamec=\count333
-\c@translator=\count334
-\c@savedtranslator=\count335
-\c@shortauthor=\count336
-\c@savedshortauthor=\count337
-\c@shorteditor=\count338
-\c@savedshorteditor=\count339
-\c@labelname=\count340
-\c@savedlabelname=\count341
-\c@institution=\count342
-\c@savedinstitution=\count343
-\c@lista=\count344
-\c@savedlista=\count345
-\c@listb=\count346
-\c@savedlistb=\count347
-\c@listc=\count348
-\c@savedlistc=\count349
-\c@listd=\count350
-\c@savedlistd=\count351
-\c@liste=\count352
-\c@savedliste=\count353
-\c@listf=\count354
-\c@savedlistf=\count355
-\c@location=\count356
-\c@savedlocation=\count357
-\c@organization=\count358
-\c@savedorganization=\count359
-\c@origlocation=\count360
-\c@savedoriglocation=\count361
-\c@origpublisher=\count362
-\c@savedorigpublisher=\count363
-\c@publisher=\count364
-\c@savedpublisher=\count365
-\c@language=\count366
-\c@savedlanguage=\count367
-\c@origlanguage=\count368
-\c@savedoriglanguage=\count369
-\c@pageref=\count370
-\c@savedpageref=\count371
+\c@afterword=\count303
+\c@savedafterword=\count304
+\c@annotator=\count305
+\c@savedannotator=\count306
+\c@author=\count307
+\c@savedauthor=\count308
+\c@bookauthor=\count309
+\c@savedbookauthor=\count310
+\c@commentator=\count311
+\c@savedcommentator=\count312
+\c@editor=\count313
+\c@savededitor=\count314
+\c@editora=\count315
+\c@savededitora=\count316
+\c@editorb=\count317
+\c@savededitorb=\count318
+\c@editorc=\count319
+\c@savededitorc=\count320
+\c@foreword=\count321
+\c@savedforeword=\count322
+\c@holder=\count323
+\c@savedholder=\count324
+\c@introduction=\count325
+\c@savedintroduction=\count326
+\c@namea=\count327
+\c@savednamea=\count328
+\c@nameb=\count329
+\c@savednameb=\count330
+\c@namec=\count331
+\c@savednamec=\count332
+\c@translator=\count333
+\c@savedtranslator=\count334
+\c@shortauthor=\count335
+\c@savedshortauthor=\count336
+\c@shorteditor=\count337
+\c@savedshorteditor=\count338
+\c@labelname=\count339
+\c@savedlabelname=\count340
+\c@institution=\count341
+\c@savedinstitution=\count342
+\c@lista=\count343
+\c@savedlista=\count344
+\c@listb=\count345
+\c@savedlistb=\count346
+\c@listc=\count347
+\c@savedlistc=\count348
+\c@listd=\count349
+\c@savedlistd=\count350
+\c@liste=\count351
+\c@savedliste=\count352
+\c@listf=\count353
+\c@savedlistf=\count354
+\c@location=\count355
+\c@savedlocation=\count356
+\c@organization=\count357
+\c@savedorganization=\count358
+\c@origlocation=\count359
+\c@savedoriglocation=\count360
+\c@origpublisher=\count361
+\c@savedorigpublisher=\count362
+\c@publisher=\count363
+\c@savedpublisher=\count364
+\c@language=\count365
+\c@savedlanguage=\count366
+\c@origlanguage=\count367
+\c@savedoriglanguage=\count368
+\c@pageref=\count369
+\c@savedpageref=\count370
 \shorthandwidth=\skip57
 \shortjournalwidth=\skip58
 \shortserieswidth=\skip59
@@ -206,44 +205,47 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip68
 \localshortauthorwidth=\skip69
 \localshorteditorwidth=\skip70
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+ (c:/texlive/2021/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+ (c:/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count372
-\c@textcitetotal=\count373
-\c@textcitemaxnames=\count374
-\c@biburlbigbreakpenalty=\count375
-\c@biburlbreakpenalty=\count376
-\c@biburlnumpenalty=\count377
-\c@biburlucpenalty=\count378
-\c@biburllcpenalty=\count379
+ (c:/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count371
+\c@textcitetotal=\count372
+\c@textcitemaxnames=\count373
+\c@biburlbigbreakpenalty=\count374
+\c@biburlbreakpenalty=\count375
+\c@biburlnumpenalty=\count376
+\c@biburlucpenalty=\count377
+\c@biburllcpenalty=\count378
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count380
+\c@smartand=\count379
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
-File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+ (c:/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
-File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count381
-\c@bbx:relatedtotal=\count382
+ (c:/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count380
+\c@bbx:relatedtotal=\count381
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
-File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+ (c:/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -258,92 +260,117 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+ (c:/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/was\gensymb.sty
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+ (c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+ (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
+ (|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count382
+\l__color_backend_stack_int=\count383
+\g__color_backend_stack_int=\count384
+\g__graphics_track_int=\count385
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count386
+\g__pdf_backend_annotation_int=\count387
+\g__pdf_backend_link_int=\count388
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2022-02-24 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (c:/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
+)) (c:/texlive/2021/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package color Info: Driver file: xetex.def on input line 149.
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+)) (c:/texlive/2021/texmf-dist/tex/generic/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks19
-\SOUL@lasttoken=\toks20
-\SOUL@cmds=\toks21
-\SOUL@buffer=\toks22
-\SOUL@token=\toks23
+\SOUL@word=\toks17
+\SOUL@lasttoken=\toks18
+\SOUL@cmds=\toks19
+\SOUL@buffer=\toks20
+\SOUL@token=\toks21
 \SOUL@spaceskip=\skip71
 \SOUL@ttwidth=\dimen139
 \SOUL@uldp=\dimen140
 \SOUL@ulht=\dimen141
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+) (c:/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 709.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package xcolor Info: Driver file: xetex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks24
+\@emptytoks=\toks22
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+)) (c:/texlive/2021/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+ (c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen144
-\ar@mcellbox=\box50
+\ar@mcellbox=\box51
 \extrarowheight=\dimen145
-\NC@list=\toks25
+\NC@list=\toks23
 \extratabsurround=\skip72
 \backup@length=\skip73
-\ar@cellbox=\box51
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+\ar@cellbox=\box52
+) (c:/texlive/2021/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box52
-\sift@deathcycles=\count383
+\@vwid@box=\box53
+\sift@deathcycles=\count389
 \@vwid@loff=\dimen146
 \@vwid@roff=\dimen147
 )
-\c@taburow=\count384
-\tabu@nbcols=\count385
-\tabu@cnt=\count386
-\tabu@Xcol=\count387
-\tabu@alloc=\count388
-\tabu@nested=\count389
+\c@taburow=\count390
+\tabu@nbcols=\count391
+\tabu@cnt=\count392
+\tabu@Xcol=\count393
+\tabu@alloc=\count394
+\tabu@nested=\count395
 \tabu@target=\dimen148
 \tabu@spreadtarget=\dimen149
 \tabu@naturalX=\dimen150
@@ -353,21 +380,21 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen154
 \belowtabulinesep=\dimen155
 \tabustrutrule=\dimen156
-\tabu@thebody=\toks26
-\tabu@footnotes=\toks27
-\tabu@box=\box53
-\tabu@arstrutbox=\box54
-\tabu@hleads=\box55
-\tabu@vleads=\box56
+\tabu@thebody=\toks24
+\tabu@footnotes=\toks25
+\tabu@box=\box54
+\tabu@arstrutbox=\box55
+\tabu@hleads=\box56
+\tabu@vleads=\box57
 \tabu@cellskip=\skip74
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
-\TY@count=\count390
+\TY@count=\count396
 \TY@linewidth=\dimen157
 \tymin=\dimen158
 \tymax=\dimen159
 \TY@tablewidth=\dimen160
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen161
 \lightrulewidth=\dimen162
@@ -379,98 +406,92 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen168
 \cmidrulekern=\dimen169
 \defaultaddspace=\dimen170
-\@cmidla=\count391
-\@cmidlb=\count392
+\@cmidla=\count397
+\@cmidlb=\count398
 \@aboverulesep=\dimen171
 \@belowrulesep=\dimen172
-\@thisruleclass=\count393
-\@lastruleclass=\count394
+\@thisruleclass=\count399
+\@lastruleclass=\count400
 \@thisrulewidth=\dimen173
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/moreverb\moreverb.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/moreverb/moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks28
-\verbatim@line=\toks29
+\every@verbatim=\toks26
+\verbatim@line=\toks27
 \verbatim@in@stream=\read3
 )
-\tab@position=\count395
-\tab@size=\count396
-\listing@line=\count397
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
-Package: xurl 2020/12/30 v 0.09a modify URL breaks
+\tab@position=\count401
+\tab@size=\count402
+\listing@line=\count403
+) (c:/texlive/2021/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
 
 xurl: Set penalties for biblatex
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2021-10-26 v3.0.34 A comprehensive (SI) units package
+) (c:/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-02-15 v3.0.49 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen174
-\l__siunitx_angle_marker_box=\box57
-\l__siunitx_angle_unit_box=\box58
-\l__siunitx_compound_count_int=\count398
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
-Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e packages (CN)
+\l__siunitx_angle_marker_box=\box58
+\l__siunitx_angle_unit_box=\box59
+\l__siunitx_compound_count_int=\count404
+ (c:/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count399
-\l__siunitx_number_min_decimal_int=\count400
-\l__siunitx_number_min_integer_int=\count401
-\l__siunitx_number_round_precision_int=\count402
-\l__siunitx_number_group_minimum_int=\count403
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+\l__siunitx_number_exponent_fixed_int=\count405
+\l__siunitx_number_min_decimal_int=\count406
+\l__siunitx_number_min_integer_int=\count407
+\l__siunitx_number_round_precision_int=\count408
+\l__siunitx_number_group_minimum_int=\count409
+ (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks30
+\@emptytoks=\toks28
 \ex@=\dimen175
 ))
-\l__siunitx_table_tmp_box=\box59
+\l__siunitx_table_tmp_box=\box60
 \l__siunitx_table_tmp_dim=\dimen176
 \l__siunitx_table_column_width_dim=\dimen177
-\l__siunitx_table_integer_box=\box60
-\l__siunitx_table_decimal_box=\box61
-\l__siunitx_table_before_box=\box62
-\l__siunitx_table_after_box=\box63
+\l__siunitx_table_integer_box=\box61
+\l__siunitx_table_decimal_box=\box62
+\l__siunitx_table_before_box=\box63
+\l__siunitx_table_after_box=\box64
 \l__siunitx_table_before_dim=\dimen178
 \l__siunitx_table_carry_dim=\dimen179
-\l__siunitx_unit_tmp_int=\count404
-\l__siunitx_unit_position_int=\count405
-\l__siunitx_unit_total_int=\count406
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-10-18 L3 programming layer (loader) 
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count407
-\l__pdf_internal_box=\box64
-))
-Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+\l__siunitx_unit_tmp_int=\count410
+\l__siunitx_unit_position_int=\count411
+\l__siunitx_unit_total_int=\count412
+ (c:/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)) (c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen180
 \TX@old@table=\dimen181
 \TX@old@col=\dimen182
 \TX@target=\dimen183
 \TX@delta=\dimen184
-\TX@cols=\count408
-\TX@ftn=\toks31
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
+\TX@cols=\count413
+\TX@ftn=\toks29
+) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip75
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen185
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count409
+\inf@bad=\count414
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count410
-\leftroot@=\count411
+\uproot@=\count415
+\leftroot@=\count416
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count412
-\DOTSCASE@=\count413
+\classnum@=\count417
+\DOTSCASE@=\count418
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -479,47 +500,47 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen186
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count414
-\c@MaxMatrixCols=\count415
+\macc@depth=\count419
+\c@MaxMatrixCols=\count420
 \dotsspace@=\muskip21
-\c@parentequation=\count416
-\dspbrk@lvl=\count417
-\tag@help=\toks32
-\row@=\count418
-\column@=\count419
-\maxfields@=\count420
-\andhelp@=\toks33
+\c@parentequation=\count421
+\dspbrk@lvl=\count422
+\tag@help=\toks30
+\row@=\count423
+\column@=\count424
+\maxfields@=\count425
+\andhelp@=\toks31
 \eqnshift@=\dimen187
 \alignsep@=\dimen188
 \tagshift@=\dimen189
 \tagwidth@=\dimen190
 \totwidth@=\dimen191
 \lineht@=\dimen192
-\@envbody=\toks34
+\@envbody=\toks32
 \multlinegap=\skip76
 \multlinetaggap=\skip77
-\mathdisplay@stack=\toks35
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box67
 \beforetitleunit=\skip78
 \aftertitleunit=\skip79
 \ttl@plus=\dimen193
 \ttl@minus=\dimen194
-\ttl@toksa=\toks36
+\ttl@toksa=\toks34
 \titlewidth=\dimen195
 \titlewidthlast=\dimen196
 \titlewidthfirst=\dimen197
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count421
-\Gm@cntv=\count422
-\c@Gm@tempcnt=\count423
+\Gm@cnth=\count426
+\Gm@cntv=\count427
+\c@Gm@tempcnt=\count428
 \Gm@bindingoffset=\dimen198
 \Gm@wd@mp=\dimen199
 \Gm@odd@mp=\dimen256
@@ -528,9 +549,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen259
 \Gm@layouthoffset=\dimen260
 \Gm@layoutvoffset=\dimen261
-\Gm@dimlist=\toks37
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
-Package: ragged2e 2021/02/05 v3.0 ragged2e Package
+\Gm@dimlist=\toks35
+) (c:/texlive/2021/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \CenteringLeftskip=\skip80
 \RaggedLeftLeftskip=\skip81
 \RaggedRightLeftskip=\skip82
@@ -545,31 +566,34 @@ Package: ragged2e 2021/02/05 v3.0 ragged2e Package
 \RaggedLeftParindent=\skip91
 \RaggedRightParindent=\skip92
 \JustifyingParindent=\skip93
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgfgantt\pgfgantt.sty
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+ (c:/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)) (c:/texlive/2021/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
 Package: pgfgantt 2018/01/10 v5.0 Draw Gantt diagrams with TikZ
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks38
+ (c:/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks36
 \pgfutil@tempdima=\dimen262
 \pgfutil@tempdimb=\dimen263
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box68
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
 Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+ (c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks39
-\pgfkeys@temptoks=\toks40
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks41
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks39
 ))
 \pgf@x=\dimen264
 \pgf@y=\dimen265
@@ -583,40 +607,44 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yd=\dimen273
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count424
-\c@pgf@countb=\count425
-\c@pgf@countc=\count426
-\c@pgf@countd=\count427
-\t@pgf@toka=\toks42
-\t@pgf@tokb=\toks43
-\t@pgf@tokc=\toks44
-\pgf@sys@id@count=\count428
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+\c@pgf@counta=\count429
+\c@pgf@countb=\count430
+\c@pgf@countc=\count431
+\c@pgf@countd=\count432
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count433
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
-Driver file for pgf: pgfsys-pdftex.def
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+Driver file for pgf: pgfsys-xetex.def
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
-))) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+)
+\pgfsys@objnum=\count434
+))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count429
-\pgfsyssoftpath@bigbuffer@items=\count430
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+\pgfsyssoftpath@smallbuffer@items=\count435
+\pgfsyssoftpath@bigbuffer@items=\count436
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen274
-\pgfmath@count=\count431
+\pgfmath@count=\count437
 \pgfmath@box=\box69
-\pgfmath@toks=\toks45
-\pgfmath@stack@operand=\toks46
-\pgfmath@stack@operation=\toks47
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count432
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count438
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen275
 \pgf@picmaxx=\dimen276
@@ -632,78 +660,78 @@ File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yy=\dimen286
 \pgf@zx=\dimen287
 \pgf@zy=\dimen288
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen289
 \pgf@path@lasty=\dimen290
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen291
 \pgf@shorten@start@additional=\dimen292
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box70
 \pgf@hbox=\box71
 \pgf@layerbox@main=\box72
-\pgf@picture@serial@count=\count433
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+\pgf@picture@serial@count=\count439
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen293
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen294
 \pgf@pt@y=\dimen295
 \pgf@pt@temp=\dimen296
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen297
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen298
-\pgf@sys@shading@range@num=\count434
-\pgf@shadingcount=\count435
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+\pgf@sys@shading@range@num=\count440
+\pgf@shadingcount=\count441
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box73
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodeparttextbox=\box74
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen299
 \pgf@nodesepend=\dimen300
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+)) (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen301
 \pgffor@skip=\dimen302
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count436
+\pgf@plot@mark@count=\count442
 \pgfplotmarksize=\dimen303
 )
 \tikz@lastx=\dimen304
@@ -718,103 +746,103 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@figbox@bg=\box76
 \tikz@tempbox=\box77
 \tikz@tempbox@bg=\box78
-\tikztreelevel=\count437
-\tikznumberofchildren=\count438
-\tikznumberofcurrentchild=\count439
-\tikz@fig@count=\count440
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+\tikztreelevel=\count443
+\tikznumberofchildren=\count444
+\tikznumberofcurrentchild=\count445
+\tikz@fig@count=\count446
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count441
-\pgfmatrixcurrentcolumn=\count442
-\pgf@matrix@numberofcolumns=\count443
+\pgfmatrixcurrentrow=\count447
+\pgfmatrixcurrentcolumn=\count448
+\pgf@matrix@numberofcolumns=\count449
 )
-\tikz@expandcount=\count444
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+\tikz@expandcount=\count450
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
+))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \arrowsize=\dimen312
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@layerbox@background=\box79
 \pgf@layerboxsaved@background=\box80
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypatterns.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrarypatterns.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfcalendar.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfcalendar.code.tex
+)) (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
-\pgfcalendarcurrentjulian=\count445
-\pgf@cal@easter@Y=\count446
-\pgf@cal@easter@G=\count447
-\pgf@cal@easter@C=\count448
-\pgf@cal@easter@X=\count449
-\pgf@cal@easter@Z=\count450
-\pgf@cal@easter@D=\count451
-\pgf@cal@easter@E=\count452
-\pgf@cal@easter@N=\count453
-\pgf@cal@easter@M=\count454
-\pgf@cal@easter@julianday=\count455
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+\pgfcalendarcurrentjulian=\count451
+\pgf@cal@easter@Y=\count452
+\pgf@cal@easter@G=\count453
+\pgf@cal@easter@C=\count454
+\pgf@cal@easter@X=\count455
+\pgf@cal@easter@Z=\count456
+\pgf@cal@easter@D=\count457
+\pgf@cal@easter@E=\count458
+\pgf@cal@easter@N=\count459
+\pgf@cal@easter@M=\count460
+\pgf@cal@easter@julianday=\count461
 ))
-\gtt@currentline=\count456
-\gtt@lasttitleline=\count457
-\gtt@currgrid=\count458
-\gtt@chartwidth=\count459
-\gtt@lasttitleslot=\count460
-\gtt@elementid=\count461
-\gtt@today@slot=\count462
-\gtt@startjulian=\count463
-\gtt@endjulian=\count464
-\gtt@chartid=\count465
-\gtt@vrule@slot=\count466
-\gtt@calendar@slots=\count467
-\gtt@calendar@weeknumber=\count468
-\gtt@calendar@startofweek=\count469
-\gtt@left@slot=\count470
-\gtt@right@slot=\count471
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/standalone\standalone.sty
+\gtt@currentline=\count462
+\gtt@lasttitleline=\count463
+\gtt@currgrid=\count464
+\gtt@chartwidth=\count465
+\gtt@lasttitleslot=\count466
+\gtt@elementid=\count467
+\gtt@today@slot=\count468
+\gtt@startjulian=\count469
+\gtt@endjulian=\count470
+\gtt@chartid=\count471
+\gtt@vrule@slot=\count472
+\gtt@calendar@slots=\count473
+\gtt@calendar@weeknumber=\count474
+\gtt@calendar@startofweek=\count475
+\gtt@left@slot=\count476
+\gtt@right@slot=\count477
+) (c:/texlive/2021/texmf-dist/tex/latex/standalone/standalone.sty
 Package: standalone 2018/03/26 v1.3a Package to include TeX sub-files with preambles
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks50
-\XKV@tempa@toks=\toks51
+ (c:/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks48
+\XKV@tempa@toks=\toks49
 )
-\XKV@depth=\count472
+\XKV@depth=\count478
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/currfile\currfile.sty
+)) (c:/texlive/2021/texmf-dist/tex/latex/currfile/currfile.sty
 Package: currfile 2020/09/29 v0.7d Provides the file path elements of the current input file
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/filehook\filehook.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/filehook/filehook.sty
 Package: filehook 2020/09/29 v0.8a Hooks for input files
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/filehook\filehook-2020.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/filehook/filehook-2020.sty
 Package: filehook-2020 2020/09/29 v0.8a Hooks for input files
 ))
-\c@currfiledepth=\count473
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/gincltex\gincltex.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/svn-prov\svn-prov.sty
+\c@currfiledepth=\count479
+) (c:/texlive/2021/texmf-dist/tex/latex/gincltex/gincltex.sty (c:/texlive/2021/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
 Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box81
 )
@@ -822,9 +850,9 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@lly=\dimen314
 \tc@urx=\dimen315
 \tc@ury=\dimen316
-Package trimclip Info: Using driver 'tc-pdftex.def'.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
-File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+Package trimclip Info: Using driver 'tc-xetex.def'.
+ (c:/texlive/2021/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 ))
 \adjbox@Width=\dimen317
 \adjbox@Height=\dimen318
@@ -834,32 +862,29 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pheight=\dimen322
 \adjbox@pdepth=\dimen323
 \adjbox@ptotalheight=\dimen324
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count474
+\c@checkoddpage=\count480
 ))
 \gincltex@box=\box82
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/filemod\filemod-expmin.sty
-Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times (expandable; minimal)
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
-Package: typearea 2021/06/25 v3.34 KOMA-Script package (type area)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
-Package: scrkbase 2021/06/25 v3.34 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2021/06/25 v3.34 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
-
-(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
-Package: scrlfile 2021/06/25 v3.34 KOMA-Script package (file load hooks)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
-Package: scrlfile-hook 2021/06/25 v3.34 KOMA-Script package (using LaTeX hooks)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2021/06/25 v3.34 KOMA-Script package (logo)
+)) (c:/texlive/2021/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2021/11/13 v3.35 KOMA-Script package (type area)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
 ))
 \ta@bcor=\skip94
-\ta@div=\count475
+\ta@div=\count481
 \ta@hblk=\skip95
 \ta@vblk=\skip96
 \ta@temp=\skip97
@@ -880,26 +905,26 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 10.0pt
 (typearea)              \footskip       = 42.0pt
 (typearea)              \baselineskip   = 12.0pt
-(typearea)              on input line 1742.
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+(typearea)              on input line 1743.
+) (c:/texlive/2021/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/notoccite\notoccite.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/notoccite/notoccite.sty
 Package: notoccite 2000/07/20
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
+ (c:/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count476
-\calc@Bcount=\count477
+\calc@Acount=\count482
+\calc@Bcount=\count483
 \calc@Adimen=\dimen325
 \calc@Bdimen=\dimen326
 \calc@Askip=\skip99
 \calc@Bskip=\skip100
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count478
+\calc@Ccount=\count484
 \calc@Cskip=\skip101
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen327
 \ESO@tempdimb=\dimen328
@@ -907,32 +932,33 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \AM@pagewidth=\dimen329
 \AM@pageheight=\dimen330
 \AM@fboxrule=\dimen331
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+ (c:/texlive/2021/texmf-dist/tex/latex/pdfpages/ppxetex.def
+File: ppxetex.def 2022/01/29 v0.5u Pdfpages driver for XeTeX (AM)
 )
-\pdfpages@includegraphics@status=\count479
+\pdfpages@includegraphics@status=\count485
 \AM@pagebox=\box83
-\AM@global@opts=\toks52
-\AM@pagecnt=\count480
-\AM@toc@title=\toks53
-\c@AM@survey=\count481
+\AM@global@opts=\toks50
+\AM@pagecnt=\count486
+\AM@toc@title=\toks51
+\c@AM@survey=\count487
 \AM@templatesizebox=\box84
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen332
-\captionmargin@=\dimen333
-\captionwidth=\dimen334
-\caption@tempdima=\dimen335
-\caption@indent=\dimen336
-\caption@parindent=\dimen337
-\caption@hangindent=\dimen338
+) (c:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (c:/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen332
+\captionmargin=\dimen333
+\caption@leftmargin=\dimen334
+\caption@rightmargin=\dimen335
+\caption@width=\dimen336
+\caption@indent=\dimen337
+\caption@parindent=\dimen338
+\caption@hangindent=\dimen339
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count482
-\c@continuedfloat=\count483
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+\c@caption@flags=\count488
+\c@continuedfloat=\count489
+) (c:/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip102
 \f@nch@O@elh=\skip103
@@ -943,186 +969,444 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 \f@nch@O@erf=\skip108
 \f@nch@O@olf=\skip109
 \f@nch@O@orf=\skip110
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen340
+\c@nlinenum=\count490
+\TeXr@lab=\toks52
+) (c:/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+) (c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+ (c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+ (c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+ (c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count491
+\l__fontspec_language_int=\count492
+\l__fontspec_strnum_int=\count493
+\l__fontspec_tmp_int=\count494
+\l__fontspec_tmpa_int=\count495
+\l__fontspec_tmpb_int=\count496
+\l__fontspec_tmpc_int=\count497
+\l__fontspec_em_int=\count498
+\l__fontspec_emdef_int=\count499
+\l__fontspec_strong_int=\count500
+\l__fontspec_strongdef_int=\count501
+\l__fontspec_tmpa_dim=\dimen341
+\l__fontspec_tmpb_dim=\dimen342
+\l__fontspec_tmpc_dim=\dimen343
+ (c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/texlive/2021/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+ (c:/texlive/2021/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\g__um_fam_int=\count502
+\g__um_fonts_used_int=\count503
+\l__um_primecount_int=\count504
+\g__um_primekern_muskip=\muskip22
+ (c:/texlive/2021/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count505
+\c@subtable=\count506
+)
+
+Package fontspec Info: Font family 'LibertinusSerif(0)' created for font
+(fontspec)             'Libertinus Serif' with options
+(fontspec)             [Ligatures=TeX,Ligatures={TeX,Common},Numbers={Proportional,Lining},Kerning=On].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/B/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"Libertinus
+(fontspec)             Serif/B/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/I/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Libertinus
+(fontspec)             Serif/I/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Libertinus
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'LibertinusSerif(1)' created for font
+(fontspec)             'Libertinus Serif' with options
+(fontspec)             [Ligatures={TeX,Common},Numbers={Proportional,Lining},Kerning=On].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/B/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"Libertinus
+(fontspec)             Serif/B/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/I/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Libertinus
+(fontspec)             Serif/I/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Libertinus
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;+liga;+pnum;+lnum;+kern;+smcp;mapping=tex-text;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/LibertinusSerif(1)/m/n on input line 59.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/LibertinusSerif(1)/m/it on input line 59.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/LibertinusSerif(1)/b/n on input line 59.
+
+Package fontspec Info: Could not resolve font "Libertinus Math/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'LibertinusMath(0)' created for font
+(fontspec)             'Libertinus Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Libertinus
+(fontspec)             Math/OT:script=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Could not resolve font "Libertinus Math/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'LibertinusMath(1)' created for font
+(fontspec)             'Libertinus Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9-},{Size=7-9,Font=Libertinus
+(fontspec)             Math,Style=MathScript},{Size=-7,Font=Libertinus
+(fontspec)             Math,Style=MathScriptScript}}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <9->"Libertinus
+(fontspec)             Math/OT:script=math;language=dflt;"<7-9>"Libertinus
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-7>"Libertinus
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 61.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/LibertinusMath(1)/m/n on input line 61.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 61.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/LibertinusMath(1)/b/n on input line 61.
+
+Package fontspec Info: Libertinus Math scale = 1.0001.
+
+
+Package fontspec Info: Could not resolve font "Libertinus Math/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Libertinus Math scale = 1.0001.
+
+
+Package fontspec Info: Libertinus Math scale = 1.0001.
+
+
+Package fontspec Info: Libertinus Math scale = 1.0001.
+
+
+Package fontspec Info: Font family 'LibertinusMath(2)' created for font
+(fontspec)             'Libertinus Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9-},{Size=7-9,Font=Libertinus
+(fontspec)             Math,Style=MathScript},{Size=-7,Font=Libertinus
+(fontspec)             Math,Style=MathScriptScript}},ScaleAgain=1.0001,FontAdjustment={\fontdimen
+(fontspec)             8\font =5.8pt\relax \fontdimen 9\font =4.8pt\relax
+(fontspec)             \fontdimen 10\font =4.7pt\relax \fontdimen 11\font
+(fontspec)             =7.0pt\relax \fontdimen 12\font =4.8pt\relax \fontdimen
+(fontspec)             13\font =3.75pt\relax \fontdimen 14\font =3.75pt\relax
+(fontspec)             \fontdimen 15\font =3.1pt\relax \fontdimen 16\font
+(fontspec)             =2.1pt\relax \fontdimen 17\font =2.1pt\relax \fontdimen
+(fontspec)             18\font =2.3pt\relax \fontdimen 19\font =0.45pt\relax
+(fontspec)             \fontdimen 22\font =2.6pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9->s*[1.0001]"Libertinus
+(fontspec)             Math/OT:script=math;language=dflt;"<7-9>s*[1.0001]"Libertinus
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-7>s*[1.0001]"Libertinus
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =5.8pt\relax \fontdimen 9\font
+(fontspec)             =4.8pt\relax \fontdimen 10\font =4.7pt\relax \fontdimen
+(fontspec)             11\font =7.0pt\relax \fontdimen 12\font =4.8pt\relax
+(fontspec)             \fontdimen 13\font =3.75pt\relax \fontdimen 14\font
+(fontspec)             =3.75pt\relax \fontdimen 15\font =3.1pt\relax
+(fontspec)             \fontdimen 16\font =2.1pt\relax \fontdimen 17\font
+(fontspec)             =2.1pt\relax \fontdimen 18\font =2.3pt\relax \fontdimen
+(fontspec)             19\font =0.45pt\relax \fontdimen 22\font =2.6pt\relax
+(fontspec)             \fontdimen 20\font =0pt\relax \fontdimen 21\font
+(fontspec)             =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 61.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/LibertinusMath(2)/m/n on input line 61.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 61.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/LibertinusMath(2)/b/n on input line 61.
+
+Package fontspec Info: Libertinus Math scale = 0.9999.
+
+
+Package fontspec Info: Could not resolve font "Libertinus Math/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Libertinus Math scale = 0.9999.
+
+
+Package fontspec Info: Libertinus Math scale = 0.9999.
+
+
+Package fontspec Info: Libertinus Math scale = 0.9999.
+
+
+Package fontspec Info: Font family 'LibertinusMath(3)' created for font
+(fontspec)             'Libertinus Math' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9-},{Size=7-9,Font=Libertinus
+(fontspec)             Math,Style=MathScript},{Size=-7,Font=Libertinus
+(fontspec)             Math,Style=MathScriptScript}},ScaleAgain=0.9999,FontAdjustment={\fontdimen
+(fontspec)             8\font =0.65pt\relax \fontdimen 9\font =1.5pt\relax
+(fontspec)             \fontdimen 10\font =1.5pt\relax \fontdimen 11\font
+(fontspec)             =2.5pt\relax \fontdimen 12\font =6.2pt\relax \fontdimen
+(fontspec)             13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9->s*[0.9999]"Libertinus
+(fontspec)             Math/OT:script=math;language=dflt;"<7-9>s*[0.9999]"Libertinus
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=0;"<-7>s*[0.9999]"Libertinus
+(fontspec)             Math/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.65pt\relax \fontdimen 9\font
+(fontspec)             =1.5pt\relax \fontdimen 10\font =1.5pt\relax \fontdimen
+(fontspec)             11\font =2.5pt\relax \fontdimen 12\font =6.2pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 61.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/m/n on input line 61.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 61.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/LibertinusMath(3)/b/n on input line 61.
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+ (c:/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen339
-\Hy@linkcounter=\count484
-\Hy@pagecounter=\count485
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+\@linkdim=\dimen344
+\Hy@linkcounter=\count507
+\Hy@pagecounter=\count508
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+)
+(c:/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count486
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
+\Hy@SavedSpaceFactor=\count509
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 4073.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4073.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4073.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4073.
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4018.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4018.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4018.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count487
-LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen340
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count510
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen345
+ (c:/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count488
-\Field@Width=\dimen341
-\Fld@charsize=\dimen342
-Package hyperref Info: Hyper figures OFF on input line 6076.
-Package hyperref Info: Link nesting OFF on input line 6081.
-Package hyperref Info: Hyper index ON on input line 6084.
-Package hyperref Info: backreferencing OFF on input line 6091.
-Package hyperref Info: Link coloring ON on input line 6094.
-Package hyperref Info: Link coloring with OCG OFF on input line 6101.
-Package hyperref Info: PDF/A mode OFF on input line 6106.
-LaTeX Info: Redefining \ref on input line 6146.
-LaTeX Info: Redefining \pageref on input line 6150.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
+\Fld@menulength=\count511
+\Field@Width=\dimen346
+\Fld@charsize=\dimen347
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring ON on input line 6045.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+\Hy@abspage=\count512
+\c@Item=\count513
+\c@Hfootnote=\count514
 )
-\Hy@abspage=\count489
-\c@Item=\count490
-\c@Hfootnote=\count491
+Package hyperref Info: Driver (autodetected): hxetex.
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2022-02-21 v7.00n Hyperref driver for XeTeX
+ (c:/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
-with kernel methods
-)
-\Fld@listcount=\count492
-\c@bookmark@seq@number=\count493
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+\pdfm@box=\box85
+\c@Hy@AnnotLevel=\count515
+\HyField@AnnotCount=\count516
+\Fld@listcount=\count517
+\c@bookmark@seq@number=\count518
+ (c:/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+) (c:/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip111
+) (c:/texlive/2021/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: always capitalise cross-reference names on input line 7830.
+Package cleveref Info: always capitalise cross-reference names on input line 7852.
+Package cleveref Info: no abbreviation of names on input line 7852.
 )
-\@quotelevel=\count494
-\@quotereset=\count495
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 62.
+\@quotelevel=\count519
+\@quotereset=\count520
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 101.
+ (./main.aux
 
-No file main.aux.
+LaTeX Warning: Label `table:TBCmatprops' multiply defined.
+
+
+LaTeX Warning: Label `table:TBCmatprops@cref' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+ (c:/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
-Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2021-10-18 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2021-08-27 L3 Experimental document command parser
-)
-Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
-)
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 62.
-Package biblatex Info: Reference segment=0 on input line 62.
-\symgns@font=\mathgroup6
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 101.
+Package biblatex Info: Reference segment=0 on input line 101.
+\symgns@font=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 62.
-Package gensymb Info: Math companion symbols declared on input line 62.
-LaTeX Info: Redefining \degree on input line 62.
-LaTeX Info: Redefining \celsius on input line 62.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 62.
-LaTeX Info: Redefining \ohm on input line 62.
-Package gensymb Info: Using \textohm for \ohm on input line 62.
-Package gensymb Info: Using \textmu for \micro on input line 62.
-(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count496
-\scratchdimen=\dimen343
-\scratchbox=\box85
-\nofMPsegments=\count497
-\nofMParguments=\count498
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count499
-\MPscratchDim=\dimen344
-\MPnumerator=\count500
-\makeMPintoPDFobject=\count501
-\everyMPtoPDFconversion=\toks55
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+(Font)                  TS1/LibertinusSerif(0)/m/n --> TS1/LibertinusSerif(0)/b/n on input line 101.
+Package gensymb Info: Math companion symbols declared on input line 101.
+LaTeX Info: Redefining \degree on input line 101.
+LaTeX Info: Redefining \celsius on input line 101.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 101.
+LaTeX Info: Redefining \ohm on input line 101.
+Package gensymb Info: Using \textohm for \ohm on input line 101.
+Package gensymb Info: Using \textmu for \micro on input line 101.
+ (c:/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 62.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 101.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1160,183 +1444,957 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 62.
-Package hyperref Info: Link coloring ON on input line 62.
-(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(lastpage)             ! on input line 101.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 101.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 101.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 101.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 101.
+Package hyperref Info: Link coloring ON on input line 101.
+(c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count502
+\c@section@level=\count521
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \ref on input line 101.
+LaTeX Info: Redefining \pageref on input line 101.
+LaTeX Info: Redefining \nameref on input line 101.
+ (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-<./figures/UoSLogo.png, id=6, 170.7981pt x 37.0986pt>
-File: ./figures/UoSLogo.png Graphic file (type png)
-<use ./figures/UoSLogo.png>
-Package pdftex.def Info: ./figures/UoSLogo.png  used on input line 70.
-(pdftex.def)             Requested size: 170.71393pt x 37.08037pt.
+File: ./figures/UoSLogo.png Graphic file (type bmp)
+<./figures/UoSLogo.png>
  [1
 
-{C:/Users/yulel/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./figures/UoSLogo.png>] (abstract.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.110   \tableofcontents
-                         [1]
-\blx@maxsegment@1=\count503
-\blx@sectionciteorder@1=\count504
-Package biblatex Info: Reference section=1 on input line 110.
-Package biblatex Info: Setting label 'refsection:1' on input line 110.
+] (./abstract.tex) [1]
+\c@blx@maxsegment@1=\count522
+\c@blx@sectionciteorder@1=\count523
+Package biblatex Info: Reference section=1 on input line 149.
+Package biblatex Info: Setting label 'refsection:1' on input line 149.
+ (./main.toc
+LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 2.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
+(Font)              scaled to size 8.00085pt on input line 2.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 2.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 2.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
+(Font)              scaled to size 7.99915pt on input line 2.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 2.
+ (c:/texlive/2021/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for TS1+LibertinusSerif(0) on input line 2.
+LaTeX Font Info:    No file TS1LibertinusSerif(0).fd. on input line 2.
+
+
+LaTeX Font Warning: Font shape `TS1/LibertinusSerif(0)/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead on input line 2.
+
+[2
+
+] [3])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [2
+ [4]
+Package biblatex Info: Reference section=0 on input line 150.
+\c@blx@maxsegment@2=\count524
+\c@blx@sectionciteorder@2=\count525
+Package biblatex Info: Reference section=2 on input line 150.
+Package biblatex Info: Setting label 'refsection:2' on input line 150.
+ (./main.lof [5
 
-]
-Package biblatex Info: Reference section=0 on input line 111.
-\blx@maxsegment@2=\count505
-\blx@sectionciteorder@2=\count506
-Package biblatex Info: Reference section=2 on input line 111.
-Package biblatex Info: Setting label 'refsection:2' on input line 111.
+] [6])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
-Package biblatex Info: Reference section=0 on input line 114.
-\blx@maxsegment@3=\count507
-\blx@sectionciteorder@3=\count508
-Package biblatex Info: Reference section=3 on input line 114.
-Package biblatex Info: Setting label 'refsection:3' on input line 114.
+Package biblatex Info: Reference section=0 on input line 153.
+\c@blx@maxsegment@3=\count526
+\c@blx@sectionciteorder@3=\count527
+Package biblatex Info: Reference section=3 on input line 153.
+Package biblatex Info: Setting label 'refsection:3' on input line 153.
+ (./main.lot [7])
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [3
-
-] (1 Intro.tex
+ [8] (./Intro.tex
 Chapter 1.
 Package biblatex Info: Reference section=0 on input line 1.
-\blx@maxsegment@4=\count509
-\blx@sectionciteorder@4=\count510
+\c@blx@maxsegment@4=\count528
+\c@blx@sectionciteorder@4=\count529
 Package biblatex Info: Reference section=4 on input line 1.
 Package biblatex Info: Setting label 'refsection:4' on input line 1.
-
-LaTeX Warning: Reference `fig:crossngv' on page 1 undefined on input line 2.
-
-
-LaTeX Warning: Reference `literev' on page 1 undefined on input line 2.
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 3.
-
 [1
 
 
 ]
 
-LaTeX Warning: Reference `literev' on page 2 undefined on input line 7.
+LaTeX Warning: Reference `simulations' on page 2 undefined on input line 9.
 
 
-LaTeX Warning: Reference `ultrasonicmonitoring' on page 2 undefined on input line 8.
+LaTeX Warning: Reference `experiments' on page 2 undefined on input line 10.
 
 
-LaTeX Warning: Reference `theory' on page 2 undefined on input line 9.
-
-
-LaTeX Warning: Reference `simulations' on page 2 undefined on input line 10.
-
-
-LaTeX Warning: Reference `experiments' on page 2 undefined on input line 11.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
-(C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
- (C:\Users\yulel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Reference `plan' on page 2 undefined on input line 20.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 22.
+LaTeX Warning: Reference `plan' on page 2 undefined on input line 19.
 
 [2]
-<./figures/turbine plus ngv.png, id=45, 649.82774pt x 527.69145pt>
-File: ./figures/turbine plus ngv.png Graphic file (type png)
-<use ./figures/turbine plus ngv.png>
-Package pdftex.def Info: ./figures/turbine plus ngv.png  used on input line 27.
-(pdftex.def)             Requested size: 426.79134pt x 346.57848pt.
+File: ./figures/turbine plus ngv.png Graphic file (type bmp)
+<./figures/turbine plus ngv.png>
+ [3] [4]
+Underfull \hbox (badness 5359) in paragraph at lines 66--67
+[]\TU/LibertinusSerif(1)/m/n/10 Journal review paper “Surface temperature condition monitoring methods for aerospace
+ []
 
 
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 33.
+Underfull \hbox (badness 1762) in paragraph at lines 67--68
+[]\TU/LibertinusSerif(1)/m/n/10 Conference paper “Towards in-flight temperature monitoring for nozzle guide vanes using
+ []
 
-[3 <./figures/turbine plus ngv.png
+[5]
+Underfull \hbox (badness 3439) in paragraph at lines 71--71
+[]\TU/LibertinusSerif(1)/m/n/10 Lawrence Yule et al. “Surface temperature condition monitoring methods for aerospace
+ []
 
-pdfTeX warning: pdflatex (file ./figures/turbine plus ngv.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
->]
+) (./Literature Review.tex [6
 
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 63.
+]
+Chapter 2.
+Package biblatex Info: Reference section=0 on input line 1.
+\c@blx@maxsegment@5=\count530
+\c@blx@sectionciteorder@5=\count531
+Package biblatex Info: Reference section=5 on input line 1.
+Package biblatex Info: Setting label 'refsection:5' on input line 1.
 
-[4]
+Underfull \hbox (badness 5954) in paragraph at lines 2--3
+\TU/LibertinusSerif(1)/m/n/10 This literature review considers surface temperature monitoring methods for turbomachinery
+ []
 
-LaTeX Warning: Citation 'Yule2020' on page 5 undefined on input line 66.
+[7
+
+]
+Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
+File: ./figures/Turbinecrosssection.eps Graphic file (type eps)
+<./figures/Turbinecrosssection.eps>
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+File: ./figures/TBCdevelopment.eps Graphic file (type eps)
+<./figures/TBCdevelopment.eps>
+ [8] [9]
+Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
+File: ./figures/tempmethodsvenn.eps Graphic file (type eps)
+<./figures/tempmethodsvenn.eps>
+ [10
+
+]
+File: ./figures/Single change paints edit.png Graphic file (type bmp)
+<./figures/Single change paints edit.png>
+File: ./figures/multi-change paints edit.png Graphic file (type bmp)
+<./figures/multi-change paints edit.png>
+ [11] [12] [13]
+File: ./figures/crystal temp sens.png Graphic file (type bmp)
+<./figures/crystal temp sens.png>
+ [14] [15]
+File: ./figures/tftcNGV.png Graphic file (type bmp)
+<./figures/tftcNGV.png>
+ [16]
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+File: ./figures/kerrpyro.eps Graphic file (type eps)
+<./figures/kerrpyro.eps>
+File: ./figures/siemens IR edit-01.png Graphic file (type bmp)
+<./figures/siemens IR edit-01.png>
+ [17] [18]
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+File: ./figures/yaneztempTBC.eps Graphic file (type eps)
+<./figures/yaneztempTBC.eps>
+ [19] [20]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-19.91173pt
+* \headheight=15.0pt
+* \headsep=18.0pt
+* \topskip=10.0pt
+* \footskip=42.0pt
+* \marginparwidth=74.68849pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [21] [22
 
 
-LaTeX Warning: Citation 'Yule2021' on page 5 undefined on input line 67.
 
 
-LaTeX Warning: Citation 'Yule2021a' on page 5 undefined on input line 68.
 
 
-LaTeX Warning: Empty bibliography on input line 72.
+] [23]
+Underfull \hbox (badness 1052) in paragraph at lines 186--186
+[]\TU/LibertinusSerif(1)/m/n/10 Stéphane Amiel et al. “On the thermal sensitivity and resolution of a YSZ:Er3+/YSZ:Eu3+
+ []
 
-) 
+[24]
+Underfull \hbox (badness 2744) in paragraph at lines 186--186
+[]\TU/LibertinusSerif(1)/m/n/10 Molly M. Gentleman et al. “Noncontact methods for measuring thermal barrier coating
+ []
+
+[25]
+Underfull \hbox (badness 4391) in paragraph at lines 186--186
+[]\TU/LibertinusSerif(1)/m/n/10 S. W. Allison and G. T. Gillies. “Remote thermometry with thermographic phosphors:
+ []
+
+) (./Ultrasonic Guided Waves.tex [26]
+Chapter 3.
+Package biblatex Info: Reference section=0 on input line 1.
+\c@blx@maxsegment@6=\count532
+\c@blx@sectionciteorder@6=\count533
+Package biblatex Info: Reference section=6 on input line 1.
+Package biblatex Info: Setting label 'refsection:6' on input line 1.
+[27
+
+] [28]
+Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
+File: ./figures/bulkwavediagram.eps Graphic file (type eps)
+<./figures/bulkwavediagram.eps>
+ [29
+
+]
+File: ./figures/SAW delay line.png Graphic file (type bmp)
+<./figures/SAW delay line.png>
+File: ./figures/SAW resonator.png Graphic file (type bmp)
+<./figures/SAW resonator.png>
+ [30]
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
+File: ./figures/wedge.eps Graphic file (type eps)
+<./figures/wedge.eps>
+Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
+File: ./figures/hertzian.eps Graphic file (type eps)
+<./figures/hertzian.eps>
+ [31]
+File: ./figures/willschwaveguide.png Graphic file (type bmp)
+<./figures/willschwaveguide.png>
+ [32] [33]
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+File: ./figures/lambwaves2.eps Graphic file (type eps)
+<./figures/lambwaves2.eps>
+Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
+File: ./figures/inconelyoungsdensitypoisson.eps Graphic file (type eps)
+<./figures/inconelyoungsdensitypoisson.eps>
+ [34]
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
+File: ./figures/alutempshift2560.eps Graphic file (type eps)
+<./figures/alutempshift2560.eps>
+LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
+(Font)              scaled to size 9.00096pt on input line 118.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 118.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 118.
+LaTeX Font Info:    Font shape `TU/LibertinusMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 118.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+File: ./figures/phasedispersion.eps Graphic file (type eps)
+<./figures/phasedispersion.eps>
+ [35]
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
+File: ./figures/grouptempinconel.eps Graphic file (type eps)
+<./figures/grouptempinconel.eps>
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+File: ./figures/grouptemp1mhztemp.eps Graphic file (type eps)
+<./figures/grouptemp1mhztemp.eps>
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on input line 144.
+ [36] [37]
+Underfull \hbox (badness 1609) in paragraph at lines 153--154
+\TU/LibertinusSerif(1)/m/n/10 using [][]The Dispersion Calculator[][] [[][]78[][]]. For isotropic media Rayleigh-Lamb equations are solved
+ []
+
+[38]
+Invalid UTF-8 byte or sequence at line 235 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 235 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 235 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 235 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 235 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 235 replaced by U+FFFD.
+File: ./figures/multimodeedit.eps Graphic file (type eps)
+<./figures/multimodeedit.eps>
+ [39] [40]
+Underfull \hbox (badness 1048) in paragraph at lines 247--248
+[]\TU/LibertinusSerif(1)/m/n/10 The literature covering the temperature dependence of guided waves is limited to relatively low
+ []
+
+[41] [42] [43
+
+] [44] [45] [46]
+Underfull \hbox (badness 2111) in paragraph at lines 261--261
+[]\TU/LibertinusSerif(1)/m/n/10 Jochen Moll et al. “Temperature affected guided wave propagation in a composite plate
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+\TU/LibertinusSerif(1)/m/n/10 estimation using different time-delay estimation methods based on cross-correlation:
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 261--261
+\TU/LibertinusSerif(1)/m/n/10 Computational simulation and experiments”. In: \TU/LibertinusSerif(0)/m/it/10 Meas. J. Int. Meas. Confed. \TU/LibertinusSerif(1)/m/n/10 122.May 2017
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 261--261
+\TU/LibertinusSerif(1)/m/n/10 ORDER MODES CLUSTER (HOMC) GUIDED WAVES — A NEW TECHNIQUE FOR NDT
+ []
+
+[48]) (./Study 1 - Temperature sensitivity of guided waves.tex [49]
+Chapter 4.
+Package biblatex Info: Reference section=0 on input line 1.
+\c@blx@maxsegment@7=\count534
+\c@blx@sectionciteorder@7=\count535
+Package biblatex Info: Reference section=7 on input line 1.
+Package biblatex Info: Setting label 'refsection:7' on input line 1.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+File: ./figures/grouptempshift_new.eps Graphic file (type eps)
+<./figures/grouptempshift_new.eps>
+Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
+File: ./figures/1mhzshift_new.eps Graphic file (type eps)
+<./figures/1mhzshift_new.eps>
+
+LaTeX Warning: Float too large for page by 16.64316pt on input line 23.
+
+[50
+
+] [51]
+Underfull \hbox (badness 1635) in paragraph at lines 29--30
+\TU/LibertinusSerif(1)/m/n/10 The wave velocity temperature sensitivity of the $[][]$, $[][]$, and $[][]$ Lamb wave modes have been
+ []
+
+Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
+File: ./figures/testdiagramsimple.eps Graphic file (type eps)
+<./figures/testdiagramsimple.eps>
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+File: ./figures/w2wdiagram.eps Graphic file (type eps)
+<./figures/w2wdiagram.eps>
+[52
+
+] [53]
+Underfull \hbox (badness 2680) in paragraph at lines 107--108
+[]\TU/LibertinusSerif(1)/m/n/10 The temperature gradient across the plate has been measured by placing four equally spaced
+ []
+
+File: ./figures/expsetup.png Graphic file (type bmp)
+<./figures/expsetup.png>
+[54]
+Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
+File: ./figures/s0xcorr5cyc.eps Graphic file (type eps)
+<./figures/s0xcorr5cyc.eps>
+Invalid UTF-8 byte or sequence at line 136 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 136 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 136 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 136 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 136 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 136 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 136 replaced by U+FFFD.
+File: ./figures/aluplatemeasured.eps Graphic file (type eps)
+<./figures/aluplatemeasured.eps>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55
+
+] [56]
+Invalid UTF-8 byte or sequence at line 152 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 152 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 152 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 152 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 152 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 152 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 152 replaced by U+FFFD.
+File: ./figures/a1xcorr5cyc.eps Graphic file (type eps)
+<./figures/a1xcorr5cyc.eps>
+Invalid UTF-8 byte or sequence at line 162 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 162 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 162 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 162 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 162 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 162 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 162 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 162 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 162 replaced by U+FFFD.
+File: ./figures/a1moderesult.eps Graphic file (type eps)
+<./figures/a1moderesult.eps>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[57]
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+File: ./figures/s1hilbert.eps Graphic file (type eps)
+<./figures/s1hilbert.eps>
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+File: ./figures/s1moderesult.eps Graphic file (type eps)
+<./figures/s1moderesult.eps>
+ [58] [59] [60]
+Underfull \hbox (badness 1117) in paragraph at lines 207--208
+\TU/LibertinusSerif(1)/m/n/10 The multi-physics simulation package COMSOL has been used to simulate potential temperature
+ []
+
+File: ./figures/comsoldiagram.png Graphic file (type bmp)
+<./figures/comsoldiagram.png>
+[61]
+Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
+File: ./figures/PMMAE.eps Graphic file (type eps)
+<./figures/PMMAE.eps>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[62]
+Invalid UTF-8 byte or sequence at line 277 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 277 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 277 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 277 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 277 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 277 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 277 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 277 replaced by U+FFFD.
+File: ./figures/w2wdiagramonaxis.eps Graphic file (type eps)
+<./figures/w2wdiagramonaxis.eps>
+ [63]
+Invalid UTF-8 byte or sequence at line 289 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 289 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 289 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 289 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 289 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 289 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 289 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 289 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 289 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 289 replaced by U+FFFD.
+File: ./figures/Alu_E.eps Graphic file (type eps)
+<./figures/Alu_E.eps>
+ [64]
+Invalid UTF-8 byte or sequence at line 331 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 331 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 331 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 331 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 331 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 331 replaced by U+FFFD.
+File: ./figures/excitation.eps Graphic file (type eps)
+<./figures/excitation.eps>
+ [65]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[66]
+File: ./figures/comsoltemp100c.png Graphic file (type bmp)
+<./figures/comsoltemp100c.png>
+ [67]
+File: ./figures/simmodes.png Graphic file (type bmp)
+<./figures/simmodes.png>
+ [68] [69]
+Invalid UTF-8 byte or sequence at line 485 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 485 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 485 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 485 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 485 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 485 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 485 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 485 replaced by U+FFFD.
+File: ./figures/S0comsolwaveprop.eps Graphic file (type eps)
+<./figures/S0comsolwaveprop.eps>
+Invalid UTF-8 byte or sequence at line 491 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 491 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 491 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 491 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 491 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 491 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 491 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 491 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 491 replaced by U+FFFD.
+File: ./figures/s0fullresultedit.eps Graphic file (type eps)
+<./figures/s0fullresultedit.eps>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[70] [71]
+Invalid UTF-8 byte or sequence at line 503 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 503 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 503 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 503 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 503 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 503 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 503 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 503 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 503 replaced by U+FFFD.
+File: ./figures/A1comsolwaveprop.eps Graphic file (type eps)
+<./figures/A1comsolwaveprop.eps>
+Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
+File: ./figures/A1fullresultedit.eps Graphic file (type eps)
+<./figures/A1fullresultedit.eps>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[72
+
+] [73]
+Invalid UTF-8 byte or sequence at line 521 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 521 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 521 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 521 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 521 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 521 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 521 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 521 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 521 replaced by U+FFFD.
+File: ./figures/S1comsolwaveprop.eps Graphic file (type eps)
+<./figures/S1comsolwaveprop.eps>
+Invalid UTF-8 byte or sequence at line 527 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 527 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 527 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 527 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 527 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 527 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 527 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 527 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 527 replaced by U+FFFD.
+File: ./figures/S1fullresultedit.eps Graphic file (type eps)
+<./figures/S1fullresultedit.eps>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[74
+
+] [75]
+Invalid UTF-8 byte or sequence at line 562 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 562 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 562 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 562 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 562 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 562 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 562 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 562 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 562 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 562 replaced by U+FFFD.
+File: ./figures/inconelcomsolresult.eps Graphic file (type eps)
+<./figures/inconelcomsolresult.eps>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[76
+
+] [77] [78
+
+]) (./Study 2 - Effect of cooling holes.tex [79]
+Chapter 5.
+Package biblatex Info: Reference section=0 on input line 1.
+\c@blx@maxsegment@8=\count536
+\c@blx@sectionciteorder@8=\count537
+Package biblatex Info: Reference section=8 on input line 1.
+Package biblatex Info: Setting label 'refsection:8' on input line 1.
+Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
+File: ./figures/topdownholespacer.eps Graphic file (type eps)
+<./figures/topdownholespacer.eps>
+[80
+
+] [81
+
+]
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+File: ./figures/holeampboxplot.eps Graphic file (type eps)
+<./figures/holeampboxplot.eps>
+ [82]
+Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
+File: ./figures/holeampboxplotA1.eps Graphic file (type eps)
+<./figures/holeampboxplotA1.eps>
+ [83]
+Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
+File: ./figures/holeampboxplotS1.eps Graphic file (type eps)
+<./figures/holeampboxplotS1.eps>
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+File: ./figures/S0throughthickness.eps Graphic file (type eps)
+<./figures/S0throughthickness.eps>
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+File: ./figures/A1throughthickness.eps Graphic file (type eps)
+<./figures/A1throughthickness.eps>
+Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
+File: ./figures/S1throughthickness.eps Graphic file (type eps)
+<./figures/S1throughthickness.eps>
+ [84] [85]) (./Study 3 - Effect of TBC on wave propagation.tex [86
+
+]
+Chapter 6.
+Package biblatex Info: Reference section=0 on input line 1.
+\c@blx@maxsegment@9=\count538
+\c@blx@sectionciteorder@9=\count539
+Package biblatex Info: Reference section=9 on input line 1.
+Package biblatex Info: Setting label 'refsection:9' on input line 1.
+[87
+
+]
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+File: ./figures/IncTBCGroup.eps Graphic file (type eps)
+<./figures/IncTBCGroup.eps>
+Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
+File: ./figures/IncTBCPhase.eps Graphic file (type eps)
+<./figures/IncTBCPhase.eps>
+Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
+File: ./figures/B0.eps Graphic file (type eps)
+<./figures/B0.eps>
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+File: ./figures/B1.eps Graphic file (type eps)
+<./figures/B1.eps>
+Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 85 replaced by U+FFFD.
+File: ./figures/B2.eps Graphic file (type eps)
+<./figures/B2.eps>
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 91 replaced by U+FFFD.
+File: ./figures/B3.eps Graphic file (type eps)
+<./figures/B3.eps>
+Invalid UTF-8 byte or sequence at line 97 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 97 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 97 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 97 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 97 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 97 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 97 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 97 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 97 replaced by U+FFFD.
+File: ./figures/B5.eps Graphic file (type eps)
+<./figures/B5.eps>
+ [88] [89] [90]
+Underfull \hbox (badness 1852) in paragraph at lines 110--111
+[]\TU/LibertinusSerif(1)/m/n/10 Temperature dependant material properties of Young’s modulus for TBC materials are provided
+ []
+
+Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+File: ./figures/TBC_E.eps Graphic file (type eps)
+<./figures/TBC_E.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[91
+
+] [92] [93
+
+]) (./Conclusions.tex [94]
+Chapter 7.
+Package biblatex Info: Reference section=0 on input line 1.
+\c@blx@maxsegment@10=\count540
+\c@blx@sectionciteorder@10=\count541
+Package biblatex Info: Reference section=10 on input line 1.
+Package biblatex Info: Setting label 'refsection:10' on input line 1.
+[95
+
+]) 
 AED: lastpage setting LastPage
+[96] (./main.aux)
 
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 148.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-[5] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  CB5A0C518B729BC99E2EB9160DAE75D0;629.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: E2E46443ECE492C2F06C4CD3189F45C6;12894.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38442 strings out of 478907
- 768267 string characters out of 2851892
- 1472199 words of memory out of 3000000
- 55662 multiletter control sequences out of 15000+600000
- 410534 words of font info for 52 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 108i,11n,117p,1902b,1183s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\yulel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/yulel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (9 pages, 6743246 bytes).
-PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 49462 strings out of 476180
+ 1046351 string characters out of 5813082
+ 2079450 words of memory out of 5000000
+ 69382 multiletter control sequences out of 15000+600000
+ 477345 words of font info for 105 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 108i,17n,117p,4062b,5324s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on main.xdv (105 pages, 2409724 bytes).

@@ -1,5 +1,5 @@
 \documentclass{report}
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
 \usepackage[refsection=chapter,style=numeric,sorting=none]{biblatex}
 \addbibresource{library.bib}
 \addbibresource{References.bib}
@@ -30,6 +30,44 @@
 \usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash]{caption}
 \usepackage{fancyhdr} %headings
 \usepackage{lastpage} %find last page
+%\usepackage{mlmodern} %use new font
+\usepackage{adjustbox} %for resizing tables
+\usepackage{makecell} %new lines within table cells
+\usepackage{wasysym} %for diameter symbol
+%\usepackage{microtype}
+\usepackage{unicode-math}%for setting font
+%\usepackage[lofdepth,lotdepth]{subfig}
+\usepackage[list=true]{subcaption}
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{4}
+
+%to reduce hyphenation
+\pretolerance=5000
+\tolerance=9000
+\emergencystretch=0pt
+\hyphenpenalty=10000
+\exhyphenpenalty=100
+\righthyphenmin=4
+\lefthyphenmin=4
+
+\setmainfont[%
+Ligatures={TeX,Common},
+Numbers={Proportional,Lining},
+Kerning=On,
+]{Libertinus Serif}
+
+\setmathfont{Libertinus Math}
+
+% make macro for adding units to equations
+\makeatletter
+\providecommand\add@text{}
+\newcommand\tagaddtext[1]{%
+  \gdef\add@text{#1\gdef\add@text{}}}% 
+\renewcommand\tagform@[1]{%
+  \maketag@@@{\llap{\add@text\quad}(\ignorespaces#1\unskip\@@italiccorr)}%
+}
+\makeatother
 
 %adjust chapter titles
 \usepackage{titlesec}
@@ -44,6 +82,7 @@
 \titlerule]
 
 \usepackage[breaklinks,colorlinks,bookmarksopen,bookmarksnumbered,citecolor=sotonRed,urlcolor=sotonMarineBlue,linkcolor=sotonRed]{hyperref}%load hyperref last
+\usepackage[capitalize,noabbrev]{cleveref} % for linking multiple tables
 
 \definecolor{barblue}{RGB}{153,204,254}
 \definecolor{groupblue}{RGB}{51,102,254}
@@ -135,14 +174,17 @@ December\fi, \number \year}
 \renewcommand{\footrulewidth}{0.5pt}% footer line}
 %
 %
-\input{1 Intro.tex}
-\input{2 Literature Review.tex}
-\input{3 Acoustic temperature sensing.tex}
-\input{4 Lamb wave theory.tex}
-\input{5 COMSOL.tex}
-\input{6 Temperature Experiments.tex}
-\input{7 Reflection experiments.tex}
-\input{8 Research summary.tex}
+
+\input{Intro.tex}
+\input{Literature Review.tex}
+\input{Ultrasonic Guided Waves.tex}
+\input{Study 1 - Temperature sensitivity of guided waves.tex}
+\input{Study 2 - Effect of cooling holes.tex}
+\input{Study 3 - Effect of TBC on wave propagation.tex}
+%\input{7 Hole amplitude experiments.tex}
+%\input{8 Multiple hole experiments.tex}
+%\input{9 Research summary.tex}
+\input{Conclusions.tex}
 %
 %\printbibliography
 \end{document}
