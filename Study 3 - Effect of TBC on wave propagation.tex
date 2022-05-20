@@ -63,7 +63,7 @@ Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement
             \includegraphics[width=1\textwidth]{./figures/IncTBCPhase.eps}
             \caption{Phase velocity.}\label{fig:inconeldispTBCphase}
         \end{subfigure}
-        \caption{Dispersion curves for Inconel 718 with TBC.}
+        \caption{Dispersion curves for Inconel 718 with TBC applied (\cref{table:TBCmatprops}).}
 \end{figure}
 
 \begin{figure}[p]
@@ -97,7 +97,7 @@ Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement
             \includegraphics[width=1\textwidth]{./figures/B5.eps}
             \caption{$B_5$ Displacement -- 4.4 MHz.}\label{fig:B5}
         \end{subfigure}
-    \caption{Through thickness displacement profiles for Inconel 718 with TBC applied.}\label{fig:inconelTBCdisplacement}
+    \caption{Through thickness displacement profiles for Inconel 718 with TBC applied (\cref{table:TBCmatprops}).}\label{fig:inconelTBCdisplacement}
 \end{figure}
 
 \clearpage
@@ -107,9 +107,11 @@ Three wave modes with clear peaks in group velocity were targeted, to be excited
 
 Time-displacement data is transformed into frequency-wavenumber data using 2D-FFT from spatial B-scan data, using 90 point probes equally spaced 0.8 mm apart. This allows individual modes to be identified, and compared with dispersion curves for verification. Both in-plane ($x$) and out-of-plane ($y$) displacement was monitored. 
 
-Temperature dependant material properties of Young's modulus for TBC materials are provided in~\cref{table:TBCmatprops}, and shown in~\cref{fig:TBC_E}. All three sources of values for the top coat (YSZ) show linear reductions in $E$ with temperature, while the reduction in $E$ for the bond coat (MCrAlY) increases with temperature. Saucedo-Mora \textit{et al.}\cite{Saucedo-Mora2015} suggest that the data provided by Beghini \textit{et al.}\cite{Beghini2001} shows a significant decrease in $E$ due to microcracking. The elevated initial values of $E$ in comparison to the other sources suggests that the tested material has undergone thermal aging~\cite{Yamazaki2007,Nath2015}. 
+Temperature dependant Young's modulus for TBC materials are provided in~\cref{table:TBCmatprops}, and shown in~\cref{fig:TBC_E}. All three sources of values for the top coat (YSZ) show linear reductions in $E$ with temperature, while the reduction in $E$ for the bond coat (MCrAlY) increases with temperature. Saucedo-Mora \textit{et al.}\cite{Saucedo-Mora2015} suggest that the data provided by Beghini \textit{et al.}\cite{Beghini2001} shows a significant decrease in $E$ due to microcracking. The elevated initial values of $E$ in comparison to the other sources suggests that the tested material has undergone thermal aging~\cite{Yamazaki2007,Nath2015}. 
 
 The change in Young's modulus with temperature for the TGO is ignored, as the effect is considered insignificant due to the thickness of the layer.
+
+Temperature dependant material properties for Inconel 718 are shown in \cref{fig:dpe}.
 
 The Poisson's ratio of the materials is temperature independent, 0.33 for the bond coat, and 0.2 for the top coat. Changes in density due to thermal expansion are not considered in this study, as the effect on wave propagation is small in comparison to changes in Young's modulus, as discussed in~\cref{effectoftemponwaveprop}.
 
@@ -118,18 +120,74 @@ The Poisson's ratio of the materials is temperature independent, 0.33 for the bo
     \begin{tabular}{@{}llllllll@{}}
     \toprule
     \textbf{Source} & \textbf{Material} & \textbf{$E_{20 \si{\degreeCelsius}}$} & \textbf{$E_{220 \si{\degreeCelsius}}$} & \textbf{$E_{420 \si{\degreeCelsius}}$} & \textbf{$E_{620 \si{\degreeCelsius}}$} & \textbf{$E_{820 \si{\degreeCelsius}}$} & \textbf{$E_{1020 \si{\degreeCelsius}}$} \\ \midrule
-    Bednarz \textit{et al.}\cite{Bednarz2005} & Bond Coat & 151.85 & 150.75 & 145.25 & 132.33 & 108.92 & 71.89 \\
     Bednarz \textit{et al.}\cite{Bednarz2005} & Top Coat & 17.50   & 16.34  & 15.18  & 14.02  & 12.86  & 11.70  \\
     Beghini \textit{et al.}\cite{Beghini2001} & Top Coat & 46.50   & 41.75  & 37.00     & 32.25  & 27.50   & 22.75 \\
-    Gregori \textit{et al.}\cite{Gregori2007} & Top Coat & 22.00     & 21.05  & 20.14  & 19.26  & 18.43  & 17.62 \\ \bottomrule
+    Gregori \textit{et al.}\cite{Gregori2007} & Top Coat & 22.00     & 21.05  & 20.14  & 19.26  & 18.43  & 17.62 \\ 
+    Bednarz \textit{et al.}\cite{Bednarz2005} & Bond Coat & 151.85 & 150.75 & 145.25 & 132.33 & 108.92 & 71.89 \\
+    COMSOL & Inconel 718 & 201.86 & 193.23 & 181.86 & 166.89 & 147.46 & 122.72 \\ \bottomrule
     \end{tabular}
-    \caption{Temperature dependant material properties of TBC materials.}\label{table:TBCmatprops}
+    \caption{Temperature dependant Young's modulus of substrate and TBC materials.}\label{table:TBCmatprops_tempdep}
 \end{table}
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{./figures/TBC_E.eps}
     \caption{Values of Young's modulus for TBC materials.}\label{fig:TBC_E}
+\end{figure}
+
+\clearpage
+
+\subsection{Temperature dependant study}
+
+As temperature increases there is a large shift in the shape of the dispersion curves (from \cref{fig:inconeldispTBCgroup20c} to \cref{fig:inconeldispTBCgroup1020c}), which makes it difficult to select a suitable mode/frequency to target. The lowest two modes, $B_0$ \& $B_1$, are the only two modes that show relatively stable areas of low dispersion, in the regions of 0.4-0.8 MHz, however the effect of dispersion still increases with temperature, especially for $B_1$. $B_5$ is the only other mode that exhibits an energy velocity peak that would allow the single mode to be identified across the temperature range of interest, however there is only a very small frequency window (\sim 3.1 MHz) in which dispersion is relatively stable.
+
+The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718 and TBC, which in turn causes a large change in wave speed. As the change is so large the wedge angle has to be adjusted to continually target the same area of the frequency spectrum, as shown in Table~\ref{table:wedgeangleIncTBC}. The longitudinal velocity of the wedge material is 2477~\unit{\metre\per\second}, as measured experimentally.
+
+\begin{table}[h]
+    \centering
+    \begin{tabulary}{\textwidth}{LLL}
+        \toprule
+    \textbf{\textbf{Temperature (\si{\degreeCelsius})}} & \textbf{Phase velocity (\unit{\metre\per\second})} & \textbf{Wedge angle (\degree)} \\
+        \midrule
+    20           & 4837.87           & 34.7                \\
+    220          & 4751.88            & 35.5                \\
+    420          & 4636.66            & 36.6                \\
+    620          & 4464.19            & 38.4                \\
+    820          & 4211.13           & 41.4                \\
+    1020          & 3867.29            & 46.7                \\
+    \bottomrule
+    \end{tabulary}%
+    \caption{Wedge angle required for $B_1$ mode excitation in Inconel 718 with TBC from 20\si{\degreeCelsius} to 1020\si{\degreeCelsius}.}\label{table:wedgeangleIncTBC}
+\end{table}
+
+\cref{fig:IncTBC_Comsol} shows predicted and simulated group velocity of the $B_1$ mode (0.8 MHz) from 20\si{\degreeCelsius} to 1020\si{\degreeCelsius} in Inconel 718 with TBC applied. The increased reduction of velocity with temperature for the simulated result is due to the target frequency falling into a more dispersive area of the spectrum, which increases the error associated with measuring time of flight from the peaks of the signal envelopes. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./figures/IncTBCwaveprop2temp.eps}
+    \caption{Wave propagation of $B_1$ mode (0.8 MHz) at 20\si{\degreeCelsius} (green) and 1020 \si{\degreeCelsius} (red) in Inconel 718 with TBC applied.}\label{fig:IncTBC_waveprop}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./figures/IncTBCcomsolresult.eps}
+    \caption{Predicted and simulated group velocity of $B_1$ mode (0.8 MHz) from 20\si{\degreeCelsius} to 1020 \si{\degreeCelsius} in Inconel 718 with TBC applied.}\label{fig:IncTBC_Comsol}
+\end{figure}
+
+\begin{figure}[p]
+    \centering
+        \begin{subfigure}[c]{0.75\textwidth}
+            \centering
+            \includegraphics[width=1\textwidth]{./figures/IncTBCGroup20c.eps}
+            \caption{20\si{\degreeCelsius}}\label{fig:inconeldispTBCgroup20c}
+        \end{subfigure}
+        \vskip\baselineskip
+        \begin{subfigure}[c]{0.75\textwidth}
+            \centering
+            \includegraphics[width=1\textwidth]{./figures/IncTBCGroup1020c.eps}
+            \caption{1020\si{\degreeCelsius}}\label{fig:inconeldispTBCgroup1020c}
+        \end{subfigure}
+        \caption{Energy velocity dispersion curves for Inconel 718 with TBC applied (\cref{table:TBCmatprops_tempdep}).}
 \end{figure}
 
 

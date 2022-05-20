@@ -1,22 +1,22 @@
 # Fdb version 3
-["biber main"] 1652262297 "main.bcf" "main.bbl" "main" 1652277996
+["biber main"] 1652787550 "main.bcf" "main.bbl" "main" 1653038860
   "References.bib" 1632406708 15527 dc7f34671dd3872b78731ae0f242d104 ""
   "library.bib" 1652182057 876001 d69620caab78a14fb05aee567d992aba ""
-  "main.bcf" 1652277935 137295 39cfd0a4c6c9685f71adb5492d42f8f9 "xelatex"
+  "main.bcf" 1653038797 137295 e0a5e874711dc7180c427c90f5f8fe7b "xelatex"
   (generated)
   "main.bbl"
   "main.blg"
-["xdvipdfmx"] 1652277935 "main.xdv" "main.pdf" "main" 1652277996
-  "main.xdv" 1652277935 2409724 769665359becdacbc55403cd07db1d18 "xelatex"
+["xdvipdfmx"] 1653038798 "main.xdv" "main.pdf" "main" 1653038860
+  "main.xdv" 1653038797 2452024 920c00288f02fdb597dc694cd2fb4a73 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1652277929 "c:/Users/yulel/Documents/LaTeX/PhD-Thesis/main.tex" "main.xdv" "main" 1652277996
+["xelatex"] 1653038792 "c:/Users/yulel/Documents/LaTeX/PhD-Thesis/main.tex" "main.xdv" "main" 1653038860
   "Conclusions.tex" 1649690736 3370 6c6a5ddcf97ecb9cb57a8f867b859410 ""
   "Intro.tex" 1652087887 10097 bb7df5f3c67dacf68c8178763e1e37c8 ""
   "Literature Review.tex" 1633082544 44683 d149f71fc315cc943d779d0a26ea6c02 ""
   "Study 1 - Temperature sensitivity of guided waves.tex" 1652277929 57083 410254a857181cf861a3a7aa57206fda ""
   "Study 2 - Effect of cooling holes.tex" 1652267351 8385 67df607b7bfa221f162a72b06bc3fa23 ""
-  "Study 3 - Effect of TBC on wave propagation.tex" 1652277929 10843 916f6324c61f01f9343dcaf49faa6f3a ""
+  "Study 3 - Effect of TBC on wave propagation.tex" 1653038785 15106 d036d57feaf46922e5e5f5edadb454fc ""
   "Ultrasonic Guided Waves.tex" 1652267637 45622 f52ef4ba808610fd697ad2f7e5cc951d ""
   "abstract.tex" 1635967075 2609 7081388930d0bca36cac4123a70f6f85 ""
   "c:/Users/yulel/Documents/LaTeX/PhD-Thesis/main.tex" 1652092978 5566 51e9b745b047be964009ab4e76548143 ""
@@ -270,7 +270,11 @@
   "figures/B3.eps" 1651500674 757742 0564b987de203e52a50bb13e3022681c ""
   "figures/B5.eps" 1651500850 956498 254c39292ba529696e3ca36304f7512f ""
   "figures/IncTBCGroup.eps" 1651679509 1851258 19b80269becd9f30a77a3e8546fb8238 ""
+  "figures/IncTBCGroup1020c.eps" 1652954806 1719874 d146d0427c331c3d901748e4a3c97153 ""
+  "figures/IncTBCGroup20c.eps" 1652954647 1696426 b137372cce15b9dd2a2cd77fe6a56cb1 ""
   "figures/IncTBCPhase.eps" 1651679528 1850046 fafde82574cdce7ad8ac8e8a1649b621 ""
+  "figures/IncTBCcomsolresult.eps" 1652951001 1943642 4f27d5f0b1a767bd62bee7422486823c ""
+  "figures/IncTBCwaveprop2temp.eps" 1653038741 2435706 9e1d879593c00af737723265444a7504 ""
   "figures/PMMAE.eps" 1652261317 2080826 4dc4c1f545b6c23b05dbbdf9a624bc37 ""
   "figures/S0comsolwaveprop.eps" 1643115873 3318798 2f11e17f30ea573916da194f2640b51f ""
   "figures/S0throughthickness.eps" 1651740644 1042418 da226ab62b4b3da09276801a28e349ca ""
@@ -324,14 +328,14 @@
   "figures/wedge.eps" 1632406708 1970218 7499e0a2aa27c53d056e542a346c9ff4 ""
   "figures/willschwaveguide.png" 1632406709 414144 98170ce9153e130bfb0995c38bfa7041 ""
   "figures/yaneztempTBC.eps" 1632406709 1921570 66e461b78f70f775fbf478e04d863102 ""
-  "main.aux" 1652277935 83614 178a1ea673b7fad58b5b3f81bcf248ed "xelatex"
-  "main.bbl" 1652262302 591554 d4c180e7b751e965fa8bbc806f9ad5cb "biber main"
-  "main.lof" 1652277935 10831 085751f2c94d11ba29fe3c1d6d5330ad "xelatex"
-  "main.lot" 1652277935 2174 be5860ca01322bc3e3b5616f55c6224d "xelatex"
-  "main.out" 1652277935 12894 e2e46443ece492c2f06c4cd3189f45c6 "xelatex"
-  "main.run.xml" 1652277935 2371 954d8ac1f11ec249fa208c8186c07634 "xelatex"
+  "main.aux" 1653038797 86865 90c1e402f65610a2b2e857ec287fe9a6 "xelatex"
+  "main.bbl" 1652787553 591554 d4c180e7b751e965fa8bbc806f9ad5cb "biber main"
+  "main.lof" 1653038797 11792 78df140a3866fad2f538726ec8124487 "xelatex"
+  "main.lot" 1653038797 2400 6d9a22dc20c17e3ac5c78ad34c8a8ca6 "xelatex"
+  "main.out" 1653038797 13129 5f787de319974d7894c9c510c1f1bff6 "xelatex"
+  "main.run.xml" 1653038797 2371 954d8ac1f11ec249fa208c8186c07634 "xelatex"
   "main.tex" 1652092978 5566 51e9b745b047be964009ab4e76548143 ""
-  "main.toc" 1652277935 6868 2b028ee448ba0062651a321e20121c20 "xelatex"
+  "main.toc" 1653038797 6966 2e0d9b0f8b3c379c41cb801120daf989 "xelatex"
   (generated)
   "main.aux"
   "main.bcf"

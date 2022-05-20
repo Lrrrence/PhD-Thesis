@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.24)  11 MAY 2022 15:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.24)  20 MAY 2022 10:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1342,14 +1342,7 @@ Package cleveref Info: no abbreviation of names on input line 7852.
 \@quotelevel=\count519
 \@quotereset=\count520
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 101.
- (./main.aux
-
-LaTeX Warning: Label `table:TBCmatprops' multiply defined.
-
-
-LaTeX Warning: Label `table:TBCmatprops@cref' multiply defined.
-
-)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
@@ -2340,61 +2333,101 @@ Invalid UTF-8 byte or sequence at line 97 replaced by U+FFFD.
 File: ./figures/B5.eps Graphic file (type eps)
 <./figures/B5.eps>
  [88] [89] [90]
-Underfull \hbox (badness 1852) in paragraph at lines 110--111
-[]\TU/LibertinusSerif(1)/m/n/10 Temperature dependant material properties of Young’s modulus for TBC materials are provided
- []
-
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 134 replaced by U+FFFD.
 File: ./figures/TBC_E.eps Graphic file (type eps)
 <./figures/TBC_E.eps>
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [91
 
-] [92] [93
+] [92]
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+File: ./figures/IncTBCwaveprop2temp.eps Graphic file (type eps)
+<./figures/IncTBCwaveprop2temp.eps>
 
-]) (./Conclusions.tex [94]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
+File: ./figures/IncTBCcomsolresult.eps Graphic file (type eps)
+<./figures/IncTBCcomsolresult.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
+File: ./figures/IncTBCGroup20c.eps Graphic file (type eps)
+<./figures/IncTBCGroup20c.eps>
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+File: ./figures/IncTBCGroup1020c.eps Graphic file (type eps)
+<./figures/IncTBCGroup1020c.eps>
+[93
+
+] [94] [95] [96
+
+]) (./Conclusions.tex [97]
 Chapter 7.
 Package biblatex Info: Reference section=0 on input line 1.
 \c@blx@maxsegment@10=\count540
 \c@blx@sectionciteorder@10=\count541
 Package biblatex Info: Reference section=10 on input line 1.
 Package biblatex Info: Setting label 'refsection:10' on input line 1.
-[95
+[98
 
 ]) 
 AED: lastpage setting LastPage
-[96] (./main.aux)
+[99] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E2E46443ECE492C2F06C4CD3189F45C6;12894.
+(rerunfilecheck)             Checksum: 5F787DE319974D7894C9C510C1F1BFF6;13129.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49462 strings out of 476180
- 1046351 string characters out of 5813082
- 2079450 words of memory out of 5000000
- 69382 multiletter control sequences out of 15000+600000
+ 49499 strings out of 476180
+ 1047509 string characters out of 5813082
+ 2080665 words of memory out of 5000000
+ 69415 multiletter control sequences out of 15000+600000
  477345 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,17n,117p,4062b,5324s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.xdv (105 pages, 2409724 bytes).
+Output written on main.xdv (108 pages, 2452024 bytes).

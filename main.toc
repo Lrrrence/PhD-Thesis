@@ -68,6 +68,7 @@
 \contentsline {chapter}{\numberline {6}The effect of thermal barrier coatings on wave propagation}{87}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Prediction study}{87}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Simulation study}{91}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Conclusions and future research}{95}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusions}{95}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Future research}{96}{section.7.2}%
+\contentsline {subsection}{\numberline {6.2.1}Temperature dependant study}{93}{subsection.6.2.1}%
+\contentsline {chapter}{\numberline {7}Conclusions and future research}{98}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusions}{98}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Future research}{99}{section.7.2}%
