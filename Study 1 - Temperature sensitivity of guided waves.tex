@@ -1,4 +1,4 @@
-\chapter{Study 1: Temperature sensitivity of guided waves}
+\chapter{Study 1: Temperature sensitivity of guided waves}\label{chapter:tempsens}
 
 \section{Prediction study}
 
@@ -106,11 +106,13 @@ An aluminium test plate is placed on top of a temperature controlled hot plate. 
 
 The temperature gradient across the plate has been measured by placing four equally spaced thermocouples along the transmission path, from the centre of the plate to the furthest edge of a wedge transducer in 3 cm increments. The wedges are removed from the plate to place the thermocouples, and the temperature of the hot plate is raised to match the temperature recorded by the thermocouple placed in the centre of the plate during measurement of time of flight. Measurements are repeated after moving the thermocouples to the other half of the transmission path. A mean average temperature has been calculated for the total transmission path at each hot plate temperature setting. 
 
+\vfill
 \begin{figure}[ht]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/expsetup.png}
     \caption{Photograph of test setup.}\label{fig:testsetup}
 \end{figure}
+\vfill
 
 \clearpage
 \subsection{S0 mode (1 MHz-mm)}\label{S0 experiments}
@@ -123,22 +125,30 @@ The wedge angle required for the $S_0$ mode is:
 %
 The $A_0$ mode cannot be excited using this method as the phase velocity at this frequency (2312 m s$^{-1}$) is slower than the longitudinal velocity of the wedge. If the $A_0$ mode is present in the signal it will not affect measurement of the $S_0$ mode as it's group velocity is significantly different than that of the $S_0$ mode, which will cause a distinct second wave packet. 
 
+\vfill
 \begin{figure}[h]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/s0xcorr5cyc.eps}
     \caption{Time of flight ($t_F$) measurement of $S_0$ mode wave propagation using cross-correlation function at room temperature.}\label{fig:S0crosscorr}
 \end{figure}
+\vfill
+
+\clearpage
 
 \subsubsection{S0 mode results}
 
+Figure~\ref{fig:result} shows experimentally measured wave velocity of the $S_0$ mode plotted against theoretical wave velocity extracted from dispersion curves. Error bars show the standard deviation from the mean. After accounting for the temperature gradient across the transmission path by calculating a temperature average the change in velocity is comparable with predicted velocity extracted from dispersion curves, within 4.89 $\pm$ 2.27 m s$^{-1}$ on average. The temperature sensitivity of the system is 1.26--1.78 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ over the range 24\si{\degreeCelsius}--94\si{\degreeCelsius}. The sensitivity is extracted from a second-order polynomial fit of the data (r$^2$ = 0.9992). The slope away from predicted results (increasing with temperature) can be attributed to the increasing temperature gradient, both in the plate and in the wedges. The gradient is shown to be almost linear (r$^2$=0.9967) across the measurement distance. Increasing temperature is also likely to have an effect on the operation of the piezoelectric transducer (amplitude and centre frequency), however this effect is negligible over the tested temperature range. The wedge angle required to excite the $S_0$ mode will also vary with temperature, however the change is only around 1\si{\degree} between 20\si{\degreeCelsius} and 100\si{\degreeCelsius}.
+
+\vfill
 \begin{figure}[h]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/aluplatemeasured.eps}
     \caption{Group velocity change with temperature for the $S_0$ mode in Aluminium 1050 H14.}\label{fig:result}
 \end{figure}
+\vfill
 
-Figure~\ref{fig:result} shows experimentally measured wave velocity of the $S_0$ mode plotted against theoretical wave velocity extracted from dispersion curves. Error bars show the standard deviation from the mean. After accounting for the temperature gradient across the transmission path by calculating a temperature average the change in velocity is comparable with predicted velocity extracted from dispersion curves, within 4.89 $\pm$ 2.27 m s$^{-1}$ on average. The temperature sensitivity of the system is 1.26--1.78 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ over the range 24\si{\degreeCelsius}--94\si{\degreeCelsius}. The sensitivity is extracted from a second-order polynomial fit of the data (r$^2$ = 0.9992). The slope away from predicted results (increasing with temperature) can be attributed to the increasing temperature gradient, both in the plate and in the wedges. The gradient is shown to be almost linear (r$^2$=0.9967) across the measurement distance. Increasing temperature is also likely to have an effect on the operation of the piezoelectric transducer (amplitude and centre frequency), however this effect is negligible over the tested temperature range. The wedge angle required to excite the $S_0$ mode will also vary with temperature, however the change is only around 1\si{\degree} between 20\si{\degreeCelsius} and 100\si{\degreeCelsius}.
-\newpage
+\clearpage 
+
 \subsection{A1 mode (2.5 MHz-mm)}\label{A1 experiments}
 
 The wedge angle required for the $A_1$ mode is:
@@ -147,22 +157,30 @@ The wedge angle required for the $A_1$ mode is:
 21.3{^\circ} = \text{Sin}^{- 1} \left( \frac{2477}{6808} \right)
 \end{equation} 
 %
+\vfill
 \begin{figure}[h]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/a1xcorr5cyc.eps}
     \caption{Time of flight ($t_F$) measurement of $A_1$ mode wave propagation using cross-correlation function at room temperature.}\label{fig:A1crosscorr}
 \end{figure}
+\vfill
+
+\clearpage
 
 \subsubsection{A1 mode results}
 
 Figure~\ref{fig:A1result} shows experimentally measured wave velocity of the $A_1$ mode plotted against theoretical wave velocity extracted from dispersion curves. Error bars show the standard deviation from the mean. After accounting for the temperature gradient across the transmission path by calculating a temperature average the change in velocity is comparable with predicted velocity extracted from dispersion curves, within 2.43 $\pm$ 1.97 m s$^{-1}$ on average. The temperature sensitivity of the system is 1.09--1.17 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ over the range 26\si{\degreeCelsius}--97\si{\degreeCelsius}. The sensitivity is extracted from a second-order polynomial fit of the data (r$^2$ = 0.9990).
 
+\vfill
 \begin{figure}[h!]
     \centering
     \includegraphics[width=.8\textwidth]{./figures/a1moderesult.eps}
     \caption{Group velocity change with temperature for the $A_1$ mode in Aluminium 1050 H14.}\label{fig:A1result}
 \end{figure}
-\newpage
+\vfill
+
+\clearpage
+
 \subsection{S1 mode (4 MHz-mm)}\label{S1 experiments}
 
 This region of frequency-thickness product is multi-modal, with both the $A_1$ and $S_1$ modes present. Similarities in phase velocity leads to similar excitation angles, which causes both modes to be excited. Using a cross-correlation method for measuring time-of-flight is no longer appropriate, as the received signal differs substantially from the input signal. An envelope peak method is employed instead, whereby analytic envelopes for both the excitation signal and received signal are generated by Hilbert FIR filtering, with a filter length of 2000 samples. This produces a smooth envelope with clearly defined peaks, as seen in Figure~\ref{fig:S1timedomain}. A peak finding algorithm is used to detect the envelope peaks, as denoted by the dashed lines. The $S_1$ mode ($\sim$~4550 m s$^{-1}$) arrives at the receiver before the $A_1$ mode ($\sim$~2550 m s$^{-1}$) as it has a considerably higher group velocity. At this propagation distance the two modes are clearly separated in the time domain, with the $A_1$ mode showing considerably more dispersion.  
@@ -173,20 +191,29 @@ The wedge angle required for the $S_1$ mode is:
 24.5{^\circ} = \text{Sin}^{- 1} \left( \frac{2477}{5971} \right)
 \end{equation} 
 %
+\vfill
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/Exp_S1_20c-100c.eps}
+    \caption{Time of flight ($t_F$) measurement of $S_1$ mode using envelope peak method at 20\si{\degreeCelsius} (green) and 100\si{\degreeCelsius} (red).}\label{fig:S1timedomain}
+\end{figure}
+\vfill
+
+\clearpage
+
 \subsubsection{S1 mode results}
 
 Figure~\ref{fig:S1result} shows experimentally measured wave velocity of the $S_1$ mode plotted against theoretical wave velocity extracted from dispersion curves. Error bars show the standard deviation from the mean. After accounting for the temperature gradient across the transmission path by calculating a temperature average the change in velocity is comparable with predicted velocity extracted from dispersion curves, within 4.44 $\pm$ 7.15 m s$^{-1}$ on average. The temperature sensitivity of the system is 1.80 m s$^{-1}$\si{\degreeCelsius}$^{-1}$ over the range 25\si{\degreeCelsius}--103\si{\degreeCelsius}. The sensitivity is extracted from a linear fit of the data (r$^2$ = 0.9777).
 
-\begin{figure}[p]
+\vfill
+\begin{figure}[h]
     \centering
-    \includegraphics[width=.8\textwidth]{./figures/s1hilbert.eps}
-    \caption{Time of flight ($t_F$) measurement of $S_1$ mode using envelope peak method at room temperature.}\label{fig:S1timedomain}
-    \vspace{\floatsep}
     \includegraphics[width=.8\textwidth]{./figures/s1moderesult.eps}
     \caption{Group velocity change with temperature for the $S_1$ mode in Aluminium 1050 H14.}\label{fig:S1result}
 \end{figure}
+\vfill
 
-\newpage
+\clearpage
 
 \subsection{Experimental sensitivity analysis}
 
@@ -202,7 +229,7 @@ An experimental investigation has been carried out in order to validate theoreti
 
 It is clear that wedge transducers are not the optimum method of transmitting/receiving a wave through a nozzle guide vane at high temperatures. They cannot be permanently mounted to the structure due to the need for a liquid couplant, and their relatively large footprint would make finding a suitable mounting location a challenge. Their operation at high temperatures is limited by the wedge material, which in the case of acrylic melts at around 160\si{\degreeCelsius}. The wedge material needs to have a longitudinal wave velocity less than that of the targeted Lamb wave phase velocity, which limits the choice of material severely, mostly to plastics with low melting points. The great benefit of wedge transducers is the ability to selectively target Lamb wave modes, which reduces the complexity of data analysis compared with exciting multiple modes simultaneously. This is difficult to achieve using other transducer configurations but it may instead be possible to excite a higher order region that travels as a single wave packet. The use of PWAS transducers could allow for operation at high temperatures (assuming suitable choice of piezoelectric material) and would be relatively easy to mount to an NGV structure, having a small footprint, although the high temperatures are likely to make bonding difficult. Another option is to couple into the structure using waveguides, distancing the transducers from the high temperature environment. Future research will investigate the temperature sensitivity of higher order modes (such as $A_1$ and $S_1$), as operating at higher frequencies can improve resolution (allowing for the detection of smaller phase shifts) and response rates. The ability to monitor wave velocity variations in multi-modal wave packets will also be considered when investigating transducer configurations suitable for higher temperature operation.
 
-\section{Simulation study}
+\section{Simulation study} \label{simstudymain}
 
 The multi-physics simulation package COMSOL has been used to simulate potential temperature monitoring systems, investigating the effect of temperature on Lamb wave propagation.
 
@@ -438,7 +465,7 @@ The time dependant study includes electrostatics/the piezoelectric effect to all
 
 Under ``Values of Dependant Variables'' the settings are changed to user controlled, method is changed to Solution, and the study is set to the stationary study. The time step is manually set under Solver Configurations$>$Solution 1$>$Time dependant solver$>$Time stepping. Here the ``Steps taken by solver'' parameter is changed to ``Manual'' and the ``Time Step'' is set to: $CFL/(N\times f_0)$. 
 
-To reduce file size only the data at the wedge boundaries is stored by the solver. This can be achieved by adding an ``Explicit Selection'' node in the Geometry section, and selecting both the transmit and receive wedge boundaries. Within the time dependant study settings select ``For selection'' under ``Store fields in output'' and select the boundary group~\cite{COMSOL2021a}. 
+To reduce file size only the data at the wedge boundaries is stored by the solver. This can be achieved by adding an ``Explicit Selection'' node in the Geometry section, and selecting both the transmit and receive wedge boundaries. Within the time dependant study settings select ``For selection'' under ``Store fields in output'' and select the boundary group~\cite{COMSOL2021a}. File size can be further reduced by only storing the field components of interest. Within ``Solver Configurations''$>$Solution 1$>$Dependant Variables 2, the option for storing the displacement field in the output can be deselected, as only the electric potential is necessary. 
 
 A parametric sweep node was used to cycle through the temperature boundary values (20.0\si{\degreeCelsius}, 46.7\si{\degreeCelsius}, 73.3\si{\degreeCelsius}, and 100.0\si{\degreeCelsius}) and save the output of the time dependant model for each value. This is repeated for the model in the wedge-to-wedge configuration (at temperatures shown in~\cref{table:S0gradients,table:A1gradients,table:S1gradients}), mimicking the experimental setup shown in Figure~\ref{fig:testdiagramw2w}. The simulations were run on the University of Southampton's IRIDIS 5 supercomputing platform~\cite{Southampton2021}.
 
@@ -473,17 +500,29 @@ Wedge foot offset (the distance a wave travel under each wedge foot) is calculat
 \caption{Average temperature sensitivity of $S_0$, $A_1$, and $S_1$ Lamb wave modes in Aluminium from 20\si{\degreeCelsius} to 100\si{\degreeCelsius}.}\label{table:sensitivityresults}
 \end{table}    
 %
+Time-displacement data is transformed into frequency-wavenumber data using 2D-FFT from spatial B-scan data, using 90 point probes equally spaced 0.8 mm apart. This allows individual modes to be identified, and compared with dispersion curves for verification. Out-of-plane ($y$-axis) displacement was monitored, to reflect the response detected when using wedge transducers. It should be noted, however, that the displacement response in the plate measured using a point probe will differ from the response received at a second receiver wedge. The use of a second wedge further isolates a particular mode of interest, while the displacement in the plate may still show the presence of other modes.
+
 \newpage
 
 \subsubsection{S0 Mode simulations}
 
-Figure~\ref{fig:S0waveprop} shows the wave propagation of a pulse exciting the $S_0$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The blue dotted lines indicate the peak of the envelopes used to calculate time of flight.
+Figure~\ref{fig:S0waveprop} shows the wave propagation of a pulse exciting the $S_0$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The black dotted lines indicate the peak of the envelopes used to calculate time of flight.
 Figure~\ref{fig:s0resultfull} shows the change in velocity with temperature for the $S_0$ Lamb wave mode in Aluminium, comparing predicted temperature sensitivity extracted from dispersion curves, experimental measurement data (Section~\ref{S0 experiments}), and COMSOL simulations of the experimental setup. The experimental result is within 35.93 $\pm$ 3.06 m s$^{-1}$ or 0.71\% $\pm$ 0.06\% of the predicted velocity on average. The COMSOL results are within 10.61 m s$^{-1}$ $\pm$ 0.73 m s$^{-1}$ or 0.21\% $\pm$ 0.01\% of the predicted result on average. The standard deviation of group velocity across four wedge spacings (80 mm, 90 mm, 100 mm, 110 mm) at the calculated offset value of 45.3 mm is 0.74 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are producing accurate results.
+
+\cref{fig:2DFFT-S0-Alu} shows the 2D-FFT response of the propagating wave packet. The solid and dashed lines represent the anti-symmetric and symmetric dispersion curves respectively. Almost pure excitation of the $S_0$ mode is achieved.
+
+\vfill
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/COMSOL_S0_20c-100c.eps}
+    \caption{Wave propagation of $S_0$ Lamb wave mode in Aluminium at 20\si{\degreeCelsius} (green) and 100\si{\degreeCelsius} (red).}\label{fig:S0waveprop}
+\end{figure}
+\vfill
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{./figures/S0comsolwaveprop.eps}
-    \caption{Wave propagation of $S_0$ Lamb wave mode in Aluminium at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}.}\label{fig:S0waveprop}
+    \includegraphics[width=.8\textwidth]{./figures/2DFFT-S0-1MHz-Ydisp.eps}
+    \caption{2D-FFT of $S_0$ excitation in 1 mm thick Aluminium at 20\si{\degreeCelsius}.}\label{fig:2DFFT-S0-Alu}
 \end{figure}
 
 \begin{figure}[h]
@@ -498,10 +537,20 @@ Figure~\ref{fig:s0resultfull} shows the change in velocity with temperature for 
 Figure~\ref{fig:A1waveprop} shows the wave propagation of a pulse exciting the $A_1$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The blue dotted lines indicate the peak of the envelopes used to calculate time of flight.
 Figure~\ref{fig:A1resultfull} shows the change in velocity with temperature for the $A_1$ Lamb wave mode in Aluminium, comparing predicted temperature sensitivity extracted from dispersion curves, experimental measurement data (Section~\ref{A1 experiments}), and COMSOL simulations of the experimental setup. The experimental result is within 49.05 $\pm$ 7.90 m s$^{-1}$ or 1.35\% $\pm$ 0.23\% of the predicted velocity on average. The COMSOL results are within 19.22 m s$^{-1}$ $\pm$ 5.93 m s$^{-1}$ or 0.53\% $\pm$ 0.17\% of the predicted result on average. The standard deviation of group velocity across eight wedge spacings (80 mm to 150 mm in 10 mm increments) at the calculated offset value of 46.2 mm is 6.94 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are not producing results as accurately as at $S_0$.
 
+\cref{fig:2DFFT-A1-Alu} shows the 2D-FFT response of the propagating wave packet. The solid and dashed lines represent the anti-symmetric and symmetric dispersion curves respectively. Almost pure excitation of the $A_1$ mode is achieved. The presence of the $S_0$ mode is not evident when analysing the time history shown in \cref{fig:A1waveprop}.
+
+\vfill
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{./figures/A1comsolwaveprop.eps}
+    \includegraphics[width=.8\textwidth]{./figures/COMSOL_A1_20c-100c.eps}
     \caption{Wave propagation of $A_1$ Lamb wave mode in Aluminium at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}.}\label{fig:A1waveprop}
+\end{figure}
+\vfill
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/2DFFT-A1-1MHz-Ydisp.eps}
+    \caption{2D-FFT of $A_1$ excitation in 2.5 mm thick Aluminium at 20\si{\degreeCelsius}.}\label{fig:2DFFT-A1-Alu}
 \end{figure}
 
 \begin{figure}[h]
@@ -516,10 +565,20 @@ Figure~\ref{fig:A1resultfull} shows the change in velocity with temperature for 
 Figure~\ref{fig:S1waveprop} shows the wave propagation of a pulse exciting the $S_1$ mode at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}. The blue dotted lines indicate the peak of the envelopes used to calculate time of flight.
 Figure~\ref{fig:S1resultfull} shows the change in velocity with temperature for the $S_1$ Lamb wave mode in Aluminium, comparing predicted temperature sensitivity extracted from dispersion curves, experimental measurement data (Section~\ref{S1 experiments}), and COMSOL simulations of the experimental setup. The experimental result is within 60.04 $\pm$ 14.00 m s$^{-1}$ or 1.34\% $\pm$ 0.32\% of the predicted velocity on average. The COMSOL results are within 89.83 m s$^{-1}$ $\pm$ 13.00 m s$^{-1}$ or 2.01\% $\pm$ 0.31\% of the predicted result on average. The standard deviation of group velocity across six wedge spacings (80 mm to 130 mm in 10 mm increments) at the calculated offset value of 44.69 mm is 7.89 m s$^{-1}$, which indicates that the simulation and time of flight measurement method are not producing results as accurately as at $S_0$.
 
+\cref{fig:2DFFT-A1-Alu} shows the 2D-FFT response of the propagating wave packet. The solid and dashed lines represent the anti-symmetric and symmetric dispersion curves respectively. The response is dominated by the $A_1$ mode, which can be seen as the second more dispersive wave packet in \cref{fig:S1waveprop}, as it has considerably larger out-of-plane ($y$-axis) displacement than the $S_1$ mode. The use of a receiver wedge for the time-of-flight simulations further isolates the $S_1$ mode, which reduces the amplitude of the $A_1$ mode to a comparable level to that of $S_1$.
+
+\vfill
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{./figures/S1comsolwaveprop.eps}
+    \includegraphics[width=.8\textwidth]{./figures/COMSOL_S1_20c-100c.eps}
     \caption{Wave propagation of $S_1$ Lamb wave mode in Aluminium at 20\si{\degreeCelsius} and 100\si{\degreeCelsius}.}\label{fig:S1waveprop}
+\end{figure}
+\vfill
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/2DFFT-S1-1MHz-Ydisp.eps}
+    \caption{2D-FFT of $S_1$ excitation in 4 mm thick Aluminium at 20\si{\degreeCelsius}.}\label{fig:2DFFT-S1-Alu}
 \end{figure}
 
 \begin{figure}[h]

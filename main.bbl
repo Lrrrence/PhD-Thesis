@@ -177,6 +177,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Yule2021b}
 \endrefsection
 
 \refsection{5}
@@ -8985,6 +8986,224 @@
 
 \refsection{9}
   \datalist[entry]{none/global//global/global}
+    \entry{Beghini2001}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a322e18587c03a509131003730e6238e}{%
+           family={Beghini},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ae348d8596e0d04c9bd5996822aad16e}{%
+           family={Benamati},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9e000b166f3d0b56dfd6d3df08297651}{%
+           family={Bertini},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e101819d6460807bfa65268941eed353}{%
+           family={Frendo},
+           familyi={F\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{808c2fbcdb6b7df4151f4ebe135efd51}
+      \strng{fullhash}{3863b621755b8cac47c648fff7930944}
+      \strng{bibnamehash}{808c2fbcdb6b7df4151f4ebe135efd51}
+      \strng{authorbibnamehash}{808c2fbcdb6b7df4151f4ebe135efd51}
+      \strng{authornamehash}{808c2fbcdb6b7df4151f4ebe135efd51}
+      \strng{authorfullhash}{3863b621755b8cac47c648fff7930944}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Elastic properties of a thermal barrier ceramic coating composed of an NiCoCrAIY bond coat and a ZrO2(Y2O3) top coat were measured by a four-point bending rig in the temperature range 20°C-900°C. Different types of specimens (i.e., with bond coat only or with bond coat and top coat, on one side or on both sides) were employed. Test procedures were based on the theory discussed in Part 1 to enhance accuracy and to estimate confidence intervals. In particular, the method employed at high temperature was calibrated at room temperature by comparing the results with those obtained by methods with low sensitivity to layer thicknesses. For the bond coat, Young's modulus was found to be temperature independent up to about 500°C; a decreasing trend was observed above this temperature. For the top coat, a slightly decreasing Young's modulus was observed over the whole temperature range examined. A possible explanation is given on the basis of phase transformation and the microstructure of the two layers. At room temperature, Poisson's ratio for the bond coat was found to be near 0.3, whereas a near zero value was measured for the top coat.}
+      \field{issn}{00144851}
+      \field{journaltitle}{Exp. Mech.}
+      \field{number}{4}
+      \field{title}{{Measurement of coating's elastic properties by mechanical methods: Part 2. Application to thermal barrier coatings}}
+      \field{volume}{41}
+      \field{year}{2001}
+      \field{pages}{305\bibrangedash 311}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/BF02323923
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Data/TBC mat props/Beghini2001{\_}Article{\_}MeasurementOfCoatingsElasticPr.pdf:pdf
+      \endverb
+      \keyw{Coatings,Elastic modulus,Mechanical testing,Poisson's ratio,Temperature dependence}
+    \endentry
+    \entry{Akwaboa2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=689c794b555f09a20816940125f2c461}{%
+           family={Akwaboa},
+           familyi={A\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f20c1e27c27cef87edf3d56dee9938e1}{%
+           family={Mensah},
+           familyi={M\bibinitperiod},
+           given={Patrick\bibnamedelima F.},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f1b195124094a5beca9973cb9b7a650}
+      \strng{fullhash}{1f1b195124094a5beca9973cb9b7a650}
+      \strng{bibnamehash}{1f1b195124094a5beca9973cb9b7a650}
+      \strng{authorbibnamehash}{1f1b195124094a5beca9973cb9b7a650}
+      \strng{authornamehash}{1f1b195124094a5beca9973cb9b7a650}
+      \strng{authorfullhash}{1f1b195124094a5beca9973cb9b7a650}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Thermal barrier coatings (TBCs) are applied to blades, vanes, combustion chamber walls, and exhaust nozzles in gas turbines not only to limit the heat transfer through the coatings but also to protect the metallic parts from the harsh oxidizing and corrosive thermal environment. There is a growing interest in operating these hot gas path (HGP) components at optimal conditions which has resulted in a continuous increase of the turbine inlet temperatures (TITs). This has resulted in the increase of heat load on the turbine components especially in the high pressure side of the turbine necessitating the need to protect the HGP components from the heat of the exhaust gases using novel TBC such as electron beam physical vapor deposition thermal barrier coatings (EBPVD TBCs) and Air Plasma Sprayed thermal barrier coatings (APS TBCs). This study focuses on the estimation of temperature distribution in the turbine metal substrate (IN738) and coating materials (EBPVD TBC and APS TBC) subjected to isothermal conditions (1573 K) around the turbine blade. The heat conduction in the turbine blade and TBC systems necessary for the evaluation of substrate thermal loads are assessed. The steady state 2D heat diffusion in the turbine blade is modeled using ANSYS FLUENT computational fluid dynamics (CFD) commercial package. Heat transfer by radiation is fully accounted for by solving the radiative transport equation (RTE) using the discrete ordinate method. The results show that APS TBCs are better heat flux suppressors than EBPVD TBCs due to differences in the morphology of the porosity present within the TBC layer. Increased temperature drops across the TBC leads to temperature reductions at the TGO/bond coat interface which slows the rate of the thermally induced failure mechanisms such as CTE mismatch strain in the TGO layer, growth rate of TGO, and impurity diffusion within the bond coat. {©} 2010 by ASME.}
+      \field{isbn}{9780791849408}
+      \field{journaltitle}{2010 14th Int. Heat Transf. Conf. IHTC 14}
+      \field{title}{{A comparison study of heat transfer through electron beam physical vapor deposition (EBPVD) and Air Plasma Sprayed (APS) coated gas turbine blades}}
+      \field{volume}{5}
+      \field{year}{2010}
+      \field{pages}{249\bibrangedash 255}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1115/IHTC14-22961
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/ihtc14-22961.pdf:pdf
+      \endverb
+      \keyw{Porosity,Thermal barrier coatings,Thermal conductivity,Thermal diffusivity,Yttria stabilized zirconia (YSZ)}
+    \endentry
+    \entry{Lugscheider2001}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f36c0226dc95dd4955d29207e3030988}{%
+           family={Lugscheider},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=740587fc3adeb53d6024adc8e1cef8b5}{%
+           family={Bobzin},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4ceaaebf7d7a29aec33b19393a661277}{%
+           family={Bärwulf},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=07aa293bfdada12173a2c10381e83367}{%
+           family={Etzkorn},
+           familyi={E\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{636db1727fd865b2970f0f19b070a9de}
+      \strng{fullhash}{ca7cce8dcf7fc97f0028ae5d59d6faec}
+      \strng{bibnamehash}{636db1727fd865b2970f0f19b070a9de}
+      \strng{authorbibnamehash}{636db1727fd865b2970f0f19b070a9de}
+      \strng{authornamehash}{636db1727fd865b2970f0f19b070a9de}
+      \strng{authorfullhash}{ca7cce8dcf7fc97f0028ae5d59d6faec}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the present work EB-PVD zirconia thermal barrier coatings were examined by nanoindentation. Because of the microstructure of EB-PVD-coatings, the mechanical properties in the vertical and the horizontal direction are completely different. Therefore the indents were performed on cross-sections and on the coatings' surface itself. Because of the expected different behavior at the grain boundaries and the grains, the measurement locations were randomly chosen. The measured property was the Young's modulus. For a better interpretation, the measurement results were described by the method of Weibull distribution. The measured values showed a significant dependency with the substrate temperature and a low dependency with oxygen partial pressure during the deposition process. Non-stoichiometric phases within the zirconia showed a complete different mechanical behavior. {©} 2001 Elsevier Science B.V. All rights reserved.}
+      \field{issn}{02578972}
+      \field{journaltitle}{Surf. Coatings Technol.}
+      \field{number}{1}
+      \field{title}{{Mechanical properties of EB-PVD-thermal barrier coatings by nanoindentation}}
+      \field{volume}{138}
+      \field{year}{2001}
+      \field{pages}{9\bibrangedash 13}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/S0257-8972(00)01147-6
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/s0257-8972(00)01147-6.pdf:pdf
+      \endverb
+      \keyw{EB-PVD,Gas turbines,Nanoindentation,Thermal barrier coatings}
+    \endentry
+    \entry{Guo2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=95960ea150ac1efe14a370868c611fa5}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Shuqi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bacaa792dc7e26b85d3f279ee4461b8d}{%
+           family={Kagawa},
+           familyi={K\bibinitperiod},
+           given={Yutaka},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{1729f02e5347e1318c0df49a017dedb1}
+      \strng{fullhash}{1729f02e5347e1318c0df49a017dedb1}
+      \strng{bibnamehash}{1729f02e5347e1318c0df49a017dedb1}
+      \strng{authorbibnamehash}{1729f02e5347e1318c0df49a017dedb1}
+      \strng{authornamehash}{1729f02e5347e1318c0df49a017dedb1}
+      \strng{authorfullhash}{1729f02e5347e1318c0df49a017dedb1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The effect of thermal exposure on hardness and Young's modulus of 4.0 mol{\%} Y2O3-partially-stabilized ZrO2 coating material deposited by an electron beam physical vapor deposition has been investigated after exposure at 1200 °C and 1400 °C in air for up to 100 h, using an ultra-micro-indentation technique. The indentation tests were carried out with loading rate of 0.88 mN/s and holding time of 20 s at the maximum load of 50 mN. Before and after thermal exposure, the microstructure of the coating was characterized using scanning electron microscopy. Before thermal exposure, the coating showed a typical columnar structure. After thermal exposure, however, the columnar structure degraded and the degradation depended on exposure temperature and time. The hardness and Young's modulus were higher on the plan-section than on the cross-section before and after thermal exposure. The hardness and Young's modulus on both sections significantly increased after thermal exposure. The increases depended on exposure temperature and time, as a result of the sintering effect. {©} 2005 Elsevier Ltd and Techna Group S.r.l. All rights reserved.}
+      \field{issn}{02728842}
+      \field{journaltitle}{Ceram. Int.}
+      \field{number}{3}
+      \field{title}{{Effect of thermal exposure on hardness and Young's modulus of EB-PVD yttria-partially-stabilized zirconia thermal barrier coatings}}
+      \field{volume}{32}
+      \field{year}{2006}
+      \field{pages}{263\bibrangedash 270}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.ceramint.2005.01.018
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/j.ceramint.2005.01.018.pdf:pdf
+      \endverb
+      \keyw{C. Hardness,EB-PVD TBC,Indentation,Thermal exposure,Young's modulus}
+    \endentry
+    \entry{Duan1998}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1c380dcaef0262639a6f1a48d4fb2c25}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=122a2067fcbd8f16b78b72071d1cf6d9}{%
+           family={Steinbrech},
+           familyi={S\bibinitperiod},
+           given={Rolf\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{addb8ffb5243a90db4f82faeb4c8a071}
+      \strng{fullhash}{addb8ffb5243a90db4f82faeb4c8a071}
+      \strng{bibnamehash}{addb8ffb5243a90db4f82faeb4c8a071}
+      \strng{authorbibnamehash}{addb8ffb5243a90db4f82faeb4c8a071}
+      \strng{authornamehash}{addb8ffb5243a90db4f82faeb4c8a071}
+      \strng{authorfullhash}{addb8ffb5243a90db4f82faeb4c8a071}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{General equations are derived for evaluating the contributions of the non-penetration displacements to the apparent Young's modulus and hardness measured in an instrumented microindentation test. An idealized disk model is proposed to simulate the roles of porosity and sample displacements in determining Young's modulus and hardness from the indentation curve. The model is then applied to experimental data obtained from the indentation tests completed with separated and bonded yttria-stabilized zirconia (YSZ) thermal barrier coating layers. It is shown that in an instrumented microindentation test of a thin material plate, large scatter in the mechanical properties may originate from non-penetration displacements which usually increase with decreasing sample thickness. Predictions are also made for the apparent E-H values and show reasonable agreement with the measured data. {©} 1997 Elsevier Science Limited.}
+      \field{issn}{09552219}
+      \field{journaltitle}{J. Eur. Ceram. Soc.}
+      \field{number}{2}
+      \field{title}{{Influence of Sample Deformation and Porosity on Mechanical Properties by Instrumented Microindentation Technique}}
+      \field{volume}{18}
+      \field{year}{1998}
+      \field{pages}{87\bibrangedash 93}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/S0955-2219(97)00088-5
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/s0955-2219(97)00088-5.pdf:pdf
+      \endverb
+    \endentry
     \entry{Jang2005}{article}{}
       \name{author}{2}{}{%
         {{hash=68610031389575c8c6eb008399e26519}{%
@@ -9004,8 +9223,8 @@
       \strng{authorbibnamehash}{ffc4468f8073ed0910d4ef0fb226bf4c}
       \strng{authornamehash}{ffc4468f8073ed0910d4ef0fb226bf4c}
       \strng{authorfullhash}{ffc4468f8073ed0910d4ef0fb226bf4c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The hardness and Young's modulus of ZrO2-4 mol{\%} Y 2O3 coating layers fabricated by EB-PVD are characterized using a nanoindentation technique. Coatings consist of porous, aligned columnar structure. The porosity of the coatings increased with increasing substrate rotation speed during deposition. The hardness and Young's modulus showed a significant dependence on the porosity and a strong anisotropy due to the columnar microstructure. The hardness and Young's modulus of the surface regions of the coatings is found to be higher than that of the side regions. The hardness and Young's moduli of the surface regions of the coatings have a nearly constant value, whereas those of the side areas decreased with increasing the porosity. {©} 2005 Elsevier B.V. All rights reserved.}
@@ -9059,8 +9278,8 @@
       \strng{authorbibnamehash}{5dae1562045d73c85889368b780266e1}
       \strng{authornamehash}{5dae1562045d73c85889368b780266e1}
       \strng{authorfullhash}{a2a4e104eb485178f96ec9ddedf63262}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Thermal barrier coatings (TBCs), that reduce the temperature in the underlying substrate material, are an essential requirement for the hot section components of industrial gas turbines. Recently, in order to take full advantage of the potential of the TBC systems, experimental and analytical investigations in TBC systems have been performed. However there is a little information on the deformation behavior of the top coating. In addition, the effects of the thermal exposure and the process parameters on the mechanical properties of the top coating have never been clarified. From these backgrounds, the effects of the process variables in APS and the thermal exposure on the mechanical properties were investigated in order to optimize the APS process of top coatings. The experimental results indicated that the mechanical properties of the APS-TBC, i.e. the tensile strength and the elastic modulus, were significantly changed by the process variables and the long term thermal exposure. The microstructural investigation was also carried out and the relationship between the mechanical properties and the porosity was discussed.}
@@ -9106,8 +9325,8 @@
       \strng{authorbibnamehash}{e2691ebb8aef396da43433ed75581ad2}
       \strng{authornamehash}{e2691ebb8aef396da43433ed75581ad2}
       \strng{authorfullhash}{e2691ebb8aef396da43433ed75581ad2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In the present study, the detailed evaluation of nanomechanical properties in terms of hardness and Youngs modulus of duplex and compositionally graded YSZ based thermal barrier coating (TBC) have been evaluated by nanoindentation technique. Duplex and compositionally graded TBCs have been fabricated by thermal spray deposition technique. As TBCs are commonly applied for high temperature protection, effect of isothermal treatment in air (at 900 °C and 1000 °C) on nanomechanical properties has also been evaluated. Finally, the mechanical properties have been correlated with characteristics of the coating. The hardness and Youngs modulus of the TBCs are found to increase with increased duration of thermal exposure. Modulus of resilience and resistance to plastic deformation of the duplex and compositionally graded TBC have also been evaluated at room temperature and with thermal exposure and discussed in detail.}
@@ -9147,8 +9366,8 @@
       \strng{authorbibnamehash}{682d13fc6b970c2d3c6034d6426f804d}
       \strng{authornamehash}{682d13fc6b970c2d3c6034d6426f804d}
       \strng{authorfullhash}{682d13fc6b970c2d3c6034d6426f804d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Ger. Aerosp. Cent.}
@@ -9194,8 +9413,8 @@
       \strng{authorbibnamehash}{4f9ea20e5aa2b5bb5e9be86ea91e6911}
       \strng{authornamehash}{4f9ea20e5aa2b5bb5e9be86ea91e6911}
       \strng{authorfullhash}{ba083666369ec8fa66253683adaa751f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Thermal barrier coatings (TBCs) are deposited on the turbine blade to reduce the temperature of underlying substrate, as well as providing protection against the oxidation and hot corrosion from high temperature gas. Optimal ceramic top-coat thickness distribution on the blade can improve the performance and efficiency of the coatings. Design of the coatings thickness is a multiobjective optimization problem due to the conflicts among objectives of high thermal insulation performance, long operation durability, and low fabrication cost. This work developed a procedure for designing the TBCs thickness distribution for the gas turbine blade. Three-dimensional finite element models were built and analyzed, and weighted-sum approach was employed to solve the multiobjective optimization problem herein. Suitable multiregion top-coat thickness distribution scheme was designed with the considerations of manufacturing accuracy, productivity, and fabrication cost.}
@@ -9253,8 +9472,8 @@
       \strng{authorbibnamehash}{9813a8c88bbfdbab50ebe751f7111db7}
       \strng{authornamehash}{9813a8c88bbfdbab50ebe751f7111db7}
       \strng{authorfullhash}{0babacedc9b7b456eda4b8a5502946fe}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The role of multicomponent rare earth oxides in phase stability, thermo-physical properties and sintering for ZrO2-based thermal barrier coatings (TBCs) materials is investigated. 8YSZ co-doped with 3 mol(Gd2O3 and 3 mol Yb2O3 (GYb-YSZ) powders are synthesized by solid state reaction for 24 h at various temperatures. As temperature increases, stabilizers are dissolved into zirconia matrix gradually. Synthesized at 1 500 °C, GYb-YSZ is basically composed of cubic phase. GYb-YSZ exhibits excellent phase stability and sinters lower than 8YSZ by nearly three times. The thermal conductivity of GYb-YSZ is much lower than that of 8YSZ, and the thermal expansion coefficient of GYb-YSZ is comparable to that of 8YSZ. The influence of Gd2O3 and Yb2O3 co-doping on phase stability, thermal conductivity and sintering of 8YSZ is discussed. {©} 2012 Chinese Journal of Aeronautics.}
@@ -9310,8 +9529,8 @@
       \strng{authorbibnamehash}{3491fc76783f54d5354828fa685e3933}
       \strng{authornamehash}{3491fc76783f54d5354828fa685e3933}
       \strng{authorfullhash}{6c66aebe7f2ff635c7e853709cb36858}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The alumina ceramics was prepared by pressure filtration of electrostatically stabilized alumina and alumina - boehmite water suspensions and subsequent pressureless sintering of as-prepared compacts. The aggregates formation was avoided by stabilization of initial suspension through the regulation of interparticle forces. Nanoparticle boehmite sol was used as a dispersant for alumina suspension, it acts as a lubricant, and moreover it enhances the handling strength of the green compacts and also its sinterability. The kinetic analysis of sintering confirmed, that the definite boehmite addition (2.7 wt.{\%} in green compact) affects positively the densification. The higher amount of boehmite addition has negative influence; it causes the flocculation of the suspensions and decreases the density of sintered bodies.}
@@ -9340,8 +9559,8 @@
       \strng{authorbibnamehash}{13ca0e2295e4cbdf5f3adde66daec042}
       \strng{authornamehash}{13ca0e2295e4cbdf5f3adde66daec042}
       \strng{authorfullhash}{13ca0e2295e4cbdf5f3adde66daec042}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{105996306X}
@@ -9369,8 +9588,8 @@
       \strng{authorbibnamehash}{44c17f5f0789176a521d24a7787758f2}
       \strng{authornamehash}{44c17f5f0789176a521d24a7787758f2}
       \strng{authorfullhash}{44c17f5f0789176a521d24a7787758f2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{INCONEL{®} alloy 718 (UNS N07718/W.Nr. 2.4668) is a high-strength, corrosion-resistant nickel chromium material used at -423° to 1300°F. Typical composition limits are shown in Table 1. The age-hardenable alloy can be readily fabricated, even into complex parts. Its welding characteristics, especially its resistance to postweld cracking, are outstanding. The ease and economy with which INCONEL alloy 718 can be fabricated, combined with good tensile, fatigue, creep, and rupture strength, have resulted in its use in a wide range of applications. Examples of these are components for liquid fueled rockets, rings, casings and various formed sheet metal parts for aircraft and land-based gas turbine engines, and cryogenic tankage. It is also used for fasteners and instrumentation parts.}
@@ -9412,8 +9631,8 @@
         {{hash=217113e66d0ccb4fd8fed32e64639eac}{%
            family={Marrow},
            familyi={M\bibinitperiod},
-           given={T.\bibnamedelimi J.},
-           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+           given={T.J.},
+           giveni={T\bibinitperiod}}}%
       }
       \strng{namehash}{82dc985c0118dcfd7298ea1dee813c64}
       \strng{fullhash}{b776a278c1683a92e1d8e287b66ca225}
@@ -9421,13 +9640,14 @@
       \strng{authorbibnamehash}{82dc985c0118dcfd7298ea1dee813c64}
       \strng{authornamehash}{82dc985c0118dcfd7298ea1dee813c64}
       \strng{authorfullhash}{b776a278c1683a92e1d8e287b66ca225}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A multi-scale Finite Element Microstructure MEshfree (FEMME) fracture model for quasi-brittle materials with complex microstructures is applied to simulate thermo-mechanical damage in a plasma-sprayed thermal barrier coating system. This novel multi-scale technique for damage simulation allows the influence of the microstructure of the yttria-stabilized zirconia top coat and the geometry of the bond coat and the thermally grown oxide layer to be considered with computational efficiency. Mechanical damage, due to the thermal strain of an applied temperature difference, is predicted to decrease the top coat Young's modulus. The interaction between the evolution of damage and temperatures within the top coat is also simulated, demonstrating the capability of this methodology to address coupled multi-scale problems.}
       \field{issn}{02578972}
       \field{journaltitle}{Surf. Coatings Technol.}
+      \field{month}{8}
       \field{number}{June}
       \field{title}{{Multi-scale modeling of damage development in a thermal barrier coating}}
       \field{volume}{276}
@@ -9440,57 +9660,13 @@
       \verb{file}
       \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/TBC properties/Saucedo-Moraetal.-2015-Multi-scalemodelingofdamagedevelopmentinathermalbarriercoating3.pdf:pdf
       \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0257897215300761
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0257897215300761
+      \endverb
       \keyw{Damage,Multi-scale numerical model,Roughness,Thermal barrier coating,Thermally grown oxide,Top coat}
-    \endentry
-    \entry{Beghini2001}{article}{}
-      \name{author}{4}{}{%
-        {{hash=a322e18587c03a509131003730e6238e}{%
-           family={Beghini},
-           familyi={B\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ae348d8596e0d04c9bd5996822aad16e}{%
-           family={Benamati},
-           familyi={B\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=9e000b166f3d0b56dfd6d3df08297651}{%
-           family={Bertini},
-           familyi={B\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=e101819d6460807bfa65268941eed353}{%
-           family={Frendo},
-           familyi={F\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{808c2fbcdb6b7df4151f4ebe135efd51}
-      \strng{fullhash}{3863b621755b8cac47c648fff7930944}
-      \strng{bibnamehash}{808c2fbcdb6b7df4151f4ebe135efd51}
-      \strng{authorbibnamehash}{808c2fbcdb6b7df4151f4ebe135efd51}
-      \strng{authornamehash}{808c2fbcdb6b7df4151f4ebe135efd51}
-      \strng{authorfullhash}{3863b621755b8cac47c648fff7930944}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Elastic properties of a thermal barrier ceramic coating composed of an NiCoCrAIY bond coat and a ZrO2(Y2O3) top coat were measured by a four-point bending rig in the temperature range 20°C-900°C. Different types of specimens (i.e., with bond coat only or with bond coat and top coat, on one side or on both sides) were employed. Test procedures were based on the theory discussed in Part 1 to enhance accuracy and to estimate confidence intervals. In particular, the method employed at high temperature was calibrated at room temperature by comparing the results with those obtained by methods with low sensitivity to layer thicknesses. For the bond coat, Young's modulus was found to be temperature independent up to about 500°C; a decreasing trend was observed above this temperature. For the top coat, a slightly decreasing Young's modulus was observed over the whole temperature range examined. A possible explanation is given on the basis of phase transformation and the microstructure of the two layers. At room temperature, Poisson's ratio for the bond coat was found to be near 0.3, whereas a near zero value was measured for the top coat.}
-      \field{issn}{00144851}
-      \field{journaltitle}{Exp. Mech.}
-      \field{number}{4}
-      \field{title}{{Measurement of coating's elastic properties by mechanical methods: Part 2. Application to thermal barrier coatings}}
-      \field{volume}{41}
-      \field{year}{2001}
-      \field{pages}{305\bibrangedash 311}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1007/BF02323923
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Data/TBC mat props/Beghini2001{\_}Article{\_}MeasurementOfCoatingsElasticPr.pdf:pdf
-      \endverb
-      \keyw{Coatings,Elastic modulus,Mechanical testing,Poisson's ratio,Temperature dependence}
     \endentry
     \entry{Bednarz2005}{inproceedings}{}
       \name{author}{8}{}{%

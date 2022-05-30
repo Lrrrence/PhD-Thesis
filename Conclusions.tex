@@ -13,7 +13,9 @@ A three dimensional finite element model has been developed to investigate more 
 
 One of the biggest challenges to overcome for the implementation of such as system is in sensor configuration. The limited space and access points for a vane as well as the high temperatures severely limit the available options, however there are a number of piezoelectric materials that can operate under high temperature conditions, and wave guides can be used to distance the sensors from the gas path. Hertzian contact points are a viable option for coupling into the structure. 
 
-Limiting excitation to a single mode would be preferable, however there are a limited number of options available for this application. Two-sided excitation is an interesting option for preferentially exciting either symmetric or antisymmetric modes.
+Limiting excitation to a single mode would be preferable, however there are a limited number of options available for this application. Two-sided excitation is an interesting option for preferentially exciting either symmetric or antisymmetric modes, however it has been shown through simulation that this method is ineffective in anisotropic layers, such as a substrate with TBC applied to one surface only.
+
+Although the work carried out looking at a single material (Aluminium or Inconel 718) looked to have promising advantages to working at higher order modes (above $S_0$), the application of TBCs complicates signal propagation, causing there to be less suitable areas of the spectrum (based on dispersion curve analysis) available for use. That is not to say that specific combinations of material properties and layer thicknesses cannot produce more desirable areas to target, however. Operating below the cut-off frequency of $B_2$ is likely to be the most effective method of targeting/identifying single modes.   
 
 \section{Future research}
 
@@ -22,7 +24,7 @@ There is great scope for further research in this field:
 \begin{itemize}
     \item Sensor design.
     \item Signal processing systems.
-    \item Effects of thermal barrier coatings on wave propagation.
+    \item Effects of complex geometry (curved surfaces) on wave propagation.
     \item Experimental testing of a system on an NGV.
     \item Application of technology to other systems.
 \end{itemize}
