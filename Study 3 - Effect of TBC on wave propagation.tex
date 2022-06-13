@@ -2,23 +2,21 @@
 
 In this section the effect of thermal barrier coatings on signal propagation is investigated through the generation of dispersion curves, and COMSOL simulation. 
 
-Thermal barrier coatings are made up of multiple layers, a bond coat, a thermally grown oxide layer (TGO), and a top coat. Both the composition of TBC materials as well as the application technique has an effect on the material properties. Differences in air plasma spray (APS) application methods causes variances in porosity as well as bonding efficiency \cite{Beghini2001}. Electron-beam physical vapor deposition (EB-PVD) produces elongated intercolumnar pores perpendicular to the thickness, whereas air plasma spray methods exhibit inter-splat pores parallel to the TBC surface \cite{Akwaboa2010}. Both APS and EB-PVD produce orientation specific Young's modulus, where the cross-sectional $E$ is larger than the plan-section $E$. In general EB-PVD results in higher values of Young's modulus (20-120 GPa \cite{Lugscheider2001,Guo2006}) for YSZ top coats than APS (8.7-54.6 GPa \cite{Duan1998}). The Young's modulus of YSZ coatings shows a significant dependence on porosity and microstructure, where Young's modulus decreases with increasing porosity. The $E$ of ZrO\textsubscript{2}-4 mol\% Y\textsubscript{2}O\textsubscript{3} applied by EB-PVD has been shown to decrease from around 200 GPa at 8\% porosity, to 80 GPa at 28\% porosity~\cite{Jang2005}. A number of studies~\cite{Yamazaki2007, Nath2015} have shown that the Young's modulus of TBC materials increases after thermal aging, as fine microcracks and porosities are sealed. The increase is in the region of 30 GPa. Exposure to higher temperatures causes a larger increase in $E$.
+Thermal barrier coatings are made up of multiple layers, a bond coat, a thermally grown oxide layer (TGO), and a top coat (see \cref{fig:turbineblade}). Both the composition of TBC materials as well as their application technique has an effect on the material properties, which in turn changes how guided waves propagate. Differences in air plasma spray (APS) application methods cause variances in porosity as well as bonding efficiency \cite{Beghini2001}. Electron-beam physical vapor deposition (EB-PVD) produces elongated intercolumnar pores perpendicular to the thickness, whereas air plasma spray methods exhibit inter-splat pores parallel to the TBC surface \cite{Akwaboa2010}. Both APS and EB-PVD produce orientation specific Young's modulus, where the cross-sectional $E$ is larger than the plan-section $E$. In general EB-PVD results in higher values of Young's modulus (20-120 GPa \cite{Lugscheider2001,Guo2006}) for YSZ top coats than APS (8.7-54.6 GPa \cite{Duan1998}). The Young's modulus of YSZ coatings shows a significant dependence on porosity and microstructure, where Young's modulus decreases with increasing porosity. The $E$ of ZrO\textsubscript{2}-4 mol\% Y\textsubscript{2}O\textsubscript{3} applied by EB-PVD has been shown to decrease from around 200 GPa at 8\% porosity, to 80 GPa at 28\% porosity~\cite{Jang2005}. A number of studies~\cite{Yamazaki2007, Nath2015} have shown that the Young's modulus of TBC materials increases after thermal aging, as fine microcracks and porosities are sealed. The increase is in the region of 30 GPa. Exposure to higher temperatures during the aging process causes a larger increase in $E$.
 
-Considering that YSZ exhibits substantially lower Young's modulus than the other materials there is likely to be a comparatively larger through-thickness displacement in the top coat, which will make propagating waves substantially more sensitive to defects in the TBC surface. This effect will be partially reduced as the value of $E$ increases after thermal aging. 
-
-In a non-symmetric laminate such as this the modes do not have a clear symmetric or antisymmetric character, especially when the different layers have substantially different material properties, and therefore wave speeds. The modes are therefore denoted using $B$ (as proposed by \href{https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874_read-61142/#/gallery/33485}{The Dispersion Calculator}~\cite{Huber}), rather than categorising them as either symmetric, $S$, or antisymmetric, $A$. 
+In a non-symmetric laminate such as this the wave modes do not have a clear symmetric or antisymmetric character, especially when the different layers have substantially different material properties, and therefore wave speeds. The modes are therefore denoted using $B$ (as proposed by \href{https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874_read-61142/#/gallery/33485}{The Dispersion Calculator}~\cite{Huber}), rather than categorising them as either symmetric, $S$, or antisymmetric, $A$. 
 
 An initial study has been carried out that considers a typical TBC configuration at room temperature, with a relatively high value (48 GPa) of Young's modulus for the YSZ top coat. Dispersion curves and through thickness displacement profiles have been generated to demonstrate the effect on wave propagation. 
 
-A second study has been carried out using temperature dependant material properties for both the superalloy substrate (Inconel 718) and the TBC materials. In this study the values of Young's modulus for the YSZ top coat are lower than in the room temperature study, which is likely to cause an even larger shift in displacement for the top coat layer. A COMSOL model has been used to simulate wave propagation at increasing temperatures, to investigate the suitability of using the $B_1$ mode for temperature monitoring. 
+A second study has been carried out using temperature dependant material properties for both the superalloy substrate (Inconel 718) and the TBC materials. In this study the values of Young's modulus for the YSZ top coat are lower (17.5 GPA at 20\si{\degreeCelsius} reducing to 11.7 GPA at 1020 \si{\degreeCelsius}) than in the room temperature study, which is likely to cause an even larger shift in displacement for the top coat layer. A COMSOL model has been used to simulate wave propagation at increasing temperatures, to investigate the suitability of using the $B_1$ mode for temperature monitoring. 
 
 \section{Fixed temperature study}
 
 A typical configuration is considered in Table~\ref{table:TBCmatprops}, where the values for Young's modulus and Poisson's ratio are provided by Li~\cite{Li2017b}. Table~\ref{table:TBCwavespeeds} shows the longitudinal and shear wave velocities of each TBC material used in this study, as calculated by COMSOL from the material properties used in Table~\ref{table:TBCmatprops}. 
 
-The energy and phase velocity dispersion curves shown in Figures~\ref{fig:inconeldispTBCgroup} and~\ref{fig:inconeldispTBCphase} respectively differ substantially from those of only Inconel 718 (see \cref{fig:groupshift}). The velocity of the two lowest order modes do not converge towards the Rayleigh wave speed at high frequency-thickness products, as the $B_1$ mode propagates $\sim$1000~\si{\metre\per\second} faster than the $B_0$ mode.
+The energy and phase velocity dispersion curves shown in Figures~\ref{fig:inconeldispTBCgroup} and~\ref{fig:inconeldispTBCphase} respectively differ substantially from those of only Inconel 718. \cref{fig:incdispcomp} shows a comparison between the energy velocity curves of Inconel 718 with a TBC applied (solid lines) to that of pure Inconel 718 (dashed lines) at the same thickness (1.31 mm). It can be seen that $B_0$ is closely related to $S_0$, whereas $B_1$ does not converge towards the Rayleigh wave speed at high frequency-thickness products, as $A_0$ does. The $B_1$ mode propagates $\sim$1000~\si{\metre\per\second} faster than the $B_0$ mode. After the TBC is applied the prominent peaks of the $A_1$ (becoming $B_2$) and $S_1$ (becoming $B_3$) modes are substantially diminished, and neither mode will be easily distinguishable in the time domain.
 
-Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement profiles for five different modes, at frequency-thickness values that correspond to points of group velocity maxima for the associated modes. At low frequency-thickness products (below the cut-off frequency of third mode, $B_2$) the modes respond in a similar manner to $A_0$ and $S_0$ in a single material, as the first mode ($B_0$) exhibits large out-of-plane motion (Figure~\ref{fig:B0}), while the second mode ($B_1$) exhibits large in-plane motion (Figure~\ref{fig:B1}). Above $B_1$, however, the top coat exhibits a large through-thickness displacement in comparison to the rest of the materials, which is especially apparent for $B_2$ (\cref{fig:B2}). Modes $B_5$, $B_7$, and $B_9$ have group velocity maxima distinctly separate from other modes, which is advantageous for the excitation/identification of single modes, however these higher order modes exhibit relatively less displacement than lower order modes (\cref{fig:B5}), which limits their sensitivity to holes, and results in lower amplitude signals.
+Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement profiles for five different modes, at frequency-thickness values that correspond to points of group velocity maxima for the associated modes. At low frequency-thickness products (below the cut-off frequency of third mode, $B_2$) the modes respond in a similar manner to $A_0$ and $S_0$ in a single material, as the first mode ($B_0$) exhibits large out-of-plane motion (Figure~\ref{fig:B0}), while the second mode ($B_1$) exhibits large in-plane motion (Figure~\ref{fig:B1}). Above $B_1$, however, the YSZ top coat exhibits a large through-thickness displacement in comparison to the rest of the materials, which is especially apparent for $B_2$ (\cref{fig:B2}). This is due to YSZ having a considerably lower Young's modulus than the other materials that make up a TBC. This will make these modes substantially more sensitive to defects in the TBC surface. This effect will be partially reduced as the value of $E$ increases after thermal aging. Modes $B_5$, $B_7$, and $B_9$ have group velocity maxima distinctly separate from other modes, which is advantageous for the excitation/identification of single modes, however these higher order modes exhibit relatively less displacement than lower order modes (\cref{fig:B5}), which limits their sensitivity to holes, and results in lower amplitude signals.
 
 \begin{table}[h]
     \centering
@@ -53,6 +51,13 @@ Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement
 
 \caption{Wave velocities of thermal barrier coatings.}\label{table:TBCwavespeeds}
 \end{table}
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./figures/pureincvsTBC20c.eps}
+    \caption{Comparison of energy velocity dispersion curves for Inconel 718 with and without a TBC applied. Solid lines represent the curves with TBC applied, dashed lines represent pure Inconel 718 at the same thickness.}\label{fig:incdispcomp}
+\end{figure}
+
 
 \begin{figure}[p]
     \centering
@@ -101,16 +106,17 @@ Figure~\ref{fig:inconelTBCdisplacement} shows the through-thickness displacement
             \includegraphics[width=1\textwidth]{./figures/B5.eps}
             \caption{$B_5$ Displacement -- 4.4 MHz.}\label{fig:B5}
         \end{subfigure}
-    \caption{Through thickness displacement profiles for Inconel 718 with TBC applied (\cref{table:TBCmatprops}).}\label{fig:inconelTBCdisplacement}
+    \caption{Through thickness displacement profiles for Inconel 718 with TBC applied.}\label{fig:inconelTBCdisplacement}
 \end{figure}
 
 \clearpage
 \section{Temperature dependant study}
 
-Temperature dependant Young's modulus for TBC materials are provided in~\cref{table:TBCmatprops}, and shown in~\cref{fig:TBC_E}. All three sources of values for the top coat (YSZ) show linear reductions in $E$ with temperature, while the reduction in $E$ for the bond coat (MCrAlY) increases with temperature. Saucedo-Mora \textit{et al.}\cite{Saucedo-Mora2015} suggest that the data provided by Beghini \textit{et al.}\cite{Beghini2001} shows a significant decrease in $E$ due to microcracking. The elevated initial values of $E$ in comparison to the other sources suggests that the tested material has undergone thermal aging~\cite{Yamazaki2007,Nath2015}. The change in Young's modulus with temperature for the TGO is ignored, as the effect is considered insignificant due to the thickness of the layer. Temperature dependant material properties for Inconel 718 are shown in \cref{fig:dpe}. The Poisson's ratio of the TBC materials is considered to be temperature independent for this study, 0.33 for the bond coat, and 0.2 for the top coat. Changes in density due to thermal expansion in the TBC are not considered in this study, as the effect on wave propagation is small in comparison to changes in Young's modulus, as discussed in~\cref{effectoftemponwaveprop}.
+Temperature dependant Young's moduli for TBC materials are provided in~\cref{table:TBCmatprops}, and shown in~\cref{fig:TBC_E}. All three sources of values for the top coat (YSZ) show linear reductions in $E$ with temperature, while there is a significantly larger reduction in $E$ for the bond coat (MCrAlY) with increasing temperature. Saucedo-Mora \textit{et al.}\cite{Saucedo-Mora2015} suggest that the data provided by Beghini \textit{et al.}\cite{Beghini2001} shows a significant decrease in $E$ due to microcracking. The elevated initial values of $E$ in comparison to the other sources suggests that the tested material has undergone thermal aging~\cite{Yamazaki2007,Nath2015}. The change in Young's modulus with temperature for the TGO is ignored, as the effect is considered insignificant due to the thickness of the layer. Temperature dependant material properties for Inconel 718 are shown in \cref{fig:dpe}. The Poisson's ratio of the TBC materials is considered to be temperature independent for this study, 0.33 for the bond coat, and 0.2 for the top coat. Changes in density due to thermal expansion in the TBC are not considered in this study, as the effect on wave propagation is small in comparison to changes in Young's modulus, as discussed in~\cref{effectoftemponwaveprop}.
 
 As temperature increases there is a large shift in the shape of the dispersion curves (from \cref{fig:inconeldispTBCgroup20c} to \cref{fig:inconeldispTBCgroup1020c}), which makes it difficult to select a suitable mode/frequency to target. The lowest two modes, $B_0$ \& $B_1$, are the only two modes that show relatively stable areas of low dispersion, in the regions of 0.4-0.8 MHz, however the effect of dispersion still increases with temperature, especially for $B_1$. $B_5$ is the only other mode that exhibits an energy velocity peak that would allow the single mode to be identified across the temperature range of interest, however there is only a very small frequency window (\sim 3.1 MHz) in which dispersion is relatively stable.
 
+\vfill
 \begin{table}[h]
     \centering
     \begin{tabular}{@{}llllllll@{}}
@@ -124,8 +130,11 @@ As temperature increases there is a large shift in the shape of the dispersion c
     \end{tabular}
     \caption{Temperature dependant Young's modulus of substrate and TBC materials.}\label{table:TBCmatprops_tempdep}
 \end{table}
+\vfill
 
-\begin{figure}[h]
+\clearpage
+
+\begin{figure}[p]
     \centering
     \includegraphics[width=0.8\textwidth]{./figures/TBC_E.eps}
     \caption{Values of Young's modulus for TBC materials.}\label{fig:TBC_E}
@@ -137,11 +146,9 @@ As temperature increases there is a large shift in the shape of the dispersion c
 
 A smaller wedge model is used in comparison to the simulations carried out in \cref{simstudymain} to reduce computation time, however the same process of subtracting wedge-to-wedge time from the total time of flight, as well as calculating the wedge foot offset is used. The same wedge spacing (100 mm) as used in the previous study was also used in this study. The sampling rate used in the simulation is 6.72\times$10^7$, which provides a maximum theoretical velocity resolution of \pm 2.97 \si{\metre\per\second}. Simulations are carried out at six temperatures, 20\si{\degreeCelsius}, 220\si{\degreeCelsius}, 420\si{\degreeCelsius}, 620\si{\degreeCelsius}, 820\si{\degreeCelsius}, and 1020\si{\degreeCelsius}.
 
+\subsubsection{Targeting the $B_1$ mode}
+
 The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718 and TBC, which in turn causes a large change in wave speed. As the change is so large the wedge angle has to be adjusted to continually target the same area of the frequency spectrum, as shown in Table~\ref{table:wedgeangleIncTBC}. The longitudinal velocity of the wedge material is 2477~\unit{\metre\per\second}, as measured experimentally.
-
-\cref{fig:IncTBC_waveprop} shows the time of flight shift of the $B_1$ mode from 20\si{\degreeCelsius} to 1020 \si{\degreeCelsius}. The response at 20\si{\degreeCelsius} is shown in green, while the response at 1020 \si{\degreeCelsius} is shown in red. The black dashed lines indicate the peaks of each envelope, which are used in the calculation of time of flight. As temperature increases the effect of dispersion becomes more apparent, and there is less of a defined central peak to the wave packet. 
-
-Time-displacement data is transformed into frequency-wavenumber data using 2D-FFT from spatial B-scan data, using 90 point probes equally spaced 0.8 mm apart. This allows individual modes to be identified, and compared with dispersion curves for verification. Both in-plane ($x$) and out-of-plane ($y$) displacement was monitored. It should be noted that the displacement response in the plate measured using a point probe will differ from the response received at a second receiver wedge. The use of a second wedge further isolates a particular mode of interest, while the displacement in the plate may still show the presence of other modes.
 
 \begin{table}[h]
     \centering
@@ -160,18 +167,28 @@ Time-displacement data is transformed into frequency-wavenumber data using 2D-FF
     \caption{Wedge angle required for $B_1$ mode excitation in Inconel 718 with TBC from 20\si{\degreeCelsius} to 1020\si{\degreeCelsius}.}\label{table:wedgeangleIncTBC}
 \end{table}
 
+\cref{fig:2DFFT-B1-IncTBC} shows a 2D-FFT of $B_1$ mode excitation. Time-displacement data is transformed into frequency-wavenumber data using 2D-FFT from spatial B-scan data, using 90 point probes equally spaced 0.8 mm apart. This allows individual modes to be identified, and plotted against dispersion curves for verification. Out-of-plane ($y$) displacement is monitored. It should be noted that the displacement response in the plate measured using a point probe will differ from the response received at a second receiver wedge. The use of a second wedge further isolates a particular mode of interest, while the displacement in the plate may still show the presence of other modes.
+
+\cref{fig:IncTBC_waveprop} shows the time of flight shift of the $B_1$ mode from 20\si{\degreeCelsius} to 1020 \si{\degreeCelsius}. The response at 20\si{\degreeCelsius} is shown in green, while the response at 1020 \si{\degreeCelsius} is shown in red. The black dashed lines indicate the peaks of each envelope, which are used in the calculation of time of flight. As temperature increases the effect of dispersion becomes more apparent, and there is less of a defined central peak to the wave packet. 
+
 \cref{fig:IncTBC_Comsol} shows predicted and simulated group velocity of the $B_1$ mode (0.8 MHz) from 20\si{\degreeCelsius} to 1020\si{\degreeCelsius} in Inconel 718 with TBC applied. The increased reduction of velocity with temperature for the simulated result is due to the target frequency falling into a more dispersive area of the spectrum, which increases the error associated with measuring time of flight from the peaks of the signal envelopes. 
 
 \begin{figure}[h]
     \centering
+    \includegraphics[width=.8\textwidth]{./figures/2DFFT-B1-0.8MHz-Ydisp.eps}
+    \caption{2D-FFT of $B_1$ excitation in Inconel 718 with TBC applied at 20\si{\degreeCelsius}. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.}\label{fig:2DFFT-B1-IncTBC}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
     \includegraphics[width=0.8\textwidth]{./figures/IncTBCwaveprop2temp.eps}
-    \caption{Wave propagation of $B_1$ mode (0.8 MHz) at 20\si{\degreeCelsius} (green) and 1020 \si{\degreeCelsius} (red) in Inconel 718 with TBC applied.}\label{fig:IncTBC_waveprop}
+    \caption{Wave propagation of $B_1$ mode (0.8 MHz) at 20\si{\degreeCelsius} (green) and 1020\si{\degreeCelsius} (red) in Inconel 718 with TBC applied.}\label{fig:IncTBC_waveprop}
 \end{figure}
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{./figures/IncTBCcomsolresult.eps}
-    \caption{Predicted and simulated group velocity of $B_1$ mode (0.8 MHz) from 20\si{\degreeCelsius} to 1020 \si{\degreeCelsius} in Inconel 718 with TBC applied.}\label{fig:IncTBC_Comsol}
+    \caption{Predicted and simulated group velocity of $B_1$ mode (0.8 MHz) from 20\si{\degreeCelsius} to 1020\si{\degreeCelsius} in Inconel 718 with TBC applied.}\label{fig:IncTBC_Comsol}
 \end{figure}
 
 \begin{figure}[p]
@@ -190,5 +207,20 @@ Time-displacement data is transformed into frequency-wavenumber data using 2D-FF
         \caption{Energy velocity dispersion curves for Inconel 718 with TBC applied (\cref{table:TBCmatprops_tempdep}).}
 \end{figure}
 
+\clearpage
+
+\subsubsection{Targeting the $B_5$ mode}
+
+As seen in \cref{fig:inconeldispTBCgroup20c,fig:inconeldispTBCgroup1020c} the $B_5$ mode shows a distinct energy velocity peak, that maybe be suitable for preferential excitation. The large shift in the mode (reducing in frequency) from low to high temperature, and the relatively small bandwidth of the peak, makes it difficult to select a suitable excitation frequency that does not fall within a dispersive region. A frequency of 3.5 MHz was used in this study, as it represents the energy velocity maxima of the mode, which ensures that value decreases with increasing temperature. Due to the similarity in phase velocity the $B_4$ mode is also excited, however the group velocity of that mode is substantially slower than that of $B_5$, which separates it in the time domain.
+
+\section{Conclusions}
+
+In this chapter the effect of thermal barrier coatings on wave propagation has been investigated through the generation of dispersion curves, through thickness displacement profiles, and COMSOL simulations. 
+
+As the construction, application, and material properties of TBCs can vary dramatically, the specific effect on wave propagation for every case cannot be quantified. There are a number of generalisations that can be made, however. The top coat, typically made of YSZ, exhibits a substantially lower Young's modulus than the other materials, which has a large impact on wave propagation. Through analysis of through-thickness displacement profiles it can be seen that in some cases substantially larger displacement is observed in this layer. This is likely to make some modes more sensitive to defects or holes. Increased sensitivity is likely to be more prominent if APS application techniques are used, as apposed to EB-PVD, as the former results in lower values of Young's modulus. In general it can be seen from energy velocity dispersion curves that, in comparison to single materials, the dispersion curves are quite complex, and there are less areas in which single mode excitation is possible. Having said that, the TBC considered in the temperature dependant study does exhibit a mode ($B_5$) that has a distinct energy velocity peak, although the bandwidth of the peak is too narrow to be preferentially excited across the whole temperature range of the TBC.
+
+It should be noted that the multi-layered structure of a NGV with a TBC applied is likely to have a considerable through-thickness temperature gradient, which will be difficult to detect using the proposed monitoring method. 
+
+Dispersion has been shown to have a large impact on the accuracy of time-of-flight measurement, which causes an over-estimation of the reduction in group velocity with temperature. In comparison to pure Inconel 718 (see \cref{fig:groupshift}), even the lower order modes ($B_0$ \& $B_1$, below the cutoff of $B_2$) do not exhibit areas of relatively low dispersion, and so the effect of dispersion on signal propagation in a NGV with TBC applied is always likely to be high. 
 
 \printbibliography[title={Chapter~\thechapter~Bibliography}]

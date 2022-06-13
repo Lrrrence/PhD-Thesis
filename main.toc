@@ -29,47 +29,52 @@
 \contentsline {subsection}{\numberline {3.5.2}Poisson's ratio}{39}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Young's modulus}{39}{subsection.3.5.3}%
 \contentsline {section}{\numberline {3.6}Multi-modal Lamb waves}{40}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Two-sided excitation}{41}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Conclusion}{42}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Other applications}{43}{section.3.9}%
-\contentsline {chapter}{\numberline {4}Study 1: Temperature sensitivity of guided waves}{51}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Prediction study}{51}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Experimental study}{53}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Test Method}{55}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}S0 mode (1 MHz-mm)}{56}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}S0 mode results}{57}{subsubsection.4.2.2.1}%
-\contentsline {subsection}{\numberline {4.2.3}A1 mode (2.5 MHz-mm)}{58}{subsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.3.1}A1 mode results}{59}{subsubsection.4.2.3.1}%
-\contentsline {subsection}{\numberline {4.2.4}S1 mode (4 MHz-mm)}{60}{subsection.4.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.4.1}S1 mode results}{61}{subsubsection.4.2.4.1}%
-\contentsline {subsection}{\numberline {4.2.5}Experimental sensitivity analysis}{62}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Conclusion}{62}{subsection.4.2.6}%
-\contentsline {section}{\numberline {4.3}Simulation study}{63}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Variable angle wedge simulation}{63}{subsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.1}Geometry}{63}{subsubsection.4.3.1.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.2}Material properties}{64}{subsubsection.4.3.1.2}%
-\contentsline {subsubsection}{\numberline {4.3.1.3}Determination of Young's modulus from wedge wave velocity}{64}{subsubsection.4.3.1.3}%
-\contentsline {subsubsection}{\numberline {4.3.1.4}Aluminium plate properties}{66}{subsubsection.4.3.1.4}%
-\contentsline {subsubsection}{\numberline {4.3.1.5}Transducer configuration}{67}{subsubsection.4.3.1.5}%
-\contentsline {subsubsection}{\numberline {4.3.1.6}Physics \& mesh settings}{68}{subsubsection.4.3.1.6}%
-\contentsline {subsubsection}{\numberline {4.3.1.7}Study settings}{69}{subsubsection.4.3.1.7}%
-\contentsline {subsection}{\numberline {4.3.2}Simulation results}{70}{subsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.1}S0 Mode simulations}{72}{subsubsection.4.3.2.1}%
-\contentsline {subsubsection}{\numberline {4.3.2.2}A1 Mode simulations}{75}{subsubsection.4.3.2.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.3}S1 Mode simulations}{78}{subsubsection.4.3.2.3}%
-\contentsline {subsection}{\numberline {4.3.3}Inconel 718 simulation}{81}{subsection.4.3.3}%
-\contentsline {chapter}{\numberline {5}The effect of cooling holes on wave propagation}{85}{chapter.5}%
-\contentsline {section}{\numberline {5.1}The effect of hole size on reflection amplitude}{85}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Determination of transmission distance}{86}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}The effect of hole size on signal amplitude}{87}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}$S_0$ Result}{87}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}$A_1$ Result}{88}{subsubsection.5.1.2.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.3}$S_1$ Result}{89}{subsubsection.5.1.2.3}%
-\contentsline {subsection}{\numberline {5.1.3}Conclusions}{89}{subsection.5.1.3}%
-\contentsline {chapter}{\numberline {6}The effect of thermal barrier coatings on wave propagation}{92}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Fixed temperature study}{93}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Temperature dependant study}{96}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}COMSOL Simulations}{98}{subsection.6.2.1}%
-\contentsline {chapter}{\numberline {7}Conclusions and future research}{103}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusions}{103}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Future research}{104}{section.7.2}%
+\contentsline {section}{\numberline {3.7}Excitation signal}{41}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Two-sided excitation}{43}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Conclusion}{44}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Other applications}{45}{section.3.10}%
+\contentsline {chapter}{\numberline {4}Temperature sensitivity of guided waves}{53}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Prediction study (Aluminium)}{53}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Experimental study (Aluminium)}{56}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Test Method}{59}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}S0 mode (1 MHz-mm)}{60}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}S0 mode results}{61}{subsubsection.4.2.2.1}%
+\contentsline {subsection}{\numberline {4.2.3}A1 mode (2.5 MHz-mm)}{62}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}A1 mode results}{63}{subsubsection.4.2.3.1}%
+\contentsline {subsection}{\numberline {4.2.4}S1 mode (4 MHz-mm)}{64}{subsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4.1}S1 mode results}{65}{subsubsection.4.2.4.1}%
+\contentsline {subsection}{\numberline {4.2.5}Experimental sensitivity analysis}{66}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Conclusion}{67}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.3}Simulation study (Aluminium)}{68}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Variable angle wedge simulation}{68}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Geometry}{68}{subsubsection.4.3.1.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}Material properties}{68}{subsubsection.4.3.1.2}%
+\contentsline {subsubsection}{\numberline {4.3.1.3}Determination of Young's modulus from wedge wave velocity}{69}{subsubsection.4.3.1.3}%
+\contentsline {subsubsection}{\numberline {4.3.1.4}Aluminium plate properties}{70}{subsubsection.4.3.1.4}%
+\contentsline {subsubsection}{\numberline {4.3.1.5}Transducer configuration}{71}{subsubsection.4.3.1.5}%
+\contentsline {subsubsection}{\numberline {4.3.1.6}Physics \& mesh settings}{72}{subsubsection.4.3.1.6}%
+\contentsline {subsubsection}{\numberline {4.3.1.7}Study settings}{74}{subsubsection.4.3.1.7}%
+\contentsline {subsection}{\numberline {4.3.2}Simulation results}{74}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}S0 Mode simulations}{76}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}A1 Mode simulations}{79}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}S1 Mode simulations}{82}{subsubsection.4.3.2.3}%
+\contentsline {section}{\numberline {4.4}Inconel 718 simulation study}{85}{section.4.4}%
+\contentsline {chapter}{\numberline {5}The effect of cooling holes on wave propagation}{90}{chapter.5}%
+\contentsline {section}{\numberline {5.1}The effect of hole size on reflection amplitude}{90}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Determination of transmission distance}{91}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}The effect of hole size on signal amplitude}{92}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}$S_0$ Result}{92}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}$A_1$ Result}{93}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}$S_1$ Result}{94}{subsubsection.5.1.2.3}%
+\contentsline {subsection}{\numberline {5.1.3}Conclusions}{94}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}3D Simulations}{95}{section.5.2}%
+\contentsline {chapter}{\numberline {6}The effect of thermal barrier coatings on wave propagation}{98}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Fixed temperature study}{99}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Temperature dependant study}{103}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}COMSOL Simulations}{105}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}Targeting the $B_1$ mode}{105}{subsubsection.6.2.1.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.2}Targeting the $B_5$ mode}{109}{subsubsection.6.2.1.2}%
+\contentsline {section}{\numberline {6.3}Conclusions}{109}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Conclusions and future research}{112}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusions}{112}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Future research}{113}{section.7.2}%

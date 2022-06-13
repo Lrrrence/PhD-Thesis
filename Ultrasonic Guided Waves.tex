@@ -101,7 +101,7 @@ which describes the overall speed of energy transport through the propagating wa
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=.8\textwidth]{./figures/inconelyoungsdensitypoisson.eps}
+    \includegraphics[width=.8\textwidth]{./figures/Inc718matpropsV2.eps}
     \caption{Temperature dependent Young's modulus, density, and calculated Poisson's ratio for Inconel 718.}\label{fig:dpe}
 \end{figure}
 
@@ -215,14 +215,14 @@ The Poisson's ratio, $\nu$, for Aluminium 1050 at 20\si{\degreeCelsius} is 0.331
 %
 Where $T$ is temperature in Kelvin, the equation is valid from 0 K to 773 K. 
 
-This is equivalent to a velocity change of 0.33 m s$^{-1}$ for the $S_0$ mode at 10\si{\degreeCelsius} assuming no change to density or Young's modulus.
+This is equivalent to a velocity change of 0.33 m s$^{-1}$ for the $S_0$ mode at 100\si{\degreeCelsius} assuming no change to density or Young's modulus.
 
 \subsection{Young's modulus}
 The change in Young's modulus with temperature in Aluminium is represented by the Equation~\cite{Sakai1996,McLellan1987,Stokes1960,Naimon1975}: 
 %
 \begin{equation}
-    E\left( T \right) = 7.770329{\times}10^{10} + 2036488.0 \times T^1 - 189160.7\times T^2+425.2931 \times T^3-0.3545736 \times T^4
-\end{equation} 
+    E\left( T \right) = 7.770329{\times}10^{10} + 2036488.0 \times T^1 - 189160.7\times T^2+425.2931 \times T^3-0.3545736 \times T^4 \label{eq:aluE}
+\end{equation}
 %
 Where $T$ is temperature in Kelvin, and $E$ is Young's modulus in Pascals. 
 
@@ -244,6 +244,34 @@ Above the cut-off frequency of the $A_1$ mode there are an increasing number of 
 
 \clearpage
 
+\section{Excitation signal}
+
+The choice of excitation signal is an important aspect of time of flight measurement. \cref{fig:excitationFFT} shows a comparison between 1 MHz pulse excitation signals with-and-without a Hamming window applied, as well as using a varying number of cycles. Applying a Hamming window to the excitation signal dramatically reduces the amplitude of sidelobes, while also producing a central peak to the pulse that can be identified in time-of-flight measurement. Varying the number of cycles in the pulse changes both amplitude and bandwidth. Using a three cycle pulse produces a signal with a comparatively wide bandwidth (0.4-1.6 MHz) and low amplitude, however the shorter signal helps in identifying the pulse in the time domain. Increasing the number of cycles to five produces a pulse with a bandwidth of 0.6-1.4 MHz, and adequate signal amplitude. Further increasing the number of cycles results in bandwidths comparable with the original signal, and nine cycles produces almost the same amplitude, however the length of the signals in the time domain begins to complicate time-of-flight measurement. 
+
+\vfill
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.9\textwidth]{./figures/excitationFFT.eps}
+    \caption{FFT comparison of excitation signal with varying number of cycles.}\label{fig:excitationFFT}
+\end{figure}
+\vfill
+
+\clearpage
+
+\cref{fig:excitation} shows the five cycle Hamming windowed pulse used throughout both the experimental study and simulations, while \cref{eq:sinepulse} shows the function used to generate it. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/excitation.eps}
+    \caption{Hamming windowed 5--cycle pulse.}\label{fig:excitation}
+\end{figure}
+%
+\begin{equation}
+   \text{Hamming windowed 5--cycle pulse} = \sin(2 \pi f_0 t)\times t< \left(\frac{np}{f_0}\right) \times 0.54 - 0.46\times \cos \left(\frac{2 \pi t}{t_0 \times np} \right) \label{eq:sinepulse}
+\end{equation}
+Where $f_0$ is 1~MHz, the number of cycles ($np$) is 5, and $t_0$ is equal to $1/f_0$.
+
+\clearpage
 \section{Two-sided excitation}
 
 Two-sided excitation can be used to preferentially excite either the symmetric or anti-symmetric modes, by controlling the phase of the excitation signals. \cref{fig:two-sided} shows a comparison between preferential excitation of either the $A_0$ or $S_0$ mode using a COMSOL simulation. A 5-cycle 1 MHz Hamming windowed pulse is used to excite a 1 mm thick Aluminium plate. Two PZT discs, one placed on either side of the plate, are used for excitation, while another is used as a receiver at a distance of 100 mm. In-phase excitation preferentially excites the anti-symmetric modes, whereas applying one signal 180\degree~out of phase excites the symmetric modes.
@@ -251,7 +279,7 @@ Two-sided excitation can be used to preferentially excite either the symmetric o
 \vfill
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=.8\textwidth]{./figures/two-sided_compared.eps}
+    \includegraphics[width=.9\textwidth]{./figures/two-sided_compared.eps}
     \caption{Comparison of two-sided excitation methods.}\label{fig:two-sided}
 \end{figure}
 \vfill
@@ -270,7 +298,7 @@ The literature covering the temperature dependence of guided waves is limited to
 
 A Lamb wave based temperature monitoring system has potential for other applications. Batteries and battery packs are often arranged as thin cells, where the temperature of the cell gives an indication of cell health. A guided wave based system would allow the monitoring of the cross-sectional temperature of a cell with the use of small piezoelectric sensors, giving an advantage over point-based systems such as thermocouples.
 
-Printed circuit boards (PCBs) are another interesting application, where current monitoring methods rely on introducing additional components to the board, which takes up limited space, and generally only measures ambient temperature rather than that of the components themselves. Thermal cameras aren't suitable for this application due to the Z-axis space required to cover the whole board, and they aren't applicable when multiple boards are stacked together. 
+Printed circuit boards (PCBs) are another interesting application, where current monitoring methods rely on introducing additional components to the board, which takes up limited space, and generally only measures ambient temperature rather than that of the components themselves. Thermal cameras aren't suitable for this application due to the $z$-axis space required to cover the whole board, and they aren't applicable when multiple boards are stacked together. 
 
 A guided wave based system would allow small unobtrusive sensors to be placed at the edges of PCBs, and track temperature changes of individual components with fast response times and high temperature resolution. The system can be employed in the design stage to improve the thermal efficiency of PCBs, improving their reliability and longevity. As well as in active monitoring systems to identify potential faults before they occur, which is very important for safety critical applications.
 

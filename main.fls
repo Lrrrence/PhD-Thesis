@@ -1763,10 +1763,10 @@ INPUT ./figures/lambwaves2.eps
 INPUT ./figures/lambwaves2.eps
 INPUT ./figures/lambwaves2.eps
 INPUT ./figures/lambwaves2.eps
-INPUT ./figures/inconelyoungsdensitypoisson.eps
-INPUT ./figures/inconelyoungsdensitypoisson.eps
-INPUT ./figures/inconelyoungsdensitypoisson.eps
-INPUT ./figures/inconelyoungsdensitypoisson.eps
+INPUT ./figures/Inc718matpropsV2.eps
+INPUT ./figures/Inc718matpropsV2.eps
+INPUT ./figures/Inc718matpropsV2.eps
+INPUT ./figures/Inc718matpropsV2.eps
 INPUT ./figures/alutempshift2560.eps
 INPUT ./figures/alutempshift2560.eps
 INPUT ./figures/alutempshift2560.eps
@@ -1796,6 +1796,14 @@ INPUT ./figures/multimodeedit.eps
 INPUT ./figures/multimodeedit.eps
 INPUT ./figures/multimodeedit.eps
 INPUT ./figures/multimodeedit.eps
+INPUT ./figures/excitationFFT.eps
+INPUT ./figures/excitationFFT.eps
+INPUT ./figures/excitationFFT.eps
+INPUT ./figures/excitationFFT.eps
+INPUT ./figures/excitation.eps
+INPUT ./figures/excitation.eps
+INPUT ./figures/excitation.eps
+INPUT ./figures/excitation.eps
 INPUT ./figures/two-sided_compared.eps
 INPUT ./figures/two-sided_compared.eps
 INPUT ./figures/two-sided_compared.eps
@@ -1812,6 +1820,18 @@ INPUT ./figures/1mhzshift_new.eps
 INPUT ./figures/1mhzshift_new.eps
 INPUT ./figures/1mhzshift_new.eps
 INPUT ./figures/1mhzshift_new.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
 INPUT ./figures/testdiagramsimple.eps
 INPUT ./figures/testdiagramsimple.eps
 INPUT ./figures/testdiagramsimple.eps
@@ -1862,10 +1882,6 @@ INPUT ./figures/Alu_E.eps
 INPUT ./figures/Alu_E.eps
 INPUT ./figures/Alu_E.eps
 INPUT ./figures/Alu_E.eps
-INPUT ./figures/excitation.eps
-INPUT ./figures/excitation.eps
-INPUT ./figures/excitation.eps
-INPUT ./figures/excitation.eps
 INPUT ./figures/comsoltemp100c.png
 INPUT ./figures/comsoltemp100c.png
 INPUT ./figures/comsoltemp100c.png
@@ -1908,6 +1924,10 @@ INPUT ./figures/S1fullresultedit.eps
 INPUT ./figures/S1fullresultedit.eps
 INPUT ./figures/S1fullresultedit.eps
 INPUT ./figures/S1fullresultedit.eps
+INPUT ./figures/Inc718_S0_27c-1027c.eps
+INPUT ./figures/Inc718_S0_27c-1027c.eps
+INPUT ./figures/Inc718_S0_27c-1027c.eps
+INPUT ./figures/Inc718_S0_27c-1027c.eps
 INPUT ./figures/inconelcomsolresult.eps
 INPUT ./figures/inconelcomsolresult.eps
 INPUT ./figures/inconelcomsolresult.eps
@@ -1932,22 +1952,17 @@ INPUT ./figures/holeampboxplotS1.eps
 INPUT ./figures/holeampboxplotS1.eps
 INPUT ./figures/holeampboxplotS1.eps
 INPUT ./figures/holeampboxplotS1.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
+INPUT ./figures/ngv.png
+INPUT ./figures/ngv.png
+INPUT ./figures/ngv.png
 INPUT ./Study 3 - Effect of TBC on wave propagation.tex
 INPUT Study 3 - Effect of TBC on wave propagation.tex
 INPUT ./Study 3 - Effect of TBC on wave propagation.tex
 INPUT Study 3 - Effect of TBC on wave propagation.tex
+INPUT ./figures/pureincvsTBC20c.eps
+INPUT ./figures/pureincvsTBC20c.eps
+INPUT ./figures/pureincvsTBC20c.eps
+INPUT ./figures/pureincvsTBC20c.eps
 INPUT ./figures/IncTBCGroup.eps
 INPUT ./figures/IncTBCGroup.eps
 INPUT ./figures/IncTBCGroup.eps
@@ -1980,6 +1995,10 @@ INPUT ./figures/TBC_E.eps
 INPUT ./figures/TBC_E.eps
 INPUT ./figures/TBC_E.eps
 INPUT ./figures/TBC_E.eps
+INPUT ./figures/2DFFT-B1-0.8MHz-Ydisp.eps
+INPUT ./figures/2DFFT-B1-0.8MHz-Ydisp.eps
+INPUT ./figures/2DFFT-B1-0.8MHz-Ydisp.eps
+INPUT ./figures/2DFFT-B1-0.8MHz-Ydisp.eps
 INPUT ./figures/IncTBCwaveprop2temp.eps
 INPUT ./figures/IncTBCwaveprop2temp.eps
 INPUT ./figures/IncTBCwaveprop2temp.eps

@@ -89,26 +89,25 @@ The $S_0$ mode is significantly more sensitive to changes in hole size than the 
 
 The increased sensitivity of the $S_0$ mode may be advantageous in differentiating between different hole sizes on an NGV, where the holes along the leading edge of the vane may use a different geometry than the rest of the holes.
 
-\begin{figure}[p]
-    \raggedright
-        \begin{subfigure}[c]{0.48\textwidth}
-            \centering
-            \includegraphics[width=1\textwidth]{./figures/S0throughthickness.eps}
-            \caption{$S_0$ Displacement.}\label{fig:S0throughthickness}
-        \end{subfigure}
-        \hfill
-        \begin{subfigure}[c]{0.48\textwidth}
-            \centering
-            \includegraphics[width=1\textwidth]{./figures/A1throughthickness.eps}
-            \caption{$A_1$ Displacement.}\label{fig:A1throughthickness}
-        \end{subfigure}
-        \vskip\baselineskip
-        \begin{subfigure}[c]{0.65\textwidth}
-            \centering
-            \includegraphics[width=1\textwidth]{./figures/S1throughthickness.eps}
-            \caption{$S_1$ Displacement.}\label{fig:S1throughthickness}
-        \end{subfigure}
-    \caption{Through thickness displacement profiles for Aluminium.}\label{fig:Aludisplacement}
+\clearpage
+\section{3D Simulations}
+
+A 3-dimensional COMSOL model has been developed to investigate the effect of cooling holes on wave propagation. The cooling holes found on nozzle guide vanes are often arranged in rows, aligned from the inside edge to the outside edge of the vane. The proximity of the rows to one another often increases towards the leading edge. Each row can have $\sim$30 holes, and there can be $\sim$5 rows in close proximity to the leading edge. An example of which can be seen in \cref{fig:ngv}. Simulations are carried out in increasing complexity, beginning with a single hole, and incrementally increasing the amount. The input point is moved in the $y$-axis with respect to the rows of holes, to investigate how the response changes. 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/ngv.png}
+    \caption{High pressure nozzle guide vane from a Rolls Royce RB211-24C engine.}\label{fig:ngv}
 \end{figure}
+
+The general effect on wave propagation with multiple holes present is investigated. The plausibility of monitoring temperature changes at multiple locations is also investigated. Additional simulations are carried out at higher temperatures.
+
+To reduce the complexity of the model, and therefore computation time, transducers are omitted from the model. Using a prescribed displacement node as both a transmitter and a receiver is not normally possible, as the displacement is clamped at zero after the excitation, acting like a fixed and rigid boundary. There are two methods of avoiding this. One is to use a boundary/point load to apply a force in the $z$-axis, which allows the boundary/point to freely deform after excitation. Another option is to split the study in to two steps, where the first step only covers the time required for excitation, and the second step covers the rest of the simulation. As no excitation occurs in the second step, the point/boundary is able to freely deform and act as a receiver. An additional point probe is placed on the far edge of the plate, to act as a receiver. This allows both pulse-echo and pitch-catch configurations to be analysed. Displacement in the $z$-axis is measured in all cases. Low reflecting boundaries are applied to every plate edge, to allow them to act like infinite boundaries. A swept mesh is used for the bulk of the plate, which dramatically reduces the number of domain elements in comparison to using a tetrahedral mesh. Ten elements per wavelength are used throughout the model. The area around each hole is meshed using tetrahedral elements (in a box measuring 2x the diameter of the hole), to ensure that the geometry of the hole is represented accurately, and the edges of the holes are meshed using 10 fixed elements. With one hole present the average element quality is 0.991.
+
+Initial simulations are carried out on a plate measuring 70x20x1~mm, targeting the $S_0$ mode at 1 MHz, using two-sided excitation. The distance between the transmit/receive probe and the first hole is 50~mm. The plate material is Inconel 718, as used in previous studies.
+
+Each hole has a diameter of 0.75~mm, and are spaced 2~mm apart. 
+
+Increasing the number of holes in the $y$ dimension causes an increase in signal amplitude, with no additional reflections present.
 
 \printbibliography[title={Chapter~\thechapter~Bibliography}]

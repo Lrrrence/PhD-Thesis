@@ -8350,6 +8350,38 @@
 
 \refsection{7}
   \datalist[entry]{none/global//global/global}
+    \entry{Huber}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=682d13fc6b970c2d3c6034d6426f804d}{%
+           family={Huber},
+           familyi={H\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{682d13fc6b970c2d3c6034d6426f804d}
+      \strng{fullhash}{682d13fc6b970c2d3c6034d6426f804d}
+      \strng{bibnamehash}{682d13fc6b970c2d3c6034d6426f804d}
+      \strng{authorbibnamehash}{682d13fc6b970c2d3c6034d6426f804d}
+      \strng{authornamehash}{682d13fc6b970c2d3c6034d6426f804d}
+      \strng{authorfullhash}{682d13fc6b970c2d3c6034d6426f804d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ger. Aerosp. Cent.}
+      \field{title}{{The Dispersion Calculator}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874{\_}read-61142/{\#}/gallery/33485
+      \endverb
+      \verb{url}
+      \verb https://www.dlr.de/zlp/en/desktopdefault.aspx/tabid-14332/24874%7B%5C_%7Dread-61142/%7B%5C#%7D/gallery/33485
+      \endverb
+    \endentry
     \entry{Alleyne1992}{article}{}
       \name{author}{2}{}{%
         {{hash=a2e961af5fecc7e8bf0856ef9acaa36b}{%
@@ -8369,8 +8401,8 @@
       \strng{authorbibnamehash}{65e564155e8681603c91ebabd5508fac}
       \strng{authornamehash}{65e564155e8681603c91ebabd5508fac}
       \strng{authorfullhash}{65e564155e8681603c91ebabd5508fac}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Lamb waves can propagate over long distances which means that they are attractive for the quick, long range inspection of large structures, and they can also be useful for localized inspection, particularly in thin structures. This paper discusses the selection of the appropriate mode and frequency range for different inspection requirements and reviews the possible methods of excitation, response measurement and signal processing. It is usually desirable to transmit a single, non-dispersive mode, and excitation methods to achieve this are discussed. A variety of signal processing techniques from simple time domain to relatively complex two-dimensional Fourier analysis are available. Time domain processing can often be applied satisfactorily in low frequency-thickness regions where only two modes can propagate, but tends to be unreliable above the cut-off frequency of the a1 mode. As an example of the design of a Lamb wave testing regime, a set of tests on a butt-welded steel plate with simulated weld defects of different depths is described. It is shown that by operating below the a1 cut-off frequency with judicious selection of testing technique, the presence of defects can be detected reliably from changes in the shape of the received waveform. {©} 1992.}
@@ -8419,8 +8451,8 @@
       \strng{authorbibnamehash}{294ec694e6ef8575b100c2c076d129bd}
       \strng{authornamehash}{294ec694e6ef8575b100c2c076d129bd}
       \strng{authorfullhash}{0fce6848fc0a0a260031560212d7cc01}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Structural health monitoring (SHM) using guided waves is one of the only ways in which damage anywhere in a structure can be detected using a sparse array of permanently attached sensors. To distinguish damage from structural features, some form of comparison with damage-free reference data is essential, and here subtraction is considered. The detectability of damage is determined by the amplitude of residual signals from structural features remaining after the subtraction of reference data. These are non-zero due to changing environmental conditions such as temperature. In this paper, the amplitude of the residual signals is quantified for different guided-wave SHM strategies. Comparisons are made between two methods of reference signal subtraction and between two candidate sensor configurations. These studies allow estimates to be made of the number of sensors required per unit area to reliably detect a prescribed type of damage. It is shown that the number required is prohibitively high, even in the presence of modest temperature fluctuations, hence some form of temperature compensation is absolutely essential for guided-wave SHM systems to be viable. A potential solution is examined and shown to provide an improvement in signal suppression of approximately 30dB, which corresponds to two orders of magnitude reduction in the number of sensors required. {©} 2007 The Royal Society.}
@@ -8469,8 +8501,8 @@
       \strng{authorbibnamehash}{7f5f6eb1128ca4bbed97cf1b65b438dc}
       \strng{authornamehash}{7f5f6eb1128ca4bbed97cf1b65b438dc}
       \strng{authorfullhash}{384509e541b1a6444f85392c1d5a1a23}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper culminates several years of development of a SiC MOSFET-based solid-state circuit breaker power module designed and fabricated for aluminum-based composite metal-ceramic packaging. The alummum composite structure was used for high temperature thermal management {>}350°C and high reliability. Testing of the final module surpassed 750 total cycles. The module was optimized for four dies, 4.1mm X 4.1 nun each for SiC or GaN. The electrically loading per die was 48 A for 5 ms with a di/dt of 2.1 kA/us (23 ns openmg time). An internal snubber increased the response to 390 ns. The die absorbed -4.6 J causing a transient junction temperature increase of -245 °C. Two ambient temperatures were used in testing and set at 25 °C and 105 °C. The maximum junction temperature was conservatively projected to reach 350 °C during the 5 ms pulse. Electrical, thermal and mechanical design and testmg results are presented.}
@@ -8530,8 +8562,8 @@
       \strng{authorbibnamehash}{85cc64776200852fc618c70f319c3772}
       \strng{authornamehash}{85cc64776200852fc618c70f319c3772}
       \strng{authorfullhash}{5ea8bf319029a6157bdb85aafede155a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Lamb wave excitation by the wedge-shaped ultrasonic phase array transducer was investigated by the finite element (FEM) method. Maps of the excitation efficiency were obtained for the plates of three different types of glass. Get maps effectiveness of excitation of Lamb waves. The conditions for preferential excitation of one mode of Lamb. Influences of three different liquid layers and the dependence of the aperture of the transducer were investigated.}
@@ -8577,8 +8609,8 @@
       \strng{authorbibnamehash}{e4098e0d72a372c178f6713343012c1f}
       \strng{authornamehash}{e4098e0d72a372c178f6713343012c1f}
       \strng{authorfullhash}{e4098e0d72a372c178f6713343012c1f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{An experimental study of temperature-dependent mechanical behaviour of Poly-methyl methacrylate (PMMA) was performed at a range of temperatures (20 °C, 40 °C, 60 °C and 80 °C) below its glass transition point (108 °C) under uniaxial tension and three-point bending loading conditions. This study was accompanied by simulations aimed at identification of material parameters for two different constitutive material models. Experimental flow curves obtained for PMMA were used in elasto-plastic analysis, while a sim-flow optimization tool was employed for a two-layer viscoplasticity model. The temperature increase significantly affected mechanical behaviour of PMMA, with quasi-brittle fracture at room temperature and super-plastic behaviour ($\epsilon${>}110{\%}) at 80 °C. The two-layer viscoplasticity material model was found to agree better with the experimental data obtained for uniaxial tension than the elasto-plastic description.}
@@ -8623,8 +8655,8 @@
       \strng{authorbibnamehash}{80465529cf205742e33f4f1adfc00894}
       \strng{authornamehash}{80465529cf205742e33f4f1adfc00894}
       \strng{authorfullhash}{80465529cf205742e33f4f1adfc00894}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{number}{January}
@@ -8665,8 +8697,8 @@
       \strng{authorbibnamehash}{d8980e027bb049e998de80bf0594533e}
       \strng{authornamehash}{d8980e027bb049e998de80bf0594533e}
       \strng{authorfullhash}{d8980e027bb049e998de80bf0594533e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The effects of the configuration and temperature on the Young's modulus of poly (methyl methacrylate) (PMMA) have been studied using molecular dynamics simulations. For the DREIDING force field under ambient temperatures, increasing the number of monomers significantly increases the modulus of isotactic and syndiotactic PMMA while the isotactic form has a greater modulus. The effects of temperature on the modulus of isotactic PMMA have been simulated using the DREIDING, AMBER, and OPLS force fields. All these force fields predict the effects of temperature on the modulus from 200 to 350 K that are in close agreement with experimental values, while at higher temperatures the moduli are greater than those measured. The glass transition temperature determined by the force fields, based on the variation of the modulus with temperature, is greater than the experimental values, but when obtained from a plot of the volume as a function of the temperature, there is closer agreement. The Young's moduli calculated in this study are in closer agreement to the experimental data than those reported by previous simulations.}
@@ -8705,8 +8737,8 @@
       \strng{authorbibnamehash}{c545e50778d8fd571e85fe3a24bd3d2b}
       \strng{authornamehash}{c545e50778d8fd571e85fe3a24bd3d2b}
       \strng{authorfullhash}{c545e50778d8fd571e85fe3a24bd3d2b}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Longitudinal and transverse wave velocity, five kinds of elastic parameters (young, shear and bulk moduli, Lamér; parameter. Poisson's ratio) and dilational and shear internal friction of polymethyl methacrylate were simultaneously measured over a temperature range 68–400K, using the ultrasonic pulse method. All elastic moduli decrease with increasing temperature, suggesting lowering of molecular bonding strength. From dilational and shear internal frictions, the 139, 382, and 385K peaks are interpreted as rotation of x‐methyl estel groups, micro Brownian motion of main chains and stress relaxation, and abrupt increases from 242 and 395K are regarded as free motion of side chains and glass transition, respectively. {©}1995 John Wiley {\&} Sons, Inc. Copyright {©} 1995 John Wiley {\&} Sons, Inc.}
@@ -8834,8 +8866,8 @@
       \strng{authornamehash}{63df30518248cd891b118daa8454626b}
       \strng{authorfullhash}{63df30518248cd891b118daa8454626b}
       \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Resolving time dependant waves}}

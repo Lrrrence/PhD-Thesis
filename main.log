@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.24)  30 MAY 2022 14:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.24)  13 JUN 2022 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1526,7 +1526,7 @@ Package biblatex Info: Reference section=2 on input line 150.
 Package biblatex Info: Setting label 'refsection:2' on input line 150.
  (./main.lof [5
 
-] [6])
+] [6] [7])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1535,7 +1535,7 @@ Package biblatex Info: Reference section=0 on input line 153.
 \c@blx@sectionciteorder@3=\count527
 Package biblatex Info: Reference section=3 on input line 153.
 Package biblatex Info: Setting label 'refsection:3' on input line 153.
- (./main.lot [7])
+ (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
@@ -1777,8 +1777,9 @@ Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
-File: ./figures/inconelyoungsdensitypoisson.eps Graphic file (type eps)
-<./figures/inconelyoungsdensitypoisson.eps>
+Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
+File: ./figures/Inc718matpropsV2.eps Graphic file (type eps)
+<./figures/Inc718matpropsV2.eps>
  [34]
 Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 117 replaced by U+FFFD.
@@ -1810,8 +1811,6 @@ Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
 File: ./figures/phasedispersion.eps Graphic file (type eps)
 <./figures/phasedispersion.eps>
  [35]
-Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 135 replaced by U+FFFD.
@@ -1856,376 +1855,471 @@ Invalid UTF-8 byte or sequence at line 254 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 254 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 254 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 254 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 254 replaced by U+FFFD.
-File: ./figures/two-sided_compared.eps Graphic file (type eps)
-<./figures/two-sided_compared.eps>
+File: ./figures/excitationFFT.eps Graphic file (type eps)
+<./figures/excitationFFT.eps>
  [41
 
 ]
-Underfull \hbox (badness 1048) in paragraph at lines 265--266
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+File: ./figures/excitation.eps Graphic file (type eps)
+<./figures/excitation.eps>
+ [42
+
+]
+Invalid UTF-8 byte or sequence at line 282 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 282 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 282 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 282 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 282 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 282 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 282 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 282 replaced by U+FFFD.
+File: ./figures/two-sided_compared.eps Graphic file (type eps)
+<./figures/two-sided_compared.eps>
+ [43
+
+]
+Underfull \hbox (badness 1048) in paragraph at lines 293--294
 []\TU/LibertinusSerif(1)/m/n/10 The literature covering the temperature dependence of guided waves is limited to relatively low
  []
 
-[42
+[44
 
-] [43
+] [45
 
-] [44
+] [46
 
-] [45] [46] [47]
-Underfull \hbox (badness 2111) in paragraph at lines 280--280
+] [47] [48] [49]
+Underfull \hbox (badness 2111) in paragraph at lines 308--308
 []\TU/LibertinusSerif(1)/m/n/10 Jochen Moll et al. “Temperature affected guided wave propagation in a composite plate
  []
 
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
 \TU/LibertinusSerif(1)/m/n/10 estimation using different time-delay estimation methods based on cross-correlation:
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 280--280
+Underfull \hbox (badness 1859) in paragraph at lines 308--308
 \TU/LibertinusSerif(1)/m/n/10 Computational simulation and experiments”. In: \TU/LibertinusSerif(0)/m/it/10 Meas. J. Int. Meas. Confed. \TU/LibertinusSerif(1)/m/n/10 122.May 2017
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 280--280
+Underfull \hbox (badness 1389) in paragraph at lines 308--308
 \TU/LibertinusSerif(1)/m/n/10 ORDER MODES CLUSTER (HOMC) GUIDED WAVES — A NEW TECHNIQUE FOR NDT
  []
 
-[49]) (./Study 1 - Temperature sensitivity of guided waves.tex [50]
+[51]) (./Study 1 - Temperature sensitivity of guided waves.tex [52]
 Chapter 4.
 Package biblatex Info: Reference section=0 on input line 1.
 \c@blx@maxsegment@7=\count534
 \c@blx@sectionciteorder@7=\count535
 Package biblatex Info: Reference section=7 on input line 1.
 Package biblatex Info: Setting label 'refsection:7' on input line 1.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
+
+Underfull \hbox (badness 2334) in paragraph at lines 3--4
+\TU/LibertinusSerif(1)/m/n/10 In this chapter the temperature sensitivity of guided waves is investigated through prediction,
+ []
+
+[53
+
+]
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
 File: ./figures/grouptempshift_new.eps Graphic file (type eps)
 <./figures/grouptempshift_new.eps>
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
 File: ./figures/1mhzshift_new.eps Graphic file (type eps)
 <./figures/1mhzshift_new.eps>
 
-LaTeX Warning: Float too large for page by 16.64316pt on input line 23.
 
-[51
+LaTeX Warning: Float too large for page by 16.64316pt on input line 30.
 
-] [52]
-Underfull \hbox (badness 1635) in paragraph at lines 29--30
-\TU/LibertinusSerif(1)/m/n/10 The wave velocity temperature sensitivity of the $[][]$, $[][]$, and $[][]$ Lamb wave modes have been
+[54]
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+File: ./figures/S0throughthickness.eps Graphic file (type eps)
+<./figures/S0throughthickness.eps>
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+File: ./figures/A1throughthickness.eps Graphic file (type eps)
+<./figures/A1throughthickness.eps>
+Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
+File: ./figures/S1throughthickness.eps Graphic file (type eps)
+<./figures/S1throughthickness.eps>
+ [55]
+Underfull \hbox (badness 1377) in paragraph at lines 60--61
+\TU/LibertinusSerif(1)/m/n/10 The group velocity temperature sensitivity of the $[][]$, $[][]$, and $[][]$ Lamb wave modes have been
  []
 
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
+[56
+
+
+
+]
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
 File: ./figures/testdiagramsimple.eps Graphic file (type eps)
 <./figures/testdiagramsimple.eps>
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
 File: ./figures/w2wdiagram.eps Graphic file (type eps)
 <./figures/w2wdiagram.eps>
-[53
+ [57
 
-] [54]
-Underfull \hbox (badness 2680) in paragraph at lines 107--108
+] [58
+
+]
+Underfull \hbox (badness 2680) in paragraph at lines 156--157
 []\TU/LibertinusSerif(1)/m/n/10 The temperature gradient across the plate has been measured by placing four equally spaced
  []
 
 File: ./figures/expsetup.png Graphic file (type bmp)
 <./figures/expsetup.png>
-[55]
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 131 replaced by U+FFFD.
+[59
+
+]
+Invalid UTF-8 byte or sequence at line 180 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 180 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 180 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 180 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 180 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 180 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 180 replaced by U+FFFD.
 File: ./figures/s0xcorr5cyc.eps Graphic file (type eps)
 <./figures/s0xcorr5cyc.eps>
- [56
-
-]
-Invalid UTF-8 byte or sequence at line 145 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 145 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 145 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 145 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 145 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 145 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 145 replaced by U+FFFD.
-File: ./figures/aluplatemeasured.eps Graphic file (type eps)
-<./figures/aluplatemeasured.eps>
- [57
-
-]
-Invalid UTF-8 byte or sequence at line 163 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 163 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 163 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 163 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 163 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 163 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 163 replaced by U+FFFD.
-File: ./figures/a1xcorr5cyc.eps Graphic file (type eps)
-<./figures/a1xcorr5cyc.eps>
- [58
-
-]
-Invalid UTF-8 byte or sequence at line 177 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 177 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 177 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 177 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 177 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 177 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 177 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 177 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 177 replaced by U+FFFD.
-File: ./figures/a1moderesult.eps Graphic file (type eps)
-<./figures/a1moderesult.eps>
- [59
-
-]
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-File: ./figures/Exp_S1_20c-100c.eps Graphic file (type eps)
-<./figures/Exp_S1_20c-100c.eps>
  [60
 
 ]
-Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
-File: ./figures/s1moderesult.eps Graphic file (type eps)
-<./figures/s1moderesult.eps>
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 194 replaced by U+FFFD.
+File: ./figures/aluplatemeasured.eps Graphic file (type eps)
+<./figures/aluplatemeasured.eps>
  [61
 
-] [62
+]
+Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
+File: ./figures/a1xcorr5cyc.eps Graphic file (type eps)
+<./figures/a1xcorr5cyc.eps>
+ [62
 
 ]
-Underfull \hbox (badness 1117) in paragraph at lines 234--235
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+File: ./figures/a1moderesult.eps Graphic file (type eps)
+<./figures/a1moderesult.eps>
+ [63
+
+]
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 246 replaced by U+FFFD.
+File: ./figures/Exp_S1_20c-100c.eps Graphic file (type eps)
+<./figures/Exp_S1_20c-100c.eps>
+ [64
+
+]
+Invalid UTF-8 byte or sequence at line 260 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 260 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 260 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 260 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 260 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 260 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 260 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 260 replaced by U+FFFD.
+File: ./figures/s1moderesult.eps Graphic file (type eps)
+<./figures/s1moderesult.eps>
+ [65
+
+] [66
+
+] [67
+
+]
+Underfull \hbox (badness 1117) in paragraph at lines 287--288
 \TU/LibertinusSerif(1)/m/n/10 The multi-physics simulation package COMSOL has been used to simulate potential temperature
  []
 
 File: ./figures/comsoldiagram.png Graphic file (type bmp)
 <./figures/comsoldiagram.png>
-[63]
-Invalid UTF-8 byte or sequence at line 274 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 274 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 274 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 274 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 274 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 274 replaced by U+FFFD.
+[68
+
+]
+Invalid UTF-8 byte or sequence at line 327 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 327 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 327 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 327 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 327 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 327 replaced by U+FFFD.
 File: ./figures/PMMAE.eps Graphic file (type eps)
 <./figures/PMMAE.eps>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[64]
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 304 replaced by U+FFFD.
+[69]
+Invalid UTF-8 byte or sequence at line 357 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 357 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 357 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 357 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 357 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 357 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 357 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 357 replaced by U+FFFD.
 File: ./figures/w2wdiagramonaxis.eps Graphic file (type eps)
 <./figures/w2wdiagramonaxis.eps>
- [65]
-Invalid UTF-8 byte or sequence at line 316 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 316 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 316 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 316 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 316 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 316 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 316 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 316 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 316 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 316 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 369 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 369 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 369 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 369 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 369 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 369 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 369 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 369 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 369 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 369 replaced by U+FFFD.
 File: ./figures/Alu_E.eps Graphic file (type eps)
 <./figures/Alu_E.eps>
- [66]
-Invalid UTF-8 byte or sequence at line 358 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 358 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 358 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 358 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 358 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 358 replaced by U+FFFD.
-File: ./figures/excitation.eps Graphic file (type eps)
-<./figures/excitation.eps>
- [67]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[68]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[70] [71]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[72]
 File: ./figures/comsoltemp100c.png Graphic file (type bmp)
 <./figures/comsoltemp100c.png>
- [69]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[73]
 File: ./figures/simmodes.png Graphic file (type bmp)
 <./figures/simmodes.png>
- [70] [71]
-Invalid UTF-8 byte or sequence at line 517 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 517 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 517 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 517 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 517 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 517 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 517 replaced by U+FFFD.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[74] [75]
+Invalid UTF-8 byte or sequence at line 559 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 559 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 559 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 559 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 559 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 559 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 559 replaced by U+FFFD.
 File: ./figures/COMSOL_S0_20c-100c.eps Graphic file (type eps)
 <./figures/COMSOL_S0_20c-100c.eps>
-Invalid UTF-8 byte or sequence at line 524 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 524 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 524 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 524 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 524 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 524 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 566 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 566 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 566 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 566 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 566 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 566 replaced by U+FFFD.
 File: ./figures/2DFFT-S0-1MHz-Ydisp.eps Graphic file (type eps)
 <./figures/2DFFT-S0-1MHz-Ydisp.eps>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Invalid UTF-8 byte or sequence at line 530 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 530 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 530 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 530 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 530 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 530 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 572 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 572 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 572 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 572 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 572 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 572 replaced by U+FFFD.
 File: ./figures/s0fullresultedit.eps Graphic file (type eps)
 <./figures/s0fullresultedit.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[72] [73] [74]
-Invalid UTF-8 byte or sequence at line 545 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 545 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 545 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 545 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 545 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 545 replaced by U+FFFD.
+[76] [77] [78]
+Invalid UTF-8 byte or sequence at line 587 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 587 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 587 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 587 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 587 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 587 replaced by U+FFFD.
 File: ./figures/COMSOL_A1_20c-100c.eps Graphic file (type eps)
 <./figures/COMSOL_A1_20c-100c.eps>
-Invalid UTF-8 byte or sequence at line 552 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 552 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 552 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 552 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 552 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 552 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 552 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 552 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 594 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 594 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 594 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 594 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 594 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 594 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 594 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 594 replaced by U+FFFD.
 File: ./figures/2DFFT-A1-1MHz-Ydisp.eps Graphic file (type eps)
 <./figures/2DFFT-A1-1MHz-Ydisp.eps>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Invalid UTF-8 byte or sequence at line 558 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 558 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 558 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 558 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 558 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 558 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 558 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 558 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 558 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 600 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 600 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 600 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 600 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 600 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 600 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 600 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 600 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 600 replaced by U+FFFD.
 File: ./figures/A1fullresultedit.eps Graphic file (type eps)
 <./figures/A1fullresultedit.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[75
+[79
 
-] [76] [77]
-Invalid UTF-8 byte or sequence at line 573 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 573 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 573 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 573 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 573 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 573 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 573 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 573 replaced by U+FFFD.
+] [80] [81]
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
 File: ./figures/COMSOL_S1_20c-100c.eps Graphic file (type eps)
 <./figures/COMSOL_S1_20c-100c.eps>
-Invalid UTF-8 byte or sequence at line 580 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 580 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 580 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 580 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 580 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 580 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 622 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 622 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 622 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 622 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 622 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 622 replaced by U+FFFD.
 File: ./figures/2DFFT-S1-1MHz-Ydisp.eps Graphic file (type eps)
 <./figures/2DFFT-S1-1MHz-Ydisp.eps>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 628 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 628 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 628 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 628 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 628 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 628 replaced by U+FFFD.
 File: ./figures/S1fullresultedit.eps Graphic file (type eps)
 <./figures/S1fullresultedit.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[78
+[82
 
-] [79] [80]
-Invalid UTF-8 byte or sequence at line 621 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 621 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 621 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 621 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 621 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 621 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 621 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 621 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 621 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 621 replaced by U+FFFD.
-File: ./figures/inconelcomsolresult.eps Graphic file (type eps)
-<./figures/inconelcomsolresult.eps>
-
+] [83] [84]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[81
+Invalid UTF-8 byte or sequence at line 684 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 684 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 684 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 684 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 684 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 684 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 684 replaced by U+FFFD.
+File: ./figures/Inc718_S0_27c-1027c.eps Graphic file (type eps)
+<./figures/Inc718_S0_27c-1027c.eps>
 
-] [82] [83
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-]) (./Study 2 - Effect of cooling holes.tex [84]
+Invalid UTF-8 byte or sequence at line 690 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 690 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 690 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 690 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 690 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 690 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 690 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 690 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 690 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 690 replaced by U+FFFD.
+File: ./figures/inconelcomsolresult.eps Graphic file (type eps)
+<./figures/inconelcomsolresult.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[85
+
+] [86] [87] [88
+
+]) (./Study 2 - Effect of cooling holes.tex [89]
 Chapter 5.
 Package biblatex Info: Reference section=0 on input line 1.
 \c@blx@maxsegment@8=\count536
@@ -2243,9 +2337,9 @@ Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
 File: ./figures/topdownholespacer.eps Graphic file (type eps)
 <./figures/topdownholespacer.eps>
-[85
+[90
 
-] [86
+] [91
 
 ]
 Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
@@ -2256,7 +2350,7 @@ Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
 File: ./figures/holeampboxplot.eps Graphic file (type eps)
 <./figures/holeampboxplot.eps>
- [87]
+ [92]
 Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
@@ -2265,7 +2359,7 @@ Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
 File: ./figures/holeampboxplotA1.eps Graphic file (type eps)
 <./figures/holeampboxplotA1.eps>
- [88]
+ [93]
 Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
@@ -2275,36 +2369,12 @@ Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 80 replaced by U+FFFD.
 File: ./figures/holeampboxplotS1.eps Graphic file (type eps)
 <./figures/holeampboxplotS1.eps>
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-File: ./figures/S0throughthickness.eps Graphic file (type eps)
-<./figures/S0throughthickness.eps>
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-File: ./figures/A1throughthickness.eps Graphic file (type eps)
-<./figures/A1throughthickness.eps>
-Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 108 replaced by U+FFFD.
-File: ./figures/S1throughthickness.eps Graphic file (type eps)
-<./figures/S1throughthickness.eps>
- [89] [90]) (./Study 3 - Effect of TBC on wave propagation.tex [91
+ [94]
+File: ./figures/ngv.png Graphic file (type bmp)
+<./figures/ngv.png>
+ [95
+
+] [96]) (./Study 3 - Effect of TBC on wave propagation.tex [97
 
 ]
 Chapter 6.
@@ -2313,181 +2383,206 @@ Package biblatex Info: Reference section=0 on input line 1.
 \c@blx@sectionciteorder@9=\count539
 Package biblatex Info: Reference section=9 on input line 1.
 Package biblatex Info: Setting label 'refsection:9' on input line 1.
-[92
+[98
 
 ]
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
+File: ./figures/pureincvsTBC20c.eps Graphic file (type eps)
+<./figures/pureincvsTBC20c.eps>
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
 File: ./figures/IncTBCGroup.eps Graphic file (type eps)
 <./figures/IncTBCGroup.eps>
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
 File: ./figures/IncTBCPhase.eps Graphic file (type eps)
 <./figures/IncTBCPhase.eps>
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
 File: ./figures/B0.eps Graphic file (type eps)
 <./figures/B0.eps>
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
 File: ./figures/B1.eps Graphic file (type eps)
 <./figures/B1.eps>
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 89 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
 File: ./figures/B2.eps Graphic file (type eps)
 <./figures/B2.eps>
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
 File: ./figures/B3.eps Graphic file (type eps)
 <./figures/B3.eps>
-Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
 File: ./figures/B5.eps Graphic file (type eps)
 <./figures/B5.eps>
- [93] [94] [95]
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
+ [99] [100] [101] [102]
+Underfull \hbox (badness 1043) in paragraph at lines 115--116
+\TU/LibertinusSerif(1)/m/n/10 Temperature dependant Young’s moduli for TBC materials are provided in Table [][]6.1[][], and shown
+ []
+
+[103
+
+]
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
 File: ./figures/TBC_E.eps Graphic file (type eps)
 <./figures/TBC_E.eps>
+ [104]
+Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
+File: ./figures/2DFFT-B1-0.8MHz-Ydisp.eps Graphic file (type eps)
+<./figures/2DFFT-B1-0.8MHz-Ydisp.eps>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[96
-
-] [97]
-Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 167 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
 File: ./figures/IncTBCwaveprop2temp.eps Graphic file (type eps)
 <./figures/IncTBCwaveprop2temp.eps>
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 173 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
 File: ./figures/IncTBCcomsolresult.eps Graphic file (type eps)
 <./figures/IncTBCcomsolresult.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 198 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 198 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 198 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 198 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 198 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 198 replaced by U+FFFD.
 File: ./figures/IncTBCGroup20c.eps Graphic file (type eps)
 <./figures/IncTBCGroup20c.eps>
-Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
 File: ./figures/IncTBCGroup1020c.eps Graphic file (type eps)
 <./figures/IncTBCGroup1020c.eps>
-[98
+[105
 
-] [99] [100]
-Overfull \hbox (10.98874pt too wide) in paragraph at lines 194--194
+
+] [106] [107] [108] [109
+
+]
+Overfull \hbox (10.98874pt too wide) in paragraph at lines 226--226
 []\TU/LibertinusSerif(1)/m/n/10 E. Lugscheider et al. “Mechanical properties of EB-PVD-thermal barrier coatings by nanoindentation”.
  []
 
-[101
+[110
 
-]) (./Conclusions.tex [102]
+]) (./Conclusions.tex [111]
 Chapter 7.
 Package biblatex Info: Reference section=0 on input line 1.
 \c@blx@maxsegment@10=\count540
 \c@blx@sectionciteorder@10=\count541
 Package biblatex Info: Reference section=10 on input line 1.
 Package biblatex Info: Setting label 'refsection:10' on input line 1.
-[103
+[112
 
 ]) 
 AED: lastpage setting LastPage
-[104] (./main.aux)
+[113] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0B797061790CF500B36AD8BB74CBC2A8;13357.
+(rerunfilecheck)             Checksum: 9390DBCE3878EB9782FDCE9CFD69A360;13982.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49554 strings out of 476180
- 1049329 string characters out of 5813082
- 2091569 words of memory out of 5000000
- 69466 multiletter control sequences out of 15000+600000
- 477345 words of font info for 105 fonts, out of 8000000 for 9000
+ 49601 strings out of 476180
+ 1050624 string characters out of 5813082
+ 2094234 words of memory out of 5000000
+ 69507 multiletter control sequences out of 15000+600000
+ 477353 words of font info for 106 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,17n,117p,4062b,5324s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.xdv (113 pages, 2559976 bytes).
+Output written on main.xdv (122 pages, 2718888 bytes).
