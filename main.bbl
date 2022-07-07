@@ -176,8 +176,65 @@
       \verb https://arc.aiaa.org/doi/10.2514/6.2021-3475
       \endverb
     \endentry
+    \entry{Yule2021b}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e76c9bc1937af672d288f46246f50715}{%
+           family={Yule},
+           familyi={Y\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=856727ce4823470f5cffd514067a0732}{%
+           family={Zaghari},
+           familyi={Z\bibinitperiod},
+           given={Bahareh},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6e4670897340ee9c5b6baf6b81ab5686}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c9af76b2cf18f0953055d21979ff6343}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Martyn},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{fullhash}{3ec361d7639a8c19932f749f3fcb3a11}
+      \strng{bibnamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authorbibnamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authornamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authorfullhash}{3ec361d7639a8c19932f749f3fcb3a11}
+      \field{extraname}{4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The computer modelling of condition monitoring sensors can aide in their development, improve their performance, and allow for the analysis of sensor impact on component operation. This article details the development of a COMSOL model for a guided wave-based temperature monitoring system, with a view to using the technology in the future for the temperature monitoring of nozzle guide vanes, found in the hot section of aeroengines. The model is based on an experimental test system that acts as a method of validation for the model. Piezoelectric wedge transducers were used to excite the S0 Lamb wave mode in an aluminium plate, which was temperature controlled using a hot plate. Time of flight measurements were carried out in MATLAB and used to calculate group velocity. The results were compared to theoretical wave velocities extracted from dispersion curves. The assembly and validation of such a model can aide in the future development of guided wave based sensor systems, and the methods provided can act as a guide for building similar COMSOL models. The results show that the model is in good agreement with the experimental equivalent, which is also in line with theoretical predictions.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{month}{11}
+      \field{number}{21}
+      \field{title}{{Modelling and Validation of a Guided Acoustic Wave Temperature Monitoring System}}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{pages}{7390}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s21217390
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/Temperature measurement methods (general)/sensors-21-07390.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/21/21/7390
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/21/21/7390
+      \endverb
+      \keyw{comsol,condition monitoring,guided waves,nozzle guide vane,wedge transducer}
+    \endentry
   \enddatalist
-  \missing{Yule2021b}
 \endrefsection
 
 \refsection{5}
@@ -8978,6 +9035,321 @@
 
 \refsection{8}
   \datalist[entry]{none/global//global/global}
+    \entry{Han2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=183a1d564f382dfde4f8ba803b8ece84}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Je\bibnamedelima Chin},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=dc6babd418851f9eda6fcbe8ae5a2515}{%
+           family={Ekkad},
+           familyi={E\bibinitperiod},
+           given={Srinath},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{243127baec921e5b753ea87927fdc02a}
+      \strng{fullhash}{243127baec921e5b753ea87927fdc02a}
+      \strng{bibnamehash}{243127baec921e5b753ea87927fdc02a}
+      \strng{authorbibnamehash}{243127baec921e5b753ea87927fdc02a}
+      \strng{authornamehash}{243127baec921e5b753ea87927fdc02a}
+      \strng{authorfullhash}{243127baec921e5b753ea87927fdc02a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Gas turbines are extensively used for aircraft propulsion, land-based power generation, and industrial applications. Thermal efficiency and power output of gas turbines increase with increasing turbine rotor inlet temperature (RIT). The current RIT level in advanced gas turbines is far above the melting point of the blade material. Therefore, along with high temperature material development, a sophisticated cooling scheme must be developed for continuous safe operation of gas turbines with high performance. Gas turbine blades are cooled internally and externally. This paper focuses on external blade cooling or so-called film cooling. In film cooling, relatively cool air is injected from the inside of the blade to the outside surface which forms a protective layer between the blade surface and hot gas streams. Performance of film cooling primarily depends on the coolant to mainstream pressure ratio, temperature ratio, and film hole location and geometry under representative engine flow conditions. In the past number of years there has been considerable progress in turbine film cooling research and this paper is limited to review a few selected publications to reflect recent development in turbine blade film cooling. {©} 2001 OPA (Overseas Publishers Association) N.V.}
+      \field{issn}{15423034}
+      \field{journaltitle}{Int. J. Rotating Mach.}
+      \field{number}{1}
+      \field{title}{{Recent development in turbine blade film cooling}}
+      \field{volume}{7}
+      \field{year}{2001}
+      \field{pages}{21\bibrangedash 40}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1155/S1023621X01000033
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/NGV hole sizes/860837.pdf:pdf
+      \endverb
+      \keyw{Film cooling,Gas turbine,Heat transfer}
+    \endentry
+    \entry{Kiyici2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c1ebd9a8fd03f169a599bf73228ad7c2}{%
+           family={Kiyici},
+           familyi={K\bibinitperiod},
+           given={Firat},
+           giveni={F\bibinitperiod}}}%
+        {{hash=232d62bf64b774c23c64005eb6d884ef}{%
+           family={Aksu},
+           familyi={A\bibinitperiod},
+           given={Tekin},
+           giveni={T\bibinitperiod}}}%
+        {{hash=990d19444d324949d018555b4b64613d}{%
+           family={Uslu},
+           familyi={U\bibinitperiod},
+           given={Sitki},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{529f192db2f33c336163fc03ea6d9219}
+      \strng{fullhash}{529f192db2f33c336163fc03ea6d9219}
+      \strng{bibnamehash}{529f192db2f33c336163fc03ea6d9219}
+      \strng{authorbibnamehash}{529f192db2f33c336163fc03ea6d9219}
+      \strng{authornamehash}{529f192db2f33c336163fc03ea6d9219}
+      \strng{authorfullhash}{529f192db2f33c336163fc03ea6d9219}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The fast development in the field of aeronautics dictates development of more powerful aircraft engines. Constant increase in overall pressure ratios and operating temperatures are essential for the required higher power and thrust.. However, higher Turbine Entry Temperatures reduce the operation life of engine components. Cooling of engine components is one of the vital issues for development of efficient engines in terms of engine life and cost. Gas turbine cooling technologies have been investigated for more than 70 years and it has substantially changed in the course of new aircraft engine development. In this study, a nozzle guide vane (NGV) is designed and an efficient cooling system is investigated for a commercial aircraft engine NGV leading edge. The engine is developed for “AIAA Undergraduate Team Engine Design Competition” and it has extremely a high overall pressure ratio of 60. The cooling of NGV, Nozzle Guide Vane, is one of the most critical design issues in the whole engine design cycle. In the present study film cooling of an NGV is investigated using computational fluid dynamics (CFD). Parametric study of different cooling hole configurations with a study of different turbulence sub models are studied. The parametric study of film cooling includes the cooling hole types, hole numbers and positions.}
+      \field{isbn}{9781624103933}
+      \field{journaltitle}{54th AIAA Aerosp. Sci. Meet.}
+      \field{number}{April 2017}
+      \field{title}{{Design of a high pressure turbine nozzle guide vane with effective film cooling system on leading edge}}
+      \field{volume}{0}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.2514/6.2016-0654
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/NGV hole sizes/BladeCooling{\_}Kiyici-Aksu-Uslu{\_}CSL-TobbEtu.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Clum2014}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e02cec49c70dea73d08af3b01c7c7c5b}{%
+           family={Clum},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f53d1549fef67b52c3af70416b666b05}{%
+           family={Bokar},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ca2f08e055f8fb1e449fdd5c9fd7ab12}{%
+           family={Casaday},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ba86ed865fead79ea0eb1fa86f76857b}{%
+           family={Bons},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a49985de2d51b5279167adb6eca7024}
+      \strng{fullhash}{637dd39958909f7bec158f37625cf2bc}
+      \strng{bibnamehash}{3a49985de2d51b5279167adb6eca7024}
+      \strng{authorbibnamehash}{3a49985de2d51b5279167adb6eca7024}
+      \strng{authornamehash}{3a49985de2d51b5279167adb6eca7024}
+      \strng{authorfullhash}{637dd39958909f7bec158f37625cf2bc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An experimental facility was fabricated to simulate particle deposition on the internal wall of a nozzle guide vane cooling cavity. The facility supplied particle-laden flow at temperatures up to 540°C to a simplified impingement cooling test section. The heated flow passed through a perforated film hole plate and impacted on the internal surface of a vane wall. The particle-laden impingement jets resulted in the buildup of deposit cones associated with individual impingement jets. The deposit growth rate increased with flow temperature and when the film hole plate temperature was elevated with backside heating. At low temperatures, deposit formed not only as individual cones, but as ridges located at the midplanes between impinging jets. The base diameter of the deposit structures were found to be larger than the impingement hole diameter due in part to an aerodynamic lensing effect. Further studies using a test piece with optical access were used to document the evolution of deposit cones during continuous deposition.}
+      \field{isbn}{9780791845714}
+      \field{journaltitle}{Proc. ASME Turbo Expo}
+      \field{number}{1}
+      \field{title}{{Particle deposition in internal cooling cavities of a nozzle guide vane-part I: Experimental investigation}}
+      \field{volume}{5A}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1115/GT2014-27150
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/NGV hole sizes/gt2014-27150.pdf:pdf
+      \endverb
+      \keyw{GT2014-27150}
+    \endentry
+    \entry{Headland2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1e411ccc58287b434061135d985c5968}{%
+           family={Headland},
+           familyi={H\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Siemens Aktiengesellschaft}%
+      }
+      \list{publisher}{1}{%
+        {United States Patent}%
+      }
+      \strng{namehash}{1e411ccc58287b434061135d985c5968}
+      \strng{fullhash}{1e411ccc58287b434061135d985c5968}
+      \strng{bibnamehash}{1e411ccc58287b434061135d985c5968}
+      \strng{authorbibnamehash}{1e411ccc58287b434061135d985c5968}
+      \strng{authornamehash}{1e411ccc58287b434061135d985c5968}
+      \strng{authorfullhash}{1e411ccc58287b434061135d985c5968}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SEALING ARRANGEMENT FOR A NOZZLE GUIDE VANE AND GAS TURBINE}}
+      \field{year}{2017}
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/NGV hole sizes/US9617920.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Guan2019a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a6548cb0dc9586d990dfcb38e0c23704}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=70e3d55e206fc60ae3c10ec4badefbf0}{%
+           family={Ai},
+           familyi={A\bibinitperiod},
+           given={Yan-Ting},
+           giveni={Y\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=1b58571c8a54d2820466b07a4e62ab72}{%
+           family={Fei},
+           familyi={F\bibinitperiod},
+           given={Cheng-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e68830f0babb9850580a08c797fa118}
+      \strng{fullhash}{5e68830f0babb9850580a08c797fa118}
+      \strng{bibnamehash}{5e68830f0babb9850580a08c797fa118}
+      \strng{authorbibnamehash}{5e68830f0babb9850580a08c797fa118}
+      \strng{authornamehash}{5e68830f0babb9850580a08c797fa118}
+      \strng{authorfullhash}{5e68830f0babb9850580a08c797fa118}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The target of this paper is to develop an enhanced flow-thermo-structural (FTS) model with high computational accuracy, to perform the integrated analysis of film cooling nozzle guide vane (NGV). An efficient turbulence model and weak spring approach are utilized in the enhanced FTS model. In respect of the power balance principle of aeroengine rotor shaft and temperature test of a typical combustor, the mean temperature inlet and five normalization temperature curves were confirmed, respectively. The temperature-sensitive paint (TSP) technology was used to verify the numerical simulation. From this study, we find that the predicted temperature caters for the TSP test well, between which the maximum error is less than 6{\%}, and the maximum thermal stress is 758 MPa around the hole edges and the location of stress concentration keeps the consistency with that of the cracks. The maximum thermal stress increases by 10{\%} with the increasing inlet temperature and reduces by about 16{\%} with the shifting of flame peak from the outer to inner hub. The prediction provides general information on the initiation of cracks on a vane segment. The developed enhanced FTS model is validated to be workable and precise in the integrated analysis of film cooling NGV. The efforts of this study provide an integrated analysis approach of film cooling NGV and are promising to provide guidance for the integrated design of film cooling components besides NGV.}
+      \field{issn}{1996-1073}
+      \field{journaltitle}{Energies}
+      \field{month}{7}
+      \field{number}{14}
+      \field{title}{{An Enhanced Flow-Thermo-Structural Modeling and Validation for the Integrated Analysis of a Film Cooling Nozzle Guide Vane}}
+      \field{volume}{12}
+      \field{year}{2019}
+      \field{pages}{2775}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/en12142775
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/Gas turbine sensing/Numerical models/energies-12-02775.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1996-1073/12/14/2775
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1996-1073/12/14/2775
+      \endverb
+      \keyw{analysis,enhanced flow-thermo-structural model,film cooling,integrated,non-uniform inlet temperature,nozzle guide vane}
+    \endentry
+    \entry{Irvine1971}{book}{}
+      \name{author}{2}{}{%
+        {{hash=1d2de512ac8e501e8558aebb5064f14d}{%
+           family={Irvine},
+           familyi={I\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c5a57e3fd503823f7be18b091cae118e}{%
+           family={Hartnett},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{e55934bf4da5da429b659f45b52dad10}
+      \strng{fullhash}{e55934bf4da5da429b659f45b52dad10}
+      \strng{bibnamehash}{e55934bf4da5da429b659f45b52dad10}
+      \strng{authorbibnamehash}{e55934bf4da5da429b659f45b52dad10}
+      \strng{authornamehash}{e55934bf4da5da429b659f45b52dad10}
+      \strng{authorfullhash}{e55934bf4da5da429b659f45b52dad10}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Predicting the binding mode of flexible polypeptides to proteins is an important task that falls outside the domain of applicability of most small molecule and protein−protein docking tools. Here, we test the small molecule flexible ligand docking program Glide on a set of 19 non-$\alpha$-helical peptides and systematically improve pose prediction accuracy by enhancing Glide sampling for flexible polypeptides. In addition, scoring of the poses was improved by post-processing with physics-based implicit solvent MM- GBSA calculations. Using the best RMSD among the top 10 scoring poses as a metric, the success rate (RMSD ≤ 2.0 {Å} for the interface backbone atoms) increased from 21{\%} with default Glide SP settings to 58{\%} with the enhanced peptide sampling and scoring protocol in the case of redocking to the native protein structure. This approaches the accuracy of the recently developed Rosetta FlexPepDock method (63{\%} success for these 19 peptides) while being over 100 times faster. Cross-docking was performed for a subset of cases where an unbound receptor structure was available, and in that case, 40{\%} of peptides were docked successfully. We analyze the results and find that the optimized polypeptide protocol is most accurate for extended peptides of limited size and number of formal charges, defining a domain of applicability for this approach.}
+      \field{booktitle}{Acad. Press 1971}
+      \field{edition}{Volume 7}
+      \field{isbn}{9780080575612}
+      \field{title}{{Advances in heat transfer}}
+      \field{year}{1971}
+      \field{pages}{360}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/NGV hole sizes/Advances in Heat Transfer 7 (p360).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Meng2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=a9fc184574cdcf196959df006740c967}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a3edfbe1cec2a49fe2962f9b490326d4}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Haiwang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1197bbc51c8fa262bb7c92926a4f6fa6}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1f01db7b63e853abf13862b7f10ad8e7}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=310ae8d995b080bae79931ea18fc84db}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhiyu},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Masson SAS}%
+      }
+      \strng{namehash}{6f1902fa7f7193994bf5d36e03633db7}
+      \strng{fullhash}{0a284eca4396983a3a7a84d25a720c6b}
+      \strng{bibnamehash}{6f1902fa7f7193994bf5d36e03633db7}
+      \strng{authorbibnamehash}{6f1902fa7f7193994bf5d36e03633db7}
+      \strng{authornamehash}{6f1902fa7f7193994bf5d36e03633db7}
+      \strng{authorfullhash}{0a284eca4396983a3a7a84d25a720c6b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Film cooling is a major cooling method for turbine blades. Due to short film trajectories on the pressure side, the film coverage could be improved by increasing the number of hole rows. To study the effect of different hole rows on the film cooling performance of pressure side, this paper experimentally measures the film cooling effectiveness ($\eta$) of the pressure side with different number of hole rows (3, 4, and 5 rows) by employing pressure-sensitive paint (PSP) technology at a speed of 600 rpm. The effects of mass flow ratio (MFR), blowing ratio (BR), and hole arrangement (in-line and staggered) are analyzed. Numerical simulations are also performed for further analysis of the flow field. Under the mainstream parameters and blade structure in this study, the results show that: the three-row film hole cases have better film cooling performance at lower MFRs because of a larger film coverage; for four-row and five-row film hole cases, a belt region with poor film coverage appears at higher BRs, and the film cooling is influenced by the hole arrangement as well as behaves differently at lower and higher BRs.}
+      \field{issn}{12709638}
+      \field{journaltitle}{Aerosp. Sci. Technol.}
+      \field{title}{{Film cooling performance on pressure side of turbine blade with different number of hole rows under rotating state}}
+      \field{volume}{126}
+      \field{year}{2022}
+      \field{pages}{107569}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ast.2022.107569
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/LYule PhD Study Shared/NGV hole sizes/1-s2.0-S1270963822002437-main.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.ast.2022.107569
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.ast.2022.107569
+      \endverb
+      \keyw{Film cooling,Hole arrangement,Number of hole rows,Pressure side,Rotation}
+    \endentry
     \entry{Jeong2000}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=6b08e04feab296a5a5e252900de1ab10}{%
@@ -9005,8 +9377,8 @@
       \strng{authorbibnamehash}{b848953308de09b6f08741f51a02a871}
       \strng{authornamehash}{b848953308de09b6f08741f51a02a871}
       \strng{authorfullhash}{b848953308de09b6f08741f51a02a871}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{15th World Conf. Non-Destructive Test.}
@@ -9014,6 +9386,7 @@
       \field{year}{2000}
     \endentry
   \enddatalist
+  \missing{Hu2008}
 \endrefsection
 
 \refsection{9}

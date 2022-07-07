@@ -144,34 +144,50 @@ As temperature increases there is a large shift in the shape of the dispersion c
 
 \subsection{COMSOL Simulations}
 
-A smaller wedge model is used in comparison to the simulations carried out in \cref{simstudymain} to reduce computation time, however the same process of subtracting wedge-to-wedge time from the total time of flight, as well as calculating the wedge foot offset is used. The same wedge spacing (100 mm) as used in the previous study was also used in this study. The sampling rate used in the simulation is 6.72\times$10^7$, which provides a maximum theoretical velocity resolution of \pm 2.97 \si{\metre\per\second}. Simulations are carried out at six temperatures, 20\si{\degreeCelsius}, 220\si{\degreeCelsius}, 420\si{\degreeCelsius}, 620\si{\degreeCelsius}, 820\si{\degreeCelsius}, and 1020\si{\degreeCelsius}.
+A smaller wedge model is used in comparison to the simulations carried out in \cref{simstudymain} to reduce computation time, however the same process of subtracting wedge-to-wedge time from the total time of flight, as well as calculating the wedge foot offset is used. The geometry of the model is shown in \cref{fig:IncTBCcomsolgeometry}. Twelve elements per wavelength are used throughout the model, recalculated for each material. Mesh quality for the Inconel 718 plate with TBC applied is shown in \cref{fig:IncTBCmesh}, where green regions indicate skewness quality close to 1. A mapped mesh is used for the Inconel 718, bond coat, and TGO layers, as well as the piezoelectric material. Triangular mesh elements are used for the top coat and wedges. This ensures a smooth transition between layers, keeping the element quality high. At least two elements are used in narrow regions for each layer, except for the TGO layer, to avoid unnecessarily small mesh elements. This is not expected to have a significant impact on wave propagation as the thickness of the TGO layer in comparison to excitation wavelength is small. Average element quality based on skewness is 0.93. The mesh consists of 73255 domain elements and 5921 boundary elements. The spacing between wedges was set to 80 mm. The sampling rate used in the simulation is 6.72\times$10^7$, which provides a maximum theoretical velocity resolution of \pm 2.97 \si{\metre\per\second}. Simulations are carried out at six temperatures, 20\si{\degreeCelsius}, 220\si{\degreeCelsius}, 420\si{\degreeCelsius}, 620\si{\degreeCelsius}, 820\si{\degreeCelsius}, and 1020\si{\degreeCelsius}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{./figures/IncTBCcomsolmodel.eps}
+    \caption{Diagram of COMSOL geometry.}\label{fig:IncTBCcomsolgeometry}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./figures/meshquality.png}
+    \caption{Mesh quality of Inconel 718 with TBC applied. Green indicates skewness quality close to 1.}\label{fig:IncTBCmesh}
+\end{figure}
 
 \subsubsection{Targeting the $B_1$ mode}
 
-The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718 and TBC, which in turn causes a large change in wave speed. As the change is so large the wedge angle has to be adjusted to continually target the same area of the frequency spectrum, as shown in Table~\ref{table:wedgeangleIncTBC}. The longitudinal velocity of the wedge material is 2477~\unit{\metre\per\second}, as measured experimentally.
+Through analysis of energy velocity dispersion curves (\cref{fig:inconeldispTBCgroup20c,fig:inconeldispTBCgroup1020c}) the $B_1$ mode below the cut-off of $B_2$ has been identified as the most suitable mode for temperature monitoring. The large difference in energy velocity from $B_0$ means that it should be distinguishable in the time domain, even without single mode excitation. The dispersive nature of the mode (steep slope) from around 0.5 MHz to 1.2 MHz is advantageous for temperature monitoring as it ensures a high temperature sensitivity, although dispersion of the wave packet will affect time of flight measurement accuracy. To determine excitation frequency, dispersion curves at the highest temperature of interest (1020\si{\degreeCelsius}) are consulted. As seen in \cref{fig:inconeldispTBCgroup1020c}, the $B_1$ mode intersects $B_0$ at around 1 MHz, so excitation frequency should be lower than this to ensure that the $B_1$ mode is still distinguishable at high temperatures. An excitation frequency of 0.8 MHz is used in this study. 
 
+The heat transfer physics model has been disabled for the wedges, with only the plate affected by a change in temperature. The large temperature range causes a large change to the material properties of the Inconel 718 and TBC, which in turn causes a large change in wave speed. As the change is so large the wedge angle is adjusted continually to target the same area of the frequency spectrum, as shown in Table~\ref{table:wedgeangleIncTBC}. Wedge offset is also recomputed for each temperature, as the change in wedge angle changes the location at which the wave enters the plate from the wedge. The longitudinal velocity of the wedge material is 2477~\unit{\metre\per\second}, as measured experimentally.
+
+\vfill
 \begin{table}[h]
     \centering
     \begin{tabulary}{\textwidth}{LLL}
         \toprule
     \textbf{\textbf{Temperature (\si{\degreeCelsius})}} & \textbf{Phase velocity (\unit{\metre\per\second})} & \textbf{Wedge angle (\degree)} \\
         \midrule
-    20           & 4837.87           & 34.7                \\
-    220          & 4751.88            & 35.5                \\
-    420          & 4636.66            & 36.6                \\
-    620          & 4464.19            & 38.4                \\
-    820          & 4211.13           & 41.4                \\
-    1020          & 3867.29            & 46.7                \\
+    20           & 4781.21          & 31.2               \\
+    220          & 4698.85            & 31.8                \\
+    420          & 4570.67            & 32.8                \\
+    620          & 4382.39           & 34.4                \\
+    820          & 4125.72           & 36.9                \\
+    1020          & 3751.43            & 41.3                \\
     \bottomrule
     \end{tabulary}%
     \caption{Wedge angle required for $B_1$ mode excitation in Inconel 718 with TBC from 20\si{\degreeCelsius} to 1020\si{\degreeCelsius}.}\label{table:wedgeangleIncTBC}
 \end{table}
+\vfill
 
 \cref{fig:2DFFT-B1-IncTBC} shows a 2D-FFT of $B_1$ mode excitation. Time-displacement data is transformed into frequency-wavenumber data using 2D-FFT from spatial B-scan data, using 90 point probes equally spaced 0.8 mm apart. This allows individual modes to be identified, and plotted against dispersion curves for verification. Out-of-plane ($y$) displacement is monitored. It should be noted that the displacement response in the plate measured using a point probe will differ from the response received at a second receiver wedge. The use of a second wedge further isolates a particular mode of interest, while the displacement in the plate may still show the presence of other modes.
 
 \cref{fig:IncTBC_waveprop} shows the time of flight shift of the $B_1$ mode from 20\si{\degreeCelsius} to 1020 \si{\degreeCelsius}. The response at 20\si{\degreeCelsius} is shown in green, while the response at 1020 \si{\degreeCelsius} is shown in red. The black dashed lines indicate the peaks of each envelope, which are used in the calculation of time of flight. As temperature increases the effect of dispersion becomes more apparent, and there is less of a defined central peak to the wave packet. 
 
-\cref{fig:IncTBC_Comsol} shows predicted and simulated group velocity of the $B_1$ mode (0.8 MHz) from 20\si{\degreeCelsius} to 1020\si{\degreeCelsius} in Inconel 718 with TBC applied. The increased reduction of velocity with temperature for the simulated result is due to the target frequency falling into a more dispersive area of the spectrum, which increases the error associated with measuring time of flight from the peaks of the signal envelopes. 
+\cref{fig:IncTBC_Comsol} shows predicted and simulated group velocity of the $B_1$ mode (0.8 MHz) from 20\si{\degreeCelsius} to 1020\si{\degreeCelsius} in Inconel 718 with TBC applied. The simulated results are within $\pm$29.24~\unit{\metre\per\second} or 0.79\% of the predicted velocities on average.
 
 \begin{figure}[h]
     \centering
@@ -187,7 +203,7 @@ The heat transfer physics model has been disabled for the wedges, with only the 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{./figures/IncTBCcomsolresult.eps}
+    \includegraphics[width=0.8\textwidth]{./figures/B1_comVpred.eps}
     \caption{Predicted and simulated group velocity of $B_1$ mode (0.8 MHz) from 20\si{\degreeCelsius} to 1020\si{\degreeCelsius} in Inconel 718 with TBC applied.}\label{fig:IncTBC_Comsol}
 \end{figure}
 
@@ -204,14 +220,14 @@ The heat transfer physics model has been disabled for the wedges, with only the 
             \includegraphics[width=1\textwidth]{./figures/IncTBCGroup1020c.eps}
             \caption{1020\si{\degreeCelsius}}\label{fig:inconeldispTBCgroup1020c}
         \end{subfigure}
-        \caption{Energy velocity dispersion curves for Inconel 718 with TBC applied (\cref{table:TBCmatprops_tempdep}).}
+        \caption{Energy velocity dispersion curves for Inconel 718 with TBC applied at 20\si{\degreeCelsius} (a) and 1020\si{\degreeCelsius} (b).}
 \end{figure}
 
 \clearpage
 
 \subsubsection{Targeting the $B_5$ mode}
 
-As seen in \cref{fig:inconeldispTBCgroup20c,fig:inconeldispTBCgroup1020c} the $B_5$ mode shows a distinct energy velocity peak, that maybe be suitable for preferential excitation. The large shift in the mode (reducing in frequency) from low to high temperature, and the relatively small bandwidth of the peak, makes it difficult to select a suitable excitation frequency that does not fall within a dispersive region. A frequency of 3.5 MHz was used in this study, as it represents the energy velocity maxima of the mode, which ensures that value decreases with increasing temperature. Due to the similarity in phase velocity the $B_4$ mode is also excited, however the group velocity of that mode is substantially slower than that of $B_5$, which separates it in the time domain.
+As seen in \cref{fig:inconeldispTBCgroup20c,fig:inconeldispTBCgroup1020c} the $B_5$ mode shows a distinct energy velocity peak, which looks promising for identification in the time domain. Unfortunately the large shift in the mode (reducing in frequency) from low to high temperature, and the relatively small bandwidth of the peak, makes it difficult to select a suitable excitation frequency that does not fall within a dispersive region. Excitation must occur at, or higher in frequency, than the maximum energy velocity of the mode ($\sim$3.3 MHz), to ensure that velocity reduces with increasing temperature. This further reduces the available bandwidth, to the point that at higher temperatures (above around 500\si{\degreeCelsius}) the mode is no longer distinguishable in the time domain. Analysis of phase velocity dispersion curves shows that the $B_5$ mode is closely related to the $B_4$ mode, which further limits the ability to excite a single mode in this region. This becomes more problematic at higher temperatures when the difference in energy velocity between the two modes is reduced. 
 
 \section{Conclusions}
 
@@ -221,6 +237,6 @@ As the construction, application, and material properties of TBCs can vary drama
 
 It should be noted that the multi-layered structure of a NGV with a TBC applied is likely to have a considerable through-thickness temperature gradient, which will be difficult to detect using the proposed monitoring method. 
 
-Dispersion has been shown to have a large impact on the accuracy of time-of-flight measurement, which causes an over-estimation of the reduction in group velocity with temperature. In comparison to pure Inconel 718 (see \cref{fig:groupshift}), even the lower order modes ($B_0$ \& $B_1$, below the cutoff of $B_2$) do not exhibit areas of relatively low dispersion, and so the effect of dispersion on signal propagation in a NGV with TBC applied is always likely to be high. 
+As temperature increases the effect of dispersion on wave propagation becomes more apparent, as the target frequency shifts into a more dispersive region. This begins to have an effect on the calculation of time of flight as there is a less defined central peak to the wave packet, which can be seen in the result at 1020\si{\degreeCelsius}. In this case a larger reduction in velocity than expected is seen. 
 
 \printbibliography[title={Chapter~\thechapter~Bibliography}]

@@ -1,5 +1,29 @@
 \chapter{The effect of cooling holes on wave propagation}\label{chapter:holes}
 
+In this chapter the effect of cooling holes on wave propagation is investigated through experimentation and COMSOL simulation. 
+
+As the operating temperature of gas turbines has increased, cooling systems have been employed to allow components to operate above the thermal limits of their materials. This is particularly important for the operation of NGVs, which are exposed to the highest gas path temperatures of the turbine section. A commonly used method of cooling the external surface of turbine blades or NGVs is through film cooling. Air is directed from the engine's compressor through the internal structure of the blade/vane and expelled through an array of holes. This creates a thin layer of relatively cool gas that protects the surface from combustion gases \cite{Han2001}. 
+
+The holes can vary in diameter from the inside surface to the outside surface, and can be angled to optimally direct gas flow \cite{Kiyici2016}. As the leading edge of the NGV is exposed to the highest temperatures, holes are often more numerous and larger in this area. The diameter of the holes can vary from 0.3-1.5 mm \cite{Clum2014,Headland2017}, with a spacing between holes ranging from 1$\times$ the diameter, to around 7$\times$ the diameter \cite{Guan2019a}. A detailed analysis of film cooling techniques is provided by Irvine \textit{et al.} \cite{Irvine1971}.
+
+The cooling holes found on nozzle guide vanes are often arranged in rows, aligned from the inside edge to the outside edge of the vane. The proximity of the rows to one another often increases towards the leading edge. Each row can have $\sim$30 holes, and there can be $\sim$5 rows in close proximity to the leading edge. The rows can be arranged in-line with one another, or staggered \cite{Meng2022}. An example of an NGV with cooling holes present can be seen in \cref{fig:ngv_photo}. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/cooling holes cross section.eps}
+    \caption{Cross section of typical NGV using film cooling. Arrows indicate direction of cooling airflow.}\label{fig:ngv_diagram}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/ngv.png}
+    \caption{High pressure nozzle guide vane from a Rolls Royce RB211-24C engine.}\label{fig:ngv_photo}
+\end{figure}
+
+In the next section the the effect of hole size on reflection amplitude is investigated experimentally. A pulse-echo transducer configuration is introduced. This is followed by an investigation into how arrays of cooling holes will affect wave propagation, considering whether multiple reflections will allow temperature to be monitored at a number of locations. A COMSOL model is used for this study. 
+
+\clearpage
+
 \section{The effect of hole size on reflection amplitude}
 
 The change in reflected signal amplitude with respect to hole size is investigated in this section. Two wedge transducers are arranged in a pulse-echo configuration, whereby the wedges are placed close to one another, one acting as the transmitter and one as the receiver. A single transducer setup was considered however the difference in amplitude between the excitation signal (10 V) and reflected signal ($\sim$50 mV) makes digitisation difficult, without either losing the reflected signal in noise or overloading the excitation input. By using two transducers the sensitivity of each channel can be adjusted to match the signal amplitude accordingly. 
@@ -41,7 +65,7 @@ A 3D printed spacer has been designed to allow transducers to be accurately and 
 
 In this configuration a reflection is received from the hole, followed by a stronger reflection from the edge of the plate. The angle between transducers is kept at a minimum to most closely mimic a pulse-echo configuration using only one transducer.
 
-\newpage
+\clearpage
 
 \subsection{The effect of hole size on signal amplitude}
 
@@ -92,22 +116,55 @@ The increased sensitivity of the $S_0$ mode may be advantageous in differentiati
 \clearpage
 \section{3D Simulations}
 
-A 3-dimensional COMSOL model has been developed to investigate the effect of cooling holes on wave propagation. The cooling holes found on nozzle guide vanes are often arranged in rows, aligned from the inside edge to the outside edge of the vane. The proximity of the rows to one another often increases towards the leading edge. Each row can have $\sim$30 holes, and there can be $\sim$5 rows in close proximity to the leading edge. An example of which can be seen in \cref{fig:ngv}. Simulations are carried out in increasing complexity, beginning with a single hole, and incrementally increasing the amount. The input point is moved in the $y$-axis with respect to the rows of holes, to investigate how the response changes. 
+A 3-dimensional COMSOL model has been developed to investigate the effect of cooling holes on wave propagation. The general effect on wave propagation with multiple holes present is investigated. The plausibility of monitoring temperature changes at multiple locations is also investigated. Additional simulations are carried out at higher temperatures.
+
+When considering the appropriate excitation frequency for this application, careful attention should be paid to the wavelength in relation to the size of holes and the spacing between them \cite{Hu2008}. Another element to consider is the length of the excitation signal in relation to the first received reflection, as using a higher frequency signal with a shorter wavelength means transducers can be placed closer to the first hole. \cref{fig:wavelengthplot} shows the relationship between wavelength and frequency for the first four symmetric/antisymmetric modes in a 1 mm thick Inconel 718. It can be seen that $S_0$ below the cut-off frequency of $A_1$ (1.6 MHz) has a substantially longer wavelength than that of $A_0$. At a frequency of 1 MHz the wavelength of $S_0$ is 5.12 mm in comparison to 2.28 mm for $A_0$. Although this appears to make $A_0$ more suitable, the temperature sensitivity of the mode is considerably less than that of $S_0$, which should also be taken into account.
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=.8\textwidth]{./figures/ngv.png}
-    \caption{High pressure nozzle guide vane from a Rolls Royce RB211-24C engine.}\label{fig:ngv}
+    \includegraphics[width=.8\textwidth]{./figures/wavelengthplot.eps}
+    \caption{Wavelength in relation to frequency for modes propagating in 1 mm thick Inconel 718. Solid lines represent antisymmetric modes, dashed lines represent symmetric modes.}\label{fig:wavelengthplot}
 \end{figure}
 
-The general effect on wave propagation with multiple holes present is investigated. The plausibility of monitoring temperature changes at multiple locations is also investigated. Additional simulations are carried out at higher temperatures.
+Two scenarios are considered in the following sections. Firstly, wave propagation along the leading edge of the vane. This area is exposed to the highest temperatures which results in the densest array of cooling holes. This is likely to have a considerable impact on wave propagation. Secondly, the area towards the trailing edge of the vane is considered. This area is generally less geometrically complex, which is likely to aide in the ability to detect distinct acoustic reflections. 
 
-To reduce the complexity of the model, and therefore computation time, transducers are omitted from the model. Using a prescribed displacement node as both a transmitter and a receiver is not normally possible, as the displacement is clamped at zero after the excitation, acting like a fixed and rigid boundary. There are two methods of avoiding this. One is to use a boundary/point load to apply a force in the $z$-axis, which allows the boundary/point to freely deform after excitation. Another option is to split the study in to two steps, where the first step only covers the time required for excitation, and the second step covers the rest of the simulation. As no excitation occurs in the second step, the point/boundary is able to freely deform and act as a receiver. An additional point probe is placed on the far edge of the plate, to act as a receiver. This allows both pulse-echo and pitch-catch configurations to be analysed. Displacement in the $z$-axis is measured in all cases. Low reflecting boundaries are applied to every plate edge, to allow them to act like infinite boundaries. A swept mesh is used for the bulk of the plate, which dramatically reduces the number of domain elements in comparison to using a tetrahedral mesh. Ten elements per wavelength are used throughout the model. The area around each hole is meshed using tetrahedral elements (in a box measuring 2x the diameter of the hole), to ensure that the geometry of the hole is represented accurately, and the edges of the holes are meshed using 10 fixed elements. With one hole present the average element quality is 0.991.
+\subsection{Wave propagation across the leading edge}
 
-Initial simulations are carried out on a plate measuring 70x20x1~mm, targeting the $S_0$ mode at 1 MHz, using two-sided excitation. The distance between the transmit/receive probe and the first hole is 50~mm. The plate material is Inconel 718, as used in previous studies.
+The first model to be evaluated consists of a 1 mm thick Inconel 718 plate, with 3 rows of 20 cooling holes, imitating the configuration commonly found along the leading edge of an NGV. Each hole has a diameter of 1~mm, and are spaced 2~mm apart. Each row is offset from the adjacent row by 1~mm in the $x$-axis. As the most probable location for the attachment of transducers is on either the inside or outside edge of the vane, excitation is set to occur at the end of a row of cooling holes, at the edge of the plate. A number of probes are placed on the opposite edge of the plate, staggered along the $y$-axis, to act as receivers in a pitch-catch configuration. The simulations are repeated staggering the excitation point along the $y$-axis.
 
-Each hole has a diameter of 0.75~mm, and are spaced 2~mm apart. 
+Both the the $A_0$ at 1.4 MHz and $S_0$ at 1 MHz are targeted using two-sided excitation. This allows the response of the $A_0$ mode at a considerably shorter wavelength to be compared with $S_0$, as discussed previously.  
 
-Increasing the number of holes in the $y$ dimension causes an increase in signal amplitude, with no additional reflections present.
+List of simulations:
+
+\begin{itemize}
+    \item 1x1 - Single hole. Middle row position.
+    \begin{itemize}
+        \item $A_0$ has higher amplitude than $S_0$. Strong receiver edge reflection for $A_0$ but not $S_0$.
+        \item $A_0$ amplitude substantially larger with 3 holes over 1. Greatly reduced receiver edge reflection amplitude.
+    \end{itemize}
+    \item 3x1 - Three holes in $y$-axis, middle row offset by +1 mm in $x$-axis.
+    \item 3x2 - Additional three holes in $x$-axis.
+    \item 3x20 - Full array of holes.
+\end{itemize}
+
+To reduce the complexity of the model, and therefore computation time, transducers are omitted from the model. Using a prescribed displacement node as both a transmitter and a receiver is not normally possible, as the displacement is clamped at zero after the excitation, acting like a fixed and rigid boundary. There are two methods of avoiding this. One is to use a boundary/point load to apply a force in the $z$-axis, which allows the boundary/point to freely deform after excitation. Another option is to split the study in to two steps, where the first step only covers the time required for excitation, and the second step covers the rest of the simulation. As no excitation occurs in the second step, the point/boundary is able to freely deform and act as a receiver. For this study point loads are used.
+
+Point probes are placed on the far edge of the plate, to act as receivers. This allows both pulse-echo and pitch-catch configurations to be analysed. Displacement in the $z$-axis is measured in all cases. Low reflecting boundaries are applied to every plate edge, to allow them to act like infinite boundaries. A swept mesh is used for the bulk of the plate, which dramatically reduces the number of domain elements in comparison to using a tetrahedral mesh. Ten elements per wavelength are used throughout the model. The area around each hole is meshed using tetrahedral elements (in a box measuring 2$\times$ the diameter of the hole), to ensure that the geometry of the hole is represented accurately, and the edges of the holes are meshed using 10 fixed elements. With one hole present the average element quality is 0.991.
+
+\subsubsection{Input point reflected response}
+
+The addition of more rows past the first two rows does not have a significant impact on the reflected signal for either mode. This suggests that the signal is not propagating further than the first few rows of holes, which limits the use of a pulse-echo system operated in an area of dense holes such as the leading edge.
+
+\subsubsection{Output point transmitted response}
+
+The addition of more rows has a substantial impact on the propagation of $S_0$, causing a severely dispersive wave packet with no defined peak. The response of $A_0$ is substantially less affected, and the signal closely resembles the input signal, followed by a number of reflections. This suggests that $A_0$ is more applicable for use in a pitch-catch configuration. 
+
+\subsection{Wave propagation towards the trailing edge}
+
+In this region of the vane, cooling holes are often arranged in single rows, with each row spaced considerably further apart than in the leading edge region. In some cases the number of holes per row is also reduced, which increases the hole spacing within each row.
+
+\section{Conclusions}
+
+Thermal barrier coatings were omitted from the model to both reduce mesh complexity, and to simplify excitation methods. Two-sided excitation is not an effective method of exciting only symmetric or antisymmetric modes when applied to an asymmetric composite.
 
 \printbibliography[title={Chapter~\thechapter~Bibliography}]

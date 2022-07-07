@@ -1642,9 +1642,10 @@ INPUT main.out
 INPUT ./main.out
 INPUT ./main.out
 OUTPUT main.out
-INPUT ./figures/UoSLogo.png
-INPUT ./figures/UoSLogo.png
-INPUT ./figures/UoSLogo.png
+INPUT ./figures/UoS logo-2022.eps
+INPUT ./figures/UoS logo-2022.eps
+INPUT ./figures/UoS logo-2022.eps
+INPUT ./figures/UoS logo-2022.eps
 OUTPUT main.xdv
 INPUT ./abstract.tex
 INPUT abstract.tex
@@ -1767,10 +1768,10 @@ INPUT ./figures/Inc718matpropsV2.eps
 INPUT ./figures/Inc718matpropsV2.eps
 INPUT ./figures/Inc718matpropsV2.eps
 INPUT ./figures/Inc718matpropsV2.eps
-INPUT ./figures/alutempshift2560.eps
-INPUT ./figures/alutempshift2560.eps
-INPUT ./figures/alutempshift2560.eps
-INPUT ./figures/alutempshift2560.eps
+INPUT ./figures/S0_20c_vs_100c.eps
+INPUT ./figures/S0_20c_vs_100c.eps
+INPUT ./figures/S0_20c_vs_100c.eps
+INPUT ./figures/S0_20c_vs_100c.eps
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
@@ -1936,25 +1937,33 @@ INPUT ./Study 2 - Effect of cooling holes.tex
 INPUT Study 2 - Effect of cooling holes.tex
 INPUT ./Study 2 - Effect of cooling holes.tex
 INPUT Study 2 - Effect of cooling holes.tex
-INPUT ./figures/topdownholespacer.eps
-INPUT ./figures/topdownholespacer.eps
-INPUT ./figures/topdownholespacer.eps
-INPUT ./figures/topdownholespacer.eps
-INPUT ./figures/holeampboxplot.eps
-INPUT ./figures/holeampboxplot.eps
-INPUT ./figures/holeampboxplot.eps
-INPUT ./figures/holeampboxplot.eps
-INPUT ./figures/holeampboxplotA1.eps
-INPUT ./figures/holeampboxplotA1.eps
-INPUT ./figures/holeampboxplotA1.eps
-INPUT ./figures/holeampboxplotA1.eps
-INPUT ./figures/holeampboxplotS1.eps
-INPUT ./figures/holeampboxplotS1.eps
-INPUT ./figures/holeampboxplotS1.eps
-INPUT ./figures/holeampboxplotS1.eps
+INPUT ./figures/cooling holes cross section.eps
+INPUT ./figures/cooling holes cross section.eps
+INPUT ./figures/cooling holes cross section.eps
+INPUT ./figures/cooling holes cross section.eps
 INPUT ./figures/ngv.png
 INPUT ./figures/ngv.png
 INPUT ./figures/ngv.png
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/topdownholespacer.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplot.eps
+INPUT ./figures/holeampboxplotA1.eps
+INPUT ./figures/holeampboxplotA1.eps
+INPUT ./figures/holeampboxplotA1.eps
+INPUT ./figures/holeampboxplotA1.eps
+INPUT ./figures/holeampboxplotS1.eps
+INPUT ./figures/holeampboxplotS1.eps
+INPUT ./figures/holeampboxplotS1.eps
+INPUT ./figures/holeampboxplotS1.eps
+INPUT ./figures/wavelengthplot.eps
+INPUT ./figures/wavelengthplot.eps
+INPUT ./figures/wavelengthplot.eps
+INPUT ./figures/wavelengthplot.eps
 INPUT ./Study 3 - Effect of TBC on wave propagation.tex
 INPUT Study 3 - Effect of TBC on wave propagation.tex
 INPUT ./Study 3 - Effect of TBC on wave propagation.tex
@@ -1995,6 +2004,13 @@ INPUT ./figures/TBC_E.eps
 INPUT ./figures/TBC_E.eps
 INPUT ./figures/TBC_E.eps
 INPUT ./figures/TBC_E.eps
+INPUT ./figures/IncTBCcomsolmodel.eps
+INPUT ./figures/IncTBCcomsolmodel.eps
+INPUT ./figures/IncTBCcomsolmodel.eps
+INPUT ./figures/IncTBCcomsolmodel.eps
+INPUT ./figures/meshquality.png
+INPUT ./figures/meshquality.png
+INPUT ./figures/meshquality.png
 INPUT ./figures/2DFFT-B1-0.8MHz-Ydisp.eps
 INPUT ./figures/2DFFT-B1-0.8MHz-Ydisp.eps
 INPUT ./figures/2DFFT-B1-0.8MHz-Ydisp.eps
@@ -2003,10 +2019,10 @@ INPUT ./figures/IncTBCwaveprop2temp.eps
 INPUT ./figures/IncTBCwaveprop2temp.eps
 INPUT ./figures/IncTBCwaveprop2temp.eps
 INPUT ./figures/IncTBCwaveprop2temp.eps
-INPUT ./figures/IncTBCcomsolresult.eps
-INPUT ./figures/IncTBCcomsolresult.eps
-INPUT ./figures/IncTBCcomsolresult.eps
-INPUT ./figures/IncTBCcomsolresult.eps
+INPUT ./figures/B1_comVpred.eps
+INPUT ./figures/B1_comVpred.eps
+INPUT ./figures/B1_comVpred.eps
+INPUT ./figures/B1_comVpred.eps
 INPUT ./figures/IncTBCGroup20c.eps
 INPUT ./figures/IncTBCGroup20c.eps
 INPUT ./figures/IncTBCGroup20c.eps

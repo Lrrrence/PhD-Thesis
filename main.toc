@@ -60,21 +60,28 @@
 \contentsline {subsubsection}{\numberline {4.3.2.3}S1 Mode simulations}{82}{subsubsection.4.3.2.3}%
 \contentsline {section}{\numberline {4.4}Inconel 718 simulation study}{85}{section.4.4}%
 \contentsline {chapter}{\numberline {5}The effect of cooling holes on wave propagation}{90}{chapter.5}%
-\contentsline {section}{\numberline {5.1}The effect of hole size on reflection amplitude}{90}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Determination of transmission distance}{91}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}The effect of hole size on signal amplitude}{92}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}$S_0$ Result}{92}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}$A_1$ Result}{93}{subsubsection.5.1.2.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.3}$S_1$ Result}{94}{subsubsection.5.1.2.3}%
-\contentsline {subsection}{\numberline {5.1.3}Conclusions}{94}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}3D Simulations}{95}{section.5.2}%
-\contentsline {chapter}{\numberline {6}The effect of thermal barrier coatings on wave propagation}{98}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Fixed temperature study}{99}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Temperature dependant study}{103}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}COMSOL Simulations}{105}{subsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.1.1}Targeting the $B_1$ mode}{105}{subsubsection.6.2.1.1}%
-\contentsline {subsubsection}{\numberline {6.2.1.2}Targeting the $B_5$ mode}{109}{subsubsection.6.2.1.2}%
-\contentsline {section}{\numberline {6.3}Conclusions}{109}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Conclusions and future research}{112}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusions}{112}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Future research}{113}{section.7.2}%
+\contentsline {section}{\numberline {5.1}The effect of hole size on reflection amplitude}{92}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Determination of transmission distance}{93}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}The effect of hole size on signal amplitude}{94}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}$S_0$ Result}{94}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}$A_1$ Result}{95}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}$S_1$ Result}{96}{subsubsection.5.1.2.3}%
+\contentsline {subsection}{\numberline {5.1.3}Conclusions}{96}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}3D Simulations}{97}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Wave propagation across the leading edge}{98}{subsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}Input point reflected response}{98}{subsubsection.5.2.1.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.2}Output point transmitted response}{99}{subsubsection.5.2.1.2}%
+\contentsline {subsection}{\numberline {5.2.2}Wave propagation towards the trailing edge}{99}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Conclusions}{99}{section.5.3}%
+\contentsline {chapter}{\numberline {6}The effect of thermal barrier coatings on wave propagation}{101}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Fixed temperature study}{102}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Temperature dependant study}{106}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}COMSOL Simulations}{108}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}Targeting the $B_1$ mode}{108}{subsubsection.6.2.1.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.2}Targeting the $B_5$ mode}{114}{subsubsection.6.2.1.2}%
+\contentsline {section}{\numberline {6.3}Conclusions}{114}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Conclusions and future research}{117}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusions}{117}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Research summary}{117}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}General recommendations}{118}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Future research}{119}{section.7.2}%

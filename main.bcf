@@ -2860,8 +2860,24 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">References.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="8">
-    <bcf:citekey order="1">Jeong2000</bcf:citekey>
-    <bcf:citekey order="2">Jeong2000</bcf:citekey>
+    <bcf:citekey order="1">Han2001</bcf:citekey>
+    <bcf:citekey order="2">Kiyici2016</bcf:citekey>
+    <bcf:citekey order="3">Clum2014</bcf:citekey>
+    <bcf:citekey order="3">Headland2017</bcf:citekey>
+    <bcf:citekey order="4">Guan2019a</bcf:citekey>
+    <bcf:citekey order="5">Irvine1971</bcf:citekey>
+    <bcf:citekey order="6">Meng2022</bcf:citekey>
+    <bcf:citekey order="7">Jeong2000</bcf:citekey>
+    <bcf:citekey order="8">Hu2008</bcf:citekey>
+    <bcf:citekey order="9">Han2001</bcf:citekey>
+    <bcf:citekey order="10">Kiyici2016</bcf:citekey>
+    <bcf:citekey order="11">Clum2014</bcf:citekey>
+    <bcf:citekey order="12">Headland2017</bcf:citekey>
+    <bcf:citekey order="13">Guan2019a</bcf:citekey>
+    <bcf:citekey order="14">Irvine1971</bcf:citekey>
+    <bcf:citekey order="15">Meng2022</bcf:citekey>
+    <bcf:citekey order="16">Jeong2000</bcf:citekey>
+    <bcf:citekey order="17">Hu2008</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
