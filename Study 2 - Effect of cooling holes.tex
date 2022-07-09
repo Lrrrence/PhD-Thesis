@@ -128,6 +128,14 @@ When considering the appropriate excitation frequency for this application, care
 
 Two scenarios are considered in the following sections. Firstly, wave propagation along the leading edge of the vane. This area is exposed to the highest temperatures which results in the densest array of cooling holes. This is likely to have a considerable impact on wave propagation. Secondly, the area towards the trailing edge of the vane is considered. This area is generally less geometrically complex, which is likely to aide in the ability to detect distinct acoustic reflections. 
 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\textwidth]{./figures/A0S0tempshift.eps}
+    \caption{Energy velocity dispersion curves for Inconel 718 at 27\si{\degreeCelsius} and 1027\si{\degreeCelsius}. Purple regions indicate areas of the spectrum targeted.}\label{fig:A0S0tempshift}
+\end{figure}
+
+\cref{fig:A0S0tempshift} shows energy velocity dispersion curves for Inconel 718 at 27\si{\degreeCelsius} and 1027\si{\degreeCelsius}, where purple regions indicate areas of the spectrum targeted in this study. The average temperature sensitivity of the $A_0$ mode at 1.4 MHz is 0.68 \unit{\meter\per\second\per\degreeCelsius} $\pm$ 0.34 \unit{\meter\per\second\per\degreeCelsius}, where the sensitivity increases from 0.26 \unit{\meter\per\second\per\degreeCelsius} at 27\unit{\degreeCelsius}, rising to 1.42 \unit{\meter\per\second\per\degreeCelsius} at 1027 \unit{\degreeCelsius}. The $S_0$ mode at 1 MHz has almost double the senstivity on average, 1.24 \unit{\meter\per\second\per\degreeCelsius} $\pm$ 0.67 \unit{\meter\per\second\per\degreeCelsius}, where the sensitivity increases from 0.52 \unit{\meter\per\second\per\degreeCelsius} at 27\unit{\degreeCelsius}, rising to 2.77 \unit{\meter\per\second\per\degreeCelsius} at 1027\unit{\degreeCelsius}.
+
 \subsection{Wave propagation across the leading edge}
 
 The first model to be evaluated consists of a 1 mm thick Inconel 718 plate, with 3 rows of 20 cooling holes, imitating the configuration commonly found along the leading edge of an NGV. Each hole has a diameter of 1~mm, and are spaced 2~mm apart. Each row is offset from the adjacent row by 1~mm in the $x$-axis. As the most probable location for the attachment of transducers is on either the inside or outside edge of the vane, excitation is set to occur at the end of a row of cooling holes, at the edge of the plate. A number of probes are placed on the opposite edge of the plate, staggered along the $y$-axis, to act as receivers in a pitch-catch configuration. The simulations are repeated staggering the excitation point along the $y$-axis.
@@ -138,13 +146,11 @@ List of simulations:
 
 \begin{itemize}
     \item 1x1 - Single hole. Middle row position.
-    \begin{itemize}
-        \item $A_0$ has higher amplitude than $S_0$. Strong receiver edge reflection for $A_0$ but not $S_0$.
-        \item $A_0$ amplitude substantially larger with 3 holes over 1. Greatly reduced receiver edge reflection amplitude.
-    \end{itemize}
     \item 3x1 - Three holes in $y$-axis, middle row offset by +1 mm in $x$-axis.
     \item 3x2 - Additional three holes in $x$-axis.
-    \item 3x20 - Full array of holes.
+    \item 3x5 - Three rows of five holes in $x$-axis.
+    \item 3x10 - Three rows of 10 holes in $x$-axis.
+    \item 3x20 - Three rows of 20 holes in $x$-axis.
 \end{itemize}
 
 To reduce the complexity of the model, and therefore computation time, transducers are omitted from the model. Using a prescribed displacement node as both a transmitter and a receiver is not normally possible, as the displacement is clamped at zero after the excitation, acting like a fixed and rigid boundary. There are two methods of avoiding this. One is to use a boundary/point load to apply a force in the $z$-axis, which allows the boundary/point to freely deform after excitation. Another option is to split the study in to two steps, where the first step only covers the time required for excitation, and the second step covers the rest of the simulation. As no excitation occurs in the second step, the point/boundary is able to freely deform and act as a receiver. For this study point loads are used.
@@ -153,15 +159,51 @@ Point probes are placed on the far edge of the plate, to act as receivers. This 
 
 \subsubsection{Input point reflected response}
 
+The response measured at the central excitation point for models with varying numbers of holes is shown in \cref{fig:3D_S0_Input} for $S_0$, and \cref{fig:3D_A0_Input} for $A_0$. 
+
+The reflection amplitude of $A_0$ is significantly larger than that of $S_0$. There is a strong receiver edge reflection for $A_0$, but not $S_0$. The reflection amplitude of $A_0$ is substantially larger with three holes over one. There is a greatly reduced receiver edge reflection amplitude when three holes are introduced. Interactions between reflections can be seen in the response, as two distinct wave packets are present.
+
 The addition of more rows past the first two rows does not have a significant impact on the reflected signal for either mode. This suggests that the signal is not propagating further than the first few rows of holes, which limits the use of a pulse-echo system operated in an area of dense holes such as the leading edge.
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/3D_S0_input.eps}
+    \caption{Reflected reponse of $S_0$ at 1 MHz with a varying number of holes.}\label{fig:3D_S0_Input}
+\end{figure}
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/3D_A0_input.eps}
+    \caption{Reflected reponse of $A_0$ at 1.4 MHz with a varying number of holes.}\label{fig:3D_A0_Input}
+\end{figure}
 
 \subsubsection{Output point transmitted response}
 
-The addition of more rows has a substantial impact on the propagation of $S_0$, causing a severely dispersive wave packet with no defined peak. The response of $A_0$ is substantially less affected, and the signal closely resembles the input signal, followed by a number of reflections. This suggests that $A_0$ is more applicable for use in a pitch-catch configuration. 
+The response measured at the central receiver point for models with varying numbers of holes is shown in \cref{fig:3D_S0_Output} for $S_0$, and \cref{fig:3D_A0_Output} for $A_0$. The addition of more rows has a substantial impact on the propagation of $S_0$, causing a severely dispersive wave packet with no defined peak. The response of $A_0$ is substantially less affected, and the signal closely resembles the input signal, followed by a number of reflections. This suggests that $A_0$ is more applicable for use in a pitch-catch configuration. The plausability of using the $A_0$ mode for monitoring temperature across the leading edge is investigated in the next section.
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/3D_S0_output.eps}
+    \caption{Transmitted reponse of $S_0$ at 1 MHz with a varying number of holes.}\label{fig:3D_S0_Output}
+\end{figure}
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/3D_A0_output.eps}
+    \caption{Transmitted reponse of $A_0$ at 1.4 MHz with a varying number of holes.}\label{fig:3D_A0_Output}
+\end{figure}
+
+\clearpage
+
+\subsection{Temperature monitoring using the $A_0$ mode}
+
+The 3x20 model used previously has been used to investigate the effect of temperature on wave velocity, through repeated simulations at temperatures ranging from 27\unit{\degreeCelsius} up to 1027\unit{\degreeCelsius}. Wave velocities calculated from time of flight measurements are compared to predicted wave velocities extracted from dispersion curves.
 
 \subsection{Wave propagation towards the trailing edge}
 
 In this region of the vane, cooling holes are often arranged in single rows, with each row spaced considerably further apart than in the leading edge region. In some cases the number of holes per row is also reduced, which increases the hole spacing within each row.
+
+A model has been developed with a single row of cooling holes, using excitation/receiver points offset from the holes. An additional row of holes has been added spaced 10$\times$ further apart (1 mm > 10 mm) than in the leading edge model. On the example NGV shown in \cref{fig:ngv_photo} the spacing between rows increases to around 5$\times$ the spacing at the leading edge towards the trailing edge, up to a maximum of 10$\times$ the distance. 
 
 \section{Conclusions}
 

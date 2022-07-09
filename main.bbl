@@ -17,6 +17,226 @@
 \endgroup
 
 
+\refsection{3}
+  \datalist[entry]{none/global//global/global}
+    \entry{Yule2020}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=e76c9bc1937af672d288f46246f50715}{%
+           family={Yule},
+           familyi={Y\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=856727ce4823470f5cffd514067a0732}{%
+           family={Zaghari},
+           familyi={Z\bibinitperiod},
+           given={Bahareh},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6e4670897340ee9c5b6baf6b81ab5686}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c9af76b2cf18f0953055d21979ff6343}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Martyn},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ASME}%
+      }
+      \strng{namehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{fullhash}{3ec361d7639a8c19932f749f3fcb3a11}
+      \strng{bibnamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authorbibnamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authornamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authorfullhash}{3ec361d7639a8c19932f749f3fcb3a11}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ASME Turbo Expo 2020}
+      \field{title}{{Temperature monitoring of Nozzle Guide Vanes (NGVs) using ultrasonic guided waves}}
+      \field{year}{2020}
+      \field{pages}{1}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://eprints.soton.ac.uk/id/eprint/445982
+      \endverb
+      \verb{url}
+      \verb http://eprints.soton.ac.uk/id/eprint/445982
+      \endverb
+    \endentry
+    \entry{Yule2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e76c9bc1937af672d288f46246f50715}{%
+           family={Yule},
+           familyi={Y\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=856727ce4823470f5cffd514067a0732}{%
+           family={Zaghari},
+           familyi={Z\bibinitperiod},
+           given={Bahareh},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6e4670897340ee9c5b6baf6b81ab5686}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c9af76b2cf18f0953055d21979ff6343}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Martyn},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{fullhash}{3ec361d7639a8c19932f749f3fcb3a11}
+      \strng{bibnamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authorbibnamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authornamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authorfullhash}{3ec361d7639a8c19932f749f3fcb3a11}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0957-0233}
+      \field{journaltitle}{Meas. Sci. Technol.}
+      \field{month}{1}
+      \field{title}{{Surface temperature condition monitoring methods for aerospace turbomachinery: exploring the use of ultrasonic guided waves}}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1088/1361-6501/abda96
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/1361-6501/abda96
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/1361-6501/abda96
+      \endverb
+    \endentry
+    \entry{Yule2021a}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=7548e80d61d064a52eb7e16ca9b66526}{%
+           family={Yule},
+           familyi={Y\bibinitperiod},
+           given={Lawrence\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=856727ce4823470f5cffd514067a0732}{%
+           family={Zaghari},
+           familyi={Z\bibinitperiod},
+           given={Bahareh},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6e4670897340ee9c5b6baf6b81ab5686}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c9af76b2cf18f0953055d21979ff6343}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Martyn},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Reston, Virginia}%
+      }
+      \list{publisher}{2}{%
+        {American Institute of Aeronautics}%
+        {Astronautics}%
+      }
+      \strng{namehash}{d1ea95e4faad4d8fc0c9bb99cb9aef9d}
+      \strng{fullhash}{4b370ca47d80f2bfa1313de5e39c2051}
+      \strng{bibnamehash}{d1ea95e4faad4d8fc0c9bb99cb9aef9d}
+      \strng{authorbibnamehash}{d1ea95e4faad4d8fc0c9bb99cb9aef9d}
+      \strng{authornamehash}{d1ea95e4faad4d8fc0c9bb99cb9aef9d}
+      \strng{authorfullhash}{4b370ca47d80f2bfa1313de5e39c2051}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{AIAA Propuls. Energy 2021 Forum}
+      \field{isbn}{978-1-62410-611-8}
+      \field{month}{8}
+      \field{title}{{Towards in-flight temperature monitoring for nozzle guide vanes using ultrasonic guided waves}}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.2514/6.2021-3475
+      \endverb
+      \verb{urlraw}
+      \verb https://arc.aiaa.org/doi/10.2514/6.2021-3475
+      \endverb
+      \verb{url}
+      \verb https://arc.aiaa.org/doi/10.2514/6.2021-3475
+      \endverb
+    \endentry
+    \entry{Yule2021b}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e76c9bc1937af672d288f46246f50715}{%
+           family={Yule},
+           familyi={Y\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=856727ce4823470f5cffd514067a0732}{%
+           family={Zaghari},
+           familyi={Z\bibinitperiod},
+           given={Bahareh},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6e4670897340ee9c5b6baf6b81ab5686}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c9af76b2cf18f0953055d21979ff6343}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Martyn},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{fullhash}{3ec361d7639a8c19932f749f3fcb3a11}
+      \strng{bibnamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authorbibnamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authornamehash}{8fd42572e1bbb4a5f61139d75a619b5d}
+      \strng{authorfullhash}{3ec361d7639a8c19932f749f3fcb3a11}
+      \field{extraname}{4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The computer modelling of condition monitoring sensors can aide in their development, improve their performance, and allow for the analysis of sensor impact on component operation. This article details the development of a COMSOL model for a guided wave-based temperature monitoring system, with a view to using the technology in the future for the temperature monitoring of nozzle guide vanes, found in the hot section of aeroengines. The model is based on an experimental test system that acts as a method of validation for the model. Piezoelectric wedge transducers were used to excite the S0 Lamb wave mode in an aluminium plate, which was temperature controlled using a hot plate. Time of flight measurements were carried out in MATLAB and used to calculate group velocity. The results were compared to theoretical wave velocities extracted from dispersion curves. The assembly and validation of such a model can aide in the future development of guided wave based sensor systems, and the methods provided can act as a guide for building similar COMSOL models. The results show that the model is in good agreement with the experimental equivalent, which is also in line with theoretical predictions.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{month}{11}
+      \field{number}{21}
+      \field{title}{{Modelling and Validation of a Guided Acoustic Wave Temperature Monitoring System}}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{pages}{7390}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s21217390
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/yulel/OneDrive - University of Southampton/Books, Papers, Etc/Temperature measurement methods (general)/sensors-21-07390.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/21/21/7390
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/21/21/7390
+      \endverb
+      \keyw{comsol,condition monitoring,guided waves,nozzle guide vane,wedge transducer}
+    \endentry
+  \enddatalist
+\endrefsection
+
 \refsection{4}
   \datalist[entry]{none/global//global/global}
     \entry{Yule2020}{inproceedings}{}

@@ -1,89 +1,98 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[124] biber-MSWIN32:340> INFO - === 
-[168] Biber.pm:418> INFO - Reading 'main.bcf'
-[268] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[268] Biber.pm:972> INFO - Found 0 citekeys in bib section 1
-[268] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[268] Biber.pm:972> INFO - Found 0 citekeys in bib section 2
-[268] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[268] Biber.pm:972> INFO - Found 0 citekeys in bib section 3
-[268] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[268] Biber.pm:972> INFO - Found 4 citekeys in bib section 4
-[268] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[280] Biber.pm:972> INFO - Found 75 citekeys in bib section 5
-[281] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[300] Biber.pm:972> INFO - Found 100 citekeys in bib section 6
-[300] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[301] Biber.pm:972> INFO - Found 16 citekeys in bib section 7
-[301] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[301] Biber.pm:972> INFO - Found 9 citekeys in bib section 8
-[301] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[302] Biber.pm:972> INFO - Found 17 citekeys in bib section 9
-[302] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[302] Biber.pm:972> INFO - Found 0 citekeys in bib section 10
-[302] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[353] Biber.pm:4383> INFO - Processing section 4
-[370] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 4
-[435] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1217] bibtex.pm:1518> INFO - Found BibTeX data source 'library.bib'
-[1349] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1349] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1349] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1349] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[1368] Biber.pm:4383> INFO - Processing section 5
-[1368] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 5
-[1654] Biber.pm:4574> INFO - Looking for bibtex file 'References.bib' for section 5
-[1688] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1732] bibtex.pm:1518> INFO - Found BibTeX data source 'References.bib'
-[1792] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1792] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1793] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1793] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[1831] Biber.pm:4383> INFO - Processing section 6
-[1831] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 6
-[2112] Biber.pm:4574> INFO - Looking for bibtex file 'References.bib' for section 6
-[2257] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2257] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2257] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2257] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[2306] Biber.pm:4383> INFO - Processing section 7
-[2306] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 7
-[2376] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2376] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2376] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2376] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[2384] Biber.pm:4383> INFO - Processing section 8
-[2384] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 8
-[2426] Biber.pm:4574> INFO - Looking for bibtex file 'References.bib' for section 8
-[2451] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2451] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2451] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2451] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[2455] Biber.pm:4383> INFO - Processing section 9
-[2455] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 9
-[2548] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2548] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2548] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2548] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[2557] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[2689] bbl.pm:757> INFO - Output to main.bbl
-[2689] Biber.pm:130> WARN - Duplicate entry key: 'Arnau2008' in file 'library.bib', skipping ...
-[2689] Biber.pm:130> WARN - legacy month field 'jan' in entry 'Yule2021' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Yule2021a' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - legacy month field 'nov' in entry 'Yule2021b' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\yulel\AppData\Local\Temp\biber_tmp_MZsB\7f56027f9015dc497dc7645faffbdd71_9516.utf8, line 6, warning: 172 characters of junk seen at toplevel
-[2689] Biber.pm:130> WARN - legacy month field 'feb' in entry 'Zaghari2020' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - legacy month field 'nov' in entry 'Zaghari2017a' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - legacy month field 'nov' in entry 'Peral2019' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - legacy month field 'jun' in entry 'Madison2013' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - legacy month field 'oct' in entry 'Eldridge2019' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - legacy month field 'jan' in entry 'Fatemi1980' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - legacy month field 'mar' in entry 'Ruzek2006' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Imielinska2004' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - ISBN 'SMC-063' in entry 'SpecialMetals2007' is invalid - run biber with '--validate_datamodel' for details.
-[2689] Biber.pm:130> WARN - legacy month field 'jul' in entry 'Guan2019a' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:130> WARN - I didn't find a database entry for 'Hu2008' (section 8)
-[2689] Biber.pm:130> WARN - ISBN 'SMC-063' in entry 'SpecialMetals2007' is invalid - run biber with '--validate_datamodel' for details.
-[2689] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Saucedo-Mora2015' is not an integer - this will probably not sort properly.
-[2689] Biber.pm:132> INFO - WARNINGS: 18
+[79] biber-MSWIN32:340> INFO - === 
+[106] Biber.pm:418> INFO - Reading 'main.bcf'
+[208] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[208] Biber.pm:972> INFO - Found 0 citekeys in bib section 1
+[208] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[208] Biber.pm:972> INFO - Found 0 citekeys in bib section 2
+[208] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[208] Biber.pm:972> INFO - Found 4 citekeys in bib section 3
+[208] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[208] Biber.pm:972> INFO - Found 4 citekeys in bib section 4
+[208] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[221] Biber.pm:972> INFO - Found 75 citekeys in bib section 5
+[221] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[241] Biber.pm:972> INFO - Found 100 citekeys in bib section 6
+[241] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[242] Biber.pm:972> INFO - Found 16 citekeys in bib section 7
+[242] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[242] Biber.pm:972> INFO - Found 9 citekeys in bib section 8
+[242] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[243] Biber.pm:972> INFO - Found 17 citekeys in bib section 9
+[243] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[243] Biber.pm:972> INFO - Found 0 citekeys in bib section 10
+[243] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[296] Biber.pm:4383> INFO - Processing section 3
+[305] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 3
+[369] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1145] bibtex.pm:1518> INFO - Found BibTeX data source 'library.bib'
+[1245] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1245] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1245] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1245] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[1251] Biber.pm:4383> INFO - Processing section 4
+[1251] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 4
+[1291] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1291] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1291] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1291] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[1294] Biber.pm:4383> INFO - Processing section 5
+[1294] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 5
+[1584] Biber.pm:4574> INFO - Looking for bibtex file 'References.bib' for section 5
+[1619] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1662] bibtex.pm:1518> INFO - Found BibTeX data source 'References.bib'
+[1723] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1723] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1723] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1723] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[1766] Biber.pm:4383> INFO - Processing section 6
+[1766] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 6
+[2051] Biber.pm:4574> INFO - Looking for bibtex file 'References.bib' for section 6
+[2201] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2202] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2202] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2202] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[2257] Biber.pm:4383> INFO - Processing section 7
+[2257] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 7
+[2329] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2329] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2329] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2329] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[2337] Biber.pm:4383> INFO - Processing section 8
+[2337] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 8
+[2381] Biber.pm:4574> INFO - Looking for bibtex file 'References.bib' for section 8
+[2407] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2407] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2407] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2407] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[2411] Biber.pm:4383> INFO - Processing section 9
+[2411] Biber.pm:4574> INFO - Looking for bibtex file 'library.bib' for section 9
+[2503] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2503] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2503] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2503] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[2512] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[2645] bbl.pm:757> INFO - Output to main.bbl
+[2646] Biber.pm:130> WARN - Duplicate entry key: 'Arnau2008' in file 'library.bib', skipping ...
+[2646] Biber.pm:130> WARN - legacy month field 'jan' in entry 'Yule2021' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Yule2021a' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'nov' in entry 'Yule2021b' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\yulel\AppData\Local\Temp\biber_tmp_fZyq\7f56027f9015dc497dc7645faffbdd71_24008.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[2646] Biber.pm:130> WARN - legacy month field 'jan' in entry 'Yule2021' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Yule2021a' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'nov' in entry 'Yule2021b' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'feb' in entry 'Zaghari2020' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'nov' in entry 'Zaghari2017a' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'nov' in entry 'Peral2019' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'jun' in entry 'Madison2013' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'oct' in entry 'Eldridge2019' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'jan' in entry 'Fatemi1980' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'mar' in entry 'Ruzek2006' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Imielinska2004' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - ISBN 'SMC-063' in entry 'SpecialMetals2007' is invalid - run biber with '--validate_datamodel' for details.
+[2646] Biber.pm:130> WARN - legacy month field 'jul' in entry 'Guan2019a' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:130> WARN - I didn't find a database entry for 'Hu2008' (section 8)
+[2646] Biber.pm:130> WARN - ISBN 'SMC-063' in entry 'SpecialMetals2007' is invalid - run biber with '--validate_datamodel' for details.
+[2646] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Saucedo-Mora2015' is not an integer - this will probably not sort properly.
+[2646] Biber.pm:132> INFO - WARNINGS: 21

@@ -2372,6 +2372,14 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">References.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="3">
+    <bcf:citekey order="1">Yule2020</bcf:citekey>
+    <bcf:citekey order="2">Yule2021</bcf:citekey>
+    <bcf:citekey order="3">Yule2021a</bcf:citekey>
+    <bcf:citekey order="4">Yule2021b</bcf:citekey>
+    <bcf:citekey order="5">Yule2020</bcf:citekey>
+    <bcf:citekey order="6">Yule2021</bcf:citekey>
+    <bcf:citekey order="7">Yule2021a</bcf:citekey>
+    <bcf:citekey order="8">Yule2021b</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
