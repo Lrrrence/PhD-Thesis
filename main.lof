@@ -74,26 +74,28 @@
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Energy velocity dispersion curves for Inconel 718 at 27\si {\degreeCelsius } and 1027\si {\degreeCelsius }. Purple regions indicate areas of the spectrum targeted.\relax }}{98}{figure.caption.81}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Reflected reponse of $S_0$ at 1 MHz with a varying number of holes.\relax }}{100}{figure.caption.82}%
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Reflected reponse of $A_0$ at 1.4 MHz with a varying number of holes.\relax }}{101}{figure.caption.83}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Transmitted reponse of $S_0$ at 1 MHz with a varying number of holes.\relax }}{102}{figure.caption.84}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Transmitted reponse of $A_0$ at 1.4 MHz with a varying number of holes.\relax }}{103}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Transmitted response of $S_0$ at 1 MHz with a varying number of holes.\relax }}{102}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Transmitted response of $A_0$ at 1.4 MHz with a varying number of holes.\relax }}{103}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Transmitted response of $A_0$ at 1.4 MHz at 27\unit {\degreeCelsius }, 227\unit {\degreeCelsius }, 427\unit {\degreeCelsius }, 627\unit {\degreeCelsius }, 827\unit {\degreeCelsius }, and 1027\unit {\degreeCelsius }.\relax }}{105}{figure.caption.86}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of energy velocity dispersion curves for Inconel 718 with and without a TBC applied. Solid lines represent the curves with TBC applied, dashed lines represent pure Inconel 718 at the same thickness.\relax }}{108}{figure.caption.89}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Dispersion curves for Inconel 718 with TBC applied (\cref {table:TBCmatprops}).\relax }}{109}{figure.caption.90}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Energy velocity.\relax }}{109}{figure.caption.90}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Phase velocity.\relax }}{109}{figure.caption.90}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Through thickness displacement profiles for Inconel 718 with TBC applied.\relax }}{110}{figure.caption.91}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces $B_0$ Displacement -- 1 MHz.\relax }}{110}{figure.caption.91}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces $B_1$ Displacement -- 1 MHz.\relax }}{110}{figure.caption.91}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces $B_2$ Displacement -- 2.4 MHz.\relax }}{110}{figure.caption.91}%
-\contentsline {subfigure}{\numberline {d}{\ignorespaces $B_3$ Displacement -- 2.4 MHz.\relax }}{110}{figure.caption.91}%
-\contentsline {subfigure}{\numberline {e}{\ignorespaces $B_5$ Displacement -- 4.4 MHz.\relax }}{110}{figure.caption.91}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Values of Young's modulus for TBC materials.\relax }}{112}{figure.caption.93}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagram of COMSOL geometry.\relax }}{113}{figure.caption.94}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Mesh quality of Inconel 718 with TBC applied. Green indicates skewness quality close to 1.\relax }}{114}{figure.caption.95}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces 2D-FFT of $B_1$ excitation in Inconel 718 with TBC applied at 20\si {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{115}{figure.caption.97}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Wave propagation of $B_1$ mode (0.8 MHz) at 20\si {\degreeCelsius } (green) and 1020\si {\degreeCelsius } (red) in Inconel 718 with TBC applied.\relax }}{116}{figure.caption.98}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Predicted and simulated group velocity of $B_1$ mode (0.8 MHz) from 20\si {\degreeCelsius } to 1020\si {\degreeCelsius } in Inconel 718 with TBC applied.\relax }}{117}{figure.caption.99}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Energy velocity dispersion curves for Inconel 718 with TBC applied at 20\si {\degreeCelsius } (a) and 1020\si {\degreeCelsius } (b).\relax }}{118}{figure.caption.100}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces 20\si {\degreeCelsius }\relax }}{118}{figure.caption.100}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces 1020\si {\degreeCelsius }\relax }}{118}{figure.caption.100}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of energy velocity dispersion curves for Inconel 718 with and without a TBC applied. Solid lines represent the curves with TBC applied, dashed lines represent pure Inconel 718 at the same thickness.\relax }}{109}{figure.caption.90}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Dispersion curves for Inconel 718 with TBC applied (\cref {table:TBCmatprops}).\relax }}{110}{figure.caption.91}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Energy velocity.\relax }}{110}{figure.caption.91}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Phase velocity.\relax }}{110}{figure.caption.91}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Through thickness displacement profiles for Inconel 718 with TBC applied.\relax }}{111}{figure.caption.92}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces $B_0$ Displacement -- 1 MHz.\relax }}{111}{figure.caption.92}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces $B_1$ Displacement -- 1 MHz.\relax }}{111}{figure.caption.92}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces $B_2$ Displacement -- 2.4 MHz.\relax }}{111}{figure.caption.92}%
+\contentsline {subfigure}{\numberline {d}{\ignorespaces $B_3$ Displacement -- 2.4 MHz.\relax }}{111}{figure.caption.92}%
+\contentsline {subfigure}{\numberline {e}{\ignorespaces $B_5$ Displacement -- 4.4 MHz.\relax }}{111}{figure.caption.92}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Values of Young's modulus for TBC materials.\relax }}{113}{figure.caption.94}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagram of COMSOL geometry.\relax }}{114}{figure.caption.95}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Mesh quality of Inconel 718 with TBC applied. Green indicates skewness quality close to 1.\relax }}{115}{figure.caption.96}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces 2D-FFT of $B_1$ excitation in Inconel 718 with TBC applied at 20\si {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{116}{figure.caption.98}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Wave propagation of $B_1$ mode (0.8 MHz) at 20\si {\degreeCelsius } (green) and 1020\si {\degreeCelsius } (red) in Inconel 718 with TBC applied.\relax }}{117}{figure.caption.99}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Predicted and simulated group velocity of $B_1$ mode (0.8 MHz) from 20\si {\degreeCelsius } to 1020\si {\degreeCelsius } in Inconel 718 with TBC applied.\relax }}{118}{figure.caption.100}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Energy velocity dispersion curves for Inconel 718 with TBC applied at 20\si {\degreeCelsius } (a) and 1020\si {\degreeCelsius } (b).\relax }}{119}{figure.caption.101}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces 20\si {\degreeCelsius }\relax }}{119}{figure.caption.101}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces 1020\si {\degreeCelsius }\relax }}{119}{figure.caption.101}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }

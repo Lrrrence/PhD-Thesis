@@ -155,7 +155,7 @@ List of simulations:
 
 To reduce the complexity of the model, and therefore computation time, transducers are omitted from the model. Using a prescribed displacement node as both a transmitter and a receiver is not normally possible, as the displacement is clamped at zero after the excitation, acting like a fixed and rigid boundary. There are two methods of avoiding this. One is to use a boundary/point load to apply a force in the $z$-axis, which allows the boundary/point to freely deform after excitation. Another option is to split the study in to two steps, where the first step only covers the time required for excitation, and the second step covers the rest of the simulation. As no excitation occurs in the second step, the point/boundary is able to freely deform and act as a receiver. For this study point loads are used.
 
-Point probes are placed on the far edge of the plate, to act as receivers. This allows both pulse-echo and pitch-catch configurations to be analysed. Displacement in the $z$-axis is measured in all cases. Low reflecting boundaries are applied to every plate edge, to allow them to act like infinite boundaries. A swept mesh is used for the bulk of the plate, which dramatically reduces the number of domain elements in comparison to using a tetrahedral mesh. Ten elements per wavelength are used throughout the model. The area around each hole is meshed using tetrahedral elements (in a box measuring 2$\times$ the diameter of the hole), to ensure that the geometry of the hole is represented accurately, and the edges of the holes are meshed using 10 fixed elements. With one hole present the average element quality is 0.991.
+Point probes are placed on the far edge of the plate, to act as receivers. This allows both pulse-echo and pitch-catch configurations to be analysed. Displacement in the $z$-axis is measured in all cases. Low reflecting boundaries are applied to every plate edge, to allow them to act like infinite boundaries. A swept mesh is used for the bulk of the plate, which dramatically reduces the number of domain elements in comparison to using a tetrahedral mesh. Ten elements per wavelength are used throughout the model. The area around each hole is meshed using tetrahedral elements (in a box measuring 2$\times$ the diameter of the hole), to ensure that the geometry of the hole is represented accurately, and the edges of the holes are meshed using 10 fixed elements. With one hole present the average element quality is 0.991. The amplitude of the input signal in all cases is 1$\times$10$^{-3}$ nm.
 
 \subsubsection{Input point reflected response}
 
@@ -179,18 +179,18 @@ The addition of more rows past the first two rows does not have a significant im
 
 \subsubsection{Output point transmitted response}
 
-The response measured at the central receiver point for models with varying numbers of holes is shown in \cref{fig:3D_S0_Output} for $S_0$, and \cref{fig:3D_A0_Output} for $A_0$. The addition of more rows has a substantial impact on the propagation of $S_0$, causing a severely dispersive wave packet with no defined peak. The response of $A_0$ is substantially less affected, and the signal closely resembles the input signal, followed by a number of reflections. This suggests that $A_0$ is more applicable for use in a pitch-catch configuration. The plausability of using the $A_0$ mode for monitoring temperature across the leading edge is investigated in the next section.
+The response measured at the central receiver point for models with varying numbers of holes is shown in \cref{fig:3D_S0_Output} for $S_0$, and \cref{fig:3D_A0_Output} for $A_0$. The addition of more rows has a substantial impact on the propagation of $S_0$, causing a severely dispersive wave packet with no defined peak. The response of $A_0$ is substantially less affected, and the signal closely resembles the input signal, followed by a number of reflections. This suggests that $A_0$ is more applicable for use in a pitch-catch configuration. The plausibility of using the $A_0$ mode for monitoring temperature across the leading edge is investigated in the next section.
 
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth]{./figures/3D_S0_output.eps}
-    \caption{Transmitted reponse of $S_0$ at 1 MHz with a varying number of holes.}\label{fig:3D_S0_Output}
+    \caption{Transmitted response of $S_0$ at 1 MHz with a varying number of holes.}\label{fig:3D_S0_Output}
 \end{figure}
 
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth]{./figures/3D_A0_output.eps}
-    \caption{Transmitted reponse of $A_0$ at 1.4 MHz with a varying number of holes.}\label{fig:3D_A0_Output}
+    \caption{Transmitted response of $A_0$ at 1.4 MHz with a varying number of holes.}\label{fig:3D_A0_Output}
 \end{figure}
 
 \clearpage
@@ -198,6 +198,12 @@ The response measured at the central receiver point for models with varying numb
 \subsection{Temperature monitoring using the $A_0$ mode}
 
 The 3x20 model used previously has been used to investigate the effect of temperature on wave velocity, through repeated simulations at temperatures ranging from 27\unit{\degreeCelsius} up to 1027\unit{\degreeCelsius}. Wave velocities calculated from time of flight measurements are compared to predicted wave velocities extracted from dispersion curves.
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/3D_temp_compare.eps}
+    \caption{Transmitted response of $A_0$ at 1.4 MHz at 27\unit{\degreeCelsius}, 227\unit{\degreeCelsius}, 427\unit{\degreeCelsius}, 627\unit{\degreeCelsius}, 827\unit{\degreeCelsius}, and 1027\unit{\degreeCelsius}.}\label{fig:3D_temp_compare}
+\end{figure}
 
 \subsection{Wave propagation towards the trailing edge}
 

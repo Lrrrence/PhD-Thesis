@@ -1,0 +1,253 @@
+\chapter{Appendices}\label{appendix}
+\section{Appendix 1 - MATLAB Code}
+\subsection{Time of flight measurement}
+
+\begin{lstlisting}[style=Matlab-editor,basicstyle=\small]
+
+clc;
+clf;
+warning('OFF', 'MATLAB:table:ModifiedAndSavedVarnames')
+
+set(figure(1), 'Renderer', 'painters');
+set(0,'DefaultLineLineWidth',2)
+
+myfile = uigetfile('*.csv','MultiSelect','on');
+M1 = readtable(myfile);
+A1 = table2array(M1);
+A1(1,:) = [];
+
+Time = A1(:,1);
+input = A1(:,2);
+output = A1(:,3);
+
+filterbw = [1e6 2e6];
+filterlengthin = 300;
+filterlengthout = 10;
+
+Fs = 1/((Time(2,1))-(Time(1,1)));
+
+% reduce signal length
+n=200e-6;
+[val,idx]=min(abs(Time-n));
+
+Time = Time(1:idx);
+input = input(1:idx);
+output = output(1:idx);
+
+%low pass filter
+bpinput = bandpass(input, filterbw, Fs,'ImpulseResponse','iir','Steepness',0.8);
+
+%low pass filter
+bpoutput = bandpass(output, filterbw, Fs,'ImpulseResponse','iir','Steepness',0.8);
+
+%calc max amplitudes
+inmax = max(input);
+outmax =max(bpoutput);
+
+%create envelope of Input
+[upin,loin] = envelope(input,filterlengthin,'analytic');
+
+%find peak of envelope Input
+[pkkin,locsin] = findpeaks(upin,Fs,'MinPeakProminence',0.0001);
+peaklocin = locsin(1,1)+min(Time);
+
+%create envelope of Output
+[upout,loout] = envelope(bpoutput,filterlengthout,'peak');
+
+minpeak = max(bpoutput)-(0.1*max(bpoutput));
+
+%find peak of envelope Output
+[pkkout,locsout] = findpeaks(upout,Fs,'MinPeakHeight',minpeak);
+peaklocout = locsout+min(Time);
+
+%calc ToF
+ToF = (peaklocout(1,1)-peaklocin);
+disp(ToF)
+
+%calculate fft
+Fs = 1/((Time(2,1))-(Time(1,1)));
+St = 1/Fs;     % Sampling period
+                   
+L = length(bpoutput);   % Length of signal
+t = (0:L-1)*St;        % Time vector
+
+Y1 = fft(input);
+Y2 = fft(bpoutput);
+
+PI2 = abs(Y1/L);
+PI1 = PI2(1:L/2+1);
+PI1(2:end-1) = 2*PI1(2:end-1);
+
+PO2 = abs(Y2/L);
+PO1 = PO2(1:L/2+1);
+PO1(2:end-1) = 2*PO1(2:end-1);
+
+f = Fs*(0:(L/2))/L;
+
+%plot FFT
+figure(1)
+
+tiledlayout(2,1)
+ax1=nexttile;
+
+plot(f,PI1) 
+title('Single-Sided Amplitude Spectrum of Excitation Pulse')
+xlabel('f (Hz)')
+xlim([0 3e6])
+ylabel('|P1(f)|')
+grid on
+set(gca,'LineWidth',1.2) %for grid lines
+ax = gca;
+ax.GridColor = 'k';
+
+set(gca,'fontname','Libertinus Sans','fontsize', 20)
+ 
+ax2=nexttile;
+plot(f,PO1) 
+title('Single-Sided Amplitude Spectrum of Output')
+xlabel('f (Hz)')
+xlim([0 3e6])
+ylabel('|P1(f)|')
+grid on
+set(gca,'LineWidth',1.2) %for grid lines
+ax = gca;
+ax.GridColor = 'k';
+
+x0=10;
+y0=10;
+width=1600;
+height=1000;
+set(gcf,'position',[x0,y0,width,height])
+set(gca,'fontname','Libertinus Sans','fontsize', 20)
+set(gcf, 'Color', 'w');
+
+%plot signal propagation
+
+set(groot,{'DefaultAxesXColor','DefaultAxesYColor','DefaultAxesZColor'},{'k','k','k'})
+
+figure(2)
+hold on
+grid on
+set(gca,'LineWidth',1.2) %for grid lines
+ax = gca;
+ax.GridColor = 'k';
+%title('Simulated Signals')
+
+yyaxis left
+plot(Time*1e6,input,'LineWidth',1.5)
+plot(Time*1e6,upin,'-','LineWidth',4.0)
+%ylim([-10 10])
+%yticks(-10:2:10)
+ylabel('Amplitude (V)')
+
+xlim([0 max(Time*1e6)])
+xticks(0:10:max(Time*1e6))
+
+plot([peaklocin*1e6 peaklocin*1e6],[0 max(upin)],'b:','LineWidth',5.0)
+
+yyaxis right
+hold on
+plot(Time*1e6,bpoutput*1e3,'LineWidth',1.5)
+plot(Time*1e6,upout*1e3,'-','LineWidth',4.0)
+%ylim([-5 5])
+
+plot([peaklocout(1,1)*1e6 peaklocout(1,1)*1e6],[0 max(upout)*1e3],'b:','LineWidth',5.0)
+
+ylabel('Amplitude (mV)')
+set(gca,'fontname','Libertinus Sans','fontsize', 20)
+xlabel('Time (μs)')
+hold off
+
+x0=10;
+y0=10;
+width=1600;
+height=1000;
+set(gcf,'position',[x0,y0,width,height])
+set(gca,'fontname','Libertinus Sans','fontsize', 20)
+
+%export_fig S1fullresult.eps -painters -nocrop
+\end{lstlisting} 
+
+\subsection{2D-FFT}
+
+\begin{lstlisting}[style=Matlab-editor,basicstyle=\small]
+
+set(0,'DefaultLineLineWidth',1)
+set(groot,{'DefaultAxesXColor','DefaultAxesYColor','DefaultAxesZColor'},{'k','k','k'})
+
+close all
+myfile = uigetfile('*.csv','MultiSelect','on');
+%myfile = '1MHz_S1_fullwedge_y.csv';
+M1 = readtable(myfile,'ReadVariableNames', false);
+A1 = table2array(M1);
+A1(1,:) = [];
+
+A1 = A1(8:end,:);
+
+Fs = 1/((A1(2,1))-(A1(1,1))); %sample rate
+St = 1/Fs;     % Sampling period
+
+filterbw = [2e6 5e6]; %filter bandwidth
+%A1 = bandpass(A1, filterbw, Fs,'ImpulseResponse','iir'); % filter 
+
+A1 = A1(:,2:end); % remove time column
+
+A1 = padarray(A1,[100000 2000], 0,'post'); % zero pad
+
+Nx = size(A1,2); % Number of samples collected along first dimension
+Nt = size(A1,1); % Number of samples collected along second dimension
+dx = 0.0008;  % Distance increment (i.e., Spacing between each column)
+dt = St; % Time increment (i.e., Spacing between each row)
+Nyq_k = 1/dx; % Nyquist of data in first dimension
+Nyq_f = 1/dt; % Nyquist of data in second dimension
+dk = 1/(Nx*dx);   % Wavenumber increment
+df = 1/(Nt*dt);   % Frequency increment
+k = -Nyq_k/2:dk:Nyq_k/2-dk; % wavenumber (m)
+kr = k*(2*pi)/1000; % wavenumber (rad/mm)
+f =-Nyq_f/2:df:Nyq_f/2-df; % frequency (Hz)
+
+krhalf = kr(:,((size(kr,2))+1)/2:end); % take positive quadrant of kr
+fhalf = f(:,((size(f,2))+1)/2:end); % take positive quadrant of f
+
+fft2result = fftshift(fft2(A1))*dx*dt; %fft2
+fft2resultB =fft2result.'; %transpose
+fft2resultB = flip(fft2resultB,2); %flip
+
+z = abs(fft2resultB); %absolute value
+
+fft2data = z((size(z,1)+1)/2:end,(size(z,2)+1)/2:end); % take positive quadrant of z
+
+%fft2data = normalize(fft2data,'scale');
+znorm = rescale(fft2data,0,1); % normalise 0-1
+
+figure(1);
+
+imagesc(fhalf/1e6,krhalf,znorm);
+set(gca,'YDir','normal')
+colorbar;
+%colormap(brewermap([],'Spectral'))
+colormap(flipud(colormap('viridis_white')))
+
+xlim([0 1.6])
+ylim([0 4])
+
+ylabel('Wavenumber (rad/mm)')
+xlabel('Frequency (MHz)')
+hold on
+%grid on
+box on
+ax = gca;
+ax.LineWidth = 2;
+
+x0=0;
+y0=0;
+width=1200;
+height=1200;
+set(gcf,'position',[x0,y0,width,height])
+set(gca,'fontname','Libertinus Sans','fontsize', 25)
+set(gcf, 'Color', 'w');
+
+%export_fig 2DFFT-B1-0.8MHz-Ydisp.eps -nocrop
+
+\end{lstlisting}
+    

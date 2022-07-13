@@ -39,6 +39,7 @@
 %\usepackage[lofdepth,lotdepth]{subfig}
 \usepackage[list=true]{subcaption}
 \usepackage{titlesec}
+\usepackage{matlab-prettifier} %for matlab code in appendix
 
 \setcounter{secnumdepth}{4}
 
@@ -58,6 +59,7 @@ Kerning=On,
 ]{Libertinus Serif}
 
 \setmathfont{Libertinus Math}
+\setmonofont{Libertinus Mono}
 
 % make macro for adding units to equations
 \makeatletter
@@ -175,7 +177,7 @@ I confirm that:
 \item Parts of this work have been published as: 
   \begin{itemize}
     \item Student poster ``Temperature monitoring of nozzle guide vanes (NGVs) using ultrasonic guided waves''~\cite{Yule2020} presented at \href{https://event.asme.org/Turbo-Expo}{ASME Turbo Expo 2020.} Virtual conference 21--25 September 2020.
-    \item Journal review paper ``Surface temperature condition monitoring methods for aerospace turbomachinery: exploring the use of ultrasonic guided waves''~\cite{Yule2021} published to \href{https://iopscience.iop.org/article/10.1088/1361-6501/abda96}{IOP Measurement, Science, and Technology.}
+    \item Journal paper ``Surface temperature condition monitoring methods for aerospace turbomachinery: exploring the use of ultrasonic guided waves''~\cite{Yule2021} published to \href{https://iopscience.iop.org/article/10.1088/1361-6501/abda96}{IOP Measurement, Science, and Technology.}
     \item Conference paper ``Towards in-flight temperature monitoring for nozzle guide vanes using ultrasonic guided waves''~\cite{Yule2021a} published to \href{https://www.aiaa.org/propulsionenergy}{AIAA Propulsion Energy}, 9--11 August 2021.
     \item Journal paper ``Modelling and Validation of a Guided Acoustic Wave Temperature Monitoring System'' \cite{Yule2021b} published to \href{https://www.mdpi.com/1424-8220/21/21/7390}{MDPI Sensors Special Issue ``Sensors for Severe Environments''}.
   \end{itemize}
@@ -222,6 +224,7 @@ I confirm that:
 \input{Study 2 - Effect of cooling holes.tex}
 \input{Study 3 - Effect of TBC on wave propagation.tex}
 \input{Conclusions.tex}
+\input{Appendix.tex}
 %
 %\printbibliography
 \end{document}

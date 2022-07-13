@@ -74,15 +74,19 @@
 \contentsline {subsection}{\numberline {5.2.2}Temperature monitoring using the $A_0$ mode}{104}{subsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.2.3}Wave propagation towards the trailing edge}{104}{subsection.5.2.3}%
 \contentsline {section}{\numberline {5.3}Conclusions}{104}{section.5.3}%
-\contentsline {chapter}{\numberline {6}The effect of thermal barrier coatings on wave propagation}{106}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Fixed temperature study}{107}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Temperature dependant study}{111}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}COMSOL Simulations}{113}{subsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.1.1}Targeting the $B_1$ mode}{113}{subsubsection.6.2.1.1}%
-\contentsline {subsubsection}{\numberline {6.2.1.2}Targeting the $B_5$ mode}{119}{subsubsection.6.2.1.2}%
-\contentsline {section}{\numberline {6.3}Conclusions}{119}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Conclusions and future research}{122}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusions}{122}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Research summary}{122}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}General recommendations}{123}{subsection.7.1.2}%
-\contentsline {section}{\numberline {7.2}Future research}{124}{section.7.2}%
+\contentsline {chapter}{\numberline {6}The effect of thermal barrier coatings on wave propagation}{107}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Fixed temperature study}{108}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Temperature dependant study}{112}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}COMSOL Simulations}{114}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}Targeting the $B_1$ mode}{114}{subsubsection.6.2.1.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.2}Targeting the $B_5$ mode}{120}{subsubsection.6.2.1.2}%
+\contentsline {section}{\numberline {6.3}Conclusions}{120}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Conclusions and future research}{123}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusions}{123}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Research summary}{123}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}General recommendations}{124}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Future research}{125}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Appendices}{127}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Appendix 1 - MATLAB Code}{127}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Time of flight measurement}{127}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}2D-FFT}{130}{subsection.8.1.2}%

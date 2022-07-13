@@ -1,7 +1,7 @@
 \chapter{Introduction}
-Nozzle guide vanes (NGVs) are static components found in the turbine section of a jet engine (Figure~\ref{fig:crossngv}). Temperature monitoring of these components is important for a number of reasons: identifying potential failures before they occur, evaluating the need for maintenance, investigating ways of improving engine efficiency, and reducing fuel consumption. Online temperature monitoring of NGVs is difficult to achieve with currently available technologies (see Chapter~\ref{literev}). Acoustic based monitoring methods offer a potential alternative. The velocity of acoustic waves is affected by temperature (among other properties) and can be used for temperature monitoring if a suitable sensor system can be developed and implemented. Transducers can be used to transmit acoustic waves through a material and analyse the received signal. The transducers can be placed away from harsh conditions (e.g.\ turbine gas paths) which would otherwise limit their operation. In the case of nozzle guide vanes (NGVs) their geometry allows for the propagation of Lamb waves at ultrasound frequencies. These waves are dispersive and many distinct modes can be present, which makes their analysis difficult. Despite this problem they can provide high temperature sensitivities (mode dependant) and can travel large distances with limited attenuation. Generation of these waves is possible with a number of different transducer configurations, but the choice is limited by the harsh conditions of the turbine and by space and power constraints. Two potential solutions are the use of waveguides to further distance transducers from the harsh environment, or the use of Piezoelectric Wafer Active Sensors (PWAS) which can be used at high temperatures with careful piezoelectric material selection.
+Nozzle guide vanes (NGVs) are static components found in the turbine section of jet engines (Figure~\ref{fig:crossngv}). Temperature monitoring of these components is important for a number of reasons: identifying potential failures before they occur, evaluating the need for maintenance, investigating ways of improving engine efficiency, and reducing fuel consumption. Online temperature monitoring of NGVs is difficult to achieve with currently available technologies (see Chapter~\ref{literev}) due to the harsh conditions of the turbine, as well as space, access, and power constraints. Ultrasonic guided waves are used for a wide range of structural health monitoring applications, and can often offer a number of benefits over traditional alternatives. In many implementations of guided wave based sensors the effect of temperature on their operation and response is compensated for, however the relationship between wave velocity and temperature can be used for temperature monitoring applications. This thesis investigates a number of aspects of guided wave based temperature monitoring that need to be considered for implementing a system on a nozzle guide vane. The complex wave propagation of guided waves is investigated, and the suitability of a range of wave modes are considered for temperature monitoring. The signal processing requirements for accurately monitoring changes in time of flight are explored, taking into account the dispersive nature of guided waves. Elements such as temperature sensitivity, temperature range, and response time are considered, as well the potential error associated with such a system. The geometry of nozzle guide vanes is also considered, as features such as cooling hole arrays and thermal barrier coatings will have substantial effects on wave propagation, and therefore the ability to monitor changes in temperature. 
 
-\newpage
+\clearpage
 
 The study can be classified into five sections:
 \begin{itemize}
@@ -22,11 +22,10 @@ In the next chapter, the effect of cooling holes on wave propagation and the ext
 
 In the next chapter, the effect of thermal barrier coatings (TBCs) on wave propagation is investigated through theoretical prediction and 2D-FE simulation, considering variances in material properties, layer thicknesses, and application techniques. 
 
-The results of these studies will determine the most suitable Lamb wave mode (or group of modes) for temperature monitoring of nozzle guide vanes. 
-
-Further research is required to determine the most suitable transducer configuration for implementing an ultrasonic temperature monitoring system, as well as evaluating the effect of the complex curved geometry on wave propagation. 
+The results of these studies is summarised in the conclusion chapter, and the most suitable method of implementing a guided wave based temperature monitoring system is discussed. The range of further research necessary in this field is also discussed, which includes the effect of curved geometry on wave propagation, and determining the most suitable transducer configuration that can operate in the harsh conditions of a turbine. 
 
 \newpage
+
 \vspace*{\fill}
 
 \begin{figure}[!htbp]
@@ -41,7 +40,7 @@ Further research is required to determine the most suitable transducer configura
 
 \section{Research objectives}
 
-The overarching research objective is to determine if a Lamb wave based temperature monitoring system is suitable for use on gas turbine nozzle guide vanes. Ideally a system will be capable of monitoring temperature with a resolution, accuracy, and response time, comparable with traditional temperature monitoring systems. With this in mind there are a number of points to be considered, including sensor configuration, wave propagation, environmental impact, and a signal processing. 
+The overarching research objective is to determine if a guided wave based temperature monitoring system is suitable for use on gas turbine nozzle guide vanes. Ideally a system will be capable of monitoring temperature with a resolution, accuracy, and response time, comparable with traditional temperature monitoring systems. With this in mind there are a number of points to be considered, including sensor configuration, wave propagation, environmental impact, and a signal processing. 
 
 One key objective is to understand the effects of the physical environment on wave propagation in an NGV-like structure. This includes evaluating the effects of the propagation medium (material properties, curved surfaces, cooling holes, and surface coatings), and environmental conditions (temperature, acoustic noise, and gas flow) on wave propagation. The conditions listed previously will have differing effects on different Lamb wave modes, which leads to an additional objective of identifying the most appropriate mode (or mode group) for temperature monitoring in this environment. In order to evaluate these factors a test system will be developed that can transmit/receive Lamb waves in an NGV-like structure, which will also allow investigation into the signal processing requirements of a real system. 
 
@@ -66,12 +65,14 @@ These objectives raise the following research questions:
     \item What is the most suitable transducer configuration for exciting Lamb waves in NGVs?\label{itm:6}
 \end{enumerate}
 
+\clearpage
+
 Upon completion of the PhD the research questions listed above will have been addressed, which will lead to a conclusion on how a guided wave based temperature monitoring system can be implemented on a nozzle guide vane. The effect of the physical environment on wave propagation will be known, and the most suitable modal region of temperature monitoring will have been identified. The extent to which the wave interaction with cooling holes can be used to monitor temperature at a number of locations will be known. A measurement system that can theoretically operate at high temperatures will have been identified. The outcome of these studies can form the basis of future investigations into the design of a measurement system suitable for use at high temperatures, and the testing of a system on an installed NGV. 
 
 \section{Research output}
 \begin{itemize}
     \item Student poster ``Temperature monitoring of nozzle guide vanes (NGVs) using ultrasonic guided waves''~\cite{Yule2020} presented at \href{https://event.asme.org/Turbo-Expo}{ASME Turbo Expo 2020.} Virtual conference 21--25 September 2020.
-    \item Journal review paper ``Surface temperature condition monitoring methods for aerospace turbomachinery: exploring the use of ultrasonic guided waves''~\cite{Yule2021} published to \href{https://iopscience.iop.org/article/10.1088/1361-6501/abda96}{IOP Measurement, Science, and Technology.}
+    \item Journal paper ``Surface temperature condition monitoring methods for aerospace turbomachinery: exploring the use of ultrasonic guided waves''~\cite{Yule2021} published to \href{https://iopscience.iop.org/article/10.1088/1361-6501/abda96}{IOP Measurement, Science, and Technology.}
     \item Conference paper ``Towards in-flight temperature monitoring for nozzle guide vanes using ultrasonic guided waves''~\cite{Yule2021a} published to \href{https://www.aiaa.org/propulsionenergy}{AIAA Propulsion Energy}, 9--11 August 2021.
     \item Journal paper ``Modelling and Validation of a Guided Acoustic Wave Temperature Monitoring System'' \cite{Yule2021b} published to \href{https://www.mdpi.com/1424-8220/21/21/7390}{MDPI Sensors Special Issue ``Sensors for Severe Environments''}.
 \end{itemize}
