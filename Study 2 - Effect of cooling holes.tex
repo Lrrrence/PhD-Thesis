@@ -134,7 +134,7 @@ Two scenarios are considered in the following sections. Firstly, wave propagatio
     \caption{Energy velocity dispersion curves for Inconel 718 at 27\si{\degreeCelsius} and 1027\si{\degreeCelsius}. Purple regions indicate areas of the spectrum targeted.}\label{fig:A0S0tempshift}
 \end{figure}
 
-\cref{fig:A0S0tempshift} shows energy velocity dispersion curves for Inconel 718 at 27\si{\degreeCelsius} and 1027\si{\degreeCelsius}, where purple regions indicate areas of the spectrum targeted in this study. The average temperature sensitivity of the $A_0$ mode at 1.4 MHz is 0.68 \unit{\meter\per\second\per\degreeCelsius} $\pm$ 0.34 \unit{\meter\per\second\per\degreeCelsius}, where the sensitivity increases from 0.26 \unit{\meter\per\second\per\degreeCelsius} at 27\unit{\degreeCelsius}, rising to 1.42 \unit{\meter\per\second\per\degreeCelsius} at 1027 \unit{\degreeCelsius}. The $S_0$ mode at 1 MHz has almost double the senstivity on average, 1.24 \unit{\meter\per\second\per\degreeCelsius} $\pm$ 0.67 \unit{\meter\per\second\per\degreeCelsius}, where the sensitivity increases from 0.52 \unit{\meter\per\second\per\degreeCelsius} at 27\unit{\degreeCelsius}, rising to 2.77 \unit{\meter\per\second\per\degreeCelsius} at 1027\unit{\degreeCelsius}.
+\cref{fig:A0S0tempshift} shows energy velocity dispersion curves for Inconel 718 at 27\si{\degreeCelsius} and 1027\si{\degreeCelsius}, where purple regions indicate areas of the spectrum targeted in this study. The average temperature sensitivity of the $A_0$ mode at 1.4 MHz is 0.68 \unit{\meter\per\second\per\degreeCelsius} $\pm$ 0.34 \unit{\meter\per\second\per\degreeCelsius}, where the sensitivity increases from 0.26 \unit{\meter\per\second\per\degreeCelsius} at 27\unit{\degreeCelsius}, rising to 1.42 \unit{\meter\per\second\per\degreeCelsius} at 1027 \unit{\degreeCelsius}. The $S_0$ mode at 1 MHz has almost double the sensitivity on average, 1.24 \unit{\meter\per\second\per\degreeCelsius} $\pm$ 0.67 \unit{\meter\per\second\per\degreeCelsius}, where the sensitivity increases from 0.52 \unit{\meter\per\second\per\degreeCelsius} at 27\unit{\degreeCelsius}, rising to 2.77 \unit{\meter\per\second\per\degreeCelsius} at 1027\unit{\degreeCelsius}.
 
 \subsection{Wave propagation across the leading edge}
 
@@ -142,7 +142,9 @@ The first model to be evaluated consists of a 1 mm thick Inconel 718 plate, with
 
 Both the the $A_0$ at 1.4 MHz and $S_0$ at 1 MHz are targeted using two-sided excitation. This allows the response of the $A_0$ mode at a considerably shorter wavelength to be compared with $S_0$, as discussed previously.  
 
-List of simulations:
+\clearpage
+
+List of simulations, where the geometry of each model is shown in \cref{fig:3D_Geo}:
 
 \begin{itemize}
     \item 1x1 - Single hole. Middle row position.
@@ -159,22 +161,24 @@ Point probes are placed on the far edge of the plate, to act as receivers. This 
 
 \subsubsection{Input point reflected response}
 
-The response measured at the central excitation point for models with varying numbers of holes is shown in \cref{fig:3D_S0_Input} for $S_0$, and \cref{fig:3D_A0_Input} for $A_0$. 
+The response measured at the central excitation point for models with varying numbers of holes is shown in \cref{fig:3D_S0_Input} for $S_0$, and \cref{fig:3D_A0_Input} for $A_0$. The reflection amplitude of $A_0$ is significantly larger than that of $S_0$. There is a strong receiver edge reflection for $A_0$, but not $S_0$. The reflection amplitude of $A_0$ is substantially larger with three holes over one. There is a greatly reduced receiver edge reflection amplitude when three holes are introduced. Interactions between reflections can be seen in the response, as two distinct wave packets are present. The addition of more rows past the first two rows does not have a significant impact on the reflected signal for either mode. This suggests that the signal is not propagating further than the first few rows of holes, which limits the use of a pulse-echo system operated in an area of dense holes such as the leading edge.
 
-The reflection amplitude of $A_0$ is significantly larger than that of $S_0$. There is a strong receiver edge reflection for $A_0$, but not $S_0$. The reflection amplitude of $A_0$ is substantially larger with three holes over one. There is a greatly reduced receiver edge reflection amplitude when three holes are introduced. Interactions between reflections can be seen in the response, as two distinct wave packets are present.
-
-The addition of more rows past the first two rows does not have a significant impact on the reflected signal for either mode. This suggests that the signal is not propagating further than the first few rows of holes, which limits the use of a pulse-echo system operated in an area of dense holes such as the leading edge.
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=\textwidth]{./figures/3d geo.eps}
+    \caption{Geometry of COMSOL models with an increasing number of holes.}\label{fig:3D_Geo}
+\end{figure}
 
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth]{./figures/3D_S0_input.eps}
-    \caption{Reflected reponse of $S_0$ at 1 MHz with a varying number of holes.}\label{fig:3D_S0_Input}
+    \caption{Reflected response of $S_0$ at 1 MHz with a varying number of holes at 20\unit{\degreeCelsius}.}\label{fig:3D_S0_Input}
 \end{figure}
 
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth]{./figures/3D_A0_input.eps}
-    \caption{Reflected reponse of $A_0$ at 1.4 MHz with a varying number of holes.}\label{fig:3D_A0_Input}
+    \caption{Reflected response of $A_0$ at 1.4 MHz with a varying number of holes at 20\unit{\degreeCelsius}.}\label{fig:3D_A0_Input}
 \end{figure}
 
 \subsubsection{Output point transmitted response}
@@ -184,13 +188,13 @@ The response measured at the central receiver point for models with varying numb
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth]{./figures/3D_S0_output.eps}
-    \caption{Transmitted response of $S_0$ at 1 MHz with a varying number of holes.}\label{fig:3D_S0_Output}
+    \caption{Transmitted response of $S_0$ at 1 MHz with a varying number of holes at 20\unit{\degreeCelsius}.}\label{fig:3D_S0_Output}
 \end{figure}
 
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth]{./figures/3D_A0_output.eps}
-    \caption{Transmitted response of $A_0$ at 1.4 MHz with a varying number of holes.}\label{fig:3D_A0_Output}
+    \caption{Transmitted response of $A_0$ at 1.4 MHz with a varying number of holes at 20\unit{\degreeCelsius}.}\label{fig:3D_A0_Output}
 \end{figure}
 
 \clearpage
@@ -199,11 +203,35 @@ The response measured at the central receiver point for models with varying numb
 
 The 3x20 model used previously has been used to investigate the effect of temperature on wave velocity, through repeated simulations at temperatures ranging from 27\unit{\degreeCelsius} up to 1027\unit{\degreeCelsius}. Wave velocities calculated from time of flight measurements are compared to predicted wave velocities extracted from dispersion curves.
 
+\cref{fig:3D_A0_groupvel} shows the change in group velocity with temperature for $A_0$ at 1.4 MHz from 27\unit{\degreeCelsius} to 1027\unit{\degreeCelsius}, comparing predicted and simulated results. Results show the predicted relationship between wave velocity and temperature, however the overall result is on average $\sim$130\unit{\meter\per\second} slower than the values extracted from dispersion curves. If no holes are present the response is within 20\unit{\meter\per\second} of the prediction. The addition of holes to the material can be thought of as increasing the porosity, which reduces stiffness, and subsequently the wave velocity. This is equivalent to a reduction in Young's modulus of around 15 GPa in this case. The average temperature sensitivity from the COMSOL model is 0.57 \unit{\meter\per\second\per\degreeCelsius} $\pm$ 0.19 \unit{\meter\per\second\per\degreeCelsius}, where the sensitivity increases from 0.30 \unit{\meter\per\second\per\degreeCelsius} at 27\unit{\degreeCelsius}, rising to 0.80 \unit{\meter\per\second\per\degreeCelsius} at 1027 \unit{\degreeCelsius}. Above $\sim$500\unit{\degreeCelsius} the sensitivity of the COMSOL model does not increase at the same rate as the prediction, likely due to a combination of dispersion and reflections, which can be clearly seen in the results at 827\unit{\degreeCelsius} and 1027\unit{\degreeCelsius}.
+
+The additional reflections seen as temperature increases are likely a result of the reduction in wavelength with temperature, which becomes more comparable with the diameter of the cooling holes. The wavelength of $A_0$ reduces from 1.76 mm at 27\unit{\degreeCelsius} to 1.46 mm at 1027\unit{\degreeCelsius}. The $A_1$ mode also begins to propagate at higher temperatures, travelling with a similar energy velocity, which can be seen in 2D-FFT analysis (\cref{fig:2D-fft-A0-1027c}) of the signal propagating past the array of cooling holes at 1027\unit{\degreeCelsius}.
+
+\vfill
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./figures/A0_with_holes_result.eps}
+    \caption{Change in group velocity with temperature for $A_0$ at 1.4 MHz from 27\unit{\degreeCelsius} to 1027\unit{\degreeCelsius}. Comparison between predicted and simulated results.}\label{fig:3D_A0_groupvel}
+\end{figure}
+\vfill
+
+\clearpage
+
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth]{./figures/3D_temp_compare.eps}
     \caption{Transmitted response of $A_0$ at 1.4 MHz at 27\unit{\degreeCelsius}, 227\unit{\degreeCelsius}, 427\unit{\degreeCelsius}, 627\unit{\degreeCelsius}, 827\unit{\degreeCelsius}, and 1027\unit{\degreeCelsius}.}\label{fig:3D_temp_compare}
 \end{figure}
+
+\clearpage
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./figures/2DFFT-A0-1.4MHz-Ydisp.eps}
+    \caption{2D-FFT of wave propagation at 1027\unit{\degreeCelsius}. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.}\label{fig:2D-fft-A0-1027c}
+\end{figure}
+
+\clearpage
 
 \subsection{Wave propagation towards the trailing edge}
 
@@ -214,5 +242,7 @@ A model has been developed with a single row of cooling holes, using excitation/
 \section{Conclusions}
 
 Thermal barrier coatings were omitted from the model to both reduce mesh complexity, and to simplify excitation methods. Two-sided excitation is not an effective method of exciting only symmetric or antisymmetric modes when applied to an asymmetric composite.
+
+The number and size of holes across the propagation path have an effect on the stiffness of the material, which results in a reduction in wave velocity.   
 
 \printbibliography[title={Chapter~\thechapter~Bibliography}]

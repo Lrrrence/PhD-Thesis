@@ -2001,6 +2001,10 @@ INPUT ./figures/A0S0tempshift.eps
 INPUT ./figures/A0S0tempshift.eps
 INPUT ./figures/A0S0tempshift.eps
 INPUT ./figures/A0S0tempshift.eps
+INPUT ./figures/3d geo.eps
+INPUT ./figures/3d geo.eps
+INPUT ./figures/3d geo.eps
+INPUT ./figures/3d geo.eps
 INPUT ./figures/3D_S0_input.eps
 INPUT ./figures/3D_S0_input.eps
 INPUT ./figures/3D_S0_input.eps
@@ -2022,10 +2026,18 @@ INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT ./figures/A0_with_holes_result.eps
+INPUT ./figures/A0_with_holes_result.eps
+INPUT ./figures/A0_with_holes_result.eps
+INPUT ./figures/A0_with_holes_result.eps
 INPUT ./figures/3D_temp_compare.eps
 INPUT ./figures/3D_temp_compare.eps
 INPUT ./figures/3D_temp_compare.eps
 INPUT ./figures/3D_temp_compare.eps
+INPUT ./figures/2DFFT-A0-1.4MHz-Ydisp.eps
+INPUT ./figures/2DFFT-A0-1.4MHz-Ydisp.eps
+INPUT ./figures/2DFFT-A0-1.4MHz-Ydisp.eps
+INPUT ./figures/2DFFT-A0-1.4MHz-Ydisp.eps
 INPUT ./Study 3 - Effect of TBC on wave propagation.tex
 INPUT Study 3 - Effect of TBC on wave propagation.tex
 INPUT ./Study 3 - Effect of TBC on wave propagation.tex
