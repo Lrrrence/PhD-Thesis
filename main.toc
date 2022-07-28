@@ -19,21 +19,21 @@
 \contentsline {chapter}{\numberline {3}The potential of ultrasonic guided waves}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Ultrasonic structural health monitoring}{27}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Temperature compensation techniques}{28}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Acoustic temperature sensing}{29}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Measurement devices for the generation and acquisition of guided waves}{30}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Piezoelectric selection for high temperature sensing}{32}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Introducing Lamb waves for temperature sensing}{33}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Generation of dispersion curves}{38}{section.3.4}%
-\contentsline {section}{\numberline {3.5}The effect of temperature on wave propagation in aluminium}{39}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Thermal expansion}{39}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Poisson's ratio}{39}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Young's modulus}{39}{subsection.3.5.3}%
-\contentsline {section}{\numberline {3.6}Multi-modal Lamb waves}{40}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Excitation signal}{41}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Two-sided excitation}{43}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Conclusion}{44}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Other applications}{45}{section.3.10}%
-\contentsline {chapter}{\numberline {4}Temperature sensitivity of guided waves}{53}{chapter.4}%
+\contentsline {subsection}{\numberline {3.1.2}Measurement devices for the generation and acquisition of guided waves}{29}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Piezoelectric selection for high temperature sensing}{32}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Acoustic temperature sensing}{33}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Lamb wave propagation}{34}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Generation of dispersion curves}{36}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}The effect of temperature on wave propagation}{37}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Mode selection considerations}{39}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Excitation signal}{40}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Two-sided excitation}{43}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}Conclusions}{44}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Other applications}{45}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Temperature sensitivity of guided waves}{52}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Thermal expansion}{52}{subsection.4.0.1}%
+\contentsline {subsection}{\numberline {4.0.2}Poisson's ratio}{53}{subsection.4.0.2}%
+\contentsline {subsection}{\numberline {4.0.3}Young's modulus}{53}{subsection.4.0.3}%
 \contentsline {section}{\numberline {4.1}Prediction study (Aluminium)}{53}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Experimental study (Aluminium)}{56}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Test Method}{59}{subsection.4.2.1}%
@@ -49,44 +49,45 @@
 \contentsline {subsection}{\numberline {4.3.1}Variable angle wedge simulation}{68}{subsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.1.1}Geometry}{68}{subsubsection.4.3.1.1}%
 \contentsline {subsubsection}{\numberline {4.3.1.2}Material properties}{68}{subsubsection.4.3.1.2}%
-\contentsline {subsubsection}{\numberline {4.3.1.3}Determination of Young's modulus from wedge wave velocity}{69}{subsubsection.4.3.1.3}%
-\contentsline {subsubsection}{\numberline {4.3.1.4}Aluminium plate properties}{70}{subsubsection.4.3.1.4}%
-\contentsline {subsubsection}{\numberline {4.3.1.5}Transducer configuration}{71}{subsubsection.4.3.1.5}%
+\contentsline {subsubsection}{\numberline {4.3.1.3}Determination of Young's modulus from wedge wave velocity}{70}{subsubsection.4.3.1.3}%
+\contentsline {subsubsection}{\numberline {4.3.1.4}Aluminium plate properties}{71}{subsubsection.4.3.1.4}%
+\contentsline {subsubsection}{\numberline {4.3.1.5}Transducer configuration}{72}{subsubsection.4.3.1.5}%
 \contentsline {subsubsection}{\numberline {4.3.1.6}Physics \& mesh settings}{72}{subsubsection.4.3.1.6}%
 \contentsline {subsubsection}{\numberline {4.3.1.7}Study settings}{74}{subsubsection.4.3.1.7}%
-\contentsline {subsection}{\numberline {4.3.2}Simulation results}{74}{subsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.1}S0 Mode simulations}{76}{subsubsection.4.3.2.1}%
-\contentsline {subsubsection}{\numberline {4.3.2.2}A1 Mode simulations}{79}{subsubsection.4.3.2.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.3}S1 Mode simulations}{82}{subsubsection.4.3.2.3}%
-\contentsline {section}{\numberline {4.4}Inconel 718 simulation study}{85}{section.4.4}%
-\contentsline {chapter}{\numberline {5}The effect of cooling holes on wave propagation}{90}{chapter.5}%
-\contentsline {section}{\numberline {5.1}The effect of hole size on reflection amplitude}{92}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Determination of transmission distance}{93}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}The effect of hole size on signal amplitude}{94}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}$S_0$ Result}{94}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}$A_1$ Result}{95}{subsubsection.5.1.2.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.3}$S_1$ Result}{96}{subsubsection.5.1.2.3}%
-\contentsline {subsection}{\numberline {5.1.3}Conclusions}{96}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}3D Simulations}{97}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Wave propagation across the leading edge}{98}{subsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.1.1}Input point reflected response}{99}{subsubsection.5.2.1.1}%
-\contentsline {subsubsection}{\numberline {5.2.1.2}Output point transmitted response}{99}{subsubsection.5.2.1.2}%
-\contentsline {subsection}{\numberline {5.2.2}Temperature monitoring using the $A_0$ mode}{105}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Wave propagation towards the trailing edge}{109}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}Conclusions}{109}{section.5.3}%
-\contentsline {chapter}{\numberline {6}The effect of thermal barrier coatings on wave propagation}{111}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Fixed temperature study}{112}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Temperature dependant study}{116}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}COMSOL Simulations}{118}{subsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.1.1}Targeting the $B_1$ mode}{118}{subsubsection.6.2.1.1}%
-\contentsline {subsubsection}{\numberline {6.2.1.2}Targeting the $B_5$ mode}{124}{subsubsection.6.2.1.2}%
-\contentsline {section}{\numberline {6.3}Conclusions}{124}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Conclusions and future research}{127}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusions}{127}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Research summary}{127}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}General recommendations}{128}{subsection.7.1.2}%
-\contentsline {section}{\numberline {7.2}Future research}{129}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Appendices}{131}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Appendix 1 - MATLAB Code}{131}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Time of flight measurement}{131}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}2D-FFT}{134}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {4.3.2}Simulation results}{75}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}$S_0$ Mode simulations}{77}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}$A_1$ Mode simulations}{80}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}$S_1$ Mode simulations}{83}{subsubsection.4.3.2.3}%
+\contentsline {section}{\numberline {4.4}Inconel 718 simulation study}{86}{section.4.4}%
+\contentsline {chapter}{\numberline {5}The effect of cooling holes on wave propagation}{91}{chapter.5}%
+\contentsline {section}{\numberline {5.1}The effect of hole size on reflection amplitude}{93}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Determination of transmission distance}{94}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}The effect of hole size on signal amplitude}{95}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}$S_0$ Result}{95}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}$A_1$ Result}{96}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}$S_1$ Result}{97}{subsubsection.5.1.2.3}%
+\contentsline {subsection}{\numberline {5.1.3}Conclusions}{97}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}3D Simulations}{98}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Wave propagation across the leading edge}{99}{subsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}Input point reflected response}{100}{subsubsection.5.2.1.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.2}Output point transmitted response}{104}{subsubsection.5.2.1.2}%
+\contentsline {subsection}{\numberline {5.2.2}Temperature monitoring using the $A_0$ mode}{107}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}Hotspot detection}{110}{subsubsection.5.2.2.1}%
+\contentsline {subsection}{\numberline {5.2.3}Wave propagation towards the trailing edge}{112}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Conclusions}{112}{section.5.3}%
+\contentsline {chapter}{\numberline {6}The effect of thermal barrier coatings on wave propagation}{114}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Fixed temperature study}{115}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Temperature dependant study}{119}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}COMSOL Simulations}{121}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}Targeting the $B_1$ mode}{121}{subsubsection.6.2.1.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.2}Targeting the $B_5$ mode}{127}{subsubsection.6.2.1.2}%
+\contentsline {section}{\numberline {6.3}Conclusions}{127}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Conclusions and future research}{130}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusions}{130}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Research summary}{130}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}General recommendations}{131}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Future research}{133}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Appendices}{134}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Appendix 1 - MATLAB Code}{134}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Time of flight measurement}{134}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}2D-FFT}{137}{subsection.8.1.2}%

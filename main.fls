@@ -1772,16 +1772,14 @@ INPUT ./Ultrasonic Guided Waves.tex
 INPUT Ultrasonic Guided Waves.tex
 INPUT ./Ultrasonic Guided Waves.tex
 INPUT Ultrasonic Guided Waves.tex
-INPUT ./figures/bulkwavediagram.eps
-INPUT ./figures/bulkwavediagram.eps
-INPUT ./figures/bulkwavediagram.eps
-INPUT ./figures/bulkwavediagram.eps
-INPUT ./figures/SAW delay line.png
-INPUT ./figures/SAW delay line.png
-INPUT ./figures/SAW delay line.png
-INPUT ./figures/SAW resonator.png
-INPUT ./figures/SAW resonator.png
-INPUT ./figures/SAW resonator.png
+INPUT ./figures/SAW delay.eps
+INPUT ./figures/SAW delay.eps
+INPUT ./figures/SAW delay.eps
+INPUT ./figures/SAW delay.eps
+INPUT ./figures/SAW resonator.eps
+INPUT ./figures/SAW resonator.eps
+INPUT ./figures/SAW resonator.eps
+INPUT ./figures/SAW resonator.eps
 INPUT ./figures/wedge.eps
 INPUT ./figures/wedge.eps
 INPUT ./figures/wedge.eps
@@ -1793,94 +1791,90 @@ INPUT ./figures/hertzian.eps
 INPUT ./figures/willschwaveguide.png
 INPUT ./figures/willschwaveguide.png
 INPUT ./figures/willschwaveguide.png
+INPUT ./figures/bulkwavediagram.eps
+INPUT ./figures/bulkwavediagram.eps
+INPUT ./figures/bulkwavediagram.eps
+INPUT ./figures/bulkwavediagram.eps
 INPUT ./figures/lambwaves2.eps
 INPUT ./figures/lambwaves2.eps
 INPUT ./figures/lambwaves2.eps
 INPUT ./figures/lambwaves2.eps
-INPUT ./figures/Inc718matpropsV2.eps
-INPUT ./figures/Inc718matpropsV2.eps
-INPUT ./figures/Inc718matpropsV2.eps
-INPUT ./figures/Inc718matpropsV2.eps
-INPUT ./figures/S0_20c_vs_100c.eps
-INPUT ./figures/S0_20c_vs_100c.eps
-INPUT ./figures/S0_20c_vs_100c.eps
-INPUT ./figures/S0_20c_vs_100c.eps
+INPUT ./figures/phasedispersion.eps
+INPUT ./figures/phasedispersion.eps
+INPUT ./figures/phasedispersion.eps
+INPUT ./figures/phasedispersion.eps
+INPUT ./figures/grouptempinconel.eps
+INPUT ./figures/grouptempinconel.eps
+INPUT ./figures/grouptempinconel.eps
+INPUT ./figures/grouptempinconel.eps
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy5.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
+INPUT ./figures/grouptemp1mhztemp.eps
+INPUT ./figures/grouptemp1mhztemp.eps
+INPUT ./figures/grouptemp1mhztemp.eps
+INPUT ./figures/grouptemp1mhztemp.eps
+INPUT ./figures/multimodeedit.eps
+INPUT ./figures/multimodeedit.eps
+INPUT ./figures/multimodeedit.eps
+INPUT ./figures/multimodeedit.eps
+INPUT ./figures/excitationFFT.eps
+INPUT ./figures/excitationFFT.eps
+INPUT ./figures/excitationFFT.eps
+INPUT ./figures/excitationFFT.eps
+INPUT ./figures/excitation.eps
+INPUT ./figures/excitation.eps
+INPUT ./figures/excitation.eps
+INPUT ./figures/excitation.eps
+INPUT ./figures/two-sided_compared.eps
+INPUT ./figures/two-sided_compared.eps
+INPUT ./figures/two-sided_compared.eps
+INPUT ./figures/two-sided_compared.eps
+INPUT ./Study 1 - Temperature sensitivity of guided waves.tex
+INPUT Study 1 - Temperature sensitivity of guided waves.tex
+INPUT ./Study 1 - Temperature sensitivity of guided waves.tex
+INPUT Study 1 - Temperature sensitivity of guided waves.tex
+INPUT ./figures/grouptempshift_new.eps
+INPUT ./figures/grouptempshift_new.eps
+INPUT ./figures/grouptempshift_new.eps
+INPUT ./figures/grouptempshift_new.eps
+INPUT ./figures/1mhzshift_new.eps
+INPUT ./figures/1mhzshift_new.eps
+INPUT ./figures/1mhzshift_new.eps
+INPUT ./figures/1mhzshift_new.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/S0throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/A1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
+INPUT ./figures/S1throughthickness.eps
+INPUT ./figures/testdiagramsimple.eps
+INPUT ./figures/testdiagramsimple.eps
+INPUT ./figures/testdiagramsimple.eps
+INPUT ./figures/testdiagramsimple.eps
+INPUT ./figures/w2wdiagram.eps
+INPUT ./figures/w2wdiagram.eps
+INPUT ./figures/w2wdiagram.eps
+INPUT ./figures/w2wdiagram.eps
+INPUT ./figures/expsetup.png
+INPUT ./figures/expsetup.png
+INPUT ./figures/expsetup.png
+INPUT ./figures/s0xcorr5cyc.eps
+INPUT ./figures/s0xcorr5cyc.eps
+INPUT ./figures/s0xcorr5cyc.eps
+INPUT ./figures/s0xcorr5cyc.eps
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy9.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy5.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
-INPUT ./figures/phasedispersion.eps
-INPUT ./figures/phasedispersion.eps
-INPUT ./figures/phasedispersion.eps
-INPUT ./figures/phasedispersion.eps
-INPUT ./figures/grouptempinconel.eps
-INPUT ./figures/grouptempinconel.eps
-INPUT ./figures/grouptempinconel.eps
-INPUT ./figures/grouptempinconel.eps
-INPUT ./figures/grouptemp1mhztemp.eps
-INPUT ./figures/grouptemp1mhztemp.eps
-INPUT ./figures/grouptemp1mhztemp.eps
-INPUT ./figures/grouptemp1mhztemp.eps
-INPUT ./figures/multimodeedit.eps
-INPUT ./figures/multimodeedit.eps
-INPUT ./figures/multimodeedit.eps
-INPUT ./figures/multimodeedit.eps
-INPUT ./figures/excitationFFT.eps
-INPUT ./figures/excitationFFT.eps
-INPUT ./figures/excitationFFT.eps
-INPUT ./figures/excitationFFT.eps
-INPUT ./figures/excitation.eps
-INPUT ./figures/excitation.eps
-INPUT ./figures/excitation.eps
-INPUT ./figures/excitation.eps
-INPUT ./figures/two-sided_compared.eps
-INPUT ./figures/two-sided_compared.eps
-INPUT ./figures/two-sided_compared.eps
-INPUT ./figures/two-sided_compared.eps
-INPUT ./Study 1 - Temperature sensitivity of guided waves.tex
-INPUT Study 1 - Temperature sensitivity of guided waves.tex
-INPUT ./Study 1 - Temperature sensitivity of guided waves.tex
-INPUT Study 1 - Temperature sensitivity of guided waves.tex
-INPUT ./figures/grouptempshift_new.eps
-INPUT ./figures/grouptempshift_new.eps
-INPUT ./figures/grouptempshift_new.eps
-INPUT ./figures/grouptempshift_new.eps
-INPUT ./figures/1mhzshift_new.eps
-INPUT ./figures/1mhzshift_new.eps
-INPUT ./figures/1mhzshift_new.eps
-INPUT ./figures/1mhzshift_new.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/S0throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/A1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
-INPUT ./figures/S1throughthickness.eps
-INPUT ./figures/testdiagramsimple.eps
-INPUT ./figures/testdiagramsimple.eps
-INPUT ./figures/testdiagramsimple.eps
-INPUT ./figures/testdiagramsimple.eps
-INPUT ./figures/w2wdiagram.eps
-INPUT ./figures/w2wdiagram.eps
-INPUT ./figures/w2wdiagram.eps
-INPUT ./figures/w2wdiagram.eps
-INPUT ./figures/expsetup.png
-INPUT ./figures/expsetup.png
-INPUT ./figures/expsetup.png
-INPUT ./figures/s0xcorr5cyc.eps
-INPUT ./figures/s0xcorr5cyc.eps
-INPUT ./figures/s0xcorr5cyc.eps
-INPUT ./figures/s0xcorr5cyc.eps
 INPUT ./figures/aluplatemeasured.eps
 INPUT ./figures/aluplatemeasured.eps
 INPUT ./figures/aluplatemeasured.eps
@@ -1901,9 +1895,10 @@ INPUT ./figures/s1moderesult.eps
 INPUT ./figures/s1moderesult.eps
 INPUT ./figures/s1moderesult.eps
 INPUT ./figures/s1moderesult.eps
-INPUT ./figures/comsoldiagram.png
-INPUT ./figures/comsoldiagram.png
-INPUT ./figures/comsoldiagram.png
+INPUT ./figures/2d-comsol-geometry.eps
+INPUT ./figures/2d-comsol-geometry.eps
+INPUT ./figures/2d-comsol-geometry.eps
+INPUT ./figures/2d-comsol-geometry.eps
 INPUT ./figures/PMMAE.eps
 INPUT ./figures/PMMAE.eps
 INPUT ./figures/PMMAE.eps
@@ -1916,12 +1911,16 @@ INPUT ./figures/Alu_E.eps
 INPUT ./figures/Alu_E.eps
 INPUT ./figures/Alu_E.eps
 INPUT ./figures/Alu_E.eps
-INPUT ./figures/comsoltemp100c.png
-INPUT ./figures/comsoltemp100c.png
-INPUT ./figures/comsoltemp100c.png
-INPUT ./figures/simmodes.png
-INPUT ./figures/simmodes.png
-INPUT ./figures/simmodes.png
+INPUT ./figures/wedge_mesh.png
+INPUT ./figures/wedge_mesh.png
+INPUT ./figures/wedge_mesh.png
+INPUT ./figures/temp_gradients.png
+INPUT ./figures/temp_gradients.png
+INPUT ./figures/temp_gradients.png
+INPUT ./figures/A0S0_deformation.eps
+INPUT ./figures/A0S0_deformation.eps
+INPUT ./figures/A0S0_deformation.eps
+INPUT ./figures/A0S0_deformation.eps
 INPUT ./figures/COMSOL_S0_20c-100c.eps
 INPUT ./figures/COMSOL_S0_20c-100c.eps
 INPUT ./figures/COMSOL_S0_20c-100c.eps
@@ -1958,6 +1957,10 @@ INPUT ./figures/S1fullresultedit.eps
 INPUT ./figures/S1fullresultedit.eps
 INPUT ./figures/S1fullresultedit.eps
 INPUT ./figures/S1fullresultedit.eps
+INPUT ./figures/Inc718matpropsV2.eps
+INPUT ./figures/Inc718matpropsV2.eps
+INPUT ./figures/Inc718matpropsV2.eps
+INPUT ./figures/Inc718matpropsV2.eps
 INPUT ./figures/Inc718_S0_27c-1027c.eps
 INPUT ./figures/Inc718_S0_27c-1027c.eps
 INPUT ./figures/Inc718_S0_27c-1027c.eps
@@ -2038,6 +2041,13 @@ INPUT ./figures/2DFFT-A0-1.4MHz-Ydisp.eps
 INPUT ./figures/2DFFT-A0-1.4MHz-Ydisp.eps
 INPUT ./figures/2DFFT-A0-1.4MHz-Ydisp.eps
 INPUT ./figures/2DFFT-A0-1.4MHz-Ydisp.eps
+INPUT ./figures/tempCv2.png
+INPUT ./figures/tempCv2.png
+INPUT ./figures/tempCv2.png
+INPUT ./figures/hotspot_plot.eps
+INPUT ./figures/hotspot_plot.eps
+INPUT ./figures/hotspot_plot.eps
+INPUT ./figures/hotspot_plot.eps
 INPUT ./Study 3 - Effect of TBC on wave propagation.tex
 INPUT Study 3 - Effect of TBC on wave propagation.tex
 INPUT ./Study 3 - Effect of TBC on wave propagation.tex

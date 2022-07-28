@@ -4,21 +4,21 @@
 \contentsline {table}{\numberline {2.2}{\ignorespaces Summary of online temperature monitoring methods\relax }}{21}{table.caption.17}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Experimental measurement hardware.\relax }}{56}{table.caption.37}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces COMSOL material properties\relax }}{69}{table.caption.48}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Functions for PMMA Young's modulus.\relax }}{70}{table.caption.50}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Functions for Aluminium Young's modulus.\relax }}{71}{table.caption.53}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Boundary temperatures for wedge-to-wedge study at $S_0$.\relax }}{72}{table.caption.54}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Boundary temperatures for wedge-to-wedge study at $A_1$.\relax }}{73}{table.caption.55}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Boundary temperatures for wedge-to-wedge study at $S_1$.\relax }}{73}{table.caption.56}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Average temperature sensitivity of $S_0$, $A_1$, and $S_1$ Lamb wave modes in Aluminium from 20\si {\degreeCelsius } to 100\si {\degreeCelsius }.\relax }}{75}{table.caption.59}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces Wedge angle required for $S_0$ mode excitation in Inconel 718 from 27\si {\degreeCelsius } to 1027\si {\degreeCelsius }.\relax }}{85}{table.caption.69}%
-\contentsline {table}{\numberline {4.10}{\ignorespaces COMSOL simulation data for Inconel 718 model.\relax }}{86}{table.caption.70}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Experimental measurement hardware.\relax }}{56}{table.caption.35}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces COMSOL material properties for PMMA and aluminium.\relax }}{69}{table.caption.46}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Functions for PMMA Young's modulus.\relax }}{70}{table.caption.48}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Functions for Aluminium Young's modulus.\relax }}{71}{table.caption.51}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Boundary temperatures for wedge-to-wedge study at $S_0$.\relax }}{73}{table.caption.52}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Boundary temperatures for wedge-to-wedge study at $A_1$.\relax }}{73}{table.caption.52}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Boundary temperatures for wedge-to-wedge study at $S_1$.\relax }}{73}{table.caption.52}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Average temperature sensitivity of $S_0$, $A_1$, and $S_1$ Lamb wave modes in Aluminium from 20\si {\degreeCelsius } to 100\si {\degreeCelsius }.\relax }}{76}{table.caption.56}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Wedge angle required for $S_0$ mode excitation in Inconel 718 from 27\si {\degreeCelsius } to 1027\si {\degreeCelsius }.\relax }}{86}{table.caption.66}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces COMSOL simulation data for Inconel 718 model.\relax }}{87}{table.caption.68}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Material properties of thermal barrier coatings.\relax }}{112}{table.caption.91}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Wave velocities of thermal barrier coatings.\relax }}{112}{table.caption.92}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Temperature dependant Young's modulus of substrate and TBC materials.\relax }}{116}{table.caption.96}%
-\contentsline {table}{\numberline {6.4}{\ignorespaces Wedge angle required for $B_1$ mode excitation in Inconel 718 with TBC from 20\si {\degreeCelsius } to 1020\si {\degreeCelsius }.\relax }}{119}{table.caption.100}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Material properties of thermal barrier coatings.\relax }}{115}{table.caption.91}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Wave velocities of thermal barrier coatings.\relax }}{115}{table.caption.92}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Temperature dependant Young's modulus of substrate and TBC materials.\relax }}{119}{table.caption.96}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Wedge angle required for $B_1$ mode excitation in Inconel 718 with TBC from 20\si {\degreeCelsius } to 1020\si {\degreeCelsius }.\relax }}{122}{table.caption.100}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

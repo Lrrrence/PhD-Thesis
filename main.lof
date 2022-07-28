@@ -12,93 +12,95 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces IR camera in use on a Siemens SGT-750 gas turbine}}{18}{figure.caption.14}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces A comparison of online monitoring systems}}{20}{figure.caption.15}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Bulk acoustic waves in solids.\relax }}{29}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces A SAW delay line}}{30}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A SAW resonator}}{31}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces A typical wedge transducer.\relax }}{31}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces An example Hertzian contact transducer.\relax }}{32}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Willsch's welded waveguide}}{33}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A SAW delay line}}{29}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A SAW resonator}}{29}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A typical wedge transducer.\relax }}{30}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces An example Hertzian contact transducer.\relax }}{31}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Willsch's welded waveguide}}{31}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Bulk acoustic waves in solids.\relax }}{33}{figure.caption.24}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Particle displacement of symmetric and antisymmetric Lamb wave modes in a plate.\relax }}{34}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Temperature dependent Young's modulus, density, and calculated Poisson's ratio for Inconel 718.\relax }}{34}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The effect of temperature on the $S_0$ mode in an aluminium plate.\relax }}{35}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Lamb wave phase velocity dispersion curves for Inconel 718.\relax }}{36}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces The effect of temperature on Lamb wave propagation for Inconel 718.\relax }}{37}{figure.caption.29}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 21\si {\degreeCelsius } to 1093\si {\degreeCelsius } for Inconel 718.\relax }}{37}{figure.caption.29}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces $A_0$ \& $S_0$ group velocity change with temperature from 27\si {\degreeCelsius } to 1027\si {\degreeCelsius } at 1\nobreakspace {}MHz for Inconel 718.\relax }}{37}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces An example of multi-modal wave packets. Simulated 100 mm wave propagation of 10--cycle Hamming windowed 1\nobreakspace {}MHz sine pulse in a 4 mm thick aluminium plate.\relax }}{40}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces FFT comparison of excitation signal with varying number of cycles.\relax }}{41}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Hamming windowed 5--cycle pulse.\relax }}{42}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Comparison of two-sided excitation methods.\relax }}{43}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Lamb wave phase velocity dispersion curves for Inconel 718.\relax }}{35}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The effect of temperature on Lamb wave propagation for Inconel 718.\relax }}{38}{figure.caption.27}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 21\si {\degreeCelsius } to 1093\si {\degreeCelsius } for Inconel 718.\relax }}{38}{figure.caption.27}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces $A_0$ \& $S_0$ group velocity change with temperature from 27\si {\degreeCelsius } to 1027\si {\degreeCelsius } at 1\nobreakspace {}MHz for Inconel 718.\relax }}{38}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces An example of multi-modal wave packets. Simulated 100 mm wave propagation of 10--cycle Hamming windowed 1\nobreakspace {}MHz sine pulse in a 4 mm thick aluminium plate.\relax }}{39}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces FFT comparison of excitation signal with varying number of cycles.\relax }}{41}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Hamming windowed 5--cycle pulse.\relax }}{42}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Comparison of two-sided excitation methods.\relax }}{43}{figure.caption.31}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The effect of temperature on Lamb wave propagation for Aluminium 1050 H14.\relax }}{54}{figure.caption.35}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 20\si {\degreeCelsius } to 100\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{54}{figure.caption.35}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces $S_0$, $A_1$, and $S_1$ group velocity change with temperature from 10\si {\degreeCelsius } to 110\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{54}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Through thickness displacement profiles for Aluminium.\relax }}{55}{figure.caption.36}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces $S_0$ Displacement.\relax }}{55}{figure.caption.36}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces $A_1$ Displacement.\relax }}{55}{figure.caption.36}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces $S_1$ Displacement.\relax }}{55}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Cross-sectional diagram of total time-of-flight measurement setup.\relax }}{57}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-sectional diagram of wedge-to-wedge time-of-flight measurement setup.\relax }}{57}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Photograph of test setup.\relax }}{59}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Time of flight ($t_F$) measurement of $S_0$ mode wave propagation using cross-correlation function at room temperature.\relax }}{60}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Group velocity change with temperature for the $S_0$ mode in Aluminium 1050 H14.\relax }}{61}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Time of flight ($t_F$) measurement of $A_1$ mode wave propagation using cross-correlation function at room temperature.\relax }}{62}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Group velocity change with temperature for the $A_1$ mode in Aluminium 1050 H14.\relax }}{63}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Time of flight ($t_F$) measurement of $S_1$ mode using envelope peak method at 20\si {\degreeCelsius } (green) and 100\si {\degreeCelsius } (red).\relax }}{64}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Group velocity change with temperature for the $S_1$ mode in Aluminium 1050 H14.\relax }}{65}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces COMSOL geometry diagram\relax }}{68}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Young's modulus of PMMA.\relax }}{69}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Cross-sectional diagram of on-axis wedge-to-wedge time-of-flight measurement setup.\relax }}{70}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Young's modulus of Aluminium.\relax }}{71}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Simulated temperature gradients from stationary study at 100\si {\degreeCelsius }.\relax }}{74}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Presence of the $A_0$ \& $S_0$ modes.\relax }}{75}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Wave propagation of $S_0$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } (green) and 100\si {\degreeCelsius } (red).\relax }}{76}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces 2D-FFT of $S_0$ excitation in 1 mm thick Aluminium at 20\si {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{77}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{78}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Wave propagation of $A_1$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{79}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces 2D-FFT of $A_1$ excitation in 2.5 mm thick Aluminium at 20\si {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{80}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Velocity change with temperature for $A_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{81}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Wave propagation of $S_1$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{82}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces 2D-FFT of $S_1$ excitation in 4 mm thick Aluminium at 20\si {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{83}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Velocity change with temperature for $S_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{84}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Wave propagation of $S_0$ Lamb wave mode in Inconel 718 at 27\si {\degreeCelsius } and 1027\si {\degreeCelsius }.\relax }}{86}{figure.caption.71}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Velocity change with temperature for $S_0$ Lamb wave mode in Inconel 718.\relax }}{87}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The effect of temperature on Lamb wave propagation for Aluminium 1050 H14.\relax }}{54}{figure.caption.33}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces $A_0$, $S_0$, $A_1$, and $S_1$ group velocity dispersion curve shift with temperature from 20\si {\degreeCelsius } to 100\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{54}{figure.caption.33}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces $S_0$, $A_1$, and $S_1$ group velocity change with temperature from 10\si {\degreeCelsius } to 110\si {\degreeCelsius } for Aluminium 1050 H14.\relax }}{54}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Through thickness displacement profiles for Aluminium.\relax }}{55}{figure.caption.34}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces $S_0$ Displacement.\relax }}{55}{figure.caption.34}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces $A_1$ Displacement.\relax }}{55}{figure.caption.34}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces $S_1$ Displacement.\relax }}{55}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Cross-sectional diagram of total time-of-flight measurement setup.\relax }}{57}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-sectional diagram of wedge-to-wedge time-of-flight measurement setup.\relax }}{57}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Photograph of test setup.\relax }}{59}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Time of flight ($t_F$) measurement of $S_0$ mode wave propagation using cross-correlation function at room temperature.\relax }}{60}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Group velocity change with temperature for the $S_0$ mode in Aluminium 1050 H14.\relax }}{61}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Time of flight ($t_F$) measurement of $A_1$ mode wave propagation using cross-correlation function at room temperature.\relax }}{62}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Group velocity change with temperature for the $A_1$ mode in Aluminium 1050 H14.\relax }}{63}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Time of flight ($t_F$) measurement of $S_1$ mode using envelope peak method at 20\si {\degreeCelsius } (green) and 100\si {\degreeCelsius } (red).\relax }}{64}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Group velocity change with temperature for the $S_1$ mode in Aluminium 1050 H14.\relax }}{65}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces COMSOL geometry diagram.\relax }}{68}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces A range of sources for the Young's modulus of PMMA.\relax }}{69}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Cross-sectional diagram of on-axis wedge-to-wedge time-of-flight measurement setup.\relax }}{70}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Young's modulus of Aluminium.\relax }}{71}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Mesh skewness quality plot. Green elements represent values close to 1.\relax }}{74}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Simulated temperature gradients from stationary study at 100\si {\degreeCelsius }. Scale is given in degrees Celsius (\si {\degreeCelsius }).\relax }}{75}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Exaggerated deformation of pressure showing the presence of the $A_0$ \& $S_0$ modes.\relax }}{75}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Wave propagation of $S_0$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } (green) and 100\si {\degreeCelsius } (red).\relax }}{77}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces 2D-FFT of $S_0$ excitation in 1 mm thick Aluminium at 20\si {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{78}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Velocity change with temperature for $S_0$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{79}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Wave propagation of $A_1$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{80}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces 2D-FFT of $A_1$ excitation in 2.5 mm thick Aluminium at 20\si {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{81}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Velocity change with temperature for $A_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{82}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Wave propagation of $S_1$ Lamb wave mode in Aluminium at 20\si {\degreeCelsius } and 100\si {\degreeCelsius }.\relax }}{83}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces 2D-FFT of $S_1$ excitation in 4 mm thick Aluminium at 20\si {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{84}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Velocity change with temperature for $S_1$ Lamb wave mode in Aluminium. Comparison between predicted, experimental, and simulated results.\relax }}{85}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Temperature dependent Young's modulus, density, and calculated Poisson's ratio for Inconel 718.\relax }}{86}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Wave propagation of $S_0$ Lamb wave mode in Inconel 718 at 27\si {\degreeCelsius } and 1027\si {\degreeCelsius }.\relax }}{88}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Velocity change with temperature for $S_0$ Lamb wave mode in Inconel 718.\relax }}{88}{figure.caption.70}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Cross section of typical NGV using film cooling. Arrows indicate direction of cooling airflow.\relax }}{91}{figure.caption.74}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces High pressure nozzle guide vane from a Rolls Royce RB211-24C engine.\relax }}{91}{figure.caption.75}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagram of single hole reflection measurement setup.\relax }}{92}{figure.caption.76}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_0$ mode.\relax }}{94}{figure.caption.77}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $A_1$ mode.\relax }}{95}{figure.caption.78}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_1$ mode.\relax }}{96}{figure.caption.79}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Wavelength in relation to frequency for modes propagating in 1 mm thick Inconel 718. Solid lines represent antisymmetric modes, dashed lines represent symmetric modes.\relax }}{97}{figure.caption.80}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Energy velocity dispersion curves for Inconel 718 at 27\si {\degreeCelsius } and 1027\si {\degreeCelsius }. Purple regions indicate areas of the spectrum targeted.\relax }}{98}{figure.caption.81}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Geometry of COMSOL models with an increasing number of holes.\relax }}{100}{figure.caption.82}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Reflected response of $S_0$ at 1 MHz with a varying number of holes at 20\unit {\degreeCelsius }.\relax }}{101}{figure.caption.83}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Reflected response of $A_0$ at 1.4 MHz with a varying number of holes at 20\unit {\degreeCelsius }.\relax }}{102}{figure.caption.84}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Transmitted response of $S_0$ at 1 MHz with a varying number of holes at 20\unit {\degreeCelsius }.\relax }}{103}{figure.caption.85}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Transmitted response of $A_0$ at 1.4 MHz with a varying number of holes at 20\unit {\degreeCelsius }.\relax }}{104}{figure.caption.86}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Change in group velocity with temperature for $A_0$ at 1.4 MHz from 27\unit {\degreeCelsius } to 1027\unit {\degreeCelsius }. Comparison between predicted and simulated results.\relax }}{106}{figure.caption.87}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Transmitted response of $A_0$ at 1.4 MHz at 27\unit {\degreeCelsius }, 227\unit {\degreeCelsius }, 427\unit {\degreeCelsius }, 627\unit {\degreeCelsius }, 827\unit {\degreeCelsius }, and 1027\unit {\degreeCelsius }.\relax }}{107}{figure.caption.88}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces 2D-FFT of wave propagation at 1027\unit {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{108}{figure.caption.89}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Cross section of typical NGV using film cooling. Arrows indicate direction of cooling airflow.\relax }}{92}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces High pressure nozzle guide vane from a Rolls Royce RB211-24C engine.\relax }}{92}{figure.caption.73}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagram of single hole reflection measurement setup.\relax }}{93}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_0$ mode.\relax }}{95}{figure.caption.75}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $A_1$ mode.\relax }}{96}{figure.caption.76}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Boxplot showing change in reflection signal amplitude with hole size for the $S_1$ mode.\relax }}{97}{figure.caption.77}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Wavelength in relation to frequency for modes propagating in 1 mm thick Inconel 718. Solid lines represent antisymmetric modes, dashed lines represent symmetric modes.\relax }}{98}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Energy velocity dispersion curves for Inconel 718 at 27\si {\degreeCelsius } and 1027\si {\degreeCelsius }. Purple regions indicate areas of the spectrum targeted.\relax }}{99}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Geometry of COMSOL models with an increasing number of holes.\relax }}{101}{figure.caption.80}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Reflected response of $S_0$ at 1 MHz with a varying number of holes at 20\unit {\degreeCelsius }.\relax }}{102}{figure.caption.81}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Reflected response of $A_0$ at 1.4 MHz with a varying number of holes at 20\unit {\degreeCelsius }.\relax }}{103}{figure.caption.82}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Transmitted response of $S_0$ at 1 MHz with a varying number of holes at 20\unit {\degreeCelsius }.\relax }}{105}{figure.caption.83}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Transmitted response of $A_0$ at 1.4 MHz with a varying number of holes at 20\unit {\degreeCelsius }.\relax }}{106}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Change in group velocity with temperature for $A_0$ at 1.4 MHz from 27\unit {\degreeCelsius } to 1027\unit {\degreeCelsius }. Comparison between predicted and simulated results.\relax }}{107}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Transmitted response of $A_0$ at 1.4 MHz at 27\unit {\degreeCelsius }, 227\unit {\degreeCelsius }, 427\unit {\degreeCelsius }, 627\unit {\degreeCelsius }, 827\unit {\degreeCelsius }, and 1027\unit {\degreeCelsius }.\relax }}{108}{figure.caption.86}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces 2D-FFT of wave propagation at 1027\unit {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{109}{figure.caption.87}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Surface temperature of model with a 700\unit {\degreeCelsius } hotspot, and an ambient temperature of 500\unit {\degreeCelsius }. The temperature scale is given in degrees Celsius (\unit {\degreeCelsius }).\relax }}{110}{figure.caption.88}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Wave propagation across cooling hole structure at 500\unit {\degreeCelsius }, and 500\unit {\degreeCelsius } with a 700\unit {\degreeCelsius } hotspot.\relax }}{111}{figure.caption.89}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of energy velocity dispersion curves for Inconel 718 with and without a TBC applied. Solid lines represent the curves with TBC applied, dashed lines represent pure Inconel 718 at the same thickness.\relax }}{113}{figure.caption.93}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Dispersion curves for Inconel 718 with TBC applied (\cref {table:TBCmatprops}).\relax }}{114}{figure.caption.94}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces Energy velocity.\relax }}{114}{figure.caption.94}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces Phase velocity.\relax }}{114}{figure.caption.94}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Through thickness displacement profiles for Inconel 718 with TBC applied.\relax }}{115}{figure.caption.95}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces $B_0$ Displacement -- 1 MHz.\relax }}{115}{figure.caption.95}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces $B_1$ Displacement -- 1 MHz.\relax }}{115}{figure.caption.95}%
-\contentsline {subfigure}{\numberline {c}{\ignorespaces $B_2$ Displacement -- 2.4 MHz.\relax }}{115}{figure.caption.95}%
-\contentsline {subfigure}{\numberline {d}{\ignorespaces $B_3$ Displacement -- 2.4 MHz.\relax }}{115}{figure.caption.95}%
-\contentsline {subfigure}{\numberline {e}{\ignorespaces $B_5$ Displacement -- 4.4 MHz.\relax }}{115}{figure.caption.95}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Values of Young's modulus for TBC materials.\relax }}{117}{figure.caption.97}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagram of COMSOL geometry.\relax }}{118}{figure.caption.98}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Mesh quality of Inconel 718 with TBC applied. Green indicates skewness quality close to 1.\relax }}{119}{figure.caption.99}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces 2D-FFT of $B_1$ excitation in Inconel 718 with TBC applied at 20\si {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{120}{figure.caption.101}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Wave propagation of $B_1$ mode (0.8 MHz) at 20\si {\degreeCelsius } (green) and 1020\si {\degreeCelsius } (red) in Inconel 718 with TBC applied.\relax }}{121}{figure.caption.102}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Predicted and simulated group velocity of $B_1$ mode (0.8 MHz) from 20\si {\degreeCelsius } to 1020\si {\degreeCelsius } in Inconel 718 with TBC applied.\relax }}{122}{figure.caption.103}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Energy velocity dispersion curves for Inconel 718 with TBC applied at 20\si {\degreeCelsius } (a) and 1020\si {\degreeCelsius } (b).\relax }}{123}{figure.caption.104}%
-\contentsline {subfigure}{\numberline {a}{\ignorespaces 20\si {\degreeCelsius }\relax }}{123}{figure.caption.104}%
-\contentsline {subfigure}{\numberline {b}{\ignorespaces 1020\si {\degreeCelsius }\relax }}{123}{figure.caption.104}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of energy velocity dispersion curves for Inconel 718 with and without a TBC applied. Solid lines represent the curves with TBC applied, dashed lines represent pure Inconel 718 at the same thickness.\relax }}{116}{figure.caption.93}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Dispersion curves for Inconel 718 with TBC applied (\cref {table:TBCmatprops}).\relax }}{117}{figure.caption.94}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Energy velocity.\relax }}{117}{figure.caption.94}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Phase velocity.\relax }}{117}{figure.caption.94}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Through thickness displacement profiles for Inconel 718 with TBC applied.\relax }}{118}{figure.caption.95}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces $B_0$ Displacement -- 1 MHz.\relax }}{118}{figure.caption.95}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces $B_1$ Displacement -- 1 MHz.\relax }}{118}{figure.caption.95}%
+\contentsline {subfigure}{\numberline {c}{\ignorespaces $B_2$ Displacement -- 2.4 MHz.\relax }}{118}{figure.caption.95}%
+\contentsline {subfigure}{\numberline {d}{\ignorespaces $B_3$ Displacement -- 2.4 MHz.\relax }}{118}{figure.caption.95}%
+\contentsline {subfigure}{\numberline {e}{\ignorespaces $B_5$ Displacement -- 4.4 MHz.\relax }}{118}{figure.caption.95}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Values of Young's modulus for TBC materials.\relax }}{120}{figure.caption.97}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagram of COMSOL geometry.\relax }}{121}{figure.caption.98}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Mesh quality of Inconel 718 with TBC applied. Green indicates skewness quality close to 1.\relax }}{122}{figure.caption.99}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces 2D-FFT of $B_1$ excitation in Inconel 718 with TBC applied at 20\si {\degreeCelsius }. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.\relax }}{123}{figure.caption.101}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Wave propagation of $B_1$ mode (0.8 MHz) at 20\si {\degreeCelsius } (green) and 1020\si {\degreeCelsius } (red) in Inconel 718 with TBC applied.\relax }}{124}{figure.caption.102}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Predicted and simulated group velocity of $B_1$ mode (0.8 MHz) from 20\si {\degreeCelsius } to 1020\si {\degreeCelsius } in Inconel 718 with TBC applied.\relax }}{125}{figure.caption.103}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Energy velocity dispersion curves for Inconel 718 with TBC applied at 20\si {\degreeCelsius } (a) and 1020\si {\degreeCelsius } (b).\relax }}{126}{figure.caption.104}%
+\contentsline {subfigure}{\numberline {a}{\ignorespaces 20\si {\degreeCelsius }\relax }}{126}{figure.caption.104}%
+\contentsline {subfigure}{\numberline {b}{\ignorespaces 1020\si {\degreeCelsius }\relax }}{126}{figure.caption.104}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

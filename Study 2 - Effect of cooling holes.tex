@@ -20,7 +20,7 @@ The cooling holes found on nozzle guide vanes are often arranged in rows, aligne
     \caption{High pressure nozzle guide vane from a Rolls Royce RB211-24C engine.}\label{fig:ngv_photo}
 \end{figure}
 
-In the next section the the effect of hole size on reflection amplitude is investigated experimentally. A pulse-echo transducer configuration is introduced. This is followed by an investigation into how arrays of cooling holes will affect wave propagation, considering whether multiple reflections will allow temperature to be monitored at a number of locations. A COMSOL model is used for this study. 
+In the next section the the effect of hole size on reflection amplitude is investigated experimentally. A pulse-echo transducer configuration is introduced. This is followed by an investigation into how arrays of cooling holes will affect wave propagation, at both the leading edge of the vane and the trailing edge of the vane. A COMSOL model is used for this study.  
 
 \clearpage
 
@@ -30,7 +30,7 @@ The change in reflected signal amplitude with respect to hole size is investigat
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=.75\textwidth]{./figures/topdownholespacer.eps}
+    \includegraphics[width=.8\textwidth]{./figures/topdownholespacer.eps}
     \caption{Diagram of single hole reflection measurement setup.}\label{fig:topdownholespacer}
 \end{figure}
 
@@ -155,13 +155,13 @@ List of simulations, where the geometry of each model is shown in \cref{fig:3D_G
     \item 3x20 - Three rows of 20 holes in $x$-axis.
 \end{itemize}
 
-To reduce the complexity of the model, and therefore computation time, transducers are omitted from the model. Using a prescribed displacement node as both a transmitter and a receiver is not normally possible, as the displacement is clamped at zero after the excitation, acting like a fixed and rigid boundary. There are two methods of avoiding this. One is to use a boundary/point load to apply a force in the $z$-axis, which allows the boundary/point to freely deform after excitation. Another option is to split the study in to two steps, where the first step only covers the time required for excitation, and the second step covers the rest of the simulation. As no excitation occurs in the second step, the point/boundary is able to freely deform and act as a receiver. For this study point loads are used.
-
-Point probes are placed on the far edge of the plate, to act as receivers. This allows both pulse-echo and pitch-catch configurations to be analysed. Displacement in the $z$-axis is measured in all cases. Low reflecting boundaries are applied to every plate edge, to allow them to act like infinite boundaries. A swept mesh is used for the bulk of the plate, which dramatically reduces the number of domain elements in comparison to using a tetrahedral mesh. Ten elements per wavelength are used throughout the model. The area around each hole is meshed using tetrahedral elements (in a box measuring 2$\times$ the diameter of the hole), to ensure that the geometry of the hole is represented accurately, and the edges of the holes are meshed using 10 fixed elements. With one hole present the average element quality is 0.991. The amplitude of the input signal in all cases is 1$\times$10$^{-3}$ nm.
+To reduce the complexity of the model, and therefore computation time, transducers are omitted from the model. Using a prescribed displacement node as both a transmitter and a receiver is not normally possible, as the displacement is clamped at zero after the excitation, acting like a fixed and rigid boundary. There are two methods of avoiding this. One is to use a boundary/point load to apply a force in the $z$-axis, which allows the boundary/point to freely deform after excitation. Another option is to split the study in to two steps, where the first step only covers the time required for excitation, and the second step covers the rest of the simulation. As no excitation occurs in the second step, the point/boundary is able to freely deform and act as a receiver. For this study point loads are used. Point probes are placed on the far edge of the plate, to act as receivers. This allows both pulse-echo and pitch-catch configurations to be analysed. Displacement in the $z$-axis is measured in all cases. Low reflecting boundaries are applied to every plate edge, to allow them to act like infinite boundaries. A swept mesh is used for the bulk of the plate, which dramatically reduces the number of domain elements in comparison to using a tetrahedral mesh. Ten elements per wavelength are used throughout the model. The area around each hole is meshed using tetrahedral elements (in a box measuring 2$\times$ the diameter of the hole), to ensure that the geometry of the hole is represented accurately, and the edges of the holes are meshed using 10 fixed elements. With one hole present the average element quality is 0.991. The amplitude of the input signal in all cases is 1$\times$10$^{-3}$ nm. 2D-FFT analysis has been carried out by extending the length of the plate past the array of holes to accommodate 60 point probes spaced 0.4 mm apart. This spacing allows for a maximum wavenumber of 8 rad/mm. $Y$-axis displacement is measured for all probes.  
 
 \subsubsection{Input point reflected response}
 
 The response measured at the central excitation point for models with varying numbers of holes is shown in \cref{fig:3D_S0_Input} for $S_0$, and \cref{fig:3D_A0_Input} for $A_0$. The reflection amplitude of $A_0$ is significantly larger than that of $S_0$. There is a strong receiver edge reflection for $A_0$, but not $S_0$. The reflection amplitude of $A_0$ is substantially larger with three holes over one. There is a greatly reduced receiver edge reflection amplitude when three holes are introduced. Interactions between reflections can be seen in the response, as two distinct wave packets are present. The addition of more rows past the first two rows does not have a significant impact on the reflected signal for either mode. This suggests that the signal is not propagating further than the first few rows of holes, which limits the use of a pulse-echo system operated in an area of dense holes such as the leading edge.
+
+\clearpage
 
 \begin{figure}[p]
     \centering
@@ -181,9 +181,13 @@ The response measured at the central excitation point for models with varying nu
     \caption{Reflected response of $A_0$ at 1.4 MHz with a varying number of holes at 20\unit{\degreeCelsius}.}\label{fig:3D_A0_Input}
 \end{figure}
 
+\clearpage
+
 \subsubsection{Output point transmitted response}
 
-The response measured at the central receiver point for models with varying numbers of holes is shown in \cref{fig:3D_S0_Output} for $S_0$, and \cref{fig:3D_A0_Output} for $A_0$. The addition of more rows has a substantial impact on the propagation of $S_0$, causing a severely dispersive wave packet with no defined peak. The response of $A_0$ is substantially less affected, and the signal closely resembles the input signal, followed by a number of reflections. This suggests that $A_0$ is more applicable for use in a pitch-catch configuration. The plausibility of using the $A_0$ mode for monitoring temperature across the leading edge is investigated in the next section.
+The response measured at the central receiver point for models with varying numbers of holes is shown in \cref{fig:3D_S0_Output} for $S_0$, and \cref{fig:3D_A0_Output} for $A_0$. The addition of more rows has a substantial impact on the propagation of $S_0$, causing a severely dispersive wave packet with no defined peak as the number of holes increased past 3x2. This suggests that a time of flight based monitoring system would not be applicable in this case. The response of $A_0$ is substantially less affected, and the signal closely resembles the input signal, followed by a number of reflections. This suggests that $A_0$ at 1.4 MHz is more applicable for use in a pitch-catch configuration that $S_0$ at 1 MHz. The plausibility of using the $A_0$ mode for monitoring temperature across the leading edge is investigated in the next section.
+
+\clearpage
 
 \begin{figure}[p]
     \centering
@@ -203,9 +207,7 @@ The response measured at the central receiver point for models with varying numb
 
 The 3x20 model used previously has been used to investigate the effect of temperature on wave velocity, through repeated simulations at temperatures ranging from 27\unit{\degreeCelsius} up to 1027\unit{\degreeCelsius}. Wave velocities calculated from time of flight measurements are compared to predicted wave velocities extracted from dispersion curves.
 
-\cref{fig:3D_A0_groupvel} shows the change in group velocity with temperature for $A_0$ at 1.4 MHz from 27\unit{\degreeCelsius} to 1027\unit{\degreeCelsius}, comparing predicted and simulated results. Results show the predicted relationship between wave velocity and temperature, however the overall result is on average $\sim$130\unit{\meter\per\second} slower than the values extracted from dispersion curves. If no holes are present the response is within 20\unit{\meter\per\second} of the prediction. The addition of holes to the material can be thought of as increasing the porosity, which reduces stiffness, and subsequently the wave velocity. This is equivalent to a reduction in Young's modulus of around 15 GPa in this case. The average temperature sensitivity from the COMSOL model is 0.57 \unit{\meter\per\second\per\degreeCelsius} $\pm$ 0.19 \unit{\meter\per\second\per\degreeCelsius}, where the sensitivity increases from 0.30 \unit{\meter\per\second\per\degreeCelsius} at 27\unit{\degreeCelsius}, rising to 0.80 \unit{\meter\per\second\per\degreeCelsius} at 1027 \unit{\degreeCelsius}. Above $\sim$500\unit{\degreeCelsius} the sensitivity of the COMSOL model does not increase at the same rate as the prediction, likely due to a combination of dispersion and reflections, which can be clearly seen in the results at 827\unit{\degreeCelsius} and 1027\unit{\degreeCelsius}.
-
-The additional reflections seen as temperature increases are likely a result of the reduction in wavelength with temperature, which becomes more comparable with the diameter of the cooling holes. The wavelength of $A_0$ reduces from 1.76 mm at 27\unit{\degreeCelsius} to 1.46 mm at 1027\unit{\degreeCelsius}. The $A_1$ mode also begins to propagate at higher temperatures, travelling with a similar energy velocity, which can be seen in 2D-FFT analysis (\cref{fig:2D-fft-A0-1027c}) of the signal propagating past the array of cooling holes at 1027\unit{\degreeCelsius}.
+\cref{fig:3D_A0_groupvel} shows the change in group velocity with temperature for $A_0$ at 1.4 MHz from 27\unit{\degreeCelsius} to 1027\unit{\degreeCelsius}, comparing predicted and simulated results. Results show the predicted relationship between wave velocity and temperature, however the overall result is on average $\sim$130\unit{\meter\per\second} slower than the values extracted from dispersion curves. If no holes are present the response is within 20\unit{\meter\per\second} of the prediction. The addition of holes to the material can be thought of as increasing the porosity, which reduces stiffness, and subsequently the wave velocity. This is equivalent to a reduction in Young's modulus of around 15 GPa in this case. The average temperature sensitivity from the COMSOL model is 0.57 \unit{\meter\per\second\per\degreeCelsius} $\pm$ 0.19 \unit{\meter\per\second\per\degreeCelsius}, where the sensitivity increases from 0.30 \unit{\meter\per\second\per\degreeCelsius} at 27\unit{\degreeCelsius}, rising to 0.80 \unit{\meter\per\second\per\degreeCelsius} at 1027 \unit{\degreeCelsius}. Above $\sim$500\unit{\degreeCelsius} the sensitivity of the COMSOL model does not increase at the same rate as the prediction, likely due to a combination of dispersion and reflections, which can be clearly seen in the results at 827\unit{\degreeCelsius} and 1027\unit{\degreeCelsius}. The additional reflections seen as temperature increases are likely a result of the reduction in wavelength with temperature, which becomes more comparable with the diameter of the cooling holes. The wavelength of $A_0$ reduces from 1.76 mm at 27\unit{\degreeCelsius} to 1.46 mm at 1027\unit{\degreeCelsius}. The $A_1$ mode also begins to propagate at higher temperatures, travelling with a similar energy velocity, which can be seen in 2D-FFT analysis (\cref{fig:2D-fft-A0-1027c}) of the signal propagating past the array of cooling holes at 1027\unit{\degreeCelsius}.
 
 \vfill
 \begin{figure}[h]
@@ -227,12 +229,31 @@ The additional reflections seen as temperature increases are likely a result of 
 
 \begin{figure}[p]
     \centering
-    \includegraphics[width=0.8\textwidth]{./figures/2DFFT-A0-1.4MHz-Ydisp.eps}
+    \includegraphics[width=0.9\textwidth]{./figures/2DFFT-A0-1.4MHz-Ydisp.eps}
     \caption{2D-FFT of wave propagation at 1027\unit{\degreeCelsius}. Solid and dashed lines represent numerically calculated dispersion curves. Areas of high intensity (darker colours) show where modes have been detected.}\label{fig:2D-fft-A0-1027c}
 \end{figure}
 
 \clearpage
 
+\subsubsection{Hotspot detection}
+
+The following study considers the effect of a temperature hotspot on wave propagation. If a temperature hotspot can be detected it can indicate damage or abnormal operation, which can be as important as absolute temperature monitoring. A model with a temperature of 500\unit{\degreeCelsius} across the entire surface is compared to a model with a 700\unit{\degreeCelsius} hotspot at one of the central cooling holes. The heat transfer coefficient of the plate is adjusted until there is a large temperature gradient between the hotspot and the ambient temperature (500\unit{\degreeCelsius}). \cref{fig:hotspot_temp} shows the surface temperature of the hotspot model. The $A_0$ mode is excited at 1.4 MHz using two-sided excitation, as used previously. $y$-axis displacement is recorded using a point probe at the far edge of the plate, in-line with the central row of cooling holes. The full array of holes (3x20) from the previous study are used.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./figures/tempCv2.png}
+    \caption{Surface temperature of model with a 700\unit{\degreeCelsius} hotspot, and an ambient temperature of 500\unit{\degreeCelsius}. The temperature scale is given in degrees Celsius (\unit{\degreeCelsius}).}\label{fig:hotspot_temp}
+\end{figure}
+
+\cref{fig:hotspot_waveprop} shows the wave propagation across the cooling hole structure at 500\unit{\degreeCelsius} (green), and 500\unit{\degreeCelsius} with a 700\unit{\degreeCelsius} hotspot (red). An overall shift in time of flight with the hotspot present is indicated by the shift in the peak of the initial wave packet. This could not be distinguished from an overall temperature change of the whole plate, which suggests that a time of flight based system would not be able to identify a hotspot in this case. Past the first two wave packets there are substantial differences in the signals, however these cannot necessarily be attributed to the hotspot directly, as overall changes in temperature also cause considerable variation in this region, as seen in \cref{fig:3D_temp_compare}.
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./figures/hotspot_plot.eps}
+    \caption{Wave propagation across cooling hole structure at 500\unit{\degreeCelsius}, and 500\unit{\degreeCelsius} with a 700\unit{\degreeCelsius} hotspot.}\label{fig:hotspot_waveprop}
+\end{figure}
+
+\clearpage
 \subsection{Wave propagation towards the trailing edge}
 
 In this region of the vane, cooling holes are often arranged in single rows, with each row spaced considerably further apart than in the leading edge region. In some cases the number of holes per row is also reduced, which increases the hole spacing within each row.
@@ -241,8 +262,16 @@ A model has been developed with a single row of cooling holes, using excitation/
 
 \section{Conclusions}
 
-Thermal barrier coatings were omitted from the model to both reduce mesh complexity, and to simplify excitation methods. Two-sided excitation is not an effective method of exciting only symmetric or antisymmetric modes when applied to an asymmetric composite.
+In this chapter the effect of cooling hole structures on wave propagation has been investigated through experimentation and simulation. Experimental work has shown that reflection amplitude increases linearly with hole size for a number of modes ($S_0$, $A_1$, and $S_1$), where $S_0$ exhibits a considerably larger change in amplitude than the other modes. 
 
-The number and size of holes across the propagation path have an effect on the stiffness of the material, which results in a reduction in wave velocity.   
+The effect of cooling hole structures on wave propagation at the leading edge and trailing edge of a vane have been investigated through simulation. Both pitch-catch and pulse-echo configurations have been considered. At the leading edge of a vane where there is likely to be a dense array of cooling holes neither $A_0$ or $S_0$ produce reflections past the few rows of holes, which limits the use of a pulse-echo system in this instance. When considering the full array of holes in this study, the transmitted $S_0$ wave packet is severely distorted in comparison to $A_0$. A time of flight based temperature monitoring system would only be applicable to $A_0$ in this case, and further simulations confirm that velocity reduces in line with predictions, assuming that the reduction in stiffness from the introduction of holes is accounted for.
+
+It should be made clear that these observations may only be applicable to this particular case, as different configurations of hole sizes, shapes, and spacings are likely to produce different results. The interference patterns and complex interactions of hole reflections will differ greatly for each circumstance. With that being said, there are a number of general recommendations that can be made. 
+
+Modes with larger in-plane motion (symmetric) are likely to be greatly affected by through-thickness features such as holes. 
+
+Careful attention should be paid to the excitation frequency to ensure that at the highest temperature monitored additional modes are not excited, as this is likely to complicate signal analysis. This is particularly important if attempting to operating below the cut-off frequency of $A_1$, as both $A_0$ and $A_1$ propagate with similar group velocities, which causes interference between the modes as $A_1$ begins to propagate. If using two-sided excitation, $S_0$ can be excited at a higher frequency than $A_1$ before the next mode ($S_1$) is excited, however this region is highly dispersive.
+
+Although time of flight based monitoring may not be applicable in all cases, there is likely to be a measurable effect of temperature on wave propagation by other means. 
 
 \printbibliography[title={Chapter~\thechapter~Bibliography}]
